@@ -1,0 +1,21 @@
+include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  exclude: [build/**]
+  errors:
+    invalid_use_of_protected_member: error
+    invalid_override_of_non_virtual_member: error
+    annotate_overrides: error
+
+linter:
+  rules:
+    curly_braces_in_flow_control_structures: true
+    prefer_final_fields: true
+    unawaited_futures: true
+    prefer_final_locals: true
+    prefer_final_in_for_each: true
+    always_declare_return_types: true
+    exhaustive_cases: true
+    slash_for_doc_comments: true
+    prefer_conditional_assignment: true
+    avoid_relative_lib_imports: true

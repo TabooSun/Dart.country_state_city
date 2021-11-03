@@ -12,7 +12,7 @@ class City {
 
   final String longitude;
 
-  City({
+  const City({
     required this.id,
     required this.name,
     required this.latitude,

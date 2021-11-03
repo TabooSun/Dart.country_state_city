@@ -14,7 +14,7 @@ class State {
 
   final List<City> cities;
 
-  State({
+  const State({
     required this.id,
     required this.name,
     required this.stateCode,

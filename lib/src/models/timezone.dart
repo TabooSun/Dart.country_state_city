@@ -14,7 +14,7 @@ class Timezone {
 
   final String tzName;
 
-  Timezone({
+  const Timezone({
     required this.zoneName,
     required this.gmtOffset,
     required this.gmtOffsetName,

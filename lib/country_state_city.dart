@@ -5,7 +5,6 @@ import 'dart:convert';
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:country_state_city/src/models/country.dart';
 import 'package:country_state_city/src/models/state.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 export 'src/models/city.dart';
 export 'src/models/country.dart';
@@ -21,7 +20,7 @@ class CountryStateCity {
 
   CountryStateCity._();
 
-  Future<List<Country>> initAsync() async {
+  /*Future<List<Country>> initAsync() async {
     final resource = await rootBundle.loadString(
         'packages/country_state_city/lib/assets/countries_states_cities.json');
 
@@ -30,7 +29,7 @@ class CountryStateCity {
         .toList(growable: false);
 
     return countries!;
-  }
+  }*/
 
   List<State> getStatesByCountryIso2(String iso2) {
     if (countries == null) {

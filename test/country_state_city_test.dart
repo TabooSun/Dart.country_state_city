@@ -1,27 +1,23 @@
 import 'package:country_state_city/country_state_city.dart';
 import 'package:country_state_city/src/models/country.dart';
 import 'package:country_state_city/src/models/state.dart';
-import 'package:flutter_test/flutter_test.dart';
+import 'package:test/test.dart';
 
 void main() {
-  TestWidgetsFlutterBinding.ensureInitialized();
-  test('CountryStateCity.initAsync can execute', () async {
+  test('countries should be type List<Country>', () async {
     final countryStateCity = CountryStateCity.instance;
-    final countries = await countryStateCity.initAsync();
+    final countries = countryStateCity.countries;
 
     expect(countries, TypeMatcher<List<Country>>());
   });
 
-  group('CountryStateCity is initialized', () {
+  group('CountryStateCity query', () {
     final countryStateCity = CountryStateCity.instance;
-    setUpAll(() async {
-      await countryStateCity.initAsync();
-    });
 
     test('The countries property has values', () {
-      expect(countryStateCity.countries, const TypeMatcher<List<Country>>());
       expect(countryStateCity.countries, isNotNull);
       expect(countryStateCity.countries, isNotEmpty);
+      expect(countryStateCity.countries, const TypeMatcher<List<Country>>());
     });
 
     test(
@@ -39,23 +35,18 @@ void main() {
 
       _expectStates(states);
     });
-  });
 
-  group('CountryStateCity is not initialized', () {
-    final countryStateCity = CountryStateCity.instance;
+    test('findCountryByIso2 should return country when iso2 is valid', () {
+      final country = countryStateCity.tryFindCountryByIso2('MY');
 
-    test('The countries property has no value', () {
-      expect(
-        countryStateCity.countries,
-        isNull,
-      );
+      expect(country, isNotNull);
+      expect(country, const TypeMatcher<Country>());
     });
 
-    test('getStatesByCountryIso2 throwsStateError', () {
-      expect(
-        () => countryStateCity.getStatesByCountryIso2('MY'),
-        throwsStateError,
-      );
+    test('findCountryByIso2 should return null when iso2 is invalid', () {
+      final country = countryStateCity.tryFindCountryByIso2('');
+
+      expect(country, isNull);
     });
   });
 }
@@ -64,6 +55,6 @@ void main() {
 ///
 /// Does not check if it is empty because a country might have no [State].
 void _expectStates(List<State> states) {
-  expect(states, TypeMatcher<List<State>>());
   expect(states, isNotNull);
+  expect(states, const TypeMatcher<List<State>>());
 }

@@ -40,7 +40,7 @@ class Country {
 
   final List<State> states;
 
-  Country({
+  const Country({
     required this.id,
     required this.name,
     required this.iso3,

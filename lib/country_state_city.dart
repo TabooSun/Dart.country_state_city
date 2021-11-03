@@ -2,13 +2,14 @@ library country_state_city;
 
 import 'dart:convert';
 
+import 'package:collection/collection.dart' show IterableExtension;
 import 'package:country_state_city/src/models/country.dart';
 import 'package:country_state_city/src/models/state.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
+export 'src/models/city.dart';
 export 'src/models/country.dart';
 export 'src/models/state.dart';
-export 'src/models/city.dart';
 export 'src/models/timezone.dart';
 
 /// The data is ported from
@@ -37,8 +38,16 @@ class CountryStateCity {
           '''CountryStateCity is not initialized. Call CountryStateCity.instance.initAsync to initialize.''');
     }
 
+    return findCountryByIso2(iso2).states;
+  }
+
+  Country findCountryByIso2(String iso2) {
     return countries!
-        .firstWhere((element) => element.iso2 == iso2.toUpperCase())
-        .states;
+        .firstWhere((element) => element.iso2 == iso2.toUpperCase());
+  }
+
+  Country? tryFindCountryByIso2(String iso2) {
+    return countries!
+        .firstWhereOrNull((element) => element.iso2 == iso2.toUpperCase());
   }
 }

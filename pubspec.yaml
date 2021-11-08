@@ -1,6 +1,6 @@
 name: country_state_city
 description: A dart plugin that deals with coutries, cities and states
-version: 0.0.3
+version: 0.1.0
 homepage:
 
 environment:

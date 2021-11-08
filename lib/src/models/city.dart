@@ -4,12 +4,16 @@ part 'city.g.dart';
 
 @JsonSerializable()
 class City {
+  /// An Id that has no real world meaning.
   final int id;
 
+  /// The name of this city.
   final String name;
 
+  /// The latitude of this city.
   final String latitude;
 
+  /// The longitude of this city.
   final String longitude;
 
   const City({

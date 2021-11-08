@@ -3131,11 +3131,6 @@ const mex = Country(
             latitude: '16.43714000',
             longitude: '-92.58522000'),
         City(
-            id: 72329,
-            name: 'Nicolás Ruíz',
-            latitude: '16.44833000',
-            longitude: '-92.60361000'),
-        City(
             id: 72359,
             name: 'Nueva América',
             latitude: '15.92281000',
@@ -5509,11 +5504,6 @@ const mex = Country(
             name: 'Villa Union',
             latitude: '28.21667000',
             longitude: '-100.71667000'),
-        City(
-            id: 76051,
-            name: 'Villa Unión',
-            latitude: '28.22228000',
-            longitude: '-100.72624000'),
         City(
             id: 76092,
             name: 'Virginias',
@@ -10758,11 +10748,6 @@ const mex = Country(
             latitude: '17.47066000',
             longitude: '-98.60675000'),
         City(
-            id: 76121,
-            name: 'Xalpatláhuac',
-            latitude: '17.38885000',
-            longitude: '-98.56011000'),
-        City(
             id: 76124,
             name: 'Xaltianguis',
             latitude: '17.09834000',
@@ -11629,11 +11614,6 @@ const mex = Country(
             name: 'Jaltocan',
             latitude: '21.13284000',
             longitude: '-98.53898000'),
-        City(
-            id: 70992,
-            name: 'Jaltocán',
-            latitude: '21.15063000',
-            longitude: '-98.52451000'),
         City(
             id: 71014,
             name: 'Javier Rojo Gómez',
@@ -18024,11 +18004,6 @@ const mex = Country(
             latitude: '19.97528000',
             longitude: '-99.95472000'),
         City(
-            id: 69728,
-            name: 'Doxtejé Centro',
-            latitude: '19.97035000',
-            longitude: '-99.95324000'),
-        City(
             id: 69752,
             name: 'Ecatepec de Morelos',
             latitude: '19.60378000',
@@ -21739,11 +21714,6 @@ const mex = Country(
             latitude: '19.40000000',
             longitude: '-99.53300000'),
         City(
-            id: 76195,
-            name: 'Xonacatlán',
-            latitude: '19.40513000',
-            longitude: '-99.52807000'),
-        City(
             id: 76257,
             name: 'Zacamulpa',
             latitude: '19.35565000',
@@ -21835,11 +21805,6 @@ const mex = Country(
             name: 'Benito Juarez',
             latitude: '19.39840000',
             longitude: '-99.15766000'),
-        City(
-            id: 68597,
-            name: 'Benito Juárez',
-            latitude: '19.37270000',
-            longitude: '-99.15640000'),
         City(
             id: 69255,
             name: 'Col. Bosques de las Lomas',
@@ -23678,11 +23643,6 @@ const mex = Country(
             latitude: '19.13710000',
             longitude: '-102.43929000'),
         City(
-            id: 73971,
-            name: 'San Juan de los Plátanos',
-            latitude: '19.13563000',
-            longitude: '-102.43848000'),
-        City(
             id: 73964,
             name: 'San Juan de Viña',
             latitude: '19.34427000',
@@ -24078,11 +24038,6 @@ const mex = Country(
             latitude: '19.60593000',
             longitude: '-101.54798000'),
         City(
-            id: 75846,
-            name: 'Tzintzuntzán',
-            latitude: '19.62847000',
-            longitude: '-101.57831000'),
-        City(
             id: 75847,
             name: 'Tziritzícuaro',
             latitude: '19.95609000',
@@ -24177,11 +24132,6 @@ const mex = Country(
             name: 'Zacapu',
             latitude: '19.82189000',
             longitude: '-101.78928000'),
-        City(
-            id: 76268,
-            name: 'Zacapú',
-            latitude: '19.81396000',
-            longitude: '-101.79157000'),
         City(
             id: 76294,
             name: 'Zamora',
@@ -26509,11 +26459,6 @@ const mex = Country(
             latitude: '25.65716000',
             longitude: '-100.40268000'),
         City(
-            id: 74336,
-            name: 'San Pedro Garza García',
-            latitude: '25.66040000',
-            longitude: '-100.40651000'),
-        City(
             id: 74427,
             name: 'San Rafael',
             latitude: '25.03060000',
@@ -27611,11 +27556,6 @@ const mex = Country(
             latitude: '17.00389000',
             longitude: '-96.70806000'),
         City(
-            id: 73259,
-            name: 'San Agustín de las Juntas',
-            latitude: '17.01211000',
-            longitude: '-96.71180000'),
-        City(
             id: 73247,
             name: 'San Agustín Etla',
             latitude: '17.18654000',
@@ -27920,11 +27860,6 @@ const mex = Country(
             name: 'San Francisco Ixhuatan',
             latitude: '16.35109000',
             longitude: '-94.48402000'),
-        City(
-            id: 73568,
-            name: 'San Francisco Ixhuatán',
-            latitude: '16.31382000',
-            longitude: '-94.47711000'),
         City(
             id: 73570,
             name: 'San Francisco Jaltepetongo',
@@ -28301,11 +28236,6 @@ const mex = Country(
             latitude: '17.43000000',
             longitude: '-96.28355000'),
         City(
-            id: 73953,
-            name: 'San Juan Yaeé',
-            latitude: '17.43083000',
-            longitude: '-96.28880000'),
-        City(
             id: 73954,
             name: 'San Juan Yatzona',
             latitude: '17.40184000',
@@ -28675,11 +28605,6 @@ const mex = Country(
             name: 'San Pedro Martir',
             latitude: '16.74317000',
             longitude: '-96.71118000'),
-        City(
-            id: 74358,
-            name: 'San Pedro Mártir',
-            latitude: '16.74458000',
-            longitude: '-96.71340000'),
         City(
             id: 74359,
             name: 'San Pedro Mártir Quiechapa',
@@ -29495,11 +29420,6 @@ const mex = Country(
             name: 'Santiago Nundiche',
             latitude: '17.34392000',
             longitude: '-97.66988000'),
-        City(
-            id: 74930,
-            name: 'Santiago Nundíche',
-            latitude: '17.33136000',
-            longitude: '-97.67392000'),
         City(
             id: 74931,
             name: 'Santiago Nuyoó',
@@ -31078,11 +30998,6 @@ const mex = Country(
             latitude: '19.91856000',
             longitude: '-97.41023000'),
         City(
-            id: 70777,
-            name: 'Hueyapán',
-            latitude: '19.88276000',
-            longitude: '-97.44537000'),
-        City(
             id: 70780,
             name: 'Hueyotlipan',
             latitude: '18.89148000',
@@ -31622,11 +31537,6 @@ const mex = Country(
             name: 'Nopalucan',
             latitude: '19.20114000',
             longitude: '-97.82391000'),
-        City(
-            id: 72350,
-            name: 'Nopalucán',
-            latitude: '19.21840000',
-            longitude: '-97.82272000'),
         City(
             id: 72397,
             name: 'Nuevo México',
@@ -32577,11 +32487,6 @@ const mex = Country(
             name: 'San Nicolas Buenos Aires',
             latitude: '19.16488000',
             longitude: '-97.55131000'),
-        City(
-            id: 74254,
-            name: 'San Nicolás Buenos Aires',
-            latitude: '19.22104000',
-            longitude: '-97.52160000'),
         City(
             id: 74274,
             name: 'San Nicolás de los Ranchos',
@@ -33722,11 +33627,6 @@ const mex = Country(
             name: 'Xochitlan Todos Santos',
             latitude: '18.70395000',
             longitude: '-97.77609000'),
-        City(
-            id: 76179,
-            name: 'Xochitlán Todos Santos',
-            latitude: '18.68080000',
-            longitude: '-97.77750000'),
         City(
             id: 76176,
             name: 'Xochitlaxco (San Baltazar)',
@@ -36125,11 +36025,6 @@ const mex = Country(
             name: 'Adolfo Ruiz Cortines',
             latitude: '25.70275000',
             longitude: '-108.71975000'),
-        City(
-            id: 68096,
-            name: 'Adolfo Ruíz Cortínes',
-            latitude: '25.75000000',
-            longitude: '-108.75000000'),
         City(
             id: 68109,
             name: 'Agua Caliente Grande (De Gastélum)',
@@ -40596,11 +40491,6 @@ const mex = Country(
             latitude: '18.60798000',
             longitude: '-95.39724000'),
         City(
-            id: 76406,
-            name: 'Ángel R. Cabada',
-            latitude: '18.59601000',
-            longitude: '-95.44580000'),
-        City(
             id: 68281,
             name: 'Antón Lizardo',
             latitude: '19.05962000',
@@ -41910,11 +41800,6 @@ const mex = Country(
             name: 'Ixhuapan',
             latitude: '18.01333000',
             longitude: '-94.87667000'),
-        City(
-            id: 70911,
-            name: 'Ixhuapán',
-            latitude: '18.17612000',
-            longitude: '-94.79886000'),
         City(
             id: 70913,
             name: 'Ixhuatlán de Madero',
@@ -43791,11 +43676,6 @@ const mex = Country(
             latitude: '20.71449000',
             longitude: '-97.53335000'),
         City(
-            id: 75561,
-            name: 'Tihuatlán',
-            latitude: '20.65485000',
-            longitude: '-97.52598000'),
-        City(
             id: 75567,
             name: 'Tilapan',
             latitude: '18.34917000',
@@ -44268,11 +44148,6 @@ const mex = Country(
             latitude: '20.64745000',
             longitude: '-89.68094000'),
         City(
-            id: 68011,
-            name: 'Abalá',
-            latitude: '20.66493000',
-            longitude: '-89.65672000'),
-        City(
             id: 68035,
             name: 'Acanceh',
             latitude: '20.81269000',
@@ -44298,11 +44173,6 @@ const mex = Country(
             latitude: '21.00755000',
             longitude: '-89.17913000'),
         City(
-            id: 68629,
-            name: 'Bokobá',
-            latitude: '21.00641000',
-            longitude: '-89.17641000'),
-        City(
             id: 68631,
             name: 'Bolón',
             latitude: '20.85010000',
@@ -44317,11 +44187,6 @@ const mex = Country(
             name: 'Cacalchen',
             latitude: '20.98358000',
             longitude: '-89.22686000'),
-        City(
-            id: 68708,
-            name: 'Cacalchén',
-            latitude: '20.98804000',
-            longitude: '-89.23802000'),
         City(
             id: 68729,
             name: 'Calcehtoc',
@@ -44378,11 +44243,6 @@ const mex = Country(
             latitude: '20.17222000',
             longitude: '-89.01654000'),
         City(
-            id: 68951,
-            name: 'Chacsinkín',
-            latitude: '20.18176000',
-            longitude: '-89.00786000'),
-        City(
             id: 68972,
             name: 'Chan Cenote',
             latitude: '20.99142000',
@@ -44418,11 +44278,6 @@ const mex = Country(
             latitude: '20.63176000',
             longitude: '-88.21689000'),
         City(
-            id: 69031,
-            name: 'Chichimilá',
-            latitude: '20.46641000',
-            longitude: '-88.18044000'),
-        City(
             id: 69049,
             name: 'Chicxulub Pueblo',
             latitude: '21.14527000',
@@ -44442,11 +44297,6 @@ const mex = Country(
             name: 'Chochola',
             latitude: '20.75087000',
             longitude: '-89.83041000'),
-        City(
-            id: 69099,
-            name: 'Chocholá',
-            latitude: '20.75112000',
-            longitude: '-89.84547000'),
         City(
             id: 69101,
             name: 'Cholul',
@@ -44503,20 +44353,10 @@ const mex = Country(
             latitude: '20.74202000',
             longitude: '-89.31732000'),
         City(
-            id: 69656,
-            name: 'Cuzamá',
-            latitude: '20.72176000',
-            longitude: '-89.33463000'),
-        City(
             id: 69733,
             name: 'Dzan',
             latitude: '20.38888000',
             longitude: '-89.46855000'),
-        City(
-            id: 69750,
-            name: 'Dzán',
-            latitude: '20.39036000',
-            longitude: '-89.46185000'),
         City(
             id: 69734,
             name: 'Dzemul',
@@ -44532,11 +44372,6 @@ const mex = Country(
             name: 'Dzidzantun',
             latitude: '21.24898000',
             longitude: '-89.04205000'),
-        City(
-            id: 69738,
-            name: 'Dzidzantún',
-            latitude: '21.28932000',
-            longitude: '-89.02844000'),
         City(
             id: 69740,
             name: 'Dzilam de Bravo',
@@ -44618,20 +44453,10 @@ const mex = Country(
             latitude: '20.81620000',
             longitude: '-89.24626000'),
         City(
-            id: 70700,
-            name: 'Hocabá',
-            latitude: '20.80841000',
-            longitude: '-89.23790000'),
-        City(
             id: 70701,
             name: 'Hoctun',
             latitude: '20.86513000',
             longitude: '-89.20125000'),
-        City(
-            id: 70702,
-            name: 'Hoctún',
-            latitude: '20.87271000',
-            longitude: '-89.19647000'),
         City(
             id: 70703,
             name: 'Holca',
@@ -44643,20 +44468,10 @@ const mex = Country(
             latitude: '20.73918000',
             longitude: '-89.28490000'),
         City(
-            id: 70705,
-            name: 'Homún',
-            latitude: '20.69058000',
-            longitude: '-89.24464000'),
-        City(
             id: 70786,
             name: 'Huhi',
             latitude: '20.72603000',
             longitude: '-89.16072000'),
-        City(
-            id: 70787,
-            name: 'Huhí',
-            latitude: '20.70776000',
-            longitude: '-89.15234000'),
         City(
             id: 70823,
             name: 'Hunucmá',
@@ -44743,11 +44558,6 @@ const mex = Country(
             latitude: '20.64906000',
             longitude: '-89.89989000'),
         City(
-            id: 71167,
-            name: 'Kopomá',
-            latitude: '20.64258000',
-            longitude: '-89.90765000'),
-        City(
             id: 71590,
             name: 'Las Coloradas',
             latitude: '21.60767000',
@@ -44783,11 +44593,6 @@ const mex = Country(
             latitude: '20.38774000',
             longitude: '-89.39189000'),
         City(
-            id: 71975,
-            name: 'Maní',
-            latitude: '20.37097000',
-            longitude: '-89.37760000'),
-        City(
             id: 72026,
             name: 'Maxcanú',
             latitude: '20.58456000',
@@ -44798,11 +44603,6 @@ const mex = Country(
             latitude: '20.46839000',
             longitude: '-89.21395000'),
         City(
-            id: 72033,
-            name: 'Mayapán',
-            latitude: '20.49482000',
-            longitude: '-89.19105000'),
-        City(
             id: 72261,
             name: 'Mérida',
             latitude: '20.97537000',
@@ -44812,11 +44612,6 @@ const mex = Country(
             name: 'Mococha',
             latitude: '21.10621000',
             longitude: '-89.45217000'),
-        City(
-            id: 72175,
-            name: 'Mocochá',
-            latitude: '21.11100000',
-            longitude: '-89.45403000'),
         City(
             id: 72182,
             name: 'Molas',
@@ -44852,11 +44647,6 @@ const mex = Country(
             name: 'Opichen',
             latitude: '20.55169000',
             longitude: '-89.85714000'),
-        City(
-            id: 72512,
-            name: 'Opichén',
-            latitude: '20.55769000',
-            longitude: '-89.87240000'),
         City(
             id: 72547,
             name: 'Oxcum',
@@ -45003,11 +44793,6 @@ const mex = Country(
             latitude: '21.22591000',
             longitude: '-89.18495000'),
         City(
-            id: 75093,
-            name: 'Sinanché',
-            latitude: '21.27623000',
-            longitude: '-89.20096000'),
-        City(
             id: 75097,
             name: 'Sisal',
             latitude: '21.16700000',
@@ -45063,11 +44848,6 @@ const mex = Country(
             latitude: '20.20508000',
             longitude: '-88.94555000'),
         City(
-            id: 75170,
-            name: 'Tahdziú',
-            latitude: '20.24217000',
-            longitude: '-88.90977000'),
-        City(
             id: 75171,
             name: 'Tahmek',
             latitude: '20.87360000',
@@ -45097,11 +44877,6 @@ const mex = Country(
             name: 'Tekanto',
             latitude: '21.00968000',
             longitude: '-89.10723000'),
-        City(
-            id: 75310,
-            name: 'Tekantó',
-            latitude: '21.00585000',
-            longitude: '-89.10552000'),
         City(
             id: 75311,
             name: 'Tekax',
@@ -45153,20 +44928,10 @@ const mex = Country(
             latitude: '20.80393000',
             longitude: '-88.20155000'),
         City(
-            id: 75341,
-            name: 'Temozón',
-            latitude: '20.86318000',
-            longitude: '-88.12128000'),
-        City(
             id: 75389,
             name: 'Tepakan',
             latitude: '21.04882000',
             longitude: '-89.03873000'),
-        City(
-            id: 75391,
-            name: 'Tepakán',
-            latitude: '21.06185000',
-            longitude: '-89.02240000'),
         City(
             id: 75472,
             name: 'Tesoco',
@@ -45258,11 +45023,6 @@ const mex = Country(
             latitude: '20.97739000',
             longitude: '-89.44203000'),
         City(
-            id: 75592,
-            name: 'Tixpéhual',
-            latitude: '20.96761000',
-            longitude: '-89.46744000'),
-        City(
             id: 75596,
             name: 'Tizimín',
             latitude: '21.14268000',
@@ -45272,11 +45032,6 @@ const mex = Country(
             name: 'Tunkas',
             latitude: '20.90294000',
             longitude: '-88.75171000'),
-        City(
-            id: 75811,
-            name: 'Tunkás',
-            latitude: '20.89032000',
-            longitude: '-88.75337000'),
         City(
             id: 75854,
             name: 'Tzucacab',
@@ -45307,11 +45062,6 @@ const mex = Country(
             name: 'Uman',
             latitude: '20.88213000',
             longitude: '-89.74649000'),
-        City(
-            id: 75867,
-            name: 'Umán',
-            latitude: '20.86575000',
-            longitude: '-89.76093000'),
         City(
             id: 75912,
             name: 'Valladolid',
@@ -45387,11 +45137,6 @@ const mex = Country(
             name: 'Yobain',
             latitude: '21.23435000',
             longitude: '-89.11488000'),
-        City(
-            id: 76240,
-            name: 'Yobaín',
-            latitude: '21.28304000',
-            longitude: '-89.11893000'),
         City(
             id: 76246,
             name: 'Yotholin',

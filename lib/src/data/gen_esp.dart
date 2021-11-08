@@ -14418,11 +14418,6 @@ const esp = Country(
             latitude: '41.41803000',
             longitude: '2.18596000'),
         City(
-            id: 35792,
-            name: 'Navàs',
-            latitude: '41.89998000',
-            longitude: '1.87763000'),
-        City(
             id: 35786,
             name: 'Navata',
             latitude: '42.22353000',

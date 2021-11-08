@@ -2926,6 +2926,11 @@ const ind = Country(
             latitude: '23.16453000',
             longitude: '72.58107000'),
         City(
+            id: 147572,
+            name: 'Agol',
+            latitude: '23.15000000',
+            longitude: '72.26666667'),
+        City(
             id: 57606,
             name: 'Ahmedabad',
             latitude: '23.02579000',
@@ -2936,10 +2941,20 @@ const ind = Country(
             latitude: '20.75718000',
             longitude: '73.68626000'),
         City(
+            id: 147573,
+            name: 'Akrund',
+            latitude: '23.28333333',
+            longitude: '73.11666667'),
+        City(
             id: 57683,
             name: 'Amod',
             latitude: '21.99317000',
             longitude: '72.87047000'),
+        City(
+            id: 147574,
+            name: 'Amod,',
+            latitude: '21.99100000',
+            longitude: '72.87100000'),
         City(
             id: 57685,
             name: 'Amreli',
@@ -2981,10 +2996,40 @@ const ind = Country(
             latitude: '21.48719000',
             longitude: '70.95516000'),
         City(
+            id: 147575,
+            name: 'Bakharla',
+            latitude: '21.73151700',
+            longitude: '69.63529600'),
+        City(
+            id: 147576,
+            name: 'Balagam',
+            latitude: '21.36666667',
+            longitude: '70.10000000'),
+        City(
+            id: 147577,
+            name: 'Balasinor',
+            latitude: '22.95589100',
+            longitude: '73.33649900'),
+        City(
+            id: 147578,
+            name: 'Balisana',
+            latitude: '23.81643600',
+            longitude: '72.25753600'),
+        City(
+            id: 147579,
+            name: 'Bamanbore',
+            latitude: '22.41666667',
+            longitude: '71.01666667'),
+        City(
             id: 57858,
             name: 'Banas Kantha',
             latitude: '24.25000000',
             longitude: '72.50000000'),
+        City(
+            id: 147580,
+            name: 'Bandia',
+            latitude: '23.39604000',
+            longitude: '69.01155000'),
         City(
             id: 58135,
             name: 'Bantva',
@@ -3006,6 +3051,16 @@ const ind = Country(
             latitude: '23.29858000',
             longitude: '70.34279000'),
         City(
+            id: 147581,
+            name: 'Bhadran',
+            latitude: '22.35930000',
+            longitude: '72.90050000'),
+        City(
+            id: 147582,
+            name: 'Bhandu',
+            latitude: '23.70000000',
+            longitude: '72.36666667'),
+        City(
             id: 58014,
             name: 'Bhanvad',
             latitude: '21.93053000',
@@ -3016,6 +3071,11 @@ const ind = Country(
             latitude: '21.69482000',
             longitude: '72.98050000'),
         City(
+            id: 147583,
+            name: 'Bhatha',
+            latitude: '21.18333333',
+            longitude: '72.76666667'),
+        City(
             id: 57972,
             name: 'Bhavnagar',
             latitude: '21.76287000',
@@ -3025,6 +3085,16 @@ const ind = Country(
             name: 'Bhayavadar',
             latitude: '21.85523000',
             longitude: '70.24791000'),
+        City(
+            id: 147584,
+            name: 'Bhildi',
+            latitude: '24.18333333',
+            longitude: '72.03333333'),
+        City(
+            id: 147585,
+            name: 'Bhojpur Dharampur',
+            latitude: '23.25000000',
+            longitude: '69.67000000'),
         City(
             id: 58002,
             name: 'Bhuj',
@@ -3061,6 +3131,16 @@ const ind = Country(
             latitude: '21.41073000',
             longitude: '71.16621000'),
         City(
+            id: 147586,
+            name: 'Chaloda',
+            latitude: '22.80000000',
+            longitude: '72.45000000'),
+        City(
+            id: 147587,
+            name: 'Champaner',
+            latitude: '22.48590000',
+            longitude: '73.53710000'),
+        City(
             id: 131595,
             name: 'Chanasma',
             latitude: '23.71472000',
@@ -3085,6 +3165,16 @@ const ind = Country(
             name: 'Chotila',
             latitude: '22.42347000',
             longitude: '71.19641000'),
+        City(
+            id: 147588,
+            name: 'Chuda',
+            latitude: '22.48333333',
+            longitude: '71.68333333'),
+        City(
+            id: 147589,
+            name: 'Dabhoda',
+            latitude: '23.16666667',
+            longitude: '72.73333333'),
         City(
             id: 131635,
             name: 'Dabhoi',
@@ -3111,10 +3201,20 @@ const ind = Country(
             latitude: '21.69232000',
             longitude: '71.51747000'),
         City(
+            id: 147590,
+            name: 'Dandi',
+            latitude: '21.32988000',
+            longitude: '72.62484000'),
+        City(
             id: 142127,
             name: 'Dangs (India)',
             latitude: '20.75000000',
             longitude: '73.75000000'),
+        City(
+            id: 147591,
+            name: 'Danta',
+            latitude: '24.18861111',
+            longitude: '72.76583333'),
         City(
             id: 131673,
             name: 'Dayapar',
@@ -3130,6 +3230,11 @@ const ind = Country(
             name: 'Delwada',
             latitude: '20.78330000',
             longitude: '71.05000000'),
+        City(
+            id: 147592,
+            name: 'Detroj',
+            latitude: '23.33333333',
+            longitude: '72.18333333'),
         City(
             id: 131704,
             name: 'Devbhumi Dwarka',
@@ -3151,20 +3256,40 @@ const ind = Country(
             latitude: '24.50967000',
             longitude: '72.02343000'),
         City(
+            id: 147593,
+            name: 'Dhansura',
+            latitude: '23.35000000',
+            longitude: '73.20000000'),
+        City(
             id: 131719,
             name: 'Dharampur',
             latitude: '20.53693000',
             longitude: '73.17368000'),
+        City(
+            id: 147594,
+            name: 'Dharasana',
+            latitude: '20.68333333',
+            longitude: '72.91666667'),
         City(
             id: 131755,
             name: 'Dhari',
             latitude: '21.32855000',
             longitude: '71.02645000'),
         City(
+            id: 147595,
+            name: 'Dhasa',
+            latitude: '21.80000000',
+            longitude: '71.51666667'),
+        City(
             id: 131738,
             name: 'Dhola',
             latitude: '21.88129000',
             longitude: '71.77269000'),
+        City(
+            id: 147596,
+            name: 'Dholera',
+            latitude: '22.24800000',
+            longitude: '72.19500000'),
         City(
             id: 131739,
             name: 'Dholka',
@@ -3201,6 +3326,11 @@ const ind = Country(
             latitude: '22.90000000',
             longitude: '74.00000000'),
         City(
+            id: 147597,
+            name: 'Dumkhal',
+            latitude: '21.73960000',
+            longitude: '73.84490000'),
+        City(
             id: 131800,
             name: 'Dungarpur',
             latitude: '21.28777000',
@@ -3236,6 +3366,11 @@ const ind = Country(
             latitude: '21.53889000',
             longitude: '71.57737000'),
         City(
+            id: 147598,
+            name: 'Ghodasar',
+            latitude: '24.45000000',
+            longitude: '71.85000000'),
+        City(
             id: 131944,
             name: 'Ghogha',
             latitude: '21.68813000',
@@ -3255,6 +3390,16 @@ const ind = Country(
             name: 'Gondal',
             latitude: '21.96074000',
             longitude: '70.80255000'),
+        City(
+            id: 147599,
+            name: 'Gorwa',
+            latitude: '22.33010000',
+            longitude: '73.16110000'),
+        City(
+            id: 147600,
+            name: 'Halenda',
+            latitude: '22.08818500',
+            longitude: '71.05171000'),
         City(
             id: 132139,
             name: 'Halol',
@@ -3276,10 +3421,30 @@ const ind = Country(
             latitude: '23.69356000',
             longitude: '71.90700000'),
         City(
+            id: 147601,
+            name: 'Harsol',
+            latitude: '23.36000000',
+            longitude: '73.02000000'),
+        City(
+            id: 147602,
+            name: 'Hathuran',
+            latitude: '21.50000000',
+            longitude: '72.97000000'),
+        City(
             id: 132096,
             name: 'Himatnagar',
             latitude: '23.59893000',
             longitude: '72.96602000'),
+        City(
+            id: 147603,
+            name: 'Idar',
+            latitude: '23.83000000',
+            longitude: '73.00000000'),
+        City(
+            id: 147604,
+            name: 'Jakhau',
+            latitude: '23.21861111',
+            longitude: '68.71694444'),
         City(
             id: 142129,
             name: 'Jalalpore',
@@ -3291,6 +3456,16 @@ const ind = Country(
             latitude: '20.94896000',
             longitude: '72.89829000'),
         City(
+            id: 147605,
+            name: 'Jalia',
+            latitude: '21.80000000',
+            longitude: '70.25000000'),
+        City(
+            id: 147606,
+            name: 'Jambuda',
+            latitude: '22.51666667',
+            longitude: '70.21666667'),
+        City(
             id: 132226,
             name: 'Jambusar',
             latitude: '22.05236000',
@@ -3301,10 +3476,20 @@ const ind = Country(
             latitude: '22.47292000',
             longitude: '70.06673000'),
         City(
+            id: 147607,
+            name: 'Jarod,',
+            latitude: '22.43300000',
+            longitude: '73.33300000'),
+        City(
             id: 132243,
             name: 'Jasdan',
             latitude: '22.03709000',
             longitude: '71.20794000'),
+        City(
+            id: 147608,
+            name: 'Jetalpur',
+            latitude: '22.88333333',
+            longitude: '72.60000000'),
         City(
             id: 132261,
             name: 'Jetalsar',
@@ -3316,6 +3501,16 @@ const ind = Country(
             latitude: '21.75482000',
             longitude: '70.62347000'),
         City(
+            id: 147609,
+            name: 'Jetpur (Navagadh)',
+            latitude: '21.75482000',
+            longitude: '70.62347000'),
+        City(
+            id: 147610,
+            name: 'Jhalod',
+            latitude: '23.10027778',
+            longitude: '74.15611111'),
+        City(
             id: 132272,
             name: 'Jhulasan',
             latitude: '23.32860000',
@@ -3325,6 +3520,11 @@ const ind = Country(
             name: 'Jodhpur',
             latitude: '21.90174000',
             longitude: '70.03270000'),
+        City(
+            id: 147611,
+            name: 'Jodhpur (Ahmedabad)',
+            latitude: '21.88000000',
+            longitude: '70.03000000'),
         City(
             id: 142130,
             name: 'Jodia',
@@ -3345,6 +3545,11 @@ const ind = Country(
             name: 'Kachchh',
             latitude: '23.58333000',
             longitude: '70.00000000'),
+        City(
+            id: 147612,
+            name: 'Kachholi',
+            latitude: '20.83333333',
+            longitude: '72.96666667'),
         City(
             id: 132327,
             name: 'Kadi',
@@ -3371,6 +3576,11 @@ const ind = Country(
             latitude: '23.03333000',
             longitude: '70.21667000'),
         City(
+            id: 147613,
+            name: 'Kandla port',
+            latitude: '23.03000000',
+            longitude: '70.22000000'),
+        City(
             id: 132708,
             name: 'Kanodar',
             latitude: '24.08932000',
@@ -3385,6 +3595,16 @@ const ind = Country(
             name: 'Karamsad',
             latitude: '22.54243000',
             longitude: '72.90392000'),
+        City(
+            id: 147614,
+            name: 'Kariana',
+            latitude: '21.88333333',
+            longitude: '71.35000000'),
+        City(
+            id: 147615,
+            name: 'Karjan',
+            latitude: '22.05304167',
+            longitude: '73.12351389'),
         City(
             id: 132723,
             name: 'Kathor',
@@ -3406,6 +3626,16 @@ const ind = Country(
             latitude: '22.09282000',
             longitude: '74.05078000'),
         City(
+            id: 147616,
+            name: 'Kayavarohan',
+            latitude: '22.06700000',
+            longitude: '73.25000000'),
+        City(
+            id: 147617,
+            name: 'Kerwada',
+            latitude: '21.90000000',
+            longitude: '72.85000000'),
+        City(
             id: 132446,
             name: 'Keshod',
             latitude: '21.30328000',
@@ -3421,6 +3651,11 @@ const ind = Country(
             latitude: '22.31744000',
             longitude: '72.61916000'),
         City(
+            id: 147618,
+            name: 'Khavda',
+            latitude: '23.85000000',
+            longitude: '69.72000000'),
+        City(
             id: 132488,
             name: 'Kheda',
             latitude: '22.75000000',
@@ -3430,6 +3665,16 @@ const ind = Country(
             name: 'Khedbrahma',
             latitude: '24.02990000',
             longitude: '73.04632000'),
+        City(
+            id: 147619,
+            name: 'Khedoi',
+            latitude: '23.05927778',
+            longitude: '69.91895556'),
+        City(
+            id: 147620,
+            name: 'Kherali',
+            latitude: '22.68333333',
+            longitude: '71.60000000'),
         City(
             id: 132494,
             name: 'Kheralu',
@@ -3446,6 +3691,26 @@ const ind = Country(
             latitude: '21.46202000',
             longitude: '72.95842000'),
         City(
+            id: 147621,
+            name: 'Kothara',
+            latitude: '23.13300000',
+            longitude: '68.93200000'),
+        City(
+            id: 147622,
+            name: 'Kotharia',
+            latitude: '22.23000000',
+            longitude: '70.81000000'),
+        City(
+            id: 147623,
+            name: 'Kukarmunda',
+            latitude: '21.51666667',
+            longitude: '74.13333333'),
+        City(
+            id: 147624,
+            name: 'Kukma',
+            latitude: '23.21782200',
+            longitude: '69.77792200'),
+        City(
             id: 132647,
             name: 'Kundla',
             latitude: '21.34222000',
@@ -3461,6 +3726,16 @@ const ind = Country(
             latitude: '21.62410000',
             longitude: '69.98494000'),
         City(
+            id: 147628,
+            name: 'Ladol',
+            latitude: '23.61666667',
+            longitude: '72.73333333'),
+        City(
+            id: 147625,
+            name: 'Lakhpat',
+            latitude: '23.82611111',
+            longitude: '68.77694444'),
+        City(
             id: 132747,
             name: 'Lakhtar',
             latitude: '22.85683000',
@@ -3470,6 +3745,11 @@ const ind = Country(
             name: 'Lalpur',
             latitude: '22.19073000',
             longitude: '69.96351000'),
+        City(
+            id: 147626,
+            name: 'Langhnaj',
+            latitude: '23.45000000',
+            longitude: '72.48333333'),
         City(
             id: 132802,
             name: 'Lathi',
@@ -3481,10 +3761,25 @@ const ind = Country(
             latitude: '22.56507000',
             longitude: '71.81076000'),
         City(
+            id: 147627,
+            name: 'Limkheda',
+            latitude: '22.81666667',
+            longitude: '73.98333333'),
+        City(
             id: 132804,
             name: 'Lunavada',
             latitude: '23.12841000',
             longitude: '73.61043000'),
+        City(
+            id: 147629,
+            name: 'Madhavpur Ghed',
+            latitude: '21.29929167',
+            longitude: '70.02513889'),
+        City(
+            id: 147630,
+            name: 'Madhi',
+            latitude: '22.10000000',
+            longitude: '69.10000000'),
         City(
             id: 132831,
             name: 'Mahemdavad',
@@ -3496,10 +3791,25 @@ const ind = Country(
             latitude: '23.66667000',
             longitude: '72.50000000'),
         City(
+            id: 147631,
+            name: 'Mahisa',
+            latitude: '22.85000000',
+            longitude: '73.05000000'),
+        City(
             id: 132841,
             name: 'Mahudha',
             latitude: '22.82082000',
             longitude: '72.94032000'),
+        City(
+            id: 147632,
+            name: 'Mahuva',
+            latitude: '21.08330000',
+            longitude: '71.80000000'),
+        City(
+            id: 147633,
+            name: 'Mahuva (Surat)',
+            latitude: '21.02000000',
+            longitude: '73.15000000'),
         City(
             id: 133068,
             name: 'Malpur',
@@ -3531,6 +3841,11 @@ const ind = Country(
             latitude: '21.12268000',
             longitude: '70.11484000'),
         City(
+            id: 147634,
+            name: 'Mangrol (Junagadh)',
+            latitude: '21.12000000',
+            longitude: '70.12000000'),
+        City(
             id: 133081,
             name: 'Mansa',
             latitude: '23.42564000',
@@ -3550,6 +3865,11 @@ const ind = Country(
             name: 'Mendarda',
             latitude: '21.32112000',
             longitude: '70.44078000'),
+        City(
+            id: 147635,
+            name: 'Mithapur',
+            latitude: '22.41000000',
+            longitude: '69.00000000'),
         City(
             id: 132978,
             name: 'Modasa',
@@ -3581,10 +3901,30 @@ const ind = Country(
             latitude: '22.69385000',
             longitude: '72.86157000'),
         City(
+            id: 147636,
+            name: 'Nadiad,',
+            latitude: '22.70000000',
+            longitude: '72.87000000'),
+        City(
+            id: 147637,
+            name: 'Nagwa',
+            latitude: '25.69621000',
+            longitude: '84.23590000'),
+        City(
+            id: 147638,
+            name: 'Naldhara',
+            latitude: '20.96666667',
+            longitude: '73.16666667'),
+        City(
             id: 133133,
             name: 'Naliya',
             latitude: '23.26058000',
             longitude: '68.82655000'),
+        City(
+            id: 147639,
+            name: 'Nargol',
+            latitude: '20.23300000',
+            longitude: '72.75000000'),
         City(
             id: 133169,
             name: 'Narmada',
@@ -3600,6 +3940,21 @@ const ind = Country(
             name: 'Navsari',
             latitude: '20.95000000',
             longitude: '72.92000000'),
+        City(
+            id: 147640,
+            name: 'Nikora',
+            latitude: '21.78586000',
+            longitude: '73.13968000'),
+        City(
+            id: 147641,
+            name: 'Nizar',
+            latitude: '21.47727000',
+            longitude: '74.19595000'),
+        City(
+            id: 147642,
+            name: 'Odadar',
+            latitude: '21.56666667',
+            longitude: '69.66666667'),
         City(
             id: 133297,
             name: 'Okha',
@@ -3626,6 +3981,11 @@ const ind = Country(
             latitude: '24.17128000',
             longitude: '72.43827000'),
         City(
+            id: 147643,
+            name: 'Palanswa',
+            latitude: '23.46666667',
+            longitude: '70.93333333'),
+        City(
             id: 133532,
             name: 'Palitana',
             latitude: '21.52519000',
@@ -3635,6 +3995,16 @@ const ind = Country(
             name: 'Paliyad',
             latitude: '22.25757000',
             longitude: '71.56024000'),
+        City(
+            id: 147644,
+            name: 'Paliyad (Bhavnagar)',
+            latitude: '22.25757000',
+            longitude: '71.56024000'),
+        City(
+            id: 147645,
+            name: 'Palsana',
+            latitude: '21.08000000',
+            longitude: '72.98000000'),
         City(
             id: 133536,
             name: 'Panch Mahals',
@@ -3671,10 +4041,30 @@ const ind = Country(
             latitude: '22.47681000',
             longitude: '72.79995000'),
         City(
+            id: 147646,
+            name: 'Pipavav',
+            latitude: '20.96666667',
+            longitude: '71.56666667'),
+        City(
+            id: 147647,
+            name: 'Piplod',
+            latitude: '22.81666667',
+            longitude: '73.90000000'),
+        City(
             id: 133480,
             name: 'Porbandar',
             latitude: '21.64219000',
             longitude: '69.60929000'),
+        City(
+            id: 147648,
+            name: 'Prabhas Patan',
+            latitude: '20.88808000',
+            longitude: '70.40129000'),
+        City(
+            id: 147649,
+            name: 'Prantij',
+            latitude: '23.43841944',
+            longitude: '72.85718056'),
         City(
             id: 133657,
             name: 'Radhanpur',
@@ -3701,10 +4091,20 @@ const ind = Country(
             latitude: '21.68734000',
             longitude: '69.74485000'),
         City(
+            id: 147650,
+            name: 'Ranpur',
+            latitude: '22.36670000',
+            longitude: '71.75000000'),
+        City(
             id: 133722,
             name: 'Rapar',
             latitude: '23.57267000',
             longitude: '70.64718000'),
+        City(
+            id: 147651,
+            name: 'Reha',
+            latitude: '23.15172500',
+            longitude: '69.75008600'),
         City(
             id: 133643,
             name: 'Roha',
@@ -3726,6 +4126,11 @@ const ind = Country(
             latitude: '22.31038000',
             longitude: '69.60376000'),
         City(
+            id: 147652,
+            name: 'Samakhiali',
+            latitude: '23.30340000',
+            longitude: '70.50688000'),
+        City(
             id: 134069,
             name: 'Sanand',
             latitude: '22.99227000',
@@ -3736,15 +4141,35 @@ const ind = Country(
             latitude: '22.17021000',
             longitude: '73.57820000'),
         City(
+            id: 147653,
+            name: 'Sarbhon',
+            latitude: '21.05000000',
+            longitude: '73.08330000'),
+        City(
+            id: 147654,
+            name: 'Sardoi',
+            latitude: '23.56670000',
+            longitude: '73.26670000'),
+        City(
             id: 133808,
             name: 'Sarkhej',
             latitude: '22.98297000',
             longitude: '72.50196000'),
         City(
+            id: 147655,
+            name: 'Sathamba',
+            latitude: '23.16912500',
+            longitude: '73.32661667'),
+        City(
             id: 133831,
             name: 'Savarkundla',
             latitude: '21.33726000',
             longitude: '71.30350000'),
+        City(
+            id: 147656,
+            name: 'Savli',
+            latitude: '22.56666667',
+            longitude: '73.21666667'),
         City(
             id: 134085,
             name: 'Sayla',
@@ -3791,6 +4216,11 @@ const ind = Country(
             latitude: '21.16966000',
             longitude: '73.56357000'),
         City(
+            id: 147657,
+            name: 'Supedi',
+            latitude: '21.76200000',
+            longitude: '70.37800000'),
+        City(
             id: 134096,
             name: 'Surat',
             latitude: '21.17801000',
@@ -3800,6 +4230,11 @@ const ind = Country(
             name: 'Surendranagar',
             latitude: '22.72706000',
             longitude: '71.64856000'),
+        City(
+            id: 147658,
+            name: 'Sutrapada',
+            latitude: '20.89280000',
+            longitude: '70.46500000'),
         City(
             id: 134107,
             name: 'Talaja',
@@ -3841,6 +4276,11 @@ const ind = Country(
             latitude: '20.75000000',
             longitude: '73.75000000'),
         City(
+            id: 147659,
+            name: 'Umarpada',
+            latitude: '21.45000000',
+            longitude: '73.50000000'),
+        City(
             id: 134277,
             name: 'Umrala',
             latitude: '21.84353000',
@@ -3876,6 +4316,11 @@ const ind = Country(
             latitude: '21.23333000',
             longitude: '72.86667000'),
         City(
+            id: 147660,
+            name: 'Vadgam',
+            latitude: '24.08333333',
+            longitude: '72.48333333'),
+        City(
             id: 134309,
             name: 'Vadnagar',
             latitude: '23.78593000',
@@ -3890,6 +4335,11 @@ const ind = Country(
             name: 'Vaghodia',
             latitude: '22.30505000',
             longitude: '73.40016000'),
+        City(
+            id: 147661,
+            name: 'Vaghodia INA',
+            latitude: '22.30000000',
+            longitude: '73.38330000'),
         City(
             id: 134318,
             name: 'Vallabh Vidyanagar',
@@ -3906,10 +4356,20 @@ const ind = Country(
             latitude: '20.50000000',
             longitude: '73.08333000'),
         City(
+            id: 147662,
+            name: 'Vanala',
+            latitude: '22.45000000',
+            longitude: '71.98333333'),
+        City(
             id: 142142,
             name: 'Vansda',
             latitude: '20.45000000',
             longitude: '73.22000000'),
+        City(
+            id: 147663,
+            name: 'Vanthli',
+            latitude: '21.48330000',
+            longitude: '70.33330000'),
         City(
             id: 134326,
             name: 'Vapi',
@@ -3926,10 +4386,20 @@ const ind = Country(
             latitude: '22.66079000',
             longitude: '72.75519000'),
         City(
+            id: 147664,
+            name: 'Vasavad',
+            latitude: '21.82657000',
+            longitude: '71.02436000'),
+        City(
             id: 142143,
             name: 'Vaso',
             latitude: '22.66079000',
             longitude: '72.75519000'),
+        City(
+            id: 147665,
+            name: 'Vataman',
+            latitude: '22.53000000',
+            longitude: '72.42000000'),
         City(
             id: 134339,
             name: 'Vejalpur',
@@ -3955,6 +4425,11 @@ const ind = Country(
             name: 'Vinchia',
             latitude: '22.21027000',
             longitude: '71.37967000'),
+        City(
+            id: 147666,
+            name: 'Viramgam',
+            latitude: '23.12000000',
+            longitude: '72.03000000'),
         City(
             id: 134365,
             name: 'Virpur',
@@ -8526,6 +9001,21 @@ const ind = Country(
             latitude: '21.25665000',
             longitude: '77.51006000'),
         City(
+            id: 147667,
+            name: 'Adawad',
+            latitude: '21.21666667',
+            longitude: '75.45000000'),
+        City(
+            id: 147668,
+            name: 'Agar Panchaitan',
+            latitude: '18.17369200',
+            longitude: '72.98853300'),
+        City(
+            id: 147669,
+            name: 'Aheri',
+            latitude: '19.41166667',
+            longitude: '80.00388889'),
+        City(
             id: 57602,
             name: 'Ahiri',
             latitude: '19.41386000',
@@ -8540,6 +9030,11 @@ const ind = Country(
             name: 'Ahmadpur',
             latitude: '18.70622000',
             longitude: '76.93731000'),
+        City(
+            id: 147670,
+            name: 'Ahmednagar',
+            latitude: '19.08333333',
+            longitude: '74.73333333'),
         City(
             id: 57609,
             name: 'Airoli',
@@ -8556,25 +9051,55 @@ const ind = Country(
             latitude: '17.52532000',
             longitude: '76.20611000'),
         City(
+            id: 147671,
+            name: 'Akkalkot',
+            latitude: '17.51666667',
+            longitude: '76.20000000'),
+        City(
+            id: 147672,
+            name: 'Akluj',
+            latitude: '17.88333333',
+            longitude: '75.01666667'),
+        City(
             id: 57627,
             name: 'Akola',
             latitude: '20.50000000',
             longitude: '77.16667000'),
+        City(
+            id: 147673,
+            name: 'Akolner',
+            latitude: '18.98333333',
+            longitude: '74.66666667'),
         City(
             id: 57628,
             name: 'Akot',
             latitude: '21.09630000',
             longitude: '77.05880000'),
         City(
+            id: 147674,
+            name: 'Akrani',
+            latitude: '21.82423611',
+            longitude: '74.21687222'),
+        City(
             id: 57633,
             name: 'Alandi',
             latitude: '18.67756000',
             longitude: '73.89868000'),
         City(
+            id: 147675,
+            name: 'Ale',
+            latitude: '19.17000000',
+            longitude: '74.12000000'),
+        City(
             id: 57652,
             name: 'Alibag',
             latitude: '18.64813000',
             longitude: '72.87579000'),
+        City(
+            id: 147676,
+            name: 'Alkuti',
+            latitude: '19.05000000',
+            longitude: '74.23000000'),
         City(
             id: 57642,
             name: 'Allapalli',
@@ -8601,6 +9126,21 @@ const ind = Country(
             latitude: '18.73312000',
             longitude: '76.38616000'),
         City(
+            id: 147677,
+            name: 'Ambarnath',
+            latitude: '19.20900000',
+            longitude: '73.18600000'),
+        City(
+            id: 147678,
+            name: 'Ambegaon',
+            latitude: '19.11666667',
+            longitude: '73.73333333'),
+        City(
+            id: 147679,
+            name: 'Amgaon',
+            latitude: '20.65000000',
+            longitude: '79.95000000'),
+        City(
             id: 57689,
             name: 'Amravati',
             latitude: '20.93333000',
@@ -8611,20 +9151,50 @@ const ind = Country(
             latitude: '20.93483000',
             longitude: '77.75694000'),
         City(
+            id: 147680,
+            name: 'Andheri',
+            latitude: '19.11916667',
+            longitude: '72.84694444'),
+        City(
+            id: 147681,
+            name: 'Andura',
+            latitude: '20.88333333',
+            longitude: '76.86666667'),
+        City(
             id: 57707,
             name: 'Anjangaon',
             latitude: '21.16516000',
             longitude: '77.30910000'),
+        City(
+            id: 147682,
+            name: 'Anjarle',
+            latitude: '17.85000000',
+            longitude: '73.09000000'),
         City(
             id: 57716,
             name: 'Anshing',
             latitude: '20.04090000',
             longitude: '77.31501000'),
         City(
+            id: 147683,
+            name: 'Arag',
+            latitude: '16.78000000',
+            longitude: '74.80000000'),
+        City(
             id: 134461,
             name: 'Arangaon',
             latitude: '19.02681000',
             longitude: '74.71487000'),
+        City(
+            id: 147684,
+            name: 'Ardhapur',
+            latitude: '19.28333333',
+            longitude: '77.38333333'),
+        City(
+            id: 147685,
+            name: 'Argaon',
+            latitude: '16.77899900',
+            longitude: '73.64553000'),
         City(
             id: 57741,
             name: 'Artist Village',
@@ -8646,6 +9216,26 @@ const ind = Country(
             latitude: '19.37671000',
             longitude: '76.22520000'),
         City(
+            id: 147686,
+            name: 'Asoda',
+            latitude: '21.03333333',
+            longitude: '75.60000000'),
+        City(
+            id: 147687,
+            name: 'Assaye',
+            latitude: '20.24512778',
+            longitude: '75.88739722'),
+        City(
+            id: 147688,
+            name: 'Astagaon',
+            latitude: '19.66666667',
+            longitude: '74.50000000'),
+        City(
+            id: 147689,
+            name: 'Aundh, Satara',
+            latitude: '17.54583333',
+            longitude: '74.37500000'),
+        City(
             id: 57765,
             name: 'Aurangabad',
             latitude: '19.88467000',
@@ -8661,8 +9251,28 @@ const ind = Country(
             latitude: '19.15516000',
             longitude: '73.26553000'),
         City(
+            id: 147690,
+            name: 'Badnapur',
+            latitude: '19.86666667',
+            longitude: '75.73333333'),
+        City(
+            id: 147691,
+            name: 'Badnera',
+            latitude: '20.85463056',
+            longitude: '77.72931111'),
+        City(
+            id: 147692,
+            name: 'Bagewadi',
+            latitude: '16.29000000',
+            longitude: '74.60000000'),
+        City(
             id: 58121,
             name: 'Balapur',
+            latitude: '20.66612000',
+            longitude: '76.77386000'),
+        City(
+            id: 147693,
+            name: 'Balapur, Akola district',
             latitude: '20.66612000',
             longitude: '76.77386000'),
         City(
@@ -8670,6 +9280,36 @@ const ind = Country(
             name: 'Ballalpur',
             latitude: '19.84696000',
             longitude: '79.34578000'),
+        City(
+            id: 147694,
+            name: 'Ballard Estate',
+            latitude: '18.95000000',
+            longitude: '72.84000000'),
+        City(
+            id: 147695,
+            name: 'Ballarpur',
+            latitude: '19.83333333',
+            longitude: '79.35000000'),
+        City(
+            id: 147696,
+            name: 'Banda, Maharashtra',
+            latitude: '15.81273611',
+            longitude: '73.86132778'),
+        City(
+            id: 147697,
+            name: 'Bandra',
+            latitude: '19.05444444',
+            longitude: '72.84055556'),
+        City(
+            id: 147698,
+            name: 'Baner',
+            latitude: '18.56000000',
+            longitude: '73.79027778'),
+        City(
+            id: 147699,
+            name: 'Bankot',
+            latitude: '17.98333333',
+            longitude: '73.05000000'),
         City(
             id: 58146,
             name: 'Baramati',
@@ -8686,15 +9326,45 @@ const ind = Country(
             latitude: '19.32872000',
             longitude: '77.15746000'),
         City(
+            id: 147700,
+            name: 'Basmath',
+            latitude: '19.31670000',
+            longitude: '77.16670000'),
+        City(
+            id: 147701,
+            name: 'Bavdhan',
+            latitude: '18.53527778',
+            longitude: '73.78277778'),
+        City(
+            id: 147702,
+            name: 'Bawanbir',
+            latitude: '21.08333333',
+            longitude: '76.71666667'),
+        City(
             id: 57912,
             name: 'Beed',
             latitude: '18.98921000',
             longitude: '75.75634000'),
         City(
+            id: 147703,
+            name: 'Bhadgaon, Maharashtra',
+            latitude: '20.16666667',
+            longitude: '75.23333333'),
+        City(
             id: 57961,
             name: 'Bhandara',
             latitude: '21.18333000',
             longitude: '80.00000000'),
+        City(
+            id: 147704,
+            name: 'Bhandardara',
+            latitude: '19.52916667',
+            longitude: '73.75138889'),
+        City(
+            id: 147705,
+            name: 'Bhandup',
+            latitude: '19.14000000',
+            longitude: '72.93000000'),
         City(
             id: 57978,
             name: 'Bhayandar',
@@ -8711,6 +9381,26 @@ const ind = Country(
             latitude: '19.30023000',
             longitude: '73.05881000'),
         City(
+            id: 147706,
+            name: 'Bhiwapur',
+            latitude: '20.83555556',
+            longitude: '79.50111111'),
+        City(
+            id: 147707,
+            name: 'Bhokar',
+            latitude: '19.21780300',
+            longitude: '77.66939200'),
+        City(
+            id: 147708,
+            name: 'Bhokardan',
+            latitude: '20.27000000',
+            longitude: '75.77000000'),
+        City(
+            id: 147709,
+            name: 'Bhoom',
+            latitude: '18.45972222',
+            longitude: '75.66083333'),
+        City(
             id: 57997,
             name: 'Bhor',
             latitude: '18.14861000',
@@ -8720,6 +9410,11 @@ const ind = Country(
             name: 'Bhudgaon',
             latitude: '16.90742000',
             longitude: '74.59954000'),
+        City(
+            id: 147710,
+            name: 'Bhugaon',
+            latitude: '18.50128400',
+            longitude: '73.75016100'),
         City(
             id: 58024,
             name: 'Bhum',
@@ -8731,10 +9426,25 @@ const ind = Country(
             latitude: '21.04365000',
             longitude: '75.78506000'),
         City(
+            id: 147711,
+            name: 'Bhusawal',
+            latitude: '21.05000000',
+            longitude: '75.77000000'),
+        City(
             id: 58026,
             name: 'Bid',
             latitude: '18.83333000',
             longitude: '75.75000000'),
+        City(
+            id: 147712,
+            name: 'Bijur',
+            latitude: '13.84388889',
+            longitude: '74.63972222'),
+        City(
+            id: 147713,
+            name: 'Bilashi',
+            latitude: '16.98333000',
+            longitude: '74.03333000'),
         City(
             id: 58047,
             name: 'Biloli',
@@ -8746,20 +9456,55 @@ const ind = Country(
             latitude: '19.80362000',
             longitude: '72.75598000'),
         City(
+            id: 147714,
+            name: 'Borgaon Manju',
+            latitude: '20.71944444',
+            longitude: '77.15277778'),
+        City(
+            id: 147715,
+            name: 'Borivali',
+            latitude: '19.23000000',
+            longitude: '72.86000000'),
+        City(
             id: 58082,
             name: 'Borivli',
             latitude: '19.23496000',
             longitude: '72.85976000'),
+        City(
+            id: 147716,
+            name: 'Brahmapuri',
+            latitude: '20.60840000',
+            longitude: '79.85590000'),
+        City(
+            id: 147717,
+            name: 'Breach Candy',
+            latitude: '18.96700000',
+            longitude: '72.80500000'),
         City(
             id: 58094,
             name: 'Buldana',
             latitude: '20.58333000',
             longitude: '76.41667000'),
         City(
+            id: 147718,
+            name: 'Buldhana',
+            latitude: '20.53333333',
+            longitude: '76.18333333'),
+        City(
+            id: 147719,
+            name: 'Byculla',
+            latitude: '18.98000000',
+            longitude: '72.83500000'),
+        City(
             id: 131589,
             name: 'Chakan',
             latitude: '18.76059000',
             longitude: '73.86351000'),
+        City(
+            id: 147720,
+            name: 'Chakur',
+            latitude: '18.51305556',
+            longitude: '76.87527778'),
         City(
             id: 131592,
             name: 'Chalisgaon',
@@ -8770,6 +9515,11 @@ const ind = Country(
             name: 'Chanda',
             latitude: '19.95076000',
             longitude: '79.29523000'),
+        City(
+            id: 147721,
+            name: 'Chandgad',
+            latitude: '15.00000000',
+            longitude: '74.00000000'),
         City(
             id: 131599,
             name: 'Chandor',
@@ -8791,20 +9541,50 @@ const ind = Country(
             latitude: '21.23853000',
             longitude: '77.74713000'),
         City(
+            id: 147722,
+            name: 'Chausala',
+            latitude: '18.70869200',
+            longitude: '75.69159500'),
+        City(
+            id: 147723,
+            name: 'Chembur',
+            latitude: '19.05871111',
+            longitude: '72.89969444'),
+        City(
             id: 131544,
             name: 'Chicholi',
             latitude: '21.46926000',
             longitude: '79.70151000'),
         City(
+            id: 147724,
+            name: 'Chichondi Patil',
+            latitude: '19.00000000',
+            longitude: '74.91666667'),
+        City(
             id: 131549,
-            name: 'Chikhli',
+            name: 'Chikhli (Buldhana)',
             latitude: '20.35046000',
             longitude: '76.25774000'),
+        City(
+            id: 147725,
+            name: 'Chikhli (Jalna)',
+            latitude: '20.02193000',
+            longitude: '75.78544000'),
+        City(
+            id: 147726,
+            name: 'Chimur',
+            latitude: '20.49694444',
+            longitude: '79.37666667'),
         City(
             id: 131558,
             name: 'Chinchani',
             latitude: '19.87458000',
             longitude: '72.68510000'),
+        City(
+            id: 147727,
+            name: 'Chinchpokli',
+            latitude: '18.98333333',
+            longitude: '72.83333333'),
         City(
             id: 131567,
             name: 'Chiplun',
@@ -8816,15 +9596,35 @@ const ind = Country(
             latitude: '21.24578000',
             longitude: '75.29946000'),
         City(
+            id: 147728,
+            name: 'Colaba',
+            latitude: '18.91000000',
+            longitude: '72.81000000'),
+        City(
             id: 131805,
             name: 'Dabhol',
             latitude: '17.58971000',
             longitude: '73.18001000'),
         City(
+            id: 147729,
+            name: 'Daddi',
+            latitude: '16.06666667',
+            longitude: '74.43333333'),
+        City(
             id: 131807,
             name: 'Dahanu',
             latitude: '19.96778000',
             longitude: '72.71263000'),
+        City(
+            id: 147730,
+            name: 'Dahivel',
+            latitude: '21.06666667',
+            longitude: '74.16666667'),
+        City(
+            id: 147731,
+            name: 'Dapoli',
+            latitude: '17.75888889',
+            longitude: '73.18555556'),
         City(
             id: 131810,
             name: 'Darwha',
@@ -8851,6 +9651,16 @@ const ind = Country(
             latitude: '18.46515000',
             longitude: '74.58375000'),
         City(
+            id: 147732,
+            name: 'Deccan Gymkhana',
+            latitude: '18.51840000',
+            longitude: '73.84060000'),
+        City(
+            id: 147733,
+            name: 'Deglur',
+            latitude: '18.54777778',
+            longitude: '77.57722222'),
+        City(
             id: 131678,
             name: 'Dehu',
             latitude: '18.71851000',
@@ -8861,20 +9671,40 @@ const ind = Country(
             latitude: '19.94404000',
             longitude: '73.83441000'),
         City(
+            id: 147734,
+            name: 'Deolapar',
+            latitude: '21.58611111',
+            longitude: '79.36944444'),
+        City(
             id: 131686,
             name: 'Deoli',
             latitude: '20.64920000',
             longitude: '78.48023000'),
+        City(
+            id: 147735,
+            name: 'Deoni',
+            latitude: '18.26388889',
+            longitude: '77.08222222'),
         City(
             id: 131709,
             name: 'Deulgaon Raja',
             latitude: '20.01757000',
             longitude: '76.03755000'),
         City(
+            id: 147736,
+            name: 'Devrukh',
+            latitude: '17.06500000',
+            longitude: '73.61583333'),
+        City(
             id: 131722,
             name: 'Dharangaon',
             latitude: '21.01187000',
             longitude: '75.27407000'),
+        City(
+            id: 147737,
+            name: 'Dharavi',
+            latitude: '19.05000000',
+            longitude: '72.86667000'),
         City(
             id: 131728,
             name: 'Dharmabad',
@@ -8886,6 +9716,11 @@ const ind = Country(
             latitude: '18.82017000',
             longitude: '76.10937000'),
         City(
+            id: 147738,
+            name: 'Dhawalpuri',
+            latitude: '19.16666667',
+            longitude: '74.51666667'),
+        City(
             id: 131746,
             name: 'Dhule',
             latitude: '21.06852000',
@@ -8895,6 +9730,11 @@ const ind = Country(
             name: 'Dhulia',
             latitude: '20.90130000',
             longitude: '74.77737000'),
+        City(
+            id: 147739,
+            name: 'Dighori',
+            latitude: '20.88620000',
+            longitude: '79.93420000'),
         City(
             id: 131815,
             name: 'Diglur',
@@ -8906,6 +9746,16 @@ const ind = Country(
             latitude: '20.10350000',
             longitude: '77.71846000'),
         City(
+            id: 147740,
+            name: 'Dindori, Maharashtra',
+            latitude: '20.20000000',
+            longitude: '73.83305556'),
+        City(
+            id: 147741,
+            name: 'Diveagar',
+            latitude: '18.17333333',
+            longitude: '72.99166667'),
+        City(
             id: 131785,
             name: 'Dombivli',
             latitude: '19.21667000',
@@ -8915,6 +9765,11 @@ const ind = Country(
             name: 'Dondaicha',
             latitude: '21.32360000',
             longitude: '74.56804000'),
+        City(
+            id: 147742,
+            name: 'Dongri',
+            latitude: '19.28333333',
+            longitude: '72.78333333'),
         City(
             id: 131792,
             name: 'Dudhani',
@@ -8926,6 +9781,11 @@ const ind = Country(
             latitude: '20.00540000',
             longitude: '79.30273000'),
         City(
+            id: 147743,
+            name: 'Durgapur, Chandrapur',
+            latitude: '20.00000000',
+            longitude: '79.30000000'),
+        City(
             id: 131838,
             name: 'Erandol',
             latitude: '20.92206000',
@@ -8935,6 +9795,11 @@ const ind = Country(
             name: 'Faizpur',
             latitude: '21.16766000',
             longitude: '75.86006000'),
+        City(
+            id: 147744,
+            name: 'Fort',
+            latitude: '18.93500000',
+            longitude: '72.83590000'),
         City(
             id: 131886,
             name: 'Gadchiroli',
@@ -8956,15 +9821,30 @@ const ind = Country(
             latitude: '19.69718000',
             longitude: '75.01045000'),
         City(
+            id: 147745,
+            name: 'Ganpatipule',
+            latitude: '17.14480000',
+            longitude: '73.26660000'),
+        City(
             id: 131934,
             name: 'Gevrai',
             latitude: '19.26372000',
             longitude: '75.75007000'),
         City(
+            id: 147746,
+            name: 'Ghargaon',
+            latitude: '18.74868400',
+            longitude: '74.63673400'),
+        City(
             id: 131951,
             name: 'Ghatanji',
             latitude: '20.14183000',
             longitude: '78.31333000'),
+        City(
+            id: 147747,
+            name: 'Ghatkopar',
+            latitude: '19.08000000',
+            longitude: '72.91000000'),
         City(
             id: 131947,
             name: 'Ghoti Budrukh',
@@ -8976,10 +9856,25 @@ const ind = Country(
             latitude: '19.93810000',
             longitude: '79.11192000'),
         City(
+            id: 147748,
+            name: 'Girgaon',
+            latitude: '18.95300000',
+            longitude: '72.81300000'),
+        City(
+            id: 147749,
+            name: 'Gondia',
+            latitude: '21.45000000',
+            longitude: '80.20000000'),
+        City(
             id: 131983,
             name: 'Gondiya',
             latitude: '21.05000000',
             longitude: '80.25000000'),
+        City(
+            id: 147750,
+            name: 'Gorai',
+            latitude: '19.25005700',
+            longitude: '72.78202100'),
         City(
             id: 131994,
             name: 'Goregaon',
@@ -8991,15 +9886,35 @@ const ind = Country(
             latitude: '17.48415000',
             longitude: '73.19289000'),
         City(
+            id: 147751,
+            name: 'Hadapsar, Pune',
+            latitude: '18.49666667',
+            longitude: '73.94166667'),
+        City(
             id: 132054,
             name: 'Hadgaon',
             latitude: '19.49552000',
             longitude: '77.65863000'),
         City(
+            id: 147752,
+            name: 'Halkarni',
+            latitude: '16.16666667',
+            longitude: '74.46666667'),
+        City(
+            id: 147753,
+            name: 'Harangul',
+            latitude: '18.90000000',
+            longitude: '76.66666667'),
+        City(
             id: 132078,
             name: 'Harnai',
             latitude: '17.81340000',
             longitude: '73.09668000'),
+        City(
+            id: 147754,
+            name: 'Helwak',
+            latitude: '17.38500000',
+            longitude: '73.73500000'),
         City(
             id: 132100,
             name: 'Hinganghat',
@@ -9011,10 +9926,20 @@ const ind = Country(
             latitude: '19.70000000',
             longitude: '77.15000000'),
         City(
+            id: 147755,
+            name: 'Hirapur',
+            latitude: '21.53000000',
+            longitude: '79.77000000'),
+        City(
             id: 132149,
             name: 'Hirapur Hamesha',
             latitude: '21.55546000',
             longitude: '79.78581000'),
+        City(
+            id: 147756,
+            name: 'Hotgi',
+            latitude: '17.58333333',
+            longitude: '75.98333333'),
         City(
             id: 132150,
             name: 'Ichalkaranji',
@@ -9036,6 +9961,16 @@ const ind = Country(
             latitude: '16.77639000',
             longitude: '74.55361000'),
         City(
+            id: 147757,
+            name: 'Jaitapur',
+            latitude: '16.59000000',
+            longitude: '73.35000000'),
+        City(
+            id: 147758,
+            name: 'Jakhangaon',
+            latitude: '17.64639000',
+            longitude: '74.32111000'),
+        City(
             id: 132214,
             name: 'Jalgaon',
             latitude: '21.00292000',
@@ -9046,15 +9981,55 @@ const ind = Country(
             latitude: '21.05194000',
             longitude: '76.53464000'),
         City(
+            id: 147759,
+            name: 'Jalkot',
+            latitude: '18.62916667',
+            longitude: '77.18111111'),
+        City(
             id: 132216,
             name: 'Jalna',
             latitude: '19.80000000',
             longitude: '75.90000000'),
         City(
+            id: 147760,
+            name: 'Jamkhed',
+            latitude: '18.72000000',
+            longitude: '75.32000000'),
+        City(
+            id: 147761,
+            name: 'Jamod',
+            latitude: '21.10000000',
+            longitude: '76.60000000'),
+        City(
+            id: 147762,
+            name: 'Janephal',
+            latitude: '20.29361111',
+            longitude: '76.57583333'),
+        City(
+            id: 147763,
+            name: 'Jaoli',
+            latitude: '17.90000000',
+            longitude: '76.40000000'),
+        City(
+            id: 147764,
+            name: 'Jat, Sangli',
+            latitude: '17.05000000',
+            longitude: '75.21666667'),
+        City(
+            id: 147765,
+            name: 'Jategaon',
+            latitude: '19.91666667',
+            longitude: '73.65000000'),
+        City(
             id: 132254,
             name: 'Jawhar',
             latitude: '19.91213000',
             longitude: '73.22679000'),
+        City(
+            id: 147766,
+            name: 'Jaysingpur',
+            latitude: '16.78350556',
+            longitude: '74.56644167'),
         City(
             id: 132260,
             name: 'Jejuri',
@@ -9066,20 +10041,60 @@ const ind = Country(
             latitude: '19.61186000',
             longitude: '76.68740000'),
         City(
+            id: 147767,
+            name: 'Jogeshwari',
+            latitude: '19.12000000',
+            longitude: '72.85000000'),
+        City(
+            id: 147768,
+            name: 'Juhu',
+            latitude: '19.10000000',
+            longitude: '72.83000000'),
+        City(
             id: 132301,
             name: 'Junnar',
             latitude: '19.20815000',
             longitude: '73.87520000'),
+        City(
+            id: 147769,
+            name: 'Kachurwahi',
+            latitude: '21.33330000',
+            longitude: '79.38330000'),
+        City(
+            id: 147770,
+            name: 'Kadegaon',
+            latitude: '17.30000000',
+            longitude: '74.35000000'),
+        City(
+            id: 147771,
+            name: 'Kadus',
+            latitude: '18.88333333',
+            longitude: '73.81666667'),
         City(
             id: 132677,
             name: 'Kagal',
             latitude: '16.57702000',
             longitude: '74.31544000'),
         City(
+            id: 147772,
+            name: 'Kaij',
+            latitude: '18.70000000',
+            longitude: '76.08333333'),
+        City(
             id: 132345,
             name: 'Kalamb',
             latitude: '19.04437000',
             longitude: '73.95554000'),
+        City(
+            id: 147773,
+            name: 'Kalamb, Osmanabad',
+            latitude: '18.57416667',
+            longitude: '76.02166667'),
+        City(
+            id: 147774,
+            name: 'Kalamboli',
+            latitude: '19.03333000',
+            longitude: '73.10000000'),
         City(
             id: 132346,
             name: 'Kalamnuri',
@@ -9090,6 +10105,11 @@ const ind = Country(
             name: 'Kalas',
             latitude: '18.17241000',
             longitude: '74.79045000'),
+        City(
+            id: 147775,
+            name: 'Kali(DK)',
+            latitude: '19.93877800',
+            longitude: '77.73285700'),
         City(
             id: 132355,
             name: 'Kalmeshwar',
@@ -9106,6 +10126,26 @@ const ind = Country(
             latitude: '19.24370000',
             longitude: '73.13554000'),
         City(
+            id: 147776,
+            name: 'Kalyani Nagar',
+            latitude: '18.54810000',
+            longitude: '73.90330000'),
+        City(
+            id: 147777,
+            name: 'Kamargaon',
+            latitude: '20.61666667',
+            longitude: '77.50000000'),
+        City(
+            id: 147778,
+            name: 'Kamatgi',
+            latitude: '16.11900000',
+            longitude: '75.84820000'),
+        City(
+            id: 147779,
+            name: 'Kamptee',
+            latitude: '21.23330000',
+            longitude: '79.20000000'),
+        City(
             id: 132694,
             name: 'Kamthi',
             latitude: '21.21615000',
@@ -9121,6 +10161,11 @@ const ind = Country(
             latitude: '16.26609000',
             longitude: '73.71217000'),
         City(
+            id: 147780,
+            name: 'Kankavli',
+            latitude: '16.28551111',
+            longitude: '73.68446111'),
+        City(
             id: 132377,
             name: 'Kannad',
             latitude: '20.25684000',
@@ -9131,20 +10176,45 @@ const ind = Country(
             latitude: '17.28937000',
             longitude: '74.18183000'),
         City(
+            id: 147781,
+            name: 'Karajagi',
+            latitude: '17.11666667',
+            longitude: '75.58333333'),
+        City(
             id: 132717,
             name: 'Karanja',
             latitude: '20.48273000',
             longitude: '77.48857000'),
+        City(
+            id: 147782,
+            name: 'Karanja Lad',
+            latitude: '20.48330000',
+            longitude: '77.48330000'),
         City(
             id: 132403,
             name: 'Karjat',
             latitude: '18.91070000',
             longitude: '73.32354000'),
         City(
+            id: 147783,
+            name: 'Karkamb',
+            latitude: '17.86530000',
+            longitude: '75.29640000'),
+        City(
             id: 132404,
             name: 'Karmala',
             latitude: '18.40770000',
             longitude: '75.19386000'),
+        City(
+            id: 147784,
+            name: 'Kasara',
+            latitude: '19.63330000',
+            longitude: '73.48330000'),
+        City(
+            id: 147785,
+            name: 'Kasoda',
+            latitude: '20.81666667',
+            longitude: '75.30000000'),
         City(
             id: 132724,
             name: 'Kati',
@@ -9156,15 +10226,45 @@ const ind = Country(
             latitude: '21.27388000',
             longitude: '78.58580000'),
         City(
+            id: 147786,
+            name: 'Katral',
+            latitude: '17.16666667',
+            longitude: '75.63333333'),
+        City(
             id: 132450,
             name: 'Khadki',
             latitude: '18.56350000',
             longitude: '73.85205000'),
         City(
+            id: 147787,
+            name: 'Khalapur',
+            latitude: '18.81666667',
+            longitude: '73.26666667'),
+        City(
+            id: 147788,
+            name: 'Khallar',
+            latitude: '21.04028690',
+            longitude: '77.46562960'),
+        City(
             id: 132513,
             name: 'Khamgaon',
             latitude: '20.70738000',
             longitude: '76.56827000'),
+        City(
+            id: 147789,
+            name: 'Khanapur',
+            latitude: '17.26111111',
+            longitude: '74.70166667'),
+        City(
+            id: 147790,
+            name: 'Khandala',
+            latitude: '18.05918056',
+            longitude: '74.01262778'),
+        City(
+            id: 147791,
+            name: 'Khangaon',
+            latitude: '20.50000000',
+            longitude: '78.61666667'),
         City(
             id: 132517,
             name: 'Khapa',
@@ -9176,15 +10276,40 @@ const ind = Country(
             latitude: '18.43997000',
             longitude: '73.77545000'),
         City(
+            id: 147792,
+            name: 'Kharda',
+            latitude: '18.63753000',
+            longitude: '75.47513000'),
+        City(
+            id: 147793,
+            name: 'Kharghar',
+            latitude: '19.03614722',
+            longitude: '73.06172222'),
+        City(
+            id: 147794,
+            name: 'Kharsundi',
+            latitude: '17.34158500',
+            longitude: '74.77599600'),
+        City(
             id: 132487,
             name: 'Khed',
             latitude: '17.71888000',
             longitude: '73.39693000'),
         City(
+            id: 147795,
+            name: 'Khede',
+            latitude: '20.91000000',
+            longitude: '74.63000000'),
+        City(
             id: 132495,
             name: 'Khetia',
             latitude: '21.67124000',
             longitude: '74.58535000'),
+        City(
+            id: 147796,
+            name: 'Khoni',
+            latitude: '19.31130000',
+            longitude: '73.05440000'),
         City(
             id: 132500,
             name: 'Khopoli',
@@ -9216,10 +10341,25 @@ const ind = Country(
             latitude: '18.80727000',
             longitude: '77.77031000'),
         City(
+            id: 147797,
+            name: 'Kondhali',
+            latitude: '21.15000000',
+            longitude: '78.61666667'),
+        City(
+            id: 147798,
+            name: 'Kopar Khairane',
+            latitude: '19.10305556',
+            longitude: '73.01055556'),
+        City(
             id: 132572,
             name: 'Kopargaon',
             latitude: '19.88239000',
             longitude: '74.47605000'),
+        City(
+            id: 147799,
+            name: 'Kopela',
+            latitude: '18.83000000',
+            longitude: '80.23000000'),
         City(
             id: 132586,
             name: 'Koradi',
@@ -9241,15 +10381,35 @@ const ind = Country(
             latitude: '16.01148000',
             longitude: '73.68867000'),
         City(
+            id: 147800,
+            name: 'Kuhi',
+            latitude: '21.01082222',
+            longitude: '79.35242222'),
+        City(
             id: 132656,
             name: 'Kurandvad',
             latitude: '16.68317000',
             longitude: '74.58892000'),
         City(
+            id: 147801,
+            name: 'Kurankhed',
+            latitude: '20.70194444',
+            longitude: '77.24972222'),
+        City(
             id: 132657,
             name: 'Kurduvadi',
             latitude: '18.09339000',
             longitude: '75.41567000'),
+        City(
+            id: 147802,
+            name: 'Kusumba',
+            latitude: '20.91666667',
+            longitude: '74.65000000'),
+        City(
+            id: 147803,
+            name: 'Lakhandur',
+            latitude: '20.75000000',
+            longitude: '79.88333333'),
         City(
             id: 132799,
             name: 'Lanja',
@@ -9265,6 +10425,11 @@ const ind = Country(
             name: 'Latur',
             latitude: '18.40000000',
             longitude: '76.80000000'),
+        City(
+            id: 147804,
+            name: 'Lavasa',
+            latitude: '18.40528056',
+            longitude: '73.50626944'),
         City(
             id: 132770,
             name: 'Lohogaon',
@@ -9291,6 +10456,16 @@ const ind = Country(
             latitude: '18.08333000',
             longitude: '73.41667000'),
         City(
+            id: 147805,
+            name: 'Mahape',
+            latitude: '19.11776000',
+            longitude: '73.02693800'),
+        City(
+            id: 147806,
+            name: 'Mahim',
+            latitude: '19.03500000',
+            longitude: '72.84000000'),
+        City(
             id: 132856,
             name: 'Maindargi',
             latitude: '17.45739000',
@@ -9305,6 +10480,16 @@ const ind = Country(
             name: 'Makhjan',
             latitude: '17.26980000',
             longitude: '73.50031000'),
+        City(
+            id: 147807,
+            name: 'Malabar Hill',
+            latitude: '18.95000000',
+            longitude: '72.79500000'),
+        City(
+            id: 147808,
+            name: 'Malad',
+            latitude: '19.18611111',
+            longitude: '72.84861111'),
         City(
             id: 133065,
             name: 'Malegaon',
@@ -9326,10 +10511,45 @@ const ind = Country(
             latitude: '19.00436000',
             longitude: '73.94346000'),
         City(
+            id: 147809,
+            name: 'Mandangad',
+            latitude: '17.98333333',
+            longitude: '73.25000000'),
+        City(
+            id: 147810,
+            name: 'Mandhal',
+            latitude: '20.95000000',
+            longitude: '79.46666667'),
+        City(
+            id: 147811,
+            name: 'Mandwa',
+            latitude: '18.80300000',
+            longitude: '72.88200000'),
+        City(
+            id: 147812,
+            name: 'Mangaon',
+            latitude: '18.23333333',
+            longitude: '73.28333333'),
+        City(
             id: 132909,
             name: 'Mangrul Pir',
             latitude: '20.31379000',
             longitude: '77.34178000'),
+        City(
+            id: 147813,
+            name: 'Manjlegaon',
+            latitude: '19.15000000',
+            longitude: '76.23000000'),
+        City(
+            id: 147814,
+            name: 'Mankeshwar',
+            latitude: '18.35416667',
+            longitude: '75.63916667'),
+        City(
+            id: 147815,
+            name: 'Mankhurd',
+            latitude: '19.05000000',
+            longitude: '72.93000000'),
         City(
             id: 132918,
             name: 'Manmad',
@@ -9351,15 +10571,55 @@ const ind = Country(
             latitude: '19.30133000',
             longitude: '76.49735000'),
         City(
+            id: 147816,
+            name: 'Manwath',
+            latitude: '19.30000000',
+            longitude: '76.50000000'),
+        City(
+            id: 147817,
+            name: 'Maregaon',
+            latitude: '20.10000000',
+            longitude: '78.81666667'),
+        City(
+            id: 147818,
+            name: 'Mastiholi',
+            latitude: '16.08333333',
+            longitude: '74.55000000'),
+        City(
+            id: 147819,
+            name: 'Masur, India',
+            latitude: '17.40000000',
+            longitude: '74.15000000'),
+        City(
             id: 133090,
             name: 'Matheran',
             latitude: '18.98281000',
             longitude: '73.26520000'),
         City(
+            id: 147820,
+            name: 'Matunga',
+            latitude: '19.01798056',
+            longitude: '72.84476389'),
+        City(
+            id: 147821,
+            name: 'Mazagaon',
+            latitude: '18.97000000',
+            longitude: '72.85000000'),
+        City(
             id: 132961,
             name: 'Mehekar',
             latitude: '20.15050000',
             longitude: '76.56841000'),
+        City(
+            id: 147822,
+            name: 'Mehergaon',
+            latitude: '20.96666667',
+            longitude: '74.63333333'),
+        City(
+            id: 147823,
+            name: 'Mehkar',
+            latitude: '20.15000000',
+            longitude: '76.57500000'),
         City(
             id: 132971,
             name: 'Mhasla',
@@ -9371,10 +10631,35 @@ const ind = Country(
             latitude: '17.63359000',
             longitude: '74.78773000'),
         City(
+            id: 147824,
+            name: 'Miraj',
+            latitude: '16.83000000',
+            longitude: '74.63000000'),
+        City(
+            id: 147825,
+            name: 'Mohadi',
+            latitude: '21.30833333',
+            longitude: '79.67500000'),
+        City(
+            id: 147826,
+            name: 'Mohol',
+            latitude: '17.81670000',
+            longitude: '75.66670000'),
+        City(
             id: 132985,
             name: 'Mohpa',
             latitude: '21.31012000',
             longitude: '78.82969000'),
+        City(
+            id: 147827,
+            name: 'Mokhada taluka',
+            latitude: '19.93333333',
+            longitude: '73.33333333'),
+        City(
+            id: 147828,
+            name: 'Mora, Maharashtra',
+            latitude: '18.88900000',
+            longitude: '72.93400000'),
         City(
             id: 132992,
             name: 'Moram',
@@ -9406,6 +10691,16 @@ const ind = Country(
             latitude: '20.06987000',
             longitude: '79.67826000'),
         City(
+            id: 147829,
+            name: 'Mulher',
+            latitude: '20.78138889',
+            longitude: '74.06388889'),
+        City(
+            id: 147830,
+            name: 'Mulund',
+            latitude: '19.17168056',
+            longitude: '72.95600000'),
+        City(
             id: 133024,
             name: 'Mumbai',
             latitude: '19.07283000',
@@ -9432,9 +10727,29 @@ const ind = Country(
             longitude: '77.36694000'),
         City(
             id: 133040,
-            name: 'Murud',
+            name: 'Murud (Raigad)',
             latitude: '18.32817000',
             longitude: '72.96210000'),
+        City(
+            id: 147831,
+            name: 'Murud (Ratnagiri)',
+            latitude: '17.77494444',
+            longitude: '73.11815000'),
+        City(
+            id: 147832,
+            name: 'Murum',
+            latitude: '17.78777778',
+            longitude: '76.47000000'),
+        City(
+            id: 147833,
+            name: 'Nadgaon',
+            latitude: '20.90101389',
+            longitude: '76.01396389'),
+        City(
+            id: 147834,
+            name: 'Nagapur',
+            latitude: '18.87000000',
+            longitude: '76.43000000'),
         City(
             id: 133260,
             name: 'Nagothana',
@@ -9451,10 +10766,25 @@ const ind = Country(
             latitude: '21.14911000',
             longitude: '79.10748000'),
         City(
+            id: 147835,
+            name: 'Nala Sopara',
+            latitude: '19.41540000',
+            longitude: '72.86130000'),
+        City(
             id: 133131,
             name: 'Naldurg',
             latitude: '17.81667000',
             longitude: '76.28182000'),
+        City(
+            id: 147836,
+            name: 'Nalegaon',
+            latitude: '18.41666667',
+            longitude: '76.81666667'),
+        City(
+            id: 147837,
+            name: 'Nampur',
+            latitude: '20.72861111',
+            longitude: '74.31083333'),
         City(
             id: 133141,
             name: 'Nanded',
@@ -9466,6 +10796,16 @@ const ind = Country(
             latitude: '20.30680000',
             longitude: '74.65501000'),
         City(
+            id: 147838,
+            name: 'Nandnee',
+            latitude: '17.45500000',
+            longitude: '75.84555556'),
+        City(
+            id: 147839,
+            name: 'Nandura',
+            latitude: '20.83333333',
+            longitude: '76.45972222'),
+        City(
             id: 133268,
             name: 'Nandura Buzurg',
             latitude: '20.83417000',
@@ -9475,6 +10815,26 @@ const ind = Country(
             name: 'Nandurbar',
             latitude: '21.37000000',
             longitude: '74.20000000'),
+        City(
+            id: 147840,
+            name: 'Narayangaon',
+            latitude: '19.07000000',
+            longitude: '73.97000000'),
+        City(
+            id: 147841,
+            name: 'Nardana',
+            latitude: '21.20000000',
+            longitude: '74.81666667'),
+        City(
+            id: 147842,
+            name: 'Nariman Point',
+            latitude: '18.92000000',
+            longitude: '72.83000000'),
+        City(
+            id: 147843,
+            name: 'Narkhed',
+            latitude: '21.47000000',
+            longitude: '78.53000000'),
         City(
             id: 133177,
             name: 'Nashik',
@@ -9486,6 +10846,11 @@ const ind = Country(
             latitude: '19.98295000',
             longitude: '73.78942000'),
         City(
+            id: 147844,
+            name: 'Navapur',
+            latitude: '21.17000000',
+            longitude: '73.78000000'),
+        City(
             id: 133186,
             name: 'Navi Mumbai',
             latitude: '19.03681000',
@@ -9495,6 +10860,21 @@ const ind = Country(
             name: 'Neral',
             latitude: '19.02475000',
             longitude: '73.31688000'),
+        City(
+            id: 147845,
+            name: 'Nerur',
+            latitude: '15.98333333',
+            longitude: '73.65000000'),
+        City(
+            id: 147846,
+            name: 'Nevasa',
+            latitude: '19.53333333',
+            longitude: '74.93333333'),
+        City(
+            id: 147847,
+            name: 'Nighoj',
+            latitude: '18.95972222',
+            longitude: '74.27694444'),
         City(
             id: 133217,
             name: 'Nilanga',
@@ -9506,6 +10886,16 @@ const ind = Country(
             latitude: '16.39900000',
             longitude: '74.38285000'),
         City(
+            id: 147848,
+            name: 'Niphad',
+            latitude: '20.08330000',
+            longitude: '73.80000000'),
+        City(
+            id: 147849,
+            name: 'Nira Narsingpur',
+            latitude: '17.98350000',
+            longitude: '75.12396000'),
+        City(
             id: 133305,
             name: 'Osmanabad',
             latitude: '18.25000000',
@@ -9516,10 +10906,20 @@ const ind = Country(
             latitude: '20.09473000',
             longitude: '73.92816000'),
         City(
+            id: 147850,
+            name: 'Pabal',
+            latitude: '18.83083333',
+            longitude: '74.05277778'),
+        City(
             id: 133520,
             name: 'Pachora',
             latitude: '20.66727000',
             longitude: '75.35305000'),
+        City(
+            id: 147851,
+            name: 'Pahur, Maharashtra',
+            latitude: '20.70000000',
+            longitude: '75.68333333'),
         City(
             id: 133319,
             name: 'Paithan',
@@ -9531,6 +10931,16 @@ const ind = Country(
             latitude: '19.69693000',
             longitude: '72.76543000'),
         City(
+            id: 147852,
+            name: 'Pali, Raigad',
+            latitude: '18.54138400',
+            longitude: '73.21996500'),
+        City(
+            id: 147853,
+            name: 'Palso',
+            latitude: '20.76666667',
+            longitude: '77.23333333'),
+        City(
             id: 133537,
             name: 'Panchgani',
             latitude: '17.92449000',
@@ -9540,6 +10950,11 @@ const ind = Country(
             name: 'Pandharpur',
             latitude: '17.67924000',
             longitude: '75.33098000'),
+        City(
+            id: 147854,
+            name: 'Pandhurli',
+            latitude: '19.82905200',
+            longitude: '73.85474500'),
         City(
             id: 133349,
             name: 'Panhala',
@@ -9556,15 +10971,30 @@ const ind = Country(
             latitude: '19.50000000',
             longitude: '76.75000000'),
         City(
+            id: 147855,
+            name: 'Parel',
+            latitude: '18.99000000',
+            longitude: '72.84000000'),
+        City(
             id: 133360,
             name: 'Parli Vaijnath',
             latitude: '18.85057000',
             longitude: '76.53163000'),
         City(
+            id: 147856,
+            name: 'Parner',
+            latitude: '19.00300000',
+            longitude: '74.43800000'),
+        City(
             id: 133364,
             name: 'Parola',
             latitude: '20.88098000',
             longitude: '75.11937000'),
+        City(
+            id: 147857,
+            name: 'Parseoni',
+            latitude: '21.38333333',
+            longitude: '79.15000000'),
         City(
             id: 133367,
             name: 'Partur',
@@ -9591,10 +11021,35 @@ const ind = Country(
             latitude: '20.46093000',
             longitude: '76.93725000'),
         City(
+            id: 147858,
+            name: 'Paturda',
+            latitude: '20.95000000',
+            longitude: '76.71666667'),
+        City(
+            id: 147859,
+            name: 'Paud',
+            latitude: '18.52416667',
+            longitude: '73.61583333'),
+        City(
+            id: 147860,
+            name: 'Pauni',
+            latitude: '20.78000000',
+            longitude: '79.63000000'),
+        City(
             id: 133397,
             name: 'Pawni',
             latitude: '20.79229000',
             longitude: '79.63644000'),
+        City(
+            id: 147861,
+            name: 'Pedgaon',
+            latitude: '18.51166667',
+            longitude: '74.70750000'),
+        City(
+            id: 147862,
+            name: 'Peint',
+            latitude: '20.25844722',
+            longitude: '73.50305278'),
         City(
             id: 133404,
             name: 'Pen',
@@ -9606,10 +11061,35 @@ const ind = Country(
             latitude: '17.99113000',
             longitude: '74.43177000'),
         City(
+            id: 147863,
+            name: 'Phulambri',
+            latitude: '20.10000000',
+            longitude: '75.41666667'),
+        City(
+            id: 147864,
+            name: 'Piliv',
+            latitude: '17.67884200',
+            longitude: '74.96641200'),
+        City(
+            id: 147865,
+            name: 'Pimpalgaon Baswant',
+            latitude: '20.16666667',
+            longitude: '73.98333333'),
+        City(
+            id: 147866,
+            name: 'Pimpalgaon Raja',
+            latitude: '20.71666667',
+            longitude: '76.43333333'),
+        City(
             id: 133449,
             name: 'Pimpri',
             latitude: '18.62292000',
             longitude: '73.80696000'),
+        City(
+            id: 147867,
+            name: 'Pimpri-Chinchwad',
+            latitude: '18.62777778',
+            longitude: '73.81305556'),
         City(
             id: 133564,
             name: 'Pipri',
@@ -9620,6 +11100,16 @@ const ind = Country(
             name: 'Powai',
             latitude: '19.11640000',
             longitude: '72.90471000'),
+        City(
+            id: 147868,
+            name: 'Prabhadevi',
+            latitude: '19.01690500',
+            longitude: '72.82864900'),
+        City(
+            id: 147869,
+            name: 'Prakasha',
+            latitude: '21.51666667',
+            longitude: '74.31666667'),
         City(
             id: 133496,
             name: 'Pulgaon',
@@ -9636,6 +11126,16 @@ const ind = Country(
             latitude: '18.74673000',
             longitude: '73.75465000'),
         City(
+            id: 147870,
+            name: 'Puntamba',
+            latitude: '19.75000000',
+            longitude: '74.63333333'),
+        City(
+            id: 147871,
+            name: 'Pural',
+            latitude: '16.45000000',
+            longitude: '73.36666667'),
+        City(
             id: 133571,
             name: 'Purna',
             latitude: '19.18170000',
@@ -9645,6 +11145,16 @@ const ind = Country(
             name: 'Pusad',
             latitude: '19.91274000',
             longitude: '77.57838000'),
+        City(
+            id: 147872,
+            name: 'Radhanagari',
+            latitude: '16.41388889',
+            longitude: '73.99777778'),
+        City(
+            id: 147873,
+            name: 'Rahata',
+            latitude: '19.71666667',
+            longitude: '74.48333333'),
         City(
             id: 133583,
             name: 'Rahimatpur',
@@ -9660,6 +11170,11 @@ const ind = Country(
             name: 'Raigarh',
             latitude: '18.57000000',
             longitude: '73.13000000'),
+        City(
+            id: 147874,
+            name: 'Raireshwar',
+            latitude: '18.05000000',
+            longitude: '73.73333333'),
         City(
             id: 133687,
             name: 'Rajapur',
@@ -9681,6 +11196,16 @@ const ind = Country(
             latitude: '19.77947000',
             longitude: '79.36459000'),
         City(
+            id: 147875,
+            name: 'Ralegaon',
+            latitude: '20.25000000',
+            longitude: '79.81000000'),
+        City(
+            id: 147876,
+            name: 'Ramewadi',
+            latitude: '16.03333333',
+            longitude: '74.35000000'),
+        City(
             id: 133710,
             name: 'Ramtek',
             latitude: '21.39562000',
@@ -9696,10 +11221,25 @@ const ind = Country(
             latitude: '21.24757000',
             longitude: '76.03509000'),
         City(
+            id: 147877,
+            name: 'Renapur',
+            latitude: '18.51666667',
+            longitude: '76.60000000'),
+        City(
+            id: 147878,
+            name: 'Renavi',
+            latitude: '17.26972222',
+            longitude: '74.61055556'),
+        City(
             id: 133631,
             name: 'Revadanda',
             latitude: '18.55363000',
             longitude: '72.92559000'),
+        City(
+            id: 147879,
+            name: 'Revdanda',
+            latitude: '18.55000000',
+            longitude: '72.93333333'),
         City(
             id: 133639,
             name: 'Risod',
@@ -9710,6 +11250,36 @@ const ind = Country(
             name: 'Roha',
             latitude: '18.43687000',
             longitude: '73.11964000'),
+        City(
+            id: 147880,
+            name: 'Sailu',
+            latitude: '19.47000000',
+            longitude: '76.47000000'),
+        City(
+            id: 147881,
+            name: 'Sakol',
+            latitude: '18.28250000',
+            longitude: '76.88444444'),
+        City(
+            id: 147882,
+            name: 'Sakoli',
+            latitude: '21.08000000',
+            longitude: '79.98000000'),
+        City(
+            id: 147883,
+            name: 'Sakri',
+            latitude: '20.99027778',
+            longitude: '74.31444444'),
+        City(
+            id: 147884,
+            name: 'Samudrapur',
+            latitude: '20.65000000',
+            longitude: '78.96666667'),
+        City(
+            id: 147885,
+            name: 'Sangameshwar',
+            latitude: '17.18694444',
+            longitude: '73.55305556'),
         City(
             id: 133780,
             name: 'Sangamner',
@@ -9726,15 +11296,40 @@ const ind = Country(
             latitude: '17.43948000',
             longitude: '75.19379000'),
         City(
+            id: 147886,
+            name: 'Sangole',
+            latitude: '17.43944444',
+            longitude: '75.19388889'),
+        City(
+            id: 147887,
+            name: 'Sangrampur, Maharashtra',
+            latitude: '21.03000000',
+            longitude: '76.68000000'),
+        City(
+            id: 147888,
+            name: 'Saoli',
+            latitude: '20.08133056',
+            longitude: '79.78286111'),
+        City(
             id: 133797,
             name: 'Saoner',
             latitude: '21.38510000',
             longitude: '78.92155000'),
         City(
+            id: 147889,
+            name: 'Sarangkheda',
+            latitude: '21.43327300',
+            longitude: '74.52642100'),
+        City(
             id: 134081,
             name: 'Sasvad',
             latitude: '18.34351000',
             longitude: '74.03102000'),
+        City(
+            id: 147890,
+            name: 'Saswad',
+            latitude: '18.55000000',
+            longitude: '74.00000000'),
         City(
             id: 133825,
             name: 'Satana',
@@ -9751,6 +11346,11 @@ const ind = Country(
             latitude: '17.72601000',
             longitude: '74.06433000'),
         City(
+            id: 147891,
+            name: 'Satpati',
+            latitude: '19.71666667',
+            longitude: '72.70000000'),
+        City(
             id: 134082,
             name: 'Savantvadi',
             latitude: '15.90413000',
@@ -9761,10 +11361,30 @@ const ind = Country(
             latitude: '21.15054000',
             longitude: '75.88938000'),
         City(
+            id: 147892,
+            name: 'Savlaj',
+            latitude: '17.10000000',
+            longitude: '74.78000000'),
+        City(
+            id: 147893,
+            name: 'Sawantvadi',
+            latitude: '16.00000000',
+            longitude: '73.75000000'),
+        City(
             id: 133836,
             name: 'Selu',
             latitude: '19.45512000',
             longitude: '76.44073000'),
+        City(
+            id: 147894,
+            name: 'Sevagram',
+            latitude: '20.73499167',
+            longitude: '78.66256944'),
+        City(
+            id: 147895,
+            name: 'Sewri',
+            latitude: '19.00000000',
+            longitude: '72.86000000'),
         City(
             id: 133908,
             name: 'Shahada',
@@ -9776,15 +11396,35 @@ const ind = Country(
             latitude: '19.45231000',
             longitude: '73.32572000'),
         City(
+            id: 147896,
+            name: 'Shedbal',
+            latitude: '16.68916667',
+            longitude: '74.75425556'),
+        City(
             id: 133857,
             name: 'Shegaon',
             latitude: '20.79320000',
             longitude: '76.69921000'),
         City(
+            id: 147897,
+            name: 'Shevgaon',
+            latitude: '19.35000000',
+            longitude: '75.23333333'),
+        City(
+            id: 147898,
+            name: 'Shikrapur',
+            latitude: '18.69361111',
+            longitude: '74.13805556'),
+        City(
             id: 133873,
             name: 'Shiraguppi',
             latitude: '16.61875000',
             longitude: '74.70907000'),
+        City(
+            id: 147899,
+            name: 'Shirala',
+            latitude: '16.98401111',
+            longitude: '74.12415278'),
         City(
             id: 133874,
             name: 'Shirdi',
@@ -9796,10 +11436,20 @@ const ind = Country(
             latitude: '19.69589000',
             longitude: '72.71527000'),
         City(
+            id: 147900,
+            name: 'Shirol',
+            latitude: '16.73333333',
+            longitude: '74.60000000'),
+        City(
             id: 133877,
             name: 'Shirpur',
             latitude: '21.34821000',
             longitude: '74.88035000'),
+        City(
+            id: 147901,
+            name: 'Shirud',
+            latitude: '20.71666667',
+            longitude: '74.90000000'),
         City(
             id: 133878,
             name: 'Shirwal',
@@ -9821,6 +11471,11 @@ const ind = Country(
             latitude: '20.30303000',
             longitude: '75.65284000'),
         City(
+            id: 147902,
+            name: 'Sindewahi',
+            latitude: '20.28333333',
+            longitude: '79.65000000'),
+        City(
             id: 133943,
             name: 'Sindhudurg',
             latitude: '16.17000000',
@@ -9831,25 +11486,60 @@ const ind = Country(
             latitude: '20.80509000',
             longitude: '78.88752000'),
         City(
+            id: 147903,
+            name: 'Sindkheda',
+            latitude: '21.26666667',
+            longitude: '74.73333333'),
+        City(
             id: 133953,
             name: 'Sinnar',
             latitude: '19.84505000',
             longitude: '73.99866000'),
+        City(
+            id: 147904,
+            name: 'Sion, Mumbai',
+            latitude: '19.04000000',
+            longitude: '72.86000000'),
+        City(
+            id: 147905,
+            name: 'Sironcha',
+            latitude: '18.83000000',
+            longitude: '79.96000000'),
         City(
             id: 133970,
             name: 'Sirur',
             latitude: '18.82760000',
             longitude: '74.37475000'),
         City(
+            id: 147906,
+            name: 'Sivala, East Godavari district',
+            latitude: '16.75722222',
+            longitude: '82.08861111'),
+        City(
             id: 133986,
             name: 'Solapur',
             latitude: '17.75000000',
             longitude: '75.50000000'),
         City(
+            id: 147907,
+            name: 'Sonala',
+            latitude: '21.11666667',
+            longitude: '76.73333333'),
+        City(
             id: 133993,
             name: 'Sonegaon',
             latitude: '20.62915000',
             longitude: '78.69207000'),
+        City(
+            id: 147908,
+            name: 'Songir',
+            latitude: '21.08333333',
+            longitude: '74.78333333'),
+        City(
+            id: 147909,
+            name: 'Sonvad',
+            latitude: '21.08333333',
+            longitude: '75.35000000'),
         City(
             id: 134015,
             name: 'Soygaon',
@@ -9866,20 +11556,45 @@ const ind = Country(
             latitude: '20.55956000',
             longitude: '73.63747000'),
         City(
+            id: 147910,
+            name: 'Taklibhan',
+            latitude: '19.61670000',
+            longitude: '74.80000000'),
+        City(
+            id: 147911,
+            name: 'Talbid',
+            latitude: '17.35000000',
+            longitude: '74.13000000'),
+        City(
             id: 134100,
             name: 'Talegaon Dabhade',
             latitude: '18.73502000',
             longitude: '73.67561000'),
+        City(
+            id: 147912,
+            name: 'Talegaon Dhamdhere',
+            latitude: '18.66780000',
+            longitude: '74.15360000'),
         City(
             id: 134104,
             name: 'Taloda',
             latitude: '21.56128000',
             longitude: '74.21238000'),
         City(
+            id: 147913,
+            name: 'Talode',
+            latitude: '21.56074167',
+            longitude: '74.83000000'),
+        City(
             id: 134241,
             name: 'Tarapur',
             latitude: '19.86499000',
             longitude: '72.68426000'),
+        City(
+            id: 147914,
+            name: 'Tardeo',
+            latitude: '18.97000000',
+            longitude: '72.81000000'),
         City(
             id: 134242,
             name: 'Tasgaon',
@@ -9891,6 +11606,11 @@ const ind = Country(
             latitude: '21.02694000',
             longitude: '76.83889000'),
         City(
+            id: 147915,
+            name: 'Thalner',
+            latitude: '21.25000000',
+            longitude: '74.96670000'),
+        City(
             id: 134138,
             name: 'Thane',
             latitude: '19.33333000',
@@ -9900,6 +11620,11 @@ const ind = Country(
             name: 'Trimbak',
             latitude: '19.93268000',
             longitude: '73.52907000'),
+        City(
+            id: 147916,
+            name: 'Trombay',
+            latitude: '19.00000000',
+            longitude: '72.90000000'),
         City(
             id: 134217,
             name: 'Tuljapur',
@@ -9941,50 +11666,160 @@ const ind = Country(
             latitude: '18.87813000',
             longitude: '72.93924000'),
         City(
+            id: 147917,
+            name: 'Uruli Kanchan',
+            latitude: '18.48333333',
+            longitude: '74.13333333'),
+        City(
             id: 134379,
             name: 'Vada',
             latitude: '19.65347000',
             longitude: '73.14811000'),
+        City(
+            id: 147918,
+            name: 'Vadgaon',
+            latitude: '18.74860000',
+            longitude: '73.64100000'),
+        City(
+            id: 147919,
+            name: 'Vadner',
+            latitude: '20.25000000',
+            longitude: '74.03330000'),
         City(
             id: 134312,
             name: 'Vaijapur',
             latitude: '19.92672000',
             longitude: '74.72750000'),
         City(
+            id: 147920,
+            name: 'Vairag',
+            latitude: '18.05000000',
+            longitude: '75.80000000'),
+        City(
+            id: 147921,
+            name: 'Valsang',
+            latitude: '17.60000000',
+            longitude: '76.08330000'),
+        City(
+            id: 147922,
+            name: 'Vangaon',
+            latitude: '19.86666667',
+            longitude: '72.75000000'),
+        City(
             id: 134328,
             name: 'Varangaon',
             latitude: '21.01767000',
             longitude: '75.91042000'),
+        City(
+            id: 147923,
+            name: 'Vashi',
+            latitude: '19.08000000',
+            longitude: '73.01000000'),
         City(
             id: 134334,
             name: 'Vasind',
             latitude: '19.40844000',
             longitude: '73.26285000'),
         City(
+            id: 147924,
+            name: 'Vatul',
+            latitude: '16.75000000',
+            longitude: '73.60000000'),
+        City(
+            id: 147925,
+            name: 'Velas, Maharashtra',
+            latitude: '17.95850000',
+            longitude: '73.04980000'),
+        City(
+            id: 147926,
+            name: 'Velneshwar',
+            latitude: '17.38330000',
+            longitude: '73.20000000'),
+        City(
             id: 134346,
             name: 'Vengurla',
             latitude: '15.86125000',
             longitude: '73.63182000'),
+        City(
+            id: 147927,
+            name: 'Vijaydurg',
+            latitude: '16.56670000',
+            longitude: '73.33330000'),
+        City(
+            id: 147928,
+            name: 'Vikhroli',
+            latitude: '19.11000000',
+            longitude: '72.94000000'),
+        City(
+            id: 147929,
+            name: 'Vile Parle',
+            latitude: '19.10000000',
+            longitude: '72.83000000'),
+        City(
+            id: 147930,
+            name: 'Vinchur',
+            latitude: '20.11666667',
+            longitude: '74.28333333'),
         City(
             id: 134368,
             name: 'Virar',
             latitude: '19.45591000',
             longitude: '72.81136000'),
         City(
+            id: 147931,
+            name: 'Vita, Maharashtra',
+            latitude: '17.27110000',
+            longitude: '74.53780000'),
+        City(
             id: 134372,
             name: 'Vite',
             latitude: '17.27343000',
             longitude: '74.53792000'),
+        City(
+            id: 147932,
+            name: 'Wadala',
+            latitude: '19.02163056',
+            longitude: '72.86458889'),
         City(
             id: 134388,
             name: 'Wadgaon',
             latitude: '18.73920000',
             longitude: '73.63945000'),
         City(
+            id: 147933,
+            name: 'Wadner',
+            latitude: '20.84972222',
+            longitude: '76.33333333'),
+        City(
+            id: 147934,
+            name: 'Wadwani',
+            latitude: '18.98333333',
+            longitude: '76.05000000'),
+        City(
+            id: 147935,
+            name: 'Wagholi',
+            latitude: '17.90000000',
+            longitude: '74.08300000'),
+        City(
             id: 134390,
             name: 'Wai',
             latitude: '17.95276000',
             longitude: '73.89058000'),
+        City(
+            id: 147936,
+            name: 'Wakad',
+            latitude: '18.59930000',
+            longitude: '73.76250000'),
+        City(
+            id: 147937,
+            name: 'Walgaon',
+            latitude: '20.99890000',
+            longitude: '77.70640000'),
+        City(
+            id: 147938,
+            name: 'Walki',
+            latitude: '18.95000000',
+            longitude: '74.75000000'),
         City(
             id: 134393,
             name: 'Wani',
@@ -10010,6 +11845,11 @@ const ind = Country(
             name: 'Washim',
             latitude: '20.20000000',
             longitude: '77.20000000'),
+        City(
+            id: 147939,
+            name: 'Worli',
+            latitude: '19.00000000',
+            longitude: '72.81500000'),
         City(
             id: 134438,
             name: 'Yaval',
@@ -14057,7 +15897,7 @@ const ind = Country(
             longitude: '79.75748000'),
         City(
             id: 134472,
-            name: 'Ūttukkuli',
+            name: 'Uttukkuli',
             latitude: '11.16892000',
             longitude: '77.45431000'),
         City(
@@ -14792,10 +16632,25 @@ const ind = Country(
             latitude: '25.01579000',
             longitude: '83.03294000'),
         City(
+            id: 147426,
+            name: 'Aidalpur',
+            latitude: '26.13333333',
+            longitude: '79.45000000'),
+        City(
+            id: 147427,
+            name: 'Airwa',
+            latitude: '26.90000000',
+            longitude: '79.43333333'),
+        City(
             id: 57621,
             name: 'Akbarpur',
             latitude: '26.42953000',
             longitude: '82.53431000'),
+        City(
+            id: 147428,
+            name: 'Akola',
+            latitude: '27.06547000',
+            longitude: '77.88084000'),
         City(
             id: 57653,
             name: 'Aliganj',
@@ -14807,6 +16662,11 @@ const ind = Country(
             latitude: '27.83333000',
             longitude: '78.16667000'),
         City(
+            id: 147429,
+            name: 'Allahabad',
+            latitude: '25.45000000',
+            longitude: '81.85000000'),
+        City(
             id: 57641,
             name: 'Allahganj',
             latitude: '27.54540000',
@@ -14816,6 +16676,11 @@ const ind = Country(
             name: 'Amanpur',
             latitude: '27.71222000',
             longitude: '78.73788000'),
+        City(
+            id: 147430,
+            name: 'Amauli',
+            latitude: '26.01666667',
+            longitude: '80.30000000'),
         City(
             id: 57666,
             name: 'Ambahta',
@@ -14857,6 +16722,16 @@ const ind = Country(
             latitude: '28.27402000',
             longitude: '79.16521000'),
         City(
+            id: 147431,
+            name: 'Araul',
+            latitude: '26.91700000',
+            longitude: '80.03300000'),
+        City(
+            id: 147432,
+            name: 'Asalatganj',
+            latitude: '26.68333333',
+            longitude: '79.85000000'),
+        City(
             id: 57755,
             name: 'Atarra',
             latitude: '25.28618000',
@@ -14892,6 +16767,11 @@ const ind = Country(
             latitude: '26.06832000',
             longitude: '83.18358000'),
         City(
+            id: 147433,
+            name: 'Azizpur',
+            latitude: '26.97638889',
+            longitude: '79.22138889'),
+        City(
             id: 57779,
             name: 'Baberu',
             latitude: '25.54711000',
@@ -14926,6 +16806,11 @@ const ind = Country(
             name: 'Baghpat',
             latitude: '28.95000000',
             longitude: '77.21670000'),
+        City(
+            id: 147434,
+            name: 'Baghra',
+            latitude: '29.46666667',
+            longitude: '77.58333333'),
         City(
             id: 58112,
             name: 'Bah',
@@ -14971,6 +16856,21 @@ const ind = Country(
             name: 'Bakewar',
             latitude: '26.66226000',
             longitude: '79.17625000'),
+        City(
+            id: 147435,
+            name: 'Baksar',
+            latitude: '28.76666667',
+            longitude: '78.01666667'),
+        City(
+            id: 147436,
+            name: 'Balamau',
+            latitude: '27.16666667',
+            longitude: '80.35000000'),
+        City(
+            id: 147437,
+            name: 'Baldeo',
+            latitude: '27.41666667',
+            longitude: '77.81666667'),
         City(
             id: 57825,
             name: 'Baldev',
@@ -15022,6 +16922,11 @@ const ind = Country(
             latitude: '27.17749000',
             longitude: '82.93442000'),
         City(
+            id: 147438,
+            name: 'Banthra',
+            latitude: '27.91720000',
+            longitude: '79.81740000'),
+        City(
             id: 58138,
             name: 'Bara Banki',
             latitude: '26.93864000',
@@ -15042,15 +16947,35 @@ const ind = Country(
             latitude: '28.41667000',
             longitude: '79.38333000'),
         City(
+            id: 147439,
+            name: 'Barhalganj',
+            latitude: '26.28333333',
+            longitude: '83.50000000'),
+        City(
+            id: 147440,
+            name: 'Barkhera',
+            latitude: '28.45000000',
+            longitude: '79.80000000'),
+        City(
             id: 57877,
             name: 'Barkhera Kalan',
             latitude: '28.45209000',
             longitude: '79.80655000'),
         City(
+            id: 147441,
+            name: 'Barokhar',
+            latitude: '24.91666667',
+            longitude: '81.96666667'),
+        City(
             id: 57887,
             name: 'Barsana',
             latitude: '27.64802000',
             longitude: '77.37640000'),
+        City(
+            id: 147442,
+            name: 'Barwar (Lakhimpur Kheri)',
+            latitude: '25.50583333',
+            longitude: '79.13972222'),
         City(
             id: 57901,
             name: 'Basti',
@@ -15067,6 +16992,11 @@ const ind = Country(
             latitude: '25.92058000',
             longitude: '81.99629000'),
         City(
+            id: 147443,
+            name: 'Belthara',
+            latitude: '26.12694444',
+            longitude: '83.89138889'),
+        City(
             id: 57934,
             name: 'Beniganj',
             latitude: '27.29293000',
@@ -15082,6 +17012,11 @@ const ind = Country(
             latitude: '27.21869000',
             longitude: '79.29761000'),
         City(
+            id: 147444,
+            name: 'Bhadarsa',
+            latitude: '26.66027778',
+            longitude: '82.12416667'),
+        City(
             id: 57951,
             name: 'Bhadohi',
             latitude: '25.39526000',
@@ -15091,6 +17026,16 @@ const ind = Country(
             name: 'Bhagwantnagar',
             latitude: '26.22383000',
             longitude: '80.75750000'),
+        City(
+            id: 147445,
+            name: 'Bharatpura',
+            latitude: '25.23333333',
+            longitude: '78.96666667'),
+        City(
+            id: 147446,
+            name: 'Bhargain',
+            latitude: '27.61500000',
+            longitude: '79.14416667'),
         City(
             id: 57965,
             name: 'Bharthana',
@@ -15102,20 +17047,45 @@ const ind = Country(
             latitude: '25.56078000',
             longitude: '81.49164000'),
         City(
+            id: 147447,
+            name: 'Bhaupur',
+            latitude: '26.91666667',
+            longitude: '79.21666667'),
+        City(
+            id: 147448,
+            name: 'Bhimtal',
+            latitude: '29.34444444',
+            longitude: '79.56305556'),
+        City(
             id: 57984,
             name: 'Bhinga',
             latitude: '27.70283000',
             longitude: '81.93430000'),
+        City(
+            id: 147449,
+            name: 'Bhognipur',
+            latitude: '26.24000000',
+            longitude: '79.80000000'),
         City(
             id: 57993,
             name: 'Bhongaon',
             latitude: '27.25515000',
             longitude: '79.18118000'),
         City(
+            id: 147450,
+            name: 'Bidhnu',
+            latitude: '26.33333333',
+            longitude: '80.28333333'),
+        City(
             id: 58027,
             name: 'Bidhuna',
             latitude: '26.80172000',
             longitude: '79.50829000'),
+        City(
+            id: 147451,
+            name: 'Bighapur',
+            latitude: '26.35000000',
+            longitude: '80.68000000'),
         City(
             id: 58155,
             name: 'Bighapur Khurd',
@@ -15172,15 +17142,40 @@ const ind = Country(
             latitude: '26.12705000',
             longitude: '83.89148000'),
         City(
+            id: 147452,
+            name: 'Binauli',
+            latitude: '29.09416667',
+            longitude: '77.40083333'),
+        City(
+            id: 147453,
+            name: 'Binaur',
+            latitude: '26.38333333',
+            longitude: '80.16666667'),
+        City(
             id: 58057,
             name: 'Bindki',
             latitude: '26.03613000',
             longitude: '80.57617000'),
         City(
+            id: 147454,
+            name: 'Birdpur',
+            latitude: '27.38330000',
+            longitude: '83.11670000'),
+        City(
+            id: 147455,
+            name: 'Birpur',
+            latitude: '26.53000000',
+            longitude: '86.25000000'),
+        City(
             id: 58161,
             name: 'Bisalpur',
             latitude: '28.29253000',
             longitude: '79.80472000'),
+        City(
+            id: 147456,
+            name: 'Bisanda Buzurg',
+            latitude: '25.41666667',
+            longitude: '80.61666667'),
         City(
             id: 58062,
             name: 'Bisauli',
@@ -15247,6 +17242,11 @@ const ind = Country(
             latitude: '25.26134000',
             longitude: '83.26408000'),
         City(
+            id: 147457,
+            name: 'Chandausi',
+            latitude: '28.45000000',
+            longitude: '78.77000000'),
+        City(
             id: 131600,
             name: 'Chandpur',
             latitude: '29.13489000',
@@ -15287,6 +17287,11 @@ const ind = Country(
             latitude: '27.14872000',
             longitude: '79.50078000'),
         City(
+            id: 147458,
+            name: 'Chhitauni',
+            latitude: '27.11666667',
+            longitude: '83.98333333'),
+        City(
             id: 131537,
             name: 'Chhutmalpur',
             latitude: '30.03209000',
@@ -15307,6 +17312,11 @@ const ind = Country(
             latitude: '25.20511000',
             longitude: '81.08962000'),
         City(
+            id: 147459,
+            name: 'Chitrakoot Dham',
+            latitude: '25.20000000',
+            longitude: '80.90000000'),
+        City(
             id: 131579,
             name: 'Chopan',
             latitude: '24.51954000',
@@ -15316,6 +17326,11 @@ const ind = Country(
             name: 'Chunar',
             latitude: '25.12776000',
             longitude: '82.88210000'),
+        City(
+            id: 147460,
+            name: 'Churk',
+            latitude: '24.65000000',
+            longitude: '83.10000000'),
         City(
             id: 131621,
             name: 'Colonelganj',
@@ -15336,6 +17351,16 @@ const ind = Country(
             name: 'Dankaur',
             latitude: '28.35121000',
             longitude: '77.55508000'),
+        City(
+            id: 147461,
+            name: 'Daraganj',
+            latitude: '25.43333333',
+            longitude: '81.88333333'),
+        City(
+            id: 147462,
+            name: 'Daranagar',
+            latitude: '25.68162080',
+            longitude: '81.34975790'),
         City(
             id: 131811,
             name: 'Dasna',
@@ -15362,6 +17387,11 @@ const ind = Country(
             latitude: '29.69505000',
             longitude: '77.67964000'),
         City(
+            id: 147463,
+            name: 'Deogarh',
+            latitude: '24.52600000',
+            longitude: '78.23800000'),
+        City(
             id: 131689,
             name: 'Deoranian',
             latitude: '28.62989000',
@@ -15371,6 +17401,11 @@ const ind = Country(
             name: 'Deoria',
             latitude: '26.66667000',
             longitude: '83.75000000'),
+        City(
+            id: 147464,
+            name: 'Derapur',
+            latitude: '26.41666667',
+            longitude: '79.80000000'),
         City(
             id: 131708,
             name: 'Dewa',
@@ -15387,6 +17422,16 @@ const ind = Country(
             latitude: '28.95912000',
             longitude: '78.25629000'),
         City(
+            id: 147465,
+            name: 'Dhanghata',
+            latitude: '26.55419444',
+            longitude: '83.00806111'),
+        City(
+            id: 147466,
+            name: 'Dharau',
+            latitude: '26.38333333',
+            longitude: '79.96666667'),
+        City(
             id: 131731,
             name: 'Dhaurahra',
             latitude: '27.99814000',
@@ -15397,10 +17442,20 @@ const ind = Country(
             latitude: '28.20849000',
             longitude: '78.26173000'),
         City(
+            id: 147467,
+            name: 'Divrasai',
+            latitude: '26.81900000',
+            longitude: '79.14900000'),
+        City(
             id: 131783,
             name: 'Dohrighat',
             latitude: '26.27217000',
             longitude: '83.50916000'),
+        City(
+            id: 147468,
+            name: 'Domariaganj',
+            latitude: '27.22000000',
+            longitude: '82.67000000'),
         City(
             id: 131791,
             name: 'Dostpur',
@@ -15421,6 +17476,11 @@ const ind = Country(
             name: 'Etawah',
             latitude: '26.75000000',
             longitude: '79.25000000'),
+        City(
+            id: 147469,
+            name: 'Etmadpur',
+            latitude: '27.23971944',
+            longitude: '78.20000000'),
         City(
             id: 131851,
             name: 'Faizabad',
@@ -15467,6 +17527,11 @@ const ind = Country(
             latitude: '25.75000000',
             longitude: '80.75000000'),
         City(
+            id: 147470,
+            name: 'Fatehpur (Barabanki)',
+            latitude: '27.17000000',
+            longitude: '81.22000000'),
+        City(
             id: 131869,
             name: 'Fatehpur Chaurasi',
             latitude: '26.78925000',
@@ -15487,6 +17552,21 @@ const ind = Country(
             latitude: '26.77549000',
             longitude: '82.15018000'),
         City(
+            id: 147471,
+            name: 'Gahlon',
+            latitude: '26.53333333',
+            longitude: '79.96666667'),
+        City(
+            id: 147472,
+            name: 'Gahmar',
+            latitude: '25.49700000',
+            longitude: '83.82200000'),
+        City(
+            id: 147473,
+            name: 'Gaini',
+            latitude: '28.21000000',
+            longitude: '79.16000000'),
+        City(
             id: 131894,
             name: 'Gajraula',
             latitude: '28.84570000',
@@ -15496,6 +17576,11 @@ const ind = Country(
             name: 'Gangoh',
             latitude: '29.78004000',
             longitude: '77.26346000'),
+        City(
+            id: 147474,
+            name: 'Ganj Dundawara',
+            latitude: '27.73277778',
+            longitude: '78.94166667'),
         City(
             id: 131912,
             name: 'Ganj Dundwara',
@@ -15521,6 +17606,16 @@ const ind = Country(
             name: 'Garhmuktesar',
             latitude: '28.78732000',
             longitude: '78.10214000'),
+        City(
+            id: 147475,
+            name: 'Garhwa',
+            latitude: '24.18000000',
+            longitude: '83.82000000'),
+        City(
+            id: 147476,
+            name: 'Gauriganj',
+            latitude: '26.20600000',
+            longitude: '81.69000000'),
         City(
             id: 131929,
             name: 'Gautam Buddha Nagar',
@@ -15587,6 +17682,11 @@ const ind = Country(
             latitude: '27.18581000',
             longitude: '81.96693000'),
         City(
+            id: 147477,
+            name: 'Gonda (Aligarh)',
+            latitude: '27.83330000',
+            longitude: '77.88330000'),
+        City(
             id: 131985,
             name: 'Gonda City',
             latitude: '27.13181000',
@@ -15601,6 +17701,11 @@ const ind = Country(
             name: 'Gorakhpur',
             latitude: '26.91667000',
             longitude: '83.25000000'),
+        City(
+            id: 147478,
+            name: 'Gosainganj',
+            latitude: '26.77000000',
+            longitude: '81.12000000'),
         City(
             id: 131998,
             name: 'Goshainganj',
@@ -15662,10 +17767,20 @@ const ind = Country(
             latitude: '28.72985000',
             longitude: '77.78068000'),
         City(
+            id: 147479,
+            name: 'Haraipur',
+            latitude: '26.90000000',
+            longitude: '79.70000000'),
+        City(
             id: 132068,
             name: 'Haraiya',
             latitude: '26.79477000',
             longitude: '82.46436000'),
+        City(
+            id: 147480,
+            name: 'Harchandpur',
+            latitude: '26.36000000',
+            longitude: '81.17000000'),
         City(
             id: 132072,
             name: 'Hardoi',
@@ -15692,10 +17807,25 @@ const ind = Country(
             latitude: '26.74120000',
             longitude: '83.74526000'),
         City(
+            id: 147481,
+            name: 'Hata (India)',
+            latitude: '26.75000000',
+            longitude: '83.74000000'),
+        City(
             id: 132144,
             name: 'Hathras',
             latitude: '27.59551000',
             longitude: '78.05201000'),
+        City(
+            id: 147482,
+            name: 'Hulas',
+            latitude: '29.69027778',
+            longitude: '77.36027778'),
+        City(
+            id: 147483,
+            name: 'Ibrahimpur',
+            latitude: '26.01027778',
+            longitude: '83.16861111'),
         City(
             id: 132156,
             name: 'Iglas',
@@ -15712,10 +17842,20 @@ const ind = Country(
             latitude: '26.93521000',
             longitude: '79.67120000'),
         City(
+            id: 147484,
+            name: 'Indragarh',
+            latitude: '29.91299444',
+            longitude: '74.32284167'),
+        City(
             id: 132173,
             name: 'Islamnagar',
             latitude: '28.32896000',
             longitude: '78.72524000'),
+        City(
+            id: 147485,
+            name: 'Islamnagar (Badaun)',
+            latitude: '28.33000000',
+            longitude: '78.72000000'),
         City(
             id: 132176,
             name: 'Itaunja',
@@ -15741,6 +17881,11 @@ const ind = Country(
             name: 'Jahanabad',
             latitude: '28.63025000',
             longitude: '79.71818000'),
+        City(
+            id: 147486,
+            name: 'Jahanabad (Pilibhit)',
+            latitude: '28.63330000',
+            longitude: '79.80000000'),
         City(
             id: 132196,
             name: 'Jahangirabad',
@@ -15787,10 +17932,20 @@ const ind = Country(
             latitude: '27.47315000',
             longitude: '78.30310000'),
         City(
+            id: 147487,
+            name: 'Janghai',
+            latitude: '25.55000000',
+            longitude: '82.31666667'),
+        City(
             id: 132313,
             name: 'Jansath',
             latitude: '29.32502000',
             longitude: '77.85044000'),
+        City(
+            id: 147488,
+            name: 'Jarwa',
+            latitude: '27.65000000',
+            longitude: '82.51666667'),
         City(
             id: 132242,
             name: 'Jarwal',
@@ -15817,6 +17972,11 @@ const ind = Country(
             latitude: '28.12200000',
             longitude: '77.55734000'),
         City(
+            id: 147489,
+            name: 'Jhajhar',
+            latitude: '27.86000000',
+            longitude: '75.28000000'),
+        City(
             id: 132277,
             name: 'Jhalu',
             latitude: '29.33609000',
@@ -15842,6 +18002,11 @@ const ind = Country(
             latitude: '25.43745000',
             longitude: '81.90550000'),
         City(
+            id: 147490,
+            name: 'Jiyanpur',
+            latitude: '26.15000000',
+            longitude: '83.33000000'),
+        City(
             id: 132303,
             name: 'Jyotiba Phule Nagar',
             latitude: '28.77160000',
@@ -15866,6 +18031,11 @@ const ind = Country(
             name: 'Kadipur',
             latitude: '26.16779000',
             longitude: '82.37028000'),
+        City(
+            id: 147491,
+            name: 'Kagarol',
+            latitude: '27.01666667',
+            longitude: '77.85000000'),
         City(
             id: 132335,
             name: 'Kaimganj',
@@ -15896,6 +18066,11 @@ const ind = Country(
             name: 'Kalpi',
             latitude: '26.11667000',
             longitude: '79.73333000'),
+        City(
+            id: 147492,
+            name: 'Kalyanpur',
+            latitude: '26.51912222',
+            longitude: '80.24980556'),
         City(
             id: 132361,
             name: 'Kamalganj',
@@ -15937,10 +18112,30 @@ const ind = Country(
             latitude: '29.05939000',
             longitude: '78.62951000'),
         City(
+            id: 147493,
+            name: 'Kaptanganj',
+            latitude: '26.93000000',
+            longitude: '83.72000000'),
+        City(
+            id: 147494,
+            name: 'Kara',
+            latitude: '25.70000000',
+            longitude: '81.35000000'),
+        City(
             id: 132413,
             name: 'Karari',
             latitude: '25.45241000',
             longitude: '81.42675000'),
+        City(
+            id: 147495,
+            name: 'Karbigwan',
+            latitude: '26.20000000',
+            longitude: '80.50000000'),
+        City(
+            id: 147496,
+            name: 'Karchana',
+            latitude: '25.28000000',
+            longitude: '81.93000000'),
         City(
             id: 132400,
             name: 'Karhal',
@@ -15956,6 +18151,11 @@ const ind = Country(
             name: 'Katra',
             latitude: '27.50871000',
             longitude: '82.02636000'),
+        City(
+            id: 147497,
+            name: 'Kausani',
+            latitude: '29.84305556',
+            longitude: '79.60333333'),
         City(
             id: 132430,
             name: 'Kaushambi District',
@@ -15976,6 +18176,11 @@ const ind = Country(
             name: 'Khaga',
             latitude: '25.77215000',
             longitude: '81.10393000'),
+        City(
+            id: 147498,
+            name: 'Khailar',
+            latitude: '25.35000000',
+            longitude: '78.53000000'),
         City(
             id: 132454,
             name: 'Khair',
@@ -16062,6 +18267,11 @@ const ind = Country(
             latitude: '25.64232000',
             longitude: '81.02270000'),
         City(
+            id: 147499,
+            name: 'Kishanpur baral',
+            latitude: '29.20000000',
+            longitude: '77.28333333'),
+        City(
             id: 132532,
             name: 'Kishni',
             latitude: '27.02487000',
@@ -16097,6 +18307,16 @@ const ind = Country(
             latitude: '25.80770000',
             longitude: '79.30909000'),
         City(
+            id: 147500,
+            name: 'Kuchesar',
+            latitude: '28.68333333',
+            longitude: '77.95000000'),
+        City(
+            id: 147501,
+            name: 'Kudarkot',
+            latitude: '26.81666667',
+            longitude: '79.40000000'),
+        City(
             id: 132635,
             name: 'Kulpahar',
             latitude: '25.32007000',
@@ -16112,15 +18332,35 @@ const ind = Country(
             latitude: '28.68304000',
             longitude: '78.78559000'),
         City(
+            id: 147502,
+            name: 'Kundarki',
+            latitude: '28.68300000',
+            longitude: '78.78500000'),
+        City(
             id: 132664,
             name: 'Kurara',
             latitude: '25.98046000',
             longitude: '79.98984000'),
         City(
+            id: 147503,
+            name: 'Kurebhar,saidkhanpur',
+            latitude: '26.43333333',
+            longitude: '82.11666667'),
+        City(
             id: 132665,
             name: 'Kushinagar',
             latitude: '26.74028000',
             longitude: '83.88889000'),
+        City(
+            id: 147504,
+            name: 'Kusmara',
+            latitude: '27.11666667',
+            longitude: '79.28333333'),
+        City(
+            id: 147505,
+            name: 'Kuthaund',
+            latitude: '26.36666667',
+            longitude: '79.41666667'),
         City(
             id: 132790,
             name: 'Laharpur',
@@ -16147,10 +18387,20 @@ const ind = Country(
             latitude: '24.50000000',
             longitude: '78.50000000'),
         City(
+            id: 147506,
+            name: 'Lambhua',
+            latitude: '26.15000000',
+            longitude: '82.21000000'),
+        City(
             id: 132757,
             name: 'Lar',
             latitude: '26.20394000',
             longitude: '83.96906000'),
+        City(
+            id: 147507,
+            name: 'Lawar',
+            latitude: '29.11666667',
+            longitude: '77.76666667'),
         City(
             id: 132803,
             name: 'Lawar Khas',
@@ -16171,6 +18421,11 @@ const ind = Country(
             name: 'Lucknow District',
             latitude: '26.75000000',
             longitude: '81.00000000'),
+        City(
+            id: 147508,
+            name: 'Machhali Shahar',
+            latitude: '25.68000000',
+            longitude: '82.42000000'),
         City(
             id: 132805,
             name: 'Machhlishahr',
@@ -16217,10 +18472,25 @@ const ind = Country(
             latitude: '27.66368000',
             longitude: '80.47371000'),
         City(
+            id: 147509,
+            name: 'Mahrajganj',
+            latitude: '26.26666667',
+            longitude: '83.11666667'),
+        City(
+            id: 147510,
+            name: 'Mahrajganj (Raebareli)',
+            latitude: '26.38333333',
+            longitude: '81.28333333'),
+        City(
             id: 132840,
             name: 'Mahroni',
             latitude: '24.58624000',
             longitude: '78.72771000'),
+        City(
+            id: 147511,
+            name: 'Mahul',
+            latitude: '26.13333333',
+            longitude: '82.81666667'),
         City(
             id: 132855,
             name: 'Mailani',
@@ -16231,6 +18501,21 @@ const ind = Country(
             name: 'Mainpuri',
             latitude: '27.16667000',
             longitude: '79.00000000'),
+        City(
+            id: 147512,
+            name: 'Majhupur',
+            latitude: '27.03333333',
+            longitude: '79.41666667'),
+        City(
+            id: 147513,
+            name: 'Makanpur',
+            latitude: '26.90222222',
+            longitude: '79.97805556'),
+        City(
+            id: 147514,
+            name: 'Malasa',
+            latitude: '26.26755000',
+            longitude: '79.94489000'),
         City(
             id: 132878,
             name: 'Malihabad',
@@ -16287,6 +18572,11 @@ const ind = Country(
             latitude: '26.02940000',
             longitude: '83.50756000'),
         City(
+            id: 147515,
+            name: 'Mau Aima',
+            latitude: '25.70000000',
+            longitude: '81.91666667'),
+        City(
             id: 132945,
             name: 'Mau Aimma',
             latitude: '25.69515000',
@@ -16302,15 +18592,30 @@ const ind = Country(
             latitude: '26.42876000',
             longitude: '80.88008000'),
         City(
+            id: 147516,
+            name: 'Maurawan',
+            latitude: '26.43000000',
+            longitude: '80.88000000'),
+        City(
             id: 132951,
             name: 'Mawana',
             latitude: '29.10288000',
             longitude: '77.92199000'),
         City(
+            id: 147517,
+            name: 'Mawar',
+            latitude: '26.30416667',
+            longitude: '79.92111111'),
+        City(
             id: 132958,
             name: 'Meerut',
             latitude: '28.91667000',
             longitude: '77.68333000'),
+        City(
+            id: 147518,
+            name: 'Mehdawal',
+            latitude: '26.98333333',
+            longitude: '83.11666667'),
         City(
             id: 132962,
             name: 'Mehnagar',
@@ -16326,6 +18631,11 @@ const ind = Country(
             name: 'Milak',
             latitude: '28.61031000',
             longitude: '79.16997000'),
+        City(
+            id: 147519,
+            name: 'Milkipur',
+            latitude: '26.60000000',
+            longitude: '81.91000000'),
         City(
             id: 133096,
             name: 'Miranpur',
@@ -16387,6 +18697,26 @@ const ind = Country(
             latitude: '25.61907000',
             longitude: '83.75576000'),
         City(
+            id: 147520,
+            name: 'Mukteshwar',
+            latitude: '29.47220000',
+            longitude: '79.64790000'),
+        City(
+            id: 147521,
+            name: 'Mungra Badshahpur',
+            latitude: '25.65000000',
+            longitude: '82.18000000'),
+        City(
+            id: 147522,
+            name: 'Munsyari',
+            latitude: '30.06741389',
+            longitude: '80.23856111'),
+        City(
+            id: 147523,
+            name: 'Muradabad',
+            latitude: '28.83888889',
+            longitude: '78.77694444'),
+        City(
             id: 133043,
             name: 'Muradnagar',
             latitude: '28.78069000',
@@ -16402,6 +18732,11 @@ const ind = Country(
             latitude: '26.37837000',
             longitude: '81.79607000'),
         City(
+            id: 147524,
+            name: 'Musafirkhana',
+            latitude: '26.45000000',
+            longitude: '81.80000000'),
+        City(
             id: 133051,
             name: 'Muzaffarnagar',
             latitude: '29.45000000',
@@ -16416,6 +18751,11 @@ const ind = Country(
             name: 'Nagina',
             latitude: '29.44433000',
             longitude: '78.43646000'),
+        City(
+            id: 147525,
+            name: 'Nagla',
+            latitude: '29.01000000',
+            longitude: '79.51000000'),
         City(
             id: 133119,
             name: 'Nagram',
@@ -16457,6 +18797,21 @@ const ind = Country(
             latitude: '28.20147000',
             longitude: '78.38723000'),
         City(
+            id: 147526,
+            name: 'Narora',
+            latitude: '28.19666667',
+            longitude: '78.38138889'),
+        City(
+            id: 147527,
+            name: 'Naugama',
+            latitude: '27.70000000',
+            longitude: '79.65000000'),
+        City(
+            id: 147528,
+            name: 'Naurangpur',
+            latitude: '27.16666667',
+            longitude: '79.78333333'),
+        City(
             id: 133183,
             name: 'Nautanwa',
             latitude: '27.42752000',
@@ -16467,10 +18822,30 @@ const ind = Country(
             latitude: '26.93129000',
             longitude: '81.19841000'),
         City(
+            id: 147529,
+            name: 'Nawabganj (Barabanki)',
+            latitude: '26.94000000',
+            longitude: '81.19000000'),
+        City(
+            id: 147530,
+            name: 'Nawabganj (Bareilly)',
+            latitude: '28.54000000',
+            longitude: '79.63300000'),
+        City(
+            id: 147531,
+            name: 'Newara',
+            latitude: '27.76666667',
+            longitude: '79.28333333'),
+        City(
             id: 133212,
             name: 'Nichlaul',
             latitude: '27.31247000',
             longitude: '83.72530000'),
+        City(
+            id: 147532,
+            name: 'Nigoh',
+            latitude: '26.75000000',
+            longitude: '79.15000000'),
         City(
             id: 133215,
             name: 'Nihtaur',
@@ -16527,6 +18902,11 @@ const ind = Country(
             latitude: '28.17220000',
             longitude: '78.06376000'),
         City(
+            id: 147533,
+            name: 'Paigaon',
+            latitude: '27.78333333',
+            longitude: '77.53333333'),
+        City(
             id: 133531,
             name: 'Pali',
             latitude: '24.49188000',
@@ -16536,6 +18916,11 @@ const ind = Country(
             name: 'Palia Kalan',
             latitude: '28.43205000',
             longitude: '80.58137000'),
+        City(
+            id: 147534,
+            name: 'Paras Rampur',
+            latitude: '31.32388889',
+            longitude: '75.67472222'),
         City(
             id: 133550,
             name: 'Parichha',
@@ -16552,6 +18937,11 @@ const ind = Country(
             latitude: '26.07354000',
             longitude: '81.49207000'),
         City(
+            id: 147535,
+            name: 'Pathakpura',
+            latitude: '26.84441000',
+            longitude: '78.74037000'),
+        City(
             id: 133385,
             name: 'Patiali',
             latitude: '27.69086000',
@@ -16567,10 +18957,20 @@ const ind = Country(
             latitude: '28.06626000',
             longitude: '80.10305000'),
         City(
+            id: 147536,
+            name: 'Payagpur',
+            latitude: '27.40000000',
+            longitude: '81.80000000'),
+        City(
             id: 133432,
             name: 'Phalauda',
             latitude: '29.18824000',
             longitude: '77.82996000'),
+        City(
+            id: 147537,
+            name: 'Phaphamau',
+            latitude: '25.53333333',
+            longitude: '81.86666667'),
         City(
             id: 133435,
             name: 'Phaphund',
@@ -16582,10 +18982,20 @@ const ind = Country(
             latitude: '27.32166000',
             longitude: '78.47267000'),
         City(
+            id: 147538,
+            name: 'Pheona',
+            latitude: '29.08333333',
+            longitude: '78.35000000'),
+        City(
             id: 133443,
             name: 'Phulpur',
             latitude: '25.54895000',
             longitude: '82.08950000'),
+        City(
+            id: 147539,
+            name: 'Pichhaura',
+            latitude: '26.33333333',
+            longitude: '79.31666667'),
         City(
             id: 133445,
             name: 'Pihani',
@@ -16602,6 +19012,11 @@ const ind = Country(
             latitude: '28.71271000',
             longitude: '77.65600000'),
         City(
+            id: 147540,
+            name: 'Pilkhuwa',
+            latitude: '28.71196944',
+            longitude: '77.65445556'),
+        City(
             id: 133452,
             name: 'Pinahat',
             latitude: '26.88487000',
@@ -16611,6 +19026,11 @@ const ind = Country(
             name: 'Pipraich',
             latitude: '26.82745000',
             longitude: '83.52632000'),
+        City(
+            id: 147541,
+            name: 'Pipri',
+            latitude: '24.18000000',
+            longitude: '83.00000000'),
         City(
             id: 133488,
             name: 'Pratapgarh',
@@ -16632,15 +19052,30 @@ const ind = Country(
             latitude: '28.51283000',
             longitude: '80.14829000'),
         City(
+            id: 147542,
+            name: 'Purmafi',
+            latitude: '29.55000000',
+            longitude: '77.26666667'),
+        City(
             id: 133514,
             name: 'Purwa',
             latitude: '26.45756000',
             longitude: '80.77403000'),
         City(
+            id: 147543,
+            name: 'Qadirganj',
+            latitude: '27.78333333',
+            longitude: '79.06666667'),
+        City(
             id: 133578,
             name: 'Rabupura',
             latitude: '28.25153000',
             longitude: '77.60253000'),
+        City(
+            id: 147544,
+            name: 'Radha Kund',
+            latitude: '27.52444444',
+            longitude: '77.49027778'),
         City(
             id: 133658,
             name: 'Radhakund',
@@ -16682,6 +19117,11 @@ const ind = Country(
             latitude: '25.25034000',
             longitude: '79.06204000'),
         City(
+            id: 147545,
+            name: 'Ranipur Barsi',
+            latitude: '29.90000000',
+            longitude: '77.21666667'),
+        City(
             id: 133612,
             name: 'Rasra',
             latitude: '25.85760000',
@@ -16702,6 +19142,16 @@ const ind = Country(
             latitude: '27.55607000',
             longitude: '77.78972000'),
         City(
+            id: 147546,
+            name: 'Rehar',
+            latitude: '29.36666667',
+            longitude: '78.76666667'),
+        City(
+            id: 147547,
+            name: 'Renukoot',
+            latitude: '24.20000000',
+            longitude: '83.03000000'),
+        City(
             id: 133628,
             name: 'Renukut',
             latitude: '24.21641000',
@@ -16711,6 +19161,11 @@ const ind = Country(
             name: 'Reoti',
             latitude: '25.85091000',
             longitude: '84.37780000'),
+        City(
+            id: 147548,
+            name: 'Reotipur',
+            latitude: '25.55000000',
+            longitude: '83.71666667'),
         City(
             id: 133637,
             name: 'Richha',
@@ -16727,10 +19182,25 @@ const ind = Country(
             latitude: '26.44467000',
             longitude: '83.61302000'),
         City(
+            id: 147549,
+            name: 'Rudauli',
+            latitude: '26.75000000',
+            longitude: '81.75000000'),
+        City(
             id: 133655,
             name: 'Rura',
             latitude: '26.49001000',
             longitude: '79.90108000'),
+        City(
+            id: 147550,
+            name: 'Sabalpur',
+            latitude: '27.17604900',
+            longitude: '79.42012000'),
+        City(
+            id: 147551,
+            name: 'Sachendi',
+            latitude: '26.37116500',
+            longitude: '80.11230000'),
         City(
             id: 133744,
             name: 'Sadabad',
@@ -16767,15 +19237,35 @@ const ind = Country(
             latitude: '27.79603000',
             longitude: '78.83373000'),
         City(
+            id: 147552,
+            name: 'Sahibabad',
+            latitude: '28.68333333',
+            longitude: '77.40000000'),
+        City(
+            id: 147553,
+            name: 'Sahpau',
+            latitude: '27.43527778',
+            longitude: '78.14138889'),
+        City(
             id: 133755,
             name: 'Saidpur',
             latitude: '25.53749000',
             longitude: '83.22378000'),
         City(
+            id: 147554,
+            name: 'Sakhanu',
+            latitude: '27.95472222',
+            longitude: '79.22750000'),
+        City(
             id: 133762,
             name: 'Sakit',
             latitude: '27.43463000',
             longitude: '78.77903000'),
+        City(
+            id: 147555,
+            name: 'Salempur',
+            latitude: '26.30000000',
+            longitude: '83.91666667'),
         City(
             id: 133765,
             name: 'Salon',
@@ -16841,6 +19331,11 @@ const ind = Country(
             name: 'Sarila',
             latitude: '25.77579000',
             longitude: '79.67535000'),
+        City(
+            id: 147556,
+            name: 'Sarurpur',
+            latitude: '29.03333333',
+            longitude: '77.23333333'),
         City(
             id: 134080,
             name: 'Sasni',
@@ -16917,10 +19412,20 @@ const ind = Country(
             latitude: '29.32704000',
             longitude: '78.57429000'),
         City(
+            id: 147557,
+            name: 'Shibnagar',
+            latitude: '28.50000000',
+            longitude: '79.98333333'),
+        City(
             id: 133869,
             name: 'Shikarpur',
             latitude: '28.28072000',
             longitude: '78.01411000'),
+        City(
+            id: 147558,
+            name: 'Shikarpur (Bulandshahr)',
+            latitude: '28.28000000',
+            longitude: '78.02000000'),
         City(
             id: 133867,
             name: 'Shikohabad',
@@ -16932,6 +19437,11 @@ const ind = Country(
             latitude: '28.72928000',
             longitude: '79.31469000'),
         City(
+            id: 147559,
+            name: 'Shivrajpur',
+            latitude: '26.85722222',
+            longitude: '79.11500000'),
+        City(
             id: 133885,
             name: 'Shrawasti',
             latitude: '27.50746000',
@@ -16941,6 +19451,11 @@ const ind = Country(
             name: 'Siddharthnagar',
             latitude: '27.25797000',
             longitude: '83.01465000'),
+        City(
+            id: 147560,
+            name: 'Siddhaur',
+            latitude: '26.76944444',
+            longitude: '81.41805556'),
         City(
             id: 133921,
             name: 'Sidhauli',
@@ -16971,6 +19486,11 @@ const ind = Country(
             name: 'Sikandra Rao',
             latitude: '27.68859000',
             longitude: '78.37985000'),
+        City(
+            id: 147561,
+            name: 'Sikandrabad',
+            latitude: '28.44952500',
+            longitude: '77.69415278'),
         City(
             id: 133969,
             name: 'Sirathu',
@@ -17052,6 +19572,11 @@ const ind = Country(
             latitude: '28.97621000',
             longitude: '78.94187000'),
         City(
+            id: 147562,
+            name: 'Terha',
+            latitude: '25.83330000',
+            longitude: '80.25000000'),
+        City(
             id: 134136,
             name: 'Thakurdwara',
             latitude: '29.19203000',
@@ -17061,6 +19586,11 @@ const ind = Country(
             name: 'Thana Bhawan',
             latitude: '29.58605000',
             longitude: '77.41811000'),
+        City(
+            id: 147563,
+            name: 'Tigri',
+            latitude: '28.51083333',
+            longitude: '77.23888889'),
         City(
             id: 134170,
             name: 'Tikaitnagar',
@@ -17077,6 +19607,11 @@ const ind = Country(
             latitude: '27.96282000',
             longitude: '79.73827000'),
         City(
+            id: 147564,
+            name: 'Tilsahri',
+            latitude: '26.33330000',
+            longitude: '80.41670000'),
+        City(
             id: 134173,
             name: 'Tindwari',
             latitude: '25.61739000',
@@ -17086,6 +19621,11 @@ const ind = Country(
             name: 'Titron',
             latitude: '29.66824000',
             longitude: '77.32391000'),
+        City(
+            id: 147565,
+            name: 'Tori Fatehpur',
+            latitude: '25.45000000',
+            longitude: '79.13330000'),
         City(
             id: 134210,
             name: 'Tori-Fatehpur',
@@ -17112,8 +19652,13 @@ const ind = Country(
             latitude: '28.00311000',
             longitude: '79.00821000'),
         City(
+            id: 147566,
+            name: 'Umri',
+            latitude: '26.33333333',
+            longitude: '79.25000000'),
+        City(
             id: 134471,
-            name: 'Ūn',
+            name: 'Un',
             latitude: '29.58479000',
             longitude: '77.25540000'),
         City(
@@ -17122,10 +19667,20 @@ const ind = Country(
             latitude: '26.50000000',
             longitude: '80.50000000'),
         City(
+            id: 147567,
+            name: 'Usawan',
+            latitude: '27.81583333',
+            longitude: '79.34861111'),
+        City(
             id: 134294,
             name: 'Usehat',
             latitude: '27.79796000',
             longitude: '79.23763000'),
+        City(
+            id: 147568,
+            name: 'Uska',
+            latitude: '27.20000000',
+            longitude: '83.11666667'),
         City(
             id: 134296,
             name: 'Utraula',
@@ -17137,15 +19692,30 @@ const ind = Country(
             latitude: '25.31668000',
             longitude: '83.01041000'),
         City(
+            id: 147569,
+            name: 'Vindhyachal',
+            latitude: '25.16670000',
+            longitude: '82.50000000'),
+        City(
             id: 134376,
             name: 'Vrindavan',
             latitude: '27.58105000',
             longitude: '77.69662000'),
         City(
+            id: 147570,
+            name: 'Walterganj',
+            latitude: '26.86670000',
+            longitude: '82.71670000'),
+        City(
             id: 134401,
             name: 'Wazirganj',
             latitude: '28.21145000',
             longitude: '79.05665000'),
+        City(
+            id: 147571,
+            name: 'Yusufpur',
+            latitude: '25.66670000',
+            longitude: '83.46670000'),
         City(
             id: 134439,
             name: 'Zafarabad',

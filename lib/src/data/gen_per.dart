@@ -1292,11 +1292,6 @@ const per = Country(
             latitude: '-7.14367000',
             longitude: '-79.45674000'),
         City(
-            id: 80610,
-            name: 'Chepén',
-            latitude: '-7.22436000',
-            longitude: '-79.42476000'),
-        City(
             id: 80611,
             name: 'Chicama',
             latitude: '-7.84472000',
@@ -1430,12 +1425,7 @@ const per = Country(
             id: 81010,
             name: 'Viru',
             latitude: '-8.52199000',
-            longitude: '-78.60355000'),
-        City(
-            id: 81011,
-            name: 'Virú',
-            latitude: '-8.41554000',
-            longitude: '-78.75201000')
+            longitude: '-78.60355000')
       ]),
       State(id: 3702, name: 'Lambayeque', stateCode: 'LAM', cities: [
         City(
@@ -1641,11 +1631,6 @@ const per = Country(
             latitude: '-10.75869000',
             longitude: '-76.87634000'),
         City(
-            id: 80740,
-            name: 'Oyón',
-            latitude: '-10.66846000',
-            longitude: '-76.77165000'),
-        City(
             id: 80753,
             name: 'Paramonga',
             latitude: '-10.66667000',
@@ -1750,6 +1735,93 @@ const per = Country(
             name: 'Végueta',
             latitude: '-11.02253000',
             longitude: '-77.64378000')
+      ]),
+      State(id: 4922, name: 'Loreto', stateCode: 'LOR', cities: [
+        City(
+            id: 147944,
+            name: 'Andoas',
+            latitude: '-2.90250000',
+            longitude: '-76.40250000'),
+        City(
+            id: 147941,
+            name: 'Borja',
+            latitude: '-4.43333333',
+            longitude: '-77.55000000'),
+        City(
+            id: 147949,
+            name: 'Caballococha',
+            latitude: '-3.90583333',
+            longitude: '-70.51638889'),
+        City(
+            id: 147947,
+            name: 'Cape Pantoja',
+            latitude: '-0.96435000',
+            longitude: '-75.18144000'),
+        City(
+            id: 147952,
+            name: 'Indiana',
+            latitude: '-3.50142700',
+            longitude: '-73.04809600'),
+        City(
+            id: 147940,
+            name: 'Iquitos',
+            latitude: '-3.73333333',
+            longitude: '-73.25000000'),
+        City(
+            id: 147945,
+            name: 'Jeberos',
+            latitude: '-5.28333000',
+            longitude: '-76.28333000'),
+        City(
+            id: 147946,
+            name: 'Jenaro Herrera',
+            latitude: '-4.90741000',
+            longitude: '-73.66779000'),
+        City(
+            id: 147948,
+            name: 'Lagunas',
+            latitude: '-5.22694000',
+            longitude: '-75.67528000'),
+        City(
+            id: 147942,
+            name: 'Nauta',
+            latitude: '-4.50833333',
+            longitude: '-73.58333333'),
+        City(
+            id: 147953,
+            name: 'Punchana',
+            latitude: '-3.71666667',
+            longitude: '-73.23333333'),
+        City(
+            id: 147954,
+            name: 'Requena',
+            latitude: '-6.74797000',
+            longitude: '-75.05491000'),
+        City(
+            id: 147955,
+            name: 'San Antonio del Estrecho',
+            latitude: '-2.45012000',
+            longitude: '-72.66896000'),
+        City(
+            id: 147950,
+            name: 'San Lorenzo',
+            latitude: '-4.81667000',
+            longitude: '-76.60000000'),
+        City(
+            id: 147943,
+            name: 'San Pablo',
+            latitude: '-4.01922000',
+            longitude: '-71.10281000'),
+        City(
+            id: 147951,
+            name: 'Tamshiyacu',
+            latitude: '-4.00320000',
+            longitude: '-73.15850000'),
+        City(
+            id: 147956,
+            name: 'Yurimaguas',
+            latitude: '-5.90000000',
+            longitude: '-76.08333333')
       ]),
       State(id: 3678, name: 'Madre de Dios', stateCode: 'MDD', cities: [
         City(
@@ -1943,11 +2015,6 @@ const per = Country(
             name: 'Morropon',
             latitude: '-5.25000000',
             longitude: '-80.00000000'),
-        City(
-            id: 80722,
-            name: 'Morropón',
-            latitude: '-5.18680000',
-            longitude: '-79.97076000'),
         City(
             id: 80746,
             name: 'Paita',

@@ -261,11 +261,6 @@ const mli = Country(
             latitude: '16.28017000',
             longitude: '-3.31302000'),
         City(
-            id: 67597,
-            name: 'Diré',
-            latitude: '12.28333000',
-            longitude: '-10.96667000'),
-        City(
             id: 67603,
             name: 'Goundam',
             latitude: '16.41453000',

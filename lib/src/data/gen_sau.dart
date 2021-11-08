@@ -12,7 +12,7 @@ const sau = Country(
     currency: 'SAR',
     currencySymbol: r'﷼',
     tld: '.sa',
-    native: 'العربية السعودية',
+    native: 'المملكة العربية السعودية',
     region: 'Asia',
     subregion: 'Western Asia',
     timezones: [
@@ -26,27 +26,62 @@ const sau = Country(
     emoji: '🇸🇦',
     emojiU: 'U+1F1F8 U+1F1E6',
     states: [
-      State(id: 2853, name: '\'Asir Region', stateCode: '14', cities: [
+      State(id: 2853, name: '\'Asir', stateCode: '14', cities: [
         City(
             id: 102804,
             name: 'Abha',
             latitude: '18.21639000',
             longitude: '42.50528000'),
         City(
+            id: 148592,
+            name: 'Al Bahah',
+            latitude: '20.01288000',
+            longitude: '41.46767000'),
+        City(
             id: 102827,
             name: 'Al Majāridah',
             latitude: '19.12361000',
             longitude: '41.91111000'),
+        City(
+            id: 148593,
+            name: 'Al Mindak',
+            latitude: '20.15888889',
+            longitude: '41.28333333'),
+        City(
+            id: 148594,
+            name: 'Al Qahab',
+            latitude: '18.92560000',
+            longitude: '41.95500000'),
         City(
             id: 102840,
             name: 'An Nimāş',
             latitude: '19.14547000',
             longitude: '42.12009000'),
         City(
+            id: 148595,
+            name: 'Hajrah',
+            latitude: '20.23333333',
+            longitude: '41.05000000'),
+        City(
             id: 102861,
             name: 'Khamis Mushait',
             latitude: '18.30000000',
             longitude: '42.73333000'),
+        City(
+            id: 148596,
+            name: 'Ma`riyah',
+            latitude: '18.85000000',
+            longitude: '41.96670000'),
+        City(
+            id: 148597,
+            name: 'Mifa',
+            latitude: '18.89170000',
+            longitude: '41.96330000'),
+        City(
+            id: 148598,
+            name: 'Munayzir',
+            latitude: '18.94640000',
+            longitude: '41.91640000'),
         City(
             id: 102871,
             name: 'Qal‘at Bīshah',
@@ -63,19 +98,764 @@ const sau = Country(
             latitude: '19.95000000',
             longitude: '42.40000000')
       ]),
-      State(id: 2859, name: 'Al Bahah Region', stateCode: '11', cities: [
+      State(id: 2859, name: 'Al Bahah', stateCode: '11', cities: [
+        City(
+            id: 148602,
+            name: 'Abu `Urwah',
+            latitude: '21.65000000',
+            longitude: '39.70000000'),
+        City(
+            id: 148599,
+            name: 'Abu Hisani',
+            latitude: '21.73060000',
+            longitude: '39.78330000'),
+        City(
+            id: 148600,
+            name: 'Abu Qirfah',
+            latitude: '21.76670000',
+            longitude: '39.68330000'),
+        City(
+            id: 148601,
+            name: 'Abu Shu`ayb',
+            latitude: '21.58330000',
+            longitude: '39.70000000'),
+        City(
+            id: 148603,
+            name: 'Ad Dabbah',
+            latitude: '21.71670000',
+            longitude: '39.83330000'),
+        City(
+            id: 148604,
+            name: 'Ad Dawh',
+            latitude: '21.77220000',
+            longitude: '39.70140000'),
+        City(
+            id: 148605,
+            name: 'Ad Dur',
+            latitude: '21.81670000',
+            longitude: '39.76670000'),
+        City(
+            id: 148663,
+            name: 'Al Ābār',
+            latitude: '21.09810000',
+            longitude: '39.91030000'),
+        City(
+            id: 148606,
+            name: 'Al Adl',
+            latitude: '21.44361000',
+            longitude: '39.85611000'),
+        City(
+            id: 148607,
+            name: 'Al Ashraf',
+            latitude: '21.52360000',
+            longitude: '39.61670000'),
         City(
             id: 102815,
             name: 'Al Bahah',
             latitude: '20.01288000',
             longitude: '41.46767000'),
         City(
+            id: 148608,
+            name: 'Al Balad',
+            latitude: '21.48780000',
+            longitude: '39.19360000'),
+        City(
+            id: 148609,
+            name: 'Al Barabir',
+            latitude: '21.52030000',
+            longitude: '39.63250000'),
+        City(
+            id: 148610,
+            name: 'Al Bi\'ar',
+            latitude: '22.64972222',
+            longitude: '39.67027778'),
+        City(
+            id: 148611,
+            name: 'Al Birk',
+            latitude: '18.21631000',
+            longitude: '41.53593000'),
+        City(
+            id: 148612,
+            name: 'Al Buraykah',
+            latitude: '21.78610000',
+            longitude: '39.71670000'),
+        City(
+            id: 148613,
+            name: 'Al Fawwarah',
+            latitude: '21.83280000',
+            longitude: '40.16110000'),
+        City(
+            id: 148614,
+            name: 'Al Faydah',
+            latitude: '21.98440000',
+            longitude: '39.38470000'),
+        City(
+            id: 148615,
+            name: 'Al Fazz',
+            latitude: '21.98330000',
+            longitude: '39.52220000'),
+        City(
+            id: 148616,
+            name: 'Al Gharith',
+            latitude: '21.60000000',
+            longitude: '41.88330000'),
+        City(
+            id: 148617,
+            name: 'Al Ghassalah',
+            latitude: '21.45000000',
+            longitude: '39.86670000'),
+        City(
+            id: 148618,
+            name: 'Al Ghulah',
+            latitude: '21.95000000',
+            longitude: '39.31670000'),
+        City(
+            id: 148619,
+            name: 'Al Hada',
+            latitude: '21.36860000',
+            longitude: '40.28470000'),
+        City(
+            id: 148620,
+            name: 'Al Halaqah',
+            latitude: '21.35000000',
+            longitude: '40.45000000'),
+        City(
+            id: 148621,
+            name: 'Al Hamimah',
+            latitude: '21.51670000',
+            longitude: '39.63330000'),
+        City(
+            id: 148622,
+            name: 'Al Harra\', Makkah',
+            latitude: '21.95000000',
+            longitude: '39.48333333'),
+        City(
+            id: 148623,
+            name: 'Al Hawiyah',
+            latitude: '21.42415000',
+            longitude: '40.49303000'),
+        City(
+            id: 148624,
+            name: 'Al Iskan',
+            latitude: '21.40000000',
+            longitude: '39.78330000'),
+        City(
+            id: 148625,
+            name: 'Al Jadidah',
+            latitude: '21.67030000',
+            longitude: '40.12640000'),
+        City(
+            id: 148626,
+            name: 'Al Jami`ah',
+            latitude: '21.46670000',
+            longitude: '39.25000000'),
+        City(
+            id: 148627,
+            name: 'Al Jid`',
+            latitude: '21.93330000',
+            longitude: '39.58330000'),
+        City(
+            id: 148628,
+            name: 'Al Ju`ranah',
+            latitude: '21.56670000',
+            longitude: '39.95000000'),
+        City(
+            id: 148629,
+            name: 'Al Khadra\', Makkah',
+            latitude: '21.46777778',
+            longitude: '39.90472222'),
+        City(
+            id: 148630,
+            name: 'Al Khalas',
+            latitude: '21.70000000',
+            longitude: '39.80000000'),
+        City(
+            id: 148631,
+            name: 'Al Khamrah',
+            latitude: '22.43330000',
+            longitude: '39.46670000'),
+        City(
+            id: 148632,
+            name: 'Al Khaydar',
+            latitude: '21.46940000',
+            longitude: '40.63060000'),
+        City(
+            id: 148633,
+            name: 'Al Khayf',
+            latitude: '21.68330000',
+            longitude: '39.73330000'),
+        City(
+            id: 148634,
+            name: 'Al Khulasah',
+            latitude: '21.68330000',
+            longitude: '39.91670000'),
+        City(
+            id: 148635,
+            name: 'Al Kidwah',
+            latitude: '21.78330000',
+            longitude: '39.68330000'),
+        City(
+            id: 148636,
+            name: 'Al Kura`',
+            latitude: '21.80000000',
+            longitude: '39.13330000'),
+        City(
+            id: 148637,
+            name: 'Al Ma`rash',
+            latitude: '21.13330000',
+            longitude: '40.60000000'),
+        City(
+            id: 148638,
+            name: 'Al Madiq, Makkah',
+            latitude: '21.67580000',
+            longitude: '40.13080000'),
+        City(
+            id: 148639,
+            name: 'Al Maghal',
+            latitude: '21.96670000',
+            longitude: '39.55000000'),
+        City(
+            id: 148640,
+            name: 'Al Mahjar',
+            latitude: '21.43330000',
+            longitude: '39.20000000'),
+        City(
+            id: 148641,
+            name: 'Al Maqrah',
+            latitude: '21.26670000',
+            longitude: '39.95000000'),
+        City(
+            id: 148642,
+            name: 'Al Masarrah',
+            latitude: '21.36670000',
+            longitude: '40.46670000'),
+        City(
+            id: 148643,
+            name: 'Al Masfalah',
+            latitude: '21.41670000',
+            longitude: '39.81670000'),
+        City(
+            id: 148644,
+            name: 'Al Mashayikh',
+            latitude: '21.35000000',
+            longitude: '40.33330000'),
+        City(
+            id: 148645,
+            name: 'Al Mathnah',
+            latitude: '21.26666667',
+            longitude: '40.38333333'),
+        City(
             id: 102829,
             name: 'Al Mindak',
             latitude: '20.15880000',
-            longitude: '41.28337000')
+            longitude: '41.28337000'),
+        City(
+            id: 148646,
+            name: 'Al Mubarak',
+            latitude: '21.70000000',
+            longitude: '39.90000000'),
+        City(
+            id: 148647,
+            name: 'Al Mudawwarah',
+            latitude: '21.26670000',
+            longitude: '39.96670000'),
+        City(
+            id: 148648,
+            name: 'Al Mulayha\'',
+            latitude: '21.80000000',
+            longitude: '40.35000000'),
+        City(
+            id: 148649,
+            name: 'Al Mundassah',
+            latitude: '21.63330000',
+            longitude: '39.74860000'),
+        City(
+            id: 148650,
+            name: 'Al Muqayti`',
+            latitude: '21.54860000',
+            longitude: '39.78610000'),
+        City(
+            id: 148651,
+            name: 'Al Muqr',
+            latitude: '22.00000000',
+            longitude: '39.38330000'),
+        City(
+            id: 148652,
+            name: 'Al Muwayh',
+            latitude: '22.43333000',
+            longitude: '41.75829000'),
+        City(
+            id: 148653,
+            name: 'Al Qadimah',
+            latitude: '22.35000000',
+            longitude: '39.15000000'),
+        City(
+            id: 148654,
+            name: 'Al Qararah',
+            latitude: '21.42890000',
+            longitude: '39.82810000'),
+        City(
+            id: 148655,
+            name: 'Al Qaryat',
+            latitude: '21.46670000',
+            longitude: '39.20000000'),
+        City(
+            id: 148656,
+            name: 'Al Qawba`iyah',
+            latitude: '21.66670000',
+            longitude: '39.98330000'),
+        City(
+            id: 148657,
+            name: 'Al Qirshan',
+            latitude: '21.56670000',
+            longitude: '39.70000000'),
+        City(
+            id: 148658,
+            name: 'Al Qu`tubah',
+            latitude: '21.93330000',
+            longitude: '40.36670000'),
+        City(
+            id: 148659,
+            name: 'Al Qufayf',
+            latitude: '21.83330000',
+            longitude: '40.45000000'),
+        City(
+            id: 148660,
+            name: 'Al Qushashiyah',
+            latitude: '21.43330000',
+            longitude: '39.83330000'),
+        City(
+            id: 148661,
+            name: 'Al Ukhaydir',
+            latitude: '21.93330000',
+            longitude: '40.01670000'),
+        City(
+            id: 148662,
+            name: 'Al Waht',
+            latitude: '21.23330000',
+            longitude: '40.35000000'),
+        City(
+            id: 148664,
+            name: 'Ar Rabwah as Sufla',
+            latitude: '21.95530000',
+            longitude: '39.43670000'),
+        City(
+            id: 148665,
+            name: 'Ar Rafah',
+            latitude: '21.51670000',
+            longitude: '40.20000000'),
+        City(
+            id: 148666,
+            name: 'Ar Rawdah ash Shamaliyah',
+            latitude: '21.73330000',
+            longitude: '39.96670000'),
+        City(
+            id: 148667,
+            name: 'Ar Rudaymah',
+            latitude: '21.76670000',
+            longitude: '39.68330000'),
+        City(
+            id: 148668,
+            name: 'Arya`',
+            latitude: '21.08560000',
+            longitude: '40.62390000'),
+        City(
+            id: 148669,
+            name: 'As Sadr',
+            latitude: '21.51890000',
+            longitude: '40.19750000'),
+        City(
+            id: 148670,
+            name: 'As Samd ash Shamali',
+            latitude: '21.67500000',
+            longitude: '39.75000000'),
+        City(
+            id: 148671,
+            name: 'As Sayl al Kabir',
+            latitude: '21.62640000',
+            longitude: '40.41530000'),
+        City(
+            id: 148672,
+            name: 'As Sayl as Saghir',
+            latitude: '21.50640000',
+            longitude: '40.48220000'),
+        City(
+            id: 148673,
+            name: 'As Sifyani',
+            latitude: '21.47560000',
+            longitude: '39.84310000'),
+        City(
+            id: 148674,
+            name: 'As Sudayrah, Makkah',
+            latitude: '21.36190000',
+            longitude: '40.85470000'),
+        City(
+            id: 148675,
+            name: 'As Suwadah',
+            latitude: '21.13390000',
+            longitude: '40.51170000'),
+        City(
+            id: 148676,
+            name: 'Ash Shajwah',
+            latitude: '21.66440000',
+            longitude: '40.01140000'),
+        City(
+            id: 148677,
+            name: 'Ash Shamiyah',
+            latitude: '21.84110000',
+            longitude: '39.52440000'),
+        City(
+            id: 148678,
+            name: 'Ash Shara\'i`',
+            latitude: '21.46305556',
+            longitude: '39.94611111'),
+        City(
+            id: 148679,
+            name: 'Ash Shaybi',
+            latitude: '21.69580000',
+            longitude: '39.94170000'),
+        City(
+            id: 148680,
+            name: 'Ash Shi`b',
+            latitude: '21.96890000',
+            longitude: '39.48610000'),
+        City(
+            id: 148681,
+            name: 'Ash Shishah',
+            latitude: '21.35030000',
+            longitude: '39.89190000'),
+        City(
+            id: 148682,
+            name: 'Ash Shumaysi',
+            latitude: '21.58330000',
+            longitude: '39.68330000'),
+        City(
+            id: 148683,
+            name: 'Ash Shuwaybit',
+            latitude: '21.37970000',
+            longitude: '40.51940000'),
+        City(
+            id: 148684,
+            name: 'At Tan`im',
+            latitude: '21.48250000',
+            longitude: '39.80500000'),
+        City(
+            id: 148685,
+            name: 'At Tarfa\'',
+            latitude: '21.70638889',
+            longitude: '39.87138889'),
+        City(
+            id: 148686,
+            name: 'At Turqi',
+            latitude: '21.94920000',
+            longitude: '39.41310000'),
+        City(
+            id: 148687,
+            name: 'Az Zaymah',
+            latitude: '21.61860000',
+            longitude: '40.11330000'),
+        City(
+            id: 148688,
+            name: 'Az Zilal',
+            latitude: '21.48890000',
+            longitude: '39.59420000'),
+        City(
+            id: 148689,
+            name: 'Az Zughbah',
+            latitude: '21.71670000',
+            longitude: '39.94580000'),
+        City(
+            id: 148690,
+            name: 'Az Zurra`',
+            latitude: '21.91060000',
+            longitude: '39.40000000'),
+        City(
+            id: 148691,
+            name: 'Az Zuwayb',
+            latitude: '21.91670000',
+            longitude: '39.96940000'),
+        City(
+            id: 148692,
+            name: 'Bahrat al Qadimah',
+            latitude: '21.41330000',
+            longitude: '39.49390000'),
+        City(
+            id: 148693,
+            name: 'Bahwil',
+            latitude: '22.42940000',
+            longitude: '39.42940000'),
+        City(
+            id: 148694,
+            name: 'Baranah',
+            latitude: '21.55420000',
+            longitude: '39.82220000'),
+        City(
+            id: 148695,
+            name: 'Barzah',
+            latitude: '21.98000000',
+            longitude: '39.67560000'),
+        City(
+            id: 148696,
+            name: 'Bashm',
+            latitude: '21.48220000',
+            longitude: '39.82080000'),
+        City(
+            id: 148697,
+            name: 'Buraykah',
+            latitude: '22.34440000',
+            longitude: '39.32000000'),
+        City(
+            id: 148698,
+            name: 'Burayman',
+            latitude: '21.63750000',
+            longitude: '39.22640000'),
+        City(
+            id: 148699,
+            name: 'CITY GHRAN',
+            latitude: '21.97380000',
+            longitude: '39.36820000'),
+        City(
+            id: 148700,
+            name: 'Dabyah',
+            latitude: '22.42470000',
+            longitude: '39.44610000'),
+        City(
+            id: 148701,
+            name: 'Dahaban',
+            latitude: '21.93333333',
+            longitude: '39.11666667'),
+        City(
+            id: 148702,
+            name: 'Dughaybjah',
+            latitude: '22.59030000',
+            longitude: '41.35970000'),
+        City(
+            id: 148703,
+            name: 'Fayd',
+            latitude: '21.91720000',
+            longitude: '39.38830000'),
+        City(
+            id: 148704,
+            name: 'Ghran',
+            latitude: '21.98027000',
+            longitude: '39.36521000'),
+        City(
+            id: 148705,
+            name: 'Hadda\'',
+            latitude: '21.45027778',
+            longitude: '39.55444444'),
+        City(
+            id: 148706,
+            name: 'Haddat ash Sham',
+            latitude: '21.79670000',
+            longitude: '39.68330000'),
+        City(
+            id: 148707,
+            name: 'Hadhah',
+            latitude: '21.65250000',
+            longitude: '40.01420000'),
+        City(
+            id: 148708,
+            name: 'Hajrah',
+            latitude: '20.23333333',
+            longitude: '41.05000000'),
+        City(
+            id: 148709,
+            name: 'Hajur',
+            latitude: '23.01780000',
+            longitude: '39.73030000'),
+        City(
+            id: 148710,
+            name: 'Halamah',
+            latitude: '21.95420000',
+            longitude: '39.70280000'),
+        City(
+            id: 148711,
+            name: 'Husnah',
+            latitude: '21.80000000',
+            longitude: '39.59166667'),
+        City(
+            id: 148712,
+            name: 'Jarwal',
+            latitude: '21.43330000',
+            longitude: '39.81670000'),
+        City(
+            id: 148713,
+            name: 'Jeddah',
+            latitude: '21.54277778',
+            longitude: '39.17277778'),
+        City(
+            id: 148714,
+            name: 'Julayyil',
+            latitude: '21.95830000',
+            longitude: '39.75830000'),
+        City(
+            id: 148715,
+            name: 'Khumrah',
+            latitude: '21.37280000',
+            longitude: '39.22610000'),
+        City(
+            id: 148716,
+            name: 'Kulakh',
+            latitude: '21.29640000',
+            longitude: '40.79690000'),
+        City(
+            id: 148717,
+            name: 'Madrakah',
+            latitude: '21.97970000',
+            longitude: '39.98750000'),
+        City(
+            id: 148718,
+            name: 'Mafruq',
+            latitude: '21.52220000',
+            longitude: '40.17940000'),
+        City(
+            id: 148719,
+            name: 'Malakan',
+            latitude: '21.21580000',
+            longitude: '39.95030000'),
+        City(
+            id: 148720,
+            name: 'Mashajji',
+            latitude: '21.73890000',
+            longitude: '39.96670000'),
+        City(
+            id: 148721,
+            name: 'Masihat Mahd al Hayl',
+            latitude: '21.94170000',
+            longitude: '39.88610000'),
+        City(
+            id: 148722,
+            name: 'Maskar',
+            latitude: '21.75000000',
+            longitude: '40.31640000'),
+        City(
+            id: 148723,
+            name: 'Matiyah',
+            latitude: '21.54170000',
+            longitude: '39.81940000'),
+        City(
+            id: 148724,
+            name: 'Mecca',
+            latitude: '21.42250000',
+            longitude: '39.82611111'),
+        City(
+            id: 148725,
+            name: 'Mina',
+            latitude: '21.41333333',
+            longitude: '39.89333333'),
+        City(
+            id: 148726,
+            name: 'Murshidiyah',
+            latitude: '21.48890000',
+            longitude: '39.79440000'),
+        City(
+            id: 148727,
+            name: 'Mushrif',
+            latitude: '22.62920000',
+            longitude: '41.35670000'),
+        City(
+            id: 148728,
+            name: 'Nughayshiyah',
+            latitude: '21.21670000',
+            longitude: '40.75000000'),
+        City(
+            id: 148729,
+            name: 'Nuzlat al Faqin',
+            latitude: '22.00000000',
+            longitude: '39.41670000'),
+        City(
+            id: 148730,
+            name: 'Qiya',
+            latitude: '21.06670000',
+            longitude: '41.01670000'),
+        City(
+            id: 148731,
+            name: 'Quwayzah',
+            latitude: '21.49030000',
+            longitude: '39.27670000'),
+        City(
+            id: 148732,
+            name: 'Rabwah Ghran',
+            latitude: '21.98330000',
+            longitude: '39.41670000'),
+        City(
+            id: 148733,
+            name: 'Raqiyah',
+            latitude: '21.76670000',
+            longitude: '40.35000000'),
+        City(
+            id: 148734,
+            name: 'Sabuhah',
+            latitude: '21.58330000',
+            longitude: '40.11670000'),
+        City(
+            id: 148735,
+            name: 'Shi`b `amir',
+            latitude: '21.43330000',
+            longitude: '39.83330000'),
+        City(
+            id: 148736,
+            name: 'Shira`ayn',
+            latitude: '21.28330000',
+            longitude: '40.78330000'),
+        City(
+            id: 148737,
+            name: 'Sulaym',
+            latitude: '22.58330000',
+            longitude: '39.63330000'),
+        City(
+            id: 148738,
+            name: 'Sumaymah',
+            latitude: '21.25000000',
+            longitude: '39.16670000'),
+        City(
+            id: 148739,
+            name: 'Suways',
+            latitude: '21.95000000',
+            longitude: '39.96670000'),
+        City(
+            id: 148740,
+            name: 'Ta\'if',
+            latitude: '21.26666667',
+            longitude: '40.41666667'),
+        City(
+            id: 148741,
+            name: 'Tharwah',
+            latitude: '21.51670000',
+            longitude: '39.61670000'),
+        City(
+            id: 148742,
+            name: 'Thuwal',
+            latitude: '22.28333333',
+            longitude: '39.10000000'),
+        City(
+            id: 148743,
+            name: 'Usfan',
+            latitude: '21.92306000',
+            longitude: '39.35594000'),
+        City(
+            id: 148744,
+            name: 'Wadi al Jalil',
+            latitude: '21.46670000',
+            longitude: '39.85000000')
       ]),
-      State(id: 2857, name: 'Al Jawf Region', stateCode: '12', cities: [
+      State(id: 2857, name: 'Al Jawf', stateCode: '12', cities: [
+        City(
+            id: 148588,
+            name: 'Al Isawiyah',
+            latitude: '30.71681000',
+            longitude: '37.97767000'),
+        City(
+            id: 148589,
+            name: 'Al-Haditha',
+            latitude: '31.45601100',
+            longitude: '37.14814000'),
+        City(
+            id: 148590,
+            name: 'Halat Ammar',
+            latitude: '29.15944444',
+            longitude: '36.07500000'),
         City(
             id: 102872,
             name: 'Qurayyat',
@@ -92,39 +872,384 @@ const sau = Country(
             latitude: '30.11713000',
             longitude: '40.38925000'),
         City(
+            id: 148591,
+            name: 'Tabarjal',
+            latitude: '30.50000000',
+            longitude: '38.21670000'),
+        City(
             id: 102898,
             name: 'Ţubarjal',
             latitude: '30.49987000',
             longitude: '38.21603000')
       ]),
-      State(id: 2851, name: 'Al Madinah Region', stateCode: '03', cities: [
+      State(id: 2851, name: 'Al Madinah', stateCode: '03', cities: [
+        City(
+            id: 148866,
+            name: '`Ajmiyah',
+            latitude: '24.21670000',
+            longitude: '38.50000000'),
+        City(
+            id: 148867,
+            name: '`Alya\'',
+            latitude: '23.82360000',
+            longitude: '38.88330000'),
+        City(
+            id: 148868,
+            name: '`Ushash',
+            latitude: '23.50000000',
+            longitude: '38.91670000'),
+        City(
+            id: 148869,
+            name: '`Ushayrah',
+            latitude: '24.01860000',
+            longitude: '39.67310000'),
+        City(
+            id: 148802,
+            name: 'Abu Dhiba',
+            latitude: '23.19890000',
+            longitude: '39.55780000'),
+        City(
+            id: 148804,
+            name: 'Abū Shayţānah',
+            latitude: '23.86670000',
+            longitude: '38.36670000'),
+        City(
+            id: 148803,
+            name: 'Abyar \'Ali',
+            latitude: '24.41666667',
+            longitude: '39.55000000'),
+        City(
+            id: 148805,
+            name: 'Ad Dulu`',
+            latitude: '24.76670000',
+            longitude: '39.53330000'),
+        City(
+            id: 148823,
+            name: 'Al `Awali',
+            latitude: '24.45000000',
+            longitude: '39.61670000'),
+        City(
+            id: 148824,
+            name: 'Al `Uqul',
+            latitude: '24.50000000',
+            longitude: '39.81670000'),
+        City(
+            id: 148806,
+            name: 'Al Akhal',
+            latitude: '23.31560000',
+            longitude: '39.85940000'),
+        City(
+            id: 148807,
+            name: 'Al Bardiyah',
+            latitude: '24.04390000',
+            longitude: '39.60610000'),
+        City(
+            id: 148808,
+            name: 'Al Biqa\'',
+            latitude: '24.38861111',
+            longitude: '38.59888889'),
+        City(
+            id: 148809,
+            name: 'Al Bustan',
+            latitude: '23.27830000',
+            longitude: '39.24280000'),
+        City(
+            id: 148810,
+            name: 'Al Faqirah',
+            latitude: '23.42170000',
+            longitude: '39.70970000'),
+        City(
+            id: 148811,
+            name: 'Al Furaysh',
+            latitude: '24.22000000',
+            longitude: '39.28140000'),
+        City(
+            id: 148812,
+            name: 'Al Fuwayliq',
+            latitude: '26.44360000',
+            longitude: '43.25164000'),
+        City(
+            id: 148813,
+            name: 'Al Jabriyah',
+            latitude: '24.25000000',
+            longitude: '38.51670000'),
+        City(
+            id: 148814,
+            name: 'Al Jissah',
+            latitude: '23.33330000',
+            longitude: '40.30000000'),
+        City(
+            id: 148815,
+            name: 'Al Kharma\'',
+            latitude: '23.90000000',
+            longitude: '38.90000000'),
+        City(
+            id: 148816,
+            name: 'Al Madiq, Al Madinah',
+            latitude: '23.32220000',
+            longitude: '39.62030000'),
+        City(
+            id: 148817,
+            name: 'Al Malbanah',
+            latitude: '23.18330000',
+            longitude: '39.51670000'),
+        City(
+            id: 148818,
+            name: 'Al Mufrihat',
+            latitude: '24.35000000',
+            longitude: '39.41670000'),
+        City(
+            id: 148819,
+            name: 'Al Multasa',
+            latitude: '24.08330000',
+            longitude: '38.15000000'),
+        City(
+            id: 148820,
+            name: 'Al Musayjid',
+            latitude: '24.08330000',
+            longitude: '39.10000000'),
+        City(
+            id: 148821,
+            name: 'Al Thybiyah',
+            latitude: '26.02700000',
+            longitude: '43.15700000'),
+        City(
+            id: 148822,
+            name: 'Al Wuday',
+            latitude: '24.17890000',
+            longitude: '39.54810000'),
+        City(
+            id: 148825,
+            name: 'Al-Jafr',
+            latitude: '25.41666667',
+            longitude: '49.61666667'),
         City(
             id: 102839,
-            name: 'Al-`Ula',
+            name: 'Al-Ula',
             latitude: '26.60853000',
             longitude: '37.92316000'),
+        City(
+            id: 148826,
+            name: 'Ar Rass',
+            latitude: '25.86666667',
+            longitude: '43.50000000'),
+        City(
+            id: 148827,
+            name: 'As Sadayir',
+            latitude: '24.25000000',
+            longitude: '39.18330000'),
+        City(
+            id: 148828,
+            name: 'As Safra\'',
+            latitude: '24.01277778',
+            longitude: '38.92277778'),
+        City(
+            id: 148829,
+            name: 'As Sumariyah',
+            latitude: '24.92140000',
+            longitude: '39.61780000'),
+        City(
+            id: 148830,
+            name: 'As Suwayriqiyah',
+            latitude: '23.35000000',
+            longitude: '40.31670000'),
+        City(
+            id: 148831,
+            name: 'Ash Shufayyah',
+            latitude: '23.81670000',
+            longitude: '39.15000000'),
+        City(
+            id: 148832,
+            name: 'Asira',
+            latitude: '24.33330000',
+            longitude: '38.63330000'),
         City(
             id: 102849,
             name: 'Badr Ḩunayn',
             latitude: '23.78292000',
             longitude: '38.79047000'),
         City(
+            id: 148833,
+            name: 'Baq`a\'',
+            latitude: '24.21666667',
+            longitude: '38.71666667'),
+        City(
+            id: 148834,
+            name: 'Bartiyah',
+            latitude: '24.28330000',
+            longitude: '38.58330000'),
+        City(
+            id: 148835,
+            name: 'Bi\'r al Mashi',
+            latitude: '24.21666667',
+            longitude: '39.55000000'),
+        City(
+            id: 148836,
+            name: 'Birkah',
+            latitude: '23.82030000',
+            longitude: '38.85970000'),
+        City(
+            id: 148837,
+            name: 'Buraidah',
+            latitude: '26.33333333',
+            longitude: '43.96666667'),
+        City(
+            id: 148838,
+            name: 'Dukhnah',
+            latitude: '25.35621000',
+            longitude: '43.62268000'),
+        City(
+            id: 148839,
+            name: 'Far`',
+            latitude: '23.81670000',
+            longitude: '38.86670000'),
+        City(
+            id: 148840,
+            name: 'Fiji',
+            latitude: '24.26666667',
+            longitude: '38.56666667'),
+        City(
+            id: 148841,
+            name: 'Harthiyah',
+            latitude: '24.25000000',
+            longitude: '38.55000000'),
+        City(
+            id: 148842,
+            name: 'Hasa, Al Madinah',
+            latitude: '24.28333333',
+            longitude: '38.60000000'),
+        City(
+            id: 148843,
+            name: 'Haylat Radi al Baham',
+            latitude: '24.08390000',
+            longitude: '39.72500000'),
+        City(
+            id: 148844,
+            name: 'Husayniyah',
+            latitude: '23.86666667',
+            longitude: '38.90000000'),
+        City(
+            id: 148845,
+            name: 'Jadidah',
+            latitude: '23.81670000',
+            longitude: '38.83330000'),
+        City(
+            id: 148846,
+            name: 'Khayf Fadil',
+            latitude: '24.26670000',
+            longitude: '38.56670000'),
+        City(
+            id: 148847,
+            name: 'Madsus',
+            latitude: '24.35000000',
+            longitude: '38.55000000'),
+        City(
+            id: 148848,
+            name: 'Mahattat al Hafah',
+            latitude: '23.75000000',
+            longitude: '39.30000000'),
+        City(
+            id: 148849,
+            name: 'Maqrah',
+            latitude: '24.41670000',
+            longitude: '38.70000000'),
+        City(
+            id: 148850,
+            name: 'Maqshush',
+            latitude: '23.58330000',
+            longitude: '38.60000000'),
+        City(
+            id: 148851,
+            name: 'Masahili',
+            latitude: '24.03330000',
+            longitude: '38.23330000'),
+        City(
+            id: 148852,
+            name: 'Mastoorah',
+            latitude: '23.11090000',
+            longitude: '38.85068889'),
+        City(
+            id: 148853,
+            name: 'Mawarah',
+            latitude: '24.20000000',
+            longitude: '38.43330000'),
+        City(
             id: 102865,
             name: 'Medina',
             latitude: '24.46861000',
             longitude: '39.61417000'),
+        City(
+            id: 148854,
+            name: 'Milhah',
+            latitude: '24.05000000',
+            longitude: '38.30000000'),
+        City(
+            id: 148855,
+            name: 'Nujayl',
+            latitude: '24.26670000',
+            longitude: '38.65000000'),
+        City(
+            id: 148856,
+            name: 'Qaba\'',
+            latitude: '24.40000000',
+            longitude: '39.65000000'),
+        City(
+            id: 148857,
+            name: 'Qiba',
+            latitude: '27.40285000',
+            longitude: '44.32770000'),
+        City(
+            id: 148858,
+            name: 'Rayyis',
+            latitude: '23.56670000',
+            longitude: '38.60000000'),
+        City(
+            id: 148859,
+            name: 'Sha`tha\'',
+            latitude: '24.23333333',
+            longitude: '38.53333333'),
+        City(
+            id: 148860,
+            name: 'Sidi Hamzah',
+            latitude: '24.50000000',
+            longitude: '39.61670000'),
         City(
             id: 102879,
             name: 'Sulţānah',
             latitude: '24.49258000',
             longitude: '39.58572000'),
         City(
+            id: 148861,
+            name: 'Suq Suwayq',
+            latitude: '24.36670000',
+            longitude: '38.45000000'),
+        City(
+            id: 148862,
+            name: 'Suqubiya',
+            latitude: '24.23330000',
+            longitude: '38.50000000'),
+        City(
+            id: 148863,
+            name: 'Suwadah',
+            latitude: '24.03330000',
+            longitude: '38.20000000'),
+        City(
+            id: 148864,
+            name: 'Tanūmah',
+            latitude: '27.10000000',
+            longitude: '44.13333333'),
+        City(
+            id: 148865,
+            name: 'Wasitah',
+            latitude: '23.88330000',
+            longitude: '38.90000000'),
+        City(
             id: 102892,
             name: 'Yanbu',
             latitude: '24.08954000',
             longitude: '38.06180000')
       ]),
-      State(id: 2861, name: 'Al-Qassim Region', stateCode: '05', cities: [
+      State(id: 2861, name: 'Al-Qassim', stateCode: '05', cities: [
         City(
             id: 102810,
             name: 'Adh Dhibiyah',
@@ -146,20 +1271,55 @@ const sau = Country(
             latitude: '25.86012000',
             longitude: '44.22228000'),
         City(
+            id: 148575,
+            name: 'Al Thybiyah',
+            latitude: '26.02700000',
+            longitude: '43.15700000'),
+        City(
             id: 102841,
             name: 'Ar Rass',
             latitude: '25.86944000',
             longitude: '43.49730000'),
+        City(
+            id: 148576,
+            name: 'Arar',
+            latitude: '30.98333333',
+            longitude: '41.01666667'),
+        City(
+            id: 148577,
+            name: 'Buraidah',
+            latitude: '26.33333333',
+            longitude: '43.96666667'),
         City(
             id: 102850,
             name: 'Buraydah',
             latitude: '26.32599000',
             longitude: '43.97497000'),
         City(
+            id: 148578,
+            name: 'Dukhnah',
+            latitude: '25.35621000',
+            longitude: '43.62268000'),
+        City(
+            id: 148579,
+            name: 'Nisab',
+            latitude: '29.19274000',
+            longitude: '44.71598000'),
+        City(
+            id: 148580,
+            name: 'Qiba',
+            latitude: '27.40285000',
+            longitude: '44.32770000'),
+        City(
             id: 102883,
             name: 'Tanūmah',
             latitude: '27.10000000',
             longitude: '44.13333000'),
+        City(
+            id: 148581,
+            name: 'Umm Radamah',
+            latitude: '28.67985000',
+            longitude: '44.69549000'),
         City(
             id: 102891,
             name: 'Wed Alnkil',
@@ -238,6 +1398,26 @@ const sau = Country(
             latitude: '25.48333000',
             longitude: '49.60000000'),
         City(
+            id: 148560,
+            name: 'Al Ubaylah',
+            latitude: '21.98417000',
+            longitude: '50.93966000'),
+        City(
+            id: 148561,
+            name: 'Al-Awamiyah',
+            latitude: '26.58333300',
+            longitude: '49.98333300'),
+        City(
+            id: 148562,
+            name: 'Al-Awjam',
+            latitude: '26.55830000',
+            longitude: '49.95030000'),
+        City(
+            id: 148563,
+            name: 'Al-Mubarraz',
+            latitude: '25.44160000',
+            longitude: '49.66420000'),
+        City(
             id: 102843,
             name: 'As Saffānīyah',
             latitude: '27.97083000',
@@ -263,10 +1443,25 @@ const sau = Country(
             latitude: '26.28864000',
             longitude: '50.11396000'),
         City(
+            id: 148564,
+            name: 'Ha\'il ',
+            latitude: '27.51666667',
+            longitude: '41.68333333'),
+        City(
             id: 102857,
             name: 'Hafar Al-Batin',
             latitude: '28.43279000',
             longitude: '45.97077000'),
+        City(
+            id: 148565,
+            name: 'Haradh',
+            latitude: '24.14555556',
+            longitude: '49.06527778'),
+        City(
+            id: 148566,
+            name: 'Jubbah',
+            latitude: '28.00620000',
+            longitude: '40.94160000'),
         City(
             id: 102860,
             name: 'Julayjilah',
@@ -278,15 +1473,30 @@ const sau = Country(
             latitude: '26.27944000',
             longitude: '50.20833000'),
         City(
+            id: 148567,
+            name: 'Mawqaq',
+            latitude: '27.38398000',
+            longitude: '41.17635000'),
+        City(
             id: 102868,
             name: 'Mulayjah',
             latitude: '27.27103000',
             longitude: '48.42419000'),
         City(
+            id: 148568,
+            name: 'Nariyah',
+            latitude: '27.46990000',
+            longitude: '48.48440000'),
+        City(
             id: 102870,
             name: 'Qaisumah',
             latitude: '28.31117000',
             longitude: '46.12729000'),
+        City(
+            id: 148569,
+            name: 'Qufar',
+            latitude: '27.41534000',
+            longitude: '41.61903000'),
         City(
             id: 102873,
             name: 'Raḩīmah',
@@ -298,54 +1508,329 @@ const sau = Country(
             latitude: '26.64970000',
             longitude: '49.95522000'),
         City(
-            id: 102878,
+            id: 148571,
             name: 'Sayhāt',
-            latitude: '26.48345000',
-            longitude: '50.04849000'),
+            latitude: '26.47500000',
+            longitude: '50.04166667'),
+        City(
+            id: 148572,
+            name: 'Simira',
+            latitude: '26.49418000',
+            longitude: '42.12494000'),
         City(
             id: 102888,
             name: 'Tārūt',
             latitude: '26.57330000',
             longitude: '50.04028000'),
         City(
+            id: 148573,
+            name: 'Udhailiyah',
+            latitude: '25.13330000',
+            longitude: '49.30000000'),
+        City(
             id: 102890,
             name: 'Umm as Sāhik',
             latitude: '26.65361000',
-            longitude: '49.91639000')
+            longitude: '49.91639000'),
+        City(
+            id: 148574,
+            name: 'Uqair',
+            latitude: '25.64310000',
+            longitude: '50.21440000')
       ]),
-      State(id: 2855, name: 'Ha\'il Region', stateCode: '06', cities: [
+      State(id: 2855, name: 'Ha\'il', stateCode: '06', cities: [
         City(
             id: 102856,
             name: 'Ha\'il',
             latitude: '27.52188000',
-            longitude: '41.69073000')
+            longitude: '41.69073000'),
+        City(
+            id: 148582,
+            name: 'Jubbah',
+            latitude: '28.00620000',
+            longitude: '40.94160000'),
+        City(
+            id: 148583,
+            name: 'Mawqaq',
+            latitude: '27.38398000',
+            longitude: '41.17635000'),
+        City(
+            id: 148584,
+            name: 'Qufar',
+            latitude: '27.41534000',
+            longitude: '41.61903000'),
+        City(
+            id: 148585,
+            name: 'Simira',
+            latitude: '26.49418000',
+            longitude: '42.12494000')
       ]),
-      State(id: 2858, name: 'Jizan Region', stateCode: '09', cities: [
+      State(id: 2858, name: 'Jizan', stateCode: '09', cities: [
         City(
             id: 102806,
             name: 'Abū ‘Arīsh',
             latitude: '16.96887000',
             longitude: '42.83251000'),
         City(
+            id: 148745,
+            name: 'Abu Radif',
+            latitude: '16.61860000',
+            longitude: '43.13110000'),
+        City(
             id: 102807,
             name: 'Ad Darb',
             latitude: '17.72285000',
             longitude: '42.25261000'),
+        City(
+            id: 148746,
+            name: 'Ad Dur`iyah',
+            latitude: '16.58420000',
+            longitude: '42.84310000'),
+        City(
+            id: 148747,
+            name: 'Adh Dhagharir',
+            latitude: '16.67780000',
+            longitude: '42.95920000'),
+        City(
+            id: 148775,
+            name: 'Al `Ulayin',
+            latitude: '17.15000000',
+            longitude: '43.17080000'),
+        City(
+            id: 148776,
+            name: 'Al `Usaylah',
+            latitude: '16.92030000',
+            longitude: '42.73530000'),
+        City(
+            id: 148748,
+            name: 'Al Badawi',
+            latitude: '16.63330000',
+            longitude: '42.86500000'),
+        City(
+            id: 148749,
+            name: 'Al Hadrur',
+            latitude: '16.54360000',
+            longitude: '42.86720000'),
+        City(
+            id: 148750,
+            name: 'Al Hanashah',
+            latitude: '16.55810000',
+            longitude: '42.76530000'),
+        City(
+            id: 148751,
+            name: 'Al Harani',
+            latitude: '16.77500000',
+            longitude: '42.90970000'),
+        City(
+            id: 148752,
+            name: 'Al Hasamah',
+            latitude: '16.68333333',
+            longitude: '42.92694444'),
+        City(
+            id: 148753,
+            name: 'Al Hijfar',
+            latitude: '16.54440000',
+            longitude: '42.84720000'),
+        City(
+            id: 148754,
+            name: 'Al Jadi',
+            latitude: '16.64500000',
+            longitude: '42.99470000'),
         City(
             id: 102822,
             name: 'Al Jarādīyah',
             latitude: '16.57946000',
             longitude: '42.91240000'),
         City(
+            id: 148755,
+            name: 'Al Jawah',
+            latitude: '16.95670000',
+            longitude: '43.02970000'),
+        City(
+            id: 148756,
+            name: 'Al Jirbah',
+            latitude: '16.92640000',
+            longitude: '42.88610000'),
+        City(
+            id: 148757,
+            name: 'Al Karbus',
+            latitude: '16.87330000',
+            longitude: '42.63170000'),
+        City(
+            id: 148758,
+            name: 'Al Kawahilah',
+            latitude: '16.96140000',
+            longitude: '42.67250000'),
+        City(
+            id: 148759,
+            name: 'Al Khadra\', Jizan',
+            latitude: '16.58583333',
+            longitude: '42.96333333'),
+        City(
+            id: 148760,
+            name: 'Al Kharabah, Jizan',
+            latitude: '16.75580000',
+            longitude: '42.95470000'),
+        City(
+            id: 148761,
+            name: 'Al Kharadilah',
+            latitude: '16.92720000',
+            longitude: '42.62640000'),
+        City(
+            id: 148762,
+            name: 'Al Khashabiyah',
+            latitude: '16.94030000',
+            longitude: '42.64310000'),
+        City(
+            id: 148763,
+            name: 'Al Khubah',
+            latitude: '16.78860000',
+            longitude: '43.22190000'),
+        City(
+            id: 148764,
+            name: 'Al Kirs',
+            latitude: '16.57720000',
+            longitude: '42.94750000'),
+        City(
+            id: 148765,
+            name: 'Al Luqiyah',
+            latitude: '16.66060000',
+            longitude: '43.04000000'),
+        City(
+            id: 148766,
+            name: 'Al Ma`ayin',
+            latitude: '16.61080000',
+            longitude: '43.14720000'),
+        City(
+            id: 148767,
+            name: 'Al Madaya',
+            latitude: '16.76970000',
+            longitude: '42.73110000'),
+        City(
+            id: 148768,
+            name: 'Al Mali',
+            latitude: '16.79530000',
+            longitude: '42.95360000'),
+        City(
+            id: 148769,
+            name: 'Al Mayasam',
+            latitude: '16.94780000',
+            longitude: '42.72110000'),
+        City(
+            id: 148770,
+            name: 'Al Qa\'im',
+            latitude: '16.71944444',
+            longitude: '42.97666667'),
+        City(
+            id: 148771,
+            name: 'Al Quful',
+            latitude: '16.67330000',
+            longitude: '43.07890000'),
+        City(
+            id: 148772,
+            name: 'Al Qurayb',
+            latitude: '16.97500000',
+            longitude: '42.72530000'),
+        City(
+            id: 148773,
+            name: 'Al Quwah',
+            latitude: '16.79940000',
+            longitude: '43.22500000'),
+        City(
+            id: 148774,
+            name: 'Al Wasili',
+            latitude: '16.94690000',
+            longitude: '42.69030000'),
+        City(
+            id: 148777,
+            name: 'An Najamiyah',
+            latitude: '16.56470000',
+            longitude: '42.94390000'),
+        City(
+            id: 148778,
+            name: 'Ar Rukubah',
+            latitude: '16.62220000',
+            longitude: '42.96750000'),
+        City(
+            id: 148779,
+            name: 'Ash Shuqayq',
+            latitude: '17.70305556',
+            longitude: '42.02944444'),
+        City(
+            id: 148780,
+            name: 'Bakhshat Yamani',
+            latitude: '16.89860000',
+            longitude: '42.59890000'),
+        City(
             id: 102854,
             name: 'Farasān',
             latitude: '16.70222000',
             longitude: '42.11833000'),
         City(
+            id: 148781,
+            name: 'Ghawiyah',
+            latitude: '16.56500000',
+            longitude: '43.11080000'),
+        City(
+            id: 148782,
+            name: 'Hamayyah',
+            latitude: '16.98940000',
+            longitude: '43.16030000'),
+        City(
+            id: 148783,
+            name: 'Hamdah',
+            latitude: '16.76190000',
+            longitude: '42.92220000'),
+        City(
             id: 102859,
             name: 'Jizan',
             latitude: '16.88917000',
             longitude: '42.55111000'),
+        City(
+            id: 148784,
+            name: 'Juha, Saudi Arabia',
+            latitude: '16.66940000',
+            longitude: '42.89220000'),
+        City(
+            id: 148785,
+            name: 'Ka`lul',
+            latitude: '16.89750000',
+            longitude: '42.84670000'),
+        City(
+            id: 148786,
+            name: 'Khabath Sa`id',
+            latitude: '16.99780000',
+            longitude: '42.73220000'),
+        City(
+            id: 148787,
+            name: 'Khalfah',
+            latitude: '16.55470000',
+            longitude: '43.08940000'),
+        City(
+            id: 148788,
+            name: 'Khatib, Saudi Arabia',
+            latitude: '16.89610000',
+            longitude: '41.85750000'),
+        City(
+            id: 148789,
+            name: 'Khumsiyah',
+            latitude: '16.77140000',
+            longitude: '42.80190000'),
+        City(
+            id: 148790,
+            name: 'Khushaym',
+            latitude: '16.88000000',
+            longitude: '43.13720000'),
+        City(
+            id: 148791,
+            name: 'Mahatah',
+            latitude: '16.83330000',
+            longitude: '43.16670000'),
+        City(
+            id: 148792,
+            name: 'Malgocta',
+            latitude: '16.99777778',
+            longitude: '42.67388889'),
         City(
             id: 102866,
             name: 'Mislīyah',
@@ -357,92 +1842,878 @@ const sau = Country(
             latitude: '16.82611000',
             longitude: '42.73333000'),
         City(
+            id: 148793,
+            name: 'Mukambal',
+            latitude: '16.59360000',
+            longitude: '43.03280000'),
+        City(
+            id: 148794,
+            name: 'Mundaraq',
+            latitude: '16.75420000',
+            longitude: '43.14890000'),
+        City(
+            id: 148795,
+            name: 'Muwassam',
+            latitude: '16.41670000',
+            longitude: '42.82580000'),
+        City(
+            id: 148796,
+            name: 'Qitabir',
+            latitude: '17.33330000',
+            longitude: '43.25000000'),
+        City(
+            id: 148797,
+            name: 'Quwayda\'',
+            latitude: '16.73333333',
+            longitude: '42.89027778'),
+        City(
+            id: 148798,
+            name: 'Rahwan',
+            latitude: '16.83330000',
+            longitude: '43.21670000'),
+        City(
+            id: 148799,
+            name: 'Rawkhah',
+            latitude: '16.94780000',
+            longitude: '42.79330000'),
+        City(
             id: 102894,
             name: 'Şabyā',
             latitude: '17.14950000',
             longitude: '42.62537000'),
+        City(
+            id: 148800,
+            name: 'Sadiliyah',
+            latitude: '16.92640000',
+            longitude: '42.83000000'),
+        City(
+            id: 148801,
+            name: 'Salamah',
+            latitude: '16.97530000',
+            longitude: '42.75640000'),
         City(
             id: 102897,
             name: 'Şāmitah',
             latitude: '16.59601000',
             longitude: '42.94435000')
       ]),
-      State(id: 2850, name: 'Makkah Region', stateCode: '02', cities: [
+      State(id: 2850, name: 'Makkah', stateCode: '02', cities: [
+        City(
+            id: 148870,
+            name: 'Abha',
+            latitude: '18.21666667',
+            longitude: '42.50000000'),
+        City(
+            id: 148874,
+            name: 'Abu `Urwah',
+            latitude: '21.65000000',
+            longitude: '39.70000000'),
+        City(
+            id: 148871,
+            name: 'Abu Hisani',
+            latitude: '21.73060000',
+            longitude: '39.78330000'),
+        City(
+            id: 148872,
+            name: 'Abu Qirfah',
+            latitude: '21.76670000',
+            longitude: '39.68330000'),
+        City(
+            id: 148873,
+            name: 'Abu Shu`ayb',
+            latitude: '21.58330000',
+            longitude: '39.70000000'),
+        City(
+            id: 148875,
+            name: 'Ad Dabbah',
+            latitude: '21.71670000',
+            longitude: '39.83330000'),
+        City(
+            id: 148876,
+            name: 'Ad Dawh',
+            latitude: '21.77220000',
+            longitude: '39.70140000'),
+        City(
+            id: 148877,
+            name: 'Ad Dur',
+            latitude: '21.81670000',
+            longitude: '39.76670000'),
+        City(
+            id: 148935,
+            name: 'Al Ābār',
+            latitude: '21.09810000',
+            longitude: '39.91030000'),
+        City(
+            id: 148878,
+            name: 'Al Adl',
+            latitude: '21.44361000',
+            longitude: '39.85611000'),
+        City(
+            id: 148879,
+            name: 'Al Ashraf',
+            latitude: '21.52360000',
+            longitude: '39.61670000'),
+        City(
+            id: 148880,
+            name: 'Al Balad',
+            latitude: '21.48780000',
+            longitude: '39.19360000'),
+        City(
+            id: 148881,
+            name: 'Al Barabir',
+            latitude: '21.52030000',
+            longitude: '39.63250000'),
+        City(
+            id: 148882,
+            name: 'Al Bi\'ar',
+            latitude: '22.64972222',
+            longitude: '39.67027778'),
+        City(
+            id: 148883,
+            name: 'Al Birk',
+            latitude: '18.21631000',
+            longitude: '41.53593000'),
+        City(
+            id: 148884,
+            name: 'Al Buraykah',
+            latitude: '21.78610000',
+            longitude: '39.71670000'),
+        City(
+            id: 148885,
+            name: 'Al Fawwarah',
+            latitude: '21.83280000',
+            longitude: '40.16110000'),
+        City(
+            id: 148886,
+            name: 'Al Faydah',
+            latitude: '21.98440000',
+            longitude: '39.38470000'),
+        City(
+            id: 148887,
+            name: 'Al Fazz',
+            latitude: '21.98330000',
+            longitude: '39.52220000'),
+        City(
+            id: 148888,
+            name: 'Al Gharith',
+            latitude: '21.60000000',
+            longitude: '41.88330000'),
+        City(
+            id: 148889,
+            name: 'Al Ghassalah',
+            latitude: '21.45000000',
+            longitude: '39.86670000'),
+        City(
+            id: 148890,
+            name: 'Al Ghulah',
+            latitude: '21.95000000',
+            longitude: '39.31670000'),
         City(
             id: 102819,
             name: 'Al Hadā',
             latitude: '21.36753000',
             longitude: '40.28694000'),
         City(
+            id: 148891,
+            name: 'Al Halaqah',
+            latitude: '21.35000000',
+            longitude: '40.45000000'),
+        City(
+            id: 148892,
+            name: 'Al Hamimah',
+            latitude: '21.51670000',
+            longitude: '39.63330000'),
+        City(
+            id: 148893,
+            name: 'Al Harra\', Makkah',
+            latitude: '21.95000000',
+            longitude: '39.48333333'),
+        City(
+            id: 148894,
+            name: 'Al Hawiyah',
+            latitude: '21.42415000',
+            longitude: '40.49303000'),
+        City(
+            id: 148895,
+            name: 'Al Iskan',
+            latitude: '21.40000000',
+            longitude: '39.78330000'),
+        City(
+            id: 148896,
+            name: 'Al Jadidah',
+            latitude: '21.67030000',
+            longitude: '40.12640000'),
+        City(
+            id: 148897,
+            name: 'Al Jami`ah',
+            latitude: '21.46670000',
+            longitude: '39.25000000'),
+        City(
+            id: 148898,
+            name: 'Al Jid`',
+            latitude: '21.93330000',
+            longitude: '39.58330000'),
+        City(
+            id: 148899,
+            name: 'Al Ju`ranah',
+            latitude: '21.56670000',
+            longitude: '39.95000000'),
+        City(
             id: 102824,
             name: 'Al Jumūm',
             latitude: '21.61694000',
             longitude: '39.69806000'),
+        City(
+            id: 148900,
+            name: 'Al Khadra\', Makkah',
+            latitude: '21.46777778',
+            longitude: '39.90472222'),
+        City(
+            id: 148901,
+            name: 'Al Khalas',
+            latitude: '21.70000000',
+            longitude: '39.80000000'),
+        City(
+            id: 148902,
+            name: 'Al Khamrah',
+            latitude: '22.43330000',
+            longitude: '39.46670000'),
+        City(
+            id: 148903,
+            name: 'Al Khaydar',
+            latitude: '21.46940000',
+            longitude: '40.63060000'),
+        City(
+            id: 148904,
+            name: 'Al Khayf',
+            latitude: '21.68330000',
+            longitude: '39.73330000'),
+        City(
+            id: 148905,
+            name: 'Al Khulasah',
+            latitude: '21.68330000',
+            longitude: '39.91670000'),
+        City(
+            id: 148906,
+            name: 'Al Kidwah',
+            latitude: '21.78330000',
+            longitude: '39.68330000'),
+        City(
+            id: 148907,
+            name: 'Al Kura`',
+            latitude: '21.80000000',
+            longitude: '39.13330000'),
+        City(
+            id: 148908,
+            name: 'Al Ma`rash',
+            latitude: '21.13330000',
+            longitude: '40.60000000'),
+        City(
+            id: 148909,
+            name: 'Al Madiq, Makkah',
+            latitude: '21.67580000',
+            longitude: '40.13080000'),
+        City(
+            id: 148910,
+            name: 'Al Maghal',
+            latitude: '21.96670000',
+            longitude: '39.55000000'),
+        City(
+            id: 148911,
+            name: 'Al Mahjar',
+            latitude: '21.43330000',
+            longitude: '39.20000000'),
+        City(
+            id: 148912,
+            name: 'Al Majāridah',
+            latitude: '19.12361111',
+            longitude: '41.91111111'),
+        City(
+            id: 148913,
+            name: 'Al Maqrah',
+            latitude: '21.26670000',
+            longitude: '39.95000000'),
+        City(
+            id: 148914,
+            name: 'Al Masarrah',
+            latitude: '21.36670000',
+            longitude: '40.46670000'),
+        City(
+            id: 148915,
+            name: 'Al Masfalah',
+            latitude: '21.41670000',
+            longitude: '39.81670000'),
+        City(
+            id: 148916,
+            name: 'Al Mashayikh',
+            latitude: '21.35000000',
+            longitude: '40.33330000'),
+        City(
+            id: 148917,
+            name: 'Al Mathnah',
+            latitude: '21.26666667',
+            longitude: '40.38333333'),
+        City(
+            id: 148918,
+            name: 'Al Mubarak',
+            latitude: '21.70000000',
+            longitude: '39.90000000'),
+        City(
+            id: 148919,
+            name: 'Al Mudawwarah',
+            latitude: '21.26670000',
+            longitude: '39.96670000'),
+        City(
+            id: 148920,
+            name: 'Al Mulayha\'',
+            latitude: '21.80000000',
+            longitude: '40.35000000'),
+        City(
+            id: 148921,
+            name: 'Al Mundassah',
+            latitude: '21.63330000',
+            longitude: '39.74860000'),
+        City(
+            id: 148922,
+            name: 'Al Muqayti`',
+            latitude: '21.54860000',
+            longitude: '39.78610000'),
+        City(
+            id: 148923,
+            name: 'Al Muqr',
+            latitude: '22.00000000',
+            longitude: '39.38330000'),
         City(
             id: 102833,
             name: 'Al Muwayh',
             latitude: '22.43333000',
             longitude: '41.75829000'),
         City(
+            id: 148924,
+            name: 'Al Qadimah',
+            latitude: '22.35000000',
+            longitude: '39.15000000'),
+        City(
+            id: 148925,
+            name: 'Al Qahab',
+            latitude: '18.92560000',
+            longitude: '41.95500000'),
+        City(
+            id: 148926,
+            name: 'Al Qararah',
+            latitude: '21.42890000',
+            longitude: '39.82810000'),
+        City(
+            id: 148927,
+            name: 'Al Qaryat',
+            latitude: '21.46670000',
+            longitude: '39.20000000'),
+        City(
+            id: 148928,
+            name: 'Al Qawba`iyah',
+            latitude: '21.66670000',
+            longitude: '39.98330000'),
+        City(
+            id: 148929,
+            name: 'Al Qirshan',
+            latitude: '21.56670000',
+            longitude: '39.70000000'),
+        City(
+            id: 148930,
+            name: 'Al Qu`tubah',
+            latitude: '21.93330000',
+            longitude: '40.36670000'),
+        City(
+            id: 148931,
+            name: 'Al Qufayf',
+            latitude: '21.83330000',
+            longitude: '40.45000000'),
+        City(
+            id: 148932,
+            name: 'Al Qushashiyah',
+            latitude: '21.43330000',
+            longitude: '39.83330000'),
+        City(
+            id: 148933,
+            name: 'Al Ukhaydir',
+            latitude: '21.93330000',
+            longitude: '40.01670000'),
+        City(
+            id: 148934,
+            name: 'Al Waht',
+            latitude: '21.23330000',
+            longitude: '40.35000000'),
+        City(
+            id: 148936,
+            name: 'Ar Rabwah as Sufla',
+            latitude: '21.95530000',
+            longitude: '39.43670000'),
+        City(
+            id: 148937,
+            name: 'Ar Rafah',
+            latitude: '21.51670000',
+            longitude: '40.20000000'),
+        City(
+            id: 148938,
+            name: 'Ar Rawdah ash Shamaliyah',
+            latitude: '21.73330000',
+            longitude: '39.96670000'),
+        City(
+            id: 148939,
+            name: 'Ar Rudaymah',
+            latitude: '21.76670000',
+            longitude: '39.68330000'),
+        City(
+            id: 148940,
+            name: 'Arya`',
+            latitude: '21.08560000',
+            longitude: '40.62390000'),
+        City(
+            id: 148941,
+            name: 'As Sadr',
+            latitude: '21.51890000',
+            longitude: '40.19750000'),
+        City(
+            id: 148942,
+            name: 'As Samd ash Shamali',
+            latitude: '21.67500000',
+            longitude: '39.75000000'),
+        City(
+            id: 148943,
+            name: 'As Sayl al Kabir',
+            latitude: '21.62640000',
+            longitude: '40.41530000'),
+        City(
+            id: 148944,
+            name: 'As Sayl as Saghir',
+            latitude: '21.50640000',
+            longitude: '40.48220000'),
+        City(
+            id: 148945,
+            name: 'As Sifyani',
+            latitude: '21.47560000',
+            longitude: '39.84310000'),
+        City(
+            id: 148946,
+            name: 'As Sudayrah, Makkah',
+            latitude: '21.36190000',
+            longitude: '40.85470000'),
+        City(
+            id: 148947,
+            name: 'As Suwadah',
+            latitude: '21.13390000',
+            longitude: '40.51170000'),
+        City(
             id: 102845,
             name: 'Ash Shafā',
             latitude: '21.07210000',
             longitude: '40.31185000'),
+        City(
+            id: 148948,
+            name: 'Ash Shajwah',
+            latitude: '21.66440000',
+            longitude: '40.01140000'),
+        City(
+            id: 148949,
+            name: 'Ash Shamiyah',
+            latitude: '21.84110000',
+            longitude: '39.52440000'),
+        City(
+            id: 148950,
+            name: 'Ash Shara\'i`',
+            latitude: '21.46305556',
+            longitude: '39.94611111'),
+        City(
+            id: 148951,
+            name: 'Ash Shaybi',
+            latitude: '21.69580000',
+            longitude: '39.94170000'),
+        City(
+            id: 148952,
+            name: 'Ash Shi`b',
+            latitude: '21.96890000',
+            longitude: '39.48610000'),
+        City(
+            id: 148953,
+            name: 'Ash Shishah',
+            latitude: '21.35030000',
+            longitude: '39.89190000'),
+        City(
+            id: 148954,
+            name: 'Ash Shumaysi',
+            latitude: '21.58330000',
+            longitude: '39.68330000'),
+        City(
+            id: 148955,
+            name: 'Ash Shuwaybit',
+            latitude: '21.37970000',
+            longitude: '40.51940000'),
+        City(
+            id: 148956,
+            name: 'At Tan`im',
+            latitude: '21.48250000',
+            longitude: '39.80500000'),
+        City(
+            id: 148957,
+            name: 'At Tarfa\'',
+            latitude: '21.70638889',
+            longitude: '39.87138889'),
+        City(
+            id: 148958,
+            name: 'At Turqi',
+            latitude: '21.94920000',
+            longitude: '39.41310000'),
+        City(
+            id: 148959,
+            name: 'Az Zaymah',
+            latitude: '21.61860000',
+            longitude: '40.11330000'),
+        City(
+            id: 148960,
+            name: 'Az Zilal',
+            latitude: '21.48890000',
+            longitude: '39.59420000'),
+        City(
+            id: 148961,
+            name: 'Az Zughbah',
+            latitude: '21.71670000',
+            longitude: '39.94580000'),
+        City(
+            id: 148962,
+            name: 'Az Zurra`',
+            latitude: '21.91060000',
+            longitude: '39.40000000'),
+        City(
+            id: 148963,
+            name: 'Az Zuwayb',
+            latitude: '21.91670000',
+            longitude: '39.96940000'),
+        City(
+            id: 148964,
+            name: 'Bahrat al Qadimah',
+            latitude: '21.41330000',
+            longitude: '39.49390000'),
+        City(
+            id: 148965,
+            name: 'Bahwil',
+            latitude: '22.42940000',
+            longitude: '39.42940000'),
+        City(
+            id: 148966,
+            name: 'Baranah',
+            latitude: '21.55420000',
+            longitude: '39.82220000'),
+        City(
+            id: 148967,
+            name: 'Barzah',
+            latitude: '21.98000000',
+            longitude: '39.67560000'),
+        City(
+            id: 148968,
+            name: 'Bashm',
+            latitude: '21.48220000',
+            longitude: '39.82080000'),
+        City(
+            id: 148969,
+            name: 'Buraykah',
+            latitude: '22.34440000',
+            longitude: '39.32000000'),
+        City(
+            id: 148970,
+            name: 'Burayman',
+            latitude: '21.63750000',
+            longitude: '39.22640000'),
+        City(
+            id: 148971,
+            name: 'CITY GHRAN',
+            latitude: '21.97380000',
+            longitude: '39.36820000'),
+        City(
+            id: 148972,
+            name: 'Dabyah',
+            latitude: '22.42470000',
+            longitude: '39.44610000'),
+        City(
+            id: 148973,
+            name: 'Dahaban',
+            latitude: '21.93333333',
+            longitude: '39.11666667'),
+        City(
+            id: 148974,
+            name: 'Dughaybjah',
+            latitude: '22.59030000',
+            longitude: '41.35970000'),
+        City(
+            id: 148975,
+            name: 'Fayd',
+            latitude: '21.91720000',
+            longitude: '39.38830000'),
         City(
             id: 102855,
             name: 'Ghran',
             latitude: '21.98027000',
             longitude: '39.36521000'),
         City(
+            id: 148976,
+            name: 'Hadda\'',
+            latitude: '21.45027778',
+            longitude: '39.55444444'),
+        City(
+            id: 148977,
+            name: 'Haddat ash Sham',
+            latitude: '21.79670000',
+            longitude: '39.68330000'),
+        City(
+            id: 148978,
+            name: 'Hadhah',
+            latitude: '21.65250000',
+            longitude: '40.01420000'),
+        City(
+            id: 148979,
+            name: 'Hajur',
+            latitude: '23.01780000',
+            longitude: '39.73030000'),
+        City(
+            id: 148980,
+            name: 'Halamah',
+            latitude: '21.95420000',
+            longitude: '39.70280000'),
+        City(
+            id: 148981,
+            name: 'Husnah',
+            latitude: '21.80000000',
+            longitude: '39.59166667'),
+        City(
+            id: 148982,
+            name: 'Jarwal',
+            latitude: '21.43330000',
+            longitude: '39.81670000'),
+        City(
             id: 102858,
             name: 'Jeddah',
             latitude: '21.54238000',
             longitude: '39.19797000'),
+        City(
+            id: 148983,
+            name: 'Julayyil',
+            latitude: '21.95830000',
+            longitude: '39.75830000'),
+        City(
+            id: 148984,
+            name: 'Khamis Mushait',
+            latitude: '18.30000000',
+            longitude: '42.73333333'),
+        City(
+            id: 148985,
+            name: 'Khumrah',
+            latitude: '21.37280000',
+            longitude: '39.22610000'),
+        City(
+            id: 148986,
+            name: 'Kulakh',
+            latitude: '21.29640000',
+            longitude: '40.79690000'),
+        City(
+            id: 148987,
+            name: 'Ma`riyah',
+            latitude: '18.85000000',
+            longitude: '41.96670000'),
+        City(
+            id: 148988,
+            name: 'Madrakah',
+            latitude: '21.97970000',
+            longitude: '39.98750000'),
+        City(
+            id: 148989,
+            name: 'Mafruq',
+            latitude: '21.52220000',
+            longitude: '40.17940000'),
+        City(
+            id: 148990,
+            name: 'Malakan',
+            latitude: '21.21580000',
+            longitude: '39.95030000'),
+        City(
+            id: 148991,
+            name: 'Mashajji',
+            latitude: '21.73890000',
+            longitude: '39.96670000'),
+        City(
+            id: 148992,
+            name: 'Masihat Mahd al Hayl',
+            latitude: '21.94170000',
+            longitude: '39.88610000'),
+        City(
+            id: 148993,
+            name: 'Maskar',
+            latitude: '21.75000000',
+            longitude: '40.31640000'),
+        City(
+            id: 148994,
+            name: 'Matiyah',
+            latitude: '21.54170000',
+            longitude: '39.81940000'),
         City(
             id: 102864,
             name: 'Mecca',
             latitude: '21.42664000',
             longitude: '39.82563000'),
         City(
+            id: 148995,
+            name: 'Mifa',
+            latitude: '18.89170000',
+            longitude: '41.96330000'),
+        City(
+            id: 148996,
+            name: 'Mina',
+            latitude: '21.41333333',
+            longitude: '39.89333333'),
+        City(
+            id: 148997,
+            name: 'Munayzir',
+            latitude: '18.94640000',
+            longitude: '41.91640000'),
+        City(
+            id: 148998,
+            name: 'Murshidiyah',
+            latitude: '21.48890000',
+            longitude: '39.79440000'),
+        City(
+            id: 148999,
+            name: 'Mushrif',
+            latitude: '22.62920000',
+            longitude: '41.35670000'),
+        City(
+            id: 149000,
+            name: 'Nughayshiyah',
+            latitude: '21.21670000',
+            longitude: '40.75000000'),
+        City(
+            id: 149001,
+            name: 'Nuzlat al Faqin',
+            latitude: '22.00000000',
+            longitude: '39.41670000'),
+        City(
+            id: 149002,
+            name: 'Qiya',
+            latitude: '21.06670000',
+            longitude: '41.01670000'),
+        City(
+            id: 149003,
+            name: 'Quwayzah',
+            latitude: '21.49030000',
+            longitude: '39.27670000'),
+        City(
             id: 102875,
             name: 'Rābigh',
             latitude: '22.79856000',
             longitude: '39.03493000'),
         City(
+            id: 149004,
+            name: 'Rabwah Ghran',
+            latitude: '21.98330000',
+            longitude: '39.41670000'),
+        City(
+            id: 149005,
+            name: 'Raqiyah',
+            latitude: '21.76670000',
+            longitude: '40.35000000'),
+        City(
+            id: 149006,
+            name: 'Sabuhah',
+            latitude: '21.58330000',
+            longitude: '40.11670000'),
+        City(
+            id: 149007,
+            name: 'Shi`b `amir',
+            latitude: '21.43330000',
+            longitude: '39.83330000'),
+        City(
+            id: 149008,
+            name: 'Shira`ayn',
+            latitude: '21.28330000',
+            longitude: '40.78330000'),
+        City(
+            id: 149009,
+            name: 'Sulaym',
+            latitude: '22.58330000',
+            longitude: '39.63330000'),
+        City(
+            id: 149010,
+            name: 'Sumaymah',
+            latitude: '21.25000000',
+            longitude: '39.16670000'),
+        City(
+            id: 149011,
+            name: 'Suways',
+            latitude: '21.95000000',
+            longitude: '39.96670000'),
+        City(
             id: 102884,
-            name: 'Ta’if',
+            name: 'Ta\'if',
             latitude: '21.27028000',
             longitude: '40.41583000'),
+        City(
+            id: 149012,
+            name: 'Tabālah',
+            latitude: '19.95000000',
+            longitude: '42.40000000'),
+        City(
+            id: 149013,
+            name: 'Tharwah',
+            latitude: '21.51670000',
+            longitude: '39.61670000'),
+        City(
+            id: 149014,
+            name: 'Thuwal',
+            latitude: '22.28333333',
+            longitude: '39.10000000'),
         City(
             id: 102886,
             name: 'Turabah',
             latitude: '21.21406000',
-            longitude: '41.63310000')
+            longitude: '41.63310000'),
+        City(
+            id: 149015,
+            name: 'Usfan',
+            latitude: '21.92306000',
+            longitude: '39.35594000'),
+        City(
+            id: 149016,
+            name: 'Wadi al Jalil',
+            latitude: '21.46670000',
+            longitude: '39.85000000')
       ]),
-      State(id: 2860, name: 'Najran Region', stateCode: '10', cities: [
+      State(id: 2860, name: 'Najran', stateCode: '10', cities: [
         City(
             id: 102869,
             name: 'Najrān',
             latitude: '17.49326000',
             longitude: '44.12766000')
       ]),
-      State(
-          id: 2854,
-          name: 'Northern Borders Region',
-          stateCode: '08',
-          cities: [
-            City(
-                id: 102842,
-                name: 'Arar',
-                latitude: '30.97531000',
-                longitude: '41.03808000'),
-            City(
-                id: 102887,
-                name: 'Turaif',
-                latitude: '31.67252000',
-                longitude: '38.66374000')
-          ]),
-      State(id: 2849, name: 'Riyadh Region', stateCode: '01', cities: [
+      State(id: 2854, name: 'Northern Borders', stateCode: '08', cities: [
+        City(
+            id: 102842,
+            name: 'Arar',
+            latitude: '30.97531000',
+            longitude: '41.03808000'),
+        City(
+            id: 148586,
+            name: 'Nisab',
+            latitude: '29.19274000',
+            longitude: '44.71598000'),
+        City(
+            id: 102887,
+            name: 'Turaif',
+            latitude: '31.67252000',
+            longitude: '38.66374000'),
+        City(
+            id: 148587,
+            name: 'Umm Radamah',
+            latitude: '28.67985000',
+            longitude: '44.69549000')
+      ]),
+      State(id: 2849, name: 'Riyadh', stateCode: '01', cities: [
         City(
             id: 102808,
             name: 'Ad Dawādimī',
@@ -469,10 +2740,35 @@ const sau = Country(
             latitude: '26.50387000',
             longitude: '45.34813000'),
         City(
+            id: 149017,
+            name: 'Al Bir',
+            latitude: '25.30000000',
+            longitude: '45.96670000'),
+        City(
+            id: 149018,
+            name: 'Al Hair',
+            latitude: '24.39072000',
+            longitude: '46.98677000'),
+        City(
+            id: 149019,
+            name: 'Al Jurayfah',
+            latitude: '25.52932000',
+            longitude: '45.25644000'),
+        City(
             id: 102826,
             name: 'Al Kharj',
             latitude: '24.15541000',
             longitude: '47.33457000'),
+        City(
+            id: 149020,
+            name: 'Ar Rayn',
+            latitude: '23.54995000',
+            longitude: '45.50463000'),
+        City(
+            id: 149021,
+            name: 'As Salamiyah',
+            latitude: '24.20154000',
+            longitude: '47.28872000'),
         City(
             id: 102844,
             name: 'As Sulayyil',
@@ -484,10 +2780,50 @@ const sau = Country(
             latitude: '26.29945000',
             longitude: '44.81542000'),
         City(
+            id: 149022,
+            name: 'Dawadmi',
+            latitude: '24.50772000',
+            longitude: '44.39237000'),
+        City(
+            id: 149023,
+            name: 'Diriyah',
+            latitude: '24.75187000',
+            longitude: '46.53874000'),
+        City(
+            id: 149024,
+            name: 'Harmah',
+            latitude: '25.91666667',
+            longitude: '45.33333333'),
+        City(
+            id: 149025,
+            name: 'Jalajil',
+            latitude: '25.66666667',
+            longitude: '45.45000000'),
+        City(
+            id: 149026,
+            name: 'Layla',
+            latitude: '22.28330000',
+            longitude: '46.73330000'),
+        City(
+            id: 149027,
+            name: 'Manfuha',
+            latitude: '24.59611111',
+            longitude: '46.72722222'),
+        City(
             id: 102863,
             name: 'Marāt',
             latitude: '25.07064000',
             longitude: '45.45775000'),
+        City(
+            id: 149028,
+            name: 'Najan',
+            latitude: '24.07746000',
+            longitude: '47.16590000'),
+        City(
+            id: 149029,
+            name: 'Najran',
+            latitude: '17.49170000',
+            longitude: '44.13220000'),
         City(
             id: 102874,
             name: 'Riyadh',
@@ -509,7 +2845,7 @@ const sau = Country(
             latitude: '25.70347000',
             longitude: '45.86835000')
       ]),
-      State(id: 2852, name: 'Tabuk Region', stateCode: '07', cities: [
+      State(id: 2852, name: 'Tabuk', stateCode: '07', cities: [
         City(
             id: 102838,
             name: 'Al Wajh',

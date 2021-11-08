@@ -4,7 +4,7 @@ import 'package:country_state_city/country_state_city.dart';
 
 const cod = Country(
     id: 51,
-    name: 'Congo The Democratic Republic Of The',
+    name: 'Democratic Republic of the Congo',
     iso3: 'COD',
     iso2: 'CD',
     phoneCode: '243',
@@ -32,40 +32,7 @@ const cod = Country(
     emoji: '🇨🇩',
     emojiU: 'U+1F1E8 U+1F1E9',
     states: [
-      State(id: 2754, name: 'Bandundu Province', stateCode: 'BN', cities: []),
-      State(id: 2746, name: 'Bas-Congo province', stateCode: 'BC', cities: [
-        City(
-            id: 17231,
-            name: 'Boma',
-            latitude: '-5.85098000',
-            longitude: '13.05364000'),
-        City(
-            id: 17258,
-            name: 'Kasangulu',
-            latitude: '-4.58330000',
-            longitude: '15.16554000'),
-        City(
-            id: 17278,
-            name: 'Matadi',
-            latitude: '-5.83861000',
-            longitude: '13.46306000'),
-        City(
-            id: 17280,
-            name: 'Mbanza-Ngungu',
-            latitude: '-5.25837000',
-            longitude: '14.85838000'),
-        City(
-            id: 17282,
-            name: 'Moanda',
-            latitude: '-5.92753000',
-            longitude: '12.37148000'),
-        City(
-            id: 17288,
-            name: 'Tshela',
-            latitude: '-4.99707000',
-            longitude: '12.94840000')
-      ]),
-      State(id: 2753, name: 'Bas-Uele', stateCode: 'BU', cities: [
+      State(id: 2753, name: 'Bas-Uélé', stateCode: 'BU', cities: [
         City(
             id: 17225,
             name: 'Aketi',
@@ -104,7 +71,7 @@ const cod = Country(
             latitude: '0.04865000',
             longitude: '18.26034000')
       ]),
-      State(id: 2750, name: 'Haut-Katanga Province', stateCode: 'HK', cities: [
+      State(id: 2750, name: 'Haut-Katanga', stateCode: 'HK', cities: [
         City(
             id: 17247,
             name: 'Haut Katanga',
@@ -131,7 +98,7 @@ const cod = Country(
             latitude: '-11.66089000',
             longitude: '27.47938000')
       ]),
-      State(id: 2758, name: 'Haut-Lomami District', stateCode: 'HL', cities: [
+      State(id: 2758, name: 'Haut-Lomami', stateCode: 'HL', cities: [
         City(
             id: 17235,
             name: 'Bukama',
@@ -143,7 +110,7 @@ const cod = Country(
             latitude: '-8.73508000',
             longitude: '24.99798000')
       ]),
-      State(id: 2734, name: 'Haut-Uele', stateCode: 'HU', cities: [
+      State(id: 2734, name: 'Haut-Uélé', stateCode: 'HU', cities: [
         City(
             id: 17250,
             name: 'Isiro',
@@ -160,18 +127,14 @@ const cod = Country(
             latitude: '3.03716000',
             longitude: '29.53551000')
       ]),
-      State(
-          id: 2751,
-          name: 'Ituri Interim Administration',
-          stateCode: 'IT',
-          cities: [
-            City(
-                id: 17239,
-                name: 'Bunia',
-                latitude: '1.55941000',
-                longitude: '30.25224000')
-          ]),
-      State(id: 2757, name: 'Kasaï District', stateCode: 'KS', cities: [
+      State(id: 2751, name: 'Ituri', stateCode: 'IT', cities: [
+        City(
+            id: 17239,
+            name: 'Bunia',
+            latitude: '1.55941000',
+            longitude: '30.25224000')
+      ]),
+      State(id: 2757, name: 'Kasaï', stateCode: 'KS', cities: [
         City(
             id: 17248,
             name: 'Ilebo',
@@ -193,8 +156,8 @@ const cod = Country(
             latitude: '-6.41621000',
             longitude: '20.79995000')
       ]),
-      State(id: 2737, name: 'Kasaï-Occidental', stateCode: 'KW', cities: []),
-      State(id: 2735, name: 'Kasaï-Oriental', stateCode: 'KE', cities: [
+      State(id: 2742, name: 'Kasaï Central', stateCode: 'KC', cities: []),
+      State(id: 2735, name: 'Kasaï Oriental', stateCode: 'KE', cities: [
         City(
             id: 17243,
             name: 'Gandajika',
@@ -211,7 +174,6 @@ const cod = Country(
             latitude: '-6.13603000',
             longitude: '23.58979000')
       ]),
-      State(id: 2742, name: 'Katanga Province', stateCode: 'KA', cities: []),
       State(id: 2741, name: 'Kinshasa', stateCode: 'KN', cities: [
         City(
             id: 17263,
@@ -224,14 +186,46 @@ const cod = Country(
             latitude: '-4.38361000',
             longitude: '15.39139000')
       ]),
-      State(id: 2740, name: 'Kwango District', stateCode: 'KG', cities: [
+      State(id: 2746, name: 'Kongo Central', stateCode: 'BC', cities: [
+        City(
+            id: 17231,
+            name: 'Boma',
+            latitude: '-5.85098000',
+            longitude: '13.05364000'),
+        City(
+            id: 17258,
+            name: 'Kasangulu',
+            latitude: '-4.58330000',
+            longitude: '15.16554000'),
+        City(
+            id: 17278,
+            name: 'Matadi',
+            latitude: '-5.83861000',
+            longitude: '13.46306000'),
+        City(
+            id: 17280,
+            name: 'Mbanza-Ngungu',
+            latitude: '-5.25837000',
+            longitude: '14.85838000'),
+        City(
+            id: 17282,
+            name: 'Moanda',
+            latitude: '-5.92753000',
+            longitude: '12.37148000'),
+        City(
+            id: 17288,
+            name: 'Tshela',
+            latitude: '-4.99707000',
+            longitude: '12.94840000')
+      ]),
+      State(id: 2740, name: 'Kwango', stateCode: 'KG', cities: [
         City(
             id: 17260,
             name: 'Kasongo-Lunda',
             latitude: '-6.47833000',
             longitude: '16.81735000')
       ]),
-      State(id: 2759, name: 'Kwilu District', stateCode: 'KL', cities: [
+      State(id: 2759, name: 'Kwilu', stateCode: 'KL', cities: [
         City(
             id: 17226,
             name: 'Bandundu',
@@ -253,7 +247,7 @@ const cod = Country(
             latitude: '-4.02328000',
             longitude: '19.53385000')
       ]),
-      State(id: 2747, name: 'Lomami Province', stateCode: 'LO', cities: [
+      State(id: 2747, name: 'Lomami', stateCode: 'LO', cities: [
         City(
             id: 17271,
             name: 'Lubao',
@@ -265,7 +259,8 @@ const cod = Country(
             latitude: '-7.00906000',
             longitude: '23.45278000')
       ]),
-      State(id: 2755, name: 'Mai-Ndombe Province', stateCode: 'MN', cities: [
+      State(id: 4953, name: 'Lualaba', stateCode: 'LU', cities: []),
+      State(id: 2755, name: 'Mai-Ndombe', stateCode: 'MN', cities: [
         City(
             id: 17230,
             name: 'Bolobo',
@@ -304,31 +299,14 @@ const cod = Country(
             latitude: '-2.94373000',
             longitude: '25.92237000')
       ]),
-      State(id: 2752, name: 'Mongala District', stateCode: 'MO', cities: [
+      State(id: 2752, name: 'Mongala', stateCode: 'MO', cities: [
         City(
             id: 17238,
             name: 'Bumba',
             latitude: '2.18771000',
             longitude: '22.46827000')
       ]),
-      State(id: 2739, name: 'Nord-Ubangi District', stateCode: 'NU', cities: [
-        City(
-            id: 17234,
-            name: 'Bosobolo',
-            latitude: '4.18980000',
-            longitude: '19.88330000'),
-        City(
-            id: 17240,
-            name: 'Businga',
-            latitude: '3.33863000',
-            longitude: '20.88577000'),
-        City(
-            id: 17244,
-            name: 'Gbadolite',
-            latitude: '4.27900000',
-            longitude: '21.00284000')
-      ]),
-      State(id: 2749, name: 'North Kivu', stateCode: 'NK', cities: [
+      State(id: 2749, name: 'Nord-Kivu', stateCode: 'NK', cities: [
         City(
             id: 17228,
             name: 'Beni',
@@ -350,8 +328,24 @@ const cod = Country(
             latitude: '-1.57386000',
             longitude: '29.04339000')
       ]),
-      State(id: 2736, name: 'Orientale Province', stateCode: 'OR', cities: []),
-      State(id: 2743, name: 'Sankuru District', stateCode: 'SA', cities: [
+      State(id: 2739, name: 'Nord-Ubangi', stateCode: 'NU', cities: [
+        City(
+            id: 17234,
+            name: 'Bosobolo',
+            latitude: '4.18980000',
+            longitude: '19.88330000'),
+        City(
+            id: 17240,
+            name: 'Businga',
+            latitude: '3.33863000',
+            longitude: '20.88577000'),
+        City(
+            id: 17244,
+            name: 'Gbadolite',
+            latitude: '4.27900000',
+            longitude: '21.00284000')
+      ]),
+      State(id: 2743, name: 'Sankuru', stateCode: 'SA', cities: [
         City(
             id: 17270,
             name: 'Lodja',
@@ -363,7 +357,7 @@ const cod = Country(
             latitude: '-4.97503000',
             longitude: '23.44391000')
       ]),
-      State(id: 2738, name: 'South Kivu', stateCode: 'SK', cities: [
+      State(id: 2738, name: 'Sud-Kivu', stateCode: 'SK', cities: [
         City(
             id: 17236,
             name: 'Bukavu',
@@ -392,7 +386,7 @@ const cod = Country(
             latitude: '3.65332000',
             longitude: '18.63566000')
       ]),
-      State(id: 2733, name: 'Tanganyika Province', stateCode: 'TA', cities: [
+      State(id: 2733, name: 'Tanganyika', stateCode: 'TA', cities: [
         City(
             id: 17251,
             name: 'Kabalo',
@@ -409,7 +403,7 @@ const cod = Country(
             latitude: '-5.38532000',
             longitude: '27.00029000')
       ]),
-      State(id: 2756, name: 'Tshopo District', stateCode: 'TO', cities: [
+      State(id: 2756, name: 'Tshopo', stateCode: 'TO', cities: [
         City(
             id: 17227,
             name: 'Basoko',
@@ -426,7 +420,7 @@ const cod = Country(
             latitude: '0.76755000',
             longitude: '24.43973000')
       ]),
-      State(id: 2732, name: 'Tshuapa District', stateCode: 'TU', cities: [
+      State(id: 2732, name: 'Tshuapa', stateCode: 'TU', cities: [
         City(
             id: 17229,
             name: 'Boende',

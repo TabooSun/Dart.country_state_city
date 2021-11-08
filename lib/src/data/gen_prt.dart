@@ -38,324 +38,7 @@ const prt = Country(
     emoji: '🇵🇹',
     emojiU: 'U+1F1F5 U+1F1F9',
     states: [
-      State(id: 2235, name: 'Aveiro District', stateCode: '01', cities: [
-        City(
-            id: 88910,
-            name: 'Aguada de Cima',
-            latitude: '40.52291000',
-            longitude: '-8.42700000'),
-        City(
-            id: 89695,
-            name: 'Águeda',
-            latitude: '40.57720000',
-            longitude: '-8.44442000'),
-        City(
-            id: 88913,
-            name: 'Albergaria-a-Velha',
-            latitude: '40.68706000',
-            longitude: '-8.50399000'),
-        City(
-            id: 88967,
-            name: 'Anadia',
-            latitude: '40.43841000',
-            longitude: '-8.43352000'),
-        City(
-            id: 88976,
-            name: 'Aradas',
-            latitude: '40.62084000',
-            longitude: '-8.64195000'),
-        City(
-            id: 88980,
-            name: 'Arcos',
-            latitude: '40.44779000',
-            longitude: '-8.44171000'),
-        City(
-            id: 88986,
-            name: 'Argoncilhe',
-            latitude: '41.02541000',
-            longitude: '-8.53885000'),
-        City(
-            id: 88989,
-            name: 'Arouca',
-            latitude: '40.92658000',
-            longitude: '-8.27251000'),
-        City(
-            id: 88993,
-            name: 'Arrifana',
-            latitude: '40.91565000',
-            longitude: '-8.49657000'),
-        City(
-            id: 89001,
-            name: 'Avanca',
-            latitude: '40.80771000',
-            longitude: '-8.57220000'),
-        City(
-            id: 89003,
-            name: 'Aveiro',
-            latitude: '40.64427000',
-            longitude: '-8.64554000'),
-        City(
-            id: 89025,
-            name: 'Beduido',
-            latitude: '40.76427000',
-            longitude: '-8.56110000'),
-        City(
-            id: 89048,
-            name: 'Branca',
-            latitude: '40.76653000',
-            longitude: '-8.48262000'),
-        City(
-            id: 89106,
-            name: 'Castelo de Paiva',
-            latitude: '41.03353000',
-            longitude: '-8.29822000'),
-        City(
-            id: 89129,
-            name: 'Cortegaça',
-            latitude: '40.94883000',
-            longitude: '-8.62130000'),
-        City(
-            id: 89137,
-            name: 'Cucujães',
-            latitude: '40.87413000',
-            longitude: '-8.50687000'),
-        City(
-            id: 89141,
-            name: 'Eixo',
-            latitude: '40.62758000',
-            longitude: '-8.56922000'),
-        City(
-            id: 89147,
-            name: 'Esgueira',
-            latitude: '40.64899000',
-            longitude: '-8.62943000'),
-        City(
-            id: 89148,
-            name: 'Esmoriz',
-            latitude: '40.95773000',
-            longitude: '-8.62753000'),
-        City(
-            id: 89149,
-            name: 'Espargo',
-            latitude: '40.92462000',
-            longitude: '-8.57495000'),
-        City(
-            id: 89150,
-            name: 'Espinho',
-            latitude: '41.00763000',
-            longitude: '-8.64125000'),
-        City(
-            id: 89153,
-            name: 'Estarreja',
-            latitude: '40.75463000',
-            longitude: '-8.57917000'),
-        City(
-            id: 89170,
-            name: 'Feira',
-            latitude: '40.92535000',
-            longitude: '-8.54277000'),
-        City(
-            id: 89185,
-            name: 'Fiães',
-            latitude: '40.99446000',
-            longitude: '-8.52537000'),
-        City(
-            id: 89203,
-            name: 'Gafanha da Encarnação',
-            latitude: '40.61806000',
-            longitude: '-8.73303000'),
-        City(
-            id: 89204,
-            name: 'Gafanha da Nazaré',
-            latitude: '40.63621000',
-            longitude: '-8.71338000'),
-        City(
-            id: 89698,
-            name: 'Ílhavo',
-            latitude: '40.60188000',
-            longitude: '-8.67021000'),
-        City(
-            id: 89234,
-            name: 'Lamas',
-            latitude: '40.98597000',
-            longitude: '-8.56923000'),
-        City(
-            id: 89246,
-            name: 'Lobão',
-            latitude: '40.98664000',
-            longitude: '-8.48566000'),
-        City(
-            id: 89254,
-            name: 'Lourosa',
-            latitude: '40.98420000',
-            longitude: '-8.55142000'),
-        City(
-            id: 89257,
-            name: 'Luso',
-            latitude: '40.38429000',
-            longitude: '-8.37845000'),
-        City(
-            id: 89263,
-            name: 'Macieira de Cambra',
-            latitude: '40.85939000',
-            longitude: '-8.37338000'),
-        City(
-            id: 89287,
-            name: 'Mealhada',
-            latitude: '40.36273000',
-            longitude: '-8.44781000'),
-        City(
-            id: 89298,
-            name: 'Milheirós de Poiares',
-            latitude: '40.92163000',
-            longitude: '-8.46788000'),
-        City(
-            id: 89334,
-            name: 'Mosteirô',
-            latitude: '40.89843000',
-            longitude: '-8.53196000'),
-        City(
-            id: 89338,
-            name: 'Murtosa',
-            latitude: '40.74301000',
-            longitude: '-8.64023000'),
-        City(
-            id: 89349,
-            name: 'Nogueira da Regedoura',
-            latitude: '41.00530000',
-            longitude: '-8.59195000'),
-        City(
-            id: 89355,
-            name: 'Oiã',
-            latitude: '40.54264000',
-            longitude: '-8.53856000'),
-        City(
-            id: 89363,
-            name: 'Oliveira de Azemeis',
-            latitude: '40.84101000',
-            longitude: '-8.47555000'),
-        City(
-            id: 89364,
-            name: 'Oliveira de Azeméis',
-            latitude: '40.85078000',
-            longitude: '-8.46945000'),
-        City(
-            id: 89366,
-            name: 'Oliveira do Bairro',
-            latitude: '40.50977000',
-            longitude: '-8.56374000'),
-        City(
-            id: 89370,
-            name: 'Oliveirinha',
-            latitude: '40.60715000',
-            longitude: '-8.59198000'),
-        City(
-            id: 89374,
-            name: 'Ovar',
-            latitude: '40.85862000',
-            longitude: '-8.62513000'),
-        City(
-            id: 89387,
-            name: 'Paços de Brandão',
-            latitude: '40.97541000',
-            longitude: '-8.58350000'),
-        City(
-            id: 89379,
-            name: 'Pampilhosa do Botão',
-            latitude: '40.33580000',
-            longitude: '-8.42738000'),
-        City(
-            id: 89381,
-            name: 'Pardilhó',
-            latitude: '40.79925000',
-            longitude: '-8.62598000'),
-        City(
-            id: 89473,
-            name: 'Rio Meão',
-            latitude: '40.95775000',
-            longitude: '-8.57818000'),
-        City(
-            id: 89484,
-            name: 'Salreu',
-            latitude: '40.73971000',
-            longitude: '-8.55720000'),
-        City(
-            id: 89492,
-            name: 'Sanfins',
-            latitude: '40.92979000',
-            longitude: '-8.52563000'),
-        City(
-            id: 89493,
-            name: 'Sangalhos',
-            latitude: '40.48678000',
-            longitude: '-8.46968000'),
-        City(
-            id: 89507,
-            name: 'Santa Maria da Feira',
-            latitude: '40.96043000',
-            longitude: '-8.51545000'),
-        City(
-            id: 89564,
-            name: 'São João',
-            latitude: '40.86802000',
-            longitude: '-8.60672000'),
-        City(
-            id: 89565,
-            name: 'São João da Madeira',
-            latitude: '40.90070000',
-            longitude: '-8.49020000'),
-        City(
-            id: 89570,
-            name: 'São João de Ver',
-            latitude: '40.95527000',
-            longitude: '-8.55117000'),
-        City(
-            id: 89587,
-            name: 'São Roque',
-            latitude: '40.87216000',
-            longitude: '-8.47149000'),
-        City(
-            id: 89541,
-            name: 'Sever do Vouga',
-            latitude: '40.73156000',
-            longitude: '-8.35493000'),
-        City(
-            id: 89542,
-            name: 'Silvalde',
-            latitude: '40.99205000',
-            longitude: '-8.62567000'),
-        City(
-            id: 89554,
-            name: 'Souto',
-            latitude: '40.98496000',
-            longitude: '-8.62185000'),
-        City(
-            id: 89619,
-            name: 'Vagos',
-            latitude: '40.49943000',
-            longitude: '-8.67830000'),
-        City(
-            id: 89625,
-            name: 'Vale de Cambra',
-            latitude: '40.84500000',
-            longitude: '-8.36022000'),
-        City(
-            id: 89688,
-            name: 'Válega',
-            latitude: '40.83629000',
-            longitude: '-8.58061000'),
-        City(
-            id: 89630,
-            name: 'Valongo',
-            latitude: '40.61667000',
-            longitude: '-8.45000000'),
-        City(
-            id: 89645,
-            name: 'Vila Chã',
-            latitude: '40.86667000',
-            longitude: '-8.46667000')
-      ]),
-      State(id: 2233, name: 'Azores', stateCode: '20', cities: [
+      State(id: 2233, name: 'Açores', stateCode: '20', cities: [
         City(
             id: 89692,
             name: 'Água de Pau',
@@ -612,7 +295,319 @@ const prt = Country(
             latitude: '37.71667000',
             longitude: '-25.43333000')
       ]),
-      State(id: 2230, name: 'Beja District', stateCode: '02', cities: [
+      State(id: 2235, name: 'Aveiro', stateCode: '01', cities: [
+        City(
+            id: 88910,
+            name: 'Aguada de Cima',
+            latitude: '40.52291000',
+            longitude: '-8.42700000'),
+        City(
+            id: 89695,
+            name: 'Águeda',
+            latitude: '40.57720000',
+            longitude: '-8.44442000'),
+        City(
+            id: 88913,
+            name: 'Albergaria-a-Velha',
+            latitude: '40.68706000',
+            longitude: '-8.50399000'),
+        City(
+            id: 88967,
+            name: 'Anadia',
+            latitude: '40.43841000',
+            longitude: '-8.43352000'),
+        City(
+            id: 88976,
+            name: 'Aradas',
+            latitude: '40.62084000',
+            longitude: '-8.64195000'),
+        City(
+            id: 88980,
+            name: 'Arcos',
+            latitude: '40.44779000',
+            longitude: '-8.44171000'),
+        City(
+            id: 88986,
+            name: 'Argoncilhe',
+            latitude: '41.02541000',
+            longitude: '-8.53885000'),
+        City(
+            id: 88989,
+            name: 'Arouca',
+            latitude: '40.92658000',
+            longitude: '-8.27251000'),
+        City(
+            id: 88993,
+            name: 'Arrifana',
+            latitude: '40.91565000',
+            longitude: '-8.49657000'),
+        City(
+            id: 89001,
+            name: 'Avanca',
+            latitude: '40.80771000',
+            longitude: '-8.57220000'),
+        City(
+            id: 89003,
+            name: 'Aveiro',
+            latitude: '40.64427000',
+            longitude: '-8.64554000'),
+        City(
+            id: 89025,
+            name: 'Beduido',
+            latitude: '40.76427000',
+            longitude: '-8.56110000'),
+        City(
+            id: 89048,
+            name: 'Branca',
+            latitude: '40.76653000',
+            longitude: '-8.48262000'),
+        City(
+            id: 89106,
+            name: 'Castelo de Paiva',
+            latitude: '41.03353000',
+            longitude: '-8.29822000'),
+        City(
+            id: 89129,
+            name: 'Cortegaça',
+            latitude: '40.94883000',
+            longitude: '-8.62130000'),
+        City(
+            id: 89137,
+            name: 'Cucujães',
+            latitude: '40.87413000',
+            longitude: '-8.50687000'),
+        City(
+            id: 89141,
+            name: 'Eixo',
+            latitude: '40.62758000',
+            longitude: '-8.56922000'),
+        City(
+            id: 89147,
+            name: 'Esgueira',
+            latitude: '40.64899000',
+            longitude: '-8.62943000'),
+        City(
+            id: 89148,
+            name: 'Esmoriz',
+            latitude: '40.95773000',
+            longitude: '-8.62753000'),
+        City(
+            id: 89149,
+            name: 'Espargo',
+            latitude: '40.92462000',
+            longitude: '-8.57495000'),
+        City(
+            id: 89150,
+            name: 'Espinho',
+            latitude: '41.00763000',
+            longitude: '-8.64125000'),
+        City(
+            id: 89153,
+            name: 'Estarreja',
+            latitude: '40.75463000',
+            longitude: '-8.57917000'),
+        City(
+            id: 89170,
+            name: 'Feira',
+            latitude: '40.92535000',
+            longitude: '-8.54277000'),
+        City(
+            id: 89185,
+            name: 'Fiães',
+            latitude: '40.99446000',
+            longitude: '-8.52537000'),
+        City(
+            id: 89203,
+            name: 'Gafanha da Encarnação',
+            latitude: '40.61806000',
+            longitude: '-8.73303000'),
+        City(
+            id: 89204,
+            name: 'Gafanha da Nazaré',
+            latitude: '40.63621000',
+            longitude: '-8.71338000'),
+        City(
+            id: 89698,
+            name: 'Ílhavo',
+            latitude: '40.60188000',
+            longitude: '-8.67021000'),
+        City(
+            id: 89234,
+            name: 'Lamas',
+            latitude: '40.98597000',
+            longitude: '-8.56923000'),
+        City(
+            id: 89246,
+            name: 'Lobão',
+            latitude: '40.98664000',
+            longitude: '-8.48566000'),
+        City(
+            id: 89254,
+            name: 'Lourosa',
+            latitude: '40.98420000',
+            longitude: '-8.55142000'),
+        City(
+            id: 89257,
+            name: 'Luso',
+            latitude: '40.38429000',
+            longitude: '-8.37845000'),
+        City(
+            id: 89263,
+            name: 'Macieira de Cambra',
+            latitude: '40.85939000',
+            longitude: '-8.37338000'),
+        City(
+            id: 89287,
+            name: 'Mealhada',
+            latitude: '40.36273000',
+            longitude: '-8.44781000'),
+        City(
+            id: 89298,
+            name: 'Milheirós de Poiares',
+            latitude: '40.92163000',
+            longitude: '-8.46788000'),
+        City(
+            id: 89334,
+            name: 'Mosteirô',
+            latitude: '40.89843000',
+            longitude: '-8.53196000'),
+        City(
+            id: 89338,
+            name: 'Murtosa',
+            latitude: '40.74301000',
+            longitude: '-8.64023000'),
+        City(
+            id: 89349,
+            name: 'Nogueira da Regedoura',
+            latitude: '41.00530000',
+            longitude: '-8.59195000'),
+        City(
+            id: 89355,
+            name: 'Oiã',
+            latitude: '40.54264000',
+            longitude: '-8.53856000'),
+        City(
+            id: 89363,
+            name: 'Oliveira de Azemeis',
+            latitude: '40.84101000',
+            longitude: '-8.47555000'),
+        City(
+            id: 89366,
+            name: 'Oliveira do Bairro',
+            latitude: '40.50977000',
+            longitude: '-8.56374000'),
+        City(
+            id: 89370,
+            name: 'Oliveirinha',
+            latitude: '40.60715000',
+            longitude: '-8.59198000'),
+        City(
+            id: 89374,
+            name: 'Ovar',
+            latitude: '40.85862000',
+            longitude: '-8.62513000'),
+        City(
+            id: 89387,
+            name: 'Paços de Brandão',
+            latitude: '40.97541000',
+            longitude: '-8.58350000'),
+        City(
+            id: 89379,
+            name: 'Pampilhosa do Botão',
+            latitude: '40.33580000',
+            longitude: '-8.42738000'),
+        City(
+            id: 89381,
+            name: 'Pardilhó',
+            latitude: '40.79925000',
+            longitude: '-8.62598000'),
+        City(
+            id: 89473,
+            name: 'Rio Meão',
+            latitude: '40.95775000',
+            longitude: '-8.57818000'),
+        City(
+            id: 89484,
+            name: 'Salreu',
+            latitude: '40.73971000',
+            longitude: '-8.55720000'),
+        City(
+            id: 89492,
+            name: 'Sanfins',
+            latitude: '40.92979000',
+            longitude: '-8.52563000'),
+        City(
+            id: 89493,
+            name: 'Sangalhos',
+            latitude: '40.48678000',
+            longitude: '-8.46968000'),
+        City(
+            id: 89507,
+            name: 'Santa Maria da Feira',
+            latitude: '40.96043000',
+            longitude: '-8.51545000'),
+        City(
+            id: 89564,
+            name: 'São João',
+            latitude: '40.86802000',
+            longitude: '-8.60672000'),
+        City(
+            id: 89565,
+            name: 'São João da Madeira',
+            latitude: '40.90070000',
+            longitude: '-8.49020000'),
+        City(
+            id: 89570,
+            name: 'São João de Ver',
+            latitude: '40.95527000',
+            longitude: '-8.55117000'),
+        City(
+            id: 89587,
+            name: 'São Roque',
+            latitude: '40.87216000',
+            longitude: '-8.47149000'),
+        City(
+            id: 89541,
+            name: 'Sever do Vouga',
+            latitude: '40.73156000',
+            longitude: '-8.35493000'),
+        City(
+            id: 89542,
+            name: 'Silvalde',
+            latitude: '40.99205000',
+            longitude: '-8.62567000'),
+        City(
+            id: 89554,
+            name: 'Souto',
+            latitude: '40.98496000',
+            longitude: '-8.62185000'),
+        City(
+            id: 89619,
+            name: 'Vagos',
+            latitude: '40.49943000',
+            longitude: '-8.67830000'),
+        City(
+            id: 89625,
+            name: 'Vale de Cambra',
+            latitude: '40.84500000',
+            longitude: '-8.36022000'),
+        City(
+            id: 89688,
+            name: 'Válega',
+            latitude: '40.83629000',
+            longitude: '-8.58061000'),
+        City(
+            id: 89630,
+            name: 'Valongo',
+            latitude: '40.61667000',
+            longitude: '-8.45000000'),
+        City(
+            id: 89645,
+            name: 'Vila Chã',
+            latitude: '40.86667000',
+            longitude: '-8.46667000')
+      ]),
+      State(id: 2230, name: 'Beja', stateCode: '02', cities: [
         City(
             id: 88925,
             name: 'Aldeia Nova de São Bento',
@@ -749,7 +744,7 @@ const prt = Country(
             latitude: '37.52799000',
             longitude: '-8.78483000')
       ]),
-      State(id: 2244, name: 'Braga District', stateCode: '03', cities: [
+      State(id: 2244, name: 'Braga', stateCode: '03', cities: [
         City(
             id: 88909,
             name: 'Adaúfe',
@@ -1106,7 +1101,7 @@ const prt = Country(
             latitude: '41.37529000',
             longitude: '-8.29310000')
       ]),
-      State(id: 2229, name: 'Bragança District', stateCode: '04', cities: [
+      State(id: 2229, name: 'Bragança', stateCode: '04', cities: [
         City(
             id: 88934,
             name: 'Alfândega da Fé',
@@ -1188,78 +1183,74 @@ const prt = Country(
             latitude: '41.83509000',
             longitude: '-7.00501000')
       ]),
-      State(
-          id: 2241,
-          name: 'Castelo Branco District',
-          stateCode: '05',
-          cities: [
-            City(
-                id: 88926,
-                name: 'Aldeia de Joanes',
-                latitude: '40.13905000',
-                longitude: '-7.51694000'),
-            City(
-                id: 89029,
-                name: 'Belmonte',
-                latitude: '40.36181000',
-                longitude: '-7.35157000'),
-            City(
-                id: 89104,
-                name: 'Castelo Branco',
-                latitude: '39.82219000',
-                longitude: '-7.49087000'),
-            City(
-                id: 89133,
-                name: 'Covilhã',
-                latitude: '40.28106000',
-                longitude: '-7.50504000'),
-            City(
-                id: 89198,
-                name: 'Fundão',
-                latitude: '40.12412000',
-                longitude: '-7.49542000'),
-            City(
-                id: 89224,
-                name: 'Idanha-A-Nova',
-                latitude: '39.92957000',
-                longitude: '-7.23690000'),
-            City(
-                id: 89356,
-                name: 'Oleiros',
-                latitude: '39.94948000',
-                longitude: '-7.88592000'),
-            City(
-                id: 89396,
-                name: 'Penamacor',
-                latitude: '40.15495000',
-                longitude: '-7.17149000'),
-            City(
-                id: 89440,
-                name: 'Proença-a-Nova',
-                latitude: '39.75700000',
-                longitude: '-7.92595000'),
-            City(
-                id: 89535,
-                name: 'Sertã',
-                latitude: '39.80205000',
-                longitude: '-8.09589000'),
-            City(
-                id: 89599,
-                name: 'Teixoso',
-                latitude: '40.31448000',
-                longitude: '-7.45759000'),
-            City(
-                id: 89670,
-                name: 'Vila de Rei',
-                latitude: '39.70685000',
-                longitude: '-8.12836000'),
-            City(
-                id: 89666,
-                name: 'Vila Velha de Ródão',
-                latitude: '39.68709000',
-                longitude: '-7.65987000')
-          ]),
-      State(id: 2246, name: 'Coimbra District', stateCode: '06', cities: [
+      State(id: 2241, name: 'Castelo Branco', stateCode: '05', cities: [
+        City(
+            id: 88926,
+            name: 'Aldeia de Joanes',
+            latitude: '40.13905000',
+            longitude: '-7.51694000'),
+        City(
+            id: 89029,
+            name: 'Belmonte',
+            latitude: '40.36181000',
+            longitude: '-7.35157000'),
+        City(
+            id: 89104,
+            name: 'Castelo Branco',
+            latitude: '39.82219000',
+            longitude: '-7.49087000'),
+        City(
+            id: 89133,
+            name: 'Covilhã',
+            latitude: '40.28106000',
+            longitude: '-7.50504000'),
+        City(
+            id: 89198,
+            name: 'Fundão',
+            latitude: '40.12412000',
+            longitude: '-7.49542000'),
+        City(
+            id: 89224,
+            name: 'Idanha-A-Nova',
+            latitude: '39.92957000',
+            longitude: '-7.23690000'),
+        City(
+            id: 89356,
+            name: 'Oleiros',
+            latitude: '39.94948000',
+            longitude: '-7.88592000'),
+        City(
+            id: 89396,
+            name: 'Penamacor',
+            latitude: '40.15495000',
+            longitude: '-7.17149000'),
+        City(
+            id: 89440,
+            name: 'Proença-a-Nova',
+            latitude: '39.75700000',
+            longitude: '-7.92595000'),
+        City(
+            id: 89535,
+            name: 'Sertã',
+            latitude: '39.80205000',
+            longitude: '-8.09589000'),
+        City(
+            id: 89599,
+            name: 'Teixoso',
+            latitude: '40.31448000',
+            longitude: '-7.45759000'),
+        City(
+            id: 89670,
+            name: 'Vila de Rei',
+            latitude: '39.70685000',
+            longitude: '-8.12836000'),
+        City(
+            id: 89666,
+            name: 'Vila Velha de Ródão',
+            latitude: '39.68709000',
+            longitude: '-7.65987000')
+      ]),
+      State(id: 2246, name: 'Coimbra', stateCode: '06', cities: [
         City(
             id: 88929,
             name: 'Alfarelos',
@@ -1431,7 +1422,7 @@ const prt = Country(
             latitude: '40.22129000',
             longitude: '-8.24105000')
       ]),
-      State(id: 2236, name: 'Évora District', stateCode: '07', cities: [
+      State(id: 2236, name: 'Évora', stateCode: '07', cities: [
         City(
             id: 88912,
             name: 'Alandroal',
@@ -1503,7 +1494,7 @@ const prt = Country(
             latitude: '38.78790000',
             longitude: '-7.41852000')
       ]),
-      State(id: 2239, name: 'Faro District', stateCode: '08', cities: [
+      State(id: 2239, name: 'Faro', stateCode: '08', cities: [
         City(
             id: 88914,
             name: 'Albufeira',
@@ -1780,7 +1771,7 @@ const prt = Country(
             latitude: '37.08728000',
             longitude: '-8.11701000')
       ]),
-      State(id: 4859, name: 'Guarda District', stateCode: '09', cities: [
+      State(id: 4859, name: 'Guarda', stateCode: '09', cities: [
         City(
             id: 143237,
             name: 'Abrigada',
@@ -4402,7 +4393,7 @@ const prt = Country(
             latitude: '40.49583333',
             longitude: '-7.62694444')
       ]),
-      State(id: 2240, name: 'Leiria District', stateCode: '10', cities: [
+      State(id: 2240, name: 'Leiria', stateCode: '10', cities: [
         City(
             id: 88905,
             name: 'A dos Francos',
@@ -4629,7 +4620,7 @@ const prt = Country(
             latitude: '39.86945000',
             longitude: '-8.93238000')
       ]),
-      State(id: 2228, name: 'Lisbon District', stateCode: '11', cities: [
+      State(id: 2228, name: 'Lisbon', stateCode: '11', cities: [
         City(
             id: 88904,
             name: 'A dos Cunhados',
@@ -5253,7 +5244,7 @@ const prt = Country(
             latitude: '32.79673000',
             longitude: '-17.04323000')
       ]),
-      State(id: 2232, name: 'Portalegre District', stateCode: '12', cities: [
+      State(id: 2232, name: 'Portalegre', stateCode: '12', cities: [
         City(
             id: 88953,
             name: 'Alter do Chão',
@@ -5350,7 +5341,7 @@ const prt = Country(
             latitude: '39.06969000',
             longitude: '-7.69849000')
       ]),
-      State(id: 2243, name: 'Porto District', stateCode: '13', cities: [
+      State(id: 2243, name: 'Porto', stateCode: '13', cities: [
         City(
             id: 89691,
             name: 'Água Longa',
@@ -5887,7 +5878,7 @@ const prt = Country(
             latitude: '41.38242000',
             longitude: '-8.24887000')
       ]),
-      State(id: 2238, name: 'Santarém District', stateCode: '14', cities: [
+      State(id: 2238, name: 'Santarém', stateCode: '14', cities: [
         City(
             id: 88906,
             name: 'Abrantes',
@@ -6139,7 +6130,7 @@ const prt = Country(
             latitude: '39.46081000',
             longitude: '-8.43588000')
       ]),
-      State(id: 2242, name: 'Setúbal District', stateCode: '15', cities: [
+      State(id: 2242, name: 'Setúbal', stateCode: '15', cities: [
         City(
             id: 88924,
             name: 'Alcácer do Sal',
@@ -6341,88 +6332,54 @@ const prt = Country(
             latitude: '38.67222000',
             longitude: '-9.23268000')
       ]),
-      State(
-          id: 2245,
-          name: 'Viana do Castelo District',
-          stateCode: '16',
-          cities: [
-            City(
-                id: 88981,
-                name: 'Arcos de Valdevez',
-                latitude: '41.84668000',
-                longitude: '-8.41905000'),
-            City(
-                id: 88983,
-                name: 'Areosa',
-                latitude: '41.71779000',
-                longitude: '-8.85707000'),
-            City(
-                id: 89073,
-                name: 'Caminha',
-                latitude: '41.84647000',
-                longitude: '-8.80133000'),
-            City(
-                id: 89140,
-                name: 'Darque',
-                latitude: '41.68333000',
-                longitude: '-8.76667000'),
-            City(
-                id: 89286,
-                name: 'Meadela',
-                latitude: '41.70654000',
-                longitude: '-8.79628000'),
-            City(
-                id: 89290,
-                name: 'Melgaço',
-                latitude: '42.08067000',
-                longitude: '-8.24844000'),
-            City(
-                id: 89327,
-                name: 'Monção',
-                latitude: '42.07892000',
-                longitude: '-8.48076000'),
-            City(
-                id: 89337,
-                name: 'Mozelos',
-                latitude: '41.86774000',
-                longitude: '-8.39776000'),
-            City(
-                id: 89384,
-                name: 'Paredes de Coura',
-                latitude: '41.90995000',
-                longitude: '-8.57034000'),
-            City(
-                id: 89416,
-                name: 'Ponte da Barca',
-                latitude: '41.80669000',
-                longitude: '-8.31014000'),
-            City(
-                id: 89417,
-                name: 'Ponte de Lima',
-                latitude: '41.74682000',
-                longitude: '-8.57637000'),
-            City(
-                id: 89629,
-                name: 'Valença',
-                latitude: '42.02821000',
-                longitude: '-8.63388000'),
-            City(
-                id: 89628,
-                name: 'Valenza',
-                latitude: '42.02418000',
-                longitude: '-8.63474000'),
-            City(
-                id: 89640,
-                name: 'Viana do Castelo',
-                latitude: '41.69371000',
-                longitude: '-8.83456000'),
-            City(
-                id: 89662,
-                name: 'Vila Praia de Âncora',
-                latitude: '41.81098000',
-                longitude: '-8.85255000')
-          ]),
-      State(id: 2234, name: 'Vila Real District', stateCode: '17', cities: [
+      State(id: 2245, name: 'Viana do Castelo', stateCode: '16', cities: [
+        City(
+            id: 88981,
+            name: 'Arcos de Valdevez',
+            latitude: '41.84668000',
+            longitude: '-8.41905000'),
+        City(
+            id: 89073,
+            name: 'Caminha',
+            latitude: '41.84647000',
+            longitude: '-8.80133000'),
+        City(
+            id: 89290,
+            name: 'Melgaço',
+            latitude: '42.08067000',
+            longitude: '-8.24844000'),
+        City(
+            id: 89327,
+            name: 'Monção',
+            latitude: '42.07892000',
+            longitude: '-8.48076000'),
+        City(
+            id: 89384,
+            name: 'Paredes de Coura',
+            latitude: '41.90995000',
+            longitude: '-8.57034000'),
+        City(
+            id: 89416,
+            name: 'Ponte da Barca',
+            latitude: '41.80669000',
+            longitude: '-8.31014000'),
+        City(
+            id: 89417,
+            name: 'Ponte de Lima',
+            latitude: '41.74682000',
+            longitude: '-8.57637000'),
+        City(
+            id: 89629,
+            name: 'Valença',
+            latitude: '42.02821000',
+            longitude: '-8.63388000'),
+        City(
+            id: 89640,
+            name: 'Viana do Castelo',
+            latitude: '41.69371000',
+            longitude: '-8.83456000')
+      ]),
+      State(id: 2234, name: 'Vila Real', stateCode: '17', cities: [
         City(
             id: 88941,
             name: 'Alijó',
@@ -6519,7 +6476,7 @@ const prt = Country(
             latitude: '41.22511000',
             longitude: '-7.60338000')
       ]),
-      State(id: 2237, name: 'Viseu District', stateCode: '18', cities: [
+      State(id: 2237, name: 'Viseu', stateCode: '18', cities: [
         City(
             id: 88907,
             name: 'Abraveses',

@@ -25925,7 +25925,7 @@ const ita = Country(
             longitude: '9.60905000'),
         City(
             id: 60627,
-            name: 'Scanzo-Rosciate',
+            name: 'Scanzorosciate',
             latitude: '45.71078000',
             longitude: '9.73505000'),
         City(

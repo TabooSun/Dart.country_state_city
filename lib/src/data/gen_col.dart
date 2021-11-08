@@ -26,7 +26,7 @@ const col = Country(
     emoji: '🇨🇴',
     emojiU: 'U+1F1E8 U+1F1F4',
     states: [
-      State(id: 2895, name: 'Amazonas Department', stateCode: 'AMA', cities: [
+      State(id: 2895, name: 'Amazonas', stateCode: 'AMA', cities: [
         City(
             id: 20807,
             name: 'El Encanto',
@@ -83,7 +83,7 @@ const col = Country(
             latitude: '-2.88544000',
             longitude: '-69.77692000')
       ]),
-      State(id: 2890, name: 'Antioquia Department', stateCode: 'ANT', cities: [
+      State(id: 2890, name: 'Antioquia', stateCode: 'ANT', cities: [
         City(
             id: 20485,
             name: 'Abejorral',
@@ -320,11 +320,6 @@ const col = Country(
             latitude: '6.58333000',
             longitude: '-75.58333000'),
         City(
-            id: 20839,
-            name: 'Entrerríos',
-            latitude: '6.56540000',
-            longitude: '-75.51690000'),
-        City(
             id: 20840,
             name: 'Envigado',
             latitude: '6.17591000',
@@ -389,11 +384,6 @@ const col = Country(
             name: 'Itagui',
             latitude: '6.17874000',
             longitude: '-75.63117000'),
-        City(
-            id: 20954,
-            name: 'Itagüí',
-            latitude: '6.18461000',
-            longitude: '-75.59913000'),
         City(
             id: 20955,
             name: 'Ituango',
@@ -595,11 +585,6 @@ const col = Country(
             latitude: '8.42291000',
             longitude: '-76.31747000'),
         City(
-            id: 21400,
-            name: 'San Pedro de Urabá',
-            latitude: '8.27515000',
-            longitude: '-76.37641000'),
-        City(
             id: 21402,
             name: 'San Rafael',
             latitude: '6.31234000',
@@ -659,11 +644,6 @@ const col = Country(
             name: 'Sonson',
             latitude: '5.75000000',
             longitude: '-75.00000000'),
-        City(
-            id: 21475,
-            name: 'Sonsón',
-            latitude: '5.71062000',
-            longitude: '-75.31069000'),
         City(
             id: 21476,
             name: 'Sopetrán',
@@ -760,7 +740,7 @@ const col = Country(
             latitude: '7.48971000',
             longitude: '-74.86919000')
       ]),
-      State(id: 2881, name: 'Arauca Department', stateCode: 'ARA', cities: [
+      State(id: 2881, name: 'Arauca', stateCode: 'ARA', cities: [
         City(
             id: 20536,
             name: 'Arauca',
@@ -797,28 +777,7 @@ const col = Country(
             latitude: '6.46065000',
             longitude: '-71.73618000')
       ]),
-      State(
-          id: 2900,
-          name: 'Archipelago of Saint Andréws, Providence and Saint Catalina',
-          stateCode: 'SAP',
-          cities: [
-            City(
-                id: 21111,
-                name: 'Mountain',
-                latitude: '13.36667000',
-                longitude: '-81.36667000'),
-            City(
-                id: 21224,
-                name: 'Providencia',
-                latitude: '13.38479000',
-                longitude: '-81.37468000'),
-            City(
-                id: 21331,
-                name: 'San Andrés',
-                latitude: '12.58317000',
-                longitude: '-81.70636000')
-          ]),
-      State(id: 2880, name: 'Atlántico Department', stateCode: 'ATL', cities: [
+      State(id: 2880, name: 'Atlántico', stateCode: 'ATL', cities: [
         City(
             id: 20564,
             name: 'Baranoa',
@@ -935,7 +894,8 @@ const col = Country(
             latitude: '10.74313000',
             longitude: '-74.97604000')
       ]),
-      State(id: 2893, name: 'Bolívar Department', stateCode: 'BOL', cities: [
+      State(id: 4921, name: 'Bogotá', stateCode: 'DC', cities: []),
+      State(id: 2893, name: 'Bolívar', stateCode: 'BOL', cities: [
         City(
             id: 20490,
             name: 'Achí',
@@ -1182,7 +1142,7 @@ const col = Country(
             latitude: '9.74823000',
             longitude: '-74.88487000')
       ]),
-      State(id: 2903, name: 'Boyacá Department', stateCode: 'BOY', cities: [
+      State(id: 2903, name: 'Boyacá', stateCode: 'BOY', cities: [
         City(
             id: 20507,
             name: 'Almeida',
@@ -1304,11 +1264,6 @@ const col = Country(
             latitude: '5.63333000',
             longitude: '-73.31667000'),
         City(
-            id: 20768,
-            name: 'Cómbita',
-            latitude: '5.68760000',
-            longitude: '-73.32942000'),
-        City(
             id: 20736,
             name: 'Coper',
             latitude: '5.47681000',
@@ -1373,11 +1328,6 @@ const col = Country(
             name: 'Gameza',
             latitude: '5.80313000',
             longitude: '-72.73721000'),
-        City(
-            id: 20928,
-            name: 'Gámeza',
-            latitude: '5.80263000',
-            longitude: '-72.80586000'),
         City(
             id: 20883,
             name: 'Garagoa',
@@ -1794,11 +1744,6 @@ const col = Country(
             latitude: '5.18411000',
             longitude: '-73.48341000'),
         City(
-            id: 21639,
-            name: 'Úmbita',
-            latitude: '5.22041000',
-            longitude: '-73.45695000'),
-        City(
             id: 21589,
             name: 'Ventaquemada',
             latitude: '5.35987000',
@@ -1819,7 +1764,7 @@ const col = Country(
             latitude: '5.25824000',
             longitude: '-73.18275000')
       ]),
-      State(id: 2887, name: 'Caldas Department', stateCode: 'CAL', cities: [
+      State(id: 2887, name: 'Caldas', stateCode: 'CAL', cities: [
         City(
             id: 20494,
             name: 'Aguadas',
@@ -1956,7 +1901,7 @@ const col = Country(
             latitude: '5.06242000',
             longitude: '-75.87159000')
       ]),
-      State(id: 2891, name: 'Caquetá Department', stateCode: 'CAQ', cities: [
+      State(id: 2891, name: 'Caquetá', stateCode: 'CAQ', cities: [
         City(
             id: 20499,
             name: 'Albania',
@@ -1967,11 +1912,6 @@ const col = Country(
             name: 'Belén de Los Andaquies',
             latitude: '1.41667000',
             longitude: '-75.91667000'),
-        City(
-            id: 20586,
-            name: 'Belén de los Andaquíes',
-            latitude: '1.41828000',
-            longitude: '-75.87753000'),
         City(
             id: 20660,
             name: 'Cartagena del Chairá',
@@ -1992,11 +1932,6 @@ const col = Country(
             name: 'El Paujil',
             latitude: '1.57085000',
             longitude: '-75.31403000'),
-        City(
-            id: 20815,
-            name: 'El Paujíl',
-            latitude: '1.57006000',
-            longitude: '-75.32863000'),
         City(
             id: 20849,
             name: 'Florencia',
@@ -2038,7 +1973,7 @@ const col = Country(
             latitude: '1.19403000',
             longitude: '-75.70746000')
       ]),
-      State(id: 2892, name: 'Casanare Department', stateCode: 'CAS', cities: [
+      State(id: 2892, name: 'Casanare', stateCode: 'CAS', cities: [
         City(
             id: 20495,
             name: 'Aguazul',
@@ -2049,11 +1984,6 @@ const col = Country(
             name: 'Chameza',
             latitude: '5.19237000',
             longitude: '-72.88952000'),
-        City(
-            id: 20704,
-            name: 'Chámeza',
-            latitude: '5.21421000',
-            longitude: '-72.86948000'),
         City(
             id: 20937,
             name: 'Hato Corozal',
@@ -2135,7 +2065,7 @@ const col = Country(
             latitude: '5.33775000',
             longitude: '-72.39586000')
       ]),
-      State(id: 2884, name: 'Cauca Department', stateCode: 'CAU', cities: [
+      State(id: 2884, name: 'Cauca', stateCode: 'CAU', cities: [
         City(
             id: 20506,
             name: 'Almaguer',
@@ -2207,11 +2137,6 @@ const col = Country(
             latitude: '2.55210000',
             longitude: '-77.87865000'),
         City(
-            id: 20911,
-            name: 'Guapí',
-            latitude: '2.57082000',
-            longitude: '-77.88542000'),
-        City(
             id: 20948,
             name: 'Inzá',
             latitude: '2.55452000',
@@ -2282,11 +2207,6 @@ const col = Country(
             latitude: '2.63918000',
             longitude: '-76.53055000'),
         City(
-            id: 21203,
-            name: 'Piendamó',
-            latitude: '2.70214000',
-            longitude: '-76.59736000'),
-        City(
             id: 21219,
             name: 'Popayán',
             latitude: '2.43823000',
@@ -2347,11 +2267,6 @@ const col = Country(
             latitude: '3.00000000',
             longitude: '-76.16667000'),
         City(
-            id: 21543,
-            name: 'Toribío',
-            latitude: '2.95481000',
-            longitude: '-76.26839000'),
-        City(
             id: 21546,
             name: 'Totoró',
             latitude: '2.50518000',
@@ -2362,7 +2277,7 @@ const col = Country(
             latitude: '2.51420000',
             longitude: '-76.84939000')
       ]),
-      State(id: 2899, name: 'Cesar Department', stateCode: 'CES', cities: [
+      State(id: 2899, name: 'Cesar', stateCode: 'CES', cities: [
         City(
             id: 20492,
             name: 'Aguachica',
@@ -2489,7 +2404,7 @@ const col = Country(
             latitude: '10.46314000',
             longitude: '-73.25322000')
       ]),
-      State(id: 2876, name: 'Chocó Department', stateCode: 'CHO', cities: [
+      State(id: 2876, name: 'Chocó', stateCode: 'CHO', cities: [
         City(
             id: 20489,
             name: 'Acandí',
@@ -2671,7 +2586,7 @@ const col = Country(
             latitude: '5.28139000',
             longitude: '-76.63000000')
       ]),
-      State(id: 2898, name: 'Córdoba Department', stateCode: 'COR', cities: [
+      State(id: 2898, name: 'Córdoba', stateCode: 'COR', cities: [
         City(
             id: 20558,
             name: 'Ayapel',
@@ -2818,653 +2733,604 @@ const col = Country(
             latitude: '8.23350000',
             longitude: '-76.21428000')
       ]),
-      State(
-          id: 2875,
-          name: 'Cundinamarca Department',
-          stateCode: 'CUN',
-          cities: [
-            City(
-                id: 20491,
-                name: 'Agua de Dios',
-                latitude: '4.37648000',
-                longitude: '-74.66995000'),
-            City(
-                id: 20501,
-                name: 'Albán',
-                latitude: '4.89432000',
-                longitude: '-74.44388000'),
-            City(
-                id: 20516,
-                name: 'Anapoima',
-                latitude: '4.55099000',
-                longitude: '-74.53517000'),
-            City(
-                id: 20523,
-                name: 'Anolaima',
-                latitude: '4.83362000',
-                longitude: '-74.49950000'),
-            City(
-                id: 20530,
-                name: 'Apulo',
-                latitude: '4.51952000',
-                longitude: '-74.59293000'),
-            City(
-                id: 20538,
-                name: 'Arbeláez',
-                latitude: '4.21251000',
-                longitude: '-74.41464000'),
-            City(
-                id: 143872,
-                name: 'Barrio San Luis',
-                latitude: '4.66779000',
-                longitude: '-74.02150000'),
-            City(
-                id: 20581,
-                name: 'Beltrán',
-                latitude: '4.71947000',
-                longitude: '-74.75660000'),
-            City(
-                id: 20592,
-                name: 'Bituima',
-                latitude: '4.87252000',
-                longitude: '-74.53925000'),
-            City(
-                id: 143873,
-                name: 'Bogota',
-                latitude: '4.61263889',
-                longitude: '-74.07050000'),
-            City(
-                id: 20595,
-                name: 'Bojacá',
-                latitude: '4.73176000',
-                longitude: '-74.34129000'),
-            City(
-                id: 20615,
-                name: 'Cabrera',
-                latitude: '3.98598000',
-                longitude: '-74.48283000'),
-            City(
-                id: 20619,
-                name: 'Cachipay',
-                latitude: '5.26667000',
-                longitude: '-74.56667000'),
-            City(
-                id: 20626,
-                name: 'Cajicá',
-                latitude: '4.91857000',
-                longitude: '-74.02799000'),
-            City(
-                id: 20646,
-                name: 'Caparrapí',
-                latitude: '5.34644000',
-                longitude: '-74.49147000'),
-            City(
-                id: 20648,
-                name: 'Caqueza',
-                latitude: '4.38708000',
-                longitude: '-73.95722000'),
-            City(
-                id: 20766,
-                name: 'Cáqueza',
-                latitude: '4.40569000',
-                longitude: '-73.94683000'),
-            City(
-                id: 20655,
-                name: 'Carmen de Carupa',
-                latitude: '5.34862000',
-                longitude: '-73.90168000'),
-            City(
-                id: 20675,
-                name: 'Chaguaní',
-                latitude: '4.94829000',
-                longitude: '-74.59392000'),
-            City(
-                id: 20705,
-                name: 'Chía',
-                latitude: '4.84452000',
-                longitude: '-74.05848000'),
-            City(
-                id: 20691,
-                name: 'Chipaque',
-                latitude: '4.44250000',
-                longitude: '-74.04417000'),
-            City(
-                id: 20702,
-                name: 'Choachí',
-                latitude: '4.52897000',
-                longitude: '-73.92273000'),
-            City(
-                id: 20703,
-                name: 'Chocontá',
-                latitude: '5.14468000',
-                longitude: '-73.68578000'),
-            City(
-                id: 20718,
-                name: 'Cogua',
-                latitude: '5.06051000',
-                longitude: '-73.97925000'),
-            City(
-                id: 20741,
-                name: 'Cota',
-                latitude: '4.80938000',
-                longitude: '-74.09800000'),
-            City(
-                id: 20752,
-                name: 'Cucunubá',
-                latitude: '5.24958000',
-                longitude: '-73.76610000'),
-            City(
-                id: 20803,
-                name: 'El Colegio',
-                latitude: '4.56047000',
-                longitude: '-74.42614000'),
-            City(
-                id: 21159,
-                name: 'El Maríachi',
-                latitude: '5.13278000',
-                longitude: '-74.15977000'),
-            City(
-                id: 20817,
-                name: 'El Peñón',
-                latitude: '5.25264000',
-                longitude: '-74.29069000'),
-            City(
-                id: 20826,
-                name: 'El Rosal',
-                latitude: '4.85314000',
-                longitude: '-74.25996000'),
-            City(
-                id: 20842,
-                name: 'Facatativá',
-                latitude: '4.81367000',
-                longitude: '-74.35453000'),
-            City(
-                id: 20854,
-                name: 'Fomeque',
-                latitude: '4.52806000',
-                longitude: '-73.78879000'),
-            City(
-                id: 20868,
-                name: 'Fómeque',
-                latitude: '4.48797000',
-                longitude: '-73.89749000'),
-            City(
-                id: 20857,
-                name: 'Fosca',
-                latitude: '4.33916000',
-                longitude: '-73.93852000'),
-            City(
-                id: 20866,
-                name: 'Funza',
-                latitude: '4.71638000',
-                longitude: '-74.21195000'),
-            City(
-                id: 20869,
-                name: 'Fúquene',
-                latitude: '5.41988000',
-                longitude: '-73.76997000'),
-            City(
-                id: 20867,
-                name: 'Fusagasugá',
-                latitude: '4.33646000',
-                longitude: '-74.36378000'),
-            City(
-                id: 20870,
-                name: 'Gachala',
-                latitude: '4.66667000',
-                longitude: '-73.50000000'),
-            City(
-                id: 20871,
-                name: 'Gachalá',
-                latitude: '4.69244000',
-                longitude: '-73.52042000'),
-            City(
-                id: 20872,
-                name: 'Gachancipá',
-                latitude: '4.99111000',
-                longitude: '-73.87154000'),
-            City(
-                id: 20874,
-                name: 'Gachetá',
-                latitude: '4.87104000',
-                longitude: '-73.61730000'),
-            City(
-                id: 20879,
-                name: 'Gama',
-                latitude: '4.76288000',
-                longitude: '-73.61091000'),
-            City(
-                id: 20886,
-                name: 'Girardot',
-                latitude: '4.31802000',
-                longitude: '-74.83504000'),
-            City(
-                id: 20892,
-                name: 'Granada',
-                latitude: '5.06667000',
-                longitude: '-74.56667000'),
-            City(
-                id: 20898,
-                name: 'Guachetá',
-                latitude: '5.38425000',
-                longitude: '-73.68617000'),
-            City(
-                id: 20903,
-                name: 'Guaduas',
-                latitude: '5.07430000',
-                longitude: '-74.59854000'),
-            City(
-                id: 20914,
-                name: 'Guasca',
-                latitude: '4.86601000',
-                longitude: '-73.87748000'),
-            City(
-                id: 20916,
-                name: 'Guataquí',
-                latitude: '4.51573000',
-                longitude: '-74.78935000'),
-            City(
-                id: 20917,
-                name: 'Guatavita',
-                latitude: '4.93658000',
-                longitude: '-73.83314000'),
-            City(
-                id: 20921,
-                name: 'Guayabal de Siquima',
-                latitude: '4.87881000',
-                longitude: '-74.48306000'),
-            City(
-                id: 20922,
-                name: 'Guayabal de Síquima',
-                latitude: '4.87739000',
-                longitude: '-74.46744000'),
-            City(
-                id: 20923,
-                name: 'Guayabetal',
-                latitude: '4.21472000',
-                longitude: '-73.81719000'),
-            City(
-                id: 20925,
-                name: 'Gutiérrez',
-                latitude: '4.18486000',
-                longitude: '-74.01168000'),
-            City(
-                id: 20963,
-                name: 'Jerusalén',
-                latitude: '4.56309000',
-                longitude: '-74.69519000'),
-            City(
-                id: 20968,
-                name: 'Junín',
-                latitude: '4.70725000',
-                longitude: '-73.69549000'),
-            City(
-                id: 20972,
-                name: 'La Calera',
-                latitude: '4.68678000',
-                longitude: '-73.93590000'),
-            City(
-                id: 20993,
-                name: 'La Mesa',
-                latitude: '4.65374000',
-                longitude: '-74.47316000'),
-            City(
-                id: 143874,
-                name: 'La Mesa',
-                latitude: '5.26666667',
-                longitude: '-73.91666667'),
-            City(
-                id: 20995,
-                name: 'La Palma',
-                latitude: '5.31732000',
-                longitude: '-74.43003000'),
-            City(
-                id: 20999,
-                name: 'La Peña',
-                latitude: '5.19847000',
-                longitude: '-74.39368000'),
-            City(
-                id: 21012,
-                name: 'La Vega',
-                latitude: '4.97382000',
-                longitude: '-74.34476000'),
-            City(
-                id: 21026,
-                name: 'Lenguazaque',
-                latitude: '5.30711000',
-                longitude: '-73.71152000'),
-            City(
-                id: 21045,
-                name: 'Macheta',
-                latitude: '5.08333000',
-                longitude: '-73.61667000'),
-            City(
-                id: 21046,
-                name: 'Machetá',
-                latitude: '5.08154000',
-                longitude: '-73.60761000'),
-            City(
-                id: 21047,
-                name: 'Madrid',
-                latitude: '4.75564000',
-                longitude: '-74.27708000'),
-            City(
-                id: 21060,
-                name: 'Manta',
-                latitude: '4.95720000',
-                longitude: '-73.58583000'),
-            City(
-                id: 21075,
-                name: 'Medina',
-                latitude: '4.51005000',
-                longitude: '-73.34982000'),
-            City(
-                id: 21109,
-                name: 'Mosquera',
-                latitude: '4.68935000',
-                longitude: '-74.23599000'),
-            City(
-                id: 21127,
-                name: 'Nariño',
-                latitude: '4.39913000',
-                longitude: '-74.82239000'),
-            City(
-                id: 21132,
-                name: 'Nemocón',
-                latitude: '5.06767000',
-                longitude: '-73.87769000'),
-            City(
-                id: 21133,
-                name: 'Nilo',
-                latitude: '4.30604000',
-                longitude: '-74.62083000'),
-            City(
-                id: 21134,
-                name: 'Nimaima',
-                latitude: '5.12614000',
-                longitude: '-74.38495000'),
-            City(
-                id: 21136,
-                name: 'Nocaima',
-                latitude: '5.06696000',
-                longitude: '-74.38439000'),
-            City(
-                id: 21165,
-                name: 'Paime',
-                latitude: '5.37054000',
-                longitude: '-74.15219000'),
-            City(
-                id: 21179,
-                name: 'Pandi',
-                latitude: '4.18032000',
-                longitude: '-74.47099000'),
-            City(
-                id: 21182,
-                name: 'Paratebueno',
-                latitude: '4.37575000',
-                longitude: '-73.21547000'),
-            City(
-                id: 21183,
-                name: 'Pasca',
-                latitude: '4.30722000',
-                longitude: '-74.30056000'),
-            City(
-                id: 21235,
-                name: 'Puerto Bogotá',
-                latitude: '5.19994000',
-                longitude: '-74.72733000'),
-            City(
-                id: 21254,
-                name: 'Puerto Salgar',
-                latitude: '5.61892000',
-                longitude: '-74.58483000'),
-            City(
-                id: 21261,
-                name: 'Pulí',
-                latitude: '4.68116000',
-                longitude: '-74.71406000'),
-            City(
-                id: 21270,
-                name: 'Quebradanegra',
-                latitude: '5.08262000',
-                longitude: '-74.52117000'),
-            City(
-                id: 21271,
-                name: 'Quetame',
-                latitude: '4.33234000',
-                longitude: '-73.86141000'),
-            City(
-                id: 21275,
-                name: 'Quipile',
-                latitude: '4.74517000',
-                longitude: '-74.53378000'),
-            City(
-                id: 21287,
-                name: 'Ricaurte',
-                latitude: '4.28075000',
-                longitude: '-74.76469000'),
-            City(
-                id: 21338,
-                name: 'San Antonio del Tequendama',
-                latitude: '4.61667000',
-                longitude: '-74.35000000'),
-            City(
-                id: 21342,
-                name: 'San Bernardo',
-                latitude: '4.12956000',
-                longitude: '-74.35903000'),
-            City(
-                id: 21348,
-                name: 'San Cayetano',
-                latitude: '5.31693000',
-                longitude: '-74.07141000'),
-            City(
-                id: 21358,
-                name: 'San Francisco',
-                latitude: '4.96335000',
-                longitude: '-74.26613000'),
-            City(
-                id: 21375,
-                name: 'San Juan de Río Seco',
-                latitude: '4.83077000',
-                longitude: '-74.68248000'),
-            City(
-                id: 21446,
-                name: 'Sasaima',
-                latitude: '4.96705000',
-                longitude: '-74.43512000'),
-            City(
-                id: 21450,
-                name: 'Sesquilé',
-                latitude: '5.04463000',
-                longitude: '-73.79724000'),
-            City(
-                id: 21453,
-                name: 'Sibaté',
-                latitude: '4.49154000',
-                longitude: '-74.25957000'),
-            City(
-                id: 21456,
-                name: 'Silvania',
-                latitude: '4.40367000',
-                longitude: '-74.38670000'),
-            City(
-                id: 21459,
-                name: 'Simijaca',
-                latitude: '5.50415000',
-                longitude: '-73.86944000'),
-            City(
-                id: 21464,
-                name: 'Soacha',
-                latitude: '4.57937000',
-                longitude: '-74.21682000'),
-            City(
-                id: 21478,
-                name: 'Sopó',
-                latitude: '4.90750000',
-                longitude: '-73.93840000'),
-            City(
-                id: 21486,
-                name: 'Subachoque',
-                latitude: '4.92614000',
-                longitude: '-74.17299000'),
-            City(
-                id: 21490,
-                name: 'Suesca',
-                latitude: '5.10289000',
-                longitude: '-73.79845000'),
-            City(
-                id: 21491,
-                name: 'Supatá',
-                latitude: '5.06097000',
-                longitude: '-74.23721000'),
-            City(
-                id: 21494,
-                name: 'Susa',
-                latitude: '5.42700000',
-                longitude: '-73.84786000'),
-            City(
-                id: 21497,
-                name: 'Sutatausa',
-                latitude: '5.24779000',
-                longitude: '-73.85238000'),
-            City(
-                id: 21503,
-                name: 'Tabio',
-                latitude: '4.91726000',
-                longitude: '-74.09364000'),
-            City(
-                id: 21517,
-                name: 'Tausa',
-                latitude: '5.19903000',
-                longitude: '-73.89128000'),
-            City(
-                id: 21518,
-                name: 'Tena',
-                latitude: '4.66001000',
-                longitude: '-74.39258000'),
-            City(
-                id: 21520,
-                name: 'Tenjo',
-                latitude: '4.87270000',
-                longitude: '-74.14435000'),
-            City(
-                id: 21522,
-                name: 'Tibacuy',
-                latitude: '4.30606000',
-                longitude: '-74.51639000'),
-            City(
-                id: 143875,
-                name: 'Tibacuy',
-                latitude: '4.35111111',
-                longitude: '-72.45638889'),
-            City(
-                id: 21525,
-                name: 'Tibirita',
-                latitude: '5.05227000',
-                longitude: '-73.50459000'),
-            City(
-                id: 21534,
-                name: 'Tocaima',
-                latitude: '4.46073000',
-                longitude: '-74.65722000'),
-            City(
-                id: 21535,
-                name: 'Tocancipá',
-                latitude: '4.96531000',
-                longitude: '-73.91301000'),
-            City(
-                id: 21541,
-                name: 'Topaipí',
-                latitude: '5.33457000',
-                longitude: '-74.30292000'),
-            City(
-                id: 21565,
-                name: 'Ubalá',
-                latitude: '4.74778000',
-                longitude: '-72.53694000'),
-            City(
-                id: 21566,
-                name: 'Ubaque',
-                latitude: '4.48667000',
-                longitude: '-73.93748000'),
-            City(
-                id: 21569,
-                name: 'Une',
-                latitude: '4.30691000',
-                longitude: '-74.07104000'),
-            City(
-                id: 21640,
-                name: 'Útica',
-                latitude: '5.16977000',
-                longitude: '-74.50134000'),
-            City(
-                id: 143876,
-                name: 'Útica',
-                latitude: '5.18861111',
-                longitude: '-74.48111111'),
-            City(
-                id: 21587,
-                name: 'Venecia',
-                latitude: '4.08808000',
-                longitude: '-74.47746000'),
-            City(
-                id: 21590,
-                name: 'Vergara',
-                latitude: '5.13600000',
-                longitude: '-74.31539000'),
-            City(
-                id: 21593,
-                name: 'Vianí',
-                latitude: '4.89579000',
-                longitude: '-74.55398000'),
-            City(
-                id: 21599,
-                name: 'Villa de San Diego de Ubate',
-                latitude: '5.31544000',
-                longitude: '-73.82045000'),
-            City(
-                id: 21600,
-                name: 'Villa de San Diego de Ubaté',
-                latitude: '5.30933000',
-                longitude: '-73.81575000'),
-            City(
-                id: 21603,
-                name: 'Villagómez',
-                latitude: '5.27372000',
-                longitude: '-74.19614000'),
-            City(
-                id: 21610,
-                name: 'Villapinzón',
-                latitude: '5.21617000',
-                longitude: '-73.59490000'),
-            City(
-                id: 21613,
-                name: 'Villeta',
-                latitude: '5.00008000',
-                longitude: '-74.50498000'),
-            City(
-                id: 21614,
-                name: 'Viotá',
-                latitude: '4.43713000',
-                longitude: '-74.52157000'),
-            City(
-                id: 21619,
-                name: 'Yacopí',
-                latitude: '5.45948000',
-                longitude: '-74.33823000'),
-            City(
-                id: 21635,
-                name: 'Zipacón',
-                latitude: '4.75881000',
-                longitude: '-74.38017000'),
-            City(
-                id: 21636,
-                name: 'Zipaquirá',
-                latitude: '5.02208000',
-                longitude: '-74.00481000')
-          ]),
-      State(id: 2882, name: 'Guainía Department', stateCode: 'GUA', cities: [
+      State(id: 2875, name: 'Cundinamarca', stateCode: 'CUN', cities: [
+        City(
+            id: 20491,
+            name: 'Agua de Dios',
+            latitude: '4.37648000',
+            longitude: '-74.66995000'),
+        City(
+            id: 20501,
+            name: 'Albán',
+            latitude: '4.89432000',
+            longitude: '-74.44388000'),
+        City(
+            id: 20516,
+            name: 'Anapoima',
+            latitude: '4.55099000',
+            longitude: '-74.53517000'),
+        City(
+            id: 20523,
+            name: 'Anolaima',
+            latitude: '4.83362000',
+            longitude: '-74.49950000'),
+        City(
+            id: 20530,
+            name: 'Apulo',
+            latitude: '4.51952000',
+            longitude: '-74.59293000'),
+        City(
+            id: 20538,
+            name: 'Arbeláez',
+            latitude: '4.21251000',
+            longitude: '-74.41464000'),
+        City(
+            id: 143872,
+            name: 'Barrio San Luis',
+            latitude: '4.66779000',
+            longitude: '-74.02150000'),
+        City(
+            id: 20581,
+            name: 'Beltrán',
+            latitude: '4.71947000',
+            longitude: '-74.75660000'),
+        City(
+            id: 20592,
+            name: 'Bituima',
+            latitude: '4.87252000',
+            longitude: '-74.53925000'),
+        City(
+            id: 143873,
+            name: 'Bogota',
+            latitude: '4.61263889',
+            longitude: '-74.07050000'),
+        City(
+            id: 20595,
+            name: 'Bojacá',
+            latitude: '4.73176000',
+            longitude: '-74.34129000'),
+        City(
+            id: 20615,
+            name: 'Cabrera',
+            latitude: '3.98598000',
+            longitude: '-74.48283000'),
+        City(
+            id: 20619,
+            name: 'Cachipay',
+            latitude: '5.26667000',
+            longitude: '-74.56667000'),
+        City(
+            id: 20626,
+            name: 'Cajicá',
+            latitude: '4.91857000',
+            longitude: '-74.02799000'),
+        City(
+            id: 20646,
+            name: 'Caparrapí',
+            latitude: '5.34644000',
+            longitude: '-74.49147000'),
+        City(
+            id: 20648,
+            name: 'Caqueza',
+            latitude: '4.38708000',
+            longitude: '-73.95722000'),
+        City(
+            id: 20655,
+            name: 'Carmen de Carupa',
+            latitude: '5.34862000',
+            longitude: '-73.90168000'),
+        City(
+            id: 20675,
+            name: 'Chaguaní',
+            latitude: '4.94829000',
+            longitude: '-74.59392000'),
+        City(
+            id: 20705,
+            name: 'Chía',
+            latitude: '4.84452000',
+            longitude: '-74.05848000'),
+        City(
+            id: 20691,
+            name: 'Chipaque',
+            latitude: '4.44250000',
+            longitude: '-74.04417000'),
+        City(
+            id: 20702,
+            name: 'Choachí',
+            latitude: '4.52897000',
+            longitude: '-73.92273000'),
+        City(
+            id: 20703,
+            name: 'Chocontá',
+            latitude: '5.14468000',
+            longitude: '-73.68578000'),
+        City(
+            id: 20718,
+            name: 'Cogua',
+            latitude: '5.06051000',
+            longitude: '-73.97925000'),
+        City(
+            id: 20741,
+            name: 'Cota',
+            latitude: '4.80938000',
+            longitude: '-74.09800000'),
+        City(
+            id: 20752,
+            name: 'Cucunubá',
+            latitude: '5.24958000',
+            longitude: '-73.76610000'),
+        City(
+            id: 20803,
+            name: 'El Colegio',
+            latitude: '4.56047000',
+            longitude: '-74.42614000'),
+        City(
+            id: 21159,
+            name: 'El Maríachi',
+            latitude: '5.13278000',
+            longitude: '-74.15977000'),
+        City(
+            id: 20817,
+            name: 'El Peñón',
+            latitude: '5.25264000',
+            longitude: '-74.29069000'),
+        City(
+            id: 20826,
+            name: 'El Rosal',
+            latitude: '4.85314000',
+            longitude: '-74.25996000'),
+        City(
+            id: 20842,
+            name: 'Facatativá',
+            latitude: '4.81367000',
+            longitude: '-74.35453000'),
+        City(
+            id: 20854,
+            name: 'Fomeque',
+            latitude: '4.52806000',
+            longitude: '-73.78879000'),
+        City(
+            id: 20857,
+            name: 'Fosca',
+            latitude: '4.33916000',
+            longitude: '-73.93852000'),
+        City(
+            id: 20866,
+            name: 'Funza',
+            latitude: '4.71638000',
+            longitude: '-74.21195000'),
+        City(
+            id: 20869,
+            name: 'Fúquene',
+            latitude: '5.41988000',
+            longitude: '-73.76997000'),
+        City(
+            id: 20867,
+            name: 'Fusagasugá',
+            latitude: '4.33646000',
+            longitude: '-74.36378000'),
+        City(
+            id: 20870,
+            name: 'Gachala',
+            latitude: '4.66667000',
+            longitude: '-73.50000000'),
+        City(
+            id: 20872,
+            name: 'Gachancipá',
+            latitude: '4.99111000',
+            longitude: '-73.87154000'),
+        City(
+            id: 20874,
+            name: 'Gachetá',
+            latitude: '4.87104000',
+            longitude: '-73.61730000'),
+        City(
+            id: 20879,
+            name: 'Gama',
+            latitude: '4.76288000',
+            longitude: '-73.61091000'),
+        City(
+            id: 20886,
+            name: 'Girardot',
+            latitude: '4.31802000',
+            longitude: '-74.83504000'),
+        City(
+            id: 20892,
+            name: 'Granada',
+            latitude: '5.06667000',
+            longitude: '-74.56667000'),
+        City(
+            id: 20898,
+            name: 'Guachetá',
+            latitude: '5.38425000',
+            longitude: '-73.68617000'),
+        City(
+            id: 20903,
+            name: 'Guaduas',
+            latitude: '5.07430000',
+            longitude: '-74.59854000'),
+        City(
+            id: 20914,
+            name: 'Guasca',
+            latitude: '4.86601000',
+            longitude: '-73.87748000'),
+        City(
+            id: 20916,
+            name: 'Guataquí',
+            latitude: '4.51573000',
+            longitude: '-74.78935000'),
+        City(
+            id: 20917,
+            name: 'Guatavita',
+            latitude: '4.93658000',
+            longitude: '-73.83314000'),
+        City(
+            id: 20921,
+            name: 'Guayabal de Siquima',
+            latitude: '4.87881000',
+            longitude: '-74.48306000'),
+        City(
+            id: 20923,
+            name: 'Guayabetal',
+            latitude: '4.21472000',
+            longitude: '-73.81719000'),
+        City(
+            id: 20925,
+            name: 'Gutiérrez',
+            latitude: '4.18486000',
+            longitude: '-74.01168000'),
+        City(
+            id: 20963,
+            name: 'Jerusalén',
+            latitude: '4.56309000',
+            longitude: '-74.69519000'),
+        City(
+            id: 20968,
+            name: 'Junín',
+            latitude: '4.70725000',
+            longitude: '-73.69549000'),
+        City(
+            id: 20972,
+            name: 'La Calera',
+            latitude: '4.68678000',
+            longitude: '-73.93590000'),
+        City(
+            id: 20993,
+            name: 'La Mesa',
+            latitude: '4.65374000',
+            longitude: '-74.47316000'),
+        City(
+            id: 20995,
+            name: 'La Palma',
+            latitude: '5.31732000',
+            longitude: '-74.43003000'),
+        City(
+            id: 20999,
+            name: 'La Peña',
+            latitude: '5.19847000',
+            longitude: '-74.39368000'),
+        City(
+            id: 21012,
+            name: 'La Vega',
+            latitude: '4.97382000',
+            longitude: '-74.34476000'),
+        City(
+            id: 21026,
+            name: 'Lenguazaque',
+            latitude: '5.30711000',
+            longitude: '-73.71152000'),
+        City(
+            id: 21045,
+            name: 'Macheta',
+            latitude: '5.08333000',
+            longitude: '-73.61667000'),
+        City(
+            id: 21047,
+            name: 'Madrid',
+            latitude: '4.75564000',
+            longitude: '-74.27708000'),
+        City(
+            id: 21060,
+            name: 'Manta',
+            latitude: '4.95720000',
+            longitude: '-73.58583000'),
+        City(
+            id: 21075,
+            name: 'Medina',
+            latitude: '4.51005000',
+            longitude: '-73.34982000'),
+        City(
+            id: 21109,
+            name: 'Mosquera',
+            latitude: '4.68935000',
+            longitude: '-74.23599000'),
+        City(
+            id: 21127,
+            name: 'Nariño',
+            latitude: '4.39913000',
+            longitude: '-74.82239000'),
+        City(
+            id: 21132,
+            name: 'Nemocón',
+            latitude: '5.06767000',
+            longitude: '-73.87769000'),
+        City(
+            id: 21133,
+            name: 'Nilo',
+            latitude: '4.30604000',
+            longitude: '-74.62083000'),
+        City(
+            id: 21134,
+            name: 'Nimaima',
+            latitude: '5.12614000',
+            longitude: '-74.38495000'),
+        City(
+            id: 21136,
+            name: 'Nocaima',
+            latitude: '5.06696000',
+            longitude: '-74.38439000'),
+        City(
+            id: 21165,
+            name: 'Paime',
+            latitude: '5.37054000',
+            longitude: '-74.15219000'),
+        City(
+            id: 21179,
+            name: 'Pandi',
+            latitude: '4.18032000',
+            longitude: '-74.47099000'),
+        City(
+            id: 21182,
+            name: 'Paratebueno',
+            latitude: '4.37575000',
+            longitude: '-73.21547000'),
+        City(
+            id: 21183,
+            name: 'Pasca',
+            latitude: '4.30722000',
+            longitude: '-74.30056000'),
+        City(
+            id: 21235,
+            name: 'Puerto Bogotá',
+            latitude: '5.19994000',
+            longitude: '-74.72733000'),
+        City(
+            id: 21254,
+            name: 'Puerto Salgar',
+            latitude: '5.61892000',
+            longitude: '-74.58483000'),
+        City(
+            id: 21261,
+            name: 'Pulí',
+            latitude: '4.68116000',
+            longitude: '-74.71406000'),
+        City(
+            id: 21270,
+            name: 'Quebradanegra',
+            latitude: '5.08262000',
+            longitude: '-74.52117000'),
+        City(
+            id: 21271,
+            name: 'Quetame',
+            latitude: '4.33234000',
+            longitude: '-73.86141000'),
+        City(
+            id: 21275,
+            name: 'Quipile',
+            latitude: '4.74517000',
+            longitude: '-74.53378000'),
+        City(
+            id: 21287,
+            name: 'Ricaurte',
+            latitude: '4.28075000',
+            longitude: '-74.76469000'),
+        City(
+            id: 21338,
+            name: 'San Antonio del Tequendama',
+            latitude: '4.61667000',
+            longitude: '-74.35000000'),
+        City(
+            id: 21342,
+            name: 'San Bernardo',
+            latitude: '4.12956000',
+            longitude: '-74.35903000'),
+        City(
+            id: 21348,
+            name: 'San Cayetano',
+            latitude: '5.31693000',
+            longitude: '-74.07141000'),
+        City(
+            id: 21358,
+            name: 'San Francisco',
+            latitude: '4.96335000',
+            longitude: '-74.26613000'),
+        City(
+            id: 21375,
+            name: 'San Juan de Río Seco',
+            latitude: '4.83077000',
+            longitude: '-74.68248000'),
+        City(
+            id: 21446,
+            name: 'Sasaima',
+            latitude: '4.96705000',
+            longitude: '-74.43512000'),
+        City(
+            id: 21450,
+            name: 'Sesquilé',
+            latitude: '5.04463000',
+            longitude: '-73.79724000'),
+        City(
+            id: 21453,
+            name: 'Sibaté',
+            latitude: '4.49154000',
+            longitude: '-74.25957000'),
+        City(
+            id: 21456,
+            name: 'Silvania',
+            latitude: '4.40367000',
+            longitude: '-74.38670000'),
+        City(
+            id: 21459,
+            name: 'Simijaca',
+            latitude: '5.50415000',
+            longitude: '-73.86944000'),
+        City(
+            id: 21464,
+            name: 'Soacha',
+            latitude: '4.57937000',
+            longitude: '-74.21682000'),
+        City(
+            id: 21478,
+            name: 'Sopó',
+            latitude: '4.90750000',
+            longitude: '-73.93840000'),
+        City(
+            id: 21486,
+            name: 'Subachoque',
+            latitude: '4.92614000',
+            longitude: '-74.17299000'),
+        City(
+            id: 21490,
+            name: 'Suesca',
+            latitude: '5.10289000',
+            longitude: '-73.79845000'),
+        City(
+            id: 21491,
+            name: 'Supatá',
+            latitude: '5.06097000',
+            longitude: '-74.23721000'),
+        City(
+            id: 21494,
+            name: 'Susa',
+            latitude: '5.42700000',
+            longitude: '-73.84786000'),
+        City(
+            id: 21497,
+            name: 'Sutatausa',
+            latitude: '5.24779000',
+            longitude: '-73.85238000'),
+        City(
+            id: 21503,
+            name: 'Tabio',
+            latitude: '4.91726000',
+            longitude: '-74.09364000'),
+        City(
+            id: 21517,
+            name: 'Tausa',
+            latitude: '5.19903000',
+            longitude: '-73.89128000'),
+        City(
+            id: 21518,
+            name: 'Tena',
+            latitude: '4.66001000',
+            longitude: '-74.39258000'),
+        City(
+            id: 21520,
+            name: 'Tenjo',
+            latitude: '4.87270000',
+            longitude: '-74.14435000'),
+        City(
+            id: 21522,
+            name: 'Tibacuy',
+            latitude: '4.30606000',
+            longitude: '-74.51639000'),
+        City(
+            id: 21525,
+            name: 'Tibirita',
+            latitude: '5.05227000',
+            longitude: '-73.50459000'),
+        City(
+            id: 21534,
+            name: 'Tocaima',
+            latitude: '4.46073000',
+            longitude: '-74.65722000'),
+        City(
+            id: 21535,
+            name: 'Tocancipá',
+            latitude: '4.96531000',
+            longitude: '-73.91301000'),
+        City(
+            id: 21541,
+            name: 'Topaipí',
+            latitude: '5.33457000',
+            longitude: '-74.30292000'),
+        City(
+            id: 21565,
+            name: 'Ubalá',
+            latitude: '4.74778000',
+            longitude: '-72.53694000'),
+        City(
+            id: 21566,
+            name: 'Ubaque',
+            latitude: '4.48667000',
+            longitude: '-73.93748000'),
+        City(
+            id: 21569,
+            name: 'Une',
+            latitude: '4.30691000',
+            longitude: '-74.07104000'),
+        City(
+            id: 21640,
+            name: 'Útica',
+            latitude: '5.16977000',
+            longitude: '-74.50134000'),
+        City(
+            id: 21587,
+            name: 'Venecia',
+            latitude: '4.08808000',
+            longitude: '-74.47746000'),
+        City(
+            id: 21590,
+            name: 'Vergara',
+            latitude: '5.13600000',
+            longitude: '-74.31539000'),
+        City(
+            id: 21593,
+            name: 'Vianí',
+            latitude: '4.89579000',
+            longitude: '-74.55398000'),
+        City(
+            id: 21599,
+            name: 'Villa de San Diego de Ubate',
+            latitude: '5.31544000',
+            longitude: '-73.82045000'),
+        City(
+            id: 21603,
+            name: 'Villagómez',
+            latitude: '5.27372000',
+            longitude: '-74.19614000'),
+        City(
+            id: 21610,
+            name: 'Villapinzón',
+            latitude: '5.21617000',
+            longitude: '-73.59490000'),
+        City(
+            id: 21613,
+            name: 'Villeta',
+            latitude: '5.00008000',
+            longitude: '-74.50498000'),
+        City(
+            id: 21614,
+            name: 'Viotá',
+            latitude: '4.43713000',
+            longitude: '-74.52157000'),
+        City(
+            id: 21619,
+            name: 'Yacopí',
+            latitude: '5.45948000',
+            longitude: '-74.33823000'),
+        City(
+            id: 21635,
+            name: 'Zipacón',
+            latitude: '4.75881000',
+            longitude: '-74.38017000'),
+        City(
+            id: 21636,
+            name: 'Zipaquirá',
+            latitude: '5.02208000',
+            longitude: '-74.00481000')
+      ]),
+      State(id: 2882, name: 'Guainía', stateCode: 'GUA', cities: [
         City(
             id: 20572,
             name: 'Barranco Minas',
@@ -3511,7 +3377,7 @@ const col = Country(
             latitude: '2.14321000',
             longitude: '-67.34122000')
       ]),
-      State(id: 2888, name: 'Guaviare Department', stateCode: 'GUV', cities: [
+      State(id: 2888, name: 'Guaviare', stateCode: 'GUV', cities: [
         City(
             id: 20627,
             name: 'Calamar',
@@ -3533,7 +3399,7 @@ const col = Country(
             latitude: '2.57286000',
             longitude: '-72.64591000')
       ]),
-      State(id: 4871, name: 'Huila Department', stateCode: 'HUI', cities: [
+      State(id: 4871, name: 'Huila', stateCode: 'HUI', cities: [
         City(
             id: 143877,
             name: 'Acevedo',
@@ -3715,7 +3581,7 @@ const col = Country(
             latitude: '2.66361111',
             longitude: '-75.51750000')
       ]),
-      State(id: 2889, name: 'La Guajira Department', stateCode: 'LAG', cities: [
+      State(id: 2889, name: 'La Guajira', stateCode: 'LAG', cities: [
         City(
             id: 20498,
             name: 'Albania',
@@ -3792,7 +3658,7 @@ const col = Country(
             latitude: '10.58333000',
             longitude: '-72.96077000')
       ]),
-      State(id: 2886, name: 'Magdalena Department', stateCode: 'MAG', cities: [
+      State(id: 2886, name: 'Magdalena', stateCode: 'MAG', cities: [
         City(
             id: 20505,
             name: 'Algarrobo',
@@ -3853,11 +3719,6 @@ const col = Country(
             name: 'El Piñon',
             latitude: '10.33333000',
             longitude: '-74.66667000'),
-        City(
-            id: 20821,
-            name: 'El Piñón',
-            latitude: '10.40283000',
-            longitude: '-74.82415000'),
         City(
             id: 20824,
             name: 'El Retén',
@@ -4101,7 +3962,7 @@ const col = Country(
             latitude: '3.12428000',
             longitude: '-73.75156000')
       ]),
-      State(id: 2897, name: 'Nariño Department', stateCode: 'NAR', cities: [
+      State(id: 2897, name: 'Nariño', stateCode: 'NAR', cities: [
         City(
             id: 20500,
             name: 'Albán',
@@ -4112,11 +3973,6 @@ const col = Country(
             name: 'Aldana',
             latitude: '0.88283000',
             longitude: '-77.70103000'),
-        City(
-            id: 20518,
-            name: 'Ancuyá',
-            latitude: '1.26538000',
-            longitude: '-77.53258000'),
         City(
             id: 20517,
             name: 'Ancuya',
@@ -4167,11 +4023,6 @@ const col = Country(
             name: 'Consaca',
             latitude: '1.20841000',
             longitude: '-77.46323000'),
-        City(
-            id: 20731,
-            name: 'Consacá',
-            latitude: '1.20805000',
-            longitude: '-77.46548000'),
         City(
             id: 20732,
             name: 'Contadero',
@@ -4483,213 +4334,199 @@ const col = Country(
             latitude: '1.11577000',
             longitude: '-77.40169000')
       ]),
-      State(
-          id: 2877,
-          name: 'Norte de Santander Department',
-          stateCode: 'NSA',
-          cities: [
-            City(
-                id: 20486,
-                name: 'Abrego',
-                latitude: '8.00000000',
-                longitude: '-73.20000000'),
-            City(
-                id: 21638,
-                name: 'Ábrego',
-                latitude: '8.08065000',
-                longitude: '-73.22054000'),
-            City(
-                id: 20540,
-                name: 'Arboledas',
-                latitude: '7.63494000',
-                longitude: '-72.86050000'),
-            City(
-                id: 20594,
-                name: 'Bochalema',
-                latitude: '7.60217000',
-                longitude: '-72.68839000'),
-            City(
-                id: 20604,
-                name: 'Bucarasica',
-                latitude: '8.04096000',
-                longitude: '-72.86538000'),
-            City(
-                id: 20620,
-                name: 'Cachirá',
-                latitude: '7.75000000',
-                longitude: '-73.16667000'),
-            City(
-                id: 20764,
-                name: 'Cáchira',
-                latitude: '7.74104000',
-                longitude: '-73.04830000'),
-            City(
-                id: 20765,
-                name: 'Cácota',
-                latitude: '7.26787000',
-                longitude: '-72.64197000'),
-            City(
-                id: 20689,
-                name: 'Chinácota',
-                latitude: '7.60731000',
-                longitude: '-72.60108000'),
-            City(
-                id: 20697,
-                name: 'Chitagá',
-                latitude: '7.13781000',
-                longitude: '-72.66456000'),
-            City(
-                id: 20734,
-                name: 'Convención',
-                latitude: '8.82242000',
-                longitude: '-73.22850000'),
-            City(
-                id: 20772,
-                name: 'Cúcuta',
-                latitude: '7.89391000',
-                longitude: '-72.50782000'),
-            City(
-                id: 20753,
-                name: 'Cucutilla',
-                latitude: '7.53941000',
-                longitude: '-72.77238000'),
-            City(
-                id: 20784,
-                name: 'Durania',
-                latitude: '7.71307000',
-                longitude: '-72.65759000'),
-            City(
-                id: 20793,
-                name: 'El Carmen',
-                latitude: '8.51064000',
-                longitude: '-73.44776000'),
-            City(
-                id: 20833,
-                name: 'El Tarra',
-                latitude: '8.57562000',
-                longitude: '-73.09489000'),
-            City(
-                id: 20834,
-                name: 'El Zulia',
-                latitude: '7.93248000',
-                longitude: '-72.60125000'),
-            City(
-                id: 20891,
-                name: 'Gramalote',
-                latitude: '7.88752000',
-                longitude: '-72.79749000'),
-            City(
-                id: 20934,
-                name: 'Hacarí',
-                latitude: '8.32333000',
-                longitude: '-73.14889000'),
-            City(
-                id: 20940,
-                name: 'Herrán',
-                latitude: '7.50611000',
-                longitude: '-72.48332000'),
-            City(
-                id: 20982,
-                name: 'La Esperanza',
-                latitude: '8.21043000',
-                longitude: '-72.46399000'),
-            City(
-                id: 21001,
-                name: 'La Playa',
-                latitude: '8.25833000',
-                longitude: '-73.19222000'),
-            City(
-                id: 21017,
-                name: 'Labateca',
-                latitude: '7.24558000',
-                longitude: '-72.55286000'),
-            City(
-                id: 21035,
-                name: 'Los Patios',
-                latitude: '7.83793000',
-                longitude: '-72.50370000'),
-            City(
-                id: 21037,
-                name: 'Lourdes',
-                latitude: '7.96774000',
-                longitude: '-72.84519000'),
-            City(
-                id: 21122,
-                name: 'Mutiscua',
-                latitude: '7.29810000',
-                longitude: '-72.79879000'),
-            City(
-                id: 21146,
-                name: 'Ocaña',
-                latitude: '8.23773000',
-                longitude: '-73.35604000'),
-            City(
-                id: 21176,
-                name: 'Pamplona',
-                latitude: '7.37565000',
-                longitude: '-72.64795000'),
-            City(
-                id: 21177,
-                name: 'Pamplonita',
-                latitude: '7.45814000',
-                longitude: '-72.65965000'),
-            City(
-                id: 21255,
-                name: 'Puerto Santander',
-                latitude: '8.36361000',
-                longitude: '-72.40630000'),
-            City(
-                id: 21277,
-                name: 'Ragonvalia',
-                latitude: '7.57749000',
-                longitude: '-72.47574000'),
-            City(
-                id: 21320,
-                name: 'Salazar',
-                latitude: '7.78249000',
-                longitude: '-72.85741000'),
-            City(
-                id: 21344,
-                name: 'San Calixto',
-                latitude: '8.40210000',
-                longitude: '-73.20737000'),
-            City(
-                id: 21349,
-                name: 'San Cayetano',
-                latitude: '7.84771000',
-                longitude: '-72.61014000'),
-            City(
-                id: 21436,
-                name: 'Santiago',
-                latitude: '7.86930000',
-                longitude: '-72.73753000'),
-            City(
-                id: 21445,
-                name: 'Sardinata',
-                latitude: '8.08289000',
-                longitude: '-72.80071000'),
-            City(
-                id: 21455,
-                name: 'Silos',
-                latitude: '7.20524000',
-                longitude: '-72.75639000'),
-            City(
-                id: 21526,
-                name: 'Tibú',
-                latitude: '8.63895000',
-                longitude: '-72.73583000'),
-            City(
-                id: 21538,
-                name: 'Toledo',
-                latitude: '7.30984000',
-                longitude: '-72.48295000'),
-            City(
-                id: 21601,
-                name: 'Villa del Rosario',
-                latitude: '7.75816000',
-                longitude: '-72.48182000')
-          ]),
-      State(id: 2896, name: 'Putumayo Department', stateCode: 'PUT', cities: [
+      State(id: 2877, name: 'Norte de Santander', stateCode: 'NSA', cities: [
+        City(
+            id: 20486,
+            name: 'Abrego',
+            latitude: '8.00000000',
+            longitude: '-73.20000000'),
+        City(
+            id: 20540,
+            name: 'Arboledas',
+            latitude: '7.63494000',
+            longitude: '-72.86050000'),
+        City(
+            id: 20594,
+            name: 'Bochalema',
+            latitude: '7.60217000',
+            longitude: '-72.68839000'),
+        City(
+            id: 20604,
+            name: 'Bucarasica',
+            latitude: '8.04096000',
+            longitude: '-72.86538000'),
+        City(
+            id: 20620,
+            name: 'Cachirá',
+            latitude: '7.75000000',
+            longitude: '-73.16667000'),
+        City(
+            id: 20765,
+            name: 'Cácota',
+            latitude: '7.26787000',
+            longitude: '-72.64197000'),
+        City(
+            id: 20689,
+            name: 'Chinácota',
+            latitude: '7.60731000',
+            longitude: '-72.60108000'),
+        City(
+            id: 20697,
+            name: 'Chitagá',
+            latitude: '7.13781000',
+            longitude: '-72.66456000'),
+        City(
+            id: 20734,
+            name: 'Convención',
+            latitude: '8.82242000',
+            longitude: '-73.22850000'),
+        City(
+            id: 20772,
+            name: 'Cúcuta',
+            latitude: '7.89391000',
+            longitude: '-72.50782000'),
+        City(
+            id: 20753,
+            name: 'Cucutilla',
+            latitude: '7.53941000',
+            longitude: '-72.77238000'),
+        City(
+            id: 20784,
+            name: 'Durania',
+            latitude: '7.71307000',
+            longitude: '-72.65759000'),
+        City(
+            id: 20793,
+            name: 'El Carmen',
+            latitude: '8.51064000',
+            longitude: '-73.44776000'),
+        City(
+            id: 20833,
+            name: 'El Tarra',
+            latitude: '8.57562000',
+            longitude: '-73.09489000'),
+        City(
+            id: 20834,
+            name: 'El Zulia',
+            latitude: '7.93248000',
+            longitude: '-72.60125000'),
+        City(
+            id: 20891,
+            name: 'Gramalote',
+            latitude: '7.88752000',
+            longitude: '-72.79749000'),
+        City(
+            id: 20934,
+            name: 'Hacarí',
+            latitude: '8.32333000',
+            longitude: '-73.14889000'),
+        City(
+            id: 20940,
+            name: 'Herrán',
+            latitude: '7.50611000',
+            longitude: '-72.48332000'),
+        City(
+            id: 20982,
+            name: 'La Esperanza',
+            latitude: '8.21043000',
+            longitude: '-72.46399000'),
+        City(
+            id: 21001,
+            name: 'La Playa',
+            latitude: '8.25833000',
+            longitude: '-73.19222000'),
+        City(
+            id: 21017,
+            name: 'Labateca',
+            latitude: '7.24558000',
+            longitude: '-72.55286000'),
+        City(
+            id: 21035,
+            name: 'Los Patios',
+            latitude: '7.83793000',
+            longitude: '-72.50370000'),
+        City(
+            id: 21037,
+            name: 'Lourdes',
+            latitude: '7.96774000',
+            longitude: '-72.84519000'),
+        City(
+            id: 21122,
+            name: 'Mutiscua',
+            latitude: '7.29810000',
+            longitude: '-72.79879000'),
+        City(
+            id: 21146,
+            name: 'Ocaña',
+            latitude: '8.23773000',
+            longitude: '-73.35604000'),
+        City(
+            id: 21176,
+            name: 'Pamplona',
+            latitude: '7.37565000',
+            longitude: '-72.64795000'),
+        City(
+            id: 21177,
+            name: 'Pamplonita',
+            latitude: '7.45814000',
+            longitude: '-72.65965000'),
+        City(
+            id: 21255,
+            name: 'Puerto Santander',
+            latitude: '8.36361000',
+            longitude: '-72.40630000'),
+        City(
+            id: 21277,
+            name: 'Ragonvalia',
+            latitude: '7.57749000',
+            longitude: '-72.47574000'),
+        City(
+            id: 21320,
+            name: 'Salazar',
+            latitude: '7.78249000',
+            longitude: '-72.85741000'),
+        City(
+            id: 21344,
+            name: 'San Calixto',
+            latitude: '8.40210000',
+            longitude: '-73.20737000'),
+        City(
+            id: 21349,
+            name: 'San Cayetano',
+            latitude: '7.84771000',
+            longitude: '-72.61014000'),
+        City(
+            id: 21436,
+            name: 'Santiago',
+            latitude: '7.86930000',
+            longitude: '-72.73753000'),
+        City(
+            id: 21445,
+            name: 'Sardinata',
+            latitude: '8.08289000',
+            longitude: '-72.80071000'),
+        City(
+            id: 21455,
+            name: 'Silos',
+            latitude: '7.20524000',
+            longitude: '-72.75639000'),
+        City(
+            id: 21526,
+            name: 'Tibú',
+            latitude: '8.63895000',
+            longitude: '-72.73583000'),
+        City(
+            id: 21538,
+            name: 'Toledo',
+            latitude: '7.30984000',
+            longitude: '-72.48295000'),
+        City(
+            id: 21601,
+            name: 'Villa del Rosario',
+            latitude: '7.75816000',
+            longitude: '-72.48182000')
+      ]),
+      State(id: 2896, name: 'Putumayo', stateCode: 'PUT', cities: [
         City(
             id: 20721,
             name: 'Colón',
@@ -4761,7 +4598,7 @@ const col = Country(
             latitude: '0.89663000',
             longitude: '-76.72794000')
       ]),
-      State(id: 2874, name: 'Quindío Department', stateCode: 'QUI', cities: [
+      State(id: 2874, name: 'Quindío', stateCode: 'QUI', cities: [
         City(
             id: 20550,
             name: 'Armenia',
@@ -4777,11 +4614,6 @@ const col = Country(
             name: 'Calarca',
             latitude: '4.50000000',
             longitude: '-75.63333000'),
-        City(
-            id: 20630,
-            name: 'Calarcá',
-            latitude: '4.52949000',
-            longitude: '-75.64091000'),
         City(
             id: 20709,
             name: 'Circasia',
@@ -4828,7 +4660,7 @@ const col = Country(
             latitude: '4.63643000',
             longitude: '-75.56740000')
       ]),
-      State(id: 2879, name: 'Risaralda Department', stateCode: 'RIS', cities: [
+      State(id: 2879, name: 'Risaralda', stateCode: 'RIS', cities: [
         City(
             id: 20524,
             name: 'Anserma',
@@ -4910,7 +4742,28 @@ const col = Country(
             latitude: '5.05321000',
             longitude: '-75.99060000')
       ]),
-      State(id: 2901, name: 'Santander Department', stateCode: 'SAN', cities: [
+      State(
+          id: 2900,
+          name: 'San Andrés, Providencia y Santa Catalina',
+          stateCode: 'SAP',
+          cities: [
+            City(
+                id: 21111,
+                name: 'Mountain',
+                latitude: '13.36667000',
+                longitude: '-81.36667000'),
+            City(
+                id: 21224,
+                name: 'Providencia',
+                latitude: '13.38479000',
+                longitude: '-81.37468000'),
+            City(
+                id: 21331,
+                name: 'San Andrés',
+                latitude: '12.58317000',
+                longitude: '-81.70636000')
+          ]),
+      State(id: 2901, name: 'Santander', stateCode: 'SAN', cities: [
         City(
             id: 20493,
             name: 'Aguada',
@@ -5087,11 +4940,6 @@ const col = Country(
             latitude: '5.90273000',
             longitude: '-73.36788000'),
         City(
-            id: 20927,
-            name: 'Gámbita',
-            latitude: '5.94597000',
-            longitude: '-73.34435000'),
-        City(
             id: 20889,
             name: 'Girón',
             latitude: '7.06820000',
@@ -5156,11 +5004,6 @@ const col = Country(
             name: 'Lebrija',
             latitude: '7.11317000',
             longitude: '-73.21780000'),
-        City(
-            id: 21022,
-            name: 'Lebríja',
-            latitude: '7.19714000',
-            longitude: '-73.31566000'),
         City(
             id: 21036,
             name: 'Los Santos',
@@ -5352,7 +5195,7 @@ const col = Country(
             latitude: '6.81532000',
             longitude: '-73.26768000')
       ]),
-      State(id: 2902, name: 'Sucre Department', stateCode: 'SUC', cities: [
+      State(id: 2902, name: 'Sucre', stateCode: 'SUC', cities: [
         City(
             id: 20623,
             name: 'Caimito',
@@ -5368,11 +5211,6 @@ const col = Country(
             name: 'Coloso',
             latitude: '9.51176000',
             longitude: '-75.36233000'),
-        City(
-            id: 20720,
-            name: 'Colosó',
-            latitude: '9.49477000',
-            longitude: '-75.35271000'),
         City(
             id: 20739,
             name: 'Corozal',
@@ -5484,7 +5322,7 @@ const col = Country(
             latitude: '9.45082000',
             longitude: '-75.43864000')
       ]),
-      State(id: 2883, name: 'Tolima Department', stateCode: 'TOL', cities: [
+      State(id: 2883, name: 'Tolima', stateCode: 'TOL', cities: [
         City(
             id: 20508,
             name: 'Alpujarra',
@@ -5806,228 +5644,224 @@ const col = Country(
             latitude: '3.83099000',
             longitude: '-74.65258000')
       ]),
-      State(
-          id: 2904,
-          name: 'Valle del Cauca Department',
-          stateCode: 'VAC',
-          cities: [
-            City(
-                id: 20502,
-                name: 'Alcalá',
-                latitude: '4.67458000',
-                longitude: '-75.77188000'),
-            City(
-                id: 20519,
-                name: 'Andalucía',
-                latitude: '4.14035000',
-                longitude: '-76.14739000'),
-            City(
-                id: 20526,
-                name: 'Ansermanuevo',
-                latitude: '4.79722000',
-                longitude: '-75.99500000'),
-            City(
-                id: 20546,
-                name: 'Argelia',
-                latitude: '4.72904000',
-                longitude: '-76.11637000'),
-            City(
-                id: 20598,
-                name: 'Bolívar',
-                latitude: '4.37710000',
-                longitude: '-76.34870000'),
-            City(
-                id: 20605,
-                name: 'Buenaventura',
-                latitude: '3.88010000',
-                longitude: '-77.03116000'),
-            City(
-                id: 20612,
-                name: 'Bugalagrande',
-                latitude: '4.21207000',
-                longitude: '-76.15564000'),
-            City(
-                id: 20622,
-                name: 'Caicedonia',
-                latitude: '4.33240000',
-                longitude: '-75.82665000'),
-            City(
-                id: 20634,
-                name: 'Cali',
-                latitude: '3.41033000',
-                longitude: '-76.58097000'),
-            City(
-                id: 20636,
-                name: 'Calima',
-                latitude: '3.92511000',
-                longitude: '-76.62654000'),
-            City(
-                id: 20644,
-                name: 'Candelaria',
-                latitude: '3.38367000',
-                longitude: '-76.42466000'),
-            City(
-                id: 20661,
-                name: 'Cartago',
-                latitude: '4.74639000',
-                longitude: '-75.91167000'),
-            City(
-                id: 20774,
-                name: 'Dagua',
-                latitude: '3.65685000',
-                longitude: '-76.68859000'),
-            City(
-                id: 20775,
-                name: 'Darien',
-                latitude: '3.93135000',
-                longitude: '-76.48481000'),
-            City(
-                id: 20835,
-                name: 'El Águila',
-                latitude: '4.91946000',
-                longitude: '-76.05680000'),
-            City(
-                id: 20789,
-                name: 'El Cairo',
-                latitude: '4.74889000',
-                longitude: '-76.24443000'),
-            City(
-                id: 20800,
-                name: 'El Cerrito',
-                latitude: '3.64273000',
-                longitude: '-76.20960000'),
-            City(
-                id: 20806,
-                name: 'El Dovio',
-                latitude: '4.50790000',
-                longitude: '-76.23619000'),
-            City(
-                id: 20851,
-                name: 'Florida',
-                latitude: '3.30940000',
-                longitude: '-76.18989000'),
-            City(
-                id: 20884,
-                name: 'Ginebra',
-                latitude: '3.74296000',
-                longitude: '-76.19412000'),
-            City(
-                id: 20897,
-                name: 'Guacarí',
-                latitude: '3.76383000',
-                longitude: '-76.33292000'),
-            City(
-                id: 20900,
-                name: 'Guadalajara de Buga',
-                latitude: '3.90089000',
-                longitude: '-76.29783000'),
-            City(
-                id: 20958,
-                name: 'Jamundí',
-                latitude: '3.26074000',
-                longitude: '-76.53499000'),
-            City(
-                id: 20979,
-                name: 'La Cumbre',
-                latitude: '3.72250000',
-                longitude: '-76.02083000'),
-            City(
-                id: 21006,
-                name: 'La Unión',
-                latitude: '4.53282000',
-                longitude: '-76.10318000'),
-            City(
-                id: 21013,
-                name: 'La Victoria',
-                latitude: '4.52483000',
-                longitude: '-76.03921000'),
-            City(
-                id: 21144,
-                name: 'Obando',
-                latitude: '4.59590000',
-                longitude: '-75.94879000'),
-            City(
-                id: 21173,
-                name: 'Palmira',
-                latitude: '3.53969000',
-                longitude: '-76.22607000'),
-            City(
-                id: 21222,
-                name: 'Pradera',
-                latitude: '3.42793000',
-                longitude: '-76.17159000'),
-            City(
-                id: 21285,
-                name: 'Restrepo',
-                latitude: '3.82203000',
-                longitude: '-76.52242000'),
-            City(
-                id: 21290,
-                name: 'Riofrío',
-                latitude: '4.15710000',
-                longitude: '-76.28852000'),
-            City(
-                id: 21298,
-                name: 'Roldanillo',
-                latitude: '4.41256000',
-                longitude: '-76.15457000'),
-            City(
-                id: 21397,
-                name: 'San Pedro',
-                latitude: '3.99936000',
-                longitude: '-76.26123000'),
-            City(
-                id: 21451,
-                name: 'Sevilla',
-                latitude: '4.19345000',
-                longitude: '-75.88829000'),
-            City(
-                id: 21544,
-                name: 'Toro',
-                latitude: '4.61167000',
-                longitude: '-76.08139000'),
-            City(
-                id: 21549,
-                name: 'Trujillo',
-                latitude: '4.23696000',
-                longitude: '-76.34730000'),
-            City(
-                id: 21551,
-                name: 'Tuluá',
-                latitude: '4.08466000',
-                longitude: '-76.19536000'),
-            City(
-                id: 21567,
-                name: 'Ulloa',
-                latitude: '4.70745000',
-                longitude: '-75.77781000'),
-            City(
-                id: 21591,
-                name: 'Versalles',
-                latitude: '4.66335000',
-                longitude: '-76.24649000'),
-            City(
-                id: 21596,
-                name: 'Vijes',
-                latitude: '3.73283000',
-                longitude: '-76.49363000'),
-            City(
-                id: 21627,
-                name: 'Yotoco',
-                latitude: '3.86048000',
-                longitude: '-76.38364000'),
-            City(
-                id: 21628,
-                name: 'Yumbo',
-                latitude: '3.58234000',
-                longitude: '-76.49146000'),
-            City(
-                id: 21633,
-                name: 'Zarzal',
-                latitude: '4.39462000',
-                longitude: '-76.07150000')
-          ]),
-      State(id: 2885, name: 'Vaupés Department', stateCode: 'VAU', cities: [
+      State(id: 2904, name: 'Valle del Cauca', stateCode: 'VAC', cities: [
+        City(
+            id: 20502,
+            name: 'Alcalá',
+            latitude: '4.67458000',
+            longitude: '-75.77188000'),
+        City(
+            id: 20519,
+            name: 'Andalucía',
+            latitude: '4.14035000',
+            longitude: '-76.14739000'),
+        City(
+            id: 20526,
+            name: 'Ansermanuevo',
+            latitude: '4.79722000',
+            longitude: '-75.99500000'),
+        City(
+            id: 20546,
+            name: 'Argelia',
+            latitude: '4.72904000',
+            longitude: '-76.11637000'),
+        City(
+            id: 20598,
+            name: 'Bolívar',
+            latitude: '4.37710000',
+            longitude: '-76.34870000'),
+        City(
+            id: 20605,
+            name: 'Buenaventura',
+            latitude: '3.88010000',
+            longitude: '-77.03116000'),
+        City(
+            id: 20612,
+            name: 'Bugalagrande',
+            latitude: '4.21207000',
+            longitude: '-76.15564000'),
+        City(
+            id: 20622,
+            name: 'Caicedonia',
+            latitude: '4.33240000',
+            longitude: '-75.82665000'),
+        City(
+            id: 20634,
+            name: 'Cali',
+            latitude: '3.41033000',
+            longitude: '-76.58097000'),
+        City(
+            id: 20636,
+            name: 'Calima',
+            latitude: '3.92511000',
+            longitude: '-76.62654000'),
+        City(
+            id: 20644,
+            name: 'Candelaria',
+            latitude: '3.38367000',
+            longitude: '-76.42466000'),
+        City(
+            id: 20661,
+            name: 'Cartago',
+            latitude: '4.74639000',
+            longitude: '-75.91167000'),
+        City(
+            id: 20774,
+            name: 'Dagua',
+            latitude: '3.65685000',
+            longitude: '-76.68859000'),
+        City(
+            id: 20775,
+            name: 'Darien',
+            latitude: '3.93135000',
+            longitude: '-76.48481000'),
+        City(
+            id: 20835,
+            name: 'El Águila',
+            latitude: '4.91946000',
+            longitude: '-76.05680000'),
+        City(
+            id: 20789,
+            name: 'El Cairo',
+            latitude: '4.74889000',
+            longitude: '-76.24443000'),
+        City(
+            id: 20800,
+            name: 'El Cerrito',
+            latitude: '3.64273000',
+            longitude: '-76.20960000'),
+        City(
+            id: 20806,
+            name: 'El Dovio',
+            latitude: '4.50790000',
+            longitude: '-76.23619000'),
+        City(
+            id: 20851,
+            name: 'Florida',
+            latitude: '3.30940000',
+            longitude: '-76.18989000'),
+        City(
+            id: 20884,
+            name: 'Ginebra',
+            latitude: '3.74296000',
+            longitude: '-76.19412000'),
+        City(
+            id: 20897,
+            name: 'Guacarí',
+            latitude: '3.76383000',
+            longitude: '-76.33292000'),
+        City(
+            id: 20900,
+            name: 'Guadalajara de Buga',
+            latitude: '3.90089000',
+            longitude: '-76.29783000'),
+        City(
+            id: 20958,
+            name: 'Jamundí',
+            latitude: '3.26074000',
+            longitude: '-76.53499000'),
+        City(
+            id: 20979,
+            name: 'La Cumbre',
+            latitude: '3.72250000',
+            longitude: '-76.02083000'),
+        City(
+            id: 21006,
+            name: 'La Unión',
+            latitude: '4.53282000',
+            longitude: '-76.10318000'),
+        City(
+            id: 21013,
+            name: 'La Victoria',
+            latitude: '4.52483000',
+            longitude: '-76.03921000'),
+        City(
+            id: 21144,
+            name: 'Obando',
+            latitude: '4.59590000',
+            longitude: '-75.94879000'),
+        City(
+            id: 21173,
+            name: 'Palmira',
+            latitude: '3.53969000',
+            longitude: '-76.22607000'),
+        City(
+            id: 21222,
+            name: 'Pradera',
+            latitude: '3.42793000',
+            longitude: '-76.17159000'),
+        City(
+            id: 21285,
+            name: 'Restrepo',
+            latitude: '3.82203000',
+            longitude: '-76.52242000'),
+        City(
+            id: 21290,
+            name: 'Riofrío',
+            latitude: '4.15710000',
+            longitude: '-76.28852000'),
+        City(
+            id: 21298,
+            name: 'Roldanillo',
+            latitude: '4.41256000',
+            longitude: '-76.15457000'),
+        City(
+            id: 21397,
+            name: 'San Pedro',
+            latitude: '3.99936000',
+            longitude: '-76.26123000'),
+        City(
+            id: 21451,
+            name: 'Sevilla',
+            latitude: '4.19345000',
+            longitude: '-75.88829000'),
+        City(
+            id: 21544,
+            name: 'Toro',
+            latitude: '4.61167000',
+            longitude: '-76.08139000'),
+        City(
+            id: 21549,
+            name: 'Trujillo',
+            latitude: '4.23696000',
+            longitude: '-76.34730000'),
+        City(
+            id: 21551,
+            name: 'Tuluá',
+            latitude: '4.08466000',
+            longitude: '-76.19536000'),
+        City(
+            id: 21567,
+            name: 'Ulloa',
+            latitude: '4.70745000',
+            longitude: '-75.77781000'),
+        City(
+            id: 21591,
+            name: 'Versalles',
+            latitude: '4.66335000',
+            longitude: '-76.24649000'),
+        City(
+            id: 21596,
+            name: 'Vijes',
+            latitude: '3.73283000',
+            longitude: '-76.49363000'),
+        City(
+            id: 21627,
+            name: 'Yotoco',
+            latitude: '3.86048000',
+            longitude: '-76.38364000'),
+        City(
+            id: 21628,
+            name: 'Yumbo',
+            latitude: '3.58234000',
+            longitude: '-76.49146000'),
+        City(
+            id: 21633,
+            name: 'Zarzal',
+            latitude: '4.39462000',
+            longitude: '-76.07150000')
+      ]),
+      State(id: 2885, name: 'Vaupés', stateCode: 'VAU', cities: [
         City(
             id: 20663,
             name: 'Caruru',
@@ -6059,7 +5893,7 @@ const col = Country(
             latitude: '0.82828000',
             longitude: '-69.62959000')
       ]),
-      State(id: 2894, name: 'Vichada Department', stateCode: 'VID', cities: [
+      State(id: 2894, name: 'Vichada', stateCode: 'VID', cities: [
         City(
             id: 20755,
             name: 'Cumaribo',
@@ -6079,11 +5913,6 @@ const col = Country(
             id: 21428,
             name: 'Santa Rosalia',
             latitude: '5.13356000',
-            longitude: '-70.86233000'),
-        City(
-            id: 21429,
-            name: 'Santa Rosalía',
-            latitude: '5.02169000',
-            longitude: '-70.65985000')
+            longitude: '-70.86233000')
       ])
     ]);

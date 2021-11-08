@@ -224,11 +224,6 @@ const eth = Country(
             latitude: '10.00000000',
             longitude: '34.50000000'),
         City(
-            id: 38728,
-            name: 'Āsosa',
-            latitude: '10.06667000',
-            longitude: '34.53333000'),
-        City(
             id: 38679,
             name: 'Metekel',
             latitude: '10.42673000',

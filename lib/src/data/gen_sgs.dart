@@ -7,7 +7,7 @@ const sgs = Country(
     name: 'South Georgia',
     iso3: 'SGS',
     iso2: 'GS',
-    phoneCode: '',
+    phoneCode: '500',
     capital: 'Grytviken',
     currency: 'GBP',
     currencySymbol: r'£',

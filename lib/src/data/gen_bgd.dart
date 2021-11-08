@@ -42,11 +42,6 @@ const bgd = Country(
             latitude: '22.80000000',
             longitude: '90.50000000'),
         City(
-            id: 8461,
-            name: 'Barisāl',
-            latitude: '22.70497000',
-            longitude: '90.37013000'),
-        City(
             id: 8466,
             name: 'Bhāndāria',
             latitude: '22.48898000',
@@ -115,11 +110,6 @@ const bgd = Country(
           cities: []),
       State(id: 785, name: 'Chittagong District', stateCode: '10', cities: []),
       State(id: 803, name: 'Chittagong Division', stateCode: 'B', cities: [
-        City(
-            id: 8473,
-            name: 'Bāndarban',
-            latitude: '22.19534000',
-            longitude: '92.21946000'),
         City(
             id: 8457,
             name: 'Bandarban',
@@ -190,11 +180,6 @@ const bgd = Country(
             name: 'Lakshmipur',
             latitude: '22.91667000',
             longitude: '90.83333000'),
-        City(
-            id: 8522,
-            name: 'Lakshmīpur',
-            latitude: '22.94430000',
-            longitude: '90.83005000'),
         City(
             id: 8530,
             name: 'Manikchari',
@@ -297,11 +282,6 @@ const bgd = Country(
             latitude: '23.59419000',
             longitude: '89.82147000'),
         City(
-            id: 8491,
-            name: 'Farīdpur',
-            latitude: '23.60612000',
-            longitude: '89.84064000'),
-        City(
             id: 8496,
             name: 'Gazipur',
             latitude: '24.20689000',
@@ -332,11 +312,6 @@ const bgd = Country(
             latitude: '24.43944000',
             longitude: '90.78291000'),
         City(
-            id: 8542,
-            name: 'Mādārīpur',
-            latitude: '23.17097000',
-            longitude: '90.20935000'),
-        City(
             id: 8527,
             name: 'Madaripur',
             latitude: '23.25000000',
@@ -366,11 +341,6 @@ const bgd = Country(
             name: 'Narayanganj',
             latitude: '23.75000000',
             longitude: '90.58333000'),
-        City(
-            id: 8557,
-            name: 'Nārāyanganj',
-            latitude: '23.61352000',
-            longitude: '90.50298000'),
         City(
             id: 8548,
             name: 'Narsingdi',
@@ -431,11 +401,6 @@ const bgd = Country(
             name: 'Tangail',
             latitude: '24.33853000',
             longitude: '89.98667000'),
-        City(
-            id: 8605,
-            name: 'Tāngāil',
-            latitude: '24.24984000',
-            longitude: '89.91655000'),
         City(
             id: 8603,
             name: 'Tungi',
@@ -563,11 +528,6 @@ const bgd = Country(
             latitude: '22.35000000',
             longitude: '89.15000000'),
         City(
-            id: 8598,
-            name: 'Sātkhira',
-            latitude: '22.70817000',
-            longitude: '89.07185000'),
-        City(
             id: 8606,
             name: 'Ujalpur',
             latitude: '23.80562000',
@@ -599,11 +559,6 @@ const bgd = Country(
             name: 'Jamalpur',
             latitude: '25.00000000',
             longitude: '89.83333000'),
-        City(
-            id: 8503,
-            name: 'Jamālpur',
-            latitude: '24.91965000',
-            longitude: '89.94812000'),
         City(
             id: 8539,
             name: 'Muktāgācha',
@@ -700,11 +655,6 @@ const bgd = Country(
             latitude: '24.00633000',
             longitude: '89.33533000'),
         City(
-            id: 8569,
-            name: 'Pābna',
-            latitude: '24.00644000',
-            longitude: '89.23720000'),
-        City(
             id: 8571,
             name: 'Pār Naogaon',
             latitude: '24.80418000',
@@ -719,11 +669,6 @@ const bgd = Country(
             name: 'Rajshahi',
             latitude: '24.36962000',
             longitude: '88.60748000'),
-        City(
-            id: 8580,
-            name: 'Rājshāhi',
-            latitude: '24.37400000',
-            longitude: '88.60114000'),
         City(
             id: 8582,
             name: 'Saidpur',
@@ -767,11 +712,6 @@ const bgd = Country(
             name: 'Dinajpur',
             latitude: '25.61667000',
             longitude: '88.75000000'),
-        City(
-            id: 8488,
-            name: 'Dinājpur',
-            latitude: '25.62745000',
-            longitude: '88.63779000'),
         City(
             id: 8494,
             name: 'Gaibandha',
@@ -826,12 +766,7 @@ const bgd = Country(
             id: 8601,
             name: 'Thakurgaon',
             latitude: '25.96667000',
-            longitude: '88.33333000'),
-        City(
-            id: 8602,
-            name: 'Thākurgaon',
-            latitude: '26.03097000',
-            longitude: '88.46989000')
+            longitude: '88.33333000')
       ]),
       State(id: 750, name: 'Rangpur Division', stateCode: 'F', cities: []),
       State(id: 799, name: 'Satkhira District', stateCode: '58', cities: []),

@@ -4,7 +4,7 @@ import 'package:country_state_city/country_state_city.dart';
 
 const prk = Country(
     id: 115,
-    name: 'Korea North',
+    name: 'North Korea',
     iso3: 'PRK',
     iso2: 'KP',
     phoneCode: '850',

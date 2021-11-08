@@ -885,11 +885,6 @@ const aut = Country(
             latitude: '46.54611000',
             longitude: '13.71000000'),
         City(
-            id: 143784,
-            name: 'Arnoldstein',
-            latitude: '46.55055556',
-            longitude: '13.70388889'),
-        City(
             id: 1681,
             name: 'Arriach',
             latitude: '46.72921000',
@@ -914,11 +909,6 @@ const aut = Country(
             name: 'Bad Kleinkirchheim',
             latitude: '46.81361111',
             longitude: '13.79277778'),
-        City(
-            id: 143788,
-            name: 'Bad Kleinkirchheim',
-            latitude: '46.84279000',
-            longitude: '13.79123000'),
         City(
             id: 1733,
             name: 'Bad Sankt Leonhard im Lavanttal',
@@ -950,20 +940,10 @@ const aut = Country(
             latitude: '46.75167000',
             longitude: '14.53667000'),
         City(
-            id: 143789,
-            name: 'Brückl',
-            latitude: '46.75305556',
-            longitude: '14.53583333'),
-        City(
             id: 1833,
             name: 'Dellach',
             latitude: '46.66175000',
             longitude: '13.07965000'),
-        City(
-            id: 143790,
-            name: 'Dellach',
-            latitude: '46.66138889',
-            longitude: '13.07944444'),
         City(
             id: 1834,
             name: 'Dellach im Drautal',
@@ -1045,11 +1025,6 @@ const aut = Country(
             latitude: '46.51667000',
             longitude: '14.16667000'),
         City(
-            id: 143795,
-            name: 'Feistritz im Rosental',
-            latitude: '46.52250000',
-            longitude: '14.17166667'),
-        City(
             id: 1970,
             name: 'Feistritz ob Bleiburg',
             latitude: '46.55000000',
@@ -1079,11 +1054,6 @@ const aut = Country(
             name: 'Ferndorf',
             latitude: '46.73651000',
             longitude: '13.62661000'),
-        City(
-            id: 143796,
-            name: 'Ferndorf',
-            latitude: '46.73611111',
-            longitude: '13.62638889'),
         City(
             id: 1988,
             name: 'Finkenstein',
@@ -1115,11 +1085,6 @@ const aut = Country(
             latitude: '46.81417000',
             longitude: '14.29417000'),
         City(
-            id: 143798,
-            name: 'Frauenstein',
-            latitude: '46.81361111',
-            longitude: '14.36750000'),
-        City(
             id: 2021,
             name: 'Fresach',
             latitude: '46.71556000',
@@ -1134,11 +1099,6 @@ const aut = Country(
             name: 'Friesach',
             latitude: '46.95528000',
             longitude: '14.40583000'),
-        City(
-            id: 143799,
-            name: 'Friesach',
-            latitude: '46.95250000',
-            longitude: '14.40972222'),
         City(
             id: 2036,
             name: 'Fürnitz',
@@ -1210,11 +1170,6 @@ const aut = Country(
             latitude: '46.61393000',
             longitude: '14.46719000'),
         City(
-            id: 143804,
-            name: 'Grafenstein',
-            latitude: '46.61500000',
-            longitude: '14.46722222'),
-        City(
             id: 2124,
             name: 'Greifenburg',
             latitude: '46.75027000',
@@ -1239,11 +1194,6 @@ const aut = Country(
             name: 'Gurk',
             latitude: '46.87389000',
             longitude: '14.29167000'),
-        City(
-            id: 143805,
-            name: 'Gurk',
-            latitude: '46.87527778',
-            longitude: '14.28888889'),
         City(
             id: 2182,
             name: 'Guttaring',
@@ -1290,11 +1240,6 @@ const aut = Country(
             latitude: '46.94139000',
             longitude: '14.55000000'),
         City(
-            id: 143808,
-            name: 'Hüttenberg',
-            latitude: '46.93972222',
-            longitude: '14.54861111'),
-        City(
             id: 2367,
             name: 'Irschen',
             latitude: '46.75694000',
@@ -1314,11 +1259,6 @@ const aut = Country(
             name: 'Kirchbach',
             latitude: '46.64160000',
             longitude: '13.18454000'),
-        City(
-            id: 143809,
-            name: 'Kirchbach',
-            latitude: '46.64111111',
-            longitude: '13.18333333'),
         City(
             id: 143810,
             name: 'Klagenfurt',
@@ -1410,11 +1350,6 @@ const aut = Country(
             latitude: '46.83528000',
             longitude: '13.43028000'),
         City(
-            id: 143815,
-            name: 'Lendorf',
-            latitude: '46.83333333',
-            longitude: '13.41666667'),
-        City(
             id: 143816,
             name: 'Leppen',
             latitude: '46.48333000',
@@ -1470,11 +1405,6 @@ const aut = Country(
             latitude: '46.55389000',
             longitude: '14.29556000'),
         City(
-            id: 143823,
-            name: 'Maria Rain',
-            latitude: '46.55527778',
-            longitude: '14.29583333'),
-        City(
             id: 2647,
             name: 'Maria Saal',
             latitude: '46.68083000',
@@ -1484,11 +1414,6 @@ const aut = Country(
             name: 'Maria Wörth',
             latitude: '46.61639000',
             longitude: '14.16306000'),
-        City(
-            id: 143824,
-            name: 'Maria Wörth',
-            latitude: '46.61638889',
-            longitude: '14.16138889'),
         City(
             id: 2678,
             name: 'Mautbrücken',
@@ -1505,20 +1430,10 @@ const aut = Country(
             latitude: '46.91667000',
             longitude: '14.41667000'),
         City(
-            id: 143825,
-            name: 'Micheldorf',
-            latitude: '46.91388889',
-            longitude: '14.42777778'),
-        City(
             id: 2702,
             name: 'Millstatt',
             latitude: '46.80417000',
             longitude: '13.58056000'),
-        City(
-            id: 143826,
-            name: 'Millstatt',
-            latitude: '46.80416667',
-            longitude: '13.58055556'),
         City(
             id: 2742,
             name: 'Mölbling',
@@ -1535,11 +1450,6 @@ const aut = Country(
             latitude: '46.65750000',
             longitude: '14.17472000'),
         City(
-            id: 143827,
-            name: 'Moosburg',
-            latitude: '46.65777778',
-            longitude: '14.17361111'),
-        City(
             id: 2749,
             name: 'Mörtschach',
             latitude: '46.92389000',
@@ -1549,11 +1459,6 @@ const aut = Country(
             name: 'Mühldorf',
             latitude: '46.86028000',
             longitude: '13.35361000'),
-        City(
-            id: 143828,
-            name: 'Mühldorf',
-            latitude: '46.85750000',
-            longitude: '13.35194444'),
         City(
             id: 2782,
             name: 'Neu-Feffernitz',
@@ -1695,11 +1600,6 @@ const aut = Country(
             latitude: '46.65833000',
             longitude: '14.77639000'),
         City(
-            id: 143838,
-            name: 'Ruden',
-            latitude: '46.65638889',
-            longitude: '14.76972222'),
-        City(
             id: 3231,
             name: 'Sachsenburg',
             latitude: '46.82917000',
@@ -1805,11 +1705,6 @@ const aut = Country(
             latitude: '46.60444000',
             longitude: '14.09750000'),
         City(
-            id: 143846,
-            name: 'Schiefling am See',
-            latitude: '46.60166667',
-            longitude: '14.09777778'),
-        City(
             id: 3374,
             name: 'Schleben',
             latitude: '46.62039000',
@@ -1824,11 +1719,6 @@ const aut = Country(
             name: 'Seeboden',
             latitude: '46.81909000',
             longitude: '13.51430000'),
-        City(
-            id: 143847,
-            name: 'Seeboden',
-            latitude: '46.81888889',
-            longitude: '13.51833333'),
         City(
             id: 3439,
             name: 'Seitenberg',
@@ -1900,11 +1790,6 @@ const aut = Country(
             latitude: '46.89056000',
             longitude: '13.03694000'),
         City(
-            id: 143855,
-            name: 'Stall',
-            latitude: '46.88694444',
-            longitude: '13.03472222'),
-        City(
             id: 3517,
             name: 'Steindorf am Ossiacher See',
             latitude: '46.69833000',
@@ -1914,11 +1799,6 @@ const aut = Country(
             name: 'Steinfeld',
             latitude: '46.75812000',
             longitude: '13.24934000'),
-        City(
-            id: 143856,
-            name: 'Steinfeld',
-            latitude: '46.75777778',
-            longitude: '13.25000000'),
         City(
             id: 3526,
             name: 'Steuerberg',
@@ -1954,11 +1834,6 @@ const aut = Country(
             name: 'Timenitz',
             latitude: '46.68333000',
             longitude: '14.41667000'),
-        City(
-            id: 143861,
-            name: 'Trebesing',
-            latitude: '46.88305556',
-            longitude: '13.51055556'),
         City(
             id: 3618,
             name: 'Trebesing',
@@ -2014,11 +1889,6 @@ const aut = Country(
             name: 'Villach',
             latitude: '46.61028000',
             longitude: '13.85583000'),
-        City(
-            id: 3687,
-            name: 'Villach',
-            latitude: '46.60900000',
-            longitude: '13.85136000'),
         City(
             id: 3688,
             name: 'Villach-Innere Stadt',
@@ -2085,11 +1955,6 @@ const aut = Country(
             latitude: '46.84861111',
             longitude: '14.19166667'),
         City(
-            id: 143869,
-            name: 'Wernberg',
-            latitude: '46.62305556',
-            longitude: '13.93944444'),
-        City(
             id: 3794,
             name: 'Wernberg',
             latitude: '46.61667000',
@@ -2109,11 +1974,6 @@ const aut = Country(
             name: 'Wolfsberg',
             latitude: '46.84056000',
             longitude: '14.84417000'),
-        City(
-            id: 143870,
-            name: 'Wolfsberg',
-            latitude: '46.84194444',
-            longitude: '14.84083333'),
         City(
             id: 3061,
             name: 'Wolfsberg District',
@@ -6270,11 +6130,6 @@ const aut = Country(
             name: 'Gossendorf',
             latitude: '46.91076000',
             longitude: '15.93043000'),
-        City(
-            id: 2189,
-            name: 'Gössendorf',
-            latitude: '46.99826000',
-            longitude: '15.48556000'),
         City(
             id: 2190,
             name: 'Gösting',

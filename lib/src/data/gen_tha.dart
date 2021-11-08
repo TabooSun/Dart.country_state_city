@@ -710,6 +710,38 @@ const tha = Country(
             latitude: '15.18636000',
             longitude: '100.12353000')
       ]),
+      State(id: 4954, name: 'Chaiyaphum', stateCode: '36', cities: [
+        City(
+            id: 148554,
+            name: 'Bamnet Narong',
+            latitude: '15.50189000',
+            longitude: '101.68982000'),
+        City(
+            id: 148555,
+            name: 'Chaiyaphum',
+            latitude: '15.81047000',
+            longitude: '102.02881000'),
+        City(
+            id: 148556,
+            name: 'Kaeng Khro',
+            latitude: '16.10861111',
+            longitude: '102.25805556'),
+        City(
+            id: 148557,
+            name: 'Kaset Sombun',
+            latitude: '16.28053000',
+            longitude: '101.95422000'),
+        City(
+            id: 148558,
+            name: 'Nakhon Nayok',
+            latitude: '14.20305600',
+            longitude: '101.21500000'),
+        City(
+            id: 148559,
+            name: 'Phu Khiao',
+            latitude: '16.37650000',
+            longitude: '102.12853000')
+      ]),
       State(id: 3486, name: 'Chanthaburi', stateCode: '22', cities: [
         City(
             id: 105364,
@@ -1996,7 +2028,7 @@ const tha = Country(
             latitude: '17.30097000',
             longitude: '101.76850000')
       ]),
-      State(id: 3543, name: 'Lopburi', stateCode: '16', cities: [
+      State(id: 3543, name: 'Lop Buri', stateCode: '16', cities: [
         City(
             id: 105203,
             name: 'Amphoe Ban Mi',
@@ -3376,7 +3408,7 @@ const tha = Country(
             longitude: '101.36894000')
       ]),
       State(id: 3507, name: 'Pattaya', stateCode: 'S', cities: []),
-      State(id: 3549, name: 'Phang Nga', stateCode: '82', cities: [
+      State(id: 3549, name: 'Phangnga', stateCode: '82', cities: [
         City(
             id: 105378,
             name: 'Amphoe Kapong',
@@ -5344,7 +5376,7 @@ const tha = Country(
             latitude: '17.00778000',
             longitude: '99.82300000')
       ]),
-      State(id: 3524, name: 'Suphanburi', stateCode: '72', cities: [
+      State(id: 3524, name: 'Suphan Buri', stateCode: '72', cities: [
         City(
             id: 105239,
             name: 'Amphoe Bang Pla Ma',

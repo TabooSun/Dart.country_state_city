@@ -26,7 +26,7 @@ const tza = Country(
     emoji: '🇹🇿',
     emojiU: 'U+1F1F9 U+1F1FF',
     states: [
-      State(id: 1491, name: 'Arusha Region', stateCode: '01', cities: [
+      State(id: 1491, name: 'Arusha', stateCode: '01', cities: [
         City(
             id: 109042,
             name: 'Arusha',
@@ -98,7 +98,7 @@ const tza = Country(
             latitude: '-3.36667000',
             longitude: '36.85000000')
       ]),
-      State(id: 1490, name: 'Dar es Salaam Region', stateCode: '02', cities: [
+      State(id: 1490, name: 'Dar es Salaam', stateCode: '02', cities: [
         City(
             id: 109063,
             name: 'Dar es Salaam',
@@ -110,7 +110,7 @@ const tza = Country(
             latitude: '-6.80000000',
             longitude: '39.25000000')
       ]),
-      State(id: 1466, name: 'Dodoma Region', stateCode: '03', cities: [
+      State(id: 1466, name: 'Dodoma', stateCode: '03', cities: [
         City(
             id: 109065,
             name: 'Dodoma',
@@ -147,7 +147,7 @@ const tza = Country(
             latitude: '-6.05000000',
             longitude: '36.03333000')
       ]),
-      State(id: 1481, name: 'Geita Region', stateCode: '27', cities: [
+      State(id: 1481, name: 'Geita', stateCode: '27', cities: [
         City(
             id: 109055,
             name: 'Buseresere',
@@ -189,7 +189,7 @@ const tza = Country(
             latitude: '-3.28333000',
             longitude: '31.52583000')
       ]),
-      State(id: 1489, name: 'Iringa Region', stateCode: '04', cities: [
+      State(id: 1489, name: 'Iringa', stateCode: '04', cities: [
         City(
             id: 109081,
             name: 'Ilula',
@@ -221,7 +221,7 @@ const tza = Country(
             latitude: '-8.56667000',
             longitude: '34.85000000')
       ]),
-      State(id: 1465, name: 'Kagera Region', stateCode: '05', cities: [
+      State(id: 1465, name: 'Kagera', stateCode: '05', cities: [
         City(
             id: 109048,
             name: 'Biharamulo',
@@ -293,7 +293,7 @@ const tza = Country(
             latitude: '-2.71750000',
             longitude: '30.63250000')
       ]),
-      State(id: 1482, name: 'Katavi Region', stateCode: '28', cities: [
+      State(id: 1482, name: 'Katavi', stateCode: '28', cities: [
         City(
             id: 109082,
             name: 'Inyonga',
@@ -315,7 +315,7 @@ const tza = Country(
             latitude: '-7.10000000',
             longitude: '31.23333000')
       ]),
-      State(id: 1478, name: 'Kigoma Region', stateCode: '08', cities: [
+      State(id: 1478, name: 'Kigoma', stateCode: '08', cities: [
         City(
             id: 109090,
             name: 'Kakonko',
@@ -357,7 +357,7 @@ const tza = Country(
             latitude: '-5.10361000',
             longitude: '30.39111000')
       ]),
-      State(id: 1467, name: 'Kilimanjaro Region', stateCode: '09', cities: [
+      State(id: 1467, name: 'Kilimanjaro', stateCode: '09', cities: [
         City(
             id: 109072,
             name: 'Hedaru',
@@ -409,7 +409,7 @@ const tza = Country(
             latitude: '-4.22199000',
             longitude: '37.88278000')
       ]),
-      State(id: 1483, name: 'Lindi Region', stateCode: '12', cities: [
+      State(id: 1483, name: 'Lindi', stateCode: '12', cities: [
         City(
             id: 109142,
             name: 'Lindi',
@@ -446,7 +446,7 @@ const tza = Country(
             latitude: '-10.06667000',
             longitude: '38.93333000')
       ]),
-      State(id: 1484, name: 'Manyara Region', stateCode: '26', cities: [
+      State(id: 1484, name: 'Manyara', stateCode: '26', cities: [
         City(
             id: 109043,
             name: 'Babati',
@@ -518,7 +518,7 @@ const tza = Country(
             latitude: '-4.46667000',
             longitude: '35.45000000')
       ]),
-      State(id: 1468, name: 'Mara Region', stateCode: '13', cities: [
+      State(id: 1468, name: 'Mara', stateCode: '13', cities: [
         City(
             id: 109053,
             name: 'Bukonyo',
@@ -580,7 +580,189 @@ const tza = Country(
             latitude: '-1.25367000',
             longitude: '34.47596000')
       ]),
-      State(id: 1470, name: 'Morogoro Region', stateCode: '16', cities: [
+      State(id: 4955, name: 'Mbeya', stateCode: '14', cities: [
+        City(
+            id: 149030,
+            name: 'Chimala',
+            latitude: '-8.85637000',
+            longitude: '34.02393000'),
+        City(
+            id: 149031,
+            name: 'Hedaru',
+            latitude: '-4.50000000',
+            longitude: '37.90000000'),
+        City(
+            id: 149032,
+            name: 'Ibaba',
+            latitude: '-9.40000000',
+            longitude: '33.35000000'),
+        City(
+            id: 149033,
+            name: 'Ikama',
+            latitude: '-9.26666667',
+            longitude: '33.83333333'),
+        City(
+            id: 149034,
+            name: 'Ikinga',
+            latitude: '-9.50000000',
+            longitude: '33.55000000'),
+        City(
+            id: 149035,
+            name: 'Ikolo',
+            latitude: '-9.65000000',
+            longitude: '33.90000000'),
+        City(
+            id: 149036,
+            name: 'Ikuti',
+            latitude: '-9.31666667',
+            longitude: '33.53333333'),
+        City(
+            id: 149037,
+            name: 'Ilembo',
+            latitude: '-9.25000000',
+            longitude: '33.38333333'),
+        City(
+            id: 149038,
+            name: 'Ipinda',
+            latitude: '-9.48333333',
+            longitude: '33.90000000'),
+        City(
+            id: 149039,
+            name: 'Kabula',
+            latitude: '-9.26666667',
+            longitude: '33.76666667'),
+        City(
+            id: 149040,
+            name: 'Kahe, Tanzania',
+            latitude: '-3.50000000',
+            longitude: '37.43300000'),
+        City(
+            id: 149041,
+            name: 'Kandete',
+            latitude: '-9.15000000',
+            longitude: '33.80000000'),
+        City(
+            id: 149042,
+            name: 'Katumba',
+            latitude: '-9.23333333',
+            longitude: '33.61666667'),
+        City(
+            id: 149043,
+            name: 'Kihurio',
+            latitude: '-4.46666667',
+            longitude: '38.06666667'),
+        City(
+            id: 149044,
+            name: 'Kisiwani',
+            latitude: '-4.13333000',
+            longitude: '37.95000000'),
+        City(
+            id: 149045,
+            name: 'Kiwira',
+            latitude: '-9.16666667',
+            longitude: '33.53333333'),
+        City(
+            id: 149046,
+            name: 'Kwakoa',
+            latitude: '-3.76666667',
+            longitude: '37.71666667'),
+        City(
+            id: 149047,
+            name: 'Lembeni',
+            latitude: '-3.78333333',
+            longitude: '37.61666667'),
+        City(
+            id: 149048,
+            name: 'Lupata',
+            latitude: '-9.30000000',
+            longitude: '33.85000000'),
+        City(
+            id: 149049,
+            name: 'Lusungo',
+            latitude: '-9.50000000',
+            longitude: '33.98333333'),
+        City(
+            id: 149050,
+            name: 'Machame',
+            latitude: '-3.20611111',
+            longitude: '37.22638889'),
+        City(
+            id: 149051,
+            name: 'Makanya',
+            latitude: '-4.36666667',
+            longitude: '37.83333333'),
+        City(
+            id: 149052,
+            name: 'Marangu',
+            latitude: '-3.28333000',
+            longitude: '37.51667000'),
+        City(
+            id: 149053,
+            name: 'Masukulu',
+            latitude: '-9.40000000',
+            longitude: '33.75000000'),
+        City(
+            id: 149054,
+            name: 'Mbeya',
+            latitude: '-8.90000000',
+            longitude: '33.45000000'),
+        City(
+            id: 149055,
+            name: 'Mlowo',
+            latitude: '-9.00000000',
+            longitude: '32.98333333'),
+        City(
+            id: 149056,
+            name: 'Moshi',
+            latitude: '-3.33488333',
+            longitude: '37.34038056'),
+        City(
+            id: 149057,
+            name: 'Mpuguso',
+            latitude: '-9.31666667',
+            longitude: '33.65000000'),
+        City(
+            id: 149058,
+            name: 'Mwansanga',
+            latitude: '-8.76666667',
+            longitude: '33.53333333'),
+        City(
+            id: 149059,
+            name: 'Mwaya',
+            latitude: '-9.55000000',
+            longitude: '33.95000000'),
+        City(
+            id: 149060,
+            name: 'Mwembe',
+            latitude: '-4.15000000',
+            longitude: '37.85000000'),
+        City(
+            id: 149061,
+            name: 'Same',
+            latitude: '-4.06666667',
+            longitude: '37.78333333'),
+        City(
+            id: 149062,
+            name: 'Tukuyu',
+            latitude: '-9.25833333',
+            longitude: '33.64166667'),
+        City(
+            id: 149063,
+            name: 'Tunduma',
+            latitude: '-9.30000000',
+            longitude: '32.76670000'),
+        City(
+            id: 149064,
+            name: 'Ugweno',
+            latitude: '-3.65000000',
+            longitude: '37.65000000'),
+        City(
+            id: 149065,
+            name: 'Ulanga',
+            latitude: '-8.34361000',
+            longitude: '34.28970000')
+      ]),
+      State(id: 1470, name: 'Morogoro', stateCode: '16', cities: [
         City(
             id: 109070,
             name: 'Geiro',
@@ -672,7 +854,7 @@ const tza = Country(
             latitude: '-6.75000000',
             longitude: '38.11667000')
       ]),
-      State(id: 1476, name: 'Mtwara Region', stateCode: '17', cities: [
+      State(id: 1476, name: 'Mtwara', stateCode: '17', cities: [
         City(
             id: 109062,
             name: 'Chiungutwa',
@@ -769,7 +951,7 @@ const tza = Country(
             latitude: '-10.75000000',
             longitude: '39.63333000')
       ]),
-      State(id: 1479, name: 'Mwanza Region', stateCode: '18', cities: [
+      State(id: 1479, name: 'Mwanza', stateCode: '18', cities: [
         City(
             id: 109079,
             name: 'Ilemela District',
@@ -816,7 +998,7 @@ const tza = Country(
             latitude: '-2.68333000',
             longitude: '33.00000000')
       ]),
-      State(id: 1480, name: 'Njombe Region', stateCode: '29', cities: [
+      State(id: 1480, name: 'Njombe', stateCode: '29', cities: [
         City(
             id: 109078,
             name: 'Ilembula',
@@ -853,7 +1035,7 @@ const tza = Country(
             latitude: '-9.34917000',
             longitude: '34.77167000')
       ]),
-      State(id: 1488, name: 'North Pemba Region', stateCode: '06', cities: [
+      State(id: 1488, name: 'Pemba North', stateCode: '06', cities: [
         City(
             id: 109134,
             name: 'Konde',
@@ -870,7 +1052,24 @@ const tza = Country(
             latitude: '-5.05589000',
             longitude: '39.72938000')
       ]),
-      State(id: 1485, name: 'Pwani Region', stateCode: '19', cities: [
+      State(id: 1472, name: 'Pemba South', stateCode: '10', cities: [
+        City(
+            id: 109057,
+            name: 'Chake Chake',
+            latitude: '-5.24586000',
+            longitude: '39.76659000'),
+        City(
+            id: 109215,
+            name: 'Mtambile',
+            latitude: '-5.38333000',
+            longitude: '39.70000000'),
+        City(
+            id: 109300,
+            name: 'Uwelini',
+            latitude: '-5.40000000',
+            longitude: '39.68333000')
+      ]),
+      State(id: 1485, name: 'Pwani', stateCode: '19', cities: [
         City(
             id: 109044,
             name: 'Bagamoyo',
@@ -952,7 +1151,7 @@ const tza = Country(
             latitude: '-7.00667000',
             longitude: '39.29849000')
       ]),
-      State(id: 1477, name: 'Rukwa Region', stateCode: '20', cities: [
+      State(id: 1477, name: 'Rukwa', stateCode: '20', cities: [
         City(
             id: 109058,
             name: 'Chala',
@@ -989,7 +1188,7 @@ const tza = Country(
             latitude: '-7.96667000',
             longitude: '31.61667000')
       ]),
-      State(id: 1486, name: 'Ruvuma Region', stateCode: '21', cities: [
+      State(id: 1486, name: 'Ruvuma', stateCode: '21', cities: [
         City(
             id: 109109,
             name: 'Kigonsera',
@@ -1036,7 +1235,7 @@ const tza = Country(
             latitude: '-11.30000000',
             longitude: '35.03333000')
       ]),
-      State(id: 1463, name: 'Shinyanga Region', stateCode: '22', cities: [
+      State(id: 1463, name: 'Shinyanga', stateCode: '22', cities: [
         City(
             id: 109084,
             name: 'Isaka',
@@ -1083,7 +1282,7 @@ const tza = Country(
             latitude: '-3.88333000',
             longitude: '33.20000000')
       ]),
-      State(id: 1464, name: 'Simiyu Region', stateCode: '30', cities: [
+      State(id: 1464, name: 'Simiyu', stateCode: '30', cities: [
         City(
             id: 109045,
             name: 'Bariadi',
@@ -1130,7 +1329,7 @@ const tza = Country(
             latitude: '-3.36667000',
             longitude: '33.95000000')
       ]),
-      State(id: 1474, name: 'Singida Region', stateCode: '23', cities: [
+      State(id: 1474, name: 'Singida', stateCode: '23', cities: [
         City(
             id: 109074,
             name: 'Igugunu',
@@ -1207,24 +1406,8 @@ const tza = Country(
             latitude: '-4.81629000',
             longitude: '34.74358000')
       ]),
-      State(id: 1472, name: 'South Pemba Region', stateCode: '10', cities: [
-        City(
-            id: 109057,
-            name: 'Chake Chake',
-            latitude: '-5.24586000',
-            longitude: '39.76659000'),
-        City(
-            id: 109215,
-            name: 'Mtambile',
-            latitude: '-5.38333000',
-            longitude: '39.70000000'),
-        City(
-            id: 109300,
-            name: 'Uwelini',
-            latitude: '-5.40000000',
-            longitude: '39.68333000')
-      ]),
-      State(id: 1469, name: 'Tabora Region', stateCode: '24', cities: [
+      State(id: 4956, name: 'Songwe', stateCode: '31', cities: []),
+      State(id: 1469, name: 'Tabora', stateCode: '24', cities: [
         City(
             id: 109051,
             name: 'Bukene',
@@ -1266,7 +1449,7 @@ const tza = Country(
             latitude: '-5.16667000',
             longitude: '32.35000000')
       ]),
-      State(id: 1487, name: 'Tanga Region', stateCode: '25', cities: [
+      State(id: 1487, name: 'Tanga', stateCode: '25', cities: [
         City(
             id: 109060,
             name: 'Chanika',
@@ -1338,38 +1521,7 @@ const tza = Country(
             latitude: '-5.06893000',
             longitude: '39.09875000')
       ]),
-      State(
-          id: 1471,
-          name: 'Zanzibar Central/South Region',
-          stateCode: '11',
-          cities: [
-            City(
-                id: 109132,
-                name: 'Koani',
-                latitude: '-6.13333000',
-                longitude: '39.28333000'),
-            City(
-                id: 109133,
-                name: 'Koani Ndogo',
-                latitude: '-6.13333000',
-                longitude: '39.28333000'),
-            City(
-                id: 109161,
-                name: 'Mahonda',
-                latitude: '-6.45000000',
-                longitude: '39.46667000'),
-            City(
-                id: 109250,
-                name: 'Nganane',
-                latitude: '-6.40000000',
-                longitude: '39.55000000'),
-            City(
-                id: 109281,
-                name: 'Sokoni',
-                latitude: '-6.43333000',
-                longitude: '39.55000000')
-          ]),
-      State(id: 1473, name: 'Zanzibar North Region', stateCode: '07', cities: [
+      State(id: 1473, name: 'Zanzibar North', stateCode: '07', cities: [
         City(
             id: 109069,
             name: 'Gamba',
@@ -1396,15 +1548,38 @@ const tza = Country(
             latitude: '-5.72651000',
             longitude: '39.29870000')
       ]),
-      State(
-          id: 1475,
-          name: 'Zanzibar Urban/West Region',
-          stateCode: '15',
-          cities: [
-            City(
-                id: 109304,
-                name: 'Zanzibar',
-                latitude: '-6.16394000',
-                longitude: '39.19793000')
-          ])
+      State(id: 1471, name: 'Zanzibar South', stateCode: '11', cities: [
+        City(
+            id: 109132,
+            name: 'Koani',
+            latitude: '-6.13333000',
+            longitude: '39.28333000'),
+        City(
+            id: 109133,
+            name: 'Koani Ndogo',
+            latitude: '-6.13333000',
+            longitude: '39.28333000'),
+        City(
+            id: 109161,
+            name: 'Mahonda',
+            latitude: '-6.45000000',
+            longitude: '39.46667000'),
+        City(
+            id: 109250,
+            name: 'Nganane',
+            latitude: '-6.40000000',
+            longitude: '39.55000000'),
+        City(
+            id: 109281,
+            name: 'Sokoni',
+            latitude: '-6.43333000',
+            longitude: '39.55000000')
+      ]),
+      State(id: 1475, name: 'Zanzibar West', stateCode: '15', cities: [
+        City(
+            id: 109304,
+            name: 'Zanzibar',
+            latitude: '-6.16394000',
+            longitude: '39.19793000')
+      ])
     ]);

@@ -4,7 +4,7 @@ import 'package:country_state_city/country_state_city.dart';
 
 const nld = Country(
     id: 156,
-    name: 'Netherlands The',
+    name: 'Netherlands',
     iso3: 'NLD',
     iso2: 'NL',
     phoneCode: '31',

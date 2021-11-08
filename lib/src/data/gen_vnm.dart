@@ -420,6 +420,28 @@ const vnm = Country(
             latitude: '9.35790000',
             longitude: '105.16023000')
       ]),
+      State(id: 4925, name: 'Cần Thơ', stateCode: 'CT', cities: [
+        City(
+            id: 148322,
+            name: 'Cần Thơ',
+            latitude: '10.11667000',
+            longitude: '105.50000000'),
+        City(
+            id: 148323,
+            name: 'Cờ Đỏ',
+            latitude: '10.09472222',
+            longitude: '105.43194444'),
+        City(
+            id: 148324,
+            name: 'Thới Lai',
+            latitude: '10.06305556',
+            longitude: '105.56083333'),
+        City(
+            id: 148325,
+            name: 'Vĩnh Thạnh',
+            latitude: '10.21916667',
+            longitude: '105.40111111')
+      ]),
       State(id: 3782, name: 'Cao Bằng', stateCode: '04', cities: [
         City(
             id: 130183,
@@ -477,7 +499,7 @@ const vnm = Country(
             latitude: '22.83333000',
             longitude: '106.56074000')
       ]),
-      State(id: 3806, name: 'Da Nang', stateCode: 'DN', cities: [
+      State(id: 3806, name: 'Đà Nẵng', stateCode: 'DN', cities: [
         City(
             id: 130195,
             name: 'Da Nang',
@@ -775,12 +797,37 @@ const vnm = Country(
             latitude: '20.54531000',
             longitude: '105.91221000')
       ]),
-      State(id: 3820, name: 'Hà Tây', stateCode: '15', cities: [
+      State(id: 3810, name: 'Hà Nội', stateCode: 'HN', cities: [
         City(
-            id: 130580,
-            name: 'Phù Ninh',
-            latitude: '21.08333000',
-            longitude: '105.95000000')
+            id: 130558,
+            name: 'Hà Đông',
+            latitude: '20.97136000',
+            longitude: '105.77876000'),
+        City(
+            id: 130201,
+            name: 'Hanoi',
+            latitude: '21.02450000',
+            longitude: '105.84117000'),
+        City(
+            id: 130412,
+            name: 'Huyện Quốc Oai',
+            latitude: '20.97060000',
+            longitude: '105.61127000'),
+        City(
+            id: 130586,
+            name: 'Quận Ba Đình',
+            latitude: '21.03587000',
+            longitude: '105.82163000'),
+        City(
+            id: 130587,
+            name: 'Quận Hà Đông',
+            latitude: '20.95482000',
+            longitude: '105.76851000'),
+        City(
+            id: 130595,
+            name: 'Sơn Tây',
+            latitude: '21.14053000',
+            longitude: '105.50686000')
       ]),
       State(id: 3816, name: 'Hà Tĩnh', stateCode: '23', cities: [
         City(
@@ -861,7 +908,7 @@ const vnm = Country(
             latitude: '21.13722000',
             longitude: '106.39638000')
       ]),
-      State(id: 3783, name: 'Haiphong', stateCode: 'HP', cities: [
+      State(id: 3783, name: 'Hải Phòng', stateCode: 'HP', cities: [
         City(
             id: 130188,
             name: 'Cát Bà',
@@ -872,38 +919,6 @@ const vnm = Country(
             name: 'Haiphong',
             latitude: '20.86481000',
             longitude: '106.68345000')
-      ]),
-      State(id: 3810, name: 'Hanoi', stateCode: 'HN', cities: [
-        City(
-            id: 130558,
-            name: 'Hà Đông',
-            latitude: '20.97136000',
-            longitude: '105.77876000'),
-        City(
-            id: 130201,
-            name: 'Hanoi',
-            latitude: '21.02450000',
-            longitude: '105.84117000'),
-        City(
-            id: 130412,
-            name: 'Huyện Quốc Oai',
-            latitude: '20.97060000',
-            longitude: '105.61127000'),
-        City(
-            id: 130586,
-            name: 'Quận Ba Đình',
-            latitude: '21.03587000',
-            longitude: '105.82163000'),
-        City(
-            id: 130587,
-            name: 'Quận Hà Đông',
-            latitude: '20.95482000',
-            longitude: '105.76851000'),
-        City(
-            id: 130595,
-            name: 'Sơn Tây',
-            latitude: '21.14053000',
-            longitude: '105.50686000')
       ]),
       State(id: 3777, name: 'Hậu Giang', stateCode: '73', cities: [
         City(
@@ -917,7 +932,7 @@ const vnm = Country(
             latitude: '9.78449000',
             longitude: '105.47012000')
       ]),
-      State(id: 3811, name: 'Ho Chi Minh City', stateCode: 'SG', cities: [
+      State(id: 3811, name: 'Hồ Chí Minh', stateCode: 'SG', cities: [
         City(
             id: 130191,
             name: 'Cần Giờ',

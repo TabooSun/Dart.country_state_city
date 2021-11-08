@@ -110,11 +110,6 @@ const npl = Country(
             latitude: '27.58466000',
             longitude: '85.52122000'),
         City(
-            id: 79747,
-            name: 'Panauti̇̄',
-            latitude: '27.58453000',
-            longitude: '85.51484000'),
-        City(
             id: 79749,
             name: 'Pātan',
             latitude: '27.67658000',

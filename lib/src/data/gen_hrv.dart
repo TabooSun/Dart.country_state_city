@@ -4,7 +4,7 @@ import 'package:country_state_city/country_state_city.dart';
 
 const hrv = Country(
     id: 55,
-    name: 'Croatia (Hrvatska)',
+    name: 'Croatia',
     iso3: 'HRV',
     iso2: 'HR',
     phoneCode: '385',

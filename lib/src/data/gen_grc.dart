@@ -3560,11 +3560,6 @@ const grc = Country(
             latitude: '39.56785000',
             longitude: '19.88362000'),
         City(
-            id: 52841,
-            name: 'Lefkáda',
-            latitude: '38.83036000',
-            longitude: '20.70442000'),
-        City(
             id: 52840,
             name: 'Lefkada',
             latitude: '38.75000000',

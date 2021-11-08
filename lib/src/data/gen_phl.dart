@@ -43,11 +43,6 @@ const phl = Country(
             latitude: '16.32196111',
             longitude: '120.36467500'),
         City(
-            id: 145789,
-            name: 'Agoo',
-            latitude: '16.08333333',
-            longitude: '120.10000000'),
-        City(
             id: 145790,
             name: 'Aguilar',
             latitude: '15.88988611',
@@ -228,11 +223,6 @@ const phl = Country(
             latitude: '17.98333333',
             longitude: '120.65000000'),
         City(
-            id: 145826,
-            name: 'Banna',
-            latitude: '17.98333000',
-            longitude: '120.65000000'),
-        City(
             id: 145827,
             name: 'Banog Sur',
             latitude: '16.16555556',
@@ -378,11 +368,6 @@ const phl = Country(
             latitude: '16.16083333',
             longitude: '119.99888889'),
         City(
-            id: 145856,
-            name: 'Bued',
-            latitude: '15.83666667',
-            longitude: '120.65000000'),
-        City(
             id: 145857,
             name: 'Buenlag',
             latitude: '15.82972222',
@@ -402,21 +387,6 @@ const phl = Country(
             name: 'Burgos',
             latitude: '16.04647200',
             longitude: '119.85677800'),
-        City(
-            id: 145861,
-            name: 'Burgos',
-            latitude: '17.33333333',
-            longitude: '120.50000000'),
-        City(
-            id: 145862,
-            name: 'Burgos',
-            latitude: '16.51861000',
-            longitude: '120.46278000'),
-        City(
-            id: 145863,
-            name: 'Burgos',
-            latitude: '18.51666667',
-            longitude: '120.65000000'),
         City(
             id: 145864,
             name: 'Butubut Norte',
@@ -742,11 +712,6 @@ const phl = Country(
             name: 'Gregorio del Pilar',
             latitude: '17.13333333',
             longitude: '120.61666667'),
-        City(
-            id: 145929,
-            name: 'Gregorio del Pilar',
-            latitude: '17.15000000',
-            longitude: '120.61667000'),
         City(
             id: 145930,
             name: 'Guiling',
@@ -1293,11 +1258,6 @@ const phl = Country(
             latitude: '17.15000000',
             longitude: '120.66666667'),
         City(
-            id: 146039,
-            name: 'Quirino',
-            latitude: '17.13333000',
-            longitude: '120.70000000'),
-        City(
             id: 146040,
             name: 'Ranao',
             latitude: '16.20750000',
@@ -1347,11 +1307,6 @@ const phl = Country(
             name: 'Salcedo',
             latitude: '17.15000000',
             longitude: '120.53333333'),
-        City(
-            id: 146050,
-            name: 'Salcedo',
-            latitude: '17.13314000',
-            longitude: '120.54783000'),
         City(
             id: 146051,
             name: 'Samon',
@@ -1418,16 +1373,6 @@ const phl = Country(
             latitude: '16.66861000',
             longitude: '120.34139000'),
         City(
-            id: 146064,
-            name: 'San Juan',
-            latitude: '17.74222000',
-            longitude: '120.45833000'),
-        City(
-            id: 146065,
-            name: 'San Juan',
-            latitude: '17.73401000',
-            longitude: '120.47247000'),
-        City(
             id: 146066,
             name: 'San Lorenzo',
             latitude: '18.13222222',
@@ -1442,11 +1387,6 @@ const phl = Country(
             name: 'San Nicolas',
             latitude: '18.17250000',
             longitude: '120.59583300'),
-        City(
-            id: 146069,
-            name: 'San Nicolas',
-            latitude: '16.07000000',
-            longitude: '120.76527800'),
         City(
             id: 146070,
             name: 'San Pedro Apartado',
@@ -1503,16 +1443,6 @@ const phl = Country(
             latitude: '15.98083300',
             longitude: '120.70027800'),
         City(
-            id: 146081,
-            name: 'Santa Maria',
-            latitude: '17.36666667',
-            longitude: '120.48333333'),
-        City(
-            id: 146082,
-            name: 'Santa Maria',
-            latitude: '16.95166667',
-            longitude: '120.44444444'),
-        City(
             id: 146083,
             name: 'Santiago',
             latitude: '17.30000000',
@@ -1527,11 +1457,6 @@ const phl = Country(
             name: 'Santo Tomas',
             latitude: '16.27980000',
             longitude: '120.37920000'),
-        City(
-            id: 146086,
-            name: 'Santo Tomas',
-            latitude: '15.88251000',
-            longitude: '120.58241000'),
         City(
             id: 146087,
             name: 'Santol',
@@ -1617,11 +1542,6 @@ const phl = Country(
             name: 'Tagudin',
             latitude: '16.93333333',
             longitude: '120.45000000'),
-        City(
-            id: 146104,
-            name: 'Tagudin',
-            latitude: '16.08055556',
-            longitude: '119.95388889'),
         City(
             id: 146105,
             name: 'Talospatang',
@@ -1900,11 +1820,6 @@ const phl = Country(
             latitude: '17.72277778',
             longitude: '121.44694444'),
         City(
-            id: 145125,
-            name: 'Bagumbayan',
-            latitude: '18.19388889',
-            longitude: '121.66305556'),
-        City(
             id: 145126,
             name: 'Ballesteros',
             latitude: '18.40000000',
@@ -2014,11 +1929,6 @@ const phl = Country(
             name: 'Burgos',
             latitude: '17.06666667',
             longitude: '121.70000000'),
-        City(
-            id: 145148,
-            name: 'Burgos',
-            latitude: '16.82472222',
-            longitude: '121.73305556'),
         City(
             id: 145149,
             name: 'Busilak',
@@ -2220,11 +2130,6 @@ const phl = Country(
             latitude: '16.28333333',
             longitude: '121.10000000'),
         City(
-            id: 145189,
-            name: 'Dupax del Sur',
-            latitude: '16.13333000',
-            longitude: '121.18333000'),
-        City(
             id: 145190,
             name: 'Echague (town)',
             latitude: '16.70500000',
@@ -2310,11 +2215,6 @@ const phl = Country(
             latitude: '17.13333333',
             longitude: '121.88333333'),
         City(
-            id: 145207,
-            name: 'Ilagan',
-            latitude: '17.16667000',
-            longitude: '122.06667000'),
-        City(
             id: 145208,
             name: 'Ineangan',
             latitude: '16.31805556',
@@ -2354,11 +2254,6 @@ const phl = Country(
             name: 'Lal-lo',
             latitude: '18.20000000',
             longitude: '121.66666667'),
-        City(
-            id: 145216,
-            name: 'Lal-lo',
-            latitude: '18.15394000',
-            longitude: '121.85536000'),
         City(
             id: 145217,
             name: 'Lallayug',
@@ -2450,11 +2345,6 @@ const phl = Country(
             latitude: '16.30444444',
             longitude: '121.10611111'),
         City(
-            id: 145235,
-            name: 'Malasin',
-            latitude: '16.80444444',
-            longitude: '121.78416667'),
-        City(
             id: 145236,
             name: 'Mallig',
             latitude: '17.20000000',
@@ -2499,11 +2389,6 @@ const phl = Country(
             name: 'Minanga Norte',
             latitude: '17.45222222',
             longitude: '121.78527778'),
-        City(
-            id: 145245,
-            name: 'Minanga Norte',
-            latitude: '17.76027778',
-            longitude: '121.72944444'),
         City(
             id: 145246,
             name: 'Minante Segundo',
@@ -2570,11 +2455,6 @@ const phl = Country(
             latitude: '18.32361111',
             longitude: '121.73861111'),
         City(
-            id: 145259,
-            name: 'Paddaya',
-            latitude: '18.31277778',
-            longitude: '121.76777778'),
-        City(
             id: 145260,
             name: 'Palagao Norte',
             latitude: '18.04416667',
@@ -2625,11 +2505,6 @@ const phl = Country(
             latitude: '17.31666667',
             longitude: '121.61666667'),
         City(
-            id: 145270,
-            name: 'Quezon',
-            latitude: '16.50000000',
-            longitude: '121.26666667'),
-        City(
             id: 145271,
             name: 'Quibal',
             latitude: '17.71583333',
@@ -2664,11 +2539,6 @@ const phl = Country(
             name: 'Rizal',
             latitude: '17.85000000',
             longitude: '121.35000000'),
-        City(
-            id: 145278,
-            name: 'Rizal',
-            latitude: '16.71861000',
-            longitude: '121.55528000'),
         City(
             id: 145279,
             name: 'Roxas',
@@ -2705,11 +2575,6 @@ const phl = Country(
             latitude: '16.35027778',
             longitude: '121.10916667'),
         City(
-            id: 145286,
-            name: 'San Antonio',
-            latitude: '17.27333333',
-            longitude: '121.79111111'),
-        City(
             id: 145287,
             name: 'San Bernardo',
             latitude: '17.40472222',
@@ -2730,20 +2595,10 @@ const phl = Country(
             latitude: '16.73333000',
             longitude: '121.61667000'),
         City(
-            id: 145291,
-            name: 'San Isidro',
-            latitude: '16.86666667',
-            longitude: '121.76666667'),
-        City(
             id: 145292,
             name: 'San Jose',
             latitude: '17.15000000',
             longitude: '121.60000000'),
-        City(
-            id: 145293,
-            name: 'San Jose',
-            latitude: '17.89277778',
-            longitude: '121.87111111'),
         City(
             id: 145294,
             name: 'San Luis',
@@ -2764,11 +2619,6 @@ const phl = Country(
             name: 'San Mateo',
             latitude: '16.88333333',
             longitude: '121.58333333'),
-        City(
-            id: 145298,
-            name: 'San Mateo',
-            latitude: '17.13750000',
-            longitude: '121.74527778'),
         City(
             id: 145299,
             name: 'San Pablo',
@@ -2815,11 +2665,6 @@ const phl = Country(
             latitude: '17.46666667',
             longitude: '121.75000000'),
         City(
-            id: 145308,
-            name: 'Santa Maria',
-            latitude: '18.14138889',
-            longitude: '121.66472222'),
-        City(
             id: 145309,
             name: 'Santa Praxedes',
             latitude: '18.56666667',
@@ -2844,11 +2689,6 @@ const phl = Country(
             name: 'Santo Niño',
             latitude: '17.88610000',
             longitude: '121.56910000'),
-        City(
-            id: 145314,
-            name: 'Santo Niño',
-            latitude: '17.95000000',
-            longitude: '121.51667000'),
         City(
             id: 145315,
             name: 'Santo Tomas',
@@ -2914,11 +2754,6 @@ const phl = Country(
             name: 'Tuao',
             latitude: '17.73333333',
             longitude: '121.45000000'),
-        City(
-            id: 145328,
-            name: 'Tuao',
-            latitude: '16.58833333',
-            longitude: '121.25777778'),
         City(
             id: 145329,
             name: 'Tuguegarao',
@@ -3021,11 +2856,6 @@ const phl = Country(
             name: 'Anao',
             latitude: '15.73038611',
             longitude: '120.62641389'),
-        City(
-            id: 145349,
-            name: 'Anao',
-            latitude: '15.14138889',
-            longitude: '120.69138889'),
         City(
             id: 145350,
             name: 'Angat',
@@ -3147,11 +2977,6 @@ const phl = Country(
             latitude: '15.64444444',
             longitude: '120.64194444'),
         City(
-            id: 145374,
-            name: 'Balite',
-            latitude: '14.89527778',
-            longitude: '120.78722222'),
-        City(
             id: 145375,
             name: 'Baliuag',
             latitude: '14.95000000',
@@ -3191,11 +3016,6 @@ const phl = Country(
             name: 'Bamban',
             latitude: '15.65000000',
             longitude: '120.25000000'),
-        City(
-            id: 145383,
-            name: 'Bamban',
-            latitude: '15.24531000',
-            longitude: '120.46693000'),
         City(
             id: 145384,
             name: 'Banawang',
@@ -3351,16 +3171,6 @@ const phl = Country(
             name: 'Burgos',
             latitude: '15.72888889',
             longitude: '120.57222222'),
-        City(
-            id: 145415,
-            name: 'Burgos',
-            latitude: '16.07194444',
-            longitude: '121.04944444'),
-        City(
-            id: 145416,
-            name: 'Burgos',
-            latitude: '15.49472222',
-            longitude: '120.40444444'),
         City(
             id: 145417,
             name: 'Bustos',
@@ -3577,16 +3387,6 @@ const phl = Country(
             latitude: '14.80000000',
             longitude: '120.93333333'),
         City(
-            id: 145460,
-            name: 'Concepcion',
-            latitude: '15.44444444',
-            longitude: '120.80083333'),
-        City(
-            id: 145461,
-            name: 'Concepcion',
-            latitude: '15.22083333',
-            longitude: '120.83111111'),
-        City(
             id: 145462,
             name: 'Conversion',
             latitude: '15.89833333',
@@ -3626,11 +3426,6 @@ const phl = Country(
             name: 'Del Pilar',
             latitude: '15.03611111',
             longitude: '120.69944444'),
-        City(
-            id: 145470,
-            name: 'Del Pilar',
-            latitude: '15.69555556',
-            longitude: '121.08638889'),
         City(
             id: 145471,
             name: 'Digdig',
@@ -3772,11 +3567,6 @@ const phl = Country(
             latitude: '15.33333333',
             longitude: '119.98333333'),
         City(
-            id: 145499,
-            name: 'Iba',
-            latitude: '15.45388889',
-            longitude: '120.41055556'),
-        City(
             id: 145500,
             name: 'Jaen',
             latitude: '15.33333333',
@@ -3791,11 +3581,6 @@ const phl = Country(
             name: 'Lambakin',
             latitude: '14.75000000',
             longitude: '120.86666667'),
-        City(
-            id: 145503,
-            name: 'Lambakin',
-            latitude: '15.37166667',
-            longitude: '120.86083333'),
         City(
             id: 145504,
             name: 'Lanat',
@@ -3861,11 +3646,6 @@ const phl = Country(
             name: 'Lourdes',
             latitude: '14.96666667',
             longitude: '120.68333333'),
-        City(
-            id: 145517,
-            name: 'Lourdes',
-            latitude: '15.01916667',
-            longitude: '120.85111111'),
         City(
             id: 145518,
             name: 'Lubao',
@@ -4162,11 +3942,6 @@ const phl = Country(
             latitude: '15.73333333',
             longitude: '120.63333333'),
         City(
-            id: 145577,
-            name: 'Nampicuan',
-            latitude: '15.71667000',
-            longitude: '120.66667000'),
-        City(
             id: 145578,
             name: 'Nancamarinan',
             latitude: '15.67527778',
@@ -4322,11 +4097,6 @@ const phl = Country(
             latitude: '15.34527778',
             longitude: '121.07472222'),
         City(
-            id: 145609,
-            name: 'Pias',
-            latitude: '15.01694444',
-            longitude: '120.56250000'),
-        City(
             id: 145610,
             name: 'Pilar',
             latitude: '14.66666667',
@@ -4351,11 +4121,6 @@ const phl = Country(
             name: 'Plaridel',
             latitude: '14.88694444',
             longitude: '120.85694444'),
-        City(
-            id: 145615,
-            name: 'Plaridel',
-            latitude: '15.65861111',
-            longitude: '121.02000000'),
         City(
             id: 145616,
             name: 'Porac',
@@ -4487,11 +4252,6 @@ const phl = Country(
             latitude: '14.93333333',
             longitude: '120.15000000'),
         City(
-            id: 145642,
-            name: 'San Agustin',
-            latitude: '14.99027778',
-            longitude: '120.60611111'),
-        City(
             id: 145643,
             name: 'San Alejandro',
             latitude: '15.56111111',
@@ -4512,26 +4272,6 @@ const phl = Country(
             latitude: '15.38333333',
             longitude: '120.80000000'),
         City(
-            id: 145647,
-            name: 'San Antonio',
-            latitude: '14.96666667',
-            longitude: '120.61194444'),
-        City(
-            id: 145648,
-            name: 'San Antonio',
-            latitude: '14.94861100',
-            longitude: '120.08638900'),
-        City(
-            id: 145649,
-            name: 'San Antonio',
-            latitude: '15.28638889',
-            longitude: '120.67166667'),
-        City(
-            id: 145650,
-            name: 'San Antonio',
-            latitude: '15.15250000',
-            longitude: '120.68805556'),
-        City(
             id: 145651,
             name: 'San Basilio',
             latitude: '15.03333333',
@@ -4546,11 +4286,6 @@ const phl = Country(
             name: 'San Carlos',
             latitude: '15.03972222',
             longitude: '120.76277778'),
-        City(
-            id: 145654,
-            name: 'San Carlos',
-            latitude: '15.54472222',
-            longitude: '120.89305556'),
         City(
             id: 145655,
             name: 'San Casimiro',
@@ -4577,11 +4312,6 @@ const phl = Country(
             latitude: '15.06194444',
             longitude: '120.07000000'),
         City(
-            id: 145660,
-            name: 'San Felipe',
-            latitude: '15.82611111',
-            longitude: '120.59750000'),
-        City(
             id: 145661,
             name: 'San Felipe Old',
             latitude: '15.50138889',
@@ -4597,16 +4327,6 @@ const phl = Country(
             latitude: '15.35555556',
             longitude: '120.84000000'),
         City(
-            id: 145664,
-            name: 'San Francisco',
-            latitude: '15.62888889',
-            longitude: '120.43638889'),
-        City(
-            id: 145665,
-            name: 'San Francisco',
-            latitude: '14.96166667',
-            longitude: '120.54527778'),
-        City(
             id: 145666,
             name: 'San Ildefonso',
             latitude: '15.07888900',
@@ -4616,21 +4336,6 @@ const phl = Country(
             name: 'San Isidro',
             latitude: '15.26666667',
             longitude: '120.90000000'),
-        City(
-            id: 145668,
-            name: 'San Isidro',
-            latitude: '15.44250000',
-            longitude: '120.72555556'),
-        City(
-            id: 145669,
-            name: 'San Isidro',
-            latitude: '15.23500000',
-            longitude: '120.64138889'),
-        City(
-            id: 145670,
-            name: 'San Isidro',
-            latitude: '15.02111111',
-            longitude: '120.82027778'),
         City(
             id: 145671,
             name: 'San Jacinto',
@@ -4642,11 +4347,6 @@ const phl = Country(
             latitude: '15.78333333',
             longitude: '121.00000000'),
         City(
-            id: 145673,
-            name: 'San Jose',
-            latitude: '15.03333333',
-            longitude: '120.78333333'),
-        City(
             id: 145674,
             name: 'San Jose del Monte',
             latitude: '14.81388889',
@@ -4656,11 +4356,6 @@ const phl = Country(
             name: 'San Juan',
             latitude: '15.28972222',
             longitude: '120.06472222'),
-        City(
-            id: 145676,
-            name: 'San Juan',
-            latitude: '15.02305556',
-            longitude: '120.67722222'),
         City(
             id: 145677,
             name: 'San Juan de Mata',
@@ -4682,20 +4377,10 @@ const phl = Country(
             latitude: '15.04000000',
             longitude: '120.79194444'),
         City(
-            id: 145681,
-            name: 'San Luis',
-            latitude: '15.71666667',
-            longitude: '121.51666667'),
-        City(
             id: 145682,
             name: 'San Manuel',
             latitude: '15.83333333',
             longitude: '120.58333333'),
-        City(
-            id: 145683,
-            name: 'San Manuel',
-            latitude: '15.49055556',
-            longitude: '120.66555556'),
         City(
             id: 145684,
             name: 'San Marcelino',
@@ -4717,11 +4402,6 @@ const phl = Country(
             latitude: '15.14222222',
             longitude: '120.97555556'),
         City(
-            id: 145688,
-            name: 'San Miguel',
-            latitude: '15.44388889',
-            longitude: '120.59916667'),
-        City(
             id: 145689,
             name: 'San Narciso',
             latitude: '15.01666667',
@@ -4731,16 +4411,6 @@ const phl = Country(
             name: 'San Nicolas',
             latitude: '15.58416667',
             longitude: '120.67638889'),
-        City(
-            id: 145691,
-            name: 'San Nicolas',
-            latitude: '14.94916667',
-            longitude: '120.07694444'),
-        City(
-            id: 145692,
-            name: 'San Nicolas',
-            latitude: '15.04166667',
-            longitude: '120.79444444'),
         City(
             id: 145693,
             name: 'San Pascual',
@@ -4757,16 +4427,6 @@ const phl = Country(
             latitude: '14.95000000',
             longitude: '120.96666667'),
         City(
-            id: 145696,
-            name: 'San Rafael',
-            latitude: '14.89916667',
-            longitude: '120.69361111'),
-        City(
-            id: 145697,
-            name: 'San Rafael',
-            latitude: '14.99330000',
-            longitude: '120.96674000'),
-        City(
             id: 145698,
             name: 'San Ricardo',
             latitude: '15.59583333',
@@ -4776,11 +4436,6 @@ const phl = Country(
             name: 'San Roque',
             latitude: '15.00944444',
             longitude: '120.93833333'),
-        City(
-            id: 145700,
-            name: 'San Roque',
-            latitude: '15.26138889',
-            longitude: '120.65194444'),
         City(
             id: 145701,
             name: 'San Roque Dau First',
@@ -4796,16 +4451,6 @@ const phl = Country(
             name: 'San Vicente',
             latitude: '15.29222222',
             longitude: '120.65500000'),
-        City(
-            id: 145704,
-            name: 'San Vicente',
-            latitude: '15.21333333',
-            longitude: '120.81888889'),
-        City(
-            id: 145705,
-            name: 'San Vicente',
-            latitude: '14.94583333',
-            longitude: '120.74861111'),
         City(
             id: 145706,
             name: 'San Vincente',
@@ -4826,16 +4471,6 @@ const phl = Country(
             name: 'Santa Cruz',
             latitude: '15.76527778',
             longitude: '119.90916667'),
-        City(
-            id: 145710,
-            name: 'Santa Cruz',
-            latitude: '14.91277778',
-            longitude: '120.56666667'),
-        City(
-            id: 145711,
-            name: 'Santa Cruz',
-            latitude: '15.30805556',
-            longitude: '120.85305556'),
         City(
             id: 145712,
             name: 'Santa Fe',
@@ -4862,35 +4497,10 @@ const phl = Country(
             latitude: '15.36805556',
             longitude: '120.48638889'),
         City(
-            id: 145717,
-            name: 'Santa Lucia',
-            latitude: '15.48194444',
-            longitude: '120.77444444'),
-        City(
-            id: 145718,
-            name: 'Santa Lucia',
-            latitude: '15.20972222',
-            longitude: '121.00611111'),
-        City(
             id: 145719,
             name: 'Santa Maria',
             latitude: '14.81833333',
             longitude: '120.95633333'),
-        City(
-            id: 145720,
-            name: 'Santa Maria',
-            latitude: '15.52333333',
-            longitude: '120.79250000'),
-        City(
-            id: 145721,
-            name: 'Santa Maria',
-            latitude: '15.08666667',
-            longitude: '120.77000000'),
-        City(
-            id: 145722,
-            name: 'Santa Maria',
-            latitude: '15.64361111',
-            longitude: '120.42638889'),
         City(
             id: 145723,
             name: 'Santa Monica',
@@ -4902,20 +4512,10 @@ const phl = Country(
             latitude: '14.99527800',
             longitude: '120.61527800'),
         City(
-            id: 145725,
-            name: 'Santa Rita',
-            latitude: '15.61916667',
-            longitude: '120.86972222'),
-        City(
             id: 145726,
             name: 'Santa Rosa',
             latitude: '15.42388889',
             longitude: '120.93888889'),
-        City(
-            id: 145727,
-            name: 'Santa Rosa',
-            latitude: '15.36750000',
-            longitude: '120.61694444'),
         City(
             id: 145728,
             name: 'Santa Teresa First',
@@ -4932,65 +4532,25 @@ const phl = Country(
             latitude: '15.29694444',
             longitude: '120.89027778'),
         City(
-            id: 145731,
-            name: 'Santo Cristo',
-            latitude: '15.33833333',
-            longitude: '120.59333333'),
-        City(
             id: 145732,
             name: 'Santo Domingo',
             latitude: '15.58333333',
             longitude: '120.86666667'),
-        City(
-            id: 145733,
-            name: 'Santo Domingo',
-            latitude: '14.96527778',
-            longitude: '120.55666667'),
-        City(
-            id: 145734,
-            name: 'Santo Domingo',
-            latitude: '14.99111111',
-            longitude: '120.74333333'),
-        City(
-            id: 145735,
-            name: 'Santo Domingo',
-            latitude: '15.07277778',
-            longitude: '120.75694444'),
         City(
             id: 145736,
             name: 'Santo Niño',
             latitude: '15.33444444',
             longitude: '120.62611111'),
         City(
-            id: 145737,
-            name: 'Santo Niño',
-            latitude: '15.23666667',
-            longitude: '120.71194444'),
-        City(
             id: 145738,
             name: 'Santo Rosario',
             latitude: '15.43416667',
             longitude: '120.88972222'),
         City(
-            id: 145739,
-            name: 'Santo Rosario',
-            latitude: '15.64472222',
-            longitude: '120.86111111'),
-        City(
             id: 145740,
             name: 'Santo Tomas',
             latitude: '14.96666667',
             longitude: '120.71666667'),
-        City(
-            id: 145741,
-            name: 'Santo Tomas',
-            latitude: '15.74972222',
-            longitude: '120.96250000'),
-        City(
-            id: 145742,
-            name: 'Santo Tomas',
-            latitude: '15.00043000',
-            longitude: '120.71507000'),
         City(
             id: 145743,
             name: 'Santol',
@@ -5017,11 +4577,6 @@ const phl = Country(
             latitude: '14.93333333',
             longitude: '120.61666667'),
         City(
-            id: 145748,
-            name: 'Sasmuan',
-            latitude: '14.88476000',
-            longitude: '120.62035000'),
-        City(
             id: 145749,
             name: 'Saysain',
             latitude: '14.56111111',
@@ -5031,11 +4586,6 @@ const phl = Country(
             name: 'Sibul',
             latitude: '15.16888889',
             longitude: '121.06166667'),
-        City(
-            id: 145751,
-            name: 'Sibul',
-            latitude: '15.80000000',
-            longitude: '121.00000000'),
         City(
             id: 145752,
             name: 'Siclong',
@@ -7246,11 +6796,6 @@ const phl = Country(
             name: 'Banga',
             latitude: '10.50180000',
             longitude: '122.82890000'),
-        City(
-            id: 81670,
-            name: 'Bañga',
-            latitude: '11.63870000',
-            longitude: '122.33410000'),
         City(
             id: 81570,
             name: 'Barbaza',
@@ -9874,11 +9419,6 @@ const phl = Country(
                 name: 'Pagalungan',
                 latitude: '7.05667000',
                 longitude: '124.70083000'),
-            City(
-                id: 83890,
-                name: 'Pagaluñgan',
-                latitude: '7.14167000',
-                longitude: '124.38056000'),
             City(
                 id: 83892,
                 name: 'Pagatin',
@@ -14887,11 +14427,6 @@ const phl = Country(
             latitude: '5.91666667',
             longitude: '125.65000000'),
         City(
-            id: 144185,
-            name: 'Jose Abad Santos',
-            latitude: '5.83333000',
-            longitude: '125.51667000'),
-        City(
             id: 144186,
             name: 'Jovellar',
             latitude: '7.06361111',
@@ -14916,11 +14451,6 @@ const phl = Country(
             name: 'Kapalong',
             latitude: '7.58541667',
             longitude: '125.70515278'),
-        City(
-            id: 144191,
-            name: 'Kapalong',
-            latitude: '7.83669000',
-            longitude: '125.57397000'),
         City(
             id: 144192,
             name: 'Katipunan',
@@ -15047,11 +14577,6 @@ const phl = Country(
             latitude: '7.30000000',
             longitude: '125.85000000'),
         City(
-            id: 144217,
-            name: 'Mabini',
-            latitude: '7.30000000',
-            longitude: '125.93333000'),
-        City(
             id: 144218,
             name: 'Mabuhay',
             latitude: '7.33305556',
@@ -15086,16 +14611,6 @@ const phl = Country(
             name: 'Magsaysay',
             latitude: '6.76666667',
             longitude: '125.18333333'),
-        City(
-            id: 144225,
-            name: 'Magsaysay',
-            latitude: '6.75647000',
-            longitude: '125.11900000'),
-        City(
-            id: 144226,
-            name: 'Magsaysay',
-            latitude: '7.39666667',
-            longitude: '125.63500000'),
         City(
             id: 144227,
             name: 'Mahanob',
@@ -15152,11 +14667,6 @@ const phl = Country(
             latitude: '7.21666667',
             longitude: '126.53333333'),
         City(
-            id: 144238,
-            name: 'Manay',
-            latitude: '7.34166667',
-            longitude: '125.57500000'),
-        City(
             id: 144239,
             name: 'Mangili',
             latitude: '6.00333333',
@@ -15171,11 +14681,6 @@ const phl = Country(
             name: 'Matanao',
             latitude: '6.75000000',
             longitude: '125.23333333'),
-        City(
-            id: 144242,
-            name: 'Matanao',
-            latitude: '6.66065000',
-            longitude: '125.16769000'),
         City(
             id: 144243,
             name: 'Mati',
@@ -15196,11 +14701,6 @@ const phl = Country(
             name: 'Mawab',
             latitude: '7.50000000',
             longitude: '125.93333333'),
-        City(
-            id: 144247,
-            name: 'Mawab',
-            latitude: '7.50000000',
-            longitude: '125.93333000'),
         City(
             id: 144248,
             name: 'Mayo',
@@ -15416,11 +14916,6 @@ const phl = Country(
             name: 'Santo Niño',
             latitude: '7.62361111',
             longitude: '125.62527778'),
-        City(
-            id: 144291,
-            name: 'Santo Niño',
-            latitude: '7.32777778',
-            longitude: '125.70527778'),
         City(
             id: 144292,
             name: 'Santo Tomas',
@@ -15674,11 +15169,6 @@ const phl = Country(
             latitude: '6.30000000',
             longitude: '124.78333333'),
         City(
-            id: 144342,
-            name: 'Banga',
-            latitude: '6.44869000',
-            longitude: '124.75648000'),
-        City(
             id: 144343,
             name: 'Banisilan',
             latitude: '7.50000000',
@@ -15744,20 +15234,10 @@ const phl = Country(
             latitude: '6.79583333',
             longitude: '124.91083333'),
         City(
-            id: 144356,
-            name: 'Bual',
-            latitude: '7.18250000',
-            longitude: '124.50583333'),
-        City(
             id: 144357,
             name: 'Buayan',
             latitude: '6.11638889',
             longitude: '125.23472222'),
-        City(
-            id: 144358,
-            name: 'Buayan',
-            latitude: '7.26111111',
-            longitude: '124.52944444'),
         City(
             id: 144359,
             name: 'Bucay Pait',
@@ -15868,11 +15348,6 @@ const phl = Country(
             name: 'Esperanza',
             latitude: '6.71666667',
             longitude: '124.51666667'),
-        City(
-            id: 143943,
-            name: 'Esperanza',
-            latitude: '6.49804000',
-            longitude: '124.66741000'),
         City(
             id: 143944,
             name: 'Gansing',
@@ -16044,11 +15519,6 @@ const phl = Country(
             latitude: '6.80000000',
             longitude: '124.63333333'),
         City(
-            id: 143978,
-            name: 'Lambayong',
-            latitude: '6.51944444',
-            longitude: '125.04444444'),
-        City(
             id: 143979,
             name: 'Lambo',
             latitude: '6.35025000',
@@ -16084,11 +15554,6 @@ const phl = Country(
             latitude: '6.63333333',
             longitude: '124.06666667'),
         City(
-            id: 143986,
-            name: 'Lebak',
-            latitude: '6.68333000',
-            longitude: '124.15000000'),
-        City(
             id: 143987,
             name: 'Libas',
             latitude: '6.52014000',
@@ -16098,11 +15563,6 @@ const phl = Country(
             name: 'Liberty',
             latitude: '6.51989000',
             longitude: '124.63194000'),
-        City(
-            id: 143989,
-            name: 'Liberty',
-            latitude: '6.45521000',
-            longitude: '124.98217000'),
         City(
             id: 143990,
             name: 'Libungan',
@@ -16173,11 +15633,6 @@ const phl = Country(
             name: 'M\'lang',
             latitude: '6.95000000',
             longitude: '124.88333333'),
-        City(
-            id: 144004,
-            name: 'M\'lang',
-            latitude: '6.95000000',
-            longitude: '124.93333000'),
         City(
             id: 144005,
             name: 'Maan',
@@ -16454,11 +15909,6 @@ const phl = Country(
             latitude: '7.27722222',
             longitude: '124.42555556'),
         City(
-            id: 144060,
-            name: 'Pigcawayan',
-            latitude: '7.28333333',
-            longitude: '124.43333333'),
-        City(
             id: 144061,
             name: 'Pikit',
             latitude: '7.05000000',
@@ -16726,11 +16176,6 @@ const phl = Country(
             latitude: '9.46400556',
             longitude: '125.57653056'),
         City(
-            id: 144373,
-            name: 'Alegria',
-            latitude: '8.50666667',
-            longitude: '126.01194444'),
-        City(
             id: 144374,
             name: 'Alubijid',
             latitude: '8.96277778',
@@ -16816,11 +16261,6 @@ const phl = Country(
             latitude: '8.78564000',
             longitude: '125.78175000'),
         City(
-            id: 144391,
-            name: 'Bayugan',
-            latitude: '8.75611111',
-            longitude: '125.76750000'),
-        City(
             id: 144392,
             name: 'Bigaan',
             latitude: '8.31722222',
@@ -16846,11 +16286,6 @@ const phl = Country(
             latitude: '8.97694444',
             longitude: '125.40888889'),
         City(
-            id: 144397,
-            name: 'Buenavista',
-            latitude: '9.11500000',
-            longitude: '126.16083333'),
-        City(
             id: 144398,
             name: 'Bunawan',
             latitude: '8.16722000',
@@ -16860,11 +16295,6 @@ const phl = Country(
             name: 'Burgos',
             latitude: '10.01800000',
             longitude: '126.07400000'),
-        City(
-            id: 144400,
-            name: 'Burgos',
-            latitude: '9.26638889',
-            longitude: '126.18833333'),
         City(
             id: 144401,
             name: 'Butuan',
@@ -16915,11 +16345,6 @@ const phl = Country(
             name: 'Carmen',
             latitude: '9.00000000',
             longitude: '125.25000000'),
-        City(
-            id: 144411,
-            name: 'Carmen',
-            latitude: '9.21666667',
-            longitude: '125.96666667'),
         City(
             id: 144412,
             name: 'Carrascal',
@@ -16976,11 +16401,6 @@ const phl = Country(
             latitude: '9.86900000',
             longitude: '125.97000000'),
         City(
-            id: 144423,
-            name: 'Del Carmen',
-            latitude: '9.85838000',
-            longitude: '125.99544000'),
-        City(
             id: 144424,
             name: 'Del Pilar',
             latitude: '9.15194444',
@@ -17000,11 +16420,6 @@ const phl = Country(
             name: 'Gamut',
             latitude: '8.53166667',
             longitude: '126.24111111'),
-        City(
-            id: 144428,
-            name: 'Gamut',
-            latitude: '9.00444444',
-            longitude: '126.16972222'),
         City(
             id: 144429,
             name: 'General Luna',
@@ -17071,11 +16486,6 @@ const phl = Country(
             latitude: '8.27083333',
             longitude: '125.79972222'),
         City(
-            id: 144442,
-            name: 'La Paz',
-            latitude: '8.98472222',
-            longitude: '126.26305556'),
-        City(
             id: 144443,
             name: 'La Union',
             latitude: '9.08555556',
@@ -17111,11 +16521,6 @@ const phl = Country(
             latitude: '8.94416667',
             longitude: '125.50194444'),
         City(
-            id: 144450,
-            name: 'Libertad',
-            latitude: '8.10750000',
-            longitude: '126.02638889'),
-        City(
             id: 144451,
             name: 'Libjo',
             latitude: '10.19596667',
@@ -17130,11 +16535,6 @@ const phl = Country(
             name: 'Loreto',
             latitude: '10.35856667',
             longitude: '125.58156667'),
-        City(
-            id: 144454,
-            name: 'Loreto',
-            latitude: '8.18694444',
-            longitude: '125.85305556'),
         City(
             id: 144455,
             name: 'Los Angeles',
@@ -17216,11 +16616,6 @@ const phl = Country(
             latitude: '8.96917000',
             longitude: '125.29472000'),
         City(
-            id: 144471,
-            name: 'Nasipit',
-            latitude: '8.95000000',
-            longitude: '125.31667000'),
-        City(
             id: 144472,
             name: 'Panikian',
             latitude: '9.32944444',
@@ -17261,11 +16656,6 @@ const phl = Country(
             latitude: '8.92916667',
             longitude: '125.39861111'),
         City(
-            id: 144480,
-            name: 'Rizal',
-            latitude: '9.78027778',
-            longitude: '125.46416667'),
-        City(
             id: 144481,
             name: 'Rosario',
             latitude: '8.35000000',
@@ -17276,25 +16666,10 @@ const phl = Country(
             latitude: '7.99944444',
             longitude: '126.12472222'),
         City(
-            id: 144483,
-            name: 'Salvacion',
-            latitude: '8.67750000',
-            longitude: '125.69916667'),
-        City(
-            id: 144484,
-            name: 'Salvacion',
-            latitude: '8.71277778',
-            longitude: '126.20805556'),
-        City(
             id: 144485,
             name: 'San Agustin',
             latitude: '8.74366389',
             longitude: '126.22143333'),
-        City(
-            id: 144486,
-            name: 'San Agustin',
-            latitude: '8.75378000',
-            longitude: '126.19559000'),
         City(
             id: 144487,
             name: 'San Benito',
@@ -17306,30 +16681,10 @@ const phl = Country(
             latitude: '8.53556000',
             longitude: '125.95000000'),
         City(
-            id: 144489,
-            name: 'San Francisco',
-            latitude: '9.73333333',
-            longitude: '125.41666667'),
-        City(
-            id: 144490,
-            name: 'San Francisco',
-            latitude: '9.52805556',
-            longitude: '125.48555556'),
-        City(
-            id: 144491,
-            name: 'San Francisco',
-            latitude: '9.71667000',
-            longitude: '125.41667000'),
-        City(
             id: 144492,
             name: 'San Isidro',
             latitude: '7.75000000',
             longitude: '125.73333333'),
-        City(
-            id: 144493,
-            name: 'San Isidro',
-            latitude: '9.93694400',
-            longitude: '126.08861100'),
         City(
             id: 144494,
             name: 'San Luis',
@@ -17361,20 +16716,10 @@ const phl = Country(
             latitude: '8.03333333',
             longitude: '126.16250000'),
         City(
-            id: 144500,
-            name: 'Santa Maria',
-            latitude: '7.99166667',
-            longitude: '126.44500000'),
-        City(
             id: 144501,
             name: 'Santa Monica',
             latitude: '10.02000000',
             longitude: '126.03833000'),
-        City(
-            id: 144502,
-            name: 'Santa Monica',
-            latitude: '10.03333000',
-            longitude: '126.03333000'),
         City(
             id: 144503,
             name: 'Santiago',
@@ -17451,11 +16796,6 @@ const phl = Country(
             latitude: '9.06666667',
             longitude: '126.18333333'),
         City(
-            id: 144518,
-            name: 'Tandag',
-            latitude: '9.08333000',
-            longitude: '126.08333000'),
-        City(
             id: 144519,
             name: 'Tidman',
             latitude: '8.29861111',
@@ -17507,11 +16847,6 @@ const phl = Country(
             name: 'Ampatuan',
             latitude: '6.83480000',
             longitude: '124.45810278'),
-        City(
-            id: 144609,
-            name: 'Ampatuan',
-            latitude: '6.83333000',
-            longitude: '124.38333000'),
         City(
             id: 144610,
             name: 'Andalan',
@@ -17574,11 +16909,6 @@ const phl = Country(
             longitude: '122.13805556'),
         City(
             id: 144632,
-            name: 'Balindong',
-            latitude: '7.91666667',
-            longitude: '124.20000000'),
-        City(
-            id: 144633,
             name: 'Balindong',
             latitude: '7.91666667',
             longitude: '124.20000000'),
@@ -17673,20 +17003,10 @@ const phl = Country(
             latitude: '7.75000000',
             longitude: '124.26666667'),
         City(
-            id: 144652,
-            name: 'Bualan',
-            latitude: '7.44777778',
-            longitude: '124.26750000'),
-        City(
             id: 144653,
             name: 'Buan',
             latitude: '5.16083333',
             longitude: '120.04250000'),
-        City(
-            id: 144654,
-            name: 'Buan',
-            latitude: '5.55083333',
-            longitude: '120.88138889'),
         City(
             id: 144655,
             name: 'Buansa',
@@ -17742,11 +17062,6 @@ const phl = Country(
             name: 'Calanogas',
             latitude: '7.75000000',
             longitude: '124.10000000'),
-        City(
-            id: 144676,
-            name: 'Calanogas',
-            latitude: '7.71787000',
-            longitude: '124.07779000'),
         City(
             id: 144677,
             name: 'Colonia',
@@ -17922,11 +17237,6 @@ const phl = Country(
             name: 'Kapai',
             latitude: '8.06611000',
             longitude: '124.37041000'),
-        City(
-            id: 144543,
-            name: 'Kapai',
-            latitude: '8.08333333',
-            longitude: '124.40000000'),
         City(
             id: 144544,
             name: 'Karungdong',
@@ -18248,11 +17558,6 @@ const phl = Country(
             latitude: '7.05923611',
             longitude: '124.69873056'),
         City(
-            id: 144618,
-            name: 'Pagalungan',
-            latitude: '7.14166667',
-            longitude: '124.38055556'),
-        City(
             id: 144619,
             name: 'Pagatin',
             latitude: '6.97305556',
@@ -18262,11 +17567,6 @@ const phl = Country(
             name: 'Pagayawan',
             latitude: '7.73333333',
             longitude: '124.11666667'),
-        City(
-            id: 144621,
-            name: 'Pagayawan',
-            latitude: '7.73333000',
-            longitude: '124.11667000'),
         City(
             id: 144622,
             name: 'Paglat',
@@ -18327,11 +17627,6 @@ const phl = Country(
             name: 'Parang',
             latitude: '7.37444444',
             longitude: '124.26856111'),
-        City(
-            id: 144664,
-            name: 'Parang',
-            latitude: '5.91666667',
-            longitude: '120.91666667'),
         City(
             id: 144665,
             name: 'Parangan',
@@ -18503,20 +17798,10 @@ const phl = Country(
             latitude: '7.23333333',
             longitude: '124.25000000'),
         City(
-            id: 144728,
-            name: 'Sultan Kudarat',
-            latitude: '7.23333000',
-            longitude: '124.31667000'),
-        City(
             id: 144730,
             name: 'Sultan sa Barongis',
             latitude: '6.80000000',
             longitude: '124.63333333'),
-        City(
-            id: 144731,
-            name: 'Sultan sa Barongis',
-            latitude: '6.93333000',
-            longitude: '124.63333000'),
         City(
             id: 144729,
             name: 'Sultan Sumagka',
@@ -18588,11 +17873,6 @@ const phl = Country(
             latitude: '5.71666667',
             longitude: '120.90000000'),
         City(
-            id: 144745,
-            name: 'Tapul',
-            latitude: '5.72463000',
-            longitude: '120.91141000'),
-        City(
             id: 144746,
             name: 'Taraka',
             latitude: '7.89944444',
@@ -18627,11 +17907,6 @@ const phl = Country(
             name: 'Tubaran',
             latitude: '7.71666667',
             longitude: '124.16666667'),
-        City(
-            id: 144753,
-            name: 'Tubaran',
-            latitude: '7.71667000',
-            longitude: '124.16667000'),
         City(
             id: 144754,
             name: 'Tuburan',
@@ -19923,11 +19198,6 @@ const phl = Country(
             latitude: '18.25833333',
             longitude: '121.04055556'),
         City(
-            id: 144794,
-            name: 'Calanasan',
-            latitude: '18.25000000',
-            longitude: '121.03333000'),
-        City(
             id: 144795,
             name: 'Conner',
             latitude: '17.80000000',
@@ -19987,11 +19257,6 @@ const phl = Country(
             name: 'Hungduan',
             latitude: '16.83333333',
             longitude: '121.00000000'),
-        City(
-            id: 144807,
-            name: 'Hungduan',
-            latitude: '16.87160000',
-            longitude: '120.98415000'),
         City(
             id: 144808,
             name: 'Itogon',
@@ -20257,11 +19522,6 @@ const phl = Country(
             name: 'Tabuk',
             latitude: '17.45000000',
             longitude: '121.45833333'),
-        City(
-            id: 144861,
-            name: 'Tabuk',
-            latitude: '17.47388889',
-            longitude: '121.46805556'),
         City(
             id: 144862,
             name: 'Tacadang',
@@ -23886,11 +23146,6 @@ const phl = Country(
             latitude: '5.91666667',
             longitude: '125.65000000'),
         City(
-            id: 144950,
-            name: 'Jose Abad Santos',
-            latitude: '5.83333000',
-            longitude: '125.51667000'),
-        City(
             id: 144951,
             name: 'Jovellar',
             latitude: '7.06361111',
@@ -23915,11 +23170,6 @@ const phl = Country(
             name: 'Kapalong',
             latitude: '7.58541667',
             longitude: '125.70515278'),
-        City(
-            id: 144956,
-            name: 'Kapalong',
-            latitude: '7.83669000',
-            longitude: '125.57397000'),
         City(
             id: 144957,
             name: 'Katipunan',
@@ -24046,11 +23296,6 @@ const phl = Country(
             latitude: '7.30000000',
             longitude: '125.85000000'),
         City(
-            id: 144982,
-            name: 'Mabini',
-            latitude: '7.30000000',
-            longitude: '125.93333000'),
-        City(
             id: 144983,
             name: 'Mabuhay',
             latitude: '7.33305556',
@@ -24085,16 +23330,6 @@ const phl = Country(
             name: 'Magsaysay',
             latitude: '6.76666667',
             longitude: '125.18333333'),
-        City(
-            id: 144990,
-            name: 'Magsaysay',
-            latitude: '6.75647000',
-            longitude: '125.11900000'),
-        City(
-            id: 144991,
-            name: 'Magsaysay',
-            latitude: '7.39666667',
-            longitude: '125.63500000'),
         City(
             id: 144992,
             name: 'Mahanob',
@@ -24151,11 +23386,6 @@ const phl = Country(
             latitude: '7.21666667',
             longitude: '126.53333333'),
         City(
-            id: 145003,
-            name: 'Manay',
-            latitude: '7.34166667',
-            longitude: '125.57500000'),
-        City(
             id: 145004,
             name: 'Mangili',
             latitude: '6.00333333',
@@ -24170,11 +23400,6 @@ const phl = Country(
             name: 'Matanao',
             latitude: '6.75000000',
             longitude: '125.23333333'),
-        City(
-            id: 145007,
-            name: 'Matanao',
-            latitude: '6.66065000',
-            longitude: '125.16769000'),
         City(
             id: 145008,
             name: 'Mati',
@@ -24195,11 +23420,6 @@ const phl = Country(
             name: 'Mawab',
             latitude: '7.50000000',
             longitude: '125.93333333'),
-        City(
-            id: 145012,
-            name: 'Mawab',
-            latitude: '7.50000000',
-            longitude: '125.93333000'),
         City(
             id: 145013,
             name: 'Mayo',
@@ -24415,11 +23635,6 @@ const phl = Country(
             name: 'Santo Niño',
             latitude: '7.62361111',
             longitude: '125.62527778'),
-        City(
-            id: 145056,
-            name: 'Santo Niño',
-            latitude: '7.32777778',
-            longitude: '125.70527778'),
         City(
             id: 145057,
             name: 'Santo Tomas',
@@ -25656,7 +24871,1283 @@ const phl = Country(
       ]),
       State(id: 1291, name: 'Dinagat Islands', stateCode: 'DIN', cities: []),
       State(id: 1290, name: 'Eastern Samar', stateCode: 'EAS', cities: []),
-      State(id: 1322, name: 'Eastern Visayas', stateCode: '08', cities: []),
+      State(id: 1322, name: 'Eastern Visayas', stateCode: '08', cities: [
+        City(
+            id: 148061,
+            name: 'Abuyog',
+            latitude: '10.74579722',
+            longitude: '125.01218056'),
+        City(
+            id: 147980,
+            name: 'Alangalang',
+            latitude: '11.20000000',
+            longitude: '124.85000000'),
+        City(
+            id: 147981,
+            name: 'Albuera',
+            latitude: '10.91863056',
+            longitude: '124.69229167'),
+        City(
+            id: 148065,
+            name: 'Allen',
+            latitude: '12.50125000',
+            longitude: '124.28205000'),
+        City(
+            id: 147978,
+            name: 'Almagro',
+            latitude: '11.91077222',
+            longitude: '124.28520833'),
+        City(
+            id: 148064,
+            name: 'Almeria',
+            latitude: '11.62057222',
+            longitude: '124.37935556'),
+        City(
+            id: 147979,
+            name: 'Alugan',
+            latitude: '12.21888889',
+            longitude: '125.48083333'),
+        City(
+            id: 147977,
+            name: 'Anahawan',
+            latitude: '10.27417778',
+            longitude: '125.25835833'),
+        City(
+            id: 147982,
+            name: 'Anito',
+            latitude: '12.44972222',
+            longitude: '125.28861111'),
+        City(
+            id: 148105,
+            name: 'Arteche',
+            latitude: '12.26941944',
+            longitude: '125.37121389'),
+        City(
+            id: 148069,
+            name: 'Babatngon',
+            latitude: '11.42073333',
+            longitude: '124.84342500'),
+        City(
+            id: 148066,
+            name: 'Balagtas',
+            latitude: '11.13333333',
+            longitude: '124.51916667'),
+        City(
+            id: 148108,
+            name: 'Balagui',
+            latitude: '11.47527778',
+            longitude: '124.53250000'),
+        City(
+            id: 148107,
+            name: 'Balangiga',
+            latitude: '11.10972000',
+            longitude: '125.38750000'),
+        City(
+            id: 148111,
+            name: 'Balangkayan',
+            latitude: '11.47138889',
+            longitude: '125.51055556'),
+        City(
+            id: 148063,
+            name: 'Balinsacayao',
+            latitude: '10.68111111',
+            longitude: '124.95944444'),
+        City(
+            id: 148089,
+            name: 'Balite',
+            latitude: '11.19444444',
+            longitude: '124.38583333'),
+        City(
+            id: 148068,
+            name: 'Balocawehay',
+            latitude: '10.72222222',
+            longitude: '124.96777778'),
+        City(
+            id: 148106,
+            name: 'Balogo',
+            latitude: '10.88666667',
+            longitude: '124.71055556'),
+        City(
+            id: 148062,
+            name: 'Balud',
+            latitude: '11.61666667',
+            longitude: '125.43333333'),
+        City(
+            id: 148182,
+            name: 'Bantayan',
+            latitude: '12.52361111',
+            longitude: '124.82833333'),
+        City(
+            id: 148058,
+            name: 'Bantiqui',
+            latitude: '10.92444444',
+            longitude: '124.41527778'),
+        City(
+            id: 148184,
+            name: 'Baras',
+            latitude: '11.18333333',
+            longitude: '125.01666667'),
+        City(
+            id: 148113,
+            name: 'Barugo',
+            latitude: '11.31666667',
+            longitude: '124.73333333'),
+        City(
+            id: 148109,
+            name: 'Basey',
+            latitude: '11.28205000',
+            longitude: '125.06986000'),
+        City(
+            id: 148187,
+            name: 'Basud',
+            latitude: '11.36638889',
+            longitude: '124.36305556'),
+        City(
+            id: 148186,
+            name: 'Bato',
+            latitude: '10.32778000',
+            longitude: '124.79111000'),
+        City(
+            id: 148060,
+            name: 'Baybay',
+            latitude: '10.68333333',
+            longitude: '124.80000000'),
+        City(
+            id: 148067,
+            name: 'Bilwang',
+            latitude: '10.88333333',
+            longitude: '124.46666667'),
+        City(
+            id: 148110,
+            name: 'Biri',
+            latitude: '12.66666667',
+            longitude: '124.38333333'),
+        City(
+            id: 148183,
+            name: 'Bislig',
+            latitude: '11.07250000',
+            longitude: '125.03361111'),
+        City(
+            id: 148185,
+            name: 'Bitanjuan',
+            latitude: '10.59555556',
+            longitude: '124.76638889'),
+        City(
+            id: 148059,
+            name: 'Bobon',
+            latitude: '12.51666667',
+            longitude: '124.56666667'),
+        City(
+            id: 148039,
+            name: 'Bontoc',
+            latitude: '10.35000000',
+            longitude: '124.96666667'),
+        City(
+            id: 147975,
+            name: 'Borongan',
+            latitude: '11.60000000',
+            longitude: '125.43333333'),
+        City(
+            id: 148075,
+            name: 'Bugho',
+            latitude: '10.79222222',
+            longitude: '124.93638889'),
+        City(
+            id: 148120,
+            name: 'Bugko',
+            latitude: '12.53555556',
+            longitude: '124.79222222'),
+        City(
+            id: 148041,
+            name: 'Bunga',
+            latitude: '11.48388889',
+            longitude: '124.59166667'),
+        City(
+            id: 148118,
+            name: 'Burauen',
+            latitude: '10.98333333',
+            longitude: '124.90000000'),
+        City(
+            id: 148045,
+            name: 'Butazon',
+            latitude: '11.30722222',
+            longitude: '124.46194444'),
+        City(
+            id: 148132,
+            name: 'Cabacuñgan',
+            latitude: '10.93333333',
+            longitude: '124.98166667'),
+        City(
+            id: 148121,
+            name: 'Cabay',
+            latitude: '11.44555556',
+            longitude: '125.49333333'),
+        City(
+            id: 147974,
+            name: 'Cabodiongan',
+            latitude: '12.66416667',
+            longitude: '125.04555556'),
+        City(
+            id: 148115,
+            name: 'Cabucgayan',
+            latitude: '11.46666667',
+            longitude: '124.56666667'),
+        City(
+            id: 148044,
+            name: 'Cagamotan',
+            latitude: '12.35583333',
+            longitude: '125.28388889'),
+        City(
+            id: 148188,
+            name: 'Caibiran',
+            latitude: '11.56666667',
+            longitude: '124.58333333'),
+        City(
+            id: 148046,
+            name: 'Calape',
+            latitude: '11.94250000',
+            longitude: '125.02138889'),
+        City(
+            id: 148131,
+            name: 'Calbayog',
+            latitude: '12.06666667',
+            longitude: '124.60000000'),
+        City(
+            id: 148080,
+            name: 'Calbiga',
+            latitude: '11.63333333',
+            longitude: '125.01666667'),
+        City(
+            id: 148133,
+            name: 'Calubian',
+            latitude: '11.45000000',
+            longitude: '124.41666667'),
+        City(
+            id: 148127,
+            name: 'Can-avid',
+            latitude: '12.00000000',
+            longitude: '125.45000000'),
+        City(
+            id: 147971,
+            name: 'Canhandugan',
+            latitude: '11.13500000',
+            longitude: '124.77972222'),
+        City(
+            id: 148050,
+            name: 'Capoocan',
+            latitude: '11.28333333',
+            longitude: '124.65000000'),
+        City(
+            id: 148129,
+            name: 'Capul',
+            latitude: '12.41666667',
+            longitude: '124.18333333'),
+        City(
+            id: 148042,
+            name: 'Caraycaray',
+            latitude: '11.55500000',
+            longitude: '124.41500000'),
+        City(
+            id: 148117,
+            name: 'Caridad',
+            latitude: '10.83138889',
+            longitude: '124.75166667'),
+        City(
+            id: 148056,
+            name: 'Carigara',
+            latitude: '11.30000000',
+            longitude: '124.68333333'),
+        City(
+            id: 148053,
+            name: 'Catarman',
+            latitude: '12.45000000',
+            longitude: '124.65000000'),
+        City(
+            id: 148189,
+            name: 'Catbalogan',
+            latitude: '11.78333333',
+            longitude: '124.88333333'),
+        City(
+            id: 148049,
+            name: 'Catmon',
+            latitude: '11.53516000',
+            longitude: '124.43115000'),
+        City(
+            id: 147984,
+            name: 'Catubig',
+            latitude: '12.40000000',
+            longitude: '125.05000000'),
+        City(
+            id: 148078,
+            name: 'Cavite',
+            latitude: '11.21472222',
+            longitude: '124.82305556'),
+        City(
+            id: 148043,
+            name: 'Cervantes',
+            latitude: '12.36861111',
+            longitude: '124.65972222'),
+        City(
+            id: 148057,
+            name: 'Concepcion',
+            latitude: '10.40527778',
+            longitude: '124.78305556'),
+        City(
+            id: 148192,
+            name: 'Consuegra',
+            latitude: '11.29750000',
+            longitude: '124.51250000'),
+        City(
+            id: 147976,
+            name: 'Culaba',
+            latitude: '11.65778000',
+            longitude: '124.54250000'),
+        City(
+            id: 148052,
+            name: 'Culasian',
+            latitude: '11.30694444',
+            longitude: '124.61055556'),
+        City(
+            id: 148126,
+            name: 'Dagami',
+            latitude: '11.06111111',
+            longitude: '124.90305556'),
+        City(
+            id: 148190,
+            name: 'Dao',
+            latitude: '12.09972222',
+            longitude: '125.43722222'),
+        City(
+            id: 148128,
+            name: 'Dapdap',
+            latitude: '12.06194444',
+            longitude: '125.48805556'),
+        City(
+            id: 148085,
+            name: 'Daram',
+            latitude: '11.63333000',
+            longitude: '124.78333000'),
+        City(
+            id: 148102,
+            name: 'Dolores',
+            latitude: '11.06138889',
+            longitude: '124.61333333'),
+        City(
+            id: 148211,
+            name: 'Doos',
+            latitude: '10.46527778',
+            longitude: '124.72944444'),
+        City(
+            id: 148038,
+            name: 'Dulag',
+            latitude: '10.95250000',
+            longitude: '125.03167000'),
+        City(
+            id: 148191,
+            name: 'Erenas',
+            latitude: '12.42444444',
+            longitude: '124.32388889'),
+        City(
+            id: 148116,
+            name: 'Gabas',
+            latitude: '10.72972222',
+            longitude: '124.79611111'),
+        City(
+            id: 148124,
+            name: 'Gamay',
+            latitude: '12.38333333',
+            longitude: '125.30000000'),
+        City(
+            id: 148047,
+            name: 'Gandara',
+            latitude: '12.01300000',
+            longitude: '124.81180000'),
+        City(
+            id: 148123,
+            name: 'General MacArthur',
+            latitude: '11.25000000',
+            longitude: '125.53333333'),
+        City(
+            id: 148055,
+            name: 'Ginabuyan',
+            latitude: '11.23833333',
+            longitude: '124.40472222'),
+        City(
+            id: 147973,
+            name: 'Giporlos',
+            latitude: '11.11666667',
+            longitude: '125.45000000'),
+        City(
+            id: 148086,
+            name: 'Gubang',
+            latitude: '10.64000000',
+            longitude: '124.86805556'),
+        City(
+            id: 148125,
+            name: 'Guindapunan',
+            latitude: '11.30277778',
+            longitude: '124.70583333'),
+        City(
+            id: 147972,
+            name: 'Guirang',
+            latitude: '11.35000000',
+            longitude: '125.11666667'),
+        City(
+            id: 148114,
+            name: 'Guiuan',
+            latitude: '11.03333333',
+            longitude: '125.73333333'),
+        City(
+            id: 148072,
+            name: 'Hernani',
+            latitude: '11.33333333',
+            longitude: '125.58333333'),
+        City(
+            id: 148193,
+            name: 'Hilongos',
+            latitude: '10.36666667',
+            longitude: '124.75000000'),
+        City(
+            id: 148099,
+            name: 'Hinabangan',
+            latitude: '11.70000000',
+            longitude: '125.06666667'),
+        City(
+            id: 148054,
+            name: 'Hindang',
+            latitude: '10.45000000',
+            longitude: '124.80000000'),
+        City(
+            id: 148122,
+            name: 'Hingatungan',
+            latitude: '10.58388889',
+            longitude: '125.18527778'),
+        City(
+            id: 148119,
+            name: 'Hinunangan',
+            latitude: '10.40000000',
+            longitude: '125.20000000'),
+        City(
+            id: 148130,
+            name: 'Hinundayan',
+            latitude: '10.35000000',
+            longitude: '125.25000000'),
+        City(
+            id: 148026,
+            name: 'Hipadpad',
+            latitude: '12.28555556',
+            longitude: '125.23611111'),
+        City(
+            id: 148048,
+            name: 'Hipasngo',
+            latitude: '10.66250000',
+            longitude: '124.80861111'),
+        City(
+            id: 148040,
+            name: 'Ibarra',
+            latitude: '10.12472222',
+            longitude: '124.88416667'),
+        City(
+            id: 148051,
+            name: 'Inangatan',
+            latitude: '11.25000000',
+            longitude: '124.40000000'),
+        City(
+            id: 148095,
+            name: 'Inopacan',
+            latitude: '10.50000000',
+            longitude: '124.75000000'),
+        City(
+            id: 148137,
+            name: 'Ipil',
+            latitude: '10.97472000',
+            longitude: '124.63639000'),
+        City(
+            id: 148139,
+            name: 'Isabel',
+            latitude: '10.93333333',
+            longitude: '124.43333333'),
+        City(
+            id: 148142,
+            name: 'Jaro',
+            latitude: '11.18333333',
+            longitude: '124.78333333'),
+        City(
+            id: 148141,
+            name: 'Javier',
+            latitude: '10.80000000',
+            longitude: '124.93333333'),
+        City(
+            id: 148198,
+            name: 'Jiabong',
+            latitude: '11.76250000',
+            longitude: '124.95194000'),
+        City(
+            id: 148104,
+            name: 'Jipapad',
+            latitude: '12.28333333',
+            longitude: '125.23333333'),
+        City(
+            id: 148028,
+            name: 'Jubasan',
+            latitude: '12.48444444',
+            longitude: '124.28722222'),
+        City(
+            id: 148149,
+            name: 'Julita',
+            latitude: '10.96666667',
+            longitude: '124.96666667'),
+        City(
+            id: 148027,
+            name: 'Kabuynan',
+            latitude: '11.08055556',
+            longitude: '125.02472222'),
+        City(
+            id: 148035,
+            name: 'Kampokpok',
+            latitude: '11.29611111',
+            longitude: '124.40500000'),
+        City(
+            id: 148140,
+            name: 'Kananga',
+            latitude: '11.18333333',
+            longitude: '124.56666667'),
+        City(
+            id: 148103,
+            name: 'Kawayan',
+            latitude: '11.70000000',
+            longitude: '124.36666667'),
+        City(
+            id: 148143,
+            name: 'Kilim',
+            latitude: '10.71166667',
+            longitude: '124.79666667'),
+        City(
+            id: 147964,
+            name: 'La Paz',
+            latitude: '10.88333333',
+            longitude: '124.95000000'),
+        City(
+            id: 148196,
+            name: 'Lalauigan',
+            latitude: '11.58916667',
+            longitude: '125.46972222'),
+        City(
+            id: 148032,
+            name: 'Lamak',
+            latitude: '10.39972222',
+            longitude: '124.73888889'),
+        City(
+            id: 148197,
+            name: 'Lao',
+            latitude: '11.01806000',
+            longitude: '124.55972000'),
+        City(
+            id: 147965,
+            name: 'Laoang',
+            latitude: '12.56666667',
+            longitude: '125.01666667'),
+        City(
+            id: 148134,
+            name: 'Lapinig',
+            latitude: '12.31500000',
+            longitude: '125.30200000'),
+        City(
+            id: 148034,
+            name: 'Las Navas',
+            latitude: '12.34000000',
+            longitude: '125.03200000'),
+        City(
+            id: 147969,
+            name: 'Lavezares',
+            latitude: '12.53333333',
+            longitude: '124.33333333'),
+        City(
+            id: 147963,
+            name: 'Leyte',
+            latitude: '11.36666667',
+            longitude: '124.48333333'),
+        City(
+            id: 147966,
+            name: 'Libagon',
+            latitude: '10.30000000',
+            longitude: '125.05000000'),
+        City(
+            id: 148037,
+            name: 'Libas',
+            latitude: '10.93888889',
+            longitude: '124.54500000'),
+        City(
+            id: 148074,
+            name: 'Libertad',
+            latitude: '11.03639000',
+            longitude: '124.56833000'),
+        City(
+            id: 147968,
+            name: 'Liberty',
+            latitude: '10.87416667',
+            longitude: '125.00250000'),
+        City(
+            id: 147970,
+            name: 'Liloan',
+            latitude: '10.15811000',
+            longitude: '125.11806000'),
+        City(
+            id: 148112,
+            name: 'Lim-oo',
+            latitude: '11.15083333',
+            longitude: '124.63083333'),
+        City(
+            id: 148073,
+            name: 'Limasawa',
+            latitude: '9.90777778',
+            longitude: '125.07500000'),
+        City(
+            id: 148036,
+            name: 'Limon',
+            latitude: '11.28888889',
+            longitude: '124.56722222'),
+        City(
+            id: 148033,
+            name: 'Llorente',
+            latitude: '11.41194444',
+            longitude: '125.54583333'),
+        City(
+            id: 148195,
+            name: 'Looc',
+            latitude: '11.47888889',
+            longitude: '124.55416667'),
+        City(
+            id: 147967,
+            name: 'Lope de Vega',
+            latitude: '12.29830000',
+            longitude: '124.62380000'),
+        City(
+            id: 148088,
+            name: 'Lubi',
+            latitude: '10.96666667',
+            longitude: '124.78333333'),
+        City(
+            id: 148084,
+            name: 'Maasin',
+            latitude: '10.13333333',
+            longitude: '124.85000000'),
+        City(
+            id: 148025,
+            name: 'Mabini',
+            latitude: '11.41666667',
+            longitude: '125.16666667'),
+        City(
+            id: 148100,
+            name: 'MacArthur',
+            latitude: '10.85000000',
+            longitude: '124.95000000'),
+        City(
+            id: 148150,
+            name: 'Macrohon',
+            latitude: '10.07972000',
+            longitude: '124.94306000'),
+        City(
+            id: 148076,
+            name: 'Mahagnao',
+            latitude: '10.98333000',
+            longitude: '124.88333000'),
+        City(
+            id: 148201,
+            name: 'Mahaplag',
+            latitude: '10.58333333',
+            longitude: '124.98333333'),
+        City(
+            id: 148199,
+            name: 'Makiwalo',
+            latitude: '12.51000000',
+            longitude: '124.70611111'),
+        City(
+            id: 148138,
+            name: 'Malaga',
+            latitude: '12.23694444',
+            longitude: '124.37527778'),
+        City(
+            id: 148144,
+            name: 'Malajog',
+            latitude: '12.11027778',
+            longitude: '124.47916667'),
+        City(
+            id: 148146,
+            name: 'Mantang',
+            latitude: '11.87000000',
+            longitude: '125.42833333'),
+        City(
+            id: 148145,
+            name: 'Mapanas',
+            latitude: '12.47500000',
+            longitude: '125.25400000'),
+        City(
+            id: 147997,
+            name: 'Marabut',
+            latitude: '11.11666667',
+            longitude: '125.21666667'),
+        City(
+            id: 148148,
+            name: 'Margen',
+            latitude: '11.01722000',
+            longitude: '124.52833000'),
+        City(
+            id: 148023,
+            name: 'Maripipi',
+            latitude: '11.78333333',
+            longitude: '124.35000000'),
+        City(
+            id: 148030,
+            name: 'Masarayao',
+            latitude: '11.08972222',
+            longitude: '124.61750000'),
+        City(
+            id: 148029,
+            name: 'Maslog',
+            latitude: '12.10000000',
+            longitude: '125.16666667'),
+        City(
+            id: 148093,
+            name: 'Matag-ob',
+            latitude: '11.11666667',
+            longitude: '124.46666667'),
+        City(
+            id: 148200,
+            name: 'Matalom',
+            latitude: '10.28333333',
+            longitude: '124.80000000'),
+        City(
+            id: 148194,
+            name: 'Matlang',
+            latitude: '10.89027778',
+            longitude: '124.45527778'),
+        City(
+            id: 148070,
+            name: 'Matuguinao',
+            latitude: '12.15000000',
+            longitude: '124.88333333'),
+        City(
+            id: 148031,
+            name: 'Maydolong',
+            latitude: '11.50000000',
+            longitude: '125.50000000'),
+        City(
+            id: 148136,
+            name: 'Mayorga',
+            latitude: '10.90000000',
+            longitude: '125.00000000'),
+        City(
+            id: 148147,
+            name: 'Maypangdan',
+            latitude: '11.65194444',
+            longitude: '125.45027778'),
+        City(
+            id: 148097,
+            name: 'Mercedes',
+            latitude: '11.10000000',
+            longitude: '125.71666667'),
+        City(
+            id: 148135,
+            name: 'Merida',
+            latitude: '10.90980000',
+            longitude: '124.53760000'),
+        City(
+            id: 148202,
+            name: 'Mondragon',
+            latitude: '12.51666667',
+            longitude: '124.75000000'),
+        City(
+            id: 148090,
+            name: 'Motiong',
+            latitude: '11.78333333',
+            longitude: '125.00000000'),
+        City(
+            id: 148024,
+            name: 'Naghalin',
+            latitude: '11.14555556',
+            longitude: '124.56722222'),
+        City(
+            id: 148169,
+            name: 'Napuro',
+            latitude: '12.02722222',
+            longitude: '124.70833333'),
+        City(
+            id: 148012,
+            name: 'Naval',
+            latitude: '11.58333333',
+            longitude: '124.45000000'),
+        City(
+            id: 148205,
+            name: 'Nena',
+            latitude: '11.76583333',
+            longitude: '125.41777778'),
+        City(
+            id: 148154,
+            name: 'Nenita',
+            latitude: '12.49166667',
+            longitude: '124.80444444'),
+        City(
+            id: 148168,
+            name: 'Oras',
+            latitude: '12.13333333',
+            longitude: '125.43333333'),
+        City(
+            id: 147962,
+            name: 'Ormoc',
+            latitude: '11.01666667',
+            longitude: '124.61666667'),
+        City(
+            id: 148164,
+            name: 'Padre Burgos',
+            latitude: '10.03333333',
+            longitude: '125.01666667'),
+        City(
+            id: 148001,
+            name: 'Pagsanghan',
+            latitude: '11.96508889',
+            longitude: '124.72130000'),
+        City(
+            id: 147998,
+            name: 'Palanit',
+            latitude: '12.32138889',
+            longitude: '124.34333333'),
+        City(
+            id: 148157,
+            name: 'Palapag',
+            latitude: '12.54700000',
+            longitude: '125.11600000'),
+        City(
+            id: 148155,
+            name: 'Palaroo',
+            latitude: '11.40555556',
+            longitude: '124.48305556'),
+        City(
+            id: 148015,
+            name: 'Palhi',
+            latitude: '10.64972222',
+            longitude: '124.80611111'),
+        City(
+            id: 148158,
+            name: 'Palo',
+            latitude: '11.15833333',
+            longitude: '124.99166667'),
+        City(
+            id: 148000,
+            name: 'Palompon',
+            latitude: '11.05080000',
+            longitude: '124.38430000'),
+        City(
+            id: 148013,
+            name: 'Pambujan',
+            latitude: '12.56666667',
+            longitude: '124.93333333'),
+        City(
+            id: 148007,
+            name: 'Panalanoy',
+            latitude: '11.25111111',
+            longitude: '125.00638889'),
+        City(
+            id: 148009,
+            name: 'Pangdan',
+            latitude: '11.79166667',
+            longitude: '124.87722222'),
+        City(
+            id: 148204,
+            name: 'Pangpang',
+            latitude: '12.56916667',
+            longitude: '125.07388889'),
+        City(
+            id: 148091,
+            name: 'Pasay',
+            latitude: '10.11443000',
+            longitude: '124.89563000'),
+        City(
+            id: 148019,
+            name: 'Pastrana',
+            latitude: '11.13333333',
+            longitude: '124.88333333'),
+        City(
+            id: 148166,
+            name: 'Patong',
+            latitude: '12.33638889',
+            longitude: '125.28527778'),
+        City(
+            id: 148002,
+            name: 'Pawing',
+            latitude: '11.18000000',
+            longitude: '125.00277778'),
+        City(
+            id: 148151,
+            name: 'Piña',
+            latitude: '12.19083333',
+            longitude: '124.40138889'),
+        City(
+            id: 148101,
+            name: 'Pinabacdao',
+            latitude: '11.61666667',
+            longitude: '124.98333333'),
+        City(
+            id: 148165,
+            name: 'Pinamopoan',
+            latitude: '11.31472222',
+            longitude: '124.57388889'),
+        City(
+            id: 148087,
+            name: 'Pinangomhan',
+            latitude: '11.48944444',
+            longitude: '124.46166667'),
+        City(
+            id: 148163,
+            name: 'Pintuyan',
+            latitude: '9.95000000',
+            longitude: '125.25000000'),
+        City(
+            id: 148159,
+            name: 'Plaridel',
+            latitude: '10.56666667',
+            longitude: '124.76444444'),
+        City(
+            id: 148152,
+            name: 'Polahongon',
+            latitude: '10.52888889',
+            longitude: '124.96944444'),
+        City(
+            id: 148167,
+            name: 'Polañge',
+            latitude: '12.39666667',
+            longitude: '124.63111111'),
+        City(
+            id: 148011,
+            name: 'Puerto Bello',
+            latitude: '10.97333333',
+            longitude: '124.53500000'),
+        City(
+            id: 148153,
+            name: 'Quinapondan',
+            latitude: '11.15000000',
+            longitude: '125.51666667'),
+        City(
+            id: 148016,
+            name: 'Rizal',
+            latitude: '11.17638889',
+            longitude: '124.57944444'),
+        City(
+            id: 148018,
+            name: 'Rosario',
+            latitude: '12.51666667',
+            longitude: '124.41666667'),
+        City(
+            id: 147988,
+            name: 'Sabang',
+            latitude: '12.07472222',
+            longitude: '124.54138889'),
+        City(
+            id: 148021,
+            name: 'Saint Bernard',
+            latitude: '10.28333333',
+            longitude: '125.13333333'),
+        City(
+            id: 148160,
+            name: 'Salcedo',
+            latitude: '11.15000000',
+            longitude: '125.66666667'),
+        City(
+            id: 148170,
+            name: 'Salvacion',
+            latitude: '12.61500000',
+            longitude: '125.03888889'),
+        City(
+            id: 148010,
+            name: 'San Antonio',
+            latitude: '12.41666667',
+            longitude: '124.26666667'),
+        City(
+            id: 148006,
+            name: 'San Eduardo',
+            latitude: '12.16777778',
+            longitude: '125.45027778'),
+        City(
+            id: 148203,
+            name: 'San Francisco',
+            latitude: '10.06000000',
+            longitude: '125.16056000'),
+        City(
+            id: 148014,
+            name: 'San Isidro',
+            latitude: '11.41666667',
+            longitude: '124.35000000'),
+        City(
+            id: 148003,
+            name: 'San Joaquin',
+            latitude: '12.16694444',
+            longitude: '124.43000000'),
+        City(
+            id: 148008,
+            name: 'San Jorge',
+            latitude: '11.98333333',
+            longitude: '124.81666667'),
+        City(
+            id: 148098,
+            name: 'San Jose',
+            latitude: '10.98888889',
+            longitude: '125.03527778'),
+        City(
+            id: 148162,
+            name: 'San Jose de Buan',
+            latitude: '12.05000000',
+            longitude: '125.06666667'),
+        City(
+            id: 148071,
+            name: 'San Juan',
+            latitude: '11.00056000',
+            longitude: '124.53917000'),
+        City(
+            id: 148017,
+            name: 'San Julian',
+            latitude: '11.75361000',
+            longitude: '125.45583000'),
+        City(
+            id: 148004,
+            name: 'San Miguel',
+            latitude: '11.26722200',
+            longitude: '124.83250000'),
+        City(
+            id: 148005,
+            name: 'San Pedro',
+            latitude: '10.96111111',
+            longitude: '124.81972222'),
+        City(
+            id: 148092,
+            name: 'San Policarpio',
+            latitude: '12.06861111',
+            longitude: '124.56944444'),
+        City(
+            id: 148156,
+            name: 'San Policarpo',
+            latitude: '12.17910000',
+            longitude: '125.50720000'),
+        City(
+            id: 148020,
+            name: 'San Ricardo',
+            latitude: '9.91666667',
+            longitude: '125.28333333'),
+        City(
+            id: 148094,
+            name: 'San Roque',
+            latitude: '11.05000000',
+            longitude: '125.01666667'),
+        City(
+            id: 148079,
+            name: 'San Sebastian',
+            latitude: '11.70000000',
+            longitude: '125.01666667'),
+        City(
+            id: 147961,
+            name: 'San Vicente',
+            latitude: '11.11833333',
+            longitude: '124.56583333'),
+        City(
+            id: 148077,
+            name: 'Santa Cruz',
+            latitude: '11.37740000',
+            longitude: '124.80010000'),
+        City(
+            id: 148022,
+            name: 'Santa Fe',
+            latitude: '11.18555600',
+            longitude: '124.91611100'),
+        City(
+            id: 147999,
+            name: 'Santa Margarita',
+            latitude: '12.03778000',
+            longitude: '124.65778000'),
+        City(
+            id: 148161,
+            name: 'Santa Rita',
+            latitude: '11.46666667',
+            longitude: '124.95000000'),
+        City(
+            id: 148096,
+            name: 'Santo Niño',
+            latitude: '11.92630000',
+            longitude: '124.44920000'),
+        City(
+            id: 147993,
+            name: 'Siguinon',
+            latitude: '10.94222222',
+            longitude: '124.68055556'),
+        City(
+            id: 147960,
+            name: 'Silago',
+            latitude: '10.52910000',
+            longitude: '125.16180000'),
+        City(
+            id: 148181,
+            name: 'Silanga',
+            latitude: '11.81805556',
+            longitude: '124.84305556'),
+        City(
+            id: 147957,
+            name: 'Silvino Lobos',
+            latitude: '12.30000000',
+            longitude: '124.83333333'),
+        City(
+            id: 147959,
+            name: 'Sogod',
+            latitude: '10.38333333',
+            longitude: '124.98333333'),
+        City(
+            id: 147992,
+            name: 'Sulangan',
+            latitude: '10.93611111',
+            longitude: '125.82638889'),
+        City(
+            id: 147958,
+            name: 'Sulat',
+            latitude: '11.81666667',
+            longitude: '125.45000000'),
+        City(
+            id: 148171,
+            name: 'Tabango',
+            latitude: '11.31666667',
+            longitude: '124.36666667'),
+        City(
+            id: 148206,
+            name: 'Tabing',
+            latitude: '11.40000000',
+            longitude: '124.35000000'),
+        City(
+            id: 147991,
+            name: 'Tabontabon',
+            latitude: '11.03333333',
+            longitude: '124.96666667'),
+        City(
+            id: 147995,
+            name: 'Tacloban',
+            latitude: '11.24333000',
+            longitude: '125.00472000'),
+        City(
+            id: 148178,
+            name: 'Taft',
+            latitude: '11.90000000',
+            longitude: '125.41666667'),
+        City(
+            id: 148176,
+            name: 'Tagapul-an',
+            latitude: '12.05000000',
+            longitude: '124.15000000'),
+        City(
+            id: 148207,
+            name: 'Tagbubungang Diot',
+            latitude: '11.12583333',
+            longitude: '124.40277778'),
+        City(
+            id: 147983,
+            name: 'Talalora',
+            latitude: '11.51666667',
+            longitude: '124.85000000'),
+        City(
+            id: 148179,
+            name: 'Talisayan',
+            latitude: '10.95000000',
+            longitude: '124.70000000'),
+        City(
+            id: 148209,
+            name: 'Tanauan',
+            latitude: '11.11666667',
+            longitude: '125.01666667'),
+        City(
+            id: 148082,
+            name: 'Tarangnan',
+            latitude: '11.90000000',
+            longitude: '124.75000000'),
+        City(
+            id: 148081,
+            name: 'Tibur',
+            latitude: '11.17560000',
+            longitude: '124.38690000'),
+        City(
+            id: 148174,
+            name: 'Tinambacan',
+            latitude: '12.09416667',
+            longitude: '124.50250000'),
+        City(
+            id: 147996,
+            name: 'Tolosa',
+            latitude: '11.03333333',
+            longitude: '125.01666667'),
+        City(
+            id: 148208,
+            name: 'Tomas Oppus',
+            latitude: '10.25000000',
+            longitude: '124.98333333'),
+        City(
+            id: 148180,
+            name: 'Tucdao',
+            latitude: '11.70111111',
+            longitude: '124.47194444'),
+        City(
+            id: 148172,
+            name: 'Tugbong',
+            latitude: '11.01666667',
+            longitude: '124.60000000'),
+        City(
+            id: 147985,
+            name: 'Tunga',
+            latitude: '11.25000000',
+            longitude: '124.75000000'),
+        City(
+            id: 147990,
+            name: 'Tutubigan',
+            latitude: '11.83972222',
+            longitude: '125.06138889'),
+        City(
+            id: 148210,
+            name: 'Umaganhan',
+            latitude: '11.32916667',
+            longitude: '124.37694444'),
+        City(
+            id: 147994,
+            name: 'Valencia',
+            latitude: '11.10888889',
+            longitude: '124.57250000'),
+        City(
+            id: 148177,
+            name: 'Victoria',
+            latitude: '12.45000000',
+            longitude: '124.31666667'),
+        City(
+            id: 148173,
+            name: 'Viga',
+            latitude: '12.51611111',
+            longitude: '125.05277778'),
+        City(
+            id: 147987,
+            name: 'Villaba',
+            latitude: '11.21666667',
+            longitude: '124.40000000'),
+        City(
+            id: 147986,
+            name: 'Villareal',
+            latitude: '11.56666667',
+            longitude: '124.93333333'),
+        City(
+            id: 147989,
+            name: 'Viriato',
+            latitude: '12.29027778',
+            longitude: '124.35333333'),
+        City(
+            id: 148175,
+            name: 'Wright',
+            latitude: '11.77027778',
+            longitude: '125.02194444'),
+        City(
+            id: 148083,
+            name: 'Zumarraga',
+            latitude: '11.66667000',
+            longitude: '124.86667000')
+      ]),
       State(id: 1303, name: 'Guimaras', stateCode: 'GUI', cities: []),
       State(id: 1300, name: 'Ifugao', stateCode: 'IFU', cities: []),
       State(id: 1298, name: 'Ilocos Norte', stateCode: 'ILN', cities: []),
@@ -27482,11 +27973,6 @@ const phl = Country(
             longitude: '121.07920000'),
         City(
             id: 85046,
-            name: 'Tanza',
-            latitude: '14.67530000',
-            longitude: '120.93890000'),
-        City(
-            id: 143930,
             name: 'Tanza',
             latitude: '14.67530000',
             longitude: '120.93890000'),

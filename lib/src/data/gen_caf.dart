@@ -114,11 +114,6 @@ const caf = Country(
             latitude: '3.97145000',
             longitude: '17.93352000'),
         City(
-            id: 17326,
-            name: 'Mbaïki',
-            latitude: '3.86781000',
-            longitude: '17.98923000'),
-        City(
             id: 17328,
             name: 'Mongoumba',
             latitude: '3.64153000',
@@ -130,11 +125,6 @@ const caf = Country(
             name: 'Berberati',
             latitude: '4.31211000',
             longitude: '15.88948000'),
-        City(
-            id: 17302,
-            name: 'Berbérati',
-            latitude: '4.26116000',
-            longitude: '15.79216000'),
         City(
             id: 17314,
             name: 'Carnot',

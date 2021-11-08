@@ -4178,6 +4178,18 @@ const bra = Country(
             latitude: '-3.56222000',
             longitude: '-41.09222000')
       ]),
+      State(id: 2017, name: 'Distrito Federal', stateCode: 'DF', cities: [
+        City(
+            id: 10776,
+            name: 'Brasília',
+            latitude: '-15.77972000',
+            longitude: '-47.92972000'),
+        City(
+            id: 13934,
+            name: 'Planaltina',
+            latitude: '-15.61791000',
+            longitude: '-47.64874000')
+      ]),
       State(id: 2018, name: 'Espírito Santo', stateCode: 'ES', cities: [
         City(
             id: 10087,
@@ -4410,11 +4422,6 @@ const bra = Country(
             latitude: '-21.04333000',
             longitude: '-40.82444000'),
         City(
-            id: 12982,
-            name: 'Marataízes',
-            latitude: '-21.09480000',
-            longitude: '-40.89904000'),
-        City(
             id: 13000,
             name: 'Marechal Floriano',
             latitude: '-20.41278000',
@@ -4579,18 +4586,6 @@ const bra = Country(
             name: 'Vitória',
             latitude: '-20.31944000',
             longitude: '-40.33778000')
-      ]),
-      State(id: 2017, name: 'Federal District', stateCode: 'DF', cities: [
-        City(
-            id: 10776,
-            name: 'Brasília',
-            latitude: '-15.77972000',
-            longitude: '-47.92972000'),
-        City(
-            id: 13934,
-            name: 'Planaltina',
-            latitude: '-15.61791000',
-            longitude: '-47.64874000')
       ]),
       State(id: 2000, name: 'Goiás', stateCode: 'GO', cities: [
         City(
@@ -13556,11 +13551,6 @@ const bra = Country(
             latitude: '-6.99463000',
             longitude: '-36.60213000'),
         City(
-            id: 12713,
-            name: 'Juàzeirinho',
-            latitude: '-6.81667000',
-            longitude: '-38.05000000'),
-        City(
             id: 12683,
             name: 'Junco do Seridó',
             latitude: '-6.97843000',
@@ -18308,11 +18298,6 @@ const bra = Country(
             name: 'Areal',
             latitude: '-22.23056000',
             longitude: '-43.10556000'),
-        City(
-            id: 10401,
-            name: 'Armação de Búzios',
-            latitude: '-22.74694000',
-            longitude: '-41.88167000'),
         City(
             id: 10402,
             name: 'Armação dos Búzios',
@@ -23259,11 +23244,6 @@ const bra = Country(
             latitude: '-28.39278000',
             longitude: '-49.39667000'),
         City(
-            id: 12805,
-            name: 'Lauro Müller',
-            latitude: '-28.38538000',
-            longitude: '-49.46723000'),
-        City(
             id: 12814,
             name: 'Lebon Régis',
             latitude: '-26.88524000',
@@ -24651,11 +24631,6 @@ const bra = Country(
             latitude: '-24.00583000',
             longitude: '-48.34944000'),
         City(
-            id: 11096,
-            name: 'Capão Bonito',
-            latitude: '-24.06183000',
-            longitude: '-48.29520000'),
-        City(
             id: 11069,
             name: 'Capela do Alto',
             latitude: '-23.47056000',
@@ -25790,11 +25765,6 @@ const bra = Country(
             name: 'Mirandopólis',
             latitude: '-21.13361000',
             longitude: '-51.10167000'),
-        City(
-            id: 13142,
-            name: 'Mirandópolis',
-            latitude: '-21.12459000',
-            longitude: '-51.15123000'),
         City(
             id: 13147,
             name: 'Mirante do Paranapanema',

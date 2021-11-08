@@ -389,11 +389,6 @@ const irq = Country(
             latitude: '36.29548000',
             longitude: '41.89315000'),
         City(
-            id: 134538,
-            name: 'Sinjār',
-            latitude: '36.32090000',
-            longitude: '41.87656000'),
-        City(
             id: 134542,
             name: 'Tall ‘Afar',
             latitude: '36.37913000',

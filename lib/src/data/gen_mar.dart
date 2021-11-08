@@ -26,11 +26,12 @@ const mar = Country(
     emoji: '🇲🇦',
     emojiU: 'U+1F1F2 U+1F1E6',
     states: [
-      State(id: 3320, name: 'Al Haouz Province', stateCode: 'HAO', cities: []),
       State(
-          id: 3267, name: 'Al Hoceïma Province', stateCode: 'HOC', cities: []),
-      State(id: 3266, name: 'Aousserd Province', stateCode: 'AOU', cities: []),
-      State(id: 3297, name: 'Assa-Zag Province', stateCode: 'ASZ', cities: [
+          id: 4928, name: 'Agadir-Ida-Ou-Tanane', stateCode: 'AGD', cities: []),
+      State(id: 3320, name: 'Al Haouz', stateCode: 'HAO', cities: []),
+      State(id: 3267, name: 'Al Hoceïma', stateCode: 'HOC', cities: []),
+      State(id: 3266, name: 'Aousserd (EH)', stateCode: 'AOU', cities: []),
+      State(id: 3297, name: 'Assa-Zag (EH-partial)', stateCode: 'ASZ', cities: [
         City(
             id: 67046,
             name: 'Agadir',
@@ -162,16 +163,16 @@ const mar = Country(
             latitude: '29.58333000',
             longitude: '-9.50000000')
       ]),
-      State(id: 3321, name: 'Azilal Province', stateCode: 'AZI', cities: []),
-      State(
-          id: 3304, name: 'Ben Slimane Province', stateCode: 'BES', cities: []),
+      State(id: 3321, name: 'Azilal', stateCode: 'AZI', cities: []),
+      State(id: 3272, name: 'Béni Mellal', stateCode: 'BEM', cities: []),
       State(
           id: 3278, name: 'Béni Mellal-Khénifra', stateCode: '05', cities: []),
-      State(
-          id: 3272, name: 'Béni-Mellal Province', stateCode: 'BEM', cities: []),
-      State(id: 3285, name: 'Berkane Province', stateCode: 'BER', cities: []),
-      State(id: 3275, name: 'Boujdour Province', stateCode: 'BOD', cities: []),
-      State(id: 3270, name: 'Boulemane Province', stateCode: 'BOM', cities: []),
+      State(id: 3304, name: 'Benslimane', stateCode: 'BES', cities: []),
+      State(id: 3285, name: 'Berkane', stateCode: 'BER', cities: []),
+      State(id: 4929, name: 'Berrechid', stateCode: 'BRR', cities: []),
+      State(id: 3275, name: 'Boujdour (EH)', stateCode: 'BOD', cities: []),
+      State(id: 3270, name: 'Boulemane', stateCode: 'BOM', cities: []),
+      State(id: 4930, name: 'Casablanca', stateCode: 'CAS', cities: []),
       State(id: 3303, name: 'Casablanca-Settat', stateCode: '06', cities: [
         City(
             id: 67071,
@@ -279,11 +280,14 @@ const mar = Country(
             latitude: '33.37981000',
             longitude: '-7.61932000')
       ]),
+      State(id: 3310, name: 'Chefchaouen', stateCode: 'CHE', cities: []),
+      State(id: 3274, name: 'Chichaoua', stateCode: 'CHI', cities: []),
+      State(id: 3302, name: 'Chtouka-Ait Baha', stateCode: 'CHT', cities: []),
       State(
-          id: 3310, name: 'Chefchaouen Province', stateCode: 'CHE', cities: []),
-      State(id: 3274, name: 'Chichaoua Province', stateCode: 'CHI', cities: []),
-      State(
-          id: 3306, name: 'Dakhla-Oued Ed-Dahab', stateCode: '12', cities: []),
+          id: 3306,
+          name: 'Dakhla-Oued Ed-Dahab (EH)',
+          stateCode: '12',
+          cities: []),
       State(id: 3290, name: 'Drâa-Tafilalet', stateCode: '08', cities: [
         City(
             id: 67049,
@@ -381,14 +385,20 @@ const mar = Country(
             latitude: '30.34839000',
             longitude: '-5.83649000')
       ]),
-      State(id: 3291, name: 'El Hajeb Province', stateCode: 'HAJ', cities: []),
-      State(id: 3280, name: 'El Jadida Province', stateCode: 'JDI', cities: []),
+      State(id: 4931, name: 'Driouch', stateCode: 'DRI', cities: []),
+      State(id: 3291, name: 'El Hajeb', stateCode: 'HAJ', cities: []),
+      State(id: 3280, name: 'El Jadida', stateCode: 'JDI', cities: []),
       State(
-          id: 3299, name: 'Errachidia Province', stateCode: 'ERR', cities: []),
-      State(id: 3292, name: 'Es Semara Province', stateCode: 'ESM', cities: []),
-      State(id: 3316, name: 'Essaouira Province', stateCode: 'ESI', cities: []),
+          id: 3309, name: 'El Kelâa des Sraghna', stateCode: 'KES', cities: []),
+      State(id: 3299, name: 'Errachidia', stateCode: 'ERR', cities: []),
       State(
-          id: 3300, name: 'Fahs Anjra Province', stateCode: 'FAH', cities: []),
+          id: 3292,
+          name: 'Es-Semara (EH-partial)',
+          stateCode: 'ESM',
+          cities: []),
+      State(id: 3316, name: 'Essaouira', stateCode: 'ESI', cities: []),
+      State(id: 3300, name: 'Fahs-Anjra', stateCode: 'FAH', cities: []),
+      State(id: 4932, name: 'Fès', stateCode: 'FES', cities: []),
       State(id: 3313, name: 'Fès-Meknès', stateCode: '03', cities: [
         City(
             id: 67076,
@@ -441,11 +451,6 @@ const mar = Country(
             latitude: '34.04000000',
             longitude: '-4.87000000'),
         City(
-            id: 67122,
-            name: 'Fès',
-            latitude: '34.03313000',
-            longitude: '-5.00028000'),
-        City(
             id: 67123,
             name: 'Fès al Bali',
             latitude: '34.07010000',
@@ -475,11 +480,6 @@ const mar = Country(
             name: 'Meknes',
             latitude: '33.97761000',
             longitude: '-5.52496000'),
-        City(
-            id: 67164,
-            name: 'Meknès',
-            latitude: '33.89352000',
-            longitude: '-5.54727000'),
         City(
             id: 67169,
             name: 'Missour',
@@ -541,43 +541,41 @@ const mar = Country(
             latitude: '33.90650000',
             longitude: '-4.02696000')
       ]),
-      State(id: 3301, name: 'Figuig Province', stateCode: 'FIG', cities: []),
-      State(id: 3265, name: 'Guelmim Province', stateCode: 'GUE', cities: []),
-      State(id: 3305, name: 'Guelmim-Oued Noun', stateCode: '10', cities: [
-        City(
-            id: 67070,
-            name: 'Assa-Zag',
-            latitude: '28.16667000',
-            longitude: '-9.41667000'),
-        City(
-            id: 67126,
-            name: 'Guelmim',
-            latitude: '28.75000000',
-            longitude: '-10.00000000'),
-        City(
-            id: 67209,
-            name: 'Sidi Ifni',
-            latitude: '29.37719000',
-            longitude: '-10.17111000'),
-        City(
-            id: 67232,
-            name: 'Tan-Tan',
-            latitude: '28.08333000',
-            longitude: '-11.08333000')
-      ]),
-      State(id: 3325, name: 'Ifrane Province', stateCode: 'IFR', cities: []),
+      State(id: 3301, name: 'Figuig', stateCode: 'FIG', cities: []),
+      State(id: 4933, name: 'Fquih Ben Salah', stateCode: 'FQH', cities: []),
+      State(id: 3265, name: 'Guelmim', stateCode: 'GUE', cities: []),
       State(
-          id: 3294,
-          name: 'Inezgane-Aït Melloul Prefecture',
-          stateCode: 'INE',
-          cities: []),
-      State(id: 3307, name: 'Jerada Province', stateCode: 'JRA', cities: []),
+          id: 3305,
+          name: 'Guelmim-Oued Noun (EH-partial)',
+          stateCode: '10',
+          cities: [
+            City(
+                id: 67070,
+                name: 'Assa-Zag',
+                latitude: '28.16667000',
+                longitude: '-9.41667000'),
+            City(
+                id: 67126,
+                name: 'Guelmim',
+                latitude: '28.75000000',
+                longitude: '-10.00000000'),
+            City(
+                id: 67209,
+                name: 'Sidi Ifni',
+                latitude: '29.37719000',
+                longitude: '-10.17111000'),
+            City(
+                id: 67232,
+                name: 'Tan-Tan',
+                latitude: '28.08333000',
+                longitude: '-11.08333000')
+          ]),
+      State(id: 4934, name: 'Guercif', stateCode: 'GUF', cities: []),
+      State(id: 3325, name: 'Ifrane', stateCode: 'IFR', cities: []),
       State(
-          id: 3309,
-          name: 'Kelaat Sraghna Province',
-          stateCode: 'KES',
-          cities: []),
-      State(id: 3308, name: 'Kénitra Province', stateCode: 'KEN', cities: [
+          id: 3294, name: 'Inezgane-Ait Melloul', stateCode: 'INE', cities: []),
+      State(id: 3307, name: 'Jerada', stateCode: 'JRA', cities: []),
+      State(id: 3308, name: 'Kénitra', stateCode: 'KEN', cities: [
         City(
             id: 67066,
             name: 'Arbaoua',
@@ -684,8 +682,8 @@ const mar = Country(
             latitude: '33.89469000',
             longitude: '-6.30649000')
       ]),
-      State(id: 3276, name: 'Khémisset Province', stateCode: 'KHE', cities: []),
-      State(id: 3317, name: 'Khénifra Province', stateCode: 'KHN', cities: [
+      State(id: 3276, name: 'Khémisset', stateCode: 'KHE', cities: []),
+      State(id: 3317, name: 'Khénifra', stateCode: 'KHN', cities: [
         City(
             id: 67050,
             name: 'Aguelmous',
@@ -817,60 +815,8 @@ const mar = Country(
             latitude: '32.64445000',
             longitude: '-5.91826000')
       ]),
-      State(id: 3326, name: 'Khouribga Province', stateCode: 'KHO', cities: []),
-      State(id: 3293, name: 'Laâyoune Province', stateCode: 'LAA', cities: []),
-      State(
-          id: 3298,
-          name: 'Laâyoune-Sakia El Hamra',
-          stateCode: '11',
-          cities: [
-            City(
-                id: 67052,
-                name: 'Akhfennir',
-                latitude: '28.09455000',
-                longitude: '-12.05157000'),
-            City(
-                id: 67089,
-                name: 'Boujdour',
-                latitude: '25.66172000',
-                longitude: '-13.68419000'),
-            City(
-                id: 67115,
-                name: 'Es-Semara',
-                latitude: '27.75000000',
-                longitude: '-11.00000000'),
-            City(
-                id: 67127,
-                name: 'Gueltat Zemmour',
-                latitude: '25.14276000',
-                longitude: '-12.37168000'),
-            City(
-                id: 67154,
-                name: 'Laayoune',
-                latitude: '27.83333000',
-                longitude: '-12.33333000'),
-            City(
-                id: 67220,
-                name: 'Smara',
-                latitude: '26.73841000',
-                longitude: '-11.67194000'),
-            City(
-                id: 67239,
-                name: 'Tarfaya',
-                latitude: '27.93901000',
-                longitude: '-12.92082000')
-          ]),
-      State(id: 3268, name: 'Larache Province', stateCode: 'LAR', cities: []),
-      State(id: 3288, name: 'Marrakesh-Safi', stateCode: '07', cities: []),
-      State(id: 3284, name: 'Mediouna Province', stateCode: 'MED', cities: []),
-      State(
-          id: 3315,
-          name: 'Moulay Yacoub Province',
-          stateCode: 'MOU',
-          cities: []),
-      State(id: 3281, name: 'Nador Province', stateCode: 'NAD', cities: []),
-      State(id: 3287, name: 'Nouaceur Province', stateCode: 'NOU', cities: []),
-      State(id: 3271, name: 'Oriental', stateCode: '02', cities: [
+      State(id: 3326, name: 'Khouribga', stateCode: 'KHO', cities: []),
+      State(id: 3271, name: 'L\'Oriental', stateCode: '02', cities: [
         City(
             id: 67051,
             name: 'Ahfir',
@@ -972,30 +918,83 @@ const mar = Country(
             latitude: '34.94282000',
             longitude: '-2.73290000')
       ]),
+      State(id: 3293, name: 'Laâyoune (EH)', stateCode: 'LAA', cities: []),
       State(
-          id: 3269, name: 'Ouarzazate Province', stateCode: 'OUA', cities: []),
-      State(
-          id: 3319,
-          name: 'Oued Ed-Dahab Province',
-          stateCode: 'OUD',
+          id: 3298,
+          name: 'Laâyoune-Sakia El Hamra (EH-partial)',
+          stateCode: '11',
           cities: [
             City(
-                id: 67064,
-                name: 'Aousserd',
-                latitude: '21.91977000',
-                longitude: '-15.02068000'),
+                id: 67052,
+                name: 'Akhfennir',
+                latitude: '28.09455000',
+                longitude: '-12.05157000'),
             City(
-                id: 67134,
-                name: 'Imlili',
-                latitude: '22.65580000',
-                longitude: '-15.60719000'),
+                id: 67089,
+                name: 'Boujdour',
+                latitude: '25.66172000',
+                longitude: '-13.68419000'),
             City(
-                id: 67182,
-                name: 'Oued-Ed-Dahab',
-                latitude: '23.64201000',
-                longitude: '-14.44934000')
+                id: 67115,
+                name: 'Es-Semara',
+                latitude: '27.75000000',
+                longitude: '-11.00000000'),
+            City(
+                id: 67127,
+                name: 'Gueltat Zemmour',
+                latitude: '25.14276000',
+                longitude: '-12.37168000'),
+            City(
+                id: 67154,
+                name: 'Laayoune',
+                latitude: '27.83333000',
+                longitude: '-12.33333000'),
+            City(
+                id: 67220,
+                name: 'Smara',
+                latitude: '26.73841000',
+                longitude: '-11.67194000'),
+            City(
+                id: 67239,
+                name: 'Tarfaya',
+                latitude: '27.93901000',
+                longitude: '-12.92082000')
           ]),
-      State(id: 3311, name: 'Safi Province', stateCode: 'SAF', cities: [
+      State(id: 3268, name: 'Larache', stateCode: 'LAR', cities: []),
+      State(id: 4936, name: 'M’diq-Fnideq', stateCode: 'MDF', cities: []),
+      State(id: 4935, name: 'Marrakech', stateCode: 'MAR', cities: []),
+      State(id: 3288, name: 'Marrakesh-Safi', stateCode: '07', cities: []),
+      State(id: 3284, name: 'Médiouna', stateCode: 'MED', cities: []),
+      State(id: 4937, name: 'Meknès', stateCode: 'MEK', cities: []),
+      State(id: 4938, name: 'Midelt', stateCode: 'MID', cities: []),
+      State(id: 4939, name: 'Mohammadia', stateCode: 'MOH', cities: []),
+      State(id: 3315, name: 'Moulay Yacoub', stateCode: 'MOU', cities: []),
+      State(id: 3281, name: 'Nador', stateCode: 'NAD', cities: []),
+      State(id: 3287, name: 'Nouaceur', stateCode: 'NOU', cities: []),
+      State(id: 3269, name: 'Ouarzazate', stateCode: 'OUA', cities: []),
+      State(id: 3319, name: 'Oued Ed-Dahab (EH)', stateCode: 'OUD', cities: [
+        City(
+            id: 67064,
+            name: 'Aousserd',
+            latitude: '21.91977000',
+            longitude: '-15.02068000'),
+        City(
+            id: 67134,
+            name: 'Imlili',
+            latitude: '22.65580000',
+            longitude: '-15.60719000'),
+        City(
+            id: 67182,
+            name: 'Oued-Ed-Dahab',
+            latitude: '23.64201000',
+            longitude: '-14.44934000')
+      ]),
+      State(id: 4941, name: 'Ouezzane', stateCode: 'OUZ', cities: []),
+      State(id: 4940, name: 'Oujda-Angad', stateCode: 'OUJ', cities: []),
+      State(id: 4942, name: 'Rabat', stateCode: 'RAB', cities: []),
+      State(id: 4927, name: 'Rabat-Salé-Kénitra', stateCode: '04', cities: []),
+      State(id: 4943, name: 'Rehamna', stateCode: 'REH', cities: []),
+      State(id: 3311, name: 'Safi', stateCode: 'SAF', cities: [
         City(
             id: 67044,
             name: 'Abadou',
@@ -1102,19 +1101,18 @@ const mar = Country(
             latitude: '31.44470000',
             longitude: '-7.39224000')
       ]),
-      State(id: 3289, name: 'Sefrou Province', stateCode: 'SEF', cities: []),
-      State(id: 3282, name: 'Settat Province', stateCode: 'SET', cities: []),
-      State(
-          id: 3302,
-          name: 'Shtouka Ait Baha Province',
-          stateCode: 'CHT',
-          cities: []),
-      State(
-          id: 3279, name: 'Sidi Kacem Province', stateCode: 'SIK', cities: []),
-      State(
-          id: 3273, name: 'Sidi Youssef Ben Ali', stateCode: 'SYB', cities: []),
+      State(id: 4944, name: 'Salé', stateCode: 'SAL', cities: []),
+      State(id: 3289, name: 'Sefrou', stateCode: 'SEF', cities: []),
+      State(id: 3282, name: 'Settat', stateCode: 'SET', cities: []),
+      State(id: 4945, name: 'Sidi Bennour', stateCode: 'SIB', cities: []),
+      State(id: 4946, name: 'Sidi Ifni', stateCode: 'SIF', cities: []),
+      State(id: 3279, name: 'Sidi Kacem', stateCode: 'SIK', cities: []),
+      State(id: 4952, name: 'Sidi Slimane', stateCode: 'SIL', cities: []),
+      State(id: 4947, name: 'Skhirate-Témara', stateCode: 'SKH', cities: []),
       State(id: 3295, name: 'Souss-Massa', stateCode: '09', cities: []),
-      State(id: 3286, name: 'Tan-Tan Province', stateCode: 'TNT', cities: []),
+      State(
+          id: 3286, name: 'Tan-Tan (EH-partial)', stateCode: 'TNT', cities: []),
+      State(id: 4950, name: 'Tanger-Assilah', stateCode: 'TNG', cities: []),
       State(
           id: 3324,
           name: 'Tanger-Tétouan-Al Hoceïma',
@@ -1246,11 +1244,6 @@ const mar = Country(
                 latitude: '35.58333000',
                 longitude: '-5.50000000'),
             City(
-                id: 67262,
-                name: 'Tétouan',
-                latitude: '35.57845000',
-                longitude: '-5.36837000'),
-            City(
                 id: 67257,
                 name: 'Tirhanimîne',
                 latitude: '35.23619000',
@@ -1266,12 +1259,16 @@ const mar = Country(
                 latitude: '34.80321000',
                 longitude: '-5.34458000')
           ]),
-      State(id: 3323, name: 'Taounate Province', stateCode: 'TAO', cities: []),
-      State(id: 3322, name: 'Taourirt Province', stateCode: 'TAI', cities: []),
-      State(id: 3314, name: 'Taroudant Province', stateCode: 'TAR', cities: []),
-      State(id: 3312, name: 'Tata Province', stateCode: 'TAT', cities: []),
-      State(id: 3296, name: 'Taza Province', stateCode: 'TAZ', cities: []),
-      State(id: 3318, name: 'Tétouan Province', stateCode: 'TET', cities: []),
-      State(id: 3277, name: 'Tiznit Province', stateCode: 'TIZ', cities: []),
-      State(id: 3283, name: 'Zagora Province', stateCode: 'ZAG', cities: [])
+      State(id: 3323, name: 'Taounate', stateCode: 'TAO', cities: []),
+      State(id: 3322, name: 'Taourirt', stateCode: 'TAI', cities: []),
+      State(
+          id: 4948, name: 'Tarfaya (EH-partial)', stateCode: 'TAF', cities: []),
+      State(id: 3314, name: 'Taroudannt', stateCode: 'TAR', cities: []),
+      State(id: 3312, name: 'Tata', stateCode: 'TAT', cities: []),
+      State(id: 3296, name: 'Taza', stateCode: 'TAZ', cities: []),
+      State(id: 3318, name: 'Tétouan', stateCode: 'TET', cities: []),
+      State(id: 4949, name: 'Tinghir', stateCode: 'TIN', cities: []),
+      State(id: 3277, name: 'Tiznit', stateCode: 'TIZ', cities: []),
+      State(id: 4951, name: 'Youssoufia', stateCode: 'YUS', cities: []),
+      State(id: 3283, name: 'Zagora', stateCode: 'ZAG', cities: [])
     ]);

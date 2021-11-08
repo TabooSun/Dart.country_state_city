@@ -6876,11 +6876,6 @@ const deu = Country(
             latitude: '48.40616000',
             longitude: '12.38121000'),
         City(
-            id: 25337,
-            name: 'Fürth',
-            latitude: '49.47593000',
-            longitude: '10.98856000'),
-        City(
             id: 25318,
             name: 'Furth im Wald',
             latitude: '49.30955000',
@@ -10556,11 +10551,6 @@ const deu = Country(
             latitude: '48.40149000',
             longitude: '13.31315000'),
         City(
-            id: 28413,
-            name: 'Pöcking',
-            latitude: '47.96667000',
-            longitude: '11.30000000'),
-        City(
             id: 28340,
             name: 'Poing',
             latitude: '48.17004000',
@@ -12205,11 +12195,6 @@ const deu = Country(
             name: 'Thalmassing',
             latitude: '48.91167000',
             longitude: '12.15500000'),
-        City(
-            id: 29582,
-            name: 'Thalmässing',
-            latitude: '49.08834000',
-            longitude: '11.22150000'),
         City(
             id: 29583,
             name: 'Thannhausen',

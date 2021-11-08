@@ -11095,12 +11095,6 @@ const fra = Country(
             latitude: '47.92383000',
             longitude: '-1.24124000'),
         City(
-            id: 45438,
-            name:
-                'Rd pt des Chataigniers, Rte de Milizac, Guilers, Finistère, France',
-            latitude: '48.43387000',
-            longitude: '-4.56809000'),
-        City(
             id: 45685,
             name: 'Rédené',
             latitude: '47.85000000',

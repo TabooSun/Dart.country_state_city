@@ -7,7 +7,7 @@ const atf = Country(
     name: 'French Southern Territories',
     iso3: 'ATF',
     iso2: 'TF',
-    phoneCode: '',
+    phoneCode: '262',
     capital: 'Port-aux-Francais',
     currency: 'EUR',
     currencySymbol: r'€',

@@ -489,7 +489,7 @@ const ken = Country(
             latitude: '-1.03326000',
             longitude: '37.06933000')
       ]),
-      State(id: 203, name: 'Nakuru District', stateCode: '31', cities: [
+      State(id: 203, name: 'Nakuru County', stateCode: '31', cities: [
         City(
             id: 64804,
             name: 'Kijabe',
@@ -540,7 +540,7 @@ const ken = Country(
           name: 'North Eastern Province',
           stateCode: '500',
           cities: []),
-      State(id: 209, name: 'Nyamira District', stateCode: '34', cities: [
+      State(id: 209, name: 'Nyamira County', stateCode: '34', cities: [
         City(
             id: 64800,
             name: 'Keroka',
@@ -637,14 +637,14 @@ const ken = Country(
             latitude: '3.11988000',
             longitude: '35.59642000')
       ]),
-      State(id: 169, name: 'Uasin Gishu District', stateCode: '44', cities: [
+      State(id: 169, name: 'Uasin Gishu', stateCode: '44', cities: [
         City(
             id: 64782,
             name: 'Eldoret',
             latitude: '0.52036000',
             longitude: '35.26993000')
       ]),
-      State(id: 202, name: 'Vihiga District', stateCode: '45', cities: []),
+      State(id: 202, name: 'Vihiga County', stateCode: '45', cities: []),
       State(id: 182, name: 'Wajir County', stateCode: '46', cities: [
         City(
             id: 64876,

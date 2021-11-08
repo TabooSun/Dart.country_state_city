@@ -26,7 +26,7 @@ const nga = Country(
     emoji: '🇳🇬',
     emojiU: 'U+1F1F3 U+1F1EC',
     states: [
-      State(id: 303, name: 'Abia State', stateCode: 'AB', cities: [
+      State(id: 303, name: 'Abia', stateCode: 'AB', cities: [
         City(
             id: 76744,
             name: 'Aba',
@@ -58,7 +58,33 @@ const nga = Country(
             latitude: '5.52491000',
             longitude: '7.49461000')
       ]),
-      State(id: 320, name: 'Adamawa State', stateCode: 'AD', cities: [
+      State(
+          id: 293,
+          name: 'Abuja Federal Capital Territory',
+          stateCode: 'FC',
+          cities: [
+            City(
+                id: 76749,
+                name: 'Abuja',
+                latitude: '9.05785000',
+                longitude: '7.49508000'),
+            City(
+                id: 76990,
+                name: 'Kuje',
+                latitude: '8.87952000',
+                longitude: '7.22756000'),
+            City(
+                id: 76997,
+                name: 'Kwali',
+                latitude: '8.88346000',
+                longitude: '7.01858000'),
+            City(
+                id: 77014,
+                name: 'Madala',
+                latitude: '9.10444000',
+                longitude: '7.21333000')
+          ]),
+      State(id: 320, name: 'Adamawa', stateCode: 'AD', cities: [
         City(
             id: 76876,
             name: 'Ganye',
@@ -115,7 +141,7 @@ const nga = Country(
             latitude: '9.20839000',
             longitude: '12.48146000')
       ]),
-      State(id: 304, name: 'Akwa Ibom State', stateCode: 'AK', cities: [
+      State(id: 304, name: 'Akwa Ibom', stateCode: 'AK', cities: [
         City(
             id: 76858,
             name: 'Eket',
@@ -142,7 +168,7 @@ const nga = Country(
             latitude: '5.05127000',
             longitude: '7.93350000')
       ]),
-      State(id: 315, name: 'Anambra State', stateCode: 'AN', cities: [
+      State(id: 315, name: 'Anambra', stateCode: 'AN', cities: [
         City(
             id: 76759,
             name: 'Agulu',
@@ -204,7 +230,7 @@ const nga = Country(
             latitude: '5.90016000',
             longitude: '6.84312000')
       ]),
-      State(id: 312, name: 'Bauchi State', stateCode: 'BA', cities: [
+      State(id: 312, name: 'Bauchi', stateCode: 'BA', cities: [
         City(
             id: 76786,
             name: 'Azare',
@@ -311,7 +337,7 @@ const nga = Country(
             latitude: '10.61432000',
             longitude: '10.17647000')
       ]),
-      State(id: 305, name: 'Bayelsa State', stateCode: 'BY', cities: [
+      State(id: 305, name: 'Bayelsa', stateCode: 'BY', cities: [
         City(
             id: 76770,
             name: 'Amassoma',
@@ -328,7 +354,7 @@ const nga = Country(
             latitude: '4.92675000',
             longitude: '6.26764000')
       ]),
-      State(id: 291, name: 'Benue State', stateCode: 'BE', cities: [
+      State(id: 291, name: 'Benue', stateCode: 'BE', cities: [
         City(
             id: 76767,
             name: 'Aliade',
@@ -339,6 +365,11 @@ const nga = Country(
             name: 'Boju',
             latitude: '7.35572000',
             longitude: '7.89303000'),
+        City(
+            id: 149066,
+            name: 'Gboko',
+            latitude: '7.33159530',
+            longitude: '8.97600680'),
         City(
             id: 76922,
             name: 'Igbor',
@@ -380,7 +411,7 @@ const nga = Country(
             latitude: '7.50671000',
             longitude: '9.61040000')
       ]),
-      State(id: 307, name: 'Borno State', stateCode: 'BO', cities: [
+      State(id: 307, name: 'Borno', stateCode: 'BO', cities: [
         City(
             id: 76793,
             name: 'Bama',
@@ -492,7 +523,7 @@ const nga = Country(
             latitude: '11.38623000',
             longitude: '12.71992000')
       ]),
-      State(id: 314, name: 'Cross River State', stateCode: 'CR', cities: [
+      State(id: 314, name: 'Cross River', stateCode: 'CR', cities: [
         City(
             id: 76761,
             name: 'Akankpa',
@@ -519,7 +550,7 @@ const nga = Country(
             latitude: '5.80865000',
             longitude: '8.08098000')
       ]),
-      State(id: 316, name: 'Delta State', stateCode: 'DE', cities: [
+      State(id: 316, name: 'Delta', stateCode: 'DE', cities: [
         City(
             id: 76748,
             name: 'Abraka',
@@ -591,7 +622,7 @@ const nga = Country(
             latitude: '5.51737000',
             longitude: '5.75006000')
       ]),
-      State(id: 311, name: 'Ebonyi State', stateCode: 'EB', cities: [
+      State(id: 311, name: 'Ebonyi', stateCode: 'EB', cities: [
         City(
             id: 76745,
             name: 'Abakaliki',
@@ -618,7 +649,7 @@ const nga = Country(
             latitude: '6.38186000',
             longitude: '8.03736000')
       ]),
-      State(id: 318, name: 'Edo State', stateCode: 'ED', cities: [
+      State(id: 318, name: 'Edo', stateCode: 'ED', cities: [
         City(
             id: 76757,
             name: 'Agenebode',
@@ -665,7 +696,7 @@ const nga = Country(
             latitude: '6.70000000',
             longitude: '6.33333000')
       ]),
-      State(id: 309, name: 'Ekiti State', stateCode: 'EK', cities: [
+      State(id: 309, name: 'Ekiti', stateCode: 'EK', cities: [
         City(
             id: 76752,
             name: 'Ado-Ekiti',
@@ -732,7 +763,7 @@ const nga = Country(
             latitude: '7.75833000',
             longitude: '5.72227000')
       ]),
-      State(id: 289, name: 'Enugu State', stateCode: 'EN', cities: [
+      State(id: 289, name: 'Enugu', stateCode: 'EN', cities: [
         City(
             id: 76750,
             name: 'Adani',
@@ -809,33 +840,7 @@ const nga = Country(
             latitude: '6.31592000',
             longitude: '7.42086000')
       ]),
-      State(
-          id: 293,
-          name: 'Federal Capital Territory',
-          stateCode: 'FC',
-          cities: [
-            City(
-                id: 76749,
-                name: 'Abuja',
-                latitude: '9.05785000',
-                longitude: '7.49508000'),
-            City(
-                id: 76990,
-                name: 'Kuje',
-                latitude: '8.87952000',
-                longitude: '7.22756000'),
-            City(
-                id: 76997,
-                name: 'Kwali',
-                latitude: '8.88346000',
-                longitude: '7.01858000'),
-            City(
-                id: 77014,
-                name: 'Madala',
-                latitude: '9.10444000',
-                longitude: '7.21333000')
-          ]),
-      State(id: 310, name: 'Gombe State', stateCode: 'GO', cities: [
+      State(id: 310, name: 'Gombe', stateCode: 'GO', cities: [
         City(
             id: 76763,
             name: 'Akko',
@@ -907,7 +912,7 @@ const nga = Country(
             latitude: '9.98433000',
             longitude: '10.95229000')
       ]),
-      State(id: 308, name: 'Imo State', stateCode: 'IM', cities: [
+      State(id: 308, name: 'Imo', stateCode: 'IM', cities: [
         City(
             id: 76925,
             name: 'Iho',
@@ -939,7 +944,7 @@ const nga = Country(
             latitude: '5.48363000',
             longitude: '7.03325000')
       ]),
-      State(id: 288, name: 'Jigawa State', stateCode: 'JI', cities: [
+      State(id: 288, name: 'Jigawa', stateCode: 'JI', cities: [
         City(
             id: 76788,
             name: 'Babura',
@@ -1011,7 +1016,7 @@ const nga = Country(
             latitude: '11.34873000',
             longitude: '9.63989000')
       ]),
-      State(id: 294, name: 'Kaduna State', stateCode: 'KD', cities: [
+      State(id: 294, name: 'Kaduna', stateCode: 'KD', cities: [
         City(
             id: 76772,
             name: 'Anchau',
@@ -1093,7 +1098,7 @@ const nga = Country(
             latitude: '11.11128000',
             longitude: '7.72270000')
       ]),
-      State(id: 300, name: 'Kano State', stateCode: 'KN', cities: [
+      State(id: 300, name: 'Kano', stateCode: 'KN', cities: [
         City(
             id: 76828,
             name: 'Dan Gora',
@@ -1110,7 +1115,7 @@ const nga = Country(
             latitude: '12.00012000',
             longitude: '8.51672000')
       ]),
-      State(id: 313, name: 'Katsina State', stateCode: 'KT', cities: [
+      State(id: 313, name: 'Katsina', stateCode: 'KT', cities: [
         City(
             id: 76831,
             name: 'Danja',
@@ -1182,7 +1187,7 @@ const nga = Country(
             latitude: '12.68781000',
             longitude: '7.19579000')
       ]),
-      State(id: 290, name: 'Kebbi State', stateCode: 'KE', cities: [
+      State(id: 290, name: 'Kebbi', stateCode: 'KE', cities: [
         City(
             id: 76778,
             name: 'Argungu',
@@ -1274,7 +1279,7 @@ const nga = Country(
             latitude: '11.43522000',
             longitude: '5.23494000')
       ]),
-      State(id: 298, name: 'Kogi State', stateCode: 'KO', cities: [
+      State(id: 298, name: 'Kogi', stateCode: 'KO', cities: [
         City(
             id: 76747,
             name: 'Abocho',
@@ -1351,7 +1356,7 @@ const nga = Country(
             latitude: '7.55122000',
             longitude: '6.23589000')
       ]),
-      State(id: 295, name: 'Kwara State', stateCode: 'KW', cities: [
+      State(id: 295, name: 'Kwara', stateCode: 'KW', cities: [
         City(
             id: 76760,
             name: 'Ajasse Ipo',
@@ -1460,7 +1465,7 @@ const nga = Country(
             latitude: '6.49611000',
             longitude: '3.38778000')
       ]),
-      State(id: 301, name: 'Nasarawa State', stateCode: 'NA', cities: [
+      State(id: 301, name: 'Nasarawa', stateCode: 'NA', cities: [
         City(
             id: 76815,
             name: 'Buga',
@@ -1492,7 +1497,7 @@ const nga = Country(
             latitude: '8.94153000',
             longitude: '8.60315000')
       ]),
-      State(id: 317, name: 'Niger State', stateCode: 'NI', cities: [
+      State(id: 317, name: 'Niger', stateCode: 'NI', cities: [
         City(
             id: 76783,
             name: 'Auna',
@@ -1589,7 +1594,7 @@ const nga = Country(
             latitude: '9.80726000',
             longitude: '6.15238000')
       ]),
-      State(id: 323, name: 'Ogun State', stateCode: 'OG', cities: [
+      State(id: 323, name: 'Ogun', stateCode: 'OG', cities: [
         City(
             id: 76746,
             name: 'Abeokuta',
@@ -1651,7 +1656,7 @@ const nga = Country(
             latitude: '6.94851000',
             longitude: '3.50561000')
       ]),
-      State(id: 321, name: 'Ondo State', stateCode: 'ON', cities: [
+      State(id: 321, name: 'Ondo', stateCode: 'ON', cities: [
         City(
             id: 76755,
             name: 'Agbabu',
@@ -1698,7 +1703,7 @@ const nga = Country(
             latitude: '7.19620000',
             longitude: '5.58681000')
       ]),
-      State(id: 322, name: 'Osun State', stateCode: 'OS', cities: [
+      State(id: 322, name: 'Osun', stateCode: 'OS', cities: [
         City(
             id: 76776,
             name: 'Apomu',
@@ -1790,7 +1795,7 @@ const nga = Country(
             latitude: '8.05000000',
             longitude: '4.76667000')
       ]),
-      State(id: 296, name: 'Oyo State', stateCode: 'OY', cities: [
+      State(id: 296, name: 'Oyo', stateCode: 'OY', cities: [
         City(
             id: 76758,
             name: 'Ago Are',
@@ -1862,7 +1867,7 @@ const nga = Country(
             latitude: '8.66762000',
             longitude: '3.39393000')
       ]),
-      State(id: 302, name: 'Plateau State', stateCode: 'PL', cities: [
+      State(id: 302, name: 'Plateau', stateCode: 'PL', cities: [
         City(
             id: 76771,
             name: 'Amper',
@@ -1914,7 +1919,74 @@ const nga = Country(
             latitude: '8.83333000',
             longitude: '9.63333000')
       ]),
-      State(id: 292, name: 'Sokoto State', stateCode: 'SO', cities: [
+      State(id: 4926, name: 'Rivers', stateCode: 'RI', cities: [
+        City(
+            id: 148541,
+            name: 'Abalama',
+            latitude: '4.76305556',
+            longitude: '6.84027778'),
+        City(
+            id: 148542,
+            name: 'Abonnema',
+            latitude: '4.72311690',
+            longitude: '6.77884610'),
+        City(
+            id: 148543,
+            name: 'Ahoada',
+            latitude: '5.08333333',
+            longitude: '6.65000000'),
+        City(
+            id: 148544,
+            name: 'Bori',
+            latitude: '4.67277778',
+            longitude: '7.37027778'),
+        City(
+            id: 148545,
+            name: 'Buguma',
+            latitude: '4.73333333',
+            longitude: '6.86666667'),
+        City(
+            id: 148546,
+            name: 'Chokocho',
+            latitude: '4.99083300',
+            longitude: '7.05444400'),
+        City(
+            id: 148547,
+            name: 'Elele',
+            latitude: '5.10184167',
+            longitude: '6.81902222'),
+        City(
+            id: 148548,
+            name: 'Obonoma',
+            latitude: '4.71138889',
+            longitude: '6.79083333'),
+        City(
+            id: 148549,
+            name: 'Omoku',
+            latitude: '5.34200000',
+            longitude: '6.65600000'),
+        City(
+            id: 148550,
+            name: 'Onne',
+            latitude: '4.74444444',
+            longitude: '7.03611111'),
+        City(
+            id: 148551,
+            name: 'Opobo',
+            latitude: '4.51138889',
+            longitude: '7.54000000'),
+        City(
+            id: 148552,
+            name: 'Port Harcourt',
+            latitude: '4.75000000',
+            longitude: '7.00000000'),
+        City(
+            id: 148553,
+            name: 'Rumuokoro',
+            latitude: '4.86666667',
+            longitude: '6.98333333')
+      ]),
+      State(id: 292, name: 'Sokoto', stateCode: 'SO', cities: [
         City(
             id: 76804,
             name: 'Binji',
@@ -1966,7 +2038,7 @@ const nga = Country(
             latitude: '13.29048000',
             longitude: '5.42373000')
       ]),
-      State(id: 319, name: 'Taraba State', stateCode: 'TA', cities: [
+      State(id: 319, name: 'Taraba', stateCode: 'TA', cities: [
         City(
             id: 76792,
             name: 'Baissa',
@@ -2018,7 +2090,7 @@ const nga = Country(
             latitude: '7.87139000',
             longitude: '9.77786000')
       ]),
-      State(id: 297, name: 'Yobe State', stateCode: 'YO', cities: [
+      State(id: 297, name: 'Yobe', stateCode: 'YO', cities: [
         City(
             id: 76826,
             name: 'Damaturu',
@@ -2100,7 +2172,7 @@ const nga = Country(
             latitude: '11.71391000',
             longitude: '11.08108000')
       ]),
-      State(id: 299, name: 'Zamfara State', stateCode: 'ZA', cities: [
+      State(id: 299, name: 'Zamfara', stateCode: 'ZA', cities: [
         City(
             id: 76773,
             name: 'Anka',

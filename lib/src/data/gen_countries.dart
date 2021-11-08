@@ -51,7 +51,6 @@ import 'package:country_state_city/src/data/gen_cck.dart';
 import 'package:country_state_city/src/data/gen_col.dart';
 import 'package:country_state_city/src/data/gen_com.dart';
 import 'package:country_state_city/src/data/gen_cog.dart';
-import 'package:country_state_city/src/data/gen_cod.dart';
 import 'package:country_state_city/src/data/gen_cok.dart';
 import 'package:country_state_city/src/data/gen_cri.dart';
 import 'package:country_state_city/src/data/gen_civ.dart';
@@ -60,6 +59,7 @@ import 'package:country_state_city/src/data/gen_cub.dart';
 import 'package:country_state_city/src/data/gen_cuw.dart';
 import 'package:country_state_city/src/data/gen_cyp.dart';
 import 'package:country_state_city/src/data/gen_cze.dart';
+import 'package:country_state_city/src/data/gen_cod.dart';
 import 'package:country_state_city/src/data/gen_dnk.dart';
 import 'package:country_state_city/src/data/gen_dji.dart';
 import 'package:country_state_city/src/data/gen_dma.dart';
@@ -116,8 +116,6 @@ import 'package:country_state_city/src/data/gen_jor.dart';
 import 'package:country_state_city/src/data/gen_kaz.dart';
 import 'package:country_state_city/src/data/gen_ken.dart';
 import 'package:country_state_city/src/data/gen_kir.dart';
-import 'package:country_state_city/src/data/gen_prk.dart';
-import 'package:country_state_city/src/data/gen_kor.dart';
 import 'package:country_state_city/src/data/gen_xkx.dart';
 import 'package:country_state_city/src/data/gen_kwt.dart';
 import 'package:country_state_city/src/data/gen_kgz.dart';
@@ -165,6 +163,7 @@ import 'package:country_state_city/src/data/gen_ner.dart';
 import 'package:country_state_city/src/data/gen_nga.dart';
 import 'package:country_state_city/src/data/gen_niu.dart';
 import 'package:country_state_city/src/data/gen_nfk.dart';
+import 'package:country_state_city/src/data/gen_prk.dart';
 import 'package:country_state_city/src/data/gen_mnp.dart';
 import 'package:country_state_city/src/data/gen_nor.dart';
 import 'package:country_state_city/src/data/gen_omn.dart';
@@ -208,6 +207,7 @@ import 'package:country_state_city/src/data/gen_slb.dart';
 import 'package:country_state_city/src/data/gen_som.dart';
 import 'package:country_state_city/src/data/gen_zaf.dart';
 import 'package:country_state_city/src/data/gen_sgs.dart';
+import 'package:country_state_city/src/data/gen_kor.dart';
 import 'package:country_state_city/src/data/gen_ssd.dart';
 import 'package:country_state_city/src/data/gen_esp.dart';
 import 'package:country_state_city/src/data/gen_lka.dart';
@@ -303,7 +303,6 @@ const kCountries = [
   col,
   com,
   cog,
-  cod,
   cok,
   cri,
   civ,
@@ -312,6 +311,7 @@ const kCountries = [
   cuw,
   cyp,
   cze,
+  cod,
   dnk,
   dji,
   dma,
@@ -368,8 +368,6 @@ const kCountries = [
   kaz,
   ken,
   kir,
-  prk,
-  kor,
   xkx,
   kwt,
   kgz,
@@ -417,6 +415,7 @@ const kCountries = [
   nga,
   niu,
   nfk,
+  prk,
   mnp,
   nor,
   omn,
@@ -460,6 +459,7 @@ const kCountries = [
   som,
   zaf,
   sgs,
+  kor,
   ssd,
   esp,
   lka,

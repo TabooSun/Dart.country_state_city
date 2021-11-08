@@ -343,72 +343,6 @@ const idn = Country(
             latitude: '-8.50980000',
             longitude: '115.26540000')
       ]),
-      State(
-          id: 1820,
-          name: 'Bangka Belitung Islands',
-          stateCode: 'BB',
-          cities: [
-            City(
-                id: 56329,
-                name: 'Kabupaten Bangka',
-                latitude: '-1.91667000',
-                longitude: '105.93333000'),
-            City(
-                id: 56330,
-                name: 'Kabupaten Bangka Barat',
-                latitude: '-1.95839000',
-                longitude: '105.53741000'),
-            City(
-                id: 56331,
-                name: 'Kabupaten Bangka Selatan',
-                latitude: '-2.66803000',
-                longitude: '106.01257000'),
-            City(
-                id: 56332,
-                name: 'Kabupaten Bangka Tengah',
-                latitude: '-2.33989000',
-                longitude: '106.11420000'),
-            City(
-                id: 56350,
-                name: 'Kabupaten Belitung',
-                latitude: '-2.86667000',
-                longitude: '107.70000000'),
-            City(
-                id: 56351,
-                name: 'Kabupaten Belitung Timur',
-                latitude: '-2.96270000',
-                longitude: '108.15216000'),
-            City(
-                id: 56781,
-                name: 'Kota Pangkal Pinang',
-                latitude: '-2.13333000',
-                longitude: '106.13333000'),
-            City(
-                id: 56859,
-                name: 'Manggar',
-                latitude: '-2.88333000',
-                longitude: '108.26667000'),
-            City(
-                id: 56881,
-                name: 'Muntok',
-                latitude: '-2.06719000',
-                longitude: '105.16228000'),
-            City(
-                id: 56912,
-                name: 'Pangkalpinang',
-                latitude: '-2.12914000',
-                longitude: '106.11377000'),
-            City(
-                id: 57009,
-                name: 'Sungailiat',
-                latitude: '-1.85442000',
-                longitude: '106.12215000'),
-            City(
-                id: 57017,
-                name: 'Tanjung Pandan',
-                latitude: '-2.73353000',
-                longitude: '107.63477000')
-          ]),
       State(id: 1810, name: 'Banten', stateCode: 'BT', cities: [
         City(
             id: 56257,
@@ -548,7 +482,702 @@ const idn = Country(
             latitude: '-3.81667000',
             longitude: '102.31667000')
       ]),
-      State(id: 1802, name: 'Central Java', stateCode: 'JT', cities: [
+      State(id: 1829, name: 'DI Yogyakarta', stateCode: 'YO', cities: [
+        City(
+            id: 56192,
+            name: 'Bambanglipuro',
+            latitude: '-7.95000000',
+            longitude: '110.28333000'),
+        City(
+            id: 56204,
+            name: 'Bantul',
+            latitude: '-7.88806000',
+            longitude: '110.32889000'),
+        City(
+            id: 56264,
+            name: 'Depok',
+            latitude: '-7.76250000',
+            longitude: '110.43167000'),
+        City(
+            id: 56276,
+            name: 'Gamping Lor',
+            latitude: '-7.79556000',
+            longitude: '110.32639000'),
+        City(
+            id: 56282,
+            name: 'Godean',
+            latitude: '-7.76972000',
+            longitude: '110.29389000'),
+        City(
+            id: 56338,
+            name: 'Kabupaten Bantul',
+            latitude: '-7.90000000',
+            longitude: '110.36667000'),
+        City(
+            id: 56414,
+            name: 'Kabupaten Gunung Kidul',
+            latitude: '-7.98333000',
+            longitude: '110.61667000'),
+        City(
+            id: 56473,
+            name: 'Kabupaten Kulon Progo',
+            latitude: '-7.64500000',
+            longitude: '110.02694000'),
+        City(
+            id: 56637,
+            name: 'Kabupaten Sleman',
+            latitude: '-7.68167000',
+            longitude: '110.32333000'),
+        City(
+            id: 56702,
+            name: 'Kasihan',
+            latitude: '-7.82694000',
+            longitude: '110.32917000'),
+        City(
+            id: 56816,
+            name: 'Kota Yogyakarta',
+            latitude: '-7.80000000',
+            longitude: '110.37500000'),
+        City(
+            id: 56868,
+            name: 'Melati',
+            latitude: '-7.73333000',
+            longitude: '110.36667000'),
+        City(
+            id: 56908,
+            name: 'Pandak',
+            latitude: '-7.91306000',
+            longitude: '110.29361000'),
+        City(
+            id: 56943,
+            name: 'Pundong',
+            latitude: '-7.95222000',
+            longitude: '110.34861000'),
+        City(
+            id: 56972,
+            name: 'Sewon',
+            latitude: '-7.87639000',
+            longitude: '110.35889000'),
+        City(
+            id: 56988,
+            name: 'Sleman',
+            latitude: '-7.71556000',
+            longitude: '110.35556000'),
+        City(
+            id: 56998,
+            name: 'Srandakan',
+            latitude: '-7.93861000',
+            longitude: '110.25056000'),
+        City(
+            id: 57061,
+            name: 'Yogyakarta',
+            latitude: '-7.80139000',
+            longitude: '110.36472000')
+      ]),
+      State(id: 1805, name: 'DKI Jakarta', stateCode: 'JK', cities: [
+        City(
+            id: 56293,
+            name: 'Jakarta',
+            latitude: '-6.21462000',
+            longitude: '106.84513000'),
+        City(
+            id: 56722,
+            name: 'Kota Administrasi Jakarta Barat',
+            latitude: '-6.16760000',
+            longitude: '106.76730000'),
+        City(
+            id: 56723,
+            name: 'Kota Administrasi Jakarta Pusat',
+            latitude: '-6.17770000',
+            longitude: '106.84030000'),
+        City(
+            id: 56724,
+            name: 'Kota Administrasi Jakarta Selatan',
+            latitude: '-6.26600000',
+            longitude: '106.81350000'),
+        City(
+            id: 56725,
+            name: 'Kota Administrasi Jakarta Timur',
+            latitude: '-6.25210000',
+            longitude: '106.88400000'),
+        City(
+            id: 56726,
+            name: 'Kota Administrasi Jakarta Utara',
+            latitude: '-6.13390000',
+            longitude: '106.88230000')
+      ]),
+      State(id: 1812, name: 'Gorontalo', stateCode: 'GO', cities: [
+        City(
+            id: 56285,
+            name: 'Gorontalo',
+            latitude: '0.53750000',
+            longitude: '123.06250000'),
+        City(
+            id: 56365,
+            name: 'Kabupaten Boalemo',
+            latitude: '0.62689000',
+            longitude: '122.35680000'),
+        City(
+            id: 56375,
+            name: 'Kabupaten Bone Bolango',
+            latitude: '0.50296000',
+            longitude: '123.27501000'),
+        City(
+            id: 56410,
+            name: 'Kabupaten Gorontalo',
+            latitude: '0.57280000',
+            longitude: '122.23370000'),
+        City(
+            id: 56411,
+            name: 'Kabupaten Gorontalo Utara',
+            latitude: '0.77000000',
+            longitude: '122.31667000'),
+        City(
+            id: 56595,
+            name: 'Kabupaten Pohuwato',
+            latitude: '0.70980000',
+            longitude: '121.59582000'),
+        City(
+            id: 56753,
+            name: 'Kota Gorontalo',
+            latitude: '0.53333000',
+            longitude: '123.10000000')
+      ]),
+      State(id: 1815, name: 'Jambi', stateCode: 'JA', cities: [
+        City(
+            id: 56214,
+            name: 'Bejubang Dua',
+            latitude: '-1.79230000',
+            longitude: '103.31670000'),
+        City(
+            id: 56294,
+            name: 'Jambi City',
+            latitude: '-1.60000000',
+            longitude: '103.61667000'),
+        City(
+            id: 56347,
+            name: 'Kabupaten Batang Hari',
+            latitude: '-1.75000000',
+            longitude: '103.11667000'),
+        City(
+            id: 56382,
+            name: 'Kabupaten Bungo',
+            latitude: '-1.50222000',
+            longitude: '101.96000000'),
+        City(
+            id: 56458,
+            name: 'Kabupaten Kerinci',
+            latitude: '-2.03333000',
+            longitude: '101.53333000'),
+        City(
+            id: 56532,
+            name: 'Kabupaten Merangin',
+            latitude: '-2.06933000',
+            longitude: '102.13303000'),
+        City(
+            id: 56543,
+            name: 'Kabupaten Muaro Jambi',
+            latitude: '-1.55214000',
+            longitude: '103.82163000'),
+        City(
+            id: 56618,
+            name: 'Kabupaten Sarolangun',
+            latitude: '-2.30000000',
+            longitude: '102.65000000'),
+        City(
+            id: 56668,
+            name: 'Kabupaten Tanjung Jabung Barat',
+            latitude: '-1.15440000',
+            longitude: '103.24402000'),
+        City(
+            id: 56669,
+            name: 'Kabupaten Tanjung Jabung Timur',
+            latitude: '-1.13198000',
+            longitude: '103.61755000'),
+        City(
+            id: 56675,
+            name: 'Kabupaten Tebo',
+            latitude: '-1.45576000',
+            longitude: '102.37473000'),
+        City(
+            id: 56755,
+            name: 'Kota Jambi',
+            latitude: '-1.61667000',
+            longitude: '103.65000000'),
+        City(
+            id: 56802,
+            name: 'Kota Sungai Penuh',
+            latitude: '-2.10896000',
+            longitude: '101.32175000'),
+        City(
+            id: 56822,
+            name: 'Kuala Tungkal',
+            latitude: '-0.81623000',
+            longitude: '103.46111000'),
+        City(
+            id: 56869,
+            name: 'Mendaha',
+            latitude: '-1.01630000',
+            longitude: '103.59331000'),
+        City(
+            id: 56978,
+            name: 'Simpang',
+            latitude: '-1.26424000',
+            longitude: '104.09701000'),
+        City(
+            id: 57008,
+            name: 'Sungai Penuh',
+            latitude: '-2.05610000',
+            longitude: '101.39130000')
+      ]),
+      State(id: 1825, name: 'Jawa Barat', stateCode: 'JB', cities: [
+        City(
+            id: 56182,
+            name: 'Arjawinangun',
+            latitude: '-6.64528000',
+            longitude: '108.41028000'),
+        City(
+            id: 56183,
+            name: 'Astanajapura',
+            latitude: '-6.80170000',
+            longitude: '108.63110000'),
+        City(
+            id: 56196,
+            name: 'Bandung',
+            latitude: '-6.92222000',
+            longitude: '107.60694000'),
+        City(
+            id: 56199,
+            name: 'Banjar',
+            latitude: '-7.19550000',
+            longitude: '107.43130000'),
+        City(
+            id: 56202,
+            name: 'Banjaran',
+            latitude: '-7.04528000',
+            longitude: '107.58778000'),
+        City(
+            id: 56215,
+            name: 'Bekasi',
+            latitude: '-6.23490000',
+            longitude: '106.98960000'),
+        City(
+            id: 56226,
+            name: 'Bogor',
+            latitude: '-6.59444000',
+            longitude: '106.78917000'),
+        City(
+            id: 56237,
+            name: 'Caringin',
+            latitude: '-6.70611000',
+            longitude: '106.82139000'),
+        City(
+            id: 56240,
+            name: 'Ciamis',
+            latitude: '-7.32570000',
+            longitude: '108.35340000'),
+        City(
+            id: 56241,
+            name: 'Ciampea',
+            latitude: '-6.55472000',
+            longitude: '106.70083000'),
+        City(
+            id: 56242,
+            name: 'Cibinong',
+            latitude: '-6.48167000',
+            longitude: '106.85417000'),
+        City(
+            id: 56243,
+            name: 'Cicurug',
+            latitude: '-6.78139000',
+            longitude: '106.78250000'),
+        City(
+            id: 56244,
+            name: 'Cikampek',
+            latitude: '-6.41972000',
+            longitude: '107.45583000'),
+        City(
+            id: 56245,
+            name: 'Cikarang',
+            latitude: '-6.26111000',
+            longitude: '107.15278000'),
+        City(
+            id: 56246,
+            name: 'Cikupa',
+            latitude: '-6.23639000',
+            longitude: '106.50833000'),
+        City(
+            id: 56247,
+            name: 'Cileungsir',
+            latitude: '-6.39472000',
+            longitude: '106.95917000'),
+        City(
+            id: 56248,
+            name: 'Cileunyi',
+            latitude: '-6.93889000',
+            longitude: '107.75278000'),
+        City(
+            id: 56249,
+            name: 'Cimahi',
+            latitude: '-6.87222000',
+            longitude: '107.54250000'),
+        City(
+            id: 56250,
+            name: 'Ciputat',
+            latitude: '-6.23750000',
+            longitude: '106.69556000'),
+        City(
+            id: 56251,
+            name: 'Ciranjang-hilir',
+            latitude: '-6.82000000',
+            longitude: '107.25722000'),
+        City(
+            id: 56252,
+            name: 'Cirebon',
+            latitude: '-6.70630000',
+            longitude: '108.55700000'),
+        City(
+            id: 56253,
+            name: 'Citeureup',
+            latitude: '-6.48556000',
+            longitude: '106.88194000'),
+        City(
+            id: 56265,
+            name: 'Depok',
+            latitude: '-6.40000000',
+            longitude: '106.81861000'),
+        City(
+            id: 56291,
+            name: 'Indramayu',
+            latitude: '-6.32639000',
+            longitude: '108.32000000'),
+        City(
+            id: 56296,
+            name: 'Jatibarang',
+            latitude: '-6.47472000',
+            longitude: '108.31528000'),
+        City(
+            id: 56298,
+            name: 'Jatiwangi',
+            latitude: '-6.73361000',
+            longitude: '108.26278000'),
+        City(
+            id: 56324,
+            name: 'Kabupaten Bandung',
+            latitude: '-7.10000000',
+            longitude: '107.60000000'),
+        City(
+            id: 56325,
+            name: 'Kabupaten Bandung Barat',
+            latitude: '-6.83333000',
+            longitude: '107.48333000'),
+        City(
+            id: 56349,
+            name: 'Kabupaten Bekasi',
+            latitude: '-6.24667000',
+            longitude: '107.10833000'),
+        City(
+            id: 56366,
+            name: 'Kabupaten Bogor',
+            latitude: '-6.58333000',
+            longitude: '106.71667000'),
+        City(
+            id: 56390,
+            name: 'Kabupaten Ciamis',
+            latitude: '-7.28333000',
+            longitude: '108.41667000'),
+        City(
+            id: 56391,
+            name: 'Kabupaten Cianjur',
+            latitude: '-6.77250000',
+            longitude: '107.08306000'),
+        City(
+            id: 56393,
+            name: 'Kabupaten Cirebon',
+            latitude: '-6.80000000',
+            longitude: '108.56667000'),
+        City(
+            id: 56407,
+            name: 'Kabupaten Garut',
+            latitude: '-7.38333000',
+            longitude: '107.76667000'),
+        City(
+            id: 56426,
+            name: 'Kabupaten Indramayu',
+            latitude: '-6.45000000',
+            longitude: '108.16667000'),
+        City(
+            id: 56440,
+            name: 'Kabupaten Karawang',
+            latitude: '-6.26667000',
+            longitude: '107.41667000'),
+        City(
+            id: 56474,
+            name: 'Kabupaten Kuningan',
+            latitude: '-7.00000000',
+            longitude: '108.55000000'),
+        City(
+            id: 56508,
+            name: 'Kabupaten Majalengka',
+            latitude: '-6.81667000',
+            longitude: '108.28333000'),
+        City(
+            id: 56575,
+            name: 'Kabupaten Pangandaran',
+            latitude: '-7.66730000',
+            longitude: '108.64037000'),
+        City(
+            id: 56606,
+            name: 'Kabupaten Purwakarta',
+            latitude: '-6.58333000',
+            longitude: '107.45000000'),
+        City(
+            id: 56644,
+            name: 'Kabupaten Subang',
+            latitude: '-6.50833000',
+            longitude: '107.70250000'),
+        City(
+            id: 56645,
+            name: 'Kabupaten Sukabumi',
+            latitude: '-7.06667000',
+            longitude: '106.70000000'),
+        City(
+            id: 56654,
+            name: 'Kabupaten Sumedang',
+            latitude: '-6.81667000',
+            longitude: '107.98333000'),
+        City(
+            id: 56674,
+            name: 'Kabupaten Tasikmalaya',
+            latitude: '-7.50000000',
+            longitude: '108.13333000'),
+        City(
+            id: 56698,
+            name: 'Karangampel',
+            latitude: '-6.46222000',
+            longitude: '108.45194000'),
+        City(
+            id: 56700,
+            name: 'Karangsembung',
+            latitude: '-6.84870000',
+            longitude: '108.64220000'),
+        City(
+            id: 56704,
+            name: 'Kawalu',
+            latitude: '-7.38170000',
+            longitude: '108.20820000'),
+        City(
+            id: 56718,
+            name: 'Klangenan',
+            latitude: '-6.70944000',
+            longitude: '108.44000000'),
+        City(
+            id: 56731,
+            name: 'Kota Bandung',
+            latitude: '-6.91750000',
+            longitude: '107.62444000'),
+        City(
+            id: 56732,
+            name: 'Kota Banjar',
+            latitude: '-7.36996000',
+            longitude: '108.53209000'),
+        City(
+            id: 56738,
+            name: 'Kota Bekasi',
+            latitude: '-6.28333000',
+            longitude: '106.98333000'),
+        City(
+            id: 56744,
+            name: 'Kota Bogor',
+            latitude: '-6.59167000',
+            longitude: '106.80000000'),
+        City(
+            id: 56748,
+            name: 'Kota Cimahi',
+            latitude: '-6.89167000',
+            longitude: '107.55000000'),
+        City(
+            id: 56749,
+            name: 'Kota Cirebon',
+            latitude: '-6.75000000',
+            longitude: '108.55000000'),
+        City(
+            id: 56751,
+            name: 'Kota Depok',
+            latitude: '-6.40000000',
+            longitude: '106.81667000'),
+        City(
+            id: 56801,
+            name: 'Kota Sukabumi',
+            latitude: '-6.95000000',
+            longitude: '106.93333000'),
+        City(
+            id: 56809,
+            name: 'Kota Tasikmalaya',
+            latitude: '-7.35000000',
+            longitude: '108.21667000'),
+        City(
+            id: 56819,
+            name: 'Kresek',
+            latitude: '-6.13139000',
+            longitude: '106.37972000'),
+        City(
+            id: 56825,
+            name: 'Kuningan',
+            latitude: '-6.97583000',
+            longitude: '108.48306000'),
+        City(
+            id: 56842,
+            name: 'Lembang',
+            latitude: '-6.81167000',
+            longitude: '107.61750000'),
+        City(
+            id: 56852,
+            name: 'Majalengka',
+            latitude: '-6.83611000',
+            longitude: '108.22778000'),
+        City(
+            id: 56861,
+            name: 'Margahayukencana',
+            latitude: '-6.97083000',
+            longitude: '107.56750000'),
+        City(
+            id: 56886,
+            name: 'Ngawi',
+            latitude: '-7.40380000',
+            longitude: '111.44610000'),
+        City(
+            id: 56892,
+            name: 'Padalarang',
+            latitude: '-6.83778000',
+            longitude: '107.47278000'),
+        City(
+            id: 56899,
+            name: 'Palimanan',
+            latitude: '-6.70694000',
+            longitude: '108.42417000'),
+        City(
+            id: 56902,
+            name: 'Pamanukan',
+            latitude: '-6.28417000',
+            longitude: '107.81056000'),
+        City(
+            id: 56904,
+            name: 'Pameungpeuk',
+            latitude: '-7.01833000',
+            longitude: '107.60389000'),
+        City(
+            id: 56905,
+            name: 'Pamulang',
+            latitude: '-6.34278000',
+            longitude: '106.73833000'),
+        City(
+            id: 56918,
+            name: 'Parung',
+            latitude: '-6.42139000',
+            longitude: '106.73306000'),
+        City(
+            id: 56919,
+            name: 'Pasarkemis',
+            latitude: '-6.17028000',
+            longitude: '106.53028000'),
+        City(
+            id: 56920,
+            name: 'Paseh',
+            latitude: '-7.10260000',
+            longitude: '107.76410000'),
+        City(
+            id: 56928,
+            name: 'Pelabuhanratu',
+            latitude: '-6.98750000',
+            longitude: '106.55139000'),
+        City(
+            id: 56934,
+            name: 'Plumbon',
+            latitude: '-6.70500000',
+            longitude: '108.47278000'),
+        City(
+            id: 56945,
+            name: 'Purwakarta',
+            latitude: '-6.55694000',
+            longitude: '107.44333000'),
+        City(
+            id: 56948,
+            name: 'Rajapolah',
+            latitude: '-7.22100000',
+            longitude: '108.18960000'),
+        City(
+            id: 56954,
+            name: 'Rengasdengklok',
+            latitude: '-6.15917000',
+            longitude: '107.29806000'),
+        City(
+            id: 56962,
+            name: 'Sawangan',
+            latitude: '-6.40278000',
+            longitude: '106.77444000'),
+        City(
+            id: 56968,
+            name: 'Sepatan',
+            latitude: '-6.11889000',
+            longitude: '106.57500000'),
+        City(
+            id: 56971,
+            name: 'Serpong',
+            latitude: '-6.31694000',
+            longitude: '106.66417000'),
+        City(
+            id: 56980,
+            name: 'Singaparna',
+            latitude: '-7.35150000',
+            longitude: '108.11100000'),
+        City(
+            id: 56994,
+            name: 'Soreang',
+            latitude: '-7.03306000',
+            longitude: '107.51833000'),
+        City(
+            id: 57001,
+            name: 'Sukabumi',
+            latitude: '-6.91806000',
+            longitude: '106.92667000'),
+        City(
+            id: 57003,
+            name: 'Sumber',
+            latitude: '-6.76028000',
+            longitude: '108.48306000'),
+        City(
+            id: 57005,
+            name: 'Sumedang',
+            latitude: '-6.85861000',
+            longitude: '107.91639000'),
+        City(
+            id: 57006,
+            name: 'Sumedang Utara',
+            latitude: '-6.85000000',
+            longitude: '107.91667000'),
+        City(
+            id: 57025,
+            name: 'Tasikmalaya',
+            latitude: '-7.32740000',
+            longitude: '108.22070000'),
+        City(
+            id: 57030,
+            name: 'Teluknaga',
+            latitude: '-6.09889000',
+            longitude: '106.63806000'),
+        City(
+            id: 57050,
+            name: 'Wanaraja',
+            latitude: '-7.17490000',
+            longitude: '107.98080000'),
+        City(
+            id: 57056,
+            name: 'Weru',
+            latitude: '-6.71100000',
+            longitude: '108.50370000')
+      ]),
+      State(id: 1802, name: 'Jawa Tengah', stateCode: 'JT', cities: [
         City(
             id: 56174,
             name: 'Adiwerna',
@@ -1115,181 +1744,7 @@ const idn = Country(
             latitude: '-7.35889000',
             longitude: '109.90306000')
       ]),
-      State(id: 1794, name: 'Central Kalimantan', stateCode: 'KT', cities: [
-        City(
-            id: 56342,
-            name: 'Kabupaten Barito Selatan',
-            latitude: '-1.86667000',
-            longitude: '114.73333000'),
-        City(
-            id: 56343,
-            name: 'Kabupaten Barito Timur',
-            latitude: '-1.93333000',
-            longitude: '115.10000000'),
-        City(
-            id: 56344,
-            name: 'Kabupaten Barito Utara',
-            latitude: '-0.98333000',
-            longitude: '115.10000000'),
-        City(
-            id: 56415,
-            name: 'Kabupaten Gunung Mas',
-            latitude: '-0.95000000',
-            longitude: '113.50000000'),
-        City(
-            id: 56437,
-            name: 'Kabupaten Kapuas',
-            latitude: '-2.01667000',
-            longitude: '114.38333000'),
-        City(
-            id: 56443,
-            name: 'Kabupaten Katingan',
-            latitude: '-2.06667000',
-            longitude: '113.40000000'),
-        City(
-            id: 56469,
-            name: 'Kabupaten Kotawaringin Barat',
-            latitude: '-2.40000000',
-            longitude: '111.73333000'),
-        City(
-            id: 56470,
-            name: 'Kabupaten Kotawaringin Timur',
-            latitude: '-2.08333000',
-            longitude: '112.75000000'),
-        City(
-            id: 56482,
-            name: 'Kabupaten Lamandau',
-            latitude: '-1.83828000',
-            longitude: '111.28690000'),
-        City(
-            id: 56547,
-            name: 'Kabupaten Murung Raya',
-            latitude: '-0.01667000',
-            longitude: '114.26667000'),
-        City(
-            id: 56601,
-            name: 'Kabupaten Pulang Pisau',
-            latitude: '-3.11858000',
-            longitude: '113.86230000'),
-        City(
-            id: 56625,
-            name: 'Kabupaten Seruyan',
-            latitude: '-2.33333000',
-            longitude: '112.25000000'),
-        City(
-            id: 56646,
-            name: 'Kabupaten Sukamara',
-            latitude: '-2.62675000',
-            longitude: '111.23681000'),
-        City(
-            id: 56777,
-            name: 'Kota Palangka Raya',
-            latitude: '-1.76979000',
-            longitude: '113.73126000'),
-        City(
-            id: 56823,
-            name: 'Kualakapuas',
-            latitude: '-3.00913000',
-            longitude: '114.38759000'),
-        City(
-            id: 56897,
-            name: 'Palangkaraya',
-            latitude: '-2.20833000',
-            longitude: '113.91667000'),
-        City(
-            id: 56911,
-            name: 'Pangkalanbuun',
-            latitude: '-2.68320000',
-            longitude: '111.62590000'),
-        City(
-            id: 56961,
-            name: 'Sampit',
-            latitude: '-2.53150000',
-            longitude: '112.94960000')
-      ]),
-      State(id: 1813, name: 'Central Sulawesi', stateCode: 'ST', cities: [
-        City(
-            id: 56326,
-            name: 'Kabupaten Banggai',
-            latitude: '-0.91141000',
-            longitude: '122.71836000'),
-        City(
-            id: 56327,
-            name: 'Kabupaten Banggai Kepulauan',
-            latitude: '-1.30236000',
-            longitude: '123.03726000'),
-        City(
-            id: 56328,
-            name: 'Kabupaten Banggai Laut',
-            latitude: '-1.61841000',
-            longitude: '123.49388000'),
-        City(
-            id: 56383,
-            name: 'Kabupaten Buol',
-            latitude: '1.04656000',
-            longitude: '121.36867000'),
-        City(
-            id: 56401,
-            name: 'Kabupaten Donggala',
-            latitude: '-0.58333000',
-            longitude: '119.85000000'),
-        City(
-            id: 56541,
-            name: 'Kabupaten Morowali Utara',
-            latitude: '-1.72070000',
-            longitude: '121.24649000'),
-        City(
-            id: 56578,
-            name: 'Kabupaten Parigi Moutong',
-            latitude: '0.33680000',
-            longitude: '120.17841000'),
-        City(
-            id: 56598,
-            name: 'Kabupaten Poso',
-            latitude: '-1.65000000',
-            longitude: '120.50000000'),
-        City(
-            id: 56630,
-            name: 'Kabupaten Sigi',
-            latitude: '-1.38500000',
-            longitude: '119.96694000'),
-        City(
-            id: 56682,
-            name: 'Kabupaten Toli-Toli',
-            latitude: '1.30862000',
-            longitude: '120.88643000'),
-        City(
-            id: 56780,
-            name: 'Kota Palu',
-            latitude: '-0.86972000',
-            longitude: '119.90000000'),
-        City(
-            id: 56849,
-            name: 'Luwuk',
-            latitude: '-0.95160000',
-            longitude: '122.78750000'),
-        City(
-            id: 56876,
-            name: 'Morowali Regency',
-            latitude: '-2.76062000',
-            longitude: '121.95267000'),
-        City(
-            id: 56901,
-            name: 'Palu',
-            latitude: '-0.90833000',
-            longitude: '119.87083000'),
-        City(
-            id: 56937,
-            name: 'Poso',
-            latitude: '-1.39590000',
-            longitude: '120.75240000'),
-        City(
-            id: 57034,
-            name: 'Tojo Una-Una Regency',
-            latitude: '-1.20360000',
-            longitude: '121.48201000')
-      ]),
-      State(id: 1827, name: 'East Java', stateCode: 'JI', cities: [
+      State(id: 1827, name: 'Jawa Timur', stateCode: 'JI', cities: [
         City(
             id: 56185,
             name: 'Babat',
@@ -1841,7 +2296,187 @@ const idn = Country(
             latitude: '-7.99080000',
             longitude: '114.40090000')
       ]),
-      State(id: 1804, name: 'East Kalimantan', stateCode: 'KI', cities: [
+      State(id: 1806, name: 'Kalimantan Barat', stateCode: 'KA', cities: []),
+      State(id: 1819, name: 'Kalimantan Selatan', stateCode: 'KS', cities: [
+        City(
+            id: 56181,
+            name: 'Amuntai',
+            latitude: '-2.41773000',
+            longitude: '115.24941000'),
+        City(
+            id: 56203,
+            name: 'Banjarmasin',
+            latitude: '-3.31987000',
+            longitude: '114.59075000'),
+        City(
+            id: 56207,
+            name: 'Barabai',
+            latitude: '-2.58333000',
+            longitude: '115.38333000'),
+        City(
+            id: 56323,
+            name: 'Kabupaten Balangan',
+            latitude: '-2.32314000',
+            longitude: '115.62922000'),
+        City(
+            id: 56335,
+            name: 'Kabupaten Banjar',
+            latitude: '-3.31667000',
+            longitude: '115.08333000'),
+        City(
+            id: 56341,
+            name: 'Kabupaten Barito Kuala',
+            latitude: '-3.08333000',
+            longitude: '114.61667000'),
+        City(
+            id: 56420,
+            name: 'Kabupaten Hulu Sungai Selatan',
+            latitude: '-2.75000000',
+            longitude: '115.20000000'),
+        City(
+            id: 56421,
+            name: 'Kabupaten Hulu Sungai Tengah',
+            latitude: '-2.61667000',
+            longitude: '115.41667000'),
+        City(
+            id: 56422,
+            name: 'Kabupaten Hulu Sungai Utara',
+            latitude: '-2.45000000',
+            longitude: '115.13333000'),
+        City(
+            id: 56468,
+            name: 'Kabupaten Kota Baru',
+            latitude: '-3.00000000',
+            longitude: '116.00000000'),
+        City(
+            id: 56657,
+            name: 'Kabupaten Tabalong',
+            latitude: '-1.88333000',
+            longitude: '115.50000000'),
+        City(
+            id: 56663,
+            name: 'Kabupaten Tanah Bumbu',
+            latitude: '-3.45413000',
+            longitude: '115.70372000'),
+        City(
+            id: 56665,
+            name: 'Kabupaten Tanah Laut',
+            latitude: '-3.88333000',
+            longitude: '114.86667000'),
+        City(
+            id: 56673,
+            name: 'Kabupaten Tapin',
+            latitude: '-2.91667000',
+            longitude: '115.03333000'),
+        City(
+            id: 56733,
+            name: 'Kota Banjar Baru',
+            latitude: '-3.41667000',
+            longitude: '114.83333000'),
+        City(
+            id: 56734,
+            name: 'Kota Banjarmasin',
+            latitude: '-3.32444000',
+            longitude: '114.59102000'),
+        City(
+            id: 56864,
+            name: 'Martapura',
+            latitude: '-3.41090000',
+            longitude: '114.86420000')
+      ]),
+      State(id: 1794, name: 'Kalimantan Tengah', stateCode: 'KT', cities: [
+        City(
+            id: 56342,
+            name: 'Kabupaten Barito Selatan',
+            latitude: '-1.86667000',
+            longitude: '114.73333000'),
+        City(
+            id: 56343,
+            name: 'Kabupaten Barito Timur',
+            latitude: '-1.93333000',
+            longitude: '115.10000000'),
+        City(
+            id: 56344,
+            name: 'Kabupaten Barito Utara',
+            latitude: '-0.98333000',
+            longitude: '115.10000000'),
+        City(
+            id: 56415,
+            name: 'Kabupaten Gunung Mas',
+            latitude: '-0.95000000',
+            longitude: '113.50000000'),
+        City(
+            id: 56437,
+            name: 'Kabupaten Kapuas',
+            latitude: '-2.01667000',
+            longitude: '114.38333000'),
+        City(
+            id: 56443,
+            name: 'Kabupaten Katingan',
+            latitude: '-2.06667000',
+            longitude: '113.40000000'),
+        City(
+            id: 56469,
+            name: 'Kabupaten Kotawaringin Barat',
+            latitude: '-2.40000000',
+            longitude: '111.73333000'),
+        City(
+            id: 56470,
+            name: 'Kabupaten Kotawaringin Timur',
+            latitude: '-2.08333000',
+            longitude: '112.75000000'),
+        City(
+            id: 56482,
+            name: 'Kabupaten Lamandau',
+            latitude: '-1.83828000',
+            longitude: '111.28690000'),
+        City(
+            id: 56547,
+            name: 'Kabupaten Murung Raya',
+            latitude: '-0.01667000',
+            longitude: '114.26667000'),
+        City(
+            id: 56601,
+            name: 'Kabupaten Pulang Pisau',
+            latitude: '-3.11858000',
+            longitude: '113.86230000'),
+        City(
+            id: 56625,
+            name: 'Kabupaten Seruyan',
+            latitude: '-2.33333000',
+            longitude: '112.25000000'),
+        City(
+            id: 56646,
+            name: 'Kabupaten Sukamara',
+            latitude: '-2.62675000',
+            longitude: '111.23681000'),
+        City(
+            id: 56777,
+            name: 'Kota Palangka Raya',
+            latitude: '-1.76979000',
+            longitude: '113.73126000'),
+        City(
+            id: 56823,
+            name: 'Kualakapuas',
+            latitude: '-3.00913000',
+            longitude: '114.38759000'),
+        City(
+            id: 56897,
+            name: 'Palangkaraya',
+            latitude: '-2.20833000',
+            longitude: '113.91667000'),
+        City(
+            id: 56911,
+            name: 'Pangkalanbuun',
+            latitude: '-2.68320000',
+            longitude: '111.62590000'),
+        City(
+            id: 56961,
+            name: 'Sampit',
+            latitude: '-2.53150000',
+            longitude: '112.94960000')
+      ]),
+      State(id: 1804, name: 'Kalimantan Timur', stateCode: 'KI', cities: [
         City(
             id: 56190,
             name: 'Balikpapan',
@@ -1918,7 +2553,490 @@ const idn = Country(
             latitude: '-0.49167000',
             longitude: '117.14583000')
       ]),
-      State(id: 1818, name: 'East Nusa Tenggara', stateCode: 'NT', cities: [
+      State(id: 1824, name: 'Kalimantan Utara', stateCode: 'KU', cities: [
+        City(
+            id: 56381,
+            name: 'Kabupaten Bulungan',
+            latitude: '3.00000000',
+            longitude: '117.16667000'),
+        City(
+            id: 56512,
+            name: 'Kabupaten Malinau',
+            latitude: '2.45000000',
+            longitude: '115.68333000'),
+        City(
+            id: 56562,
+            name: 'Kabupaten Nunukan',
+            latitude: '4.13333000',
+            longitude: '116.70000000'),
+        City(
+            id: 56661,
+            name: 'Kabupaten Tana Tidung',
+            latitude: '3.55000000',
+            longitude: '117.25000000'),
+        City(
+            id: 57019,
+            name: 'Tanjung Selor',
+            latitude: '2.83750000',
+            longitude: '117.36528000'),
+        City(
+            id: 57023,
+            name: 'Tarakan',
+            latitude: '3.31332000',
+            longitude: '117.59152000')
+      ]),
+      State(
+          id: 1820,
+          name: 'Kepulauan Bangka Belitung',
+          stateCode: 'BB',
+          cities: [
+            City(
+                id: 56329,
+                name: 'Kabupaten Bangka',
+                latitude: '-1.91667000',
+                longitude: '105.93333000'),
+            City(
+                id: 56330,
+                name: 'Kabupaten Bangka Barat',
+                latitude: '-1.95839000',
+                longitude: '105.53741000'),
+            City(
+                id: 56331,
+                name: 'Kabupaten Bangka Selatan',
+                latitude: '-2.66803000',
+                longitude: '106.01257000'),
+            City(
+                id: 56332,
+                name: 'Kabupaten Bangka Tengah',
+                latitude: '-2.33989000',
+                longitude: '106.11420000'),
+            City(
+                id: 56350,
+                name: 'Kabupaten Belitung',
+                latitude: '-2.86667000',
+                longitude: '107.70000000'),
+            City(
+                id: 56351,
+                name: 'Kabupaten Belitung Timur',
+                latitude: '-2.96270000',
+                longitude: '108.15216000'),
+            City(
+                id: 56781,
+                name: 'Kota Pangkal Pinang',
+                latitude: '-2.13333000',
+                longitude: '106.13333000'),
+            City(
+                id: 56859,
+                name: 'Manggar',
+                latitude: '-2.88333000',
+                longitude: '108.26667000'),
+            City(
+                id: 56881,
+                name: 'Muntok',
+                latitude: '-2.06719000',
+                longitude: '105.16228000'),
+            City(
+                id: 56912,
+                name: 'Pangkalpinang',
+                latitude: '-2.12914000',
+                longitude: '106.11377000'),
+            City(
+                id: 57009,
+                name: 'Sungailiat',
+                latitude: '-1.85442000',
+                longitude: '106.12215000'),
+            City(
+                id: 57017,
+                name: 'Tanjung Pandan',
+                latitude: '-2.73353000',
+                longitude: '107.63477000')
+          ]),
+      State(id: 1807, name: 'Kepulauan Riau', stateCode: 'KR', cities: [
+        City(
+            id: 56361,
+            name: 'Kabupaten Bintan',
+            latitude: '0.95000000',
+            longitude: '104.61944000'),
+        City(
+            id: 56441,
+            name: 'Kabupaten Karimun',
+            latitude: '0.80764000',
+            longitude: '103.41911000'),
+        City(
+            id: 56450,
+            name: 'Kabupaten Kepulauan Anambas',
+            latitude: '3.00000000',
+            longitude: '106.00000000'),
+        City(
+            id: 56495,
+            name: 'Kabupaten Lingga',
+            latitude: '0.20000000',
+            longitude: '104.61667000'),
+        City(
+            id: 56554,
+            name: 'Kabupaten Natuna',
+            latitude: '4.71417000',
+            longitude: '107.97639000'),
+        City(
+            id: 56716,
+            name: 'Kijang',
+            latitude: '0.90000000',
+            longitude: '104.63333000'),
+        City(
+            id: 56735,
+            name: 'Kota Batam',
+            latitude: '1.05211000',
+            longitude: '104.02851000'),
+        City(
+            id: 56808,
+            name: 'Kota Tanjung Pinang',
+            latitude: '0.91683000',
+            longitude: '104.44329000'),
+        City(
+            id: 57018,
+            name: 'Tanjung Pinang',
+            latitude: '0.91667000',
+            longitude: '104.45833000')
+      ]),
+      State(id: 1811, name: 'Lampung', stateCode: 'LA', cities: [
+        City(
+            id: 56195,
+            name: 'Bandar Lampung',
+            latitude: '-5.42917000',
+            longitude: '105.26111000'),
+        City(
+            id: 56484,
+            name: 'Kabupaten Lampung Barat',
+            latitude: '-5.14904000',
+            longitude: '104.19309000'),
+        City(
+            id: 56485,
+            name: 'Kabupaten Lampung Selatan',
+            latitude: '-5.45310000',
+            longitude: '104.98770000'),
+        City(
+            id: 56486,
+            name: 'Kabupaten Lampung Tengah',
+            latitude: '-4.86667000',
+            longitude: '105.26667000'),
+        City(
+            id: 56487,
+            name: 'Kabupaten Lampung Timur',
+            latitude: '-5.10273000',
+            longitude: '105.68003000'),
+        City(
+            id: 56488,
+            name: 'Kabupaten Lampung Utara',
+            latitude: '-4.81667000',
+            longitude: '104.80000000'),
+        City(
+            id: 56534,
+            name: 'Kabupaten Mesuji',
+            latitude: '-4.04390000',
+            longitude: '105.40130000'),
+        City(
+            id: 56590,
+            name: 'Kabupaten Pesawaran',
+            latitude: '-5.42980000',
+            longitude: '105.17899000'),
+        City(
+            id: 56591,
+            name: 'Kabupaten Pesisir Barat',
+            latitude: '-5.19323000',
+            longitude: '103.93976000'),
+        City(
+            id: 56599,
+            name: 'Kabupaten Pringsewu',
+            latitude: '-5.42211000',
+            longitude: '104.93454000'),
+        City(
+            id: 56667,
+            name: 'Kabupaten Tanggamus',
+            latitude: '-5.38508000',
+            longitude: '104.62349000'),
+        City(
+            id: 56687,
+            name: 'Kabupaten Tulangbawang',
+            latitude: '-4.20604000',
+            longitude: '105.57999000'),
+        City(
+            id: 56691,
+            name: 'Kabupaten Way Kanan',
+            latitude: '-4.44705000',
+            longitude: '104.52753000'),
+        City(
+            id: 56730,
+            name: 'Kota Bandar Lampung',
+            latitude: '-5.41667000',
+            longitude: '105.25000000'),
+        City(
+            id: 56771,
+            name: 'Kota Metro',
+            latitude: '-5.11856000',
+            longitude: '105.29949000'),
+        City(
+            id: 56817,
+            name: 'Kotabumi',
+            latitude: '-4.82505000',
+            longitude: '104.88170000'),
+        City(
+            id: 56871,
+            name: 'Metro',
+            latitude: '-5.11306000',
+            longitude: '105.30667000'),
+        City(
+            id: 57031,
+            name: 'Terbanggi Besar',
+            latitude: '-4.87898000',
+            longitude: '105.21818000')
+      ]),
+      State(id: 1800, name: 'Maluku', stateCode: 'MA', cities: [
+        City(
+            id: 56175,
+            name: 'Amahai',
+            latitude: '-3.33984000',
+            longitude: '128.91975000'),
+        City(
+            id: 56178,
+            name: 'Ambon',
+            latitude: '-3.69583000',
+            longitude: '128.18333000'),
+        City(
+            id: 56384,
+            name: 'Kabupaten Buru',
+            latitude: '-3.32767000',
+            longitude: '126.68413000'),
+        City(
+            id: 56385,
+            name: 'Kabupaten Buru Selatan',
+            latitude: '-3.52187000',
+            longitude: '126.59271000'),
+        City(
+            id: 56451,
+            name: 'Kabupaten Kepulauan Aru',
+            latitude: '-6.17059000',
+            longitude: '134.46991000'),
+        City(
+            id: 56513,
+            name: 'Kabupaten Maluku Barat Daya',
+            latitude: '-7.82960000',
+            longitude: '126.17386000'),
+        City(
+            id: 56514,
+            name: 'Kabupaten Maluku Tengah',
+            latitude: '-3.29167000',
+            longitude: '128.96750000'),
+        City(
+            id: 56515,
+            name: 'Kabupaten Maluku Tenggara',
+            latitude: '-5.75000000',
+            longitude: '132.73333000'),
+        City(
+            id: 56516,
+            name: 'Kabupaten Maluku Tenggara Barat',
+            latitude: '-7.61186000',
+            longitude: '131.38000000'),
+        City(
+            id: 56621,
+            name: 'Kabupaten Seram Bagian Barat',
+            latitude: '-3.10270000',
+            longitude: '128.42996000'),
+        City(
+            id: 56622,
+            name: 'Kabupaten Seram Bagian Timur',
+            latitude: '-3.39851000',
+            longitude: '130.39167000'),
+        City(
+            id: 56727,
+            name: 'Kota Ambon',
+            latitude: '-3.70000000',
+            longitude: '128.18333000'),
+        City(
+            id: 56815,
+            name: 'Kota Tual',
+            latitude: '-5.64301000',
+            longitude: '132.74935000'),
+        City(
+            id: 57041,
+            name: 'Tual',
+            latitude: '-5.62878000',
+            longitude: '132.75229000')
+      ]),
+      State(id: 1801, name: 'Maluku Utara', stateCode: 'MU', cities: [
+        City(
+            id: 56271,
+            name: 'East Halmahera Regency',
+            latitude: '1.33517000',
+            longitude: '128.48627000'),
+        City(
+            id: 56416,
+            name: 'Kabupaten Halmahera Barat',
+            latitude: '1.41709000',
+            longitude: '127.55264000'),
+        City(
+            id: 56417,
+            name: 'Kabupaten Halmahera Selatan',
+            latitude: '-0.39550000',
+            longitude: '127.90833000'),
+        City(
+            id: 56418,
+            name: 'Kabupaten Halmahera Tengah',
+            latitude: '0.48056000',
+            longitude: '128.25000000'),
+        City(
+            id: 56419,
+            name: 'Kabupaten Halmahera Utara',
+            latitude: '1.73194000',
+            longitude: '128.00778000'),
+        City(
+            id: 56455,
+            name: 'Kabupaten Kepulauan Sula',
+            latitude: '-1.86460000',
+            longitude: '125.69046000'),
+        City(
+            id: 56602,
+            name: 'Kabupaten Pulau Morotai',
+            latitude: '2.19924000',
+            longitude: '128.40546000'),
+        City(
+            id: 56603,
+            name: 'Kabupaten Pulau Taliabu',
+            latitude: '-1.84578000',
+            longitude: '124.78992000'),
+        City(
+            id: 56812,
+            name: 'Kota Ternate',
+            latitude: '0.89618000',
+            longitude: '127.31016000'),
+        City(
+            id: 56813,
+            name: 'Kota Tidore Kepulauan',
+            latitude: '0.60962000',
+            longitude: '127.56981000'),
+        City(
+            id: 56990,
+            name: 'Sofifi',
+            latitude: '0.73729000',
+            longitude: '127.55880000'),
+        City(
+            id: 57032,
+            name: 'Ternate',
+            latitude: '0.79065000',
+            longitude: '127.38424000'),
+        City(
+            id: 57033,
+            name: 'Tobelo',
+            latitude: '1.72837000',
+            longitude: '128.00948000')
+      ]),
+      State(id: 1814, name: 'Nusa Tenggara Barat', stateCode: 'NB', cities: [
+        City(
+            id: 56221,
+            name: 'Bima',
+            latitude: '-8.46006000',
+            longitude: '118.72667000'),
+        City(
+            id: 56267,
+            name: 'Dompu',
+            latitude: '-8.53650000',
+            longitude: '118.46340000'),
+        City(
+            id: 56281,
+            name: 'Gili Air',
+            latitude: '-8.35783000',
+            longitude: '116.08240000'),
+        City(
+            id: 56360,
+            name: 'Kabupaten Bima',
+            latitude: '-8.60000000',
+            longitude: '118.61667000'),
+        City(
+            id: 56400,
+            name: 'Kabupaten Dompu',
+            latitude: '-8.50940000',
+            longitude: '118.48160000'),
+        City(
+            id: 56496,
+            name: 'Kabupaten Lombok Barat',
+            latitude: '-8.69583000',
+            longitude: '116.11667000'),
+        City(
+            id: 56497,
+            name: 'Kabupaten Lombok Tengah',
+            latitude: '-8.70000000',
+            longitude: '116.30000000'),
+        City(
+            id: 56498,
+            name: 'Kabupaten Lombok Timur',
+            latitude: '-8.53333000',
+            longitude: '116.53333000'),
+        City(
+            id: 56499,
+            name: 'Kabupaten Lombok Utara',
+            latitude: '-8.35214000',
+            longitude: '116.40152000'),
+        City(
+            id: 56652,
+            name: 'Kabupaten Sumbawa',
+            latitude: '-8.74390000',
+            longitude: '117.33240000'),
+        City(
+            id: 56653,
+            name: 'Kabupaten Sumbawa Barat',
+            latitude: '-8.75159000',
+            longitude: '116.92132000'),
+        City(
+            id: 56740,
+            name: 'Kota Bima',
+            latitude: '-8.46728000',
+            longitude: '118.75259000'),
+        City(
+            id: 56769,
+            name: 'Kota Mataram',
+            latitude: '-8.58330000',
+            longitude: '116.11670000'),
+        City(
+            id: 56831,
+            name: 'Labuan Lombok',
+            latitude: '-8.50000000',
+            longitude: '116.66667000'),
+        City(
+            id: 56843,
+            name: 'Lembar',
+            latitude: '-8.72640000',
+            longitude: '116.07440000'),
+        City(
+            id: 56865,
+            name: 'Mataram',
+            latitude: '-8.58333000',
+            longitude: '116.11667000'),
+        City(
+            id: 56931,
+            name: 'Pemenang',
+            latitude: '-8.40401000',
+            longitude: '116.10255000'),
+        City(
+            id: 56938,
+            name: 'Pototano',
+            latitude: '-8.41260000',
+            longitude: '117.48110000'),
+        City(
+            id: 56940,
+            name: 'Praya',
+            latitude: '-8.70536000',
+            longitude: '116.27036000'),
+        City(
+            id: 56966,
+            name: 'Senggigi',
+            latitude: '-8.49190000',
+            longitude: '116.04240000'),
+        City(
+            id: 57002,
+            name: 'Sumbawa Besar',
+            latitude: '-8.49317000',
+            longitude: '117.42024000')
+      ]),
+      State(id: 1818, name: 'Nusa Tenggara Timur', stateCode: 'NT', cities: [
         City(
             id: 56184,
             name: 'Atambua',
@@ -2085,430 +3203,721 @@ const idn = Country(
             latitude: '-9.65670000',
             longitude: '120.26410000')
       ]),
-      State(id: 1812, name: 'Gorontalo', stateCode: 'GO', cities: [
+      State(id: 1798, name: 'Papua', stateCode: 'PA', cities: [
         City(
-            id: 56285,
-            name: 'Gorontalo',
-            latitude: '0.53750000',
-            longitude: '123.06250000'),
+            id: 56173,
+            name: 'Abepura',
+            latitude: '-2.59640000',
+            longitude: '140.63240000'),
         City(
-            id: 56365,
-            name: 'Kabupaten Boalemo',
-            latitude: '0.62689000',
-            longitude: '122.35680000'),
+            id: 56220,
+            name: 'Biak',
+            latitude: '-1.17670000',
+            longitude: '136.08200000'),
         City(
-            id: 56375,
-            name: 'Kabupaten Bone Bolango',
-            latitude: '0.50296000',
-            longitude: '123.27501000'),
+            id: 56292,
+            name: 'Insrom',
+            latitude: '-1.14473000',
+            longitude: '136.03134000'),
         City(
-            id: 56410,
-            name: 'Kabupaten Gorontalo',
-            latitude: '0.57280000',
-            longitude: '122.23370000'),
+            id: 56299,
+            name: 'Jayapura',
+            latitude: '-2.53371000',
+            longitude: '140.71813000'),
         City(
-            id: 56411,
-            name: 'Kabupaten Gorontalo Utara',
-            latitude: '0.77000000',
-            longitude: '122.31667000'),
+            id: 56321,
+            name: 'Kabupaten Asmat',
+            latitude: '-5.37950000',
+            longitude: '138.46344000'),
         City(
-            id: 56595,
-            name: 'Kabupaten Pohuwato',
-            latitude: '0.70980000',
-            longitude: '121.59582000'),
+            id: 56359,
+            name: 'Kabupaten Biak Numfor',
+            latitude: '-1.03333000',
+            longitude: '136.00000000'),
         City(
-            id: 56753,
-            name: 'Kota Gorontalo',
+            id: 56376,
+            name: 'Kabupaten Boven Digoel',
+            latitude: '-5.70519000',
+            longitude: '140.36349000'),
+        City(
+            id: 56395,
+            name: 'Kabupaten Deiyai',
+            latitude: '-3.94737000',
+            longitude: '135.95032000'),
+        City(
+            id: 56399,
+            name: 'Kabupaten Dogiyai',
+            latitude: '-4.03186000',
+            longitude: '135.43945000'),
+        City(
+            id: 56427,
+            name: 'Kabupaten Intan Jaya',
+            latitude: '-3.41016000',
+            longitude: '136.70837000'),
+        City(
+            id: 56428,
+            name: 'Kabupaten Jayapura',
+            latitude: '-3.00000000',
+            longitude: '139.95000000'),
+        City(
+            id: 56429,
+            name: 'Kabupaten Jayawijaya',
+            latitude: '-4.08333000',
+            longitude: '139.08333000'),
+        City(
+            id: 56447,
+            name: 'Kabupaten Keerom',
+            latitude: '-3.30000000',
+            longitude: '140.61667000'),
+        City(
+            id: 56457,
+            name: 'Kabupaten Kepulauan Yapen',
+            latitude: '-1.78773000',
+            longitude: '136.27716000'),
+        City(
+            id: 56490,
+            name: 'Kabupaten Lanny Jaya',
+            latitude: '-3.91244000',
+            longitude: '138.28766000'),
+        City(
+            id: 56518,
+            name: 'Kabupaten Mamberamo Raya',
+            latitude: '-2.23561000',
+            longitude: '137.78229000'),
+        City(
+            id: 56519,
+            name: 'Kabupaten Mamberamo Tengah',
+            latitude: '-2.46064000',
+            longitude: '138.45245000'),
+        City(
+            id: 56529,
+            name: 'Kabupaten Mappi',
+            latitude: '-6.49971000',
+            longitude: '139.34441000'),
+        City(
+            id: 56533,
+            name: 'Kabupaten Merauke',
+            latitude: '-7.66667000',
+            longitude: '139.66667000'),
+        City(
+            id: 56535,
+            name: 'Kabupaten Mimika',
+            latitude: '-4.54357000',
+            longitude: '136.56555000'),
+        City(
+            id: 56551,
+            name: 'Kabupaten Nabire',
+            latitude: '-3.54016000',
+            longitude: '135.55511000'),
+        City(
+            id: 56555,
+            name: 'Kabupaten Nduga',
+            latitude: '-4.45093000',
+            longitude: '138.10089000'),
+        City(
+            id: 56577,
+            name: 'Kabupaten Paniai',
+            latitude: '-3.90000000',
+            longitude: '136.60000000'),
+        City(
+            id: 56584,
+            name: 'Kabupaten Pegunungan Bintang',
+            latitude: '-4.52167000',
+            longitude: '140.29541000'),
+        City(
+            id: 56604,
+            name: 'Kabupaten Puncak Jaya',
+            latitude: '-3.67241000',
+            longitude: '137.43896000'),
+        City(
+            id: 56617,
+            name: 'Kabupaten Sarmi',
+            latitude: '-2.41667000',
+            longitude: '139.08333000'),
+        City(
+            id: 56656,
+            name: 'Kabupaten Supiori',
+            latitude: '-0.73881000',
+            longitude: '135.61111000'),
+        City(
+            id: 56683,
+            name: 'Kabupaten Tolikara',
+            latitude: '-3.42661000',
+            longitude: '137.41699000'),
+        City(
+            id: 56690,
+            name: 'Kabupaten Waropen',
+            latitude: '-2.28600000',
+            longitude: '137.01837000'),
+        City(
+            id: 56694,
+            name: 'Kabupaten Yahukimo',
+            latitude: '-4.60403000',
+            longitude: '139.58405000'),
+        City(
+            id: 56695,
+            name: 'Kabupaten Yalimo',
+            latitude: '-3.86037000',
+            longitude: '138.47305000'),
+        City(
+            id: 56756,
+            name: 'Kota Jayapura',
+            latitude: '-2.64647000',
+            longitude: '140.77779000'),
+        City(
+            id: 56882,
+            name: 'Nabire',
+            latitude: '-3.35989000',
+            longitude: '135.50074000')
+      ]),
+      State(id: 1799, name: 'Papua Barat', stateCode: 'PB', cities: [
+        City(
+            id: 56405,
+            name: 'Kabupaten Fakfak',
+            latitude: '-2.92641000',
+            longitude: '132.29608000'),
+        City(
+            id: 56435,
+            name: 'Kabupaten Kaimana',
+            latitude: '-3.66093000',
+            longitude: '133.77451000'),
+        City(
+            id: 56527,
+            name: 'Kabupaten Manokwari',
+            latitude: '-0.90000000',
+            longitude: '133.75000000'),
+        City(
+            id: 56528,
+            name: 'Kabupaten Manokwari Selatan',
+            latitude: '-1.07980000',
+            longitude: '133.96729000'),
+        City(
+            id: 56531,
+            name: 'Kabupaten Maybrat',
+            latitude: '-1.21550000',
+            longitude: '132.35092000'),
+        City(
+            id: 56608,
+            name: 'Kabupaten Raja Ampat',
+            latitude: '-0.50000000',
+            longitude: '130.00000000'),
+        City(
+            id: 56641,
+            name: 'Kabupaten Sorong',
+            latitude: '-1.16667000',
+            longitude: '131.50000000'),
+        City(
+            id: 56642,
+            name: 'Kabupaten Sorong Selatan',
+            latitude: '-1.50495000',
+            longitude: '132.28638000'),
+        City(
+            id: 56660,
+            name: 'Kabupaten Tambrauw',
+            latitude: '-0.60515000',
+            longitude: '132.48962000'),
+        City(
+            id: 56677,
+            name: 'Kabupaten Teluk Bintuni',
+            latitude: '-1.88037000',
+            longitude: '133.33105000'),
+        City(
+            id: 56678,
+            name: 'Kabupaten Teluk Wondama',
+            latitude: '-2.70000000',
+            longitude: '134.50000000'),
+        City(
+            id: 56799,
+            name: 'Kota Sorong',
+            latitude: '-0.86507000',
+            longitude: '131.25152000'),
+        City(
+            id: 56860,
+            name: 'Manokwari',
+            latitude: '-0.86291000',
+            longitude: '134.06402000'),
+        City(
+            id: 56995,
+            name: 'Sorong',
+            latitude: '-0.87956000',
+            longitude: '131.26104000')
+      ]),
+      State(id: 1809, name: 'Riau', stateCode: 'RI', cities: [
+        City(
+            id: 56188,
+            name: 'Balaipungut',
+            latitude: '1.05949000',
+            longitude: '101.29054000'),
+        City(
+            id: 56208,
+            name: 'Batam',
+            latitude: '1.14937000',
+            longitude: '104.02491000'),
+        City(
+            id: 56270,
+            name: 'Dumai',
+            latitude: '1.66711000',
+            longitude: '101.44316000'),
+        City(
+            id: 56354,
+            name: 'Kabupaten Bengkalis',
+            latitude: '0.98380000',
+            longitude: '102.50960000'),
+        City(
+            id: 56424,
+            name: 'Kabupaten Indragiri Hilir',
+            latitude: '-0.33333000',
+            longitude: '103.16667000'),
+        City(
+            id: 56425,
+            name: 'Kabupaten Indragiri Hulu',
+            latitude: '-0.55000000',
+            longitude: '102.31667000'),
+        City(
+            id: 56436,
+            name: 'Kabupaten Kampar',
+            latitude: '0.23440000',
+            longitude: '101.21310000'),
+        City(
+            id: 56453,
+            name: 'Kabupaten Kepulauan Meranti',
+            latitude: '0.97488000',
+            longitude: '102.69539000'),
+        City(
+            id: 56471,
+            name: 'Kabupaten Kuantan Singingi',
+            latitude: '-0.47532000',
+            longitude: '101.45857000'),
+        City(
+            id: 56586,
+            name: 'Kabupaten Pelalawan',
+            latitude: '0.20822000',
+            longitude: '102.18607000'),
+        City(
+            id: 56611,
+            name: 'Kabupaten Rokan Hilir',
+            latitude: '2.16599000',
+            longitude: '100.82514000'),
+        City(
+            id: 56612,
+            name: 'Kabupaten Rokan Hulu',
+            latitude: '0.88333000',
+            longitude: '100.48333000'),
+        City(
+            id: 56626,
+            name: 'Kabupaten Siak',
+            latitude: '0.97453000',
+            longitude: '102.01355000'),
+        City(
+            id: 56752,
+            name: 'Kota Dumai',
+            latitude: '1.61592000',
+            longitude: '101.49170000'),
+        City(
+            id: 56787,
+            name: 'Kota Pekanbaru',
             latitude: '0.53333000',
-            longitude: '123.10000000')
+            longitude: '101.46667000'),
+        City(
+            id: 56927,
+            name: 'Pekanbaru',
+            latitude: '0.51667000',
+            longitude: '101.44167000')
       ]),
-      State(id: 1805, name: 'Jakarta', stateCode: 'JK', cities: [
+      State(id: 1817, name: 'Sulawesi Barat', stateCode: 'SR', cities: [
         City(
-            id: 56293,
-            name: 'Jakarta',
-            latitude: '-6.21462000',
-            longitude: '106.84513000'),
+            id: 56509,
+            name: 'Kabupaten Majene',
+            latitude: '-3.15000000',
+            longitude: '118.86667000'),
         City(
-            id: 56722,
-            name: 'Kota Administrasi Jakarta Barat',
-            latitude: '-6.16760000',
-            longitude: '106.76730000'),
+            id: 56517,
+            name: 'Kabupaten Mamasa',
+            latitude: '-2.96492000',
+            longitude: '119.30631000'),
         City(
-            id: 56723,
-            name: 'Kota Administrasi Jakarta Pusat',
-            latitude: '-6.17770000',
-            longitude: '106.84030000'),
+            id: 56520,
+            name: 'Kabupaten Mamuju',
+            latitude: '-2.50000000',
+            longitude: '119.41667000'),
         City(
-            id: 56724,
-            name: 'Kota Administrasi Jakarta Selatan',
-            latitude: '-6.26600000',
-            longitude: '106.81350000'),
+            id: 56521,
+            name: 'Kabupaten Mamuju Tengah',
+            latitude: '-2.82120000',
+            longitude: '119.26620000'),
         City(
-            id: 56725,
-            name: 'Kota Administrasi Jakarta Timur',
-            latitude: '-6.25210000',
-            longitude: '106.88400000'),
+            id: 56522,
+            name: 'Kabupaten Mamuju Utara',
+            latitude: '-1.51639000',
+            longitude: '119.42139000'),
         City(
-            id: 56726,
-            name: 'Kota Administrasi Jakarta Utara',
-            latitude: '-6.13390000',
-            longitude: '106.88230000')
+            id: 56596,
+            name: 'Kabupaten Polewali Mandar',
+            latitude: '-3.30000000',
+            longitude: '119.16667000'),
+        City(
+            id: 56854,
+            name: 'Majene',
+            latitude: '-3.54030000',
+            longitude: '118.97070000'),
+        City(
+            id: 56857,
+            name: 'Mamuju',
+            latitude: '-2.68056000',
+            longitude: '118.88611000'),
+        City(
+            id: 56935,
+            name: 'Polewali',
+            latitude: '-3.43240000',
+            longitude: '119.34350000')
       ]),
-      State(id: 1815, name: 'Jambi', stateCode: 'JA', cities: [
+      State(id: 1795, name: 'Sulawesi Selatan', stateCode: 'SN', cities: [
         City(
-            id: 56214,
-            name: 'Bejubang Dua',
-            latitude: '-1.79230000',
-            longitude: '103.31670000'),
+            id: 56273,
+            name: 'Galesong',
+            latitude: '-5.31660000',
+            longitude: '119.36610000'),
         City(
-            id: 56294,
-            name: 'Jambi City',
-            latitude: '-1.60000000',
-            longitude: '103.61667000'),
+            id: 56337,
+            name: 'Kabupaten Bantaeng',
+            latitude: '-5.48333000',
+            longitude: '119.98333000'),
         City(
-            id: 56347,
-            name: 'Kabupaten Batang Hari',
-            latitude: '-1.75000000',
-            longitude: '103.11667000'),
+            id: 56345,
+            name: 'Kabupaten Barru',
+            latitude: '-4.43333000',
+            longitude: '119.68333000'),
         City(
-            id: 56382,
-            name: 'Kabupaten Bungo',
-            latitude: '-1.50222000',
-            longitude: '101.96000000'),
+            id: 56374,
+            name: 'Kabupaten Bone',
+            latitude: '-4.70000000',
+            longitude: '120.13333000'),
         City(
-            id: 56458,
-            name: 'Kabupaten Kerinci',
-            latitude: '-2.03333000',
-            longitude: '101.53333000'),
-        City(
-            id: 56532,
-            name: 'Kabupaten Merangin',
-            latitude: '-2.06933000',
-            longitude: '102.13303000'),
-        City(
-            id: 56543,
-            name: 'Kabupaten Muaro Jambi',
-            latitude: '-1.55214000',
-            longitude: '103.82163000'),
-        City(
-            id: 56618,
-            name: 'Kabupaten Sarolangun',
-            latitude: '-2.30000000',
-            longitude: '102.65000000'),
-        City(
-            id: 56668,
-            name: 'Kabupaten Tanjung Jabung Barat',
-            latitude: '-1.15440000',
-            longitude: '103.24402000'),
-        City(
-            id: 56669,
-            name: 'Kabupaten Tanjung Jabung Timur',
-            latitude: '-1.13198000',
-            longitude: '103.61755000'),
-        City(
-            id: 56675,
-            name: 'Kabupaten Tebo',
-            latitude: '-1.45576000',
-            longitude: '102.37473000'),
-        City(
-            id: 56755,
-            name: 'Kota Jambi',
-            latitude: '-1.61667000',
-            longitude: '103.65000000'),
-        City(
-            id: 56802,
-            name: 'Kota Sungai Penuh',
-            latitude: '-2.10896000',
-            longitude: '101.32175000'),
-        City(
-            id: 56822,
-            name: 'Kuala Tungkal',
-            latitude: '-0.81623000',
-            longitude: '103.46111000'),
-        City(
-            id: 56869,
-            name: 'Mendaha',
-            latitude: '-1.01630000',
-            longitude: '103.59331000'),
-        City(
-            id: 56978,
-            name: 'Simpang',
-            latitude: '-1.26424000',
-            longitude: '104.09701000'),
-        City(
-            id: 57008,
-            name: 'Sungai Penuh',
-            latitude: '-2.05610000',
-            longitude: '101.39130000')
-      ]),
-      State(id: 1806, name: 'Kalimantan', stateCode: 'KA', cities: []),
-      State(id: 1811, name: 'Lampung', stateCode: 'LA', cities: [
-        City(
-            id: 56195,
-            name: 'Bandar Lampung',
-            latitude: '-5.42917000',
-            longitude: '105.26111000'),
-        City(
-            id: 56484,
-            name: 'Kabupaten Lampung Barat',
-            latitude: '-5.14904000',
-            longitude: '104.19309000'),
-        City(
-            id: 56485,
-            name: 'Kabupaten Lampung Selatan',
-            latitude: '-5.45310000',
-            longitude: '104.98770000'),
-        City(
-            id: 56486,
-            name: 'Kabupaten Lampung Tengah',
-            latitude: '-4.86667000',
-            longitude: '105.26667000'),
-        City(
-            id: 56487,
-            name: 'Kabupaten Lampung Timur',
-            latitude: '-5.10273000',
-            longitude: '105.68003000'),
-        City(
-            id: 56488,
-            name: 'Kabupaten Lampung Utara',
-            latitude: '-4.81667000',
-            longitude: '104.80000000'),
-        City(
-            id: 56534,
-            name: 'Kabupaten Mesuji',
-            latitude: '-4.04390000',
-            longitude: '105.40130000'),
-        City(
-            id: 56590,
-            name: 'Kabupaten Pesawaran',
-            latitude: '-5.42980000',
-            longitude: '105.17899000'),
-        City(
-            id: 56591,
-            name: 'Kabupaten Pesisir Barat',
-            latitude: '-5.19323000',
-            longitude: '103.93976000'),
-        City(
-            id: 56599,
-            name: 'Kabupaten Pringsewu',
-            latitude: '-5.42211000',
-            longitude: '104.93454000'),
-        City(
-            id: 56667,
-            name: 'Kabupaten Tanggamus',
-            latitude: '-5.38508000',
-            longitude: '104.62349000'),
-        City(
-            id: 56687,
-            name: 'Kabupaten Tulangbawang',
-            latitude: '-4.20604000',
-            longitude: '105.57999000'),
-        City(
-            id: 56691,
-            name: 'Kabupaten Way Kanan',
-            latitude: '-4.44705000',
-            longitude: '104.52753000'),
-        City(
-            id: 56730,
-            name: 'Kota Bandar Lampung',
+            id: 56380,
+            name: 'Kabupaten Bulukumba',
             latitude: '-5.41667000',
-            longitude: '105.25000000'),
+            longitude: '120.23333000'),
         City(
-            id: 56771,
-            name: 'Kota Metro',
-            latitude: '-5.11856000',
-            longitude: '105.29949000'),
+            id: 56404,
+            name: 'Kabupaten Enrekang',
+            latitude: '-3.50000000',
+            longitude: '119.86667000'),
         City(
-            id: 56817,
-            name: 'Kotabumi',
-            latitude: '-4.82505000',
-            longitude: '104.88170000'),
+            id: 56412,
+            name: 'Kabupaten Gowa',
+            latitude: '-5.31667000',
+            longitude: '119.75000000'),
         City(
-            id: 56871,
-            name: 'Metro',
-            latitude: '-5.11306000',
-            longitude: '105.30667000'),
+            id: 56432,
+            name: 'Kabupaten Jeneponto',
+            latitude: '-5.63333000',
+            longitude: '119.73333000'),
         City(
-            id: 57031,
-            name: 'Terbanggi Besar',
-            latitude: '-4.87898000',
-            longitude: '105.21818000')
+            id: 56501,
+            name: 'Kabupaten Luwu',
+            latitude: '-2.55770000',
+            longitude: '121.32420000'),
+        City(
+            id: 56502,
+            name: 'Kabupaten Luwu Timur',
+            latitude: '-2.50957000',
+            longitude: '120.39780000'),
+        City(
+            id: 56503,
+            name: 'Kabupaten Luwu Utara',
+            latitude: '-2.60000000',
+            longitude: '120.25000000'),
+        City(
+            id: 56530,
+            name: 'Kabupaten Maros',
+            latitude: '-5.05000000',
+            longitude: '119.71667000'),
+        City(
+            id: 56576,
+            name: 'Kabupaten Pangkajene Dan Kepulauan',
+            latitude: '-4.78270000',
+            longitude: '119.55060000'),
+        City(
+            id: 56594,
+            name: 'Kabupaten Pinrang',
+            latitude: '-3.61667000',
+            longitude: '119.60000000'),
+        City(
+            id: 56628,
+            name: 'Kabupaten Sidenreng Rappang',
+            latitude: '-3.85000000',
+            longitude: '119.96667000'),
+        City(
+            id: 56635,
+            name: 'Kabupaten Sinjai',
+            latitude: '-5.21667000',
+            longitude: '120.15000000'),
+        City(
+            id: 56640,
+            name: 'Kabupaten Soppeng',
+            latitude: '-4.38420000',
+            longitude: '119.89000000'),
+        City(
+            id: 56659,
+            name: 'Kabupaten Takalar',
+            latitude: '-5.41667000',
+            longitude: '119.51667000'),
+        City(
+            id: 56662,
+            name: 'Kabupaten Tana Toraja',
+            latitude: '-3.00240000',
+            longitude: '119.79655000'),
+        City(
+            id: 56684,
+            name: 'Kabupaten Toraja Utara',
+            latitude: '-2.92738000',
+            longitude: '119.79218000'),
+        City(
+            id: 56689,
+            name: 'Kabupaten Wajo',
+            latitude: '-4.00000000',
+            longitude: '120.16667000'),
+        City(
+            id: 56766,
+            name: 'Kota Makassar',
+            latitude: '-5.15000000',
+            longitude: '119.45000000'),
+        City(
+            id: 56779,
+            name: 'Kota Palopo',
+            latitude: '-2.97841000',
+            longitude: '120.11078000'),
+        City(
+            id: 56782,
+            name: 'Kota Parepare',
+            latitude: '-4.03333000',
+            longitude: '119.65000000'),
+        City(
+            id: 56855,
+            name: 'Makassar',
+            latitude: '-5.14861000',
+            longitude: '119.43194000'),
+        City(
+            id: 56863,
+            name: 'Maros',
+            latitude: '-5.00600000',
+            longitude: '119.57270000'),
+        City(
+            id: 56900,
+            name: 'Palopo',
+            latitude: '-2.99250000',
+            longitude: '120.19694000'),
+        City(
+            id: 56916,
+            name: 'Parepare',
+            latitude: '-4.01350000',
+            longitude: '119.62550000'),
+        City(
+            id: 56952,
+            name: 'Rantepao',
+            latitude: '-2.97010000',
+            longitude: '119.89780000'),
+        City(
+            id: 56963,
+            name: 'Selayar Islands Regency',
+            latitude: '-6.81667000',
+            longitude: '120.80000000'),
+        City(
+            id: 56967,
+            name: 'Sengkang',
+            latitude: '-4.12790000',
+            longitude: '120.02970000'),
+        City(
+            id: 56985,
+            name: 'Sinjai',
+            latitude: '-5.12410000',
+            longitude: '120.25300000'),
+        City(
+            id: 57052,
+            name: 'Watampone',
+            latitude: '-4.53860000',
+            longitude: '120.32790000')
       ]),
-      State(
-          id: 1821, name: 'Lesser Sunda Islands', stateCode: 'NU', cities: []),
-      State(id: 1800, name: 'Maluku', stateCode: 'MA', cities: [
+      State(id: 1813, name: 'Sulawesi Tengah', stateCode: 'ST', cities: [
         City(
-            id: 56175,
-            name: 'Amahai',
-            latitude: '-3.33984000',
-            longitude: '128.91975000'),
+            id: 56326,
+            name: 'Kabupaten Banggai',
+            latitude: '-0.91141000',
+            longitude: '122.71836000'),
         City(
-            id: 56178,
-            name: 'Ambon',
-            latitude: '-3.69583000',
-            longitude: '128.18333000'),
+            id: 56327,
+            name: 'Kabupaten Banggai Kepulauan',
+            latitude: '-1.30236000',
+            longitude: '123.03726000'),
         City(
-            id: 56384,
-            name: 'Kabupaten Buru',
-            latitude: '-3.32767000',
-            longitude: '126.68413000'),
+            id: 56328,
+            name: 'Kabupaten Banggai Laut',
+            latitude: '-1.61841000',
+            longitude: '123.49388000'),
         City(
-            id: 56385,
-            name: 'Kabupaten Buru Selatan',
-            latitude: '-3.52187000',
-            longitude: '126.59271000'),
+            id: 56383,
+            name: 'Kabupaten Buol',
+            latitude: '1.04656000',
+            longitude: '121.36867000'),
         City(
-            id: 56451,
-            name: 'Kabupaten Kepulauan Aru',
-            latitude: '-6.17059000',
-            longitude: '134.46991000'),
+            id: 56401,
+            name: 'Kabupaten Donggala',
+            latitude: '-0.58333000',
+            longitude: '119.85000000'),
         City(
-            id: 56513,
-            name: 'Kabupaten Maluku Barat Daya',
-            latitude: '-7.82960000',
-            longitude: '126.17386000'),
+            id: 56541,
+            name: 'Kabupaten Morowali Utara',
+            latitude: '-1.72070000',
+            longitude: '121.24649000'),
         City(
-            id: 56514,
-            name: 'Kabupaten Maluku Tengah',
-            latitude: '-3.29167000',
-            longitude: '128.96750000'),
+            id: 56578,
+            name: 'Kabupaten Parigi Moutong',
+            latitude: '0.33680000',
+            longitude: '120.17841000'),
         City(
-            id: 56515,
-            name: 'Kabupaten Maluku Tenggara',
-            latitude: '-5.75000000',
-            longitude: '132.73333000'),
+            id: 56598,
+            name: 'Kabupaten Poso',
+            latitude: '-1.65000000',
+            longitude: '120.50000000'),
         City(
-            id: 56516,
-            name: 'Kabupaten Maluku Tenggara Barat',
-            latitude: '-7.61186000',
-            longitude: '131.38000000'),
+            id: 56630,
+            name: 'Kabupaten Sigi',
+            latitude: '-1.38500000',
+            longitude: '119.96694000'),
         City(
-            id: 56621,
-            name: 'Kabupaten Seram Bagian Barat',
-            latitude: '-3.10270000',
-            longitude: '128.42996000'),
+            id: 56682,
+            name: 'Kabupaten Toli-Toli',
+            latitude: '1.30862000',
+            longitude: '120.88643000'),
         City(
-            id: 56622,
-            name: 'Kabupaten Seram Bagian Timur',
-            latitude: '-3.39851000',
-            longitude: '130.39167000'),
+            id: 56780,
+            name: 'Kota Palu',
+            latitude: '-0.86972000',
+            longitude: '119.90000000'),
         City(
-            id: 56727,
-            name: 'Kota Ambon',
-            latitude: '-3.70000000',
-            longitude: '128.18333000'),
+            id: 56849,
+            name: 'Luwuk',
+            latitude: '-0.95160000',
+            longitude: '122.78750000'),
         City(
-            id: 56815,
-            name: 'Kota Tual',
-            latitude: '-5.64301000',
-            longitude: '132.74935000'),
+            id: 56876,
+            name: 'Morowali Regency',
+            latitude: '-2.76062000',
+            longitude: '121.95267000'),
         City(
-            id: 57041,
-            name: 'Tual',
-            latitude: '-5.62878000',
-            longitude: '132.75229000')
+            id: 56901,
+            name: 'Palu',
+            latitude: '-0.90833000',
+            longitude: '119.87083000'),
+        City(
+            id: 56937,
+            name: 'Poso',
+            latitude: '-1.39590000',
+            longitude: '120.75240000'),
+        City(
+            id: 57034,
+            name: 'Tojo Una-Una Regency',
+            latitude: '-1.20360000',
+            longitude: '121.48201000')
       ]),
-      State(id: 1823, name: 'Maluku Islands', stateCode: 'ML', cities: []),
-      State(id: 1824, name: 'North Kalimantan', stateCode: 'KU', cities: [
+      State(id: 1796, name: 'Sulawesi Tenggara', stateCode: 'SG', cities: [
         City(
-            id: 56381,
-            name: 'Kabupaten Bulungan',
-            latitude: '3.00000000',
-            longitude: '117.16667000'),
+            id: 56372,
+            name: 'Kabupaten Bombana',
+            latitude: '-4.62570000',
+            longitude: '121.81641000'),
         City(
-            id: 56512,
-            name: 'Kabupaten Malinau',
-            latitude: '2.45000000',
-            longitude: '115.68333000'),
+            id: 56386,
+            name: 'Kabupaten Buton',
+            latitude: '-5.31667000',
+            longitude: '122.91667000'),
         City(
-            id: 56562,
-            name: 'Kabupaten Nunukan',
-            latitude: '4.13333000',
-            longitude: '116.70000000'),
+            id: 56387,
+            name: 'Kabupaten Buton Selatan',
+            latitude: '-5.56667000',
+            longitude: '122.70000000'),
         City(
-            id: 56661,
-            name: 'Kabupaten Tana Tidung',
-            latitude: '3.55000000',
-            longitude: '117.25000000'),
+            id: 56388,
+            name: 'Kabupaten Buton Tengah',
+            latitude: '-5.31667000',
+            longitude: '122.33333000'),
         City(
-            id: 57019,
-            name: 'Tanjung Selor',
-            latitude: '2.83750000',
-            longitude: '117.36528000'),
+            id: 56389,
+            name: 'Kabupaten Buton Utara',
+            latitude: '-5.01457000',
+            longitude: '122.93015000'),
         City(
-            id: 57023,
-            name: 'Tarakan',
-            latitude: '3.31332000',
-            longitude: '117.59152000')
+            id: 56461,
+            name: 'Kabupaten Kolaka',
+            latitude: '-4.08333000',
+            longitude: '121.66667000'),
+        City(
+            id: 56462,
+            name: 'Kabupaten Kolaka Timur',
+            latitude: '-4.01807000',
+            longitude: '121.86172000'),
+        City(
+            id: 56463,
+            name: 'Kabupaten Kolaka Utara',
+            latitude: '-3.10452000',
+            longitude: '121.12427000'),
+        City(
+            id: 56464,
+            name: 'Kabupaten Konawe',
+            latitude: '-3.91717000',
+            longitude: '122.08823000'),
+        City(
+            id: 56465,
+            name: 'Kabupaten Konawe Kepulauan',
+            latitude: '-4.11656000',
+            longitude: '123.10181000'),
+        City(
+            id: 56466,
+            name: 'Kabupaten Konawe Selatan',
+            latitude: '-4.19191000',
+            longitude: '122.44854000'),
+        City(
+            id: 56467,
+            name: 'Kabupaten Konawe Utara',
+            latitude: '-3.41552000',
+            longitude: '121.99081000'),
+        City(
+            id: 56545,
+            name: 'Kabupaten Muna',
+            latitude: '-4.96667000',
+            longitude: '122.66667000'),
+        City(
+            id: 56546,
+            name: 'Kabupaten Muna Barat',
+            latitude: '-4.83333000',
+            longitude: '122.48333000'),
+        City(
+            id: 56703,
+            name: 'Katabu',
+            latitude: '-4.93330000',
+            longitude: '122.51670000'),
+        City(
+            id: 56712,
+            name: 'Kendari',
+            latitude: '-3.97780000',
+            longitude: '122.51507000'),
+        City(
+            id: 56737,
+            name: 'Kota Baubau',
+            latitude: '-5.47700000',
+            longitude: '122.61660000'),
+        City(
+            id: 56758,
+            name: 'Kota Kendari',
+            latitude: '-3.98333000',
+            longitude: '122.50000000'),
+        City(
+            id: 57049,
+            name: 'Wakatobi Regency',
+            latitude: '-5.31934000',
+            longitude: '123.59480000')
       ]),
-      State(id: 1801, name: 'North Maluku', stateCode: 'MU', cities: [
-        City(
-            id: 56271,
-            name: 'East Halmahera Regency',
-            latitude: '1.33517000',
-            longitude: '128.48627000'),
-        City(
-            id: 56416,
-            name: 'Kabupaten Halmahera Barat',
-            latitude: '1.41709000',
-            longitude: '127.55264000'),
-        City(
-            id: 56417,
-            name: 'Kabupaten Halmahera Selatan',
-            latitude: '-0.39550000',
-            longitude: '127.90833000'),
-        City(
-            id: 56418,
-            name: 'Kabupaten Halmahera Tengah',
-            latitude: '0.48056000',
-            longitude: '128.25000000'),
-        City(
-            id: 56419,
-            name: 'Kabupaten Halmahera Utara',
-            latitude: '1.73194000',
-            longitude: '128.00778000'),
-        City(
-            id: 56455,
-            name: 'Kabupaten Kepulauan Sula',
-            latitude: '-1.86460000',
-            longitude: '125.69046000'),
-        City(
-            id: 56602,
-            name: 'Kabupaten Pulau Morotai',
-            latitude: '2.19924000',
-            longitude: '128.40546000'),
-        City(
-            id: 56603,
-            name: 'Kabupaten Pulau Taliabu',
-            latitude: '-1.84578000',
-            longitude: '124.78992000'),
-        City(
-            id: 56812,
-            name: 'Kota Ternate',
-            latitude: '0.89618000',
-            longitude: '127.31016000'),
-        City(
-            id: 56813,
-            name: 'Kota Tidore Kepulauan',
-            latitude: '0.60962000',
-            longitude: '127.56981000'),
-        City(
-            id: 56990,
-            name: 'Sofifi',
-            latitude: '0.73729000',
-            longitude: '127.55880000'),
-        City(
-            id: 57032,
-            name: 'Ternate',
-            latitude: '0.79065000',
-            longitude: '127.38424000'),
-        City(
-            id: 57033,
-            name: 'Tobelo',
-            latitude: '1.72837000',
-            longitude: '128.00948000')
-      ]),
-      State(id: 1808, name: 'North Sulawesi', stateCode: 'SA', cities: [
+      State(id: 1808, name: 'Sulawesi Utara', stateCode: 'SA', cities: [
         City(
             id: 56368,
             name: 'Kabupaten Bolaang Mongondow',
@@ -2605,7 +4014,251 @@ const idn = Country(
             latitude: '1.30540000',
             longitude: '124.91261000')
       ]),
-      State(id: 1792, name: 'North Sumatra', stateCode: 'SU', cities: [
+      State(id: 1828, name: 'Sumatera Barat', stateCode: 'SB', cities: [
+        City(
+            id: 56234,
+            name: 'Bukittinggi',
+            latitude: '-0.30907000',
+            longitude: '100.37055000'),
+        City(
+            id: 56318,
+            name: 'Kabupaten Agam',
+            latitude: '-0.25000000',
+            longitude: '100.16667000'),
+        City(
+            id: 56398,
+            name: 'Kabupaten Dharmasraya',
+            latitude: '-1.05000000',
+            longitude: '101.36700000'),
+        City(
+            id: 56452,
+            name: 'Kabupaten Kepulauan Mentawai',
+            latitude: '1.98917000',
+            longitude: '99.51889000'),
+        City(
+            id: 56494,
+            name: 'Kabupaten Lima Puluh Kota',
+            latitude: '-0.01680000',
+            longitude: '100.58720000'),
+        City(
+            id: 56571,
+            name: 'Kabupaten Padang Pariaman',
+            latitude: '-0.60000000',
+            longitude: '100.28333000'),
+        City(
+            id: 56579,
+            name: 'Kabupaten Pasaman',
+            latitude: '0.42503000',
+            longitude: '99.94606000'),
+        City(
+            id: 56580,
+            name: 'Kabupaten Pasaman Barat',
+            latitude: '0.28152000',
+            longitude: '99.51965000'),
+        City(
+            id: 56592,
+            name: 'Kabupaten Pesisir Selatan',
+            latitude: '-1.58333000',
+            longitude: '100.85000000'),
+        City(
+            id: 56631,
+            name: 'Kabupaten Sijunjung',
+            latitude: '-1.18270000',
+            longitude: '101.60560000'),
+        City(
+            id: 56638,
+            name: 'Kabupaten Solok',
+            latitude: '-0.96667000',
+            longitude: '100.81667000'),
+        City(
+            id: 56639,
+            name: 'Kabupaten Solok Selatan',
+            latitude: '-1.23333000',
+            longitude: '101.41700000'),
+        City(
+            id: 56664,
+            name: 'Kabupaten Tanah Datar',
+            latitude: '-0.45550000',
+            longitude: '100.57710000'),
+        City(
+            id: 56746,
+            name: 'Kota Bukittinggi',
+            latitude: '-0.27500000',
+            longitude: '100.37500000'),
+        City(
+            id: 56773,
+            name: 'Kota Padang',
+            latitude: '-0.98333000',
+            longitude: '100.45000000'),
+        City(
+            id: 56774,
+            name: 'Kota Padang Panjang',
+            latitude: '-0.45000000',
+            longitude: '100.43333000'),
+        City(
+            id: 56783,
+            name: 'Kota Pariaman',
+            latitude: '-0.62682000',
+            longitude: '100.12047000'),
+        City(
+            id: 56785,
+            name: 'Kota Payakumbuh',
+            latitude: '-0.23333000',
+            longitude: '100.63333000'),
+        City(
+            id: 56794,
+            name: 'Kota Sawah Lunto',
+            latitude: '-0.60000000',
+            longitude: '100.75000000'),
+        City(
+            id: 56798,
+            name: 'Kota Solok',
+            latitude: '-0.76667000',
+            longitude: '100.61667000'),
+        City(
+            id: 56893,
+            name: 'Padang',
+            latitude: '-0.94924000',
+            longitude: '100.35427000'),
+        City(
+            id: 56917,
+            name: 'Pariaman',
+            latitude: '-0.61898000',
+            longitude: '100.11997000'),
+        City(
+            id: 56923,
+            name: 'Payakumbuh',
+            latitude: '-0.21590000',
+            longitude: '100.63340000'),
+        City(
+            id: 56977,
+            name: 'Sijunjung',
+            latitude: '-0.70050000',
+            longitude: '100.97740000'),
+        City(
+            id: 56993,
+            name: 'Solok',
+            latitude: '-0.80060000',
+            longitude: '100.65710000')
+      ]),
+      State(id: 1816, name: 'Sumatera Selatan', stateCode: 'SS', cities: [
+        City(
+            id: 56212,
+            name: 'Baturaja',
+            latitude: '-4.12891000',
+            longitude: '104.16695000'),
+        City(
+            id: 56402,
+            name: 'Kabupaten Empat Lawang',
+            latitude: '3.22667000',
+            longitude: '99.09256000'),
+        City(
+            id: 56542,
+            name: 'Kabupaten Muara Enim',
+            latitude: '-4.23270000',
+            longitude: '103.61410000'),
+        City(
+            id: 56548,
+            name: 'Kabupaten Musi Banyuasin',
+            latitude: '-2.41667000',
+            longitude: '103.75000000'),
+        City(
+            id: 56549,
+            name: 'Kabupaten Musi Rawas',
+            latitude: '-3.08333000',
+            longitude: '103.20000000'),
+        City(
+            id: 56550,
+            name: 'Kabupaten Musi Rawas Utara',
+            latitude: '-2.48533000',
+            longitude: '103.29346000'),
+        City(
+            id: 56563,
+            name: 'Kabupaten Ogan Ilir',
+            latitude: '-3.43186000',
+            longitude: '104.62727000'),
+        City(
+            id: 56564,
+            name: 'Kabupaten Ogan Komering Ilir',
+            latitude: '-3.36667000',
+            longitude: '105.36667000'),
+        City(
+            id: 56565,
+            name: 'Kabupaten Ogan Komering Ulu',
+            latitude: '-4.13333000',
+            longitude: '104.03333000'),
+        City(
+            id: 56566,
+            name: 'Kabupaten Ogan Komering Ulu Selatan',
+            latitude: '-4.65728000',
+            longitude: '104.00659000'),
+        City(
+            id: 56567,
+            name: 'Kabupaten Ogan Komering Ulu Timur',
+            latitude: '-3.85679000',
+            longitude: '104.75209000'),
+        City(
+            id: 56589,
+            name: 'Kabupaten Penukal Abab Lematang Ilir',
+            latitude: '-3.21342000',
+            longitude: '104.08722000'),
+        City(
+            id: 56763,
+            name: 'Kota Lubuklinggau',
+            latitude: '-3.29308000',
+            longitude: '102.85503000'),
+        City(
+            id: 56776,
+            name: 'Kota Pagar Alam',
+            latitude: '-4.13055000',
+            longitude: '103.26822000'),
+        City(
+            id: 56778,
+            name: 'Kota Palembang',
+            latitude: '-3.00000000',
+            longitude: '104.71667000'),
+        City(
+            id: 56789,
+            name: 'Kota Prabumulih',
+            latitude: '-3.46202000',
+            longitude: '104.22290000'),
+        City(
+            id: 56833,
+            name: 'Lahat',
+            latitude: '-3.78514000',
+            longitude: '103.54279000'),
+        City(
+            id: 56834,
+            name: 'Lahat Regency',
+            latitude: '-3.78640000',
+            longitude: '103.54280000'),
+        City(
+            id: 56847,
+            name: 'Lubuklinggau',
+            latitude: '-3.29450000',
+            longitude: '102.86140000'),
+        City(
+            id: 56895,
+            name: 'Pagar Alam',
+            latitude: '-4.02506000',
+            longitude: '103.24694000'),
+        City(
+            id: 56898,
+            name: 'Palembang',
+            latitude: '-2.91673000',
+            longitude: '104.74580000'),
+        City(
+            id: 56939,
+            name: 'Prabumulih',
+            latitude: '-3.43447000',
+            longitude: '104.23056000'),
+        City(
+            id: 57020,
+            name: 'Tanjungagung',
+            latitude: '-3.93728000',
+            longitude: '103.80465000')
+      ]),
+      State(id: 1792, name: 'Sumatera Utara', stateCode: 'SU', cities: [
         City(
             id: 56177,
             name: 'Ambarita',
@@ -2906,1667 +4559,5 @@ const idn = Country(
             name: 'Tuktuk Sonak',
             latitude: '2.66890000',
             longitude: '98.85760000')
-      ]),
-      State(id: 1798, name: 'Papua', stateCode: 'PA', cities: [
-        City(
-            id: 56173,
-            name: 'Abepura',
-            latitude: '-2.59640000',
-            longitude: '140.63240000'),
-        City(
-            id: 56220,
-            name: 'Biak',
-            latitude: '-1.17670000',
-            longitude: '136.08200000'),
-        City(
-            id: 56292,
-            name: 'Insrom',
-            latitude: '-1.14473000',
-            longitude: '136.03134000'),
-        City(
-            id: 56299,
-            name: 'Jayapura',
-            latitude: '-2.53371000',
-            longitude: '140.71813000'),
-        City(
-            id: 56321,
-            name: 'Kabupaten Asmat',
-            latitude: '-5.37950000',
-            longitude: '138.46344000'),
-        City(
-            id: 56359,
-            name: 'Kabupaten Biak Numfor',
-            latitude: '-1.03333000',
-            longitude: '136.00000000'),
-        City(
-            id: 56376,
-            name: 'Kabupaten Boven Digoel',
-            latitude: '-5.70519000',
-            longitude: '140.36349000'),
-        City(
-            id: 56395,
-            name: 'Kabupaten Deiyai',
-            latitude: '-3.94737000',
-            longitude: '135.95032000'),
-        City(
-            id: 56399,
-            name: 'Kabupaten Dogiyai',
-            latitude: '-4.03186000',
-            longitude: '135.43945000'),
-        City(
-            id: 56427,
-            name: 'Kabupaten Intan Jaya',
-            latitude: '-3.41016000',
-            longitude: '136.70837000'),
-        City(
-            id: 56428,
-            name: 'Kabupaten Jayapura',
-            latitude: '-3.00000000',
-            longitude: '139.95000000'),
-        City(
-            id: 56429,
-            name: 'Kabupaten Jayawijaya',
-            latitude: '-4.08333000',
-            longitude: '139.08333000'),
-        City(
-            id: 56447,
-            name: 'Kabupaten Keerom',
-            latitude: '-3.30000000',
-            longitude: '140.61667000'),
-        City(
-            id: 56457,
-            name: 'Kabupaten Kepulauan Yapen',
-            latitude: '-1.78773000',
-            longitude: '136.27716000'),
-        City(
-            id: 56490,
-            name: 'Kabupaten Lanny Jaya',
-            latitude: '-3.91244000',
-            longitude: '138.28766000'),
-        City(
-            id: 56518,
-            name: 'Kabupaten Mamberamo Raya',
-            latitude: '-2.23561000',
-            longitude: '137.78229000'),
-        City(
-            id: 56519,
-            name: 'Kabupaten Mamberamo Tengah',
-            latitude: '-2.46064000',
-            longitude: '138.45245000'),
-        City(
-            id: 56529,
-            name: 'Kabupaten Mappi',
-            latitude: '-6.49971000',
-            longitude: '139.34441000'),
-        City(
-            id: 56533,
-            name: 'Kabupaten Merauke',
-            latitude: '-7.66667000',
-            longitude: '139.66667000'),
-        City(
-            id: 56535,
-            name: 'Kabupaten Mimika',
-            latitude: '-4.54357000',
-            longitude: '136.56555000'),
-        City(
-            id: 56551,
-            name: 'Kabupaten Nabire',
-            latitude: '-3.54016000',
-            longitude: '135.55511000'),
-        City(
-            id: 56555,
-            name: 'Kabupaten Nduga',
-            latitude: '-4.45093000',
-            longitude: '138.10089000'),
-        City(
-            id: 56577,
-            name: 'Kabupaten Paniai',
-            latitude: '-3.90000000',
-            longitude: '136.60000000'),
-        City(
-            id: 56584,
-            name: 'Kabupaten Pegunungan Bintang',
-            latitude: '-4.52167000',
-            longitude: '140.29541000'),
-        City(
-            id: 56604,
-            name: 'Kabupaten Puncak Jaya',
-            latitude: '-3.67241000',
-            longitude: '137.43896000'),
-        City(
-            id: 56617,
-            name: 'Kabupaten Sarmi',
-            latitude: '-2.41667000',
-            longitude: '139.08333000'),
-        City(
-            id: 56656,
-            name: 'Kabupaten Supiori',
-            latitude: '-0.73881000',
-            longitude: '135.61111000'),
-        City(
-            id: 56683,
-            name: 'Kabupaten Tolikara',
-            latitude: '-3.42661000',
-            longitude: '137.41699000'),
-        City(
-            id: 56690,
-            name: 'Kabupaten Waropen',
-            latitude: '-2.28600000',
-            longitude: '137.01837000'),
-        City(
-            id: 56694,
-            name: 'Kabupaten Yahukimo',
-            latitude: '-4.60403000',
-            longitude: '139.58405000'),
-        City(
-            id: 56695,
-            name: 'Kabupaten Yalimo',
-            latitude: '-3.86037000',
-            longitude: '138.47305000'),
-        City(
-            id: 56756,
-            name: 'Kota Jayapura',
-            latitude: '-2.64647000',
-            longitude: '140.77779000'),
-        City(
-            id: 56882,
-            name: 'Nabire',
-            latitude: '-3.35989000',
-            longitude: '135.50074000')
-      ]),
-      State(id: 1809, name: 'Riau', stateCode: 'RI', cities: [
-        City(
-            id: 56188,
-            name: 'Balaipungut',
-            latitude: '1.05949000',
-            longitude: '101.29054000'),
-        City(
-            id: 56208,
-            name: 'Batam',
-            latitude: '1.14937000',
-            longitude: '104.02491000'),
-        City(
-            id: 56270,
-            name: 'Dumai',
-            latitude: '1.66711000',
-            longitude: '101.44316000'),
-        City(
-            id: 56354,
-            name: 'Kabupaten Bengkalis',
-            latitude: '0.98380000',
-            longitude: '102.50960000'),
-        City(
-            id: 56424,
-            name: 'Kabupaten Indragiri Hilir',
-            latitude: '-0.33333000',
-            longitude: '103.16667000'),
-        City(
-            id: 56425,
-            name: 'Kabupaten Indragiri Hulu',
-            latitude: '-0.55000000',
-            longitude: '102.31667000'),
-        City(
-            id: 56436,
-            name: 'Kabupaten Kampar',
-            latitude: '0.23440000',
-            longitude: '101.21310000'),
-        City(
-            id: 56453,
-            name: 'Kabupaten Kepulauan Meranti',
-            latitude: '0.97488000',
-            longitude: '102.69539000'),
-        City(
-            id: 56471,
-            name: 'Kabupaten Kuantan Singingi',
-            latitude: '-0.47532000',
-            longitude: '101.45857000'),
-        City(
-            id: 56586,
-            name: 'Kabupaten Pelalawan',
-            latitude: '0.20822000',
-            longitude: '102.18607000'),
-        City(
-            id: 56611,
-            name: 'Kabupaten Rokan Hilir',
-            latitude: '2.16599000',
-            longitude: '100.82514000'),
-        City(
-            id: 56612,
-            name: 'Kabupaten Rokan Hulu',
-            latitude: '0.88333000',
-            longitude: '100.48333000'),
-        City(
-            id: 56626,
-            name: 'Kabupaten Siak',
-            latitude: '0.97453000',
-            longitude: '102.01355000'),
-        City(
-            id: 56752,
-            name: 'Kota Dumai',
-            latitude: '1.61592000',
-            longitude: '101.49170000'),
-        City(
-            id: 56787,
-            name: 'Kota Pekanbaru',
-            latitude: '0.53333000',
-            longitude: '101.46667000'),
-        City(
-            id: 56927,
-            name: 'Pekanbaru',
-            latitude: '0.51667000',
-            longitude: '101.44167000')
-      ]),
-      State(id: 1807, name: 'Riau Islands', stateCode: 'KR', cities: [
-        City(
-            id: 56361,
-            name: 'Kabupaten Bintan',
-            latitude: '0.95000000',
-            longitude: '104.61944000'),
-        City(
-            id: 56441,
-            name: 'Kabupaten Karimun',
-            latitude: '0.80764000',
-            longitude: '103.41911000'),
-        City(
-            id: 56450,
-            name: 'Kabupaten Kepulauan Anambas',
-            latitude: '3.00000000',
-            longitude: '106.00000000'),
-        City(
-            id: 56495,
-            name: 'Kabupaten Lingga',
-            latitude: '0.20000000',
-            longitude: '104.61667000'),
-        City(
-            id: 56554,
-            name: 'Kabupaten Natuna',
-            latitude: '4.71417000',
-            longitude: '107.97639000'),
-        City(
-            id: 56716,
-            name: 'Kijang',
-            latitude: '0.90000000',
-            longitude: '104.63333000'),
-        City(
-            id: 56735,
-            name: 'Kota Batam',
-            latitude: '1.05211000',
-            longitude: '104.02851000'),
-        City(
-            id: 56808,
-            name: 'Kota Tanjung Pinang',
-            latitude: '0.91683000',
-            longitude: '104.44329000'),
-        City(
-            id: 57018,
-            name: 'Tanjung Pinang',
-            latitude: '0.91667000',
-            longitude: '104.45833000')
-      ]),
-      State(id: 1819, name: 'South Kalimantan', stateCode: 'KS', cities: [
-        City(
-            id: 56181,
-            name: 'Amuntai',
-            latitude: '-2.41773000',
-            longitude: '115.24941000'),
-        City(
-            id: 56203,
-            name: 'Banjarmasin',
-            latitude: '-3.31987000',
-            longitude: '114.59075000'),
-        City(
-            id: 56207,
-            name: 'Barabai',
-            latitude: '-2.58333000',
-            longitude: '115.38333000'),
-        City(
-            id: 56323,
-            name: 'Kabupaten Balangan',
-            latitude: '-2.32314000',
-            longitude: '115.62922000'),
-        City(
-            id: 56335,
-            name: 'Kabupaten Banjar',
-            latitude: '-3.31667000',
-            longitude: '115.08333000'),
-        City(
-            id: 56341,
-            name: 'Kabupaten Barito Kuala',
-            latitude: '-3.08333000',
-            longitude: '114.61667000'),
-        City(
-            id: 56420,
-            name: 'Kabupaten Hulu Sungai Selatan',
-            latitude: '-2.75000000',
-            longitude: '115.20000000'),
-        City(
-            id: 56421,
-            name: 'Kabupaten Hulu Sungai Tengah',
-            latitude: '-2.61667000',
-            longitude: '115.41667000'),
-        City(
-            id: 56422,
-            name: 'Kabupaten Hulu Sungai Utara',
-            latitude: '-2.45000000',
-            longitude: '115.13333000'),
-        City(
-            id: 56468,
-            name: 'Kabupaten Kota Baru',
-            latitude: '-3.00000000',
-            longitude: '116.00000000'),
-        City(
-            id: 56657,
-            name: 'Kabupaten Tabalong',
-            latitude: '-1.88333000',
-            longitude: '115.50000000'),
-        City(
-            id: 56663,
-            name: 'Kabupaten Tanah Bumbu',
-            latitude: '-3.45413000',
-            longitude: '115.70372000'),
-        City(
-            id: 56665,
-            name: 'Kabupaten Tanah Laut',
-            latitude: '-3.88333000',
-            longitude: '114.86667000'),
-        City(
-            id: 56673,
-            name: 'Kabupaten Tapin',
-            latitude: '-2.91667000',
-            longitude: '115.03333000'),
-        City(
-            id: 56733,
-            name: 'Kota Banjar Baru',
-            latitude: '-3.41667000',
-            longitude: '114.83333000'),
-        City(
-            id: 56734,
-            name: 'Kota Banjarmasin',
-            latitude: '-3.32444000',
-            longitude: '114.59102000'),
-        City(
-            id: 56864,
-            name: 'Martapura',
-            latitude: '-3.41090000',
-            longitude: '114.86420000')
-      ]),
-      State(id: 1795, name: 'South Sulawesi', stateCode: 'SN', cities: [
-        City(
-            id: 56273,
-            name: 'Galesong',
-            latitude: '-5.31660000',
-            longitude: '119.36610000'),
-        City(
-            id: 56337,
-            name: 'Kabupaten Bantaeng',
-            latitude: '-5.48333000',
-            longitude: '119.98333000'),
-        City(
-            id: 56345,
-            name: 'Kabupaten Barru',
-            latitude: '-4.43333000',
-            longitude: '119.68333000'),
-        City(
-            id: 56374,
-            name: 'Kabupaten Bone',
-            latitude: '-4.70000000',
-            longitude: '120.13333000'),
-        City(
-            id: 56380,
-            name: 'Kabupaten Bulukumba',
-            latitude: '-5.41667000',
-            longitude: '120.23333000'),
-        City(
-            id: 56404,
-            name: 'Kabupaten Enrekang',
-            latitude: '-3.50000000',
-            longitude: '119.86667000'),
-        City(
-            id: 56412,
-            name: 'Kabupaten Gowa',
-            latitude: '-5.31667000',
-            longitude: '119.75000000'),
-        City(
-            id: 56432,
-            name: 'Kabupaten Jeneponto',
-            latitude: '-5.63333000',
-            longitude: '119.73333000'),
-        City(
-            id: 56501,
-            name: 'Kabupaten Luwu',
-            latitude: '-2.55770000',
-            longitude: '121.32420000'),
-        City(
-            id: 56502,
-            name: 'Kabupaten Luwu Timur',
-            latitude: '-2.50957000',
-            longitude: '120.39780000'),
-        City(
-            id: 56503,
-            name: 'Kabupaten Luwu Utara',
-            latitude: '-2.60000000',
-            longitude: '120.25000000'),
-        City(
-            id: 56530,
-            name: 'Kabupaten Maros',
-            latitude: '-5.05000000',
-            longitude: '119.71667000'),
-        City(
-            id: 56576,
-            name: 'Kabupaten Pangkajene Dan Kepulauan',
-            latitude: '-4.78270000',
-            longitude: '119.55060000'),
-        City(
-            id: 56594,
-            name: 'Kabupaten Pinrang',
-            latitude: '-3.61667000',
-            longitude: '119.60000000'),
-        City(
-            id: 56628,
-            name: 'Kabupaten Sidenreng Rappang',
-            latitude: '-3.85000000',
-            longitude: '119.96667000'),
-        City(
-            id: 56635,
-            name: 'Kabupaten Sinjai',
-            latitude: '-5.21667000',
-            longitude: '120.15000000'),
-        City(
-            id: 56640,
-            name: 'Kabupaten Soppeng',
-            latitude: '-4.38420000',
-            longitude: '119.89000000'),
-        City(
-            id: 56659,
-            name: 'Kabupaten Takalar',
-            latitude: '-5.41667000',
-            longitude: '119.51667000'),
-        City(
-            id: 56662,
-            name: 'Kabupaten Tana Toraja',
-            latitude: '-3.00240000',
-            longitude: '119.79655000'),
-        City(
-            id: 56684,
-            name: 'Kabupaten Toraja Utara',
-            latitude: '-2.92738000',
-            longitude: '119.79218000'),
-        City(
-            id: 56689,
-            name: 'Kabupaten Wajo',
-            latitude: '-4.00000000',
-            longitude: '120.16667000'),
-        City(
-            id: 56766,
-            name: 'Kota Makassar',
-            latitude: '-5.15000000',
-            longitude: '119.45000000'),
-        City(
-            id: 56779,
-            name: 'Kota Palopo',
-            latitude: '-2.97841000',
-            longitude: '120.11078000'),
-        City(
-            id: 56782,
-            name: 'Kota Parepare',
-            latitude: '-4.03333000',
-            longitude: '119.65000000'),
-        City(
-            id: 56855,
-            name: 'Makassar',
-            latitude: '-5.14861000',
-            longitude: '119.43194000'),
-        City(
-            id: 56863,
-            name: 'Maros',
-            latitude: '-5.00600000',
-            longitude: '119.57270000'),
-        City(
-            id: 56900,
-            name: 'Palopo',
-            latitude: '-2.99250000',
-            longitude: '120.19694000'),
-        City(
-            id: 56916,
-            name: 'Parepare',
-            latitude: '-4.01350000',
-            longitude: '119.62550000'),
-        City(
-            id: 56952,
-            name: 'Rantepao',
-            latitude: '-2.97010000',
-            longitude: '119.89780000'),
-        City(
-            id: 56963,
-            name: 'Selayar Islands Regency',
-            latitude: '-6.81667000',
-            longitude: '120.80000000'),
-        City(
-            id: 56967,
-            name: 'Sengkang',
-            latitude: '-4.12790000',
-            longitude: '120.02970000'),
-        City(
-            id: 56985,
-            name: 'Sinjai',
-            latitude: '-5.12410000',
-            longitude: '120.25300000'),
-        City(
-            id: 57052,
-            name: 'Watampone',
-            latitude: '-4.53860000',
-            longitude: '120.32790000')
-      ]),
-      State(id: 1816, name: 'South Sumatra', stateCode: 'SS', cities: [
-        City(
-            id: 56212,
-            name: 'Baturaja',
-            latitude: '-4.12891000',
-            longitude: '104.16695000'),
-        City(
-            id: 56402,
-            name: 'Kabupaten Empat Lawang',
-            latitude: '3.22667000',
-            longitude: '99.09256000'),
-        City(
-            id: 56542,
-            name: 'Kabupaten Muara Enim',
-            latitude: '-4.23270000',
-            longitude: '103.61410000'),
-        City(
-            id: 56548,
-            name: 'Kabupaten Musi Banyuasin',
-            latitude: '-2.41667000',
-            longitude: '103.75000000'),
-        City(
-            id: 56549,
-            name: 'Kabupaten Musi Rawas',
-            latitude: '-3.08333000',
-            longitude: '103.20000000'),
-        City(
-            id: 56550,
-            name: 'Kabupaten Musi Rawas Utara',
-            latitude: '-2.48533000',
-            longitude: '103.29346000'),
-        City(
-            id: 56563,
-            name: 'Kabupaten Ogan Ilir',
-            latitude: '-3.43186000',
-            longitude: '104.62727000'),
-        City(
-            id: 56564,
-            name: 'Kabupaten Ogan Komering Ilir',
-            latitude: '-3.36667000',
-            longitude: '105.36667000'),
-        City(
-            id: 56565,
-            name: 'Kabupaten Ogan Komering Ulu',
-            latitude: '-4.13333000',
-            longitude: '104.03333000'),
-        City(
-            id: 56566,
-            name: 'Kabupaten Ogan Komering Ulu Selatan',
-            latitude: '-4.65728000',
-            longitude: '104.00659000'),
-        City(
-            id: 56567,
-            name: 'Kabupaten Ogan Komering Ulu Timur',
-            latitude: '-3.85679000',
-            longitude: '104.75209000'),
-        City(
-            id: 56589,
-            name: 'Kabupaten Penukal Abab Lematang Ilir',
-            latitude: '-3.21342000',
-            longitude: '104.08722000'),
-        City(
-            id: 56763,
-            name: 'Kota Lubuklinggau',
-            latitude: '-3.29308000',
-            longitude: '102.85503000'),
-        City(
-            id: 56776,
-            name: 'Kota Pagar Alam',
-            latitude: '-4.13055000',
-            longitude: '103.26822000'),
-        City(
-            id: 56778,
-            name: 'Kota Palembang',
-            latitude: '-3.00000000',
-            longitude: '104.71667000'),
-        City(
-            id: 56789,
-            name: 'Kota Prabumulih',
-            latitude: '-3.46202000',
-            longitude: '104.22290000'),
-        City(
-            id: 56833,
-            name: 'Lahat',
-            latitude: '-3.78514000',
-            longitude: '103.54279000'),
-        City(
-            id: 56834,
-            name: 'Lahat Regency',
-            latitude: '-3.78640000',
-            longitude: '103.54280000'),
-        City(
-            id: 56847,
-            name: 'Lubuklinggau',
-            latitude: '-3.29450000',
-            longitude: '102.86140000'),
-        City(
-            id: 56895,
-            name: 'Pagar Alam',
-            latitude: '-4.02506000',
-            longitude: '103.24694000'),
-        City(
-            id: 56898,
-            name: 'Palembang',
-            latitude: '-2.91673000',
-            longitude: '104.74580000'),
-        City(
-            id: 56939,
-            name: 'Prabumulih',
-            latitude: '-3.43447000',
-            longitude: '104.23056000'),
-        City(
-            id: 57020,
-            name: 'Tanjungagung',
-            latitude: '-3.93728000',
-            longitude: '103.80465000')
-      ]),
-      State(id: 1796, name: 'Southeast Sulawesi', stateCode: 'SG', cities: [
-        City(
-            id: 56372,
-            name: 'Kabupaten Bombana',
-            latitude: '-4.62570000',
-            longitude: '121.81641000'),
-        City(
-            id: 56386,
-            name: 'Kabupaten Buton',
-            latitude: '-5.31667000',
-            longitude: '122.91667000'),
-        City(
-            id: 56387,
-            name: 'Kabupaten Buton Selatan',
-            latitude: '-5.56667000',
-            longitude: '122.70000000'),
-        City(
-            id: 56388,
-            name: 'Kabupaten Buton Tengah',
-            latitude: '-5.31667000',
-            longitude: '122.33333000'),
-        City(
-            id: 56389,
-            name: 'Kabupaten Buton Utara',
-            latitude: '-5.01457000',
-            longitude: '122.93015000'),
-        City(
-            id: 56461,
-            name: 'Kabupaten Kolaka',
-            latitude: '-4.08333000',
-            longitude: '121.66667000'),
-        City(
-            id: 56462,
-            name: 'Kabupaten Kolaka Timur',
-            latitude: '-4.01807000',
-            longitude: '121.86172000'),
-        City(
-            id: 56463,
-            name: 'Kabupaten Kolaka Utara',
-            latitude: '-3.10452000',
-            longitude: '121.12427000'),
-        City(
-            id: 56464,
-            name: 'Kabupaten Konawe',
-            latitude: '-3.91717000',
-            longitude: '122.08823000'),
-        City(
-            id: 56465,
-            name: 'Kabupaten Konawe Kepulauan',
-            latitude: '-4.11656000',
-            longitude: '123.10181000'),
-        City(
-            id: 56466,
-            name: 'Kabupaten Konawe Selatan',
-            latitude: '-4.19191000',
-            longitude: '122.44854000'),
-        City(
-            id: 56467,
-            name: 'Kabupaten Konawe Utara',
-            latitude: '-3.41552000',
-            longitude: '121.99081000'),
-        City(
-            id: 56545,
-            name: 'Kabupaten Muna',
-            latitude: '-4.96667000',
-            longitude: '122.66667000'),
-        City(
-            id: 56546,
-            name: 'Kabupaten Muna Barat',
-            latitude: '-4.83333000',
-            longitude: '122.48333000'),
-        City(
-            id: 56703,
-            name: 'Katabu',
-            latitude: '-4.93330000',
-            longitude: '122.51670000'),
-        City(
-            id: 56712,
-            name: 'Kendari',
-            latitude: '-3.97780000',
-            longitude: '122.51507000'),
-        City(
-            id: 56737,
-            name: 'Kota Baubau',
-            latitude: '-5.47700000',
-            longitude: '122.61660000'),
-        City(
-            id: 56758,
-            name: 'Kota Kendari',
-            latitude: '-3.98333000',
-            longitude: '122.50000000'),
-        City(
-            id: 57049,
-            name: 'Wakatobi Regency',
-            latitude: '-5.31934000',
-            longitude: '123.59480000')
-      ]),
-      State(
-          id: 1829,
-          name: 'Special Region of Yogyakarta',
-          stateCode: 'YO',
-          cities: [
-            City(
-                id: 56192,
-                name: 'Bambanglipuro',
-                latitude: '-7.95000000',
-                longitude: '110.28333000'),
-            City(
-                id: 56204,
-                name: 'Bantul',
-                latitude: '-7.88806000',
-                longitude: '110.32889000'),
-            City(
-                id: 56264,
-                name: 'Depok',
-                latitude: '-7.76250000',
-                longitude: '110.43167000'),
-            City(
-                id: 56276,
-                name: 'Gamping Lor',
-                latitude: '-7.79556000',
-                longitude: '110.32639000'),
-            City(
-                id: 56282,
-                name: 'Godean',
-                latitude: '-7.76972000',
-                longitude: '110.29389000'),
-            City(
-                id: 56338,
-                name: 'Kabupaten Bantul',
-                latitude: '-7.90000000',
-                longitude: '110.36667000'),
-            City(
-                id: 56414,
-                name: 'Kabupaten Gunung Kidul',
-                latitude: '-7.98333000',
-                longitude: '110.61667000'),
-            City(
-                id: 56473,
-                name: 'Kabupaten Kulon Progo',
-                latitude: '-7.64500000',
-                longitude: '110.02694000'),
-            City(
-                id: 56637,
-                name: 'Kabupaten Sleman',
-                latitude: '-7.68167000',
-                longitude: '110.32333000'),
-            City(
-                id: 56702,
-                name: 'Kasihan',
-                latitude: '-7.82694000',
-                longitude: '110.32917000'),
-            City(
-                id: 56816,
-                name: 'Kota Yogyakarta',
-                latitude: '-7.80000000',
-                longitude: '110.37500000'),
-            City(
-                id: 56868,
-                name: 'Melati',
-                latitude: '-7.73333000',
-                longitude: '110.36667000'),
-            City(
-                id: 56908,
-                name: 'Pandak',
-                latitude: '-7.91306000',
-                longitude: '110.29361000'),
-            City(
-                id: 56943,
-                name: 'Pundong',
-                latitude: '-7.95222000',
-                longitude: '110.34861000'),
-            City(
-                id: 56972,
-                name: 'Sewon',
-                latitude: '-7.87639000',
-                longitude: '110.35889000'),
-            City(
-                id: 56988,
-                name: 'Sleman',
-                latitude: '-7.71556000',
-                longitude: '110.35556000'),
-            City(
-                id: 56998,
-                name: 'Srandakan',
-                latitude: '-7.93861000',
-                longitude: '110.25056000'),
-            City(
-                id: 57061,
-                name: 'Yogyakarta',
-                latitude: '-7.80139000',
-                longitude: '110.36472000')
-          ]),
-      State(id: 1803, name: 'Sulawesi', stateCode: 'SL', cities: []),
-      State(id: 1797, name: 'Sumatra', stateCode: 'SM', cities: []),
-      State(id: 1825, name: 'West Java', stateCode: 'JB', cities: [
-        City(
-            id: 56182,
-            name: 'Arjawinangun',
-            latitude: '-6.64528000',
-            longitude: '108.41028000'),
-        City(
-            id: 56183,
-            name: 'Astanajapura',
-            latitude: '-6.80170000',
-            longitude: '108.63110000'),
-        City(
-            id: 56196,
-            name: 'Bandung',
-            latitude: '-6.92222000',
-            longitude: '107.60694000'),
-        City(
-            id: 56199,
-            name: 'Banjar',
-            latitude: '-7.19550000',
-            longitude: '107.43130000'),
-        City(
-            id: 56202,
-            name: 'Banjaran',
-            latitude: '-7.04528000',
-            longitude: '107.58778000'),
-        City(
-            id: 56215,
-            name: 'Bekasi',
-            latitude: '-6.23490000',
-            longitude: '106.98960000'),
-        City(
-            id: 56226,
-            name: 'Bogor',
-            latitude: '-6.59444000',
-            longitude: '106.78917000'),
-        City(
-            id: 56237,
-            name: 'Caringin',
-            latitude: '-6.70611000',
-            longitude: '106.82139000'),
-        City(
-            id: 56240,
-            name: 'Ciamis',
-            latitude: '-7.32570000',
-            longitude: '108.35340000'),
-        City(
-            id: 56241,
-            name: 'Ciampea',
-            latitude: '-6.55472000',
-            longitude: '106.70083000'),
-        City(
-            id: 56242,
-            name: 'Cibinong',
-            latitude: '-6.48167000',
-            longitude: '106.85417000'),
-        City(
-            id: 56243,
-            name: 'Cicurug',
-            latitude: '-6.78139000',
-            longitude: '106.78250000'),
-        City(
-            id: 56244,
-            name: 'Cikampek',
-            latitude: '-6.41972000',
-            longitude: '107.45583000'),
-        City(
-            id: 56245,
-            name: 'Cikarang',
-            latitude: '-6.26111000',
-            longitude: '107.15278000'),
-        City(
-            id: 56246,
-            name: 'Cikupa',
-            latitude: '-6.23639000',
-            longitude: '106.50833000'),
-        City(
-            id: 56247,
-            name: 'Cileungsir',
-            latitude: '-6.39472000',
-            longitude: '106.95917000'),
-        City(
-            id: 56248,
-            name: 'Cileunyi',
-            latitude: '-6.93889000',
-            longitude: '107.75278000'),
-        City(
-            id: 56249,
-            name: 'Cimahi',
-            latitude: '-6.87222000',
-            longitude: '107.54250000'),
-        City(
-            id: 56250,
-            name: 'Ciputat',
-            latitude: '-6.23750000',
-            longitude: '106.69556000'),
-        City(
-            id: 56251,
-            name: 'Ciranjang-hilir',
-            latitude: '-6.82000000',
-            longitude: '107.25722000'),
-        City(
-            id: 56252,
-            name: 'Cirebon',
-            latitude: '-6.70630000',
-            longitude: '108.55700000'),
-        City(
-            id: 56253,
-            name: 'Citeureup',
-            latitude: '-6.48556000',
-            longitude: '106.88194000'),
-        City(
-            id: 56265,
-            name: 'Depok',
-            latitude: '-6.40000000',
-            longitude: '106.81861000'),
-        City(
-            id: 56291,
-            name: 'Indramayu',
-            latitude: '-6.32639000',
-            longitude: '108.32000000'),
-        City(
-            id: 56296,
-            name: 'Jatibarang',
-            latitude: '-6.47472000',
-            longitude: '108.31528000'),
-        City(
-            id: 56298,
-            name: 'Jatiwangi',
-            latitude: '-6.73361000',
-            longitude: '108.26278000'),
-        City(
-            id: 56324,
-            name: 'Kabupaten Bandung',
-            latitude: '-7.10000000',
-            longitude: '107.60000000'),
-        City(
-            id: 56325,
-            name: 'Kabupaten Bandung Barat',
-            latitude: '-6.83333000',
-            longitude: '107.48333000'),
-        City(
-            id: 56349,
-            name: 'Kabupaten Bekasi',
-            latitude: '-6.24667000',
-            longitude: '107.10833000'),
-        City(
-            id: 56366,
-            name: 'Kabupaten Bogor',
-            latitude: '-6.58333000',
-            longitude: '106.71667000'),
-        City(
-            id: 56390,
-            name: 'Kabupaten Ciamis',
-            latitude: '-7.28333000',
-            longitude: '108.41667000'),
-        City(
-            id: 56391,
-            name: 'Kabupaten Cianjur',
-            latitude: '-6.77250000',
-            longitude: '107.08306000'),
-        City(
-            id: 56393,
-            name: 'Kabupaten Cirebon',
-            latitude: '-6.80000000',
-            longitude: '108.56667000'),
-        City(
-            id: 56407,
-            name: 'Kabupaten Garut',
-            latitude: '-7.38333000',
-            longitude: '107.76667000'),
-        City(
-            id: 56426,
-            name: 'Kabupaten Indramayu',
-            latitude: '-6.45000000',
-            longitude: '108.16667000'),
-        City(
-            id: 56440,
-            name: 'Kabupaten Karawang',
-            latitude: '-6.26667000',
-            longitude: '107.41667000'),
-        City(
-            id: 56474,
-            name: 'Kabupaten Kuningan',
-            latitude: '-7.00000000',
-            longitude: '108.55000000'),
-        City(
-            id: 56508,
-            name: 'Kabupaten Majalengka',
-            latitude: '-6.81667000',
-            longitude: '108.28333000'),
-        City(
-            id: 56575,
-            name: 'Kabupaten Pangandaran',
-            latitude: '-7.66730000',
-            longitude: '108.64037000'),
-        City(
-            id: 56606,
-            name: 'Kabupaten Purwakarta',
-            latitude: '-6.58333000',
-            longitude: '107.45000000'),
-        City(
-            id: 56644,
-            name: 'Kabupaten Subang',
-            latitude: '-6.50833000',
-            longitude: '107.70250000'),
-        City(
-            id: 56645,
-            name: 'Kabupaten Sukabumi',
-            latitude: '-7.06667000',
-            longitude: '106.70000000'),
-        City(
-            id: 56654,
-            name: 'Kabupaten Sumedang',
-            latitude: '-6.81667000',
-            longitude: '107.98333000'),
-        City(
-            id: 56674,
-            name: 'Kabupaten Tasikmalaya',
-            latitude: '-7.50000000',
-            longitude: '108.13333000'),
-        City(
-            id: 56698,
-            name: 'Karangampel',
-            latitude: '-6.46222000',
-            longitude: '108.45194000'),
-        City(
-            id: 56700,
-            name: 'Karangsembung',
-            latitude: '-6.84870000',
-            longitude: '108.64220000'),
-        City(
-            id: 56704,
-            name: 'Kawalu',
-            latitude: '-7.38170000',
-            longitude: '108.20820000'),
-        City(
-            id: 56718,
-            name: 'Klangenan',
-            latitude: '-6.70944000',
-            longitude: '108.44000000'),
-        City(
-            id: 56731,
-            name: 'Kota Bandung',
-            latitude: '-6.91750000',
-            longitude: '107.62444000'),
-        City(
-            id: 56732,
-            name: 'Kota Banjar',
-            latitude: '-7.36996000',
-            longitude: '108.53209000'),
-        City(
-            id: 56738,
-            name: 'Kota Bekasi',
-            latitude: '-6.28333000',
-            longitude: '106.98333000'),
-        City(
-            id: 56744,
-            name: 'Kota Bogor',
-            latitude: '-6.59167000',
-            longitude: '106.80000000'),
-        City(
-            id: 56748,
-            name: 'Kota Cimahi',
-            latitude: '-6.89167000',
-            longitude: '107.55000000'),
-        City(
-            id: 56749,
-            name: 'Kota Cirebon',
-            latitude: '-6.75000000',
-            longitude: '108.55000000'),
-        City(
-            id: 56751,
-            name: 'Kota Depok',
-            latitude: '-6.40000000',
-            longitude: '106.81667000'),
-        City(
-            id: 56801,
-            name: 'Kota Sukabumi',
-            latitude: '-6.95000000',
-            longitude: '106.93333000'),
-        City(
-            id: 56809,
-            name: 'Kota Tasikmalaya',
-            latitude: '-7.35000000',
-            longitude: '108.21667000'),
-        City(
-            id: 56819,
-            name: 'Kresek',
-            latitude: '-6.13139000',
-            longitude: '106.37972000'),
-        City(
-            id: 56825,
-            name: 'Kuningan',
-            latitude: '-6.97583000',
-            longitude: '108.48306000'),
-        City(
-            id: 56842,
-            name: 'Lembang',
-            latitude: '-6.81167000',
-            longitude: '107.61750000'),
-        City(
-            id: 56852,
-            name: 'Majalengka',
-            latitude: '-6.83611000',
-            longitude: '108.22778000'),
-        City(
-            id: 56861,
-            name: 'Margahayukencana',
-            latitude: '-6.97083000',
-            longitude: '107.56750000'),
-        City(
-            id: 56886,
-            name: 'Ngawi',
-            latitude: '-7.40380000',
-            longitude: '111.44610000'),
-        City(
-            id: 56892,
-            name: 'Padalarang',
-            latitude: '-6.83778000',
-            longitude: '107.47278000'),
-        City(
-            id: 56899,
-            name: 'Palimanan',
-            latitude: '-6.70694000',
-            longitude: '108.42417000'),
-        City(
-            id: 56902,
-            name: 'Pamanukan',
-            latitude: '-6.28417000',
-            longitude: '107.81056000'),
-        City(
-            id: 56904,
-            name: 'Pameungpeuk',
-            latitude: '-7.01833000',
-            longitude: '107.60389000'),
-        City(
-            id: 56905,
-            name: 'Pamulang',
-            latitude: '-6.34278000',
-            longitude: '106.73833000'),
-        City(
-            id: 56918,
-            name: 'Parung',
-            latitude: '-6.42139000',
-            longitude: '106.73306000'),
-        City(
-            id: 56919,
-            name: 'Pasarkemis',
-            latitude: '-6.17028000',
-            longitude: '106.53028000'),
-        City(
-            id: 56920,
-            name: 'Paseh',
-            latitude: '-7.10260000',
-            longitude: '107.76410000'),
-        City(
-            id: 56928,
-            name: 'Pelabuhanratu',
-            latitude: '-6.98750000',
-            longitude: '106.55139000'),
-        City(
-            id: 56934,
-            name: 'Plumbon',
-            latitude: '-6.70500000',
-            longitude: '108.47278000'),
-        City(
-            id: 56945,
-            name: 'Purwakarta',
-            latitude: '-6.55694000',
-            longitude: '107.44333000'),
-        City(
-            id: 56948,
-            name: 'Rajapolah',
-            latitude: '-7.22100000',
-            longitude: '108.18960000'),
-        City(
-            id: 56954,
-            name: 'Rengasdengklok',
-            latitude: '-6.15917000',
-            longitude: '107.29806000'),
-        City(
-            id: 56962,
-            name: 'Sawangan',
-            latitude: '-6.40278000',
-            longitude: '106.77444000'),
-        City(
-            id: 56968,
-            name: 'Sepatan',
-            latitude: '-6.11889000',
-            longitude: '106.57500000'),
-        City(
-            id: 56971,
-            name: 'Serpong',
-            latitude: '-6.31694000',
-            longitude: '106.66417000'),
-        City(
-            id: 56980,
-            name: 'Singaparna',
-            latitude: '-7.35150000',
-            longitude: '108.11100000'),
-        City(
-            id: 56994,
-            name: 'Soreang',
-            latitude: '-7.03306000',
-            longitude: '107.51833000'),
-        City(
-            id: 57001,
-            name: 'Sukabumi',
-            latitude: '-6.91806000',
-            longitude: '106.92667000'),
-        City(
-            id: 57003,
-            name: 'Sumber',
-            latitude: '-6.76028000',
-            longitude: '108.48306000'),
-        City(
-            id: 57005,
-            name: 'Sumedang',
-            latitude: '-6.85861000',
-            longitude: '107.91639000'),
-        City(
-            id: 57006,
-            name: 'Sumedang Utara',
-            latitude: '-6.85000000',
-            longitude: '107.91667000'),
-        City(
-            id: 57025,
-            name: 'Tasikmalaya',
-            latitude: '-7.32740000',
-            longitude: '108.22070000'),
-        City(
-            id: 57030,
-            name: 'Teluknaga',
-            latitude: '-6.09889000',
-            longitude: '106.63806000'),
-        City(
-            id: 57050,
-            name: 'Wanaraja',
-            latitude: '-7.17490000',
-            longitude: '107.98080000'),
-        City(
-            id: 57056,
-            name: 'Weru',
-            latitude: '-6.71100000',
-            longitude: '108.50370000')
-      ]),
-      State(id: 1814, name: 'West Nusa Tenggara', stateCode: 'NB', cities: [
-        City(
-            id: 56221,
-            name: 'Bima',
-            latitude: '-8.46006000',
-            longitude: '118.72667000'),
-        City(
-            id: 56267,
-            name: 'Dompu',
-            latitude: '-8.53650000',
-            longitude: '118.46340000'),
-        City(
-            id: 56281,
-            name: 'Gili Air',
-            latitude: '-8.35783000',
-            longitude: '116.08240000'),
-        City(
-            id: 56360,
-            name: 'Kabupaten Bima',
-            latitude: '-8.60000000',
-            longitude: '118.61667000'),
-        City(
-            id: 56400,
-            name: 'Kabupaten Dompu',
-            latitude: '-8.50940000',
-            longitude: '118.48160000'),
-        City(
-            id: 56496,
-            name: 'Kabupaten Lombok Barat',
-            latitude: '-8.69583000',
-            longitude: '116.11667000'),
-        City(
-            id: 56497,
-            name: 'Kabupaten Lombok Tengah',
-            latitude: '-8.70000000',
-            longitude: '116.30000000'),
-        City(
-            id: 56498,
-            name: 'Kabupaten Lombok Timur',
-            latitude: '-8.53333000',
-            longitude: '116.53333000'),
-        City(
-            id: 56499,
-            name: 'Kabupaten Lombok Utara',
-            latitude: '-8.35214000',
-            longitude: '116.40152000'),
-        City(
-            id: 56652,
-            name: 'Kabupaten Sumbawa',
-            latitude: '-8.74390000',
-            longitude: '117.33240000'),
-        City(
-            id: 56653,
-            name: 'Kabupaten Sumbawa Barat',
-            latitude: '-8.75159000',
-            longitude: '116.92132000'),
-        City(
-            id: 56740,
-            name: 'Kota Bima',
-            latitude: '-8.46728000',
-            longitude: '118.75259000'),
-        City(
-            id: 56769,
-            name: 'Kota Mataram',
-            latitude: '-8.58330000',
-            longitude: '116.11670000'),
-        City(
-            id: 56831,
-            name: 'Labuan Lombok',
-            latitude: '-8.50000000',
-            longitude: '116.66667000'),
-        City(
-            id: 56843,
-            name: 'Lembar',
-            latitude: '-8.72640000',
-            longitude: '116.07440000'),
-        City(
-            id: 56865,
-            name: 'Mataram',
-            latitude: '-8.58333000',
-            longitude: '116.11667000'),
-        City(
-            id: 56931,
-            name: 'Pemenang',
-            latitude: '-8.40401000',
-            longitude: '116.10255000'),
-        City(
-            id: 56938,
-            name: 'Pototano',
-            latitude: '-8.41260000',
-            longitude: '117.48110000'),
-        City(
-            id: 56940,
-            name: 'Praya',
-            latitude: '-8.70536000',
-            longitude: '116.27036000'),
-        City(
-            id: 56966,
-            name: 'Senggigi',
-            latitude: '-8.49190000',
-            longitude: '116.04240000'),
-        City(
-            id: 57002,
-            name: 'Sumbawa Besar',
-            latitude: '-8.49317000',
-            longitude: '117.42024000')
-      ]),
-      State(id: 1799, name: 'West Papua', stateCode: 'PB', cities: [
-        City(
-            id: 56405,
-            name: 'Kabupaten Fakfak',
-            latitude: '-2.92641000',
-            longitude: '132.29608000'),
-        City(
-            id: 56435,
-            name: 'Kabupaten Kaimana',
-            latitude: '-3.66093000',
-            longitude: '133.77451000'),
-        City(
-            id: 56527,
-            name: 'Kabupaten Manokwari',
-            latitude: '-0.90000000',
-            longitude: '133.75000000'),
-        City(
-            id: 56528,
-            name: 'Kabupaten Manokwari Selatan',
-            latitude: '-1.07980000',
-            longitude: '133.96729000'),
-        City(
-            id: 56531,
-            name: 'Kabupaten Maybrat',
-            latitude: '-1.21550000',
-            longitude: '132.35092000'),
-        City(
-            id: 56608,
-            name: 'Kabupaten Raja Ampat',
-            latitude: '-0.50000000',
-            longitude: '130.00000000'),
-        City(
-            id: 56641,
-            name: 'Kabupaten Sorong',
-            latitude: '-1.16667000',
-            longitude: '131.50000000'),
-        City(
-            id: 56642,
-            name: 'Kabupaten Sorong Selatan',
-            latitude: '-1.50495000',
-            longitude: '132.28638000'),
-        City(
-            id: 56660,
-            name: 'Kabupaten Tambrauw',
-            latitude: '-0.60515000',
-            longitude: '132.48962000'),
-        City(
-            id: 56677,
-            name: 'Kabupaten Teluk Bintuni',
-            latitude: '-1.88037000',
-            longitude: '133.33105000'),
-        City(
-            id: 56678,
-            name: 'Kabupaten Teluk Wondama',
-            latitude: '-2.70000000',
-            longitude: '134.50000000'),
-        City(
-            id: 56799,
-            name: 'Kota Sorong',
-            latitude: '-0.86507000',
-            longitude: '131.25152000'),
-        City(
-            id: 56860,
-            name: 'Manokwari',
-            latitude: '-0.86291000',
-            longitude: '134.06402000'),
-        City(
-            id: 56995,
-            name: 'Sorong',
-            latitude: '-0.87956000',
-            longitude: '131.26104000')
-      ]),
-      State(id: 1817, name: 'West Sulawesi', stateCode: 'SR', cities: [
-        City(
-            id: 56509,
-            name: 'Kabupaten Majene',
-            latitude: '-3.15000000',
-            longitude: '118.86667000'),
-        City(
-            id: 56517,
-            name: 'Kabupaten Mamasa',
-            latitude: '-2.96492000',
-            longitude: '119.30631000'),
-        City(
-            id: 56520,
-            name: 'Kabupaten Mamuju',
-            latitude: '-2.50000000',
-            longitude: '119.41667000'),
-        City(
-            id: 56521,
-            name: 'Kabupaten Mamuju Tengah',
-            latitude: '-2.82120000',
-            longitude: '119.26620000'),
-        City(
-            id: 56522,
-            name: 'Kabupaten Mamuju Utara',
-            latitude: '-1.51639000',
-            longitude: '119.42139000'),
-        City(
-            id: 56596,
-            name: 'Kabupaten Polewali Mandar',
-            latitude: '-3.30000000',
-            longitude: '119.16667000'),
-        City(
-            id: 56854,
-            name: 'Majene',
-            latitude: '-3.54030000',
-            longitude: '118.97070000'),
-        City(
-            id: 56857,
-            name: 'Mamuju',
-            latitude: '-2.68056000',
-            longitude: '118.88611000'),
-        City(
-            id: 56935,
-            name: 'Polewali',
-            latitude: '-3.43240000',
-            longitude: '119.34350000')
-      ]),
-      State(id: 1828, name: 'West Sumatra', stateCode: 'SB', cities: [
-        City(
-            id: 56234,
-            name: 'Bukittinggi',
-            latitude: '-0.30907000',
-            longitude: '100.37055000'),
-        City(
-            id: 56318,
-            name: 'Kabupaten Agam',
-            latitude: '-0.25000000',
-            longitude: '100.16667000'),
-        City(
-            id: 56398,
-            name: 'Kabupaten Dharmasraya',
-            latitude: '-1.05000000',
-            longitude: '101.36700000'),
-        City(
-            id: 56452,
-            name: 'Kabupaten Kepulauan Mentawai',
-            latitude: '1.98917000',
-            longitude: '99.51889000'),
-        City(
-            id: 56494,
-            name: 'Kabupaten Lima Puluh Kota',
-            latitude: '-0.01680000',
-            longitude: '100.58720000'),
-        City(
-            id: 56571,
-            name: 'Kabupaten Padang Pariaman',
-            latitude: '-0.60000000',
-            longitude: '100.28333000'),
-        City(
-            id: 56579,
-            name: 'Kabupaten Pasaman',
-            latitude: '0.42503000',
-            longitude: '99.94606000'),
-        City(
-            id: 56580,
-            name: 'Kabupaten Pasaman Barat',
-            latitude: '0.28152000',
-            longitude: '99.51965000'),
-        City(
-            id: 56592,
-            name: 'Kabupaten Pesisir Selatan',
-            latitude: '-1.58333000',
-            longitude: '100.85000000'),
-        City(
-            id: 56631,
-            name: 'Kabupaten Sijunjung',
-            latitude: '-1.18270000',
-            longitude: '101.60560000'),
-        City(
-            id: 56638,
-            name: 'Kabupaten Solok',
-            latitude: '-0.96667000',
-            longitude: '100.81667000'),
-        City(
-            id: 56639,
-            name: 'Kabupaten Solok Selatan',
-            latitude: '-1.23333000',
-            longitude: '101.41700000'),
-        City(
-            id: 56664,
-            name: 'Kabupaten Tanah Datar',
-            latitude: '-0.45550000',
-            longitude: '100.57710000'),
-        City(
-            id: 56746,
-            name: 'Kota Bukittinggi',
-            latitude: '-0.27500000',
-            longitude: '100.37500000'),
-        City(
-            id: 56773,
-            name: 'Kota Padang',
-            latitude: '-0.98333000',
-            longitude: '100.45000000'),
-        City(
-            id: 56774,
-            name: 'Kota Padang Panjang',
-            latitude: '-0.45000000',
-            longitude: '100.43333000'),
-        City(
-            id: 56783,
-            name: 'Kota Pariaman',
-            latitude: '-0.62682000',
-            longitude: '100.12047000'),
-        City(
-            id: 56785,
-            name: 'Kota Payakumbuh',
-            latitude: '-0.23333000',
-            longitude: '100.63333000'),
-        City(
-            id: 56794,
-            name: 'Kota Sawah Lunto',
-            latitude: '-0.60000000',
-            longitude: '100.75000000'),
-        City(
-            id: 56798,
-            name: 'Kota Solok',
-            latitude: '-0.76667000',
-            longitude: '100.61667000'),
-        City(
-            id: 56893,
-            name: 'Padang',
-            latitude: '-0.94924000',
-            longitude: '100.35427000'),
-        City(
-            id: 56917,
-            name: 'Pariaman',
-            latitude: '-0.61898000',
-            longitude: '100.11997000'),
-        City(
-            id: 56923,
-            name: 'Payakumbuh',
-            latitude: '-0.21590000',
-            longitude: '100.63340000'),
-        City(
-            id: 56977,
-            name: 'Sijunjung',
-            latitude: '-0.70050000',
-            longitude: '100.97740000'),
-        City(
-            id: 56993,
-            name: 'Solok',
-            latitude: '-0.80060000',
-            longitude: '100.65710000')
       ])
     ]);

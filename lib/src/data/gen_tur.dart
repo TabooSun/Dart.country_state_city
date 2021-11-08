@@ -130,50 +130,25 @@ const tur = Country(
             latitude: '37.69278000',
             longitude: '37.86111000'),
         City(
-            id: 107333,
-            name: 'Besni İlçesi',
-            latitude: '37.70142000',
-            longitude: '37.87086000'),
-        City(
             id: 108814,
             name: 'Çelikhan',
             latitude: '38.02560000',
             longitude: '38.23665000'),
-        City(
-            id: 108815,
-            name: 'Çelikhan İlçesi',
-            latitude: '38.03275000',
-            longitude: '38.23705000'),
         City(
             id: 107666,
             name: 'Gerger',
             latitude: '37.95000000',
             longitude: '39.01667000'),
         City(
-            id: 107667,
-            name: 'Gerger İlçesi',
-            latitude: '38.02856000',
-            longitude: '39.03281000'),
-        City(
             id: 107688,
             name: 'Gölbaşı',
             latitude: '37.78361000',
             longitude: '37.63667000'),
         City(
-            id: 107689,
-            name: 'Gölbaşı İlçesi',
-            latitude: '37.79000000',
-            longitude: '37.64989000'),
-        City(
             id: 108069,
             name: 'Kâhta',
             latitude: '37.78552000',
             longitude: '38.62370000'),
-        City(
-            id: 108070,
-            name: 'Kâhta İlçesi',
-            latitude: '37.79477000',
-            longitude: '38.63119000'),
         City(
             id: 108194,
             name: 'Merkez',
@@ -185,30 +160,15 @@ const tur = Country(
             latitude: '37.58194000',
             longitude: '38.47417000'),
         City(
-            id: 108380,
-            name: 'Samsat İlçesi',
-            latitude: '37.58565000',
-            longitude: '38.48946000'),
-        City(
             id: 108471,
             name: 'Sincik',
             latitude: '38.03645000',
             longitude: '38.61257000'),
         City(
-            id: 108472,
-            name: 'Sincik İlçesi',
-            latitude: '38.03373000',
-            longitude: '38.61319000'),
-        City(
             id: 108606,
             name: 'Tut',
             latitude: '37.79529000',
-            longitude: '37.91610000'),
-        City(
-            id: 108607,
-            name: 'Tut İlçesi',
-            latitude: '37.80528000',
-            longitude: '37.92296000')
+            longitude: '37.91610000')
       ]),
       State(
           id: 2179,
@@ -226,40 +186,20 @@ const tur = Country(
                 latitude: '37.89722000',
                 longitude: '30.01167000'),
             City(
-                id: 107319,
-                name: 'Başmakçı İlçesi',
-                latitude: '37.90713000',
-                longitude: '30.01617000'),
-            City(
                 id: 107293,
                 name: 'Bayat',
                 latitude: '38.98306000',
                 longitude: '30.92472000'),
-            City(
-                id: 107296,
-                name: 'Bayat İlçesi',
-                latitude: '38.99183000',
-                longitude: '30.93098000'),
             City(
                 id: 107367,
                 name: 'Bolvadin',
                 latitude: '38.71111000',
                 longitude: '31.04861000'),
             City(
-                id: 107368,
-                name: 'Bolvadin İlçesi',
-                latitude: '38.72062000',
-                longitude: '31.05433000'),
-            City(
                 id: 108795,
                 name: 'Çay',
                 latitude: '38.59167000',
                 longitude: '31.02861000'),
-            City(
-                id: 108796,
-                name: 'Çay İlçesi',
-                latitude: '38.60078000',
-                longitude: '31.03547000'),
             City(
                 id: 108841,
                 name: 'Çobanlar İlçesi',
@@ -271,60 +211,30 @@ const tur = Country(
                 latitude: '37.91861000',
                 longitude: '29.86056000'),
             City(
-                id: 107456,
-                name: 'Dazkırı İlçesi',
-                latitude: '37.92682000',
-                longitude: '29.86699000'),
-            City(
                 id: 107498,
                 name: 'Dinar',
                 latitude: '38.06500000',
                 longitude: '30.16557000'),
-            City(
-                id: 107499,
-                name: 'Dinar İlçesi',
-                latitude: '38.07475000',
-                longitude: '30.17113000'),
             City(
                 id: 107576,
                 name: 'Emirdağ',
                 latitude: '39.01972000',
                 longitude: '31.15000000'),
             City(
-                id: 107577,
-                name: 'Emirdağ İlçesi',
-                latitude: '39.02810000',
-                longitude: '31.15461000'),
-            City(
                 id: 107612,
                 name: 'Evciler',
                 latitude: '38.04139000',
                 longitude: '29.88667000'),
-            City(
-                id: 107613,
-                name: 'Evciler İlçesi',
-                latitude: '38.05207000',
-                longitude: '29.89366000'),
             City(
                 id: 107831,
                 name: 'Hocalar',
                 latitude: '38.57824000',
                 longitude: '29.96768000'),
             City(
-                id: 107832,
-                name: 'Hocalar İlçesi',
-                latitude: '38.58783000',
-                longitude: '29.97162000'),
-            City(
                 id: 108883,
                 name: 'İhsaniye',
                 latitude: '39.02916000',
                 longitude: '30.41639000'),
-            City(
-                id: 108885,
-                name: 'İhsaniye İlçesi',
-                latitude: '39.03876000',
-                longitude: '30.42211000'),
             City(
                 id: 108912,
                 name: 'İscehisar',
@@ -341,11 +251,6 @@ const tur = Country(
                 latitude: '38.25806000',
                 longitude: '30.15167000'),
             City(
-                id: 108121,
-                name: 'Kızılören İlçesi',
-                latitude: '38.26794000',
-                longitude: '30.15750000'),
-            City(
                 id: 108190,
                 name: 'Merkez',
                 latitude: '38.79698000',
@@ -356,40 +261,20 @@ const tur = Country(
                 latitude: '38.46472000',
                 longitude: '30.26946000'),
             City(
-                id: 108384,
-                name: 'Sandıklı İlçesi',
-                latitude: '38.47344000',
-                longitude: '30.27781000'),
-            City(
                 id: 108468,
                 name: 'Sinanpaşa',
                 latitude: '38.74444000',
                 longitude: '30.24278000'),
-            City(
-                id: 108469,
-                name: 'Sinanpaşa İlçesi',
-                latitude: '38.75385000',
-                longitude: '30.24662000'),
             City(
                 id: 108964,
                 name: 'Şuhut',
                 latitude: '38.53111000',
                 longitude: '30.54583000'),
             City(
-                id: 108965,
-                name: 'Şuhut İlçesi',
-                latitude: '38.54081000',
-                longitude: '30.55474000'),
-            City(
                 id: 108493,
                 name: 'Sultandağı',
                 latitude: '38.53111000',
-                longitude: '31.22806000'),
-            City(
-                id: 108494,
-                name: 'Sultandağı İlçesi',
-                latitude: '38.54060000',
-                longitude: '31.23508000')
+                longitude: '31.22806000')
           ]),
       State(id: 2193, name: 'Ağrı Province', stateCode: '04', cities: [
         City(
@@ -403,60 +288,30 @@ const tur = Country(
             latitude: '39.54056000',
             longitude: '43.67135000'),
         City(
-            id: 107503,
-            name: 'Diyadin İlçesi',
-            latitude: '39.54880000',
-            longitude: '43.67490000'),
-        City(
             id: 107527,
             name: 'Doğubayazıt',
             latitude: '39.54694000',
             longitude: '44.08417000'),
-        City(
-            id: 107528,
-            name: 'Doğubayazıt İlçesi',
-            latitude: '39.55601000',
-            longitude: '44.08912000'),
         City(
             id: 107566,
             name: 'Eleşkirt',
             latitude: '39.79803000',
             longitude: '42.67574000'),
         City(
-            id: 107567,
-            name: 'Eleşkirt İlçesi',
-            latitude: '39.81242000',
-            longitude: '42.67955000'),
-        City(
             id: 107783,
             name: 'Hamur',
             latitude: '39.60561000',
             longitude: '42.98500000'),
-        City(
-            id: 107784,
-            name: 'Hamur İlçesi',
-            latitude: '39.61917000',
-            longitude: '42.99280000'),
         City(
             id: 108316,
             name: 'Patnos',
             latitude: '39.22493000',
             longitude: '42.85693000'),
         City(
-            id: 108317,
-            name: 'Patnos İlçesi',
-            latitude: '39.24297000',
-            longitude: '42.86736000'),
-        City(
             id: 108552,
             name: 'Taşlıçay',
             latitude: '39.62966000',
             longitude: '43.36878000'),
-        City(
-            id: 108553,
-            name: 'Taşlıçay İlçesi',
-            latitude: '39.64294000',
-            longitude: '43.37683000'),
         City(
             id: 108608,
             name: 'Tutak İlçesi',
@@ -469,11 +324,6 @@ const tur = Country(
             name: 'Ağaçören',
             latitude: '38.87484000',
             longitude: '33.91674000'),
-        City(
-            id: 107240,
-            name: 'Ağaçören İlçesi',
-            latitude: '38.88454000',
-            longitude: '33.92421000'),
         City(
             id: 107091,
             name: 'Aksaray',
@@ -495,11 +345,6 @@ const tur = Country(
             latitude: '38.27722000',
             longitude: '34.37194000'),
         City(
-            id: 107762,
-            name: 'Güzelyurt İlçesi',
-            latitude: '38.28628000',
-            longitude: '34.36190000'),
-        City(
             id: 108178,
             name: 'Merkez',
             latitude: '38.37060000',
@@ -510,20 +355,10 @@ const tur = Country(
             latitude: '38.73728000',
             longitude: '34.03866000'),
         City(
-            id: 108288,
-            name: 'Ortaköy İlçesi',
-            latitude: '38.74770000',
-            longitude: '34.04351000'),
-        City(
             id: 108409,
             name: 'Sarıyahşi',
             latitude: '38.98349000',
             longitude: '33.84136000'),
-        City(
-            id: 108410,
-            name: 'Sarıyahşi İlçesi',
-            latitude: '38.99292000',
-            longitude: '33.84676000'),
         City(
             id: 108496,
             name: 'Sultanhanı',
@@ -547,20 +382,10 @@ const tur = Country(
             latitude: '40.39917000',
             longitude: '35.52500000'),
         City(
-            id: 107717,
-            name: 'Göynücek İlçesi',
-            latitude: '40.41008000',
-            longitude: '35.53104000'),
-        City(
             id: 107737,
             name: 'Gümüşhacıköy',
             latitude: '40.87306000',
             longitude: '35.21472000'),
-        City(
-            id: 107738,
-            name: 'Gümüşhacıköy İlçesi',
-            latitude: '40.88365000',
-            longitude: '35.22111000'),
         City(
             id: 107781,
             name: 'Hamamözü İlçesi',
@@ -582,20 +407,10 @@ const tur = Country(
             latitude: '40.83129000',
             longitude: '35.64788000'),
         City(
-            id: 108501,
-            name: 'Suluova İlçesi',
-            latitude: '40.84202000',
-            longitude: '35.65922000'),
-        City(
             id: 108554,
             name: 'Taşova',
             latitude: '40.75972000',
-            longitude: '36.32250000'),
-        City(
-            id: 108555,
-            name: 'Taşova İlçesi',
-            latitude: '40.76998000',
-            longitude: '36.33092000')
+            longitude: '36.32250000')
       ]),
       State(id: 2217, name: 'Ankara Province', stateCode: '06', cities: [
         City(
@@ -603,11 +418,6 @@ const tur = Country(
             name: 'Akyurt',
             latitude: '40.13512000',
             longitude: '33.08614000'),
-        City(
-            id: 107103,
-            name: 'Akyurt İlçesi',
-            latitude: '40.14140000',
-            longitude: '33.09743000'),
         City(
             id: 107139,
             name: 'Altındağ',
@@ -628,11 +438,6 @@ const tur = Country(
             name: 'Ayaş',
             latitude: '40.01933000',
             longitude: '32.33221000'),
-        City(
-            id: 107218,
-            name: 'Ayaş İlçesi',
-            latitude: '40.02484000',
-            longitude: '32.34089000'),
         City(
             id: 107268,
             name: 'Bala İlçesi',
@@ -659,11 +464,6 @@ const tur = Country(
             latitude: '40.48958000',
             longitude: '32.47499000'),
         City(
-            id: 108769,
-            name: 'Çamlıdere İlçesi',
-            latitude: '40.49994000',
-            longitude: '32.47986000'),
-        City(
             id: 108779,
             name: 'Çankaya',
             latitude: '39.91790000',
@@ -674,20 +474,10 @@ const tur = Country(
             latitude: '40.23861000',
             longitude: '33.03222000'),
         City(
-            id: 108845,
-            name: 'Çubuk İlçesi',
-            latitude: '40.23985000',
-            longitude: '33.04706000'),
-        City(
             id: 107568,
             name: 'Elmadağ',
             latitude: '39.92083000',
             longitude: '33.23083000'),
-        City(
-            id: 107569,
-            name: 'Elmadağ İlçesi',
-            latitude: '39.93117000',
-            longitude: '33.23812000'),
         City(
             id: 107611,
             name: 'Etimesgut İlçesi',
@@ -699,11 +489,6 @@ const tur = Country(
             latitude: '39.02402000',
             longitude: '33.80626000'),
         City(
-            id: 107616,
-            name: 'Evren İlçesi',
-            latitude: '39.03001000',
-            longitude: '33.79767000'),
-        City(
             id: 107687,
             name: 'Gölbaşı',
             latitude: '39.79043000',
@@ -714,20 +499,10 @@ const tur = Country(
             latitude: '40.21051000',
             longitude: '32.24552000'),
         City(
-            id: 107726,
-            name: 'Güdül İlçesi',
-            latitude: '40.21954000',
-            longitude: '32.24885000'),
-        City(
             id: 107811,
             name: 'Haymana',
             latitude: '39.43212000',
             longitude: '32.49732000'),
-        City(
-            id: 107812,
-            name: 'Haymana İlçesi',
-            latitude: '39.44015000',
-            longitude: '32.48852000'),
         City(
             id: 107868,
             name: 'Kahramankazan',
@@ -738,11 +513,6 @@ const tur = Country(
             name: 'Kalecik',
             latitude: '40.09722000',
             longitude: '33.40833000'),
-        City(
-            id: 107875,
-            name: 'Kalecik İlçesi',
-            latitude: '40.10634000',
-            longitude: '33.41973000'),
         City(
             id: 107956,
             name: 'Kazan',
@@ -759,11 +529,6 @@ const tur = Country(
             latitude: '40.46972000',
             longitude: '32.65056000'),
         City(
-            id: 108114,
-            name: 'Kızılcahamam İlçesi',
-            latitude: '40.48011000',
-            longitude: '32.65546000'),
-        City(
             id: 108147,
             name: 'Mamak İlçesi',
             latitude: '39.94587000',
@@ -773,11 +538,6 @@ const tur = Country(
             name: 'Nallıhan',
             latitude: '40.18593000',
             longitude: '31.35179000'),
-        City(
-            id: 108238,
-            name: 'Nallıhan İlçesi',
-            latitude: '40.19436000',
-            longitude: '31.36316000'),
         City(
             id: 108346,
             name: 'Polatlı',
@@ -793,11 +553,6 @@ const tur = Country(
             name: 'Şereflikoçhisar',
             latitude: '38.93925000',
             longitude: '33.53860000'),
-        City(
-            id: 108957,
-            name: 'Şereflikoçhisar İlçesi',
-            latitude: '38.95450000',
-            longitude: '33.54801000'),
         City(
             id: 108470,
             name: 'Sincan İlçesi',
@@ -815,11 +570,6 @@ const tur = Country(
             name: 'Akseki',
             latitude: '37.04861000',
             longitude: '31.79000000'),
-        City(
-            id: 107093,
-            name: 'Akseki İlçesi',
-            latitude: '37.05820000',
-            longitude: '31.80153000'),
         City(
             id: 107095,
             name: 'Aksu',
@@ -861,11 +611,6 @@ const tur = Country(
             latitude: '36.24444000',
             longitude: '29.98500000'),
         City(
-            id: 107468,
-            name: 'Demre İlçesi',
-            latitude: '36.25510000',
-            longitude: '29.99788000'),
-        City(
             id: 107541,
             name: 'Döşemealtı İlçesi',
             latitude: '37.02366000',
@@ -880,11 +625,6 @@ const tur = Country(
             name: 'Elmalı',
             latitude: '36.73583000',
             longitude: '29.91775000'),
-        City(
-            id: 107571,
-            name: 'Elmalı İlçesi',
-            latitude: '36.74641000',
-            longitude: '29.92324000'),
         City(
             id: 107617,
             name: 'Evrenseki',
@@ -901,11 +641,6 @@ const tur = Country(
             latitude: '36.26942000',
             longitude: '32.31792000'),
         City(
-            id: 107649,
-            name: 'Gazipaşa İlçesi',
-            latitude: '36.28012000',
-            longitude: '32.30570000'),
-        City(
             id: 107718,
             name: 'Göynük',
             latitude: '36.66000000',
@@ -921,11 +656,6 @@ const tur = Country(
             latitude: '37.09694000',
             longitude: '31.59917000'),
         City(
-            id: 108878,
-            name: 'İbradı İlçesi',
-            latitude: '37.10757000',
-            longitude: '31.60969000'),
-        City(
             id: 107876,
             name: 'Kalkan',
             latitude: '36.26510000',
@@ -936,20 +666,10 @@ const tur = Country(
             latitude: '36.20176000',
             longitude: '29.63766000'),
         City(
-            id: 107963,
-            name: 'Kaş İlçesi',
-            latitude: '36.21207000',
-            longitude: '29.65605000'),
-        City(
             id: 107978,
             name: 'Kemer',
             latitude: '36.59778000',
             longitude: '30.56056000'),
-        City(
-            id: 107979,
-            name: 'Kemer İlçesi',
-            latitude: '36.60249000',
-            longitude: '30.48039000'),
         City(
             id: 107981,
             name: 'Kepez İlçesi',
@@ -971,11 +691,6 @@ const tur = Country(
             latitude: '37.06498000',
             longitude: '30.19565000'),
         City(
-            id: 108025,
-            name: 'Korkuteli İlçesi',
-            latitude: '37.07581000',
-            longitude: '30.20293000'),
-        City(
             id: 108048,
             name: 'Kumköy',
             latitude: '36.88286000',
@@ -996,20 +711,10 @@ const tur = Country(
             latitude: '36.78667000',
             longitude: '31.44306000'),
         City(
-            id: 108149,
-            name: 'Manavgat İlçesi',
-            latitude: '36.79008000',
-            longitude: '31.46286000'),
-        City(
             id: 108224,
             name: 'Muratpaşa',
             latitude: '36.89157000',
             longitude: '30.76498000'),
-        City(
-            id: 108225,
-            name: 'Muratpaşa İlçesi',
-            latitude: '36.87907000',
-            longitude: '30.76859000'),
         City(
             id: 108263,
             name: 'Okurcalar',
@@ -1063,40 +768,20 @@ const tur = Country(
             latitude: '41.34145000',
             longitude: '42.83680000'),
         City(
-            id: 107445,
-            name: 'Damal İlçesi',
-            latitude: '41.35010000',
-            longitude: '42.84582000'),
-        City(
             id: 107692,
             name: 'Göle',
             latitude: '40.78746000',
             longitude: '42.60603000'),
-        City(
-            id: 107693,
-            name: 'Göle İlçesi',
-            latitude: '40.79404000',
-            longitude: '42.60993000'),
         City(
             id: 107788,
             name: 'Hanak',
             latitude: '41.23344000',
             longitude: '42.84037000'),
         City(
-            id: 107789,
-            name: 'Hanak İlçesi',
-            latitude: '41.24365000',
-            longitude: '42.85189000'),
-        City(
             id: 108347,
             name: 'Posof',
             latitude: '41.51111000',
-            longitude: '42.72917000'),
-        City(
-            id: 108348,
-            name: 'Posof İlçesi',
-            latitude: '41.52131000',
-            longitude: '42.73126000')
+            longitude: '42.72917000')
       ]),
       State(id: 2191, name: 'Artvin Province', stateCode: '08', cities: [
         City(
@@ -1105,20 +790,10 @@ const tur = Country(
             latitude: '41.12738000',
             longitude: '42.06292000'),
         City(
-            id: 107181,
-            name: 'Ardanuç İlçesi',
-            latitude: '41.13782000',
-            longitude: '42.06668000'),
-        City(
             id: 107184,
             name: 'Arhavi',
             latitude: '41.35121000',
             longitude: '41.30456000'),
-        City(
-            id: 107185,
-            name: 'Arhavi İlçesi',
-            latitude: '41.34829000',
-            longitude: '41.31950000'),
         City(
             id: 107196,
             name: 'Artvin',
@@ -1130,20 +805,10 @@ const tur = Country(
             latitude: '41.35792000',
             longitude: '41.66579000'),
         City(
-            id: 107372,
-            name: 'Borçka İlçesi',
-            latitude: '41.35940000',
-            longitude: '41.67631000'),
-        City(
             id: 107834,
             name: 'Hopa',
             latitude: '41.39046000',
             longitude: '41.41966000'),
-        City(
-            id: 107835,
-            name: 'Hopa İlçesi',
-            latitude: '41.40128000',
-            longitude: '41.44798000'),
         City(
             id: 107975,
             name: 'Kemalpaşa',
@@ -1155,20 +820,10 @@ const tur = Country(
             latitude: '41.27937000',
             longitude: '41.55514000'),
         City(
-            id: 108227,
-            name: 'Murgul İlçesi',
-            latitude: '41.27934000',
-            longitude: '41.56288000'),
-        City(
             id: 108940,
             name: 'Şavşat',
             latitude: '41.24027000',
             longitude: '42.36109000'),
-        City(
-            id: 108941,
-            name: 'Şavşat İlçesi',
-            latitude: '41.24941000',
-            longitude: '42.36936000'),
         City(
             id: 108455,
             name: 'Seyitler',
@@ -1178,12 +833,7 @@ const tur = Country(
             id: 108741,
             name: 'Yusufeli',
             latitude: '40.82042000',
-            longitude: '41.53743000'),
-        City(
-            id: 108742,
-            name: 'Yusufeli İlçesi',
-            latitude: '40.82024000',
-            longitude: '41.54234000')
+            longitude: '41.53743000')
       ]),
       State(id: 2187, name: 'Aydın Province', stateCode: '09', cities: [
         City(
@@ -1207,30 +857,15 @@ const tur = Country(
             latitude: '37.67134000',
             longitude: '28.31395000'),
         City(
-            id: 107382,
-            name: 'Bozdoğan İlçesi',
-            latitude: '37.68064000',
-            longitude: '28.33051000'),
-        City(
             id: 107402,
             name: 'Buharkent',
             latitude: '37.96397000',
             longitude: '28.74270000'),
         City(
-            id: 107403,
-            name: 'Buharkent İlçesi',
-            latitude: '37.97398000',
-            longitude: '28.75152000'),
-        City(
             id: 108834,
             name: 'Çine',
             latitude: '37.61266000',
             longitude: '28.05912000'),
-        City(
-            id: 108835,
-            name: 'Çine İlçesi',
-            latitude: '37.62269000',
-            longitude: '28.06786000'),
         City(
             id: 107441,
             name: 'Dalama',
@@ -1257,20 +892,10 @@ const tur = Country(
             latitude: '37.87056000',
             longitude: '27.60283000'),
         City(
-            id: 107669,
-            name: 'Germencik İlçesi',
-            latitude: '37.88049000',
-            longitude: '27.61054000'),
-        City(
             id: 108897,
             name: 'İncirliova',
             latitude: '37.85222000',
             longitude: '27.72361000'),
-        City(
-            id: 108898,
-            name: 'İncirliova İlçesi',
-            latitude: '37.86237000',
-            longitude: '27.72976000'),
         City(
             id: 108911,
             name: 'İsabeyli',
@@ -1287,50 +912,25 @@ const tur = Country(
             latitude: '37.55861000',
             longitude: '27.83528000'),
         City(
-            id: 107930,
-            name: 'Karpuzlu İlçesi',
-            latitude: '37.56879000',
-            longitude: '27.84071000'),
-        City(
             id: 108036,
             name: 'Koçarlı',
             latitude: '37.76113000',
             longitude: '27.70583000'),
-        City(
-            id: 108037,
-            name: 'Koçarlı İlçesi',
-            latitude: '37.77146000',
-            longitude: '27.71144000'),
         City(
             id: 108084,
             name: 'Köşk',
             latitude: '37.85333000',
             longitude: '28.05167000'),
         City(
-            id: 108085,
-            name: 'Köşk İlçesi',
-            latitude: '37.86340000',
-            longitude: '28.05649000'),
-        City(
             id: 108067,
             name: 'Kuşadası',
             latitude: '37.86014000',
             longitude: '27.25713000'),
         City(
-            id: 108068,
-            name: 'Kuşadası İlçesi',
-            latitude: '37.84987000',
-            longitude: '27.26966000'),
-        City(
             id: 108063,
             name: 'Kuyucak',
             latitude: '37.91330000',
             longitude: '28.45917000'),
-        City(
-            id: 108064,
-            name: 'Kuyucak İlçesi',
-            latitude: '37.92335000',
-            longitude: '28.46426000'),
         City(
             id: 108243,
             name: 'Nazilli',
@@ -1347,20 +947,10 @@ const tur = Country(
             latitude: '37.74820000',
             longitude: '27.40614000'),
         City(
-            id: 108516,
-            name: 'Söke İlçesi',
-            latitude: '37.75864000',
-            longitude: '27.41319000'),
-        City(
             id: 108497,
             name: 'Sultanhisar',
             latitude: '37.88989000',
             longitude: '28.15436000'),
-        City(
-            id: 108498,
-            name: 'Sultanhisar İlçesi',
-            latitude: '37.89966000',
-            longitude: '28.17414000'),
         City(
             id: 108567,
             name: 'Tepecik',
@@ -1370,12 +960,7 @@ const tur = Country(
             id: 108704,
             name: 'Yenipazar',
             latitude: '37.82332000',
-            longitude: '28.19573000'),
-        City(
-            id: 108707,
-            name: 'Yenipazar İlçesi',
-            latitude: '37.83325000',
-            longitude: '28.18442000')
+            longitude: '28.19573000')
       ]),
       State(id: 2175, name: 'Balıkesir Province', stateCode: '10', cities: [
         City(
@@ -1394,11 +979,6 @@ const tur = Country(
             latitude: '39.31927000',
             longitude: '26.69341000'),
         City(
-            id: 107234,
-            name: 'Ayvalık İlçesi',
-            latitude: '39.32308000',
-            longitude: '26.71156000'),
-        City(
             id: 107277,
             name: 'Balıkesir',
             latitude: '39.64917000',
@@ -1409,90 +989,45 @@ const tur = Country(
             latitude: '39.74861000',
             longitude: '27.57889000'),
         City(
-            id: 107274,
-            name: 'Balya İlçesi',
-            latitude: '39.75910000',
-            longitude: '27.58631000'),
-        City(
             id: 107283,
             name: 'Bandırma',
             latitude: '40.35222000',
             longitude: '27.97667000'),
-        City(
-            id: 107284,
-            name: 'Bandırma İlçesi',
-            latitude: '40.27282000',
-            longitude: '27.96380000'),
         City(
             id: 107354,
             name: 'Bigadiç',
             latitude: '39.39250000',
             longitude: '28.13111000'),
         City(
-            id: 107355,
-            name: 'Bigadiç İlçesi',
-            latitude: '39.40249000',
-            longitude: '28.13837000'),
-        City(
             id: 107412,
             name: 'Burhaniye',
             latitude: '39.50041000',
             longitude: '26.97269000'),
-        City(
-            id: 107413,
-            name: 'Burhaniye İlçesi',
-            latitude: '39.51095000',
-            longitude: '26.97863000'),
         City(
             id: 107532,
             name: 'Dursunbey',
             latitude: '39.58596000',
             longitude: '28.62568000'),
         City(
-            id: 107533,
-            name: 'Dursunbey İlçesi',
-            latitude: '39.52907000',
-            longitude: '28.65306000'),
-        City(
             id: 107550,
             name: 'Edremit',
             latitude: '39.59611000',
             longitude: '27.02444000'),
-        City(
-            id: 107552,
-            name: 'Edremit İlçesi',
-            latitude: '39.60523000',
-            longitude: '27.03208000'),
         City(
             id: 107584,
             name: 'Erdek',
             latitude: '40.39960000',
             longitude: '27.79348000'),
         City(
-            id: 107585,
-            name: 'Erdek İlçesi',
-            latitude: '40.40924000',
-            longitude: '27.80280000'),
-        City(
             id: 107705,
             name: 'Gömeç',
             latitude: '39.39016000',
             longitude: '26.84127000'),
         City(
-            id: 107706,
-            name: 'Gömeç İlçesi',
-            latitude: '39.39981000',
-            longitude: '26.85110000'),
-        City(
             id: 107708,
             name: 'Gönen',
             latitude: '40.10490000',
             longitude: '27.65399000'),
-        City(
-            id: 107709,
-            name: 'Gönen İlçesi',
-            latitude: '40.11452000',
-            longitude: '27.67026000'),
         City(
             id: 107806,
             name: 'Havran',
@@ -1504,70 +1039,35 @@ const tur = Country(
             latitude: '39.58389000',
             longitude: '27.48639000'),
         City(
-            id: 108921,
-            name: 'İvrindi İlçesi',
-            latitude: '39.59319000',
-            longitude: '27.49590000'),
-        City(
             id: 107982,
             name: 'Kepsut',
             latitude: '39.68889000',
             longitude: '28.15222000'),
-        City(
-            id: 107983,
-            name: 'Kepsut İlçesi',
-            latitude: '39.69819000',
-            longitude: '28.16237000'),
         City(
             id: 108151,
             name: 'Manyas',
             latitude: '40.04639000',
             longitude: '27.97000000'),
         City(
-            id: 108152,
-            name: 'Manyas İlçesi',
-            latitude: '40.05561000',
-            longitude: '27.97829000'),
-        City(
             id: 108155,
             name: 'Marmara',
             latitude: '40.58633000',
             longitude: '27.55541000'),
-        City(
-            id: 108158,
-            name: 'Marmara İlçesi',
-            latitude: '40.58750000',
-            longitude: '27.55528000'),
         City(
             id: 108417,
             name: 'Savaştepe',
             latitude: '39.38319000',
             longitude: '27.65612000'),
         City(
-            id: 108418,
-            name: 'Savaştepe İlçesi',
-            latitude: '39.39260000',
-            longitude: '27.66367000'),
-        City(
             id: 108527,
             name: 'Sındırgı',
             latitude: '39.24128000',
             longitude: '28.17842000'),
         City(
-            id: 108528,
-            name: 'Sındırgı İlçesi',
-            latitude: '39.25061000',
-            longitude: '28.18647000'),
-        City(
             id: 108509,
             name: 'Susurluk',
             latitude: '39.91361000',
-            longitude: '28.15778000'),
-        City(
-            id: 108510,
-            name: 'Susurluk İlçesi',
-            latitude: '39.92336000',
-            longitude: '28.14376000')
+            longitude: '28.15778000')
       ]),
       State(id: 2148, name: 'Bartın Province', stateCode: '74', cities: [
         City(
@@ -1575,11 +1075,6 @@ const tur = Country(
             name: 'Amasra',
             latitude: '41.74633000',
             longitude: '32.38633000'),
-        City(
-            id: 107156,
-            name: 'Amasra İlçesi',
-            latitude: '41.73791000',
-            longitude: '32.39455000'),
         City(
             id: 107286,
             name: 'Bartın',
@@ -1590,11 +1085,6 @@ const tur = Country(
             name: 'Kurucaşile',
             latitude: '41.83781000',
             longitude: '32.71621000'),
-        City(
-            id: 108058,
-            name: 'Kurucaşile İlçesi',
-            latitude: '41.82880000',
-            longitude: '32.71937000'),
         City(
             id: 108629,
             name: 'Ulus İlçesi',
@@ -1627,11 +1117,6 @@ const tur = Country(
             name: 'Beşiri',
             latitude: '37.91573000',
             longitude: '41.28650000'),
-        City(
-            id: 107351,
-            name: 'Beşiri İlçesi',
-            latitude: '37.85722000',
-            longitude: '41.39306000'),
         City(
             id: 107352,
             name: 'Beşpınar',
@@ -1678,11 +1163,6 @@ const tur = Country(
             latitude: '37.70612000',
             longitude: '41.40480000'),
         City(
-            id: 107801,
-            name: 'Hasankeyf İlçesi',
-            latitude: '37.69694000',
-            longitude: '41.49972000'),
-        City(
             id: 107827,
             name: 'Hisar',
             latitude: '37.60094000',
@@ -1713,11 +1193,6 @@ const tur = Country(
             latitude: '38.32767000',
             longitude: '41.41377000'),
         City(
-            id: 108416,
-            name: 'Sason İlçesi',
-            latitude: '38.33460000',
-            longitude: '41.41993000'),
-        City(
             id: 108700,
             name: 'Yeniköy',
             latitude: '37.88042000',
@@ -1739,11 +1214,6 @@ const tur = Country(
             name: 'Aydıntepe',
             latitude: '40.38325000',
             longitude: '40.14272000'),
-        City(
-            id: 107227,
-            name: 'Aydıntepe İlçesi',
-            latitude: '40.39137000',
-            longitude: '40.14729000'),
         City(
             id: 107297,
             name: 'Bayburt',
@@ -1772,11 +1242,6 @@ const tur = Country(
             latitude: '39.90778000',
             longitude: '30.03667000'),
         City(
-            id: 107394,
-            name: 'Bozüyük İlçesi',
-            latitude: '39.91806000',
-            longitude: '30.05113000'),
-        City(
             id: 107505,
             name: 'Dodurga',
             latitude: '39.79972000',
@@ -1787,20 +1252,10 @@ const tur = Country(
             latitude: '40.28472000',
             longitude: '30.31722000'),
         City(
-            id: 107703,
-            name: 'Gölpazarı İlçesi',
-            latitude: '40.29553000',
-            longitude: '30.33386000'),
-        City(
             id: 108903,
             name: 'İnhisar',
             latitude: '40.04932000',
             longitude: '30.38521000'),
-        City(
-            id: 108904,
-            name: 'İnhisar İlçesi',
-            latitude: '40.05091000',
-            longitude: '30.38368000'),
         City(
             id: 108086,
             name: 'Küplü',
@@ -1812,20 +1267,10 @@ const tur = Country(
             latitude: '40.35722000',
             longitude: '30.01417000'),
         City(
-            id: 108292,
-            name: 'Osmaneli İlçesi',
-            latitude: '40.36742000',
-            longitude: '30.02683000'),
-        City(
             id: 108329,
             name: 'Pazaryeri',
             latitude: '39.99395000',
             longitude: '29.90424000'),
-        City(
-            id: 108330,
-            name: 'Pazaryeri İlçesi',
-            latitude: '40.00444000',
-            longitude: '29.92051000'),
         City(
             id: 108518,
             name: 'Söğüt İlçesi',
@@ -1840,12 +1285,7 @@ const tur = Country(
             id: 108705,
             name: 'Yenipazar',
             latitude: '40.17833000',
-            longitude: '30.52000000'),
-        City(
-            id: 108706,
-            name: 'Yenipazar İlçesi',
-            latitude: '40.18944000',
-            longitude: '30.50821000')
+            longitude: '30.52000000')
       ]),
       State(id: 2153, name: 'Bingöl Province', stateCode: '12', cities: [
         City(
@@ -1864,20 +1304,10 @@ const tur = Country(
             latitude: '38.74773000',
             longitude: '40.55343000'),
         City(
-            id: 107662,
-            name: 'Genç İlçesi',
-            latitude: '38.75972000',
-            longitude: '40.56639000'),
-        City(
             id: 107927,
             name: 'Karlıova',
             latitude: '39.29044000',
             longitude: '41.00594000'),
-        City(
-            id: 107928,
-            name: 'Karlıova İlçesi',
-            latitude: '39.29780000',
-            longitude: '41.01342000'),
         City(
             id: 108002,
             name: 'Kiğı İlçesi',
@@ -1894,11 +1324,6 @@ const tur = Country(
             latitude: '38.96525000',
             longitude: '41.05443000'),
         City(
-            id: 108484,
-            name: 'Solhan İlçesi',
-            latitude: '38.96965000',
-            longitude: '41.05604000'),
-        City(
             id: 108681,
             name: 'Yayladere',
             latitude: '39.22614000',
@@ -1907,12 +1332,7 @@ const tur = Country(
             id: 108688,
             name: 'Yedisu',
             latitude: '39.43277000',
-            longitude: '40.53368000'),
-        City(
-            id: 108689,
-            name: 'Yedisu İlçesi',
-            latitude: '39.43404000',
-            longitude: '40.54482000')
+            longitude: '40.53368000')
       ]),
       State(id: 2215, name: 'Bitlis Province', stateCode: '13', cities: [
         City(
@@ -1921,20 +1341,10 @@ const tur = Country(
             latitude: '38.79911000',
             longitude: '42.73159000'),
         City(
-            id: 107066,
-            name: 'Adilcevaz İlçesi',
-            latitude: '38.80582000',
-            longitude: '42.73654000'),
-        City(
             id: 107071,
             name: 'Ahlat',
             latitude: '38.74890000',
             longitude: '42.48007000'),
-        City(
-            id: 107072,
-            name: 'Ahlat İlçesi',
-            latitude: '38.75452000',
-            longitude: '42.48809000'),
         City(
             id: 107347,
             name: 'Beğendik',
@@ -1951,20 +1361,10 @@ const tur = Country(
             latitude: '38.57580000',
             longitude: '42.01558000'),
         City(
-            id: 107752,
-            name: 'Güroymak İlçesi',
-            latitude: '38.57743000',
-            longitude: '42.01997000'),
-        City(
             id: 107829,
             name: 'Hizan',
             latitude: '38.22498000',
             longitude: '42.41830000'),
-        City(
-            id: 107830,
-            name: 'Hizan İlçesi',
-            latitude: '38.22600000',
-            longitude: '42.42491000'),
         City(
             id: 108189,
             name: 'Merkez',
@@ -1976,20 +1376,10 @@ const tur = Country(
             latitude: '38.40624000',
             longitude: '41.92018000'),
         City(
-            id: 108234,
-            name: 'Mutki İlçesi',
-            latitude: '38.40978000',
-            longitude: '41.92298000'),
-        City(
             id: 108538,
             name: 'Tatvan',
             latitude: '38.49221000',
-            longitude: '42.28269000'),
-        City(
-            id: 108539,
-            name: 'Tatvan İlçesi',
-            latitude: '38.49535000',
-            longitude: '42.28578000')
+            longitude: '42.28269000')
       ]),
       State(id: 2172, name: 'Bolu Province', stateCode: '14', cities: [
         City(
@@ -2003,11 +1393,6 @@ const tur = Country(
             latitude: '40.72052000',
             longitude: '32.06314000'),
         City(
-            id: 107538,
-            name: 'Dörtdivan İlçesi',
-            latitude: '40.73040000',
-            longitude: '32.07079000'),
-        City(
             id: 107665,
             name: 'Gerede',
             latitude: '40.71364000',
@@ -2018,60 +1403,30 @@ const tur = Country(
             latitude: '40.40028000',
             longitude: '30.78833000'),
         City(
-            id: 107720,
-            name: 'Göynük İlçesi',
-            latitude: '40.41056000',
-            longitude: '30.79181000'),
-        City(
             id: 108096,
             name: 'Kıbrıscık',
             latitude: '40.40778000',
             longitude: '31.85194000'),
-        City(
-            id: 108097,
-            name: 'Kıbrıscık İlçesi',
-            latitude: '40.41777000',
-            longitude: '31.85584000'),
         City(
             id: 108172,
             name: 'Mengen',
             latitude: '40.93877000',
             longitude: '32.07642000'),
         City(
-            id: 108173,
-            name: 'Mengen İlçesi',
-            latitude: '40.94849000',
-            longitude: '32.06535000'),
-        City(
             id: 108218,
             name: 'Mudurnu',
             latitude: '40.47300000',
             longitude: '31.20755000'),
-        City(
-            id: 108219,
-            name: 'Mudurnu İlçesi',
-            latitude: '40.48344000',
-            longitude: '31.21412000'),
         City(
             id: 108421,
             name: 'Seben',
             latitude: '40.41134000',
             longitude: '31.57359000'),
         City(
-            id: 108422,
-            name: 'Seben İlçesi',
-            latitude: '40.42162000',
-            longitude: '31.58299000'),
-        City(
             id: 108709,
             name: 'Yeniçağa',
             latitude: '40.77115000',
-            longitude: '32.03375000'),
-        City(
-            id: 108710,
-            name: 'Yeniçağa İlçesi',
-            latitude: '40.77767000',
-            longitude: '32.04920000')
+            longitude: '32.03375000')
       ]),
       State(id: 2209, name: 'Burdur Province', stateCode: '15', cities: [
         City(
@@ -2080,30 +1435,15 @@ const tur = Country(
             latitude: '37.64944000',
             longitude: '30.53417000'),
         City(
-            id: 107242,
-            name: 'Ağlasun İlçesi',
-            latitude: '37.65962000',
-            longitude: '30.53833000'),
-        City(
             id: 107148,
             name: 'Altınyayla',
             latitude: '36.99722000',
             longitude: '29.54579000'),
         City(
-            id: 107150,
-            name: 'Altınyayla İlçesi',
-            latitude: '37.00720000',
-            longitude: '29.55050000'),
-        City(
             id: 107400,
             name: 'Bucak',
             latitude: '37.45917000',
             longitude: '30.59500000'),
-        City(
-            id: 107401,
-            name: 'Bucak İlçesi',
-            latitude: '37.47032000',
-            longitude: '30.59956000'),
         City(
             id: 107411,
             name: 'Burdur',
@@ -2125,30 +1465,15 @@ const tur = Country(
             latitude: '37.14590000',
             longitude: '29.50876000'),
         City(
-            id: 107696,
-            name: 'Gölhisar İlçesi',
-            latitude: '37.15628000',
-            longitude: '29.51406000'),
-        City(
             id: 107906,
             name: 'Karamanlı',
             latitude: '37.37301000',
             longitude: '29.82308000'),
         City(
-            id: 107907,
-            name: 'Karamanlı İlçesi',
-            latitude: '37.38401000',
-            longitude: '29.82777000'),
-        City(
             id: 107977,
             name: 'Kemer',
             latitude: '37.35222000',
             longitude: '30.06306000'),
-        City(
-            id: 107980,
-            name: 'Kemer İlçesi',
-            latitude: '37.36333000',
-            longitude: '30.06748000'),
         City(
             id: 108116,
             name: 'Kızılkaya',
@@ -2170,20 +1495,10 @@ const tur = Country(
             latitude: '37.30968000',
             longitude: '29.77538000'),
         City(
-            id: 108557,
-            name: 'Tefenni İlçesi',
-            latitude: '37.32038000',
-            longitude: '29.78034000'),
-        City(
             id: 108726,
             name: 'Yeşilova',
             latitude: '37.50806000',
-            longitude: '29.75472000'),
-        City(
-            id: 108727,
-            name: 'Yeşilova İlçesi',
-            latitude: '37.51831000',
-            longitude: '29.75859000')
+            longitude: '29.75472000')
       ]),
       State(id: 2163, name: 'Bursa Province', stateCode: '16', cities: [
         City(
@@ -2257,11 +1572,6 @@ const tur = Country(
             latitude: '39.67743000',
             longitude: '29.15523000'),
         City(
-            id: 108902,
-            name: 'İnegöl',
-            latitude: '40.01193000',
-            longitude: '29.53678000'),
-        City(
             id: 108901,
             name: 'İnegol',
             latitude: '40.07806000',
@@ -2272,20 +1582,10 @@ const tur = Country(
             latitude: '40.42861000',
             longitude: '29.72111000'),
         City(
-            id: 108926,
-            name: 'İznik İlçesi',
-            latitude: '40.43940000',
-            longitude: '29.72644000'),
-        City(
             id: 107890,
             name: 'Karacabey',
             latitude: '40.21323000',
             longitude: '28.36120000'),
-        City(
-            id: 107891,
-            name: 'Karacabey İlçesi',
-            latitude: '40.22288000',
-            longitude: '28.36656000'),
         City(
             id: 107935,
             name: 'Karıncalı',
@@ -2297,20 +1597,10 @@ const tur = Country(
             latitude: '39.91361000',
             longitude: '29.22944000'),
         City(
-            id: 107968,
-            name: 'Keles İlçesi',
-            latitude: '39.92363000',
-            longitude: '29.23644000'),
-        City(
             id: 107987,
             name: 'Kestel',
             latitude: '40.19828000',
             longitude: '29.21237000'),
-        City(
-            id: 107988,
-            name: 'Kestel İlçesi',
-            latitude: '40.18218000',
-            longitude: '29.28916000'),
         City(
             id: 108001,
             name: 'Kirazlı',
@@ -2337,11 +1627,6 @@ const tur = Country(
             latitude: '40.03815000',
             longitude: '28.40866000'),
         City(
-            id: 108231,
-            name: 'Mustafakemalpaşa İlçesi',
-            latitude: '40.04973000',
-            longitude: '28.41833000'),
-        City(
             id: 108239,
             name: 'Narlıca',
             latitude: '40.38583000',
@@ -2357,20 +1642,10 @@ const tur = Country(
             latitude: '39.90333000',
             longitude: '28.99056000'),
         City(
-            id: 108273,
-            name: 'Orhaneli İlçesi',
-            latitude: '39.91406000',
-            longitude: '28.99790000'),
-        City(
             id: 108274,
             name: 'Orhangazi',
             latitude: '40.48917000',
             longitude: '29.30889000'),
-        City(
-            id: 108275,
-            name: 'Orhangazi İlçesi',
-            latitude: '40.49979000',
-            longitude: '29.31207000'),
         City(
             id: 108293,
             name: 'Osmangazi',
@@ -2417,11 +1692,6 @@ const tur = Country(
             latitude: '40.26444000',
             longitude: '29.65306000'),
         City(
-            id: 108717,
-            name: 'Yenişehir İlçesi',
-            latitude: '40.27425000',
-            longitude: '29.65764000'),
-        City(
             id: 108746,
             name: 'Yıldırım İlçesi',
             latitude: '40.19567000',
@@ -2433,11 +1703,6 @@ const tur = Country(
             name: 'Ayvacık',
             latitude: '39.60111000',
             longitude: '26.40472000'),
-        City(
-            id: 107232,
-            name: 'Ayvacık İlçesi',
-            latitude: '39.61192000',
-            longitude: '26.42314000'),
         City(
             id: 107301,
             name: 'Bayramiç İlçesi',
@@ -2464,11 +1729,6 @@ const tur = Country(
             latitude: '40.03328000',
             longitude: '27.05236000'),
         City(
-            id: 108774,
-            name: 'Çan İlçesi',
-            latitude: '40.04404000',
-            longitude: '27.06645000'),
-        City(
             id: 108775,
             name: 'Çanakkale',
             latitude: '40.15552000',
@@ -2484,20 +1744,10 @@ const tur = Country(
             latitude: '39.78561000',
             longitude: '26.34083000'),
         City(
-            id: 107624,
-            name: 'Ezine İlçesi',
-            latitude: '39.79679000',
-            longitude: '26.35702000'),
-        City(
             id: 107655,
             name: 'Gelibolu',
             latitude: '40.41028000',
             longitude: '26.67083000'),
-        City(
-            id: 107656,
-            name: 'Gelibolu İlçesi',
-            latitude: '40.45567000',
-            longitude: '26.64442000'),
         City(
             id: 107672,
             name: 'Geyikli',
@@ -2537,12 +1787,7 @@ const tur = Country(
             id: 108691,
             name: 'Yenice',
             latitude: '39.93083000',
-            longitude: '27.25806000'),
-        City(
-            id: 108695,
-            name: 'Yenice İlçesi',
-            latitude: '39.94217000',
-            longitude: '27.26532000')
+            longitude: '27.25806000')
       ]),
       State(id: 2168, name: 'Çankırı Province', stateCode: '18', cities: [
         City(
@@ -2551,50 +1796,25 @@ const tur = Country(
             latitude: '40.81593000',
             longitude: '33.07556000'),
         City(
-            id: 107209,
-            name: 'Atkaracalar İlçesi',
-            latitude: '40.82560000',
-            longitude: '33.08202000'),
-        City(
             id: 107303,
             name: 'Bayramören',
             latitude: '40.94329000',
             longitude: '33.20300000'),
-        City(
-            id: 107304,
-            name: 'Bayramören İlçesi',
-            latitude: '40.95121000',
-            longitude: '33.20992000'),
         City(
             id: 108820,
             name: 'Çerkeş',
             latitude: '40.81164000',
             longitude: '32.89358000'),
         City(
-            id: 108821,
-            name: 'Çerkeş İlçesi',
-            latitude: '40.82165000',
-            longitude: '32.90005000'),
-        City(
             id: 107564,
             name: 'Eldivan',
             latitude: '40.52975000',
             longitude: '33.49903000'),
         City(
-            id: 107565,
-            name: 'Eldivan İlçesi',
-            latitude: '40.53921000',
-            longitude: '33.50574000'),
-        City(
             id: 107844,
             name: 'Ilgaz',
             latitude: '40.92511000',
             longitude: '33.62586000'),
-        City(
-            id: 107845,
-            name: 'Ilgaz İlçesi',
-            latitude: '40.93351000',
-            longitude: '33.61542000'),
         City(
             id: 107995,
             name: 'Khanjarah',
@@ -2606,40 +1826,20 @@ const tur = Country(
             latitude: '40.34556000',
             longitude: '33.98639000'),
         City(
-            id: 108123,
-            name: 'Kızılırmak İlçesi',
-            latitude: '40.35504000',
-            longitude: '33.99317000'),
-        City(
             id: 108020,
             name: 'Korgun',
             latitude: '40.73479000',
             longitude: '33.51844000'),
-        City(
-            id: 108021,
-            name: 'Korgun İlçesi',
-            latitude: '40.74560000',
-            longitude: '33.52411000'),
         City(
             id: 108060,
             name: 'Kurşunlu',
             latitude: '40.84101000',
             longitude: '33.26028000'),
         City(
-            id: 108061,
-            name: 'Kurşunlu İlçesi',
-            latitude: '40.84739000',
-            longitude: '33.27350000'),
-        City(
             id: 108276,
             name: 'Orta',
             latitude: '40.62420000',
             longitude: '33.10928000'),
-        City(
-            id: 108277,
-            name: 'Orta İlçesi',
-            latitude: '40.63413000',
-            longitude: '33.11458000'),
         City(
             id: 108928,
             name: 'Şabanözü',
@@ -2649,12 +1849,7 @@ const tur = Country(
             id: 108673,
             name: 'Yapraklı',
             latitude: '40.75785000',
-            longitude: '33.77819000'),
-        City(
-            id: 108674,
-            name: 'Yapraklı İlçesi',
-            latitude: '40.76858000',
-            longitude: '33.78379000')
+            longitude: '33.77819000')
       ]),
       State(id: 2173, name: 'Çorum Province', stateCode: '19', cities: [
         City(
@@ -2663,20 +1858,10 @@ const tur = Country(
             latitude: '40.16833000',
             longitude: '34.84250000'),
         City(
-            id: 107118,
-            name: 'Alaca İlçesi',
-            latitude: '40.17835000',
-            longitude: '34.84968000'),
-        City(
             id: 107294,
             name: 'Bayat',
             latitude: '40.64583000',
             longitude: '34.26139000'),
-        City(
-            id: 107295,
-            name: 'Bayat İlçesi',
-            latitude: '40.65590000',
-            longitude: '34.26433000'),
         City(
             id: 107395,
             name: 'Boğazkale İlçesi',
@@ -2693,20 +1878,10 @@ const tur = Country(
             latitude: '40.85489000',
             longitude: '34.80703000'),
         City(
-            id: 107507,
-            name: 'Dodurga İlçesi',
-            latitude: '40.86324000',
-            longitude: '34.81455000'),
-        City(
             id: 108915,
             name: 'İskilip',
             latitude: '40.73528000',
             longitude: '34.47389000'),
-        City(
-            id: 108916,
-            name: 'İskilip İlçesi',
-            latitude: '40.74363000',
-            longitude: '34.47911000'),
         City(
             id: 107924,
             name: 'Kargı İlçesi',
@@ -2718,20 +1893,10 @@ const tur = Country(
             latitude: '40.77486000',
             longitude: '34.88068000'),
         City(
-            id: 108129,
-            name: 'Laçin İlçesi',
-            latitude: '40.77792000',
-            longitude: '34.90625000'),
-        City(
             id: 108167,
             name: 'Mecitözü',
             latitude: '40.52000000',
             longitude: '35.29528000'),
-        City(
-            id: 108168,
-            name: 'Mecitözü İlçesi',
-            latitude: '40.52774000',
-            longitude: '35.28770000'),
         City(
             id: 108185,
             name: 'Merkez',
@@ -2748,11 +1913,6 @@ const tur = Country(
             latitude: '40.27352000',
             longitude: '35.25175000'),
         City(
-            id: 108289,
-            name: 'Ortaköy İlçesi',
-            latitude: '40.28295000',
-            longitude: '35.25879000'),
-        City(
             id: 108290,
             name: 'Osmancık',
             latitude: '41.00240000',
@@ -2766,12 +1926,7 @@ const tur = Country(
             id: 108642,
             name: 'Uğurludağ',
             latitude: '40.44631000',
-            longitude: '34.45259000'),
-        City(
-            id: 108643,
-            name: 'Uğurludağ İlçesi',
-            latitude: '40.45567000',
-            longitude: '34.45627000')
+            longitude: '34.45259000')
       ]),
       State(id: 2157, name: 'Denizli Province', stateCode: '20', cities: [
         City(
@@ -2779,11 +1934,6 @@ const tur = Country(
             name: 'Acıpayam',
             latitude: '37.42385000',
             longitude: '29.34941000'),
-        City(
-            id: 107058,
-            name: 'Acıpayam İlçesi',
-            latitude: '37.43536000',
-            longitude: '29.36146000'),
         City(
             id: 107084,
             name: 'Akkent',
@@ -2800,20 +1950,10 @@ const tur = Country(
             latitude: '37.80764000',
             longitude: '28.85665000'),
         City(
-            id: 107253,
-            name: 'Babadağ İlçesi',
-            latitude: '37.81823000',
-            longitude: '28.86820000'),
-        City(
             id: 107265,
             name: 'Baklan',
             latitude: '37.97694000',
             longitude: '29.60861000'),
-        City(
-            id: 107266,
-            name: 'Baklan İlçesi',
-            latitude: '37.98760000',
-            longitude: '29.62032000'),
         City(
             id: 107326,
             name: 'Bekilli',
@@ -2835,11 +1975,6 @@ const tur = Country(
             latitude: '38.04500000',
             longitude: '28.83056000'),
         City(
-            id: 107409,
-            name: 'Buldan İlçesi',
-            latitude: '38.05536000',
-            longitude: '28.84007000'),
-        City(
             id: 108759,
             name: 'Çal İlçesi',
             latitude: '38.09371000',
@@ -2859,11 +1994,6 @@ const tur = Country(
             name: 'Çivril',
             latitude: '38.30139000',
             longitude: '29.73861000'),
-        City(
-            id: 108837,
-            name: 'Çivril İlçesi',
-            latitude: '38.31191000',
-            longitude: '29.72430000'),
         City(
             id: 107470,
             name: 'Denizli',
@@ -2890,20 +2020,10 @@ const tur = Country(
             latitude: '37.43917000',
             longitude: '28.84528000'),
         City(
-            id: 107873,
-            name: 'Kale İlçesi',
-            latitude: '37.44537000',
-            longitude: '28.85582000'),
-        City(
             id: 108196,
             name: 'Merkezefendi',
             latitude: '37.80544000',
             longitude: '29.04236000'),
-        City(
-            id: 108197,
-            name: 'Merkezefendi İlçesi',
-            latitude: '37.80610000',
-            longitude: '29.01562000'),
         City(
             id: 108247,
             name: 'Nikfer',
@@ -2915,11 +2035,6 @@ const tur = Country(
             latitude: '37.91644000',
             longitude: '29.11729000'),
         City(
-            id: 108311,
-            name: 'Pamukkale İlçesi',
-            latitude: '37.96709000',
-            longitude: '29.08635000'),
-        City(
             id: 108393,
             name: 'Sarayköy',
             latitude: '37.91580000',
@@ -2930,20 +2045,10 @@ const tur = Country(
             latitude: '37.58105000',
             longitude: '29.26639000'),
         City(
-            id: 108443,
-            name: 'Serinhisar İlçesi',
-            latitude: '37.59127000',
-            longitude: '29.27246000'),
-        City(
             id: 108540,
             name: 'Tavas',
             latitude: '37.57351000',
-            longitude: '29.07058000'),
-        City(
-            id: 108541,
-            name: 'Tavas İlçesi',
-            latitude: '37.58387000',
-            longitude: '29.07970000')
+            longitude: '29.07058000')
       ]),
       State(id: 2226, name: 'Diyarbakır Province', stateCode: '21', cities: [
         City(
@@ -2977,20 +2082,10 @@ const tur = Country(
             latitude: '37.84514000',
             longitude: '40.65931000'),
         City(
-            id: 107363,
-            name: 'Bismil İlçesi',
-            latitude: '37.86528000',
-            longitude: '40.77722000'),
-        City(
             id: 108822,
             name: 'Çermik',
             latitude: '38.13538000',
             longitude: '39.44500000'),
-        City(
-            id: 108823,
-            name: 'Çermik İlçesi',
-            latitude: '38.13604000',
-            longitude: '39.45240000'),
         City(
             id: 108854,
             name: 'Çınar İlçesi',
@@ -3002,20 +2097,10 @@ const tur = Country(
             latitude: '38.20798000',
             longitude: '39.28554000'),
         City(
-            id: 108852,
-            name: 'Çüngüş İlçesi',
-            latitude: '38.21180000',
-            longitude: '39.28824000'),
-        City(
             id: 107491,
             name: 'Dicle',
             latitude: '38.36571000',
             longitude: '40.06450000'),
-        City(
-            id: 107492,
-            name: 'Dicle İlçesi',
-            latitude: '38.37138000',
-            longitude: '40.07086000'),
         City(
             id: 107504,
             name: 'Diyarbakır',
@@ -3027,40 +2112,20 @@ const tur = Country(
             latitude: '38.25748000',
             longitude: '40.07435000'),
         City(
-            id: 107626,
-            name: 'Eğil İlçesi',
-            latitude: '38.25688000',
-            longitude: '40.08345000'),
-        City(
             id: 107592,
             name: 'Ergani',
             latitude: '38.26899000',
             longitude: '39.75446000'),
-        City(
-            id: 107593,
-            name: 'Ergani İlçesi',
-            latitude: '38.26521000',
-            longitude: '39.75965000'),
         City(
             id: 107790,
             name: 'Hani',
             latitude: '38.40741000',
             longitude: '40.38578000'),
         City(
-            id: 107791,
-            name: 'Hani İlçesi',
-            latitude: '38.41143000',
-            longitude: '40.39634000'),
-        City(
             id: 107817,
             name: 'Hazro',
             latitude: '38.24903000',
             longitude: '40.77129000'),
-        City(
-            id: 107818,
-            name: 'Hazro İlçesi',
-            latitude: '38.25412000',
-            longitude: '40.77866000'),
         City(
             id: 107948,
             name: 'Kayapınar',
@@ -3082,11 +2147,6 @@ const tur = Country(
             latitude: '38.28889000',
             longitude: '40.49786000'),
         City(
-            id: 108009,
-            name: 'Kocaköy İlçesi',
-            latitude: '38.28801000',
-            longitude: '40.49845000'),
-        City(
             id: 108082,
             name: 'Köseli',
             latitude: '37.83879000',
@@ -3097,20 +2157,10 @@ const tur = Country(
             latitude: '38.49754000',
             longitude: '41.00668000'),
         City(
-            id: 108041,
-            name: 'Kulp İlçesi',
-            latitude: '38.49709000',
-            longitude: '41.01073000'),
-        City(
             id: 108130,
             name: 'Lice',
             latitude: '38.45821000',
             longitude: '40.63888000'),
-        City(
-            id: 108131,
-            name: 'Lice İlçesi',
-            latitude: '38.46131000',
-            longitude: '40.64714000'),
         City(
             id: 108375,
             name: 'Salat',
@@ -3121,11 +2171,6 @@ const tur = Country(
             name: 'Silvan',
             latitude: '38.13708000',
             longitude: '41.00817000'),
-        City(
-            id: 108464,
-            name: 'Silvan İlçesi',
-            latitude: '38.14134000',
-            longitude: '41.01261000'),
         City(
             id: 108467,
             name: 'Sinanköy',
@@ -3153,11 +2198,6 @@ const tur = Country(
             name: 'Akçakoca',
             latitude: '41.08663000',
             longitude: '31.11623000'),
-        City(
-            id: 107111,
-            name: 'Akçakoca İlçesi',
-            latitude: '41.08053000',
-            longitude: '31.12966000'),
         City(
             id: 108833,
             name: 'Çilimli İlçesi',
@@ -3206,40 +2246,20 @@ const tur = Country(
             latitude: '40.72472000',
             longitude: '26.08250000'),
         City(
-            id: 107581,
-            name: 'Enez İlçesi',
-            latitude: '40.73389000',
-            longitude: '26.10243000'),
-        City(
             id: 107807,
             name: 'Havsa',
             latitude: '41.54898000',
             longitude: '26.82207000'),
-        City(
-            id: 107808,
-            name: 'Havsa İlçesi',
-            latitude: '41.55981000',
-            longitude: '26.83394000'),
         City(
             id: 108909,
             name: 'İpsala',
             latitude: '40.92115000',
             longitude: '26.38273000'),
         City(
-            id: 108910,
-            name: 'İpsala İlçesi',
-            latitude: '40.93204000',
-            longitude: '26.39781000'),
-        City(
             id: 107992,
             name: 'Keşan',
             latitude: '40.85583000',
             longitude: '26.63028000'),
-        City(
-            id: 107993,
-            name: 'Keşan İlçesi',
-            latitude: '40.86611000',
-            longitude: '26.64424000'),
         City(
             id: 108087,
             name: 'Küplü',
@@ -3251,20 +2271,10 @@ const tur = Country(
             latitude: '41.83951000',
             longitude: '26.73561000'),
         City(
-            id: 108134,
-            name: 'Lâlapaşa İlçesi',
-            latitude: '41.85056000',
-            longitude: '26.74865000'),
-        City(
             id: 108176,
             name: 'Meriç',
             latitude: '41.19183000',
             longitude: '26.42097000'),
-        City(
-            id: 108177,
-            name: 'Meriç İlçesi',
-            latitude: '41.20174000',
-            longitude: '26.43499000'),
         City(
             id: 108523,
             name: 'Süloğlu İlçesi',
@@ -3274,12 +2284,7 @@ const tur = Country(
             id: 108640,
             name: 'Uzunköprü',
             latitude: '41.26597000',
-            longitude: '26.68850000'),
-        City(
-            id: 108641,
-            name: 'Uzunköprü İlçesi',
-            latitude: '41.27681000',
-            longitude: '26.69645000')
+            longitude: '26.68850000')
       ]),
       State(id: 2159, name: 'Elazığ Province', stateCode: '23', cities: [
         City(
@@ -3293,20 +2298,10 @@ const tur = Country(
             latitude: '38.56340000',
             longitude: '40.12480000'),
         City(
-            id: 107198,
-            name: 'Arıcak İlçesi',
-            latitude: '38.56421000',
-            longitude: '40.13506000'),
-        City(
             id: 107288,
             name: 'Baskil',
             latitude: '38.56866000',
             longitude: '38.81634000'),
-        City(
-            id: 107289,
-            name: 'Baskil İlçesi',
-            latitude: '38.56695000',
-            longitude: '38.82357000'),
         City(
             id: 107558,
             name: 'Elazığ',
@@ -3328,20 +2323,10 @@ const tur = Country(
             latitude: '38.79380000',
             longitude: '38.73517000'),
         City(
-            id: 107965,
-            name: 'Keban İlçesi',
-            latitude: '38.79438000',
-            longitude: '38.73773000'),
-        City(
             id: 108027,
             name: 'Kovancılar',
             latitude: '38.71882000',
             longitude: '39.86268000'),
-        City(
-            id: 108028,
-            name: 'Kovancılar İlçesi',
-            latitude: '38.71883000',
-            longitude: '39.86520000'),
         City(
             id: 108137,
             name: 'Maden İlçesi',
@@ -3358,20 +2343,10 @@ const tur = Country(
             latitude: '38.69135000',
             longitude: '39.91984000'),
         City(
-            id: 108309,
-            name: 'Palu İlçesi',
-            latitude: '38.69286000',
-            longitude: '39.92652000'),
-        City(
             id: 108479,
             name: 'Sivrice',
             latitude: '38.44223000',
             longitude: '39.30938000'),
-        City(
-            id: 108480,
-            name: 'Sivrice İlçesi',
-            latitude: '38.44921000',
-            longitude: '39.30582000'),
         City(
             id: 108604,
             name: 'Turluk',
@@ -3405,50 +2380,25 @@ const tur = Country(
             latitude: '39.59606000',
             longitude: '39.02329000'),
         City(
-            id: 107972,
-            name: 'Kemah İlçesi',
-            latitude: '39.60123000',
-            longitude: '39.03422000'),
-        City(
             id: 107973,
             name: 'Kemaliye',
             latitude: '39.26288000',
             longitude: '38.49674000'),
-        City(
-            id: 107974,
-            name: 'Kemaliye İlçesi',
-            latitude: '39.27163000',
-            longitude: '38.50588000'),
         City(
             id: 108295,
             name: 'Otlukbeli',
             latitude: '39.97000000',
             longitude: '40.01872000'),
         City(
-            id: 108296,
-            name: 'Otlukbeli İlçesi',
-            latitude: '39.97213000',
-            longitude: '40.02139000'),
-        City(
             id: 108365,
             name: 'Refahiye',
             latitude: '39.89315000',
             longitude: '38.76607000'),
         City(
-            id: 108366,
-            name: 'Refahiye İlçesi',
-            latitude: '39.90132000',
-            longitude: '38.76745000'),
-        City(
             id: 108570,
             name: 'Tercan',
             latitude: '39.77709000',
             longitude: '40.37783000'),
-        City(
-            id: 108571,
-            name: 'Tercan İlçesi',
-            latitude: '39.77812000',
-            longitude: '40.38505000'),
         City(
             id: 108876,
             name: 'Üzümlü İlçesi',
@@ -3461,11 +2411,6 @@ const tur = Country(
             name: 'Aşkale',
             latitude: '39.92083000',
             longitude: '40.69500000'),
-        City(
-            id: 107251,
-            name: 'Aşkale İlçesi',
-            latitude: '39.93082000',
-            longitude: '40.68718000'),
         City(
             id: 107237,
             name: 'Aziziye',
@@ -3487,20 +2432,10 @@ const tur = Country(
             latitude: '39.35766000',
             longitude: '41.69253000'),
         City(
-            id: 107843,
-            name: 'Hınıs İlçesi',
-            latitude: '39.36104000',
-            longitude: '41.69717000'),
-        City(
             id: 107836,
             name: 'Horasan',
             latitude: '40.03885000',
             longitude: '42.16366000'),
-        City(
-            id: 107837,
-            name: 'Horasan İlçesi',
-            latitude: '40.04228000',
-            longitude: '42.16723000'),
         City(
             id: 107848,
             name: 'Ilıca',
@@ -3512,30 +2447,15 @@ const tur = Country(
             latitude: '40.47981000',
             longitude: '40.99373000'),
         City(
-            id: 108919,
-            name: 'İspir İlçesi',
-            latitude: '40.48305000',
-            longitude: '40.99837000'),
-        City(
             id: 107921,
             name: 'Karaçoban',
             latitude: '39.34364000',
             longitude: '42.09918000'),
         City(
-            id: 107922,
-            name: 'Karaçoban İlçesi',
-            latitude: '39.35157000',
-            longitude: '42.10970000'),
-        City(
             id: 107919,
             name: 'Karayazı',
             latitude: '39.69604000',
             longitude: '42.14277000'),
-        City(
-            id: 107920,
-            name: 'Karayazı İlçesi',
-            latitude: '39.70292000',
-            longitude: '42.14503000'),
         City(
             id: 108076,
             name: 'Köprüköy İlçesi',
@@ -3547,30 +2467,15 @@ const tur = Country(
             latitude: '40.34449000',
             longitude: '41.86088000'),
         City(
-            id: 108242,
-            name: 'Narman İlçesi',
-            latitude: '40.34492000',
-            longitude: '41.87003000'),
-        City(
             id: 108265,
             name: 'Oltu',
             latitude: '40.53945000',
             longitude: '41.98722000'),
         City(
-            id: 108266,
-            name: 'Oltu İlçesi',
-            latitude: '40.54562000',
-            longitude: '41.99582000'),
-        City(
             id: 108267,
             name: 'Olur',
             latitude: '40.82165000',
             longitude: '42.13055000'),
-        City(
-            id: 108268,
-            name: 'Olur İlçesi',
-            latitude: '40.82661000',
-            longitude: '42.13229000'),
         City(
             id: 108307,
             name: 'Palandöken',
@@ -3582,60 +2487,30 @@ const tur = Country(
             latitude: '39.97975000',
             longitude: '41.66997000'),
         City(
-            id: 108315,
-            name: 'Pasinler İlçesi',
-            latitude: '39.97735000',
-            longitude: '41.67848000'),
-        City(
             id: 108331,
             name: 'Pazaryolu',
             latitude: '40.41142000',
             longitude: '40.76780000'),
-        City(
-            id: 108332,
-            name: 'Pazaryolu İlçesi',
-            latitude: '40.41377000',
-            longitude: '40.77253000'),
         City(
             id: 108950,
             name: 'Şenkaya',
             latitude: '40.55652000',
             longitude: '42.34266000'),
         City(
-            id: 108951,
-            name: 'Şenkaya İlçesi',
-            latitude: '40.56221000',
-            longitude: '42.34524000'),
-        City(
             id: 108562,
             name: 'Tekman',
             latitude: '39.64111000',
             longitude: '41.50542000'),
-        City(
-            id: 108563,
-            name: 'Tekman İlçesi',
-            latitude: '39.64998000',
-            longitude: '41.51160000'),
         City(
             id: 108589,
             name: 'Tortum',
             latitude: '40.28892000',
             longitude: '41.54096000'),
         City(
-            id: 108590,
-            name: 'Tortum İlçesi',
-            latitude: '40.29699000',
-            longitude: '41.55084000'),
-        City(
             id: 108636,
             name: 'Uzundere',
             latitude: '40.53218000',
             longitude: '41.53832000'),
-        City(
-            id: 108637,
-            name: 'Uzundere İlçesi',
-            latitude: '40.53175000',
-            longitude: '41.54826000'),
         City(
             id: 108663,
             name: 'Yakutiye',
@@ -3649,20 +2524,10 @@ const tur = Country(
             latitude: '39.76903000',
             longitude: '30.96060000'),
         City(
-            id: 107134,
-            name: 'Alpu İlçesi',
-            latitude: '39.77889000',
-            longitude: '30.97022000'),
-        City(
             id: 107339,
             name: 'Beylikova',
             latitude: '39.68694000',
             longitude: '31.20556000'),
-        City(
-            id: 107340,
-            name: 'Beylikova İlçesi',
-            latitude: '39.69736000',
-            longitude: '31.21207000'),
         City(
             id: 107378,
             name: 'Bozan',
@@ -3673,11 +2538,6 @@ const tur = Country(
             name: 'Çifteler',
             latitude: '39.38306000',
             longitude: '31.03917000'),
-        City(
-            id: 108828,
-            name: 'Çifteler İlçesi',
-            latitude: '39.39270000',
-            longitude: '31.04354000'),
         City(
             id: 107608,
             name: 'Eskişehir',
@@ -3694,20 +2554,10 @@ const tur = Country(
             latitude: '39.15917000',
             longitude: '30.86139000'),
         City(
-            id: 107787,
-            name: 'Han İlçesi',
-            latitude: '39.16895000',
-            longitude: '30.86661000'),
-        City(
             id: 108906,
             name: 'İnönü',
             latitude: '39.81534000',
             longitude: '30.14549000'),
-        City(
-            id: 108907,
-            name: 'İnönüi İlçesi',
-            latitude: '39.82531000',
-            longitude: '30.16043000'),
         City(
             id: 108103,
             name: 'Kırka',
@@ -3723,11 +2573,6 @@ const tur = Country(
             name: 'Mihalgazi',
             latitude: '40.02621000',
             longitude: '30.57707000'),
-        City(
-            id: 108209,
-            name: 'Mihalgazi İlçesi',
-            latitude: '40.03715000',
-            longitude: '30.58375000'),
         City(
             id: 108210,
             name: 'Mihalıçcık İlçesi',
@@ -3754,20 +2599,10 @@ const tur = Country(
             latitude: '39.44472000',
             longitude: '30.69472000'),
         City(
-            id: 108454,
-            name: 'Seyitgazi İlçesi',
-            latitude: '39.45397000',
-            longitude: '30.70082000'),
-        City(
             id: 108481,
             name: 'Sivrihisar',
             latitude: '39.45037000',
             longitude: '31.53409000'),
-        City(
-            id: 108482,
-            name: 'Sivrihisar İlçesi',
-            latitude: '39.45941000',
-            longitude: '31.52476000'),
         City(
             id: 108566,
             name: 'Tepebaşı',
@@ -3806,40 +2641,20 @@ const tur = Country(
             latitude: '36.83452000',
             longitude: '37.99830000'),
         City(
-            id: 107926,
-            name: 'Karkamış İlçesi',
-            latitude: '36.86417000',
-            longitude: '37.92222000'),
-        City(
             id: 108250,
             name: 'Nizip',
             latitude: '37.00972000',
             longitude: '37.79417000'),
-        City(
-            id: 108251,
-            name: 'Nizip İlçesi',
-            latitude: '37.01100000',
-            longitude: '37.79496000'),
         City(
             id: 108253,
             name: 'Nurdağı',
             latitude: '37.16821000',
             longitude: '36.73623000'),
         City(
-            id: 108254,
-            name: 'Nurdağı İlçesi',
-            latitude: '37.18402000',
-            longitude: '36.73595000'),
-        City(
             id: 108303,
             name: 'Oğuzeli',
             latitude: '36.96572000',
             longitude: '37.51339000'),
-        City(
-            id: 108304,
-            name: 'Oğuzeli İlçesi',
-            latitude: '36.88167000',
-            longitude: '37.56278000'),
         City(
             id: 108929,
             name: 'Şahinbey İlçesi',
@@ -3866,11 +2681,6 @@ const tur = Country(
             latitude: '37.31772000',
             longitude: '37.56824000'),
         City(
-            id: 108678,
-            name: 'Yavuzeli İlçesi',
-            latitude: '37.32339000',
-            longitude: '37.56956000'),
-        City(
             id: 108722,
             name: 'Yeşildere',
             latitude: '36.97300000',
@@ -3885,11 +2695,6 @@ const tur = Country(
         City(
             id: 107404,
             name: 'Bulancak',
-            latitude: '40.93805000',
-            longitude: '38.23148000'),
-        City(
-            id: 107405,
-            name: 'Bulancak İlçesi',
             latitude: '40.93805000',
             longitude: '38.23148000'),
         City(
@@ -3913,30 +2718,15 @@ const tur = Country(
             latitude: '40.80750000',
             longitude: '38.91722000'),
         City(
-            id: 107517,
-            name: 'Doğankent İlçesi',
-            latitude: '40.80802000',
-            longitude: '38.91695000'),
-        City(
             id: 107609,
             name: 'Espiye',
             latitude: '40.94705000',
             longitude: '38.70299000'),
         City(
-            id: 107610,
-            name: 'Espiye İlçesi',
-            latitude: '40.94850000',
-            longitude: '38.70734000'),
-        City(
             id: 107619,
             name: 'Eynesil',
             latitude: '41.06436000',
             longitude: '39.14274000'),
-        City(
-            id: 107620,
-            name: 'Eynesil İlçesi',
-            latitude: '41.06331000',
-            longitude: '39.15904000'),
         City(
             id: 107675,
             name: 'Giresun',
@@ -3947,11 +2737,6 @@ const tur = Country(
             name: 'Görele',
             latitude: '41.03083000',
             longitude: '39.00306000'),
-        City(
-            id: 107714,
-            name: 'Görele İlçesi',
-            latitude: '41.02636000',
-            longitude: '39.00724000'),
         City(
             id: 107724,
             name: 'Güce İlçesi',
@@ -3977,11 +2762,6 @@ const tur = Country(
             name: 'Şebin Karahisar',
             latitude: '40.28833000',
             longitude: '38.42361000'),
-        City(
-            id: 108943,
-            name: 'Şebin Karahisar İlçesi',
-            latitude: '40.29456000',
-            longitude: '38.41450000'),
         City(
             id: 108579,
             name: 'Tirebolu',
@@ -4010,30 +2790,15 @@ const tur = Country(
             latitude: '40.12682000',
             longitude: '39.43424000'),
         City(
-            id: 107970,
-            name: 'Kelkit İlçesi',
-            latitude: '40.12952000',
-            longitude: '39.43710000'),
-        City(
             id: 108079,
             name: 'Köse',
             latitude: '40.20692000',
             longitude: '39.64626000'),
         City(
-            id: 108080,
-            name: 'Köse İlçesi',
-            latitude: '40.21025000',
-            longitude: '39.65402000'),
-        City(
             id: 108090,
             name: 'Kürtün',
             latitude: '40.69516000',
             longitude: '39.09468000'),
-        City(
-            id: 108091,
-            name: 'Kürtün İlçesi',
-            latitude: '40.69966000',
-            longitude: '39.09801000'),
         City(
             id: 108181,
             name: 'Merkez',
@@ -4045,20 +2810,10 @@ const tur = Country(
             latitude: '40.19064000',
             longitude: '39.11747000'),
         City(
-            id: 108960,
-            name: 'Şiran İlçesi',
-            latitude: '40.19084000',
-            longitude: '39.12484000'),
-        City(
             id: 108591,
             name: 'Torul',
             latitude: '40.55071000',
             longitude: '39.28344000'),
-        City(
-            id: 108592,
-            name: 'Torul İlçesi',
-            latitude: '40.56034000',
-            longitude: '39.29671000'),
         City(
             id: 108686,
             name: 'Yağlıdere',
@@ -4071,11 +2826,6 @@ const tur = Country(
             name: 'Çukurca',
             latitude: '37.24806000',
             longitude: '43.61361000'),
-        City(
-            id: 108847,
-            name: 'Çukurca İlçesi',
-            latitude: '37.25492000',
-            longitude: '43.62121000'),
         City(
             id: 107774,
             name: 'Hakkâri',
@@ -4114,11 +2864,6 @@ const tur = Country(
             latitude: '36.11244000',
             longitude: '36.24488000'),
         City(
-            id: 107153,
-            name: 'Altınözü İlçesi',
-            latitude: '36.11536000',
-            longitude: '36.24688000'),
-        City(
             id: 107162,
             name: 'Anayazı',
             latitude: '36.32107000',
@@ -4128,11 +2873,6 @@ const tur = Country(
             name: 'Antakya',
             latitude: '36.20655000',
             longitude: '36.15722000'),
-        City(
-            id: 107168,
-            name: 'Antakya İlçesi',
-            latitude: '36.24444000',
-            longitude: '36.20111000'),
         City(
             id: 107192,
             name: 'Arsuz',
@@ -4158,11 +2898,6 @@ const tur = Country(
             name: 'Belen',
             latitude: '36.48866000',
             longitude: '36.19489000'),
-        City(
-            id: 107329,
-            name: 'Belen İlçesi',
-            latitude: '36.49222000',
-            longitude: '36.19342000'),
         City(
             id: 107376,
             name: 'Boynuyoğun',
@@ -4199,11 +2934,6 @@ const tur = Country(
             latitude: '36.83917000',
             longitude: '36.23025000'),
         City(
-            id: 107540,
-            name: 'Dörtyol İlçesi',
-            latitude: '36.83421000',
-            longitude: '36.22773000'),
-        City(
             id: 107534,
             name: 'Dursunlu',
             latitude: '36.16736000',
@@ -4213,11 +2943,6 @@ const tur = Country(
             name: 'Erzin',
             latitude: '36.95348000',
             longitude: '36.19839000'),
-        City(
-            id: 107601,
-            name: 'Erzin İlçesi',
-            latitude: '36.95235000',
-            longitude: '36.19616000'),
         City(
             id: 107736,
             name: 'Gümüşgöze',
@@ -4239,20 +2964,10 @@ const tur = Country(
             latitude: '36.79944000',
             longitude: '36.51778000'),
         City(
-            id: 107805,
-            name: 'Hassa İlçesi',
-            latitude: '36.79805000',
-            longitude: '36.52135000'),
-        City(
             id: 108913,
             name: 'İskenderun',
             latitude: '36.58718000',
             longitude: '36.17347000'),
-        City(
-            id: 108914,
-            name: 'İskenderun İlçesi',
-            latitude: '36.49472000',
-            longitude: '36.08972000'),
         City(
             id: 107916,
             name: 'Karasüleymanlı',
@@ -4268,11 +2983,6 @@ const tur = Country(
             name: 'Kırıkhan',
             latitude: '36.49939000',
             longitude: '36.35755000'),
-        City(
-            id: 108108,
-            name: 'Kırıkhan İlçesi',
-            latitude: '36.52444000',
-            longitude: '36.43639000'),
         City(
             id: 108124,
             name: 'Kışlak',
@@ -4309,11 +3019,6 @@ const tur = Country(
             latitude: '36.26791000',
             longitude: '36.56747000'),
         City(
-            id: 108369,
-            name: 'Reyhanlı İlçesi',
-            latitude: '36.26359000',
-            longitude: '36.56843000'),
-        City(
             id: 108378,
             name: 'Samankaya',
             latitude: '36.15027000',
@@ -4347,12 +3052,7 @@ const tur = Country(
             id: 108679,
             name: 'Yayladağı',
             latitude: '35.90250000',
-            longitude: '36.06272000'),
-        City(
-            id: 108680,
-            name: 'Yayladağı İlçesi',
-            latitude: '35.95167000',
-            longitude: '36.09750000')
+            longitude: '36.06272000')
       ]),
       State(id: 2166, name: 'Iğdır Province', stateCode: '76', cities: [
         City(
@@ -4366,11 +3066,6 @@ const tur = Country(
             latitude: '39.87036000',
             longitude: '43.63014000'),
         City(
-            id: 107900,
-            name: 'Karakoyunlu İlçesi',
-            latitude: '39.88040000',
-            longitude: '43.63302000'),
-        City(
             id: 108610,
             name: 'Tuzluca İlçesi',
             latitude: '40.03863000',
@@ -4383,11 +3078,6 @@ const tur = Country(
             latitude: '37.79889000',
             longitude: '31.07111000'),
         City(
-            id: 107097,
-            name: 'Aksu İlçesi',
-            latitude: '37.80973000',
-            longitude: '31.08441000'),
-        City(
             id: 107159,
             name: 'Anamas',
             latitude: '37.76667000',
@@ -4398,40 +3088,20 @@ const tur = Country(
             latitude: '37.95083000',
             longitude: '30.63861000'),
         City(
-            id: 107205,
-            name: 'Atabey İlçesi',
-            latitude: '37.96125000',
-            longitude: '30.64521000'),
-        City(
             id: 107627,
             name: 'Eğirdir',
             latitude: '37.87462000',
             longitude: '30.85042000'),
-        City(
-            id: 107628,
-            name: 'Eğirdir İlçesi',
-            latitude: '37.88511000',
-            longitude: '30.81863000'),
         City(
             id: 107653,
             name: 'Gelendost',
             latitude: '38.12083000',
             longitude: '31.01528000'),
         City(
-            id: 107654,
-            name: 'Gelendost İlçesi',
-            latitude: '38.13199000',
-            longitude: '31.02410000'),
-        City(
             id: 107707,
             name: 'Gönen',
             latitude: '37.95639000',
             longitude: '30.51140000'),
-        City(
-            id: 107710,
-            name: 'Gönen İlçesi',
-            latitude: '37.96632000',
-            longitude: '30.52367000'),
         City(
             id: 107850,
             name: 'Isparta',
@@ -4443,11 +3113,6 @@ const tur = Country(
             latitude: '37.94250000',
             longitude: '30.30222000'),
         City(
-            id: 107990,
-            name: 'Keçiborlu İlçesi',
-            latitude: '37.95280000',
-            longitude: '30.29164000'),
-        City(
             id: 108318,
             name: 'Pavlu Cebel',
             latitude: '37.49737000',
@@ -4458,20 +3123,10 @@ const tur = Country(
             latitude: '38.07944000',
             longitude: '31.36639000'),
         City(
-            id: 108936,
-            name: 'Şarkîkaraağaç İlçesi',
-            latitude: '38.09023000',
-            longitude: '31.37696000'),
-        City(
             id: 108436,
             name: 'Senirkent',
             latitude: '38.10444000',
             longitude: '30.54861000'),
-        City(
-            id: 108437,
-            name: 'Senirkent İlçesi',
-            latitude: '38.11409000',
-            longitude: '30.55470000'),
         City(
             id: 108526,
             name: 'Sütçüler İlçesi',
@@ -4483,30 +3138,15 @@ const tur = Country(
             latitude: '38.07825000',
             longitude: '30.45019000'),
         City(
-            id: 108625,
-            name: 'Uluborlu İlçesi',
-            latitude: '38.08856000',
-            longitude: '30.45698000'),
-        City(
             id: 108666,
             name: 'Yalvaç',
             latitude: '38.29556000',
             longitude: '31.17778000'),
         City(
-            id: 108667,
-            name: 'Yalvaç İlçesi',
-            latitude: '38.30578000',
-            longitude: '31.19042000'),
-        City(
             id: 108712,
             name: 'Yenişarbademli',
             latitude: '37.70778000',
-            longitude: '31.38639000'),
-        City(
-            id: 108713,
-            name: 'Yenişarbademli İlçesi',
-            latitude: '37.71936000',
-            longitude: '31.37182000')
+            longitude: '31.38639000')
       ]),
       State(id: 2170, name: 'Istanbul Province', stateCode: '34', cities: [
         City(
@@ -4810,11 +3450,6 @@ const tur = Country(
             latitude: '41.01643000',
             longitude: '29.12476000'),
         City(
-            id: 108871,
-            name: 'Ümraniye',
-            latitude: '41.03482000',
-            longitude: '29.10896000'),
-        City(
             id: 108874,
             name: 'Üsküdar',
             latitude: '41.02274000',
@@ -4856,11 +3491,6 @@ const tur = Country(
             name: 'Bayındır',
             latitude: '38.21741000',
             longitude: '27.64744000'),
-        City(
-            id: 107306,
-            name: 'Bayındır İlçesi',
-            latitude: '38.22700000',
-            longitude: '27.65522000'),
         City(
             id: 107300,
             name: 'Bayraklı',
@@ -4907,11 +3537,6 @@ const tur = Country(
             latitude: '38.32614000',
             longitude: '26.30574000'),
         City(
-            id: 108826,
-            name: 'Çeşme İlçesi',
-            latitude: '38.31658000',
-            longitude: '26.32101000'),
-        City(
             id: 108840,
             name: 'Çiğli',
             latitude: '38.48802000',
@@ -4922,20 +3547,10 @@ const tur = Country(
             latitude: '39.07100000',
             longitude: '26.89017000'),
         City(
-            id: 107496,
-            name: 'Dikili İlçesi',
-            latitude: '39.07840000',
-            longitude: '26.90689000'),
-        City(
             id: 107642,
             name: 'Foça',
             latitude: '38.67030000',
             longitude: '26.75656000'),
-        City(
-            id: 107643,
-            name: 'Foça İlçesi',
-            latitude: '38.67849000',
-            longitude: '26.77214000'),
         City(
             id: 107646,
             name: 'Gaziemir',
@@ -4967,11 +3582,6 @@ const tur = Country(
             latitude: '38.63640000',
             longitude: '26.51094000'),
         City(
-            id: 107888,
-            name: 'Karaburun İlçesi',
-            latitude: '38.63546000',
-            longitude: '26.49645000'),
-        City(
             id: 107937,
             name: 'Karşıyaka İlçesi',
             latitude: '38.46775000',
@@ -4992,20 +3602,10 @@ const tur = Country(
             latitude: '38.23056000',
             longitude: '28.20444000'),
         City(
-            id: 108000,
-            name: 'Kiraz İlçesi',
-            latitude: '38.24086000',
-            longitude: '28.21380000'),
-        City(
             id: 108101,
             name: 'Kınık',
             latitude: '39.08722000',
             longitude: '27.38333000'),
-        City(
-            id: 108102,
-            name: 'Kınık İlçesi',
-            latitude: '39.09692000',
-            longitude: '27.38829000'),
         City(
             id: 108013,
             name: 'Konak',
@@ -5037,11 +3637,6 @@ const tur = Country(
             latitude: '38.22780000',
             longitude: '27.96955000'),
         City(
-            id: 108861,
-            name: 'Ödemiş İlçesi',
-            latitude: '38.23819000',
-            longitude: '27.98010000'),
-        City(
             id: 108869,
             name: 'Özdere',
             latitude: '38.01611000',
@@ -5057,11 +3652,6 @@ const tur = Country(
             latitude: '37.95137000',
             longitude: '27.36849000'),
         City(
-            id: 108435,
-            name: 'Selçuk İlçesi',
-            latitude: '37.95765000',
-            longitude: '27.38072000'),
-        City(
             id: 108578,
             name: 'Tire',
             latitude: '38.06582000',
@@ -5076,11 +3666,6 @@ const tur = Country(
             name: 'Urla',
             latitude: '38.32292000',
             longitude: '26.76403000'),
-        City(
-            id: 108634,
-            name: 'Urla İlçesi',
-            latitude: '38.33256000',
-            longitude: '26.76883000'),
         City(
             id: 108699,
             name: 'Yenifoça',
@@ -5104,30 +3689,15 @@ const tur = Country(
             latitude: '38.24769000',
             longitude: '36.91399000'),
         City(
-            id: 107070,
-            name: 'Afşin İlçesi',
-            latitude: '38.25795000',
-            longitude: '36.91897000'),
-        City(
             id: 107164,
             name: 'Andırın',
             latitude: '37.57757000',
             longitude: '36.35492000'),
         City(
-            id: 107165,
-            name: 'Andırın İlçesi',
-            latitude: '37.58791000',
-            longitude: '36.36112000'),
-        City(
             id: 108808,
             name: 'Çağlayancerit',
             latitude: '37.74523000',
             longitude: '37.28618000'),
-        City(
-            id: 108809,
-            name: 'Çağlayancerit İlçesi',
-            latitude: '37.74976000',
-            longitude: '37.29033000'),
         City(
             id: 107424,
             name: 'Celeyke',
@@ -5149,20 +3719,10 @@ const tur = Country(
             latitude: '38.20591000',
             longitude: '37.19830000'),
         City(
-            id: 107563,
-            name: 'Elbistan İlçesi',
-            latitude: '38.21542000',
-            longitude: '37.20463000'),
-        City(
             id: 107681,
             name: 'Göksun',
             latitude: '38.02096000',
             longitude: '36.49730000'),
-        City(
-            id: 107682,
-            name: 'Göksun İlçesi',
-            latitude: '38.03089000',
-            longitude: '36.50239000'),
         City(
             id: 107869,
             name: 'Kahramanmaraş',
@@ -5174,11 +3734,6 @@ const tur = Country(
             latitude: '37.96366000',
             longitude: '37.44047000'),
         City(
-            id: 108256,
-            name: 'Nurhak İlçesi',
-            latitude: '37.96638000',
-            longitude: '37.44107000'),
-        City(
             id: 108270,
             name: 'Onikişubat',
             latitude: '37.59002000',
@@ -5188,11 +3743,6 @@ const tur = Country(
             name: 'Pazarcık',
             latitude: '37.48685000',
             longitude: '37.29961000'),
-        City(
-            id: 108326,
-            name: 'Pazarcık İlçesi',
-            latitude: '37.59467000',
-            longitude: '36.93168000'),
         City(
             id: 108521,
             name: 'Süleymanlı',
@@ -5210,11 +3760,6 @@ const tur = Country(
             name: 'Eflani',
             latitude: '41.42289000',
             longitude: '32.95761000'),
-        City(
-            id: 107555,
-            name: 'Eflani İlçesi',
-            latitude: '41.43169000',
-            longitude: '32.94765000'),
         City(
             id: 107607,
             name: 'Eskipazar İlçesi',
@@ -5241,20 +3786,10 @@ const tur = Country(
             latitude: '41.25083000',
             longitude: '32.69417000'),
         City(
-            id: 108373,
-            name: 'Safranbolu İlçesi',
-            latitude: '41.26029000',
-            longitude: '32.69928000'),
-        City(
             id: 108693,
             name: 'Yenice',
             latitude: '41.19962000',
-            longitude: '32.33133000'),
-        City(
-            id: 108694,
-            name: 'Yenice İlçesi',
-            latitude: '41.21014000',
-            longitude: '32.33661000')
+            longitude: '32.33133000')
       ]),
       State(id: 2184, name: 'Karaman Province', stateCode: '70', cities: [
         City(
@@ -5268,20 +3803,10 @@ const tur = Country(
             latitude: '36.75337000',
             longitude: '32.68018000'),
         City(
-            id: 107321,
-            name: 'Başyayla İlçesi',
-            latitude: '36.76219000',
-            longitude: '32.68863000'),
-        City(
             id: 107596,
             name: 'Ermenek',
             latitude: '36.64043000',
             longitude: '32.89179000'),
-        City(
-            id: 107597,
-            name: 'Ermenek İlçesi',
-            latitude: '36.65058000',
-            longitude: '32.89698000'),
         City(
             id: 108905,
             name: 'İnönü',
@@ -5298,20 +3823,10 @@ const tur = Country(
             latitude: '37.23028000',
             longitude: '32.95889000'),
         City(
-            id: 107959,
-            name: 'Kazımkarabekir İlçesi',
-            latitude: '37.24035000',
-            longitude: '32.96413000'),
-        City(
             id: 108407,
             name: 'Sarıveliler',
             latitude: '36.69705000',
-            longitude: '32.61203000'),
-        City(
-            id: 108408,
-            name: 'Sarıveliler İlçesi',
-            latitude: '36.70177000',
-            longitude: '32.62647000')
+            longitude: '32.61203000')
       ]),
       State(id: 2208, name: 'Kars Province', stateCode: '36', cities: [
         City(
@@ -5320,20 +3835,10 @@ const tur = Country(
             latitude: '40.74093000',
             longitude: '43.61432000'),
         City(
-            id: 107099,
-            name: 'Akyaka İlçesi',
-            latitude: '40.74093000',
-            longitude: '43.61432000'),
-        City(
             id: 107189,
             name: 'Arpaçay',
             latitude: '40.84522000',
             longitude: '43.32747000'),
-        City(
-            id: 107190,
-            name: 'Arpaçay İlçesi',
-            latitude: '40.84601000',
-            longitude: '43.32878000'),
         City(
             id: 107494,
             name: 'Digor İlçesi',
@@ -5345,11 +3850,6 @@ const tur = Country(
             latitude: '40.15669000',
             longitude: '43.13424000'),
         City(
-            id: 107961,
-            name: 'Kağızman İlçesi',
-            latitude: '40.14026000',
-            longitude: '43.12003000'),
-        City(
             id: 107931,
             name: 'Kars',
             latitude: '40.59825000',
@@ -5360,30 +3860,15 @@ const tur = Country(
             latitude: '40.32769000',
             longitude: '42.58705000'),
         City(
-            id: 108402,
-            name: 'Sarıkamış İlçesi',
-            latitude: '40.33139000',
-            longitude: '42.59014000'),
-        City(
             id: 108430,
             name: 'Selim',
             latitude: '40.45772000',
             longitude: '42.78287000'),
         City(
-            id: 108431,
-            name: 'Selim İlçesi',
-            latitude: '40.46439000',
-            longitude: '42.78960000'),
-        City(
             id: 108511,
             name: 'Susuz',
             latitude: '40.77910000',
-            longitude: '43.12769000'),
-        City(
-            id: 108512,
-            name: 'Susuz İlçesi',
-            latitude: '40.77929000',
-            longitude: '43.13089000')
+            longitude: '43.12769000')
       ]),
       State(id: 2197, name: 'Kastamonu Province', stateCode: '37', cities: [
         City(
@@ -5391,11 +3876,6 @@ const tur = Country(
             name: 'Abana',
             latitude: '41.97858000',
             longitude: '34.01100000'),
-        City(
-            id: 107053,
-            name: 'Abana İlçesi',
-            latitude: '41.97079000',
-            longitude: '34.00382000'),
         City(
             id: 107243,
             name: 'Ağlı İlçesi',
@@ -5407,30 +3887,15 @@ const tur = Country(
             latitude: '41.24222000',
             longitude: '33.32767000'),
         City(
-            id: 107178,
-            name: 'Araç İlçesi',
-            latitude: '41.25152000',
-            longitude: '33.33729000'),
-        City(
             id: 107235,
             name: 'Azdavay',
             latitude: '41.64267000',
             longitude: '33.30000000'),
         City(
-            id: 107236,
-            name: 'Azdavay İlçesi',
-            latitude: '41.65322000',
-            longitude: '33.30980000'),
-        City(
             id: 107383,
             name: 'Bozkurt',
             latitude: '41.95769000',
             longitude: '34.01087000'),
-        City(
-            id: 107385,
-            name: 'Bozkurt İlçesi',
-            latitude: '41.96789000',
-            longitude: '34.01908000'),
         City(
             id: 108791,
             name: 'Çatalzeytin İlçesi',
@@ -5447,60 +3912,30 @@ const tur = Country(
             latitude: '41.47866000',
             longitude: '33.46667000'),
         City(
-            id: 107440,
-            name: 'Daday İlçesi',
-            latitude: '41.48714000',
-            longitude: '33.45798000'),
-        City(
             id: 107488,
             name: 'Devrekani',
             latitude: '41.60303000',
             longitude: '33.83922000'),
-        City(
-            id: 107489,
-            name: 'Devrekani İlçesi',
-            latitude: '41.61355000',
-            longitude: '33.84603000'),
         City(
             id: 107521,
             name: 'Doğanyurt',
             latitude: '42.00457000',
             longitude: '33.46029000'),
         City(
-            id: 107522,
-            name: 'Doğanyurt İlçesi',
-            latitude: '42.00051000',
-            longitude: '33.47343000'),
-        City(
             id: 107793,
             name: 'Hanönü',
             latitude: '41.62705000',
             longitude: '34.46667000'),
-        City(
-            id: 107794,
-            name: 'Hanönü İlçesi',
-            latitude: '41.63731000',
-            longitude: '34.47790000'),
         City(
             id: 108881,
             name: 'İhsangazi',
             latitude: '41.20432000',
             longitude: '33.55455000'),
         City(
-            id: 108882,
-            name: 'İhsangazi İlçesi',
-            latitude: '41.20901000',
-            longitude: '33.56968000'),
-        City(
             id: 108899,
             name: 'İnebolu',
             latitude: '41.97472000',
             longitude: '33.76083000'),
-        City(
-            id: 108900,
-            name: 'İnebolu İlçesi',
-            latitude: '41.96616000',
-            longitude: '33.76566000'),
         City(
             id: 107939,
             name: 'Kastamonu',
@@ -5512,20 +3947,10 @@ const tur = Country(
             latitude: '41.80578000',
             longitude: '33.71161000'),
         City(
-            id: 108089,
-            name: 'Küre İlçesi',
-            latitude: '41.81643000',
-            longitude: '33.71606000'),
-        City(
             id: 108358,
             name: 'Pınarbaşı',
             latitude: '41.60388000',
             longitude: '33.11099000'),
-        City(
-            id: 108360,
-            name: 'Pınarbaşı İlçesi',
-            latitude: '41.61508000',
-            longitude: '33.11306000'),
         City(
             id: 108954,
             name: 'Şenpazar İlçesi',
@@ -5537,30 +3962,15 @@ const tur = Country(
             latitude: '41.62005000',
             longitude: '33.71815000'),
         City(
-            id: 108449,
-            name: 'Seydiler İlçesi',
-            latitude: '41.61920000',
-            longitude: '33.73254000'),
-        City(
             id: 108548,
             name: 'Taşköprü',
             latitude: '41.50980000',
             longitude: '34.21414000'),
         City(
-            id: 108550,
-            name: 'Taşköprü İlçesi',
-            latitude: '41.51834000',
-            longitude: '34.20272000'),
-        City(
             id: 108593,
             name: 'Tosya',
             latitude: '41.01545000',
-            longitude: '34.04013000'),
-        City(
-            id: 108594,
-            name: 'Tosya İlçesi',
-            latitude: '41.02639000',
-            longitude: '34.04442000')
+            longitude: '34.04013000')
       ]),
       State(id: 2200, name: 'Kayseri Province', stateCode: '38', cities: [
         City(
@@ -5569,20 +3979,10 @@ const tur = Country(
             latitude: '39.00222000',
             longitude: '36.17381000'),
         City(
-            id: 107088,
-            name: 'Akkışla İlçesi',
-            latitude: '39.01218000',
-            longitude: '36.17905000'),
-        City(
             id: 107416,
             name: 'Bünyan',
             latitude: '38.84630000',
             longitude: '35.86033000'),
-        City(
-            id: 107417,
-            name: 'Bünyan İlçesi',
-            latitude: '38.85461000',
-            longitude: '35.85195000'),
         City(
             id: 107485,
             name: 'Develi',
@@ -5594,25 +3994,10 @@ const tur = Country(
             latitude: '39.09056000',
             longitude: '35.56722000'),
         City(
-            id: 107637,
-            name: 'Felahiye İlçesi',
-            latitude: '39.10166000',
-            longitude: '35.57162000'),
-        City(
             id: 107767,
             name: 'Hacılar',
             latitude: '38.64631000',
             longitude: '35.44937000'),
-        City(
-            id: 107768,
-            name: 'Hacılar İlçesi',
-            latitude: '38.65710000',
-            longitude: '35.45832000'),
-        City(
-            id: 108896,
-            name: 'İncesu',
-            latitude: '38.62240000',
-            longitude: '35.18261000'),
         City(
             id: 107849,
             name: 'Incesu',
@@ -5644,50 +4029,25 @@ const tur = Country(
             latitude: '38.72285000',
             longitude: '36.39314000'),
         City(
-            id: 108359,
-            name: 'Pınarbaşı İlçesi',
-            latitude: '38.73231000',
-            longitude: '36.38219000'),
-        City(
             id: 108405,
             name: 'Sarıoğlan',
             latitude: '39.07694000',
             longitude: '35.96671000'),
-        City(
-            id: 108406,
-            name: 'Sarıoğlan İlçesi',
-            latitude: '39.08765000',
-            longitude: '35.97445000'),
         City(
             id: 108412,
             name: 'Sarız',
             latitude: '38.47917000',
             longitude: '36.49898000'),
         City(
-            id: 108413,
-            name: 'Sarız İlçesi',
-            latitude: '38.48015000',
-            longitude: '36.51488000'),
-        City(
             id: 108531,
             name: 'Talas',
             latitude: '38.69080000',
             longitude: '35.55380000'),
         City(
-            id: 108532,
-            name: 'Talas İlçesi',
-            latitude: '38.70161000',
-            longitude: '35.56056000'),
-        City(
             id: 108581,
             name: 'Tomarza',
             latitude: '38.44722000',
             longitude: '35.79917000'),
-        City(
-            id: 108582,
-            name: 'Tomarza İlçesi',
-            latitude: '38.45780000',
-            longitude: '35.80465000'),
         City(
             id: 108657,
             name: 'Yahyali',
@@ -5702,12 +4062,7 @@ const tur = Country(
             id: 108720,
             name: 'Yesilhisar',
             latitude: '38.33475000',
-            longitude: '35.11795000'),
-        City(
-            id: 108723,
-            name: 'Yeşilhisar',
-            latitude: '38.35232000',
-            longitude: '35.08873000')
+            longitude: '35.11795000')
       ]),
       State(id: 2154, name: 'Kilis Province', stateCode: '79', cities: [
         City(
@@ -5715,11 +4070,6 @@ const tur = Country(
             name: 'Elbeyli',
             latitude: '36.67417000',
             longitude: '37.46667000'),
-        City(
-            id: 107561,
-            name: 'Elbeyli İlçesi',
-            latitude: '36.72556000',
-            longitude: '37.44000000'),
         City(
             id: 107997,
             name: 'Kilis',
@@ -5730,11 +4080,6 @@ const tur = Country(
             name: 'Musabeyli',
             latitude: '36.88639000',
             longitude: '36.91861000'),
-        City(
-            id: 108229,
-            name: 'Musabeyli İlçesi',
-            latitude: '36.90472000',
-            longitude: '36.96278000'),
         City(
             id: 108345,
             name: 'Polateli İlçesi',
@@ -5753,11 +4098,6 @@ const tur = Country(
             latitude: '39.91411000',
             longitude: '33.72333000'),
         City(
-            id: 107280,
-            name: 'Balışeyh İlçesi',
-            latitude: '39.92129000',
-            longitude: '33.73186000'),
-        City(
             id: 108813,
             name: 'Çelebi İlçesi',
             latitude: '39.47470000',
@@ -5768,30 +4108,15 @@ const tur = Country(
             latitude: '39.95371000',
             longitude: '34.02587000'),
         City(
-            id: 107460,
-            name: 'Delice İlçesi',
-            latitude: '39.96452000',
-            longitude: '34.03088000'),
-        City(
             id: 107897,
             name: 'Karakeçili',
             latitude: '39.59417000',
             longitude: '33.37778000'),
         City(
-            id: 107898,
-            name: 'Karakeçili İlçesi',
-            latitude: '39.60471000',
-            longitude: '33.38263000'),
-        City(
             id: 107985,
             name: 'Keskin',
             latitude: '39.67306000',
             longitude: '33.61361000'),
-        City(
-            id: 107986,
-            name: 'Keskin İlçesi',
-            latitude: '39.68273000',
-            longitude: '33.61841000'),
         City(
             id: 108109,
             name: 'Kırıkkale',
@@ -5802,11 +4127,6 @@ const tur = Country(
             name: 'Sulakyurt',
             latitude: '40.15733000',
             longitude: '33.71600000'),
-        City(
-            id: 108491,
-            name: 'Sulakyurt İlçesi',
-            latitude: '40.16751000',
-            longitude: '33.72053000'),
         City(
             id: 108659,
             name: 'Yahşihan İlçesi',
@@ -5819,11 +4139,6 @@ const tur = Country(
             name: 'Babaeski',
             latitude: '41.43250000',
             longitude: '27.09306000'),
-        City(
-            id: 107255,
-            name: 'Babaeski İlçesi',
-            latitude: '41.44371000',
-            longitude: '27.10458000'),
         City(
             id: 107463,
             name: 'Demirköy İlçesi',
@@ -5840,11 +4155,6 @@ const tur = Country(
             latitude: '41.94481000',
             longitude: '27.15829000'),
         City(
-            id: 108012,
-            name: 'Kofçaz İlçesi',
-            latitude: '41.95470000',
-            longitude: '27.17165000'),
-        City(
             id: 108136,
             name: 'Lüleburgaz İlçesi',
             latitude: '41.41495000',
@@ -5855,20 +4165,10 @@ const tur = Country(
             latitude: '41.34812000',
             longitude: '26.92522000'),
         City(
-            id: 108334,
-            name: 'Pehlivanköy İlçesi',
-            latitude: '41.35922000',
-            longitude: '26.93445000'),
-        City(
             id: 108362,
             name: 'Pınarhisar',
             latitude: '41.62417000',
             longitude: '27.52000000'),
-        City(
-            id: 108363,
-            name: 'Pınarhisar İlçesi',
-            latitude: '41.63517000',
-            longitude: '27.52951000'),
         City(
             id: 108875,
             name: 'Üsküp',
@@ -5878,12 +4178,7 @@ const tur = Country(
             id: 108655,
             name: 'Vize',
             latitude: '41.57250000',
-            longitude: '27.76583000'),
-        City(
-            id: 108656,
-            name: 'Vize İlçesi',
-            latitude: '41.58294000',
-            longitude: '27.77452000')
+            longitude: '27.76583000')
       ]),
       State(id: 2180, name: 'Kırşehir Province', stateCode: '40', cities: [
         City(
@@ -5897,11 +4192,6 @@ const tur = Country(
             latitude: '39.45005000',
             longitude: '33.96484000'),
         City(
-            id: 107090,
-            name: 'Akpınar İlçesi',
-            latitude: '39.45879000',
-            longitude: '33.96975000'),
-        City(
             id: 107390,
             name: 'Boztepe İlçesi',
             latitude: '39.27979000',
@@ -5912,20 +4202,10 @@ const tur = Country(
             latitude: '39.60694000',
             longitude: '34.40861000'),
         City(
-            id: 108839,
-            name: 'Çiçekdağı İlçesi',
-            latitude: '39.61643000',
-            longitude: '34.41834000'),
-        City(
             id: 107879,
             name: 'Kaman',
             latitude: '39.35750000',
             longitude: '33.72389000'),
-        City(
-            id: 107880,
-            name: 'Kaman İlçesi',
-            latitude: '39.36717000',
-            longitude: '33.72784000'),
         City(
             id: 108110,
             name: 'Kırşehir',
@@ -5935,12 +4215,7 @@ const tur = Country(
             id: 108215,
             name: 'Mucur',
             latitude: '39.06147000',
-            longitude: '34.38286000'),
-        City(
-            id: 108216,
-            name: 'Mucur İlçesi',
-            latitude: '39.07146000',
-            longitude: '34.38670000')
+            longitude: '34.38286000')
       ]),
       State(id: 2195, name: 'Kocaeli Province', stateCode: '41', cities: [
         City(
@@ -5974,11 +4249,6 @@ const tur = Country(
             latitude: '40.75694000',
             longitude: '29.81472000'),
         City(
-            id: 107480,
-            name: 'Derince İlçesi',
-            latitude: '40.75392000',
-            longitude: '29.82307000'),
-        City(
             id: 107497,
             name: 'Dilovası',
             latitude: '40.77972000',
@@ -5993,11 +4263,6 @@ const tur = Country(
             name: 'Gölcük',
             latitude: '40.70323000',
             longitude: '29.87216000'),
-        City(
-            id: 107691,
-            name: 'Gölcük İlçesi',
-            latitude: '40.72010000',
-            longitude: '29.82031000'),
         City(
             id: 107780,
             name: 'Halıdere',
@@ -6019,20 +4284,10 @@ const tur = Country(
             latitude: '41.07000000',
             longitude: '30.15262000'),
         City(
-            id: 107882,
-            name: 'Kandıra İlçesi',
-            latitude: '41.08034000',
-            longitude: '30.15798000'),
-        City(
             id: 107908,
             name: 'Karamürsel',
             latitude: '40.69129000',
             longitude: '29.61649000'),
-        City(
-            id: 107909,
-            name: 'Karamürsel İlçesi',
-            latitude: '40.68378000',
-            longitude: '29.60691000'),
         City(
             id: 107936,
             name: 'Karşıyaka',
@@ -6053,11 +4308,6 @@ const tur = Country(
             name: 'Körfez',
             latitude: '40.76704000',
             longitude: '29.78275000'),
-        City(
-            id: 108078,
-            name: 'Körfez İlçesi',
-            latitude: '40.77594000',
-            longitude: '29.79435000'),
         City(
             id: 108081,
             name: 'Köseköy',
@@ -6111,40 +4361,20 @@ const tur = Country(
             latitude: '38.35750000',
             longitude: '31.41639000'),
         City(
-            id: 107116,
-            name: 'Akşehir İlçesi',
-            latitude: '38.36730000',
-            longitude: '31.41983000'),
-        City(
             id: 107140,
             name: 'Altınekin',
             latitude: '38.30778000',
             longitude: '32.86861000'),
-        City(
-            id: 107141,
-            name: 'Altınekin İlçesi',
-            latitude: '38.31787000',
-            longitude: '32.87447000'),
         City(
             id: 107345,
             name: 'Beyşehir',
             latitude: '37.67735000',
             longitude: '31.72458000'),
         City(
-            id: 107346,
-            name: 'Beyşehir İlçesi',
-            latitude: '37.68668000',
-            longitude: '31.73051000'),
-        City(
             id: 107386,
             name: 'Bozkır',
             latitude: '37.18963000',
             longitude: '32.24736000'),
-        City(
-            id: 107387,
-            name: 'Bozkır İlçesi',
-            latitude: '37.19978000',
-            longitude: '32.25234000'),
         City(
             id: 108789,
             name: 'Çatalhöyük',
@@ -6171,60 +4401,30 @@ const tur = Country(
             latitude: '37.57320000',
             longitude: '32.77446000'),
         City(
-            id: 108850,
-            name: 'Çumra İlçesi',
-            latitude: '37.58165000',
-            longitude: '32.77971000'),
-        City(
             id: 107471,
             name: 'Derbent',
             latitude: '38.01422000',
             longitude: '32.01639000'),
-        City(
-            id: 107472,
-            name: 'Derbent İlçesi',
-            latitude: '38.02403000',
-            longitude: '32.02463000'),
         City(
             id: 107473,
             name: 'Derebucak',
             latitude: '37.39179000',
             longitude: '31.50918000'),
         City(
-            id: 107474,
-            name: 'Derebucak İlçesi',
-            latitude: '37.40180000',
-            longitude: '31.51665000'),
-        City(
             id: 107513,
             name: 'Doğanhisar',
             latitude: '38.14630000',
             longitude: '31.67648000'),
-        City(
-            id: 107514,
-            name: 'Doğanhisar İlçesi',
-            latitude: '38.15650000',
-            longitude: '31.68226000'),
         City(
             id: 107578,
             name: 'Emirgazi',
             latitude: '37.90222000',
             longitude: '33.83722000'),
         City(
-            id: 107579,
-            name: 'Emirgazi İlçesi',
-            latitude: '37.91229000',
-            longitude: '33.84666000'),
-        City(
             id: 107589,
             name: 'Ereğli',
             latitude: '37.51333000',
             longitude: '34.04672000'),
-        City(
-            id: 107591,
-            name: 'Ereğli İlçesi',
-            latitude: '37.52305000',
-            longitude: '34.05553000'),
         City(
             id: 107745,
             name: 'Güneysınır İlçesi',
@@ -6236,60 +4436,30 @@ const tur = Country(
             latitude: '36.98776000',
             longitude: '32.45674000'),
         City(
-            id: 107771,
-            name: 'Hadim İlçesi',
-            latitude: '36.99794000',
-            longitude: '32.46117000'),
-        City(
             id: 107778,
             name: 'Halkapınar',
             latitude: '37.43394000',
             longitude: '34.18743000'),
-        City(
-            id: 107779,
-            name: 'Halkapınar İlçesi',
-            latitude: '37.44361000',
-            longitude: '34.19336000'),
         City(
             id: 107840,
             name: 'Hüyük',
             latitude: '37.95388000',
             longitude: '31.59639000'),
         City(
-            id: 107841,
-            name: 'Hüyük İlçesi',
-            latitude: '37.96331000',
-            longitude: '31.60010000'),
-        City(
             id: 107846,
             name: 'Ilgın',
             latitude: '38.27917000',
             longitude: '31.91389000'),
-        City(
-            id: 107847,
-            name: 'Ilgın İlçesi',
-            latitude: '38.28942000',
-            longitude: '31.91916000'),
         City(
             id: 107864,
             name: 'Kadınhanı',
             latitude: '38.23972000',
             longitude: '32.21139000'),
         City(
-            id: 107865,
-            name: 'Kadınhanı İlçesi',
-            latitude: '38.24958000',
-            longitude: '32.21730000'),
-        City(
             id: 107912,
             name: 'Karapınar',
             latitude: '37.71596000',
             longitude: '33.55064000'),
-        City(
-            id: 107913,
-            name: 'Karapınar İlçesi',
-            latitude: '37.72637000',
-            longitude: '33.55759000'),
         City(
             id: 107917,
             name: 'Karatay',
@@ -6305,11 +4475,6 @@ const tur = Country(
             name: 'Kulu',
             latitude: '39.09513000',
             longitude: '33.07989000'),
-        City(
-            id: 108043,
-            name: 'Kulu İlçesi',
-            latitude: '39.10536000',
-            longitude: '33.08858000'),
         City(
             id: 108065,
             name: 'Kuyulusebil',
@@ -6331,11 +4496,6 @@ const tur = Country(
             latitude: '38.26201000',
             longitude: '32.40457000'),
         City(
-            id: 108395,
-            name: 'Sarayönü İlçesi',
-            latitude: '38.27030000',
-            longitude: '32.41188000'),
-        City(
             id: 108427,
             name: 'Selcuklu',
             latitude: '38.05761000',
@@ -6346,40 +4506,20 @@ const tur = Country(
             latitude: '37.41926000',
             longitude: '31.84527000'),
         City(
-            id: 108451,
-            name: 'Seydişehir İlçesi',
-            latitude: '37.42930000',
-            longitude: '31.85046000'),
-        City(
             id: 108546,
             name: 'Taşkent',
             latitude: '36.92430000',
             longitude: '32.49131000'),
-        City(
-            id: 108547,
-            name: 'Taşkent İlçesi',
-            latitude: '36.93392000',
-            longitude: '32.49529000'),
         City(
             id: 108611,
             name: 'Tuzlukçu',
             latitude: '38.47778000',
             longitude: '31.62639000'),
         City(
-            id: 108612,
-            name: 'Tuzlukçu İlçesi',
-            latitude: '38.48788000',
-            longitude: '31.63047000'),
-        City(
             id: 108668,
             name: 'Yalıhüyük',
             latitude: '37.30077000',
             longitude: '32.08548000'),
-        City(
-            id: 108669,
-            name: 'Yalıhüyük İlçesi',
-            latitude: '37.31110000',
-            longitude: '32.08924000'),
         City(
             id: 108675,
             name: 'Yarma',
@@ -6394,12 +4534,7 @@ const tur = Country(
             id: 108738,
             name: 'Yunak',
             latitude: '38.81418000',
-            longitude: '31.73223000'),
-        City(
-            id: 108739,
-            name: 'Yunak İlçesi',
-            latitude: '38.82374000',
-            longitude: '31.73748000')
+            longitude: '31.73223000')
       ]),
       State(id: 2149, name: 'Kütahya Province', stateCode: '43', cities: [
         City(
@@ -6413,11 +4548,6 @@ const tur = Country(
             latitude: '39.21581000',
             longitude: '29.86990000'),
         City(
-            id: 107203,
-            name: 'Aslanapa İlçesi',
-            latitude: '39.22588000',
-            longitude: '29.88222000'),
-        City(
             id: 108792,
             name: 'Çavdarhisar İlçesi',
             latitude: '39.20333000',
@@ -6428,40 +4558,20 @@ const tur = Country(
             latitude: '39.80194000',
             longitude: '29.60918000'),
         City(
-            id: 107509,
-            name: 'Domaniç İlçesi',
-            latitude: '39.80935000',
-            longitude: '29.62205000'),
-        City(
             id: 107530,
             name: 'Dumlupınar',
             latitude: '38.85408000',
             longitude: '29.97720000'),
-        City(
-            id: 107531,
-            name: 'Dumlupınar İlçesi',
-            latitude: '38.87639000',
-            longitude: '30.00639000'),
         City(
             id: 107573,
             name: 'Emet',
             latitude: '39.34300000',
             longitude: '29.25847000'),
         City(
-            id: 107574,
-            name: 'Emet İlçesi',
-            latitude: '39.35219000',
-            longitude: '29.27431000'),
-        City(
             id: 107651,
             name: 'Gediz',
             latitude: '38.99389000',
             longitude: '29.39131000'),
-        City(
-            id: 107652,
-            name: 'Gediz İlçesi',
-            latitude: '39.05272000',
-            longitude: '29.41755000'),
         City(
             id: 107828,
             name: 'Hisarcık İlçesi',
@@ -6478,40 +4588,20 @@ const tur = Country(
             latitude: '38.99500000',
             longitude: '29.12583000'),
         City(
-            id: 108328,
-            name: 'Pazarlar İlçesi',
-            latitude: '39.00509000',
-            longitude: '29.13593000'),
-        City(
             id: 108933,
             name: 'Şaphane',
             latitude: '39.02730000',
             longitude: '29.22218000'),
-        City(
-            id: 108934,
-            name: 'Şaphane İlçesi',
-            latitude: '39.03599000',
-            longitude: '29.22743000'),
         City(
             id: 108465,
             name: 'Simav',
             latitude: '39.08820000',
             longitude: '28.97767000'),
         City(
-            id: 108466,
-            name: 'Simav İlçesi',
-            latitude: '39.09822000',
-            longitude: '28.96464000'),
-        City(
             id: 108543,
             name: 'Tavşanlı',
             latitude: '39.54237000',
-            longitude: '29.49866000'),
-        City(
-            id: 108545,
-            name: 'Tavşanlı İlçesi',
-            latitude: '39.54897000',
-            longitude: '29.51649000')
+            longitude: '29.49866000')
       ]),
       State(id: 2158, name: 'Malatya Province', stateCode: '44', cities: [
         City(
@@ -6520,20 +4610,10 @@ const tur = Country(
             latitude: '38.33899000',
             longitude: '37.97021000'),
         City(
-            id: 107106,
-            name: 'Akçadağ İlçesi',
-            latitude: '38.34403000',
-            longitude: '37.97409000'),
-        City(
             id: 107175,
             name: 'Arapgir',
             latitude: '39.04117000',
             longitude: '38.49516000'),
-        City(
-            id: 107176,
-            name: 'Arapgir İlçesi',
-            latitude: '39.05029000',
-            longitude: '38.50255000'),
         City(
             id: 107183,
             name: 'Arguvan',
@@ -6550,20 +4630,10 @@ const tur = Country(
             latitude: '38.54583000',
             longitude: '37.50583000'),
         City(
-            id: 107448,
-            name: 'Darende İlçesi',
-            latitude: '38.55585000',
-            longitude: '37.51378000'),
-        City(
             id: 107525,
             name: 'Doğanşehir',
             latitude: '38.08574000',
             longitude: '37.87116000'),
-        City(
-            id: 107526,
-            name: 'Doğanşehir İlçesi',
-            latitude: '38.09134000',
-            longitude: '37.87687000'),
         City(
             id: 107520,
             name: 'Doğanyol',
@@ -6575,30 +4645,15 @@ const tur = Country(
             latitude: '38.81622000',
             longitude: '37.92882000'),
         City(
-            id: 107820,
-            name: 'Hekimhan İlçesi',
-            latitude: '38.81627000',
-            longitude: '37.93134000'),
-        City(
             id: 107870,
             name: 'Kale',
             latitude: '39.03333000',
             longitude: '38.00000000'),
         City(
-            id: 107872,
-            name: 'Kale İlçesi',
-            latitude: '38.39773000',
-            longitude: '38.74406000'),
-        City(
             id: 108044,
             name: 'Kuluncak',
             latitude: '38.87656000',
             longitude: '37.66279000'),
-        City(
-            id: 108045,
-            name: 'Kuluncak İlçesi',
-            latitude: '38.88244000',
-            longitude: '37.67181000'),
         City(
             id: 108141,
             name: 'Malatya',
@@ -6615,20 +4670,10 @@ const tur = Country(
             latitude: '38.59292000',
             longitude: '38.17327000'),
         City(
-            id: 108685,
-            name: 'Yazıhan İlçesi',
-            latitude: '38.59567000',
-            longitude: '38.17967000'),
-        City(
             id: 108728,
             name: 'Yeşilyurt',
             latitude: '38.29602000',
-            longitude: '38.24526000'),
-        City(
-            id: 108730,
-            name: 'Yeşilyurt İlçesi',
-            latitude: '38.29814000',
-            longitude: '38.24698000')
+            longitude: '38.24526000')
       ]),
       State(id: 2198, name: 'Manisa Province', stateCode: '45', cities: [
         City(
@@ -6637,80 +4682,40 @@ const tur = Country(
             latitude: '38.51960000',
             longitude: '27.93865000'),
         City(
-            id: 107074,
-            name: 'Ahmetli İlçesi',
-            latitude: '38.52888000',
-            longitude: '27.94480000'),
-        City(
             id: 107082,
             name: 'Akhisar',
             latitude: '38.91852000',
             longitude: '27.84006000'),
-        City(
-            id: 107083,
-            name: 'Akhisar İlçesi',
-            latitude: '38.92552000',
-            longitude: '27.84804000'),
         City(
             id: 107128,
             name: 'Alaşehir',
             latitude: '38.35083000',
             longitude: '28.51718000'),
         City(
-            id: 107129,
-            name: 'Alaşehir İlçesi',
-            latitude: '38.36061000',
-            longitude: '28.52385000'),
-        City(
             id: 107461,
             name: 'Demirci',
             latitude: '39.04607000',
             longitude: '28.65889000'),
-        City(
-            id: 107462,
-            name: 'Demirci İlçesi',
-            latitude: '39.05699000',
-            longitude: '28.66461000'),
         City(
             id: 107698,
             name: 'Gölmarmara',
             latitude: '38.71389000',
             longitude: '27.91417000'),
         City(
-            id: 107699,
-            name: 'Gölmarmara İlçesi',
-            latitude: '38.72377000',
-            longitude: '27.92145000'),
-        City(
             id: 107711,
             name: 'Gördes',
             latitude: '38.93278000',
             longitude: '28.28942000'),
-        City(
-            id: 107712,
-            name: 'Gördes İlçesi',
-            latitude: '38.94181000',
-            longitude: '28.29427000'),
         City(
             id: 108104,
             name: 'Kırkağaç',
             latitude: '39.10638000',
             longitude: '27.66925000'),
         City(
-            id: 108105,
-            name: 'Kırkağaç İlçesi',
-            latitude: '39.11610000',
-            longitude: '27.67479000'),
-        City(
             id: 108072,
             name: 'Köprübaşı',
             latitude: '38.74972000',
             longitude: '28.40472000'),
-        City(
-            id: 108074,
-            name: 'Köprübaşı İlçesi',
-            latitude: '38.75929000',
-            longitude: '28.40928000'),
         City(
             id: 108038,
             name: 'Kula',
@@ -6732,11 +4737,6 @@ const tur = Country(
             latitude: '38.23953000',
             longitude: '28.69663000'),
         City(
-            id: 108400,
-            name: 'Sarıgöl İlçesi',
-            latitude: '38.24859000',
-            longitude: '28.70233000'),
-        City(
             id: 108397,
             name: 'Saruhanlı',
             latitude: '38.76778000',
@@ -6752,20 +4752,10 @@ const tur = Country(
             latitude: '38.74444000',
             longitude: '28.86778000'),
         City(
-            id: 108429,
-            name: 'Selendi İlçesi',
-            latitude: '38.75481000',
-            longitude: '28.87401000'),
-        City(
             id: 108485,
             name: 'Soma',
             latitude: '39.18554000',
             longitude: '27.60945000'),
-        City(
-            id: 108486,
-            name: 'Soma İlçesi',
-            latitude: '39.19629000',
-            longitude: '27.61751000'),
         City(
             id: 108600,
             name: 'Turgutlu İlçesi',
@@ -6864,11 +4854,6 @@ const tur = Country(
             latitude: '37.54616000',
             longitude: '41.71652000'),
         City(
-            id: 107450,
-            name: 'Dargeçit İlçesi',
-            latitude: '37.54644000',
-            longitude: '41.72415000'),
-        City(
             id: 107477,
             name: 'Dereyanı',
             latitude: '37.42746000',
@@ -6959,11 +4944,6 @@ const tur = Country(
             latitude: '37.18836000',
             longitude: '40.57723000'),
         City(
-            id: 108119,
-            name: 'Kızıltepe İlçesi',
-            latitude: '37.19268000',
-            longitude: '40.58327000'),
-        City(
             id: 108049,
             name: 'Kumlu',
             latitude: '37.17222000',
@@ -6989,40 +4969,20 @@ const tur = Country(
             latitude: '37.47801000',
             longitude: '40.48152000'),
         City(
-            id: 108164,
-            name: 'Mazıdağı İlçesi',
-            latitude: '37.48542000',
-            longitude: '40.49850000'),
-        City(
             id: 108206,
             name: 'Midyat',
             latitude: '37.41908000',
             longitude: '41.33909000'),
-        City(
-            id: 108207,
-            name: 'Midyat İlçesi',
-            latitude: '37.40056000',
-            longitude: '41.37500000'),
         City(
             id: 108258,
             name: 'Nusaybin',
             latitude: '37.07028000',
             longitude: '41.21465000'),
         City(
-            id: 108259,
-            name: 'Nusaybin İlçesi',
-            latitude: '37.15694000',
-            longitude: '41.34139000'),
-        City(
             id: 108863,
             name: 'Ömerli',
             latitude: '37.39903000',
             longitude: '40.95442000'),
-        City(
-            id: 108864,
-            name: 'Ömerli İlçesi',
-            latitude: '37.37944000',
-            longitude: '40.99472000'),
         City(
             id: 108280,
             name: 'Ortaca',
@@ -7058,11 +5018,6 @@ const tur = Country(
             name: 'Savur',
             latitude: '37.53544000',
             longitude: '40.87876000'),
-        City(
-            id: 108420,
-            name: 'Savur İlçesi',
-            latitude: '37.53684000',
-            longitude: '40.88886000'),
         City(
             id: 108426,
             name: 'Selah',
@@ -7134,11 +5089,6 @@ const tur = Country(
             latitude: '37.33813000',
             longitude: '40.81739000'),
         City(
-            id: 108725,
-            name: 'Yeşilli İlçesi',
-            latitude: '37.33944000',
-            longitude: '40.82605000'),
-        City(
             id: 108732,
             name: 'Yolbaşı',
             latitude: '37.38717000',
@@ -7161,30 +5111,15 @@ const tur = Country(
             latitude: '36.07508000',
             longitude: '32.83691000'),
         City(
-            id: 107161,
-            name: 'Anamur İlçesi',
-            latitude: '36.08361000',
-            longitude: '32.82615000'),
-        City(
             id: 107221,
             name: 'Aydıncık',
             latitude: '36.14370000',
             longitude: '33.32016000'),
         City(
-            id: 107223,
-            name: 'Aydıncık İlçesi',
-            latitude: '36.15358000',
-            longitude: '33.30397000'),
-        City(
             id: 107391,
             name: 'Bozyazı',
             latitude: '36.10820000',
             longitude: '32.96113000'),
-        City(
-            id: 107392,
-            name: 'Bozyazı İlçesi',
-            latitude: '36.11329000',
-            longitude: '32.97886000'),
         City(
             id: 108771,
             name: 'Çamlıyayla İlçesi',
@@ -7201,20 +5136,10 @@ const tur = Country(
             latitude: '36.60498000',
             longitude: '34.30836000'),
         City(
-            id: 107587,
-            name: 'Erdemli İlçesi',
-            latitude: '36.61383000',
-            longitude: '34.29601000'),
-        City(
             id: 107730,
             name: 'Gülnar',
             latitude: '36.34148000',
             longitude: '33.39921000'),
-        City(
-            id: 107731,
-            name: 'Gülnar İlçesi',
-            latitude: '36.35290000',
-            longitude: '33.40308000'),
         City(
             id: 108007,
             name: 'Kocahasanlı',
@@ -7245,11 +5170,6 @@ const tur = Country(
             name: 'Silifke',
             latitude: '36.37778000',
             longitude: '33.93444000'),
-        City(
-            id: 108459,
-            name: 'Silifke İlçesi',
-            latitude: '36.38869000',
-            longitude: '33.94072000'),
         City(
             id: 108536,
             name: 'Tarsus',
@@ -7298,11 +5218,6 @@ const tur = Country(
             latitude: '36.73778000',
             longitude: '27.68417000'),
         City(
-            id: 107453,
-            name: 'Datça İlçesi',
-            latitude: '36.76885000',
-            longitude: '27.66295000'),
-        City(
             id: 107640,
             name: 'Fethiye',
             latitude: '36.64038000',
@@ -7348,11 +5263,6 @@ const tur = Country(
             latitude: '37.31639000',
             longitude: '27.78389000'),
         City(
-            id: 108212,
-            name: 'Milas İlçesi',
-            latitude: '37.32699000',
-            longitude: '27.79520000'),
-        City(
             id: 108235,
             name: 'Muğla',
             latitude: '37.21807000',
@@ -7367,11 +5277,6 @@ const tur = Country(
             name: 'Ortaca',
             latitude: '36.83915000',
             longitude: '28.76457000'),
-        City(
-            id: 108281,
-            name: 'Ortaca İlçesi',
-            latitude: '36.83890000',
-            longitude: '28.77730000'),
         City(
             id: 108396,
             name: 'Sarigerme',
@@ -7398,11 +5303,6 @@ const tur = Country(
             latitude: '37.10491000',
             longitude: '28.41667000'),
         City(
-            id: 108617,
-            name: 'Ula İlçesi',
-            latitude: '37.11514000',
-            longitude: '28.42732000'),
-        City(
             id: 108670,
             name: 'Yalıkavak',
             latitude: '37.10528000',
@@ -7425,40 +5325,20 @@ const tur = Country(
             latitude: '39.08656000',
             longitude: '42.27158000'),
         City(
-            id: 107407,
-            name: 'Bulanık İlçesi',
-            latitude: '39.09285000',
-            longitude: '42.27316000'),
-        City(
             id: 107802,
             name: 'Hasköy',
             latitude: '38.68231000',
             longitude: '41.67851000'),
-        City(
-            id: 107803,
-            name: 'Hasköy İlçesi',
-            latitude: '38.68464000',
-            longitude: '41.68831000'),
         City(
             id: 108022,
             name: 'Korkut',
             latitude: '38.73390000',
             longitude: '41.78396000'),
         City(
-            id: 108023,
-            name: 'Korkut İlçesi',
-            latitude: '38.73826000',
-            longitude: '41.78689000'),
-        City(
             id: 108142,
             name: 'Malazgirt',
             latitude: '39.14650000',
             longitude: '42.53536000'),
-        City(
-            id: 108143,
-            name: 'Malazgirt İlçesi',
-            latitude: '39.15089000',
-            longitude: '42.54543000'),
         City(
             id: 108191,
             name: 'Merkez',
@@ -7473,12 +5353,7 @@ const tur = Country(
             id: 108647,
             name: 'Varto',
             latitude: '39.17375000',
-            longitude: '41.45402000'),
-        City(
-            id: 108648,
-            name: 'Varto İlçesi',
-            latitude: '39.17090000',
-            longitude: '41.45440000')
+            longitude: '41.45402000')
       ]),
       State(id: 2196, name: 'Nevşehir Province', stateCode: '50', cities: [
         City(
@@ -7487,30 +5362,15 @@ const tur = Country(
             latitude: '38.55028000',
             longitude: '34.50917000'),
         City(
-            id: 107056,
-            name: 'Acıgöl İlçesi',
-            latitude: '38.56101000',
-            longitude: '34.51730000'),
-        City(
             id: 107211,
             name: 'Avanos',
             latitude: '38.71500000',
             longitude: '34.84667000'),
         City(
-            id: 107212,
-            name: 'Avanos İlçesi',
-            latitude: '38.72396000',
-            longitude: '34.85313000'),
-        City(
             id: 107481,
             name: 'Derinkuyu',
             latitude: '38.37510000',
             longitude: '34.73419000'),
-        City(
-            id: 107482,
-            name: 'Derinkuyu İlçesi',
-            latitude: '38.34622000',
-            longitude: '34.73840000'),
         City(
             id: 107715,
             name: 'Göreme',
@@ -7522,20 +5382,10 @@ const tur = Country(
             latitude: '38.74594000',
             longitude: '34.62524000'),
         City(
-            id: 107735,
-            name: 'Gülşehir İlçesi',
-            latitude: '38.75561000',
-            longitude: '34.62993000'),
-        City(
             id: 107765,
             name: 'Hacıbektaş',
             latitude: '38.94077000',
             longitude: '34.55770000'),
-        City(
-            id: 107766,
-            name: 'Hacıbektaş İlçesi',
-            latitude: '38.95079000',
-            longitude: '34.56283000'),
         City(
             id: 108032,
             name: 'Kozaklı İlçesi',
@@ -7564,11 +5414,6 @@ const tur = Country(
             latitude: '37.99159000',
             longitude: '34.37334000'),
         City(
-            id: 107137,
-            name: 'Altunhisar İlçesi',
-            latitude: '38.00044000',
-            longitude: '34.36067000'),
-        City(
             id: 107369,
             name: 'Bor',
             latitude: '37.89056000',
@@ -7583,11 +5428,6 @@ const tur = Country(
             name: 'Çiftlik',
             latitude: '38.17580000',
             longitude: '34.48535000'),
-        City(
-            id: 108830,
-            name: 'Çiftlik İlçesi',
-            latitude: '38.18584000',
-            longitude: '34.47465000'),
         City(
             id: 108252,
             name: 'Niğde',
@@ -7621,11 +5461,6 @@ const tur = Country(
             latitude: '40.90200000',
             longitude: '37.52786000'),
         City(
-            id: 108766,
-            name: 'Çamaş İlçesi',
-            latitude: '40.90840000',
-            longitude: '37.52162000'),
-        City(
             id: 108790,
             name: 'Çatalpınar İlçesi',
             latitude: '40.88678000',
@@ -7640,11 +5475,6 @@ const tur = Country(
             name: 'Fatsa',
             latitude: '41.02778000',
             longitude: '37.50139000'),
-        City(
-            id: 107634,
-            name: 'Fatsa İlçesi',
-            latitude: '41.02211000',
-            longitude: '37.49196000'),
         City(
             id: 107697,
             name: 'Gölköy İlçesi',
@@ -7661,70 +5491,35 @@ const tur = Country(
             latitude: '40.78567000',
             longitude: '37.58969000'),
         City(
-            id: 107750,
-            name: 'Gürgentepe İlçesi',
-            latitude: '40.77452000',
-            longitude: '37.57579000'),
-        City(
             id: 108887,
             name: 'İkizce',
             latitude: '41.05833000',
             longitude: '37.08028000'),
-        City(
-            id: 108888,
-            name: 'İkizce İlçesi',
-            latitude: '41.06793000',
-            longitude: '37.08571000'),
         City(
             id: 107855,
             name: 'Kabadüz',
             latitude: '40.86096000',
             longitude: '37.88470000'),
         City(
-            id: 107856,
-            name: 'Kabadüz İlçesi',
-            latitude: '40.85712000',
-            longitude: '37.90597000'),
-        City(
             id: 107858,
             name: 'Kabataş',
             latitude: '40.75000000',
             longitude: '37.45000000'),
-        City(
-            id: 107859,
-            name: 'Kabataş İlçesi',
-            latitude: '40.75996000',
-            longitude: '37.45875000'),
         City(
             id: 108018,
             name: 'Korgan',
             latitude: '40.82472000',
             longitude: '37.34667000'),
         City(
-            id: 108019,
-            name: 'Korgan İlçesi',
-            latitude: '40.83503000',
-            longitude: '37.35319000'),
-        City(
             id: 108052,
             name: 'Kumru',
             latitude: '40.87444000',
             longitude: '37.26389000'),
         City(
-            id: 108053,
-            name: 'Kumru İlçesi',
-            latitude: '40.88372000',
-            longitude: '37.27610000'),
-        City(
             id: 108201,
             name: 'Mesudiye',
             latitude: '40.45446000',
             longitude: '37.77353000'),
-        City(
-            id: 108202,
-            name: 'Mesudiye İlçesi',
-            latitude: '40.46419000',
-            longitude: '37.77419000'),
         City(
             id: 108271,
             name: 'Ordu',
@@ -7736,11 +5531,6 @@ const tur = Country(
             latitude: '41.06556000',
             longitude: '37.77139000'),
         City(
-            id: 108342,
-            name: 'Perşembe İlçesi',
-            latitude: '41.06068000',
-            longitude: '37.76384000'),
-        City(
             id: 108344,
             name: 'Piraziz İlçesi',
             latitude: '40.95643000',
@@ -7750,11 +5540,6 @@ const tur = Country(
             name: 'Ulubey',
             latitude: '40.86863000',
             longitude: '37.75405000'),
-        City(
-            id: 108623,
-            name: 'Ulubey İlçesi',
-            latitude: '40.87352000',
-            longitude: '37.75890000'),
         City(
             id: 108872,
             name: 'Ünye İlçesi',
@@ -7778,20 +5563,10 @@ const tur = Country(
             latitude: '37.12838000',
             longitude: '36.54608000'),
         City(
-            id: 107799,
-            name: 'Hasanbeyli İlçesi',
-            latitude: '37.13182000',
-            longitude: '36.55611000'),
-        City(
             id: 107860,
             name: 'Kadirli',
             latitude: '37.37389000',
             longitude: '36.09611000'),
-        City(
-            id: 107861,
-            name: 'Kadirli İlçesi',
-            latitude: '37.38406000',
-            longitude: '36.10284000'),
         City(
             id: 108294,
             name: 'Osmaniye',
@@ -7815,20 +5590,10 @@ const tur = Country(
             latitude: '41.19111000',
             longitude: '40.98750000'),
         City(
-            id: 108770,
-            name: 'Çamlıhemşin İlçesi',
-            latitude: '41.04088000',
-            longitude: '41.02071000'),
-        City(
             id: 108800,
             name: 'Çayeli',
             latitude: '41.08941000',
             longitude: '40.73696000'),
-        City(
-            id: 107476,
-            name: 'Derepazarı İlçesi',
-            latitude: '41.02212000',
-            longitude: '40.43876000'),
         City(
             id: 107644,
             name: 'Fındıklı',
@@ -7839,11 +5604,6 @@ const tur = Country(
             name: 'Güneysu',
             latitude: '40.98130000',
             longitude: '40.60465000'),
-        City(
-            id: 107744,
-            name: 'Güneysu İlçesi',
-            latitude: '40.97526000',
-            longitude: '40.60757000'),
         City(
             id: 107821,
             name: 'Hemşin İlçesi',
@@ -7875,11 +5635,6 @@ const tur = Country(
             latitude: '41.17917000',
             longitude: '40.88417000'),
         City(
-            id: 108323,
-            name: 'Pazar İlçesi',
-            latitude: '41.17286000',
-            longitude: '40.88398000'),
-        City(
             id: 108371,
             name: 'Rize',
             latitude: '41.02083000',
@@ -7897,11 +5652,6 @@ const tur = Country(
             latitude: '40.68500000',
             longitude: '30.62222000'),
         City(
-            id: 107101,
-            name: 'Akyazı İlçesi',
-            latitude: '40.69600000',
-            longitude: '30.62803000'),
-        City(
             id: 107186,
             name: 'Arifiye',
             latitude: '40.71327000',
@@ -7917,40 +5667,20 @@ const tur = Country(
             latitude: '40.94082000',
             longitude: '30.48583000'),
         City(
-            id: 107639,
-            name: 'Ferizli İlçesi',
-            latitude: '40.95092000',
-            longitude: '30.48912000'),
-        City(
             id: 107673,
             name: 'Geyve',
             latitude: '40.50750000',
             longitude: '30.29250000'),
-        City(
-            id: 107674,
-            name: 'Geyve İlçesi',
-            latitude: '40.51701000',
-            longitude: '30.29645000'),
         City(
             id: 107822,
             name: 'Hendek',
             latitude: '40.79944000',
             longitude: '30.74806000'),
         City(
-            id: 107823,
-            name: 'Hendek İlçesi',
-            latitude: '40.80938000',
-            longitude: '30.73915000'),
-        City(
             id: 107910,
             name: 'Karapürçek',
             latitude: '40.64194000',
             longitude: '30.53944000'),
-        City(
-            id: 107911,
-            name: 'Karapürçek İlçesi',
-            latitude: '40.65188000',
-            longitude: '30.54509000'),
         City(
             id: 107915,
             name: 'Karasu İlçesi',
@@ -7967,40 +5697,20 @@ const tur = Country(
             latitude: '41.03083000',
             longitude: '30.30750000'),
         City(
-            id: 107952,
-            name: 'Kaynarca İlçesi',
-            latitude: '41.04048000',
-            longitude: '30.29619000'),
-        City(
             id: 108003,
             name: 'Kocaali',
             latitude: '41.05336000',
             longitude: '30.85278000'),
-        City(
-            id: 108004,
-            name: 'Kocaali İlçesi',
-            latitude: '41.06361000',
-            longitude: '30.85815000'),
         City(
             id: 108312,
             name: 'Pamukova',
             latitude: '40.50810000',
             longitude: '30.16732000'),
         City(
-            id: 108313,
-            name: 'Pamukova İlçesi',
-            latitude: '40.51806000',
-            longitude: '30.17288000'),
-        City(
             id: 108385,
             name: 'Sapanca',
             latitude: '40.69141000',
             longitude: '30.26738000'),
-        City(
-            id: 108386,
-            name: 'Sapanca İlçesi',
-            latitude: '40.70222000',
-            longitude: '30.27443000'),
         City(
             id: 108438,
             name: 'Serdivan',
@@ -8012,20 +5722,10 @@ const tur = Country(
             latitude: '40.90590000',
             longitude: '30.47448000'),
         City(
-            id: 108520,
-            name: 'Söğütlü İlçesi',
-            latitude: '40.91610000',
-            longitude: '30.47824000'),
-        City(
             id: 108534,
             name: 'Taraklı',
             latitude: '40.39694000',
-            longitude: '30.49278000'),
-        City(
-            id: 108535,
-            name: 'Taraklı İlçesi',
-            latitude: '40.40685000',
-            longitude: '30.50001000')
+            longitude: '30.49278000')
       ]),
       State(id: 2220, name: 'Samsun Province', stateCode: '55', cities: [
         City(
@@ -8039,11 +5739,6 @@ const tur = Country(
             latitude: '41.03556000',
             longitude: '36.23556000'),
         City(
-            id: 107201,
-            name: 'Asarcık İlçesi',
-            latitude: '41.04687000',
-            longitude: '36.20732000'),
-        City(
             id: 107206,
             name: 'Atakum',
             latitude: '41.34730000',
@@ -8053,11 +5748,6 @@ const tur = Country(
             name: 'Ayvacık',
             latitude: '40.99111000',
             longitude: '36.63139000'),
-        City(
-            id: 107231,
-            name: 'Ayvacık İlçesi',
-            latitude: '41.00237000',
-            longitude: '36.63706000'),
         City(
             id: 107257,
             name: 'Bafra',
@@ -8074,20 +5764,10 @@ const tur = Country(
             latitude: '41.19889000',
             longitude: '36.72194000'),
         City(
-            id: 108784,
-            name: 'Çarşamba İlçesi',
-            latitude: '41.21050000',
-            longitude: '36.73204000'),
-        City(
             id: 107809,
             name: 'Havza',
             latitude: '40.97056000',
             longitude: '35.66222000'),
-        City(
-            id: 107810,
-            name: 'Havza İlçesi',
-            latitude: '40.97972000',
-            longitude: '35.67107000'),
         City(
             id: 108891,
             name: 'İlkadım',
@@ -8099,20 +5779,10 @@ const tur = Country(
             latitude: '41.07833000',
             longitude: '36.04250000'),
         City(
-            id: 107941,
-            name: 'Kavak İlçesi',
-            latitude: '41.08777000',
-            longitude: '36.05183000'),
-        City(
             id: 108125,
             name: 'Ladik',
             latitude: '40.91056000',
             longitude: '35.89194000'),
-        City(
-            id: 108126,
-            name: 'Ladik İlçesi',
-            latitude: '40.92025000',
-            longitude: '35.90095000'),
         City(
             id: 108269,
             name: 'Ondokuzmayıs İlçesi',
@@ -8139,30 +5809,15 @@ const tur = Country(
             latitude: '41.20917000',
             longitude: '36.97389000'),
         City(
-            id: 108574,
-            name: 'Terme İlçesi',
-            latitude: '41.21876000',
-            longitude: '36.98263000'),
-        City(
             id: 108651,
             name: 'Vezirköprü',
             latitude: '41.14361000',
             longitude: '35.45472000'),
         City(
-            id: 108652,
-            name: 'Vezirköprü İlçesi',
-            latitude: '41.15193000',
-            longitude: '35.46230000'),
-        City(
             id: 108660,
             name: 'Yakakent',
             latitude: '41.63250000',
-            longitude: '35.52889000'),
-        City(
-            id: 108661,
-            name: 'Yakakent İlçesi',
-            latitude: '41.61824000',
-            longitude: '35.52014000')
+            longitude: '35.52889000')
       ]),
       State(id: 2183, name: 'Şanlıurfa Province', stateCode: '63', cities: [
         City(
@@ -8170,11 +5825,6 @@ const tur = Country(
             name: 'Akçakale',
             latitude: '36.71111000',
             longitude: '38.94750000'),
-        City(
-            id: 107108,
-            name: 'Akçakale İlçesi',
-            latitude: '36.76139000',
-            longitude: '38.96944000'),
         City(
             id: 107081,
             name: 'Akdiken',
@@ -8191,20 +5841,10 @@ const tur = Country(
             latitude: '37.02577000',
             longitude: '37.97841000'),
         City(
-            id: 107360,
-            name: 'Birecik İlçesi',
-            latitude: '37.03387000',
-            longitude: '37.99658000'),
-        City(
             id: 107388,
             name: 'Bozova',
             latitude: '37.36250000',
             longitude: '38.52667000'),
-        City(
-            id: 107389,
-            name: 'Bozova İlçesi',
-            latitude: '37.37074000',
-            longitude: '38.53343000'),
         City(
             id: 107410,
             name: 'Bulutlu',
@@ -8215,11 +5855,6 @@ const tur = Country(
             name: 'Ceylanpınar',
             latitude: '36.84722000',
             longitude: '40.05000000'),
-        City(
-            id: 107429,
-            name: 'Ceylanpınar İlçesi',
-            latitude: '36.91944000',
-            longitude: '39.90500000'),
         City(
             id: 107511,
             name: 'Dorumali',
@@ -8241,11 +5876,6 @@ const tur = Country(
             latitude: '37.24529000',
             longitude: '37.86874000'),
         City(
-            id: 107776,
-            name: 'Halfeti İlçesi',
-            latitude: '37.25397000',
-            longitude: '37.87940000'),
-        City(
             id: 107777,
             name: 'Haliliye',
             latitude: '37.14144000',
@@ -8261,20 +5891,10 @@ const tur = Country(
             latitude: '36.86000000',
             longitude: '39.03139000'),
         City(
-            id: 107797,
-            name: 'Harran İlçesi',
-            latitude: '36.84306000',
-            longitude: '39.21833000'),
-        City(
             id: 107825,
             name: 'Hilvan',
             latitude: '37.58687000',
             longitude: '38.95505000'),
-        City(
-            id: 107826,
-            name: 'Hilvan İlçesi',
-            latitude: '37.59383000',
-            longitude: '38.96000000'),
         City(
             id: 107853,
             name: 'Işıklar',
@@ -8341,30 +5961,15 @@ const tur = Country(
             latitude: '37.75503000',
             longitude: '39.31667000'),
         City(
-            id: 108477,
-            name: 'Siverek İlçesi',
-            latitude: '37.76186000',
-            longitude: '39.32024000'),
-        City(
             id: 108507,
             name: 'Suruç',
             latitude: '36.97612000',
             longitude: '38.42533000'),
         City(
-            id: 108508,
-            name: 'Suruç İlçesi',
-            latitude: '36.97681000',
-            longitude: '38.42620000'),
-        City(
             id: 108653,
             name: 'Viranşehir',
             latitude: '37.22349000',
             longitude: '39.75519000'),
-        City(
-            id: 108654,
-            name: 'Viranşehir İlçesi',
-            latitude: '37.23103000',
-            longitude: '39.76247000'),
         City(
             id: 108736,
             name: 'Yukarı Taşyalak',
@@ -8377,11 +5982,6 @@ const tur = Country(
             name: 'Baykan',
             latitude: '38.15754000',
             longitude: '41.77330000'),
-        City(
-            id: 107299,
-            name: 'Baykan İlçesi',
-            latitude: '38.16315000',
-            longitude: '41.78407000'),
         City(
             id: 107435,
             name: 'Civankan',
@@ -8402,11 +6002,6 @@ const tur = Country(
             name: 'Eruh',
             latitude: '37.74183000',
             longitude: '42.17422000'),
-        City(
-            id: 107599,
-            name: 'Eruh İlçesi',
-            latitude: '37.74606000',
-            longitude: '42.17507000'),
         City(
             id: 107680,
             name: 'Gökbudak',
@@ -8443,11 +6038,6 @@ const tur = Country(
             latitude: '37.92533000',
             longitude: '41.68493000'),
         City(
-            id: 108056,
-            name: 'Kurtalan İlçesi',
-            latitude: '37.92440000',
-            longitude: '41.70083000'),
-        City(
             id: 108132,
             name: 'Lodi',
             latitude: '37.71261000',
@@ -8468,11 +6058,6 @@ const tur = Country(
             latitude: '37.93573000',
             longitude: '42.54927000'),
         City(
-            id: 108340,
-            name: 'Pervari İlçesi',
-            latitude: '37.87222000',
-            longitude: '42.57111000'),
-        City(
             id: 108439,
             name: 'Serhatta',
             latitude: '37.66278000',
@@ -8488,11 +6073,6 @@ const tur = Country(
             latitude: '38.06251000',
             longitude: '42.02517000'),
         City(
-            id: 108962,
-            name: 'Şirvan İlçesi',
-            latitude: '38.06289000',
-            longitude: '42.02778000'),
-        City(
             id: 108533,
             name: 'Taliban',
             latitude: '37.98100000',
@@ -8506,12 +6086,7 @@ const tur = Country(
             id: 108576,
             name: 'Tillo',
             latitude: '37.94911000',
-            longitude: '42.01210000'),
-        City(
-            id: 108577,
-            name: 'Tillo İlçesi',
-            latitude: '37.94962000',
-            longitude: '42.01147000')
+            longitude: '42.01210000')
       ]),
       State(id: 4854, name: 'Sinop Province', stateCode: '57', cities: [
         City(
@@ -8519,11 +6094,6 @@ const tur = Country(
             name: 'Boyabat',
             latitude: '41.46889000',
             longitude: '34.76667000'),
-        City(
-            id: 142114,
-            name: 'Boyabat İlçesi',
-            latitude: '41.47914000',
-            longitude: '34.77175000'),
         City(
             id: 142115,
             name: 'Dikmen',
@@ -8539,11 +6109,6 @@ const tur = Country(
             name: 'Erfelek',
             latitude: '41.87926000',
             longitude: '34.91838000'),
-        City(
-            id: 142118,
-            name: 'Erfelek İlçesi',
-            latitude: '41.88907000',
-            longitude: '34.92652000'),
         City(
             id: 142119,
             name: 'Gerze',
@@ -8568,12 +6133,7 @@ const tur = Country(
             id: 142123,
             name: 'Türkeli',
             latitude: '41.94777778',
-            longitude: '34.33861111'),
-        City(
-            id: 142124,
-            name: 'Türkeli İlçesi',
-            latitude: '41.94197000',
-            longitude: '34.34821000')
+            longitude: '34.33861111')
       ]),
       State(id: 2181, name: 'Sivas Province', stateCode: '58', cities: [
         City(
@@ -8581,11 +6141,6 @@ const tur = Country(
             name: 'Akıncılar',
             latitude: '40.07172000',
             longitude: '38.34330000'),
-        City(
-            id: 107114,
-            name: 'Akıncılar İlçesi',
-            latitude: '40.07866000',
-            longitude: '38.34618000'),
         City(
             id: 107096,
             name: 'Aksu',
@@ -8597,100 +6152,50 @@ const tur = Country(
             latitude: '39.27249000',
             longitude: '36.75098000'),
         City(
-            id: 107151,
-            name: 'Altınyayla İlçesi',
-            latitude: '39.28233000',
-            longitude: '36.75681000'),
-        City(
             id: 107500,
             name: 'Divriği',
             latitude: '39.37100000',
             longitude: '38.11370000'),
-        City(
-            id: 107501,
-            name: 'Divriği İlçesi',
-            latitude: '39.37924000',
-            longitude: '38.12144000'),
         City(
             id: 107523,
             name: 'Doğanşar',
             latitude: '40.20841000',
             longitude: '37.53123000'),
         City(
-            id: 107524,
-            name: 'Doğanşar İlçesi',
-            latitude: '40.21408000',
-            longitude: '37.53599000'),
-        City(
             id: 107658,
             name: 'Gemerek',
             latitude: '39.18342000',
             longitude: '36.07189000'),
-        City(
-            id: 107659,
-            name: 'Gemerek İlçesi',
-            latitude: '39.19397000',
-            longitude: '36.07783000'),
         City(
             id: 107700,
             name: 'Gölova',
             latitude: '40.06194000',
             longitude: '38.60667000'),
         City(
-            id: 107701,
-            name: 'Gölova İlçesi',
-            latitude: '40.06070000',
-            longitude: '38.60840000'),
-        City(
             id: 107757,
             name: 'Gürün',
             latitude: '38.72225000',
             longitude: '37.27097000'),
-        City(
-            id: 107758,
-            name: 'Gürün İlçesi',
-            latitude: '38.73288000',
-            longitude: '37.27516000'),
         City(
             id: 107772,
             name: 'Hafik',
             latitude: '39.85639000',
             longitude: '37.38639000'),
         City(
-            id: 107773,
-            name: 'Hafik İlçesi',
-            latitude: '39.86693000',
-            longitude: '37.39720000'),
-        City(
             id: 108894,
             name: 'İmranlı',
             latitude: '39.87544000',
             longitude: '38.11358000'),
-        City(
-            id: 108895,
-            name: 'İmranlı İlçesi',
-            latitude: '39.88524000',
-            longitude: '38.12015000'),
         City(
             id: 107883,
             name: 'Kangal',
             latitude: '39.23354000',
             longitude: '37.39111000'),
         City(
-            id: 107884,
-            name: 'Kangal İlçesi',
-            latitude: '39.24324000',
-            longitude: '37.39731000'),
-        City(
             id: 108029,
             name: 'Koyulhisar',
             latitude: '40.30184000',
             longitude: '37.82336000'),
-        City(
-            id: 108030,
-            name: 'Koyulhisar İlçesi',
-            latitude: '40.30113000',
-            longitude: '37.83311000'),
         City(
             id: 108187,
             name: 'Merkez',
@@ -8702,11 +6207,6 @@ const tur = Country(
             latitude: '39.35186000',
             longitude: '36.40976000'),
         City(
-            id: 108939,
-            name: 'Şarkışla İlçesi',
-            latitude: '39.36171000',
-            longitude: '36.41827000'),
-        City(
             id: 108473,
             name: 'Sivas',
             latitude: '39.74833000',
@@ -8717,20 +6217,10 @@ const tur = Country(
             latitude: '40.16005000',
             longitude: '38.08413000'),
         City(
-            id: 108514,
-            name: 'Suşehri İlçesi',
-            latitude: '40.16338000',
-            longitude: '38.08926000'),
-        City(
             id: 108618,
             name: 'Ulaş',
             latitude: '39.44492000',
             longitude: '37.03900000'),
-        City(
-            id: 108619,
-            name: 'Ulaş İlçesi',
-            latitude: '39.45456000',
-            longitude: '37.04541000'),
         City(
             id: 108747,
             name: 'Yıldızeli İlçesi',
@@ -8819,11 +6309,6 @@ const tur = Country(
             latitude: '37.33024000',
             longitude: '42.18484000'),
         City(
-            id: 107437,
-            name: 'Cizre İlçesi',
-            latitude: '37.32785000',
-            longitude: '42.18721000'),
-        City(
             id: 107490,
             name: 'Dicle',
             latitude: '37.28869000',
@@ -8858,11 +6343,6 @@ const tur = Country(
             name: 'İdil',
             latitude: '37.33481000',
             longitude: '41.88944000'),
-        City(
-            id: 108880,
-            name: 'İdil İlçesi',
-            latitude: '37.34178000',
-            longitude: '41.88824000'),
         City(
             id: 108117,
             name: 'Kızılsu',
@@ -8909,20 +6389,10 @@ const tur = Country(
             latitude: '37.24379000',
             longitude: '42.46345000'),
         City(
-            id: 108462,
-            name: 'Silopi İlçesi',
-            latitude: '37.24978000',
-            longitude: '42.47173000'),
-        City(
             id: 108966,
             name: 'Şırnak',
             latitude: '37.51393000',
             longitude: '42.45432000'),
-        City(
-            id: 108967,
-            name: 'Şırnak İlçesi',
-            latitude: '37.53278000',
-            longitude: '42.38917000'),
         City(
             id: 108489,
             name: 'Sulak',
@@ -8938,11 +6408,6 @@ const tur = Country(
             name: 'Uludere',
             latitude: '37.44074000',
             longitude: '42.85236000'),
-        City(
-            id: 108627,
-            name: 'Uludere İlçesi',
-            latitude: '37.44615000',
-            longitude: '42.85222000'),
         City(
             id: 108638,
             name: 'Uzungeçit',
@@ -8981,11 +6446,6 @@ const tur = Country(
             latitude: '41.21311000',
             longitude: '27.10688000'),
         City(
-            id: 107814,
-            name: 'Hayrabolu İlçesi',
-            latitude: '41.22445000',
-            longitude: '27.11951000'),
-        City(
             id: 107885,
             name: 'Kapaklı',
             latitude: '41.32912000',
@@ -9001,20 +6461,10 @@ const tur = Country(
             latitude: '40.89000000',
             longitude: '26.90111000'),
         City(
-            id: 108145,
-            name: 'Malkara İlçesi',
-            latitude: '40.90052000',
-            longitude: '26.91367000'),
-        City(
             id: 108156,
             name: 'Marmara Ereğlisi',
             latitude: '40.97003000',
             longitude: '27.95528000'),
-        City(
-            id: 108157,
-            name: 'Marmara Ereğlisi İlçesi',
-            latitude: '40.98021000',
-            longitude: '27.94102000'),
         City(
             id: 108159,
             name: 'Marmaracık',
@@ -9030,11 +6480,6 @@ const tur = Country(
             name: 'Saray',
             latitude: '41.44431000',
             longitude: '27.92194000'),
-        City(
-            id: 108390,
-            name: 'Saray İlçesi',
-            latitude: '41.45475000',
-            longitude: '27.93734000'),
         City(
             id: 108937,
             name: 'Şarköy İlçesi',
@@ -9068,30 +6513,15 @@ const tur = Country(
             latitude: '40.37583000',
             longitude: '36.90444000'),
         City(
-            id: 107132,
-            name: 'Almus İlçesi',
-            latitude: '40.38643000',
-            longitude: '36.91284000'),
-        City(
             id: 107193,
             name: 'Artova',
             latitude: '40.11578000',
             longitude: '36.30010000'),
         City(
-            id: 107194,
-            name: 'Artova İlçesi',
-            latitude: '40.12681000',
-            longitude: '36.30728000'),
-        City(
             id: 107322,
             name: 'Başçiftlik',
             latitude: '40.54694000',
             longitude: '37.16917000'),
-        City(
-            id: 107323,
-            name: 'Başçiftlik İlçesi',
-            latitude: '40.55728000',
-            longitude: '37.17674000'),
         City(
             id: 107582,
             name: 'Erbaa',
@@ -9108,11 +6538,6 @@ const tur = Country(
             latitude: '40.27652000',
             longitude: '36.28347000'),
         City(
-            id: 108324,
-            name: 'Pazar İlçesi',
-            latitude: '40.28704000',
-            longitude: '36.29192000'),
-        City(
             id: 108370,
             name: 'Reşadiye',
             latitude: '40.43284000',
@@ -9122,11 +6547,6 @@ const tur = Country(
             name: 'Sulusaray',
             latitude: '39.99389000',
             longitude: '36.08404000'),
-        City(
-            id: 108503,
-            name: 'Sulusaray İlçesi',
-            latitude: '40.00491000',
-            longitude: '36.08976000'),
         City(
             id: 108580,
             name: 'Tokat',
@@ -9138,11 +6558,6 @@ const tur = Country(
             latitude: '40.38750000',
             longitude: '36.08111000'),
         City(
-            id: 108603,
-            name: 'Turhal İlçesi',
-            latitude: '40.39839000',
-            longitude: '36.08736000'),
-        City(
             id: 108729,
             name: 'Yeşilyurt İlçesi',
             latitude: '39.99916000',
@@ -9151,12 +6566,7 @@ const tur = Country(
             id: 108753,
             name: 'Zile',
             latitude: '40.30306000',
-            longitude: '35.88639000'),
-        City(
-            id: 108754,
-            name: 'Zile İlçesi',
-            latitude: '40.31426000',
-            longitude: '35.89399000')
+            longitude: '35.88639000')
       ]),
       State(id: 2206, name: 'Trabzon Province', stateCode: '61', cities: [
         City(
@@ -9190,50 +6600,25 @@ const tur = Country(
             latitude: '40.74267000',
             longitude: '40.23175000'),
         City(
-            id: 108802,
-            name: 'Çaykara İlçesi',
-            latitude: '40.74564000',
-            longitude: '40.24191000'),
-        City(
             id: 107483,
             name: 'Dernekpazarı',
             latitude: '40.79658000',
             longitude: '40.24460000'),
-        City(
-            id: 107484,
-            name: 'Dernekpazarı İlçesi',
-            latitude: '40.79913000',
-            longitude: '40.24725000'),
         City(
             id: 107544,
             name: 'Düzköy',
             latitude: '40.87461000',
             longitude: '39.41536000'),
         City(
-            id: 107545,
-            name: 'Düzköy İlçesi',
-            latitude: '40.87241000',
-            longitude: '39.42587000'),
-        City(
             id: 107815,
             name: 'Hayrat',
             latitude: '40.88530000',
             longitude: '40.36495000'),
         City(
-            id: 107816,
-            name: 'Hayrat İlçesi',
-            latitude: '40.89137000',
-            longitude: '40.36760000'),
-        City(
             id: 108073,
             name: 'Köprübaşı',
             latitude: '40.80692000',
             longitude: '40.11439000'),
-        City(
-            id: 108075,
-            name: 'Köprübaşı İlçesi',
-            latitude: '40.80845000',
-            longitude: '40.12280000'),
         City(
             id: 108165,
             name: 'Maçka',
@@ -9245,11 +6630,6 @@ const tur = Country(
             latitude: '40.94055000',
             longitude: '40.25918000'),
         City(
-            id: 108262,
-            name: 'Of İlçesi',
-            latitude: '40.94694000',
-            longitude: '40.26938000'),
-        City(
             id: 108282,
             name: 'Ortahisar',
             latitude: '40.88029000',
@@ -9260,30 +6640,15 @@ const tur = Country(
             latitude: '40.93826000',
             longitude: '39.19006000'),
         City(
-            id: 108931,
-            name: 'Şalpazarı İlçesi',
-            latitude: '40.94614000',
-            longitude: '39.17804000'),
-        City(
             id: 108524,
             name: 'Sürmene',
             latitude: '40.90588000',
             longitude: '40.12792000'),
         City(
-            id: 108525,
-            name: 'Sürmene İlçesi',
-            latitude: '40.91102000',
-            longitude: '40.12009000'),
-        City(
             id: 108583,
             name: 'Tonya',
             latitude: '40.88402000',
             longitude: '39.28486000'),
-        City(
-            id: 108584,
-            name: 'Tonya İlçesi',
-            latitude: '40.88523000',
-            longitude: '39.28992000'),
         City(
             id: 108596,
             name: 'Trabzon',
@@ -9298,12 +6663,7 @@ const tur = Country(
             id: 108733,
             name: 'Yomra',
             latitude: '40.95326000',
-            longitude: '39.85546000'),
-        City(
-            id: 108734,
-            name: 'Yomra İlçesi',
-            latitude: '40.95490000',
-            longitude: '39.86567000')
+            longitude: '39.85546000')
       ]),
       State(id: 2192, name: 'Tunceli Province', stateCode: '62', cities: [
         City(
@@ -9317,20 +6677,10 @@ const tur = Country(
             latitude: '39.10029000',
             longitude: '39.20816000'),
         City(
-            id: 107839,
-            name: 'Hozat İlçesi',
-            latitude: '39.10780000',
-            longitude: '39.21880000'),
-        City(
             id: 108161,
             name: 'Mazgirt',
             latitude: '39.01783000',
             longitude: '39.60064000'),
-        City(
-            id: 108162,
-            name: 'Mazgirt İlçesi',
-            latitude: '39.01913000',
-            longitude: '39.60473000'),
         City(
             id: 108179,
             name: 'Merkez',
@@ -9352,20 +6702,10 @@ const tur = Country(
             latitude: '39.35259000',
             longitude: '39.20890000'),
         City(
-            id: 108298,
-            name: 'Ovacık İlçesi',
-            latitude: '39.35783000',
-            longitude: '39.21628000'),
-        City(
             id: 108337,
             name: 'Pertek',
             latitude: '38.86574000',
             longitude: '39.32273000'),
-        City(
-            id: 108338,
-            name: 'Pertek İlçesi',
-            latitude: '38.86503000',
-            longitude: '39.32734000'),
         City(
             id: 108350,
             name: 'Pulumer',
@@ -9389,11 +6729,6 @@ const tur = Country(
             latitude: '38.73707000',
             longitude: '29.75194000'),
         City(
-            id: 107282,
-            name: 'Banaz İlçesi',
-            latitude: '38.74669000',
-            longitude: '29.75798000'),
-        City(
             id: 107415,
             name: 'Bölme',
             latitude: '38.62076000',
@@ -9403,11 +6738,6 @@ const tur = Country(
             name: 'Eşme',
             latitude: '38.39976000',
             longitude: '28.96905000'),
-        City(
-            id: 107631,
-            name: 'Eşme İlçesi',
-            latitude: '38.40930000',
-            longitude: '28.97578000'),
         City(
             id: 107729,
             name: 'Güllü',
@@ -9423,11 +6753,6 @@ const tur = Country(
             name: 'Karahallı',
             latitude: '38.32083000',
             longitude: '29.53028000'),
-        City(
-            id: 107895,
-            name: 'Karahallı İlçesi',
-            latitude: '38.33090000',
-            longitude: '29.53923000'),
         City(
             id: 108115,
             name: 'Kızılcasöğüt',
@@ -9449,11 +6774,6 @@ const tur = Country(
             latitude: '38.49944000',
             longitude: '29.68361000'),
         City(
-            id: 108475,
-            name: 'Sivaslı İlçesi',
-            latitude: '38.50848000',
-            longitude: '29.69016000'),
-        City(
             id: 108621,
             name: 'Ulubey',
             latitude: '38.41987000',
@@ -9471,30 +6791,15 @@ const tur = Country(
             latitude: '38.12460000',
             longitude: '42.79825000'),
         City(
-            id: 107263,
-            name: 'Bahçesaray İlçesi',
-            latitude: '38.12635000',
-            longitude: '42.80493000'),
-        City(
             id: 107315,
             name: 'Başkale',
             latitude: '38.04526000',
             longitude: '44.01718000'),
         City(
-            id: 107316,
-            name: 'Başkale İlçesi',
-            latitude: '38.05305000',
-            longitude: '44.02163000'),
-        City(
             id: 108760,
             name: 'Çaldıran',
             latitude: '39.14317000',
             longitude: '43.91068000'),
-        City(
-            id: 108761,
-            name: 'Çaldıran İlçesi',
-            latitude: '39.15053000',
-            longitude: '43.91415000'),
         City(
             id: 108787,
             name: 'Çatak İlçesi',
@@ -9516,20 +6821,10 @@ const tur = Country(
             latitude: '38.29210000',
             longitude: '43.10189000'),
         City(
-            id: 107671,
-            name: 'Gevaş İlçesi',
-            latitude: '38.29390000',
-            longitude: '43.10530000'),
-        City(
             id: 107753,
             name: 'Gürpınar',
             latitude: '38.32372000',
             longitude: '43.40991000'),
-        City(
-            id: 107755,
-            name: 'Gürpınar İlçesi',
-            latitude: '38.32396000',
-            longitude: '43.41036000'),
         City(
             id: 108908,
             name: 'İpekyolu',
@@ -9551,20 +6846,10 @@ const tur = Country(
             latitude: '38.65455000',
             longitude: '43.98869000'),
         City(
-            id: 108867,
-            name: 'Özalp İlçesi',
-            latitude: '38.66283000',
-            longitude: '43.99603000'),
-        City(
             id: 108387,
             name: 'Saray',
             latitude: '38.64691000',
             longitude: '44.16116000'),
-        City(
-            id: 108389,
-            name: 'Saray İlçesi',
-            latitude: '38.65513000',
-            longitude: '44.17731000'),
         City(
             id: 108613,
             name: 'Tuşpa',
@@ -9583,11 +6868,6 @@ const tur = Country(
             latitude: '40.69495000',
             longitude: '29.50986000'),
         City(
-            id: 107146,
-            name: 'Altınova İlçesi',
-            latitude: '40.70478000',
-            longitude: '29.51606000'),
-        City(
             id: 107187,
             name: 'Armutlu İlçesi',
             latitude: '40.52919000',
@@ -9598,20 +6878,10 @@ const tur = Country(
             latitude: '40.66028000',
             longitude: '29.32361000'),
         City(
-            id: 108832,
-            name: 'Çiftlikköy İlçesi',
-            latitude: '40.65302000',
-            longitude: '29.33946000'),
-        City(
             id: 108856,
             name: 'Çınarcık',
             latitude: '40.64538000',
             longitude: '29.12450000'),
-        City(
-            id: 108857,
-            name: 'Çınarcık İlçesi',
-            latitude: '40.63669000',
-            longitude: '29.13881000'),
         City(
             id: 107862,
             name: 'Kadıköy',
@@ -9660,20 +6930,10 @@ const tur = Country(
             latitude: '39.66028000',
             longitude: '35.88361000'),
         City(
-            id: 107078,
-            name: 'Akdağmadeni İlçesi',
-            latitude: '39.66404000',
-            longitude: '35.89747000'),
-        City(
             id: 107222,
             name: 'Aydıncık',
             latitude: '40.12727000',
             longitude: '35.28765000'),
-        City(
-            id: 107224,
-            name: 'Aydıncık İlçesi',
-            latitude: '40.13734000',
-            longitude: '35.29459000'),
         City(
             id: 107397,
             name: 'Boğazlıyan İlçesi',
@@ -9690,40 +6950,20 @@ const tur = Country(
             latitude: '39.30278000',
             longitude: '35.64389000'),
         City(
-            id: 108805,
-            name: 'Çayıralan İlçesi',
-            latitude: '39.31377000',
-            longitude: '35.65160000'),
-        City(
             id: 108810,
             name: 'Çekerek',
             latitude: '40.07306000',
             longitude: '35.49472000'),
-        City(
-            id: 108811,
-            name: 'Çekerek İlçesi',
-            latitude: '40.08331000',
-            longitude: '35.49869000'),
         City(
             id: 107866,
             name: 'Kadışehri',
             latitude: '39.99568000',
             longitude: '35.79193000'),
         City(
-            id: 107867,
-            name: 'Kadışehri İlçesi',
-            latitude: '40.00551000',
-            longitude: '35.79800000'),
-        City(
             id: 108391,
             name: 'Saraykent',
             latitude: '39.69361000',
             longitude: '35.51111000'),
-        City(
-            id: 108392,
-            name: 'Saraykent İlçesi',
-            latitude: '39.70389000',
-            longitude: '35.51628000'),
         City(
             id: 108403,
             name: 'Sarıkaya',
@@ -9745,30 +6985,15 @@ const tur = Country(
             latitude: '39.81012000',
             longitude: '35.18596000'),
         City(
-            id: 108488,
-            name: 'Sorgun İlçesi',
-            latitude: '39.82022000',
-            longitude: '35.19205000'),
-        City(
             id: 108697,
             name: 'Yenifakılı',
             latitude: '39.21142000',
             longitude: '35.00036000'),
         City(
-            id: 108698,
-            name: 'Yenifakılı İlçesi',
-            latitude: '39.21073000',
-            longitude: '35.01459000'),
-        City(
             id: 108718,
             name: 'Yerköy',
             latitude: '39.63806000',
             longitude: '34.46722000'),
-        City(
-            id: 108719,
-            name: 'Yerköy İlçesi',
-            latitude: '39.64415000',
-            longitude: '34.48386000'),
         City(
             id: 108735,
             name: 'Yozgat',
@@ -9782,30 +7007,15 @@ const tur = Country(
             latitude: '41.18140000',
             longitude: '31.38514000'),
         City(
-            id: 107125,
-            name: 'Alaplı İlçesi',
-            latitude: '41.17793000',
-            longitude: '31.38662000'),
-        City(
             id: 108798,
             name: 'Çaycuma',
             latitude: '41.42639000',
             longitude: '32.07556000'),
         City(
-            id: 108799,
-            name: 'Çaycuma İlçesi',
-            latitude: '41.43664000',
-            longitude: '32.08457000'),
-        City(
             id: 107486,
             name: 'Devrek',
             latitude: '41.21917000',
             longitude: '31.95583000'),
-        City(
-            id: 107487,
-            name: 'Devrek İlçesi',
-            latitude: '41.22818000',
-            longitude: '31.96519000'),
         City(
             id: 107590,
             name: 'Ereğli',

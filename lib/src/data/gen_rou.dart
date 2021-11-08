@@ -3589,11 +3589,6 @@ const rou = Country(
             latitude: '46.19394000',
             longitude: '26.72923000'),
         City(
-            id: 92377,
-            name: 'Comuna Mãnãstirea Caşin',
-            latitude: '46.14381000',
-            longitude: '26.69500000'),
-        City(
             id: 92408,
             name: 'Comuna Mărgineni',
             latitude: '46.59779000',
@@ -4178,11 +4173,6 @@ const rou = Country(
             name: 'Pănceşti',
             latitude: '46.33333000',
             longitude: '27.08333000'),
-        City(
-            id: 96017,
-            name: 'Păncești',
-            latitude: '46.21118000',
-            longitude: '27.06797000'),
         City(
             id: 95710,
             name: 'Parava',
@@ -10100,11 +10090,6 @@ const rou = Country(
             latitude: '44.21667000',
             longitude: '26.95000000'),
         City(
-            id: 94005,
-            name: 'Dorobanțu',
-            latitude: '44.35416000',
-            longitude: '26.39341000'),
-        City(
             id: 94011,
             name: 'Dragalina',
             latitude: '44.43333000',
@@ -15912,11 +15897,6 @@ const rou = Country(
             latitude: '44.48195000',
             longitude: '23.44645000'),
         City(
-            id: 106015,
-            name: 'Sălcuța',
-            latitude: '44.15986000',
-            longitude: '23.70247000'),
-        City(
             id: 106014,
             name: 'Sălcuţa',
             latitude: '44.25000000',
@@ -16794,11 +16774,6 @@ const rou = Country(
             latitude: '45.71667000',
             longitude: '27.46667000'),
         City(
-            id: 96653,
-            name: 'Umbrărești',
-            latitude: '45.84835000',
-            longitude: '27.91845000'),
-        City(
             id: 96654,
             name: 'Umbrărești-Deal',
             latitude: '45.70000000',
@@ -17505,11 +17480,6 @@ const rou = Country(
             name: 'Stoeneşti',
             latitude: '44.14444000',
             longitude: '25.89500000'),
-        City(
-            id: 96437,
-            name: 'Stoenești',
-            latitude: '44.48569000',
-            longitude: '25.71196000'),
         City(
             id: 96579,
             name: 'Tântava',
@@ -21296,11 +21266,6 @@ const rou = Country(
             latitude: '47.26667000',
             longitude: '26.56667000'),
         City(
-            id: 93720,
-            name: 'Cristești',
-            latitude: '47.16224000',
-            longitude: '27.08155000'),
-        City(
             id: 93728,
             name: 'Crivești',
             latitude: '47.32430000',
@@ -21775,11 +21740,6 @@ const rou = Country(
             name: 'Scheia',
             latitude: '47.11725000',
             longitude: '26.88153000'),
-        City(
-            id: 97032,
-            name: 'Şcheia',
-            latitude: '46.93333000',
-            longitude: '27.51667000'),
         City(
             id: 96273,
             name: 'Schitu-Duca',
@@ -22545,20 +22505,10 @@ const rou = Country(
             latitude: '47.65729000',
             longitude: '23.56808000'),
         City(
-            id: 95111,
-            name: 'Baia Mare',
-            latitude: '47.74048000',
-            longitude: '23.60337000'),
-        City(
             id: 90030,
             name: 'Baia Sprie',
             latitude: '47.66189000',
             longitude: '23.69215000'),
-        City(
-            id: 95455,
-            name: 'Baia Sprie',
-            latitude: '47.66446000',
-            longitude: '23.66970000'),
         City(
             id: 90488,
             name: 'Băile Borșa',
@@ -22665,11 +22615,6 @@ const rou = Country(
             latitude: '47.65527000',
             longitude: '24.66328000'),
         City(
-            id: 95468,
-            name: 'Borşa',
-            latitude: '47.66965000',
-            longitude: '24.68846000'),
-        City(
             id: 90245,
             name: 'Botiza',
             latitude: '47.66667000',
@@ -22749,11 +22694,6 @@ const rou = Country(
             name: 'Cavnic',
             latitude: '47.66667000',
             longitude: '23.86667000'),
-        City(
-            id: 95637,
-            name: 'Cavnic',
-            latitude: '47.64989000',
-            longitude: '23.82547000'),
         City(
             id: 90633,
             name: 'Cerneşti',
@@ -23255,11 +23195,6 @@ const rou = Country(
             latitude: '47.66839000',
             longitude: '24.29111000'),
         City(
-            id: 95639,
-            name: 'Dragomireşti',
-            latitude: '47.66860000',
-            longitude: '24.29542000'),
-        City(
             id: 146768,
             name: 'Dumbrava',
             latitude: '47.49324800',
@@ -23740,11 +23675,6 @@ const rou = Country(
             latitude: '47.66019000',
             longitude: '24.35336000'),
         City(
-            id: 106018,
-            name: 'Săliştea de Sus',
-            latitude: '47.65000000',
-            longitude: '24.35000000'),
-        City(
             id: 146836,
             name: 'Sălnița',
             latitude: '47.41159000',
@@ -23805,11 +23735,6 @@ const rou = Country(
             latitude: '47.75000000',
             longitude: '23.28333000'),
         City(
-            id: 96323,
-            name: 'Seini',
-            latitude: '47.75000000',
-            longitude: '23.28333000'),
-        City(
             id: 97122,
             name: 'Șieu',
             latitude: '47.72462000',
@@ -23819,11 +23744,6 @@ const rou = Country(
             name: 'Sighetu Marmaţiei',
             latitude: '47.91914000',
             longitude: '23.88679000'),
-        City(
-            id: 96336,
-            name: 'Sighetu Marmaţiei',
-            latitude: '47.93195000',
-            longitude: '23.88603000'),
         City(
             id: 146857,
             name: 'Șindrești',
@@ -23841,11 +23761,6 @@ const rou = Country(
             longitude: '24.08980000'),
         City(
             id: 95651,
-            name: 'Şomcuta Mare',
-            latitude: '47.51667000',
-            longitude: '23.46667000'),
-        City(
-            id: 97069,
             name: 'Şomcuta Mare',
             latitude: '47.51667000',
             longitude: '23.46667000'),
@@ -23915,11 +23830,6 @@ const rou = Country(
             latitude: '47.46124000',
             longitude: '23.85353000'),
         City(
-            id: 96585,
-            name: 'Târgu Lăpuş',
-            latitude: '47.45261000',
-            longitude: '23.86539000'),
-        City(
             id: 96628,
             name: 'Tăuții de Sus',
             latitude: '47.65665000',
@@ -23929,11 +23839,6 @@ const rou = Country(
             name: 'Tăuţii-Măgherăuş',
             latitude: '47.72129000',
             longitude: '23.48601000'),
-        City(
-            id: 96629,
-            name: 'Tăuții-Măgherăuș',
-            latitude: '47.65000000',
-            longitude: '23.48333000'),
         City(
             id: 146837,
             name: 'Teceu Mic',
@@ -23969,11 +23874,6 @@ const rou = Country(
             name: 'Ulmeni',
             latitude: '47.46209000',
             longitude: '23.27925000'),
-        City(
-            id: 96646,
-            name: 'Ulmeni',
-            latitude: '47.46667000',
-            longitude: '23.30000000'),
         City(
             id: 146842,
             name: 'Ulmoasa',
@@ -24088,12 +23988,7 @@ const rou = Country(
             id: 95619,
             name: 'Vişeu De Sus',
             latitude: '47.71493000',
-            longitude: '24.41707000'),
-        City(
-            id: 96848,
-            name: 'Vişeu de Sus',
-            latitude: '47.71667000',
-            longitude: '24.43333000')
+            longitude: '24.41707000')
       ]),
       State(id: 4751, name: 'Mehedinți County', stateCode: 'MH', cities: [
         City(
@@ -25938,11 +25833,6 @@ const rou = Country(
             name: 'Iclănzel',
             latitude: '46.53000000',
             longitude: '24.28000000'),
-        City(
-            id: 146439,
-            name: 'Iclănzel',
-            latitude: '46.53663000',
-            longitude: '24.27153000'),
         City(
             id: 146440,
             name: 'Ideciu de Jos',
@@ -28507,11 +28397,6 @@ const rou = Country(
             name: 'Barza',
             latitude: '44.33333000',
             longitude: '24.78333000'),
-        City(
-            id: 90459,
-            name: 'Bârza',
-            latitude: '44.32811000',
-            longitude: '24.14188000'),
         City(
             id: 90140,
             name: 'Bircii',
@@ -33568,11 +33453,6 @@ const rou = Country(
             latitude: '47.23333000',
             longitude: '25.70000000'),
         City(
-            id: 90311,
-            name: 'Broșteni',
-            latitude: '47.30459000',
-            longitude: '26.55625000'),
-        City(
             id: 90370,
             name: 'Bucșoaia',
             latitude: '47.53972000',
@@ -37474,11 +37354,6 @@ const rou = Country(
             latitude: '44.96667000',
             longitude: '29.46667000'),
         City(
-            id: 93737,
-            name: 'Crișan',
-            latitude: '45.17462000',
-            longitude: '29.38598000'),
-        City(
             id: 94116,
             name: 'Dăeni',
             latitude: '44.83333000',
@@ -38295,11 +38170,6 @@ const rou = Country(
             name: 'Dăeşti',
             latitude: '44.96667000',
             longitude: '24.13333000'),
-        City(
-            id: 94118,
-            name: 'Dăești',
-            latitude: '45.20107000',
-            longitude: '24.38684000'),
         City(
             id: 93901,
             name: 'Dealu Aluniș',

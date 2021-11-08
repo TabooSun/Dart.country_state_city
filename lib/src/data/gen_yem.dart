@@ -177,11 +177,6 @@ const yem = Country(
             latitude: '13.68530000',
             longitude: '46.75560000'),
         City(
-            id: 130809,
-            name: 'Aḩwar',
-            latitude: '13.52019000',
-            longitude: '46.71367000'),
-        City(
             id: 130714,
             name: 'Al Mahfad',
             latitude: '13.97050000',
@@ -216,11 +211,6 @@ const yem = Country(
             name: 'Mudiyah',
             latitude: '13.90960000',
             longitude: '46.21960000'),
-        City(
-            id: 130933,
-            name: 'Mūdīyah',
-            latitude: '13.92840000',
-            longitude: '46.08254000'),
         City(
             id: 130952,
             name: 'Rasad',
@@ -435,11 +425,6 @@ const yem = Country(
                 latitude: '15.22882000',
                 longitude: '42.72542000'),
             City(
-                id: 130807,
-                name: 'Aş Şalīf',
-                latitude: '15.30755000',
-                longitude: '42.67107000'),
-            City(
                 id: 130785,
                 name: 'As Sukhnah',
                 latitude: '14.74840000',
@@ -511,11 +496,6 @@ const yem = Country(
             name: 'Al Hazm',
             latitude: '16.03780000',
             longitude: '44.95850000'),
-        City(
-            id: 130756,
-            name: 'Al Ḩazm',
-            latitude: '16.16406000',
-            longitude: '44.77692000'),
         City(
             id: 130699,
             name: 'Al Humaydat',
@@ -800,11 +780,6 @@ const yem = Country(
             latitude: '14.97230000',
             longitude: '49.55260000'),
         City(
-            id: 130794,
-            name: 'Ash Shiḩr',
-            latitude: '14.76026000',
-            longitude: '49.60537000'),
-        City(
             id: 130797,
             name: 'At Taḩāluf',
             latitude: '15.93786000',
@@ -889,11 +864,6 @@ const yem = Country(
             name: 'Tarim',
             latitude: '16.06600000',
             longitude: '49.02290000'),
-        City(
-            id: 130987,
-            name: 'Tarīm',
-            latitude: '16.05694000',
-            longitude: '48.99889000'),
         City(
             id: 130989,
             name: 'Thamud',
@@ -986,11 +956,6 @@ const yem = Country(
             name: 'Bani Qa\'is',
             latitude: '15.63460000',
             longitude: '43.33720000'),
-        City(
-            id: 131011,
-            name: 'Ḩajjah',
-            latitude: '15.69425000',
-            longitude: '43.60582000'),
         City(
             id: 130850,
             name: 'Hajjah',
@@ -1220,11 +1185,6 @@ const yem = Country(
             name: 'Al Musaymir',
             latitude: '13.42910000',
             longitude: '44.59140000'),
-        City(
-            id: 130742,
-            name: 'Al Musaymīr',
-            latitude: '13.44389000',
-            longitude: '44.61528000'),
         City(
             id: 130743,
             name: 'Al Qabbaytah',
@@ -1462,11 +1422,6 @@ const yem = Country(
             latitude: '16.86010000',
             longitude: '43.47160000'),
         City(
-            id: 130985,
-            name: 'Sāqayn',
-            latitude: '16.87700000',
-            longitude: '43.52499000'),
-        City(
             id: 130973,
             name: 'Shada\'a',
             latitude: '16.89130000',
@@ -1544,11 +1499,6 @@ const yem = Country(
             name: 'Manakhah',
             latitude: '15.07170000',
             longitude: '43.68620000'),
-        City(
-            id: 130910,
-            name: 'Manākhah',
-            latitude: '15.07422000',
-            longitude: '43.74156000'),
         City(
             id: 130937,
             name: 'Nihm',

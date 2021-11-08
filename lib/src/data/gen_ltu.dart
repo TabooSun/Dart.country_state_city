@@ -332,11 +332,6 @@ const ltu = Country(
                 latitude: '55.34889000',
                 longitude: '21.48306000'),
             City(
-                id: 66716,
-                name: 'Šilutė',
-                latitude: '55.35000000',
-                longitude: '21.48333000'),
-            City(
                 id: 66681,
                 name: 'Skuodas',
                 latitude: '56.26667000',
@@ -424,11 +419,6 @@ const ltu = Country(
                 latitude: '54.95000000',
                 longitude: '23.05000000'),
             City(
-                id: 66708,
-                name: 'Šakiai',
-                latitude: '54.95339000',
-                longitude: '23.04779000'),
-            City(
                 id: 66699,
                 name: 'Vilkaviskis',
                 latitude: '54.65167000',
@@ -485,11 +475,6 @@ const ltu = Country(
                 latitude: '56.20000000',
                 longitude: '24.75000000'),
             City(
-                id: 66589,
-                name: 'Biržai',
-                latitude: '56.20000000',
-                longitude: '24.75000000'),
-            City(
                 id: 66608,
                 name: 'Juodupė',
                 latitude: '56.08700000',
@@ -499,11 +484,6 @@ const ltu = Country(
                 name: 'Kupiskis',
                 latitude: '55.84027000',
                 longitude: '24.97976000'),
-            City(
-                id: 66626,
-                name: 'Kupiškis',
-                latitude: '55.83333000',
-                longitude: '24.96667000'),
             City(
                 id: 66646,
                 name: 'Obeliai',
@@ -633,11 +613,6 @@ const ltu = Country(
                 latitude: '55.81667000',
                 longitude: '23.53333000'),
             City(
-                id: 66663,
-                name: 'Radviliškis',
-                latitude: '55.81667000',
-                longitude: '23.53333000'),
-            City(
                 id: 66710,
                 name: 'Šeduva',
                 latitude: '55.74930000',
@@ -719,12 +694,7 @@ const ltu = Country(
             id: 66683,
             name: 'Taurage',
             latitude: '55.25222000',
-            longitude: '22.28972000'),
-        City(
-            id: 66684,
-            name: 'Tauragė',
-            latitude: '55.25000000',
-            longitude: '22.28333000')
+            longitude: '22.28972000')
       ]),
       State(
           id: 1572,
@@ -743,11 +713,6 @@ const ltu = Country(
                 latitude: '56.31667000',
                 longitude: '22.33333000'),
             City(
-                id: 66638,
-                name: 'Mažeikiai',
-                latitude: '56.31667000',
-                longitude: '22.33333000'),
-            City(
                 id: 66657,
                 name: 'Plateliai',
                 latitude: '56.04657000',
@@ -757,11 +722,6 @@ const ltu = Country(
                 name: 'Plunge',
                 latitude: '55.91139000',
                 longitude: '21.84417000'),
-            City(
-                id: 66659,
-                name: 'Plungė',
-                latitude: '55.91667000',
-                longitude: '21.85000000'),
             City(
                 id: 66668,
                 name: 'Rietavas',
@@ -777,11 +737,6 @@ const ltu = Country(
                 name: 'Telsiai',
                 latitude: '55.98139000',
                 longitude: '22.24722000'),
-            City(
-                id: 66686,
-                name: 'Telšiai',
-                latitude: '55.98333000',
-                longitude: '22.25000000'),
             City(
                 id: 66693,
                 name: 'Varniai',
@@ -810,11 +765,6 @@ const ltu = Country(
             latitude: '55.52557000',
             longitude: '25.10264000'),
         City(
-            id: 66583,
-            name: 'Anykščiai',
-            latitude: '55.53333000',
-            longitude: '25.10000000'),
-        City(
             id: 66594,
             name: 'Dūkštas',
             latitude: '55.52200000',
@@ -829,11 +779,6 @@ const ltu = Country(
             name: 'Moletai',
             latitude: '55.23333000',
             longitude: '25.41667000'),
-        City(
-            id: 66640,
-            name: 'Molėtai',
-            latitude: '55.22469000',
-            longitude: '25.41688000'),
         City(
             id: 66691,
             name: 'Utena',
@@ -971,11 +916,6 @@ const ltu = Country(
                 latitude: '55.05000000',
                 longitude: '24.95000000'),
             City(
-                id: 66717,
-                name: 'Širvintos',
-                latitude: '55.04400000',
-                longitude: '24.95446000'),
-            City(
                 id: 66680,
                 name: 'Skaidiškės',
                 latitude: '54.61398000',
@@ -991,11 +931,6 @@ const ltu = Country(
                 latitude: '55.15000000',
                 longitude: '26.16667000'),
             City(
-                id: 66719,
-                name: 'Švenčionys',
-                latitude: '55.13500000',
-                longitude: '26.15900000'),
-            City(
                 id: 66687,
                 name: 'Trakai',
                 latitude: '54.63783000',
@@ -1003,11 +938,6 @@ const ltu = Country(
             City(
                 id: 66689,
                 name: 'Ukmerge',
-                latitude: '55.25000000',
-                longitude: '24.75000000'),
-            City(
-                id: 66690,
-                name: 'Ukmergė',
                 latitude: '55.25000000',
                 longitude: '24.75000000'),
             City(

@@ -4,7 +4,7 @@ import 'package:country_state_city/country_state_city.dart';
 
 const kor = Country(
     id: 116,
-    name: 'Korea South',
+    name: 'South Korea',
     iso3: 'KOR',
     iso2: 'KR',
     phoneCode: '82',

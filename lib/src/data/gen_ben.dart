@@ -58,12 +58,7 @@ const ben = Country(
             id: 9813,
             name: 'Tanguieta',
             latitude: '11.03621000',
-            longitude: '1.41757000'),
-        City(
-            id: 9814,
-            name: 'Tanguiéta',
-            latitude: '10.62118000',
-            longitude: '1.26651000')
+            longitude: '1.41757000')
       ]),
       State(id: 3079, name: 'Atlantique Department', stateCode: 'AQ', cities: [
         City(

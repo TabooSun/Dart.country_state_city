@@ -1542,11 +1542,6 @@ const fin = Country(
             latitude: '63.00000000',
             longitude: '23.81667000'),
         City(
-            id: 39131,
-            name: 'Älajärvi',
-            latitude: '63.00027000',
-            longitude: '23.81586000'),
-        City(
             id: 38734,
             name: 'Alavus',
             latitude: '62.58333000',

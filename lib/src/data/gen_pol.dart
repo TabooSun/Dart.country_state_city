@@ -7246,11 +7246,6 @@ const pol = Country(
             latitude: '51.68616000',
             longitude: '19.70098000'),
         City(
-            id: 88753,
-            name: 'powiat Łódzki Wschodni',
-            latitude: '51.76529000',
-            longitude: '19.48288000'),
-        City(
             id: 88752,
             name: 'powiat Łowicki',
             latitude: '52.10627000',
@@ -9469,11 +9464,6 @@ const pol = Country(
             name: 'Chrościna',
             latitude: '50.66578000',
             longitude: '17.81759000'),
-        City(
-            id: 86066,
-            name: 'Chróścina',
-            latitude: '50.62306000',
-            longitude: '17.36861000'),
         City(
             id: 86064,
             name: 'Chrząstowice',
@@ -15093,11 +15083,6 @@ const pol = Country(
                 name: 'Swiętajno',
                 latitude: '54.00151000',
                 longitude: '22.31830000'),
-            City(
-                id: 88866,
-                name: 'Świętajno',
-                latitude: '53.56692000',
-                longitude: '21.21546000'),
             City(
                 id: 88305,
                 name: 'Szczytno',

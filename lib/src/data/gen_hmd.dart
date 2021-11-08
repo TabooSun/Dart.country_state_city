@@ -7,7 +7,7 @@ const hmd = Country(
     name: 'Heard Island and McDonald Islands',
     iso3: 'HMD',
     iso2: 'HM',
-    phoneCode: '',
+    phoneCode: '672',
     capital: '',
     currency: 'AUD',
     currencySymbol: r'$',

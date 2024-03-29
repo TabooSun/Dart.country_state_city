@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const ncl = Country(
-    id: 157,
-    name: 'New Caledonia',
-    iso3: 'NCL',
-    iso2: 'NC',
-    phoneCode: '687',
-    capital: 'Noumea',
-    currency: 'XPF',
-    currencySymbol: r'₣',
-    tld: '.nc',
-    native: 'Nouvelle-Calédonie',
-    region: 'Oceania',
-    subregion: 'Melanesia',
-    timezones: [
-      Timezone(
-          zoneName: 'Pacific/Noumea',
-          gmtOffset: 39600,
-          gmtOffsetName: 'UTC+11:00',
-          abbreviation: 'NCT',
-          tzName: 'New Caledonia Time')
-    ],
-    emoji: '🇳🇨',
-    emojiU: 'U+1F1F3 U+1F1E8',
-    states: []);
+  id: 157,
+  name: 'New Caledonia',
+  iso3: 'NCL',
+  iso2: 'NC',
+  phoneCode: '687',
+  capital: 'Noumea',
+  currency: 'XPF',
+  currencySymbol: r'₣',
+  tld: '.nc',
+  native: 'Nouvelle-Calédonie',
+  region: 'Oceania',
+  subregion: 'Melanesia',
+  timezones: [
+    Timezone(
+      zoneName: 'Pacific/Noumea',
+      gmtOffset: 39600,
+      gmtOffsetName: 'UTC+11:00',
+      abbreviation: 'NCT',
+      tzName: 'New Caledonia Time',
+    )
+  ],
+  emoji: '🇳🇨',
+  emojiU: 'U+1F1F3 U+1F1E8',
+  states: [],
+);

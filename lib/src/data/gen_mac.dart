@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const mac = Country(
-    id: 128,
-    name: 'Macau S.A.R.',
-    iso3: 'MAC',
-    iso2: 'MO',
-    phoneCode: '853',
-    capital: 'Macao',
-    currency: 'MOP',
-    currencySymbol: r'$',
-    tld: '.mo',
-    native: '澳門',
-    region: 'Asia',
-    subregion: 'Eastern Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Macau',
-          gmtOffset: 28800,
-          gmtOffsetName: 'UTC+08:00',
-          abbreviation: 'CST',
-          tzName: 'China Standard Time')
-    ],
-    emoji: '🇲🇴',
-    emojiU: 'U+1F1F2 U+1F1F4',
-    states: []);
+  id: 128,
+  name: 'Macau S.A.R.',
+  iso3: 'MAC',
+  iso2: 'MO',
+  phoneCode: '853',
+  capital: 'Macao',
+  currency: 'MOP',
+  currencySymbol: r'$',
+  tld: '.mo',
+  native: '澳門',
+  region: 'Asia',
+  subregion: 'Eastern Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Macau',
+      gmtOffset: 28800,
+      gmtOffsetName: 'UTC+08:00',
+      abbreviation: 'CST',
+      tzName: 'China Standard Time',
+    )
+  ],
+  emoji: '🇲🇴',
+  emojiU: 'U+1F1F2 U+1F1F4',
+  states: [],
+);

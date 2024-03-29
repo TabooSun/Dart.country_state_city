@@ -3,64 +3,73 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const sgp = Country(
-    id: 199,
-    name: 'Singapore',
-    iso3: 'SGP',
-    iso2: 'SG',
-    phoneCode: '65',
-    capital: 'Singapur',
-    currency: 'SGD',
-    currencySymbol: r'$',
-    tld: '.sg',
-    native: 'Singapore',
-    region: 'Asia',
-    subregion: 'South-Eastern Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Singapore',
-          gmtOffset: 28800,
-          gmtOffsetName: 'UTC+08:00',
-          abbreviation: 'SGT',
-          tzName: 'Singapore Time')
-    ],
-    emoji: '🇸🇬',
-    emojiU: 'U+1F1F8 U+1F1EC',
-    states: [
-      State(
-          id: 4651,
-          name: 'Central Singapore Community Development Council',
-          stateCode: '01',
-          cities: [
-            City(
-                id: 104057,
-                name: 'Singapore',
-                latitude: '1.28967000',
-                longitude: '103.85007000')
-          ]),
-      State(
-          id: 4649,
-          name: 'North East Community Development Council',
-          stateCode: '02',
-          cities: []),
-      State(
-          id: 4653,
-          name: 'North West Community Development Council',
-          stateCode: '03',
-          cities: [
-            City(
-                id: 104058,
-                name: 'Woodlands',
-                latitude: '1.43801000',
-                longitude: '103.78877000')
-          ]),
-      State(
-          id: 4650,
-          name: 'South East Community Development Council',
-          stateCode: '04',
-          cities: []),
-      State(
-          id: 4652,
-          name: 'South West Community Development Council',
-          stateCode: '05',
-          cities: [])
-    ]);
+  id: 199,
+  name: 'Singapore',
+  iso3: 'SGP',
+  iso2: 'SG',
+  phoneCode: '65',
+  capital: 'Singapur',
+  currency: 'SGD',
+  currencySymbol: r'$',
+  tld: '.sg',
+  native: 'Singapore',
+  region: 'Asia',
+  subregion: 'South-Eastern Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Singapore',
+      gmtOffset: 28800,
+      gmtOffsetName: 'UTC+08:00',
+      abbreviation: 'SGT',
+      tzName: 'Singapore Time',
+    )
+  ],
+  emoji: '🇸🇬',
+  emojiU: 'U+1F1F8 U+1F1EC',
+  states: [
+    CountryState(
+      id: 4651,
+      name: 'Central Singapore Community Development Council',
+      stateCode: '01',
+      cities: [
+        City(
+          id: 104057,
+          name: 'Singapore',
+          latitude: '1.28967000',
+          longitude: '103.85007000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4649,
+      name: 'North East Community Development Council',
+      stateCode: '02',
+      cities: [],
+    ),
+    CountryState(
+      id: 4653,
+      name: 'North West Community Development Council',
+      stateCode: '03',
+      cities: [
+        City(
+          id: 104058,
+          name: 'Woodlands',
+          latitude: '1.43801000',
+          longitude: '103.78877000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4650,
+      name: 'South East Community Development Council',
+      stateCode: '04',
+      cities: [],
+    ),
+    CountryState(
+      id: 4652,
+      name: 'South West Community Development Council',
+      stateCode: '05',
+      cities: [],
+    ),
+  ],
+);

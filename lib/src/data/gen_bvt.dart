@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const bvt = Country(
-    id: 30,
-    name: 'Bouvet Island',
-    iso3: 'BVT',
-    iso2: 'BV',
-    phoneCode: '0055',
-    capital: '',
-    currency: 'NOK',
-    currencySymbol: r'kr',
-    tld: '.bv',
-    native: 'Bouvetøya',
-    region: '',
-    subregion: '',
-    timezones: [
-      Timezone(
-          zoneName: 'Europe/Oslo',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'CET',
-          tzName: 'Central European Time')
-    ],
-    emoji: '🇧🇻',
-    emojiU: 'U+1F1E7 U+1F1FB',
-    states: []);
+  id: 30,
+  name: 'Bouvet Island',
+  iso3: 'BVT',
+  iso2: 'BV',
+  phoneCode: '0055',
+  capital: '',
+  currency: 'NOK',
+  currencySymbol: r'kr',
+  tld: '.bv',
+  native: 'Bouvetøya',
+  region: '',
+  subregion: '',
+  timezones: [
+    Timezone(
+      zoneName: 'Europe/Oslo',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'CET',
+      tzName: 'Central European Time',
+    )
+  ],
+  emoji: '🇧🇻',
+  emojiU: 'U+1F1E7 U+1F1FB',
+  states: [],
+);

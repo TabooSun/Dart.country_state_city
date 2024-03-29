@@ -3,748 +3,1005 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const ven = Country(
-    id: 239,
-    name: 'Venezuela',
-    iso3: 'VEN',
-    iso2: 'VE',
-    phoneCode: '58',
-    capital: 'Caracas',
-    currency: 'VEF',
-    currencySymbol: r'Bs',
-    tld: '.ve',
-    native: 'Venezuela',
-    region: 'Americas',
-    subregion: 'South America',
-    timezones: [
-      Timezone(
-          zoneName: 'America/Caracas',
-          gmtOffset: -14400,
-          gmtOffsetName: 'UTC-04:00',
-          abbreviation: 'VET',
-          tzName: 'Venezuelan Standard Time')
-    ],
-    emoji: '🇻🇪',
-    emojiU: 'U+1F1FB U+1F1EA',
-    states: [
-      State(id: 2044, name: 'Amazonas', stateCode: 'Z', cities: [
-        City(
-            id: 130106,
-            name: 'Maroa',
-            latitude: '2.71880000',
-            longitude: '-67.56046000'),
-        City(
-            id: 130110,
-            name: 'Municipio Autónomo Alto Orinoco',
-            latitude: '2.73456000',
-            longitude: '-64.83032000'),
-        City(
-            id: 130131,
-            name: 'Puerto Ayacucho',
-            latitude: '5.66049000',
-            longitude: '-67.58343000'),
-        City(
-            id: 130142,
-            name: 'San Carlos de Río Negro',
-            latitude: '1.92027000',
-            longitude: '-67.06089000'),
-        City(
-            id: 130146,
-            name: 'San Fernando de Atabapo',
-            latitude: '4.04564000',
-            longitude: '-67.69934000'),
-        City(
-            id: 130149,
-            name: 'San Juan de Manapiare',
-            latitude: '5.32665000',
-            longitude: '-66.05402000')
-      ]),
-      State(id: 2050, name: 'Anzoátegui', stateCode: 'B', cities: [
-        City(
-            id: 130041,
-            name: 'Anaco',
-            latitude: '9.42958000',
-            longitude: '-64.46428000'),
-        City(
-            id: 130042,
-            name: 'Aragua de Barcelona',
-            latitude: '9.45588000',
-            longitude: '-64.82928000'),
-        City(
-            id: 130044,
-            name: 'Barcelona',
-            latitude: '10.13625000',
-            longitude: '-64.68618000'),
-        City(
-            id: 130054,
-            name: 'Cantaura',
-            latitude: '9.30571000',
-            longitude: '-64.35841000'),
-        City(
-            id: 130078,
-            name: 'El Tigre',
-            latitude: '8.88902000',
-            longitude: '-64.25270000'),
-        City(
-            id: 130113,
-            name: 'Municipio José Gregorio Monagas',
-            latitude: '7.73874000',
-            longitude: '-64.71876000'),
-        City(
-            id: 130127,
-            name: 'Onoto',
-            latitude: '9.59714000',
-            longitude: '-65.19350000'),
-        City(
-            id: 130133,
-            name: 'Puerto La Cruz',
-            latitude: '10.21382000',
-            longitude: '-64.63280000'),
-        City(
-            id: 130134,
-            name: 'Puerto Píritu',
-            latitude: '10.05896000',
-            longitude: '-65.03698000'),
-        City(
-            id: 130148,
-            name: 'San José de Guanipa',
-            latitude: '8.88724000',
-            longitude: '-64.16512000')
-      ]),
-      State(id: 4856, name: 'Apure', stateCode: 'C', cities: []),
-      State(id: 2047, name: 'Aragua', stateCode: 'D', cities: [
-        City(
-            id: 130052,
-            name: 'Cagua',
-            latitude: '10.18634000',
-            longitude: '-67.45935000'),
-        City(
-            id: 130077,
-            name: 'El Limón',
-            latitude: '10.30589000',
-            longitude: '-67.63212000'),
-        City(
-            id: 130093,
-            name: 'La Victoria',
-            latitude: '10.22677000',
-            longitude: '-67.33122000'),
-        City(
-            id: 130096,
-            name: 'Las Tejerías',
-            latitude: '10.25416000',
-            longitude: '-67.17333000'),
-        City(
-            id: 130104,
-            name: 'Maracay',
-            latitude: '10.23535000',
-            longitude: '-67.59113000'),
-        City(
-            id: 130128,
-            name: 'Palo Negro',
-            latitude: '10.17389000',
-            longitude: '-67.54194000'),
-        City(
-            id: 130151,
-            name: 'San Mateo',
-            latitude: '10.21302000',
-            longitude: '-67.42365000'),
-        City(
-            id: 130153,
-            name: 'Santa Rita',
-            latitude: '10.20540000',
-            longitude: '-67.55948000'),
-        City(
-            id: 130162,
-            name: 'Turmero',
-            latitude: '10.22856000',
-            longitude: '-67.47421000'),
-        City(
-            id: 130169,
-            name: 'Villa de Cura',
-            latitude: '10.03863000',
-            longitude: '-67.48938000')
-      ]),
-      State(id: 2049, name: 'Barinas', stateCode: 'E', cities: [
-        City(
-            id: 130040,
-            name: 'Alto Barinas',
-            latitude: '8.59310000',
-            longitude: '-70.22610000'),
-        City(
-            id: 130045,
-            name: 'Barinas',
-            latitude: '8.62261000',
-            longitude: '-70.20749000'),
-        City(
-            id: 130046,
-            name: 'Barinitas',
-            latitude: '8.76171000',
-            longitude: '-70.41199000'),
-        City(
-            id: 130111,
-            name: 'Municipio Barinas',
-            latitude: '8.61497000',
-            longitude: '-70.19852000')
-      ]),
-      State(id: 2039, name: 'Bolívar', stateCode: 'F', cities: [
-        City(
-            id: 130067,
-            name: 'Ciudad Bolívar',
-            latitude: '8.12923000',
-            longitude: '-63.54086000'),
-        City(
-            id: 130068,
-            name: 'Ciudad Guayana',
-            latitude: '8.35122000',
-            longitude: '-62.64102000'),
-        City(
-            id: 130119,
-            name: 'Municipio Padre Pedro Chien',
-            latitude: '8.02455000',
-            longitude: '-61.88187000'),
-        City(
-            id: 130152,
-            name: 'Santa Elena de Uairén',
-            latitude: '4.60226000',
-            longitude: '-61.11025000'),
-        City(
-            id: 130164,
-            name: 'Upata',
-            latitude: '8.01620000',
-            longitude: '-62.40561000')
-      ]),
-      State(id: 4855, name: 'Capital District', stateCode: 'A', cities: []),
-      State(id: 2040, name: 'Carabobo', stateCode: 'G', cities: [
-        City(
-            id: 130081,
-            name: 'Guacara',
-            latitude: '10.22609000',
-            longitude: '-67.87700000'),
-        City(
-            id: 130085,
-            name: 'Güigüe',
-            latitude: '10.08344000',
-            longitude: '-67.77799000'),
-        City(
-            id: 130098,
-            name: 'Los Guayos',
-            latitude: '10.18932000',
-            longitude: '-67.93828000'),
-        City(
-            id: 130105,
-            name: 'Mariara',
-            latitude: '10.29532000',
-            longitude: '-67.71770000'),
-        City(
-            id: 130108,
-            name: 'Morón',
-            latitude: '10.48715000',
-            longitude: '-68.20078000'),
-        City(
-            id: 130132,
-            name: 'Puerto Cabello',
-            latitude: '10.47306000',
-            longitude: '-68.01250000'),
-        City(
-            id: 130147,
-            name: 'San Joaquín',
-            latitude: '10.26061000',
-            longitude: '-67.79348000'),
-        City(
-            id: 130156,
-            name: 'Tacarigua',
-            latitude: '10.08621000',
-            longitude: '-67.91982000'),
-        City(
-            id: 130158,
-            name: 'Tocuyito',
-            latitude: '10.11347000',
-            longitude: '-68.06783000'),
-        City(
-            id: 130165,
-            name: 'Valencia',
-            latitude: '10.16202000',
-            longitude: '-68.00765000')
-      ]),
-      State(id: 2034, name: 'Cojedes', stateCode: 'H', cities: [
-        City(
-            id: 130141,
-            name: 'San Carlos',
-            latitude: '9.66124000',
-            longitude: '-68.58268000'),
-        City(
-            id: 130157,
-            name: 'Tinaquillo',
-            latitude: '9.91861000',
-            longitude: '-68.30472000')
-      ]),
-      State(id: 2051, name: 'Delta Amacuro', stateCode: 'Y', cities: [
-        City(
-            id: 130161,
-            name: 'Tucupita',
-            latitude: '9.05806000',
-            longitude: '-62.05000000')
-      ]),
-      State(id: 2035, name: 'Falcón', stateCode: 'I', cities: [
-        City(
-            id: 130065,
-            name: 'Chichiriviche',
-            latitude: '10.92872000',
-            longitude: '-68.27283000'),
-        City(
-            id: 130071,
-            name: 'Coro',
-            latitude: '11.40450000',
-            longitude: '-69.67344000'),
-        City(
-            id: 130116,
-            name: 'Municipio Los Taques',
-            latitude: '11.82308000',
-            longitude: '-70.25353000'),
-        City(
-            id: 130118,
-            name: 'Municipio Miranda',
-            latitude: '11.31667000',
-            longitude: '-69.86667000'),
-        City(
-            id: 130135,
-            name: 'Punta Cardón',
-            latitude: '11.65806000',
-            longitude: '-70.21500000'),
-        City(
-            id: 130136,
-            name: 'Punto Fijo',
-            latitude: '11.69152000',
-            longitude: '-70.19918000'),
-        City(
-            id: 130160,
-            name: 'Tucacas',
-            latitude: '10.79006000',
-            longitude: '-68.32564000')
-      ]),
-      State(
-          id: 2046,
-          name: 'Federal Dependencies of Venezuela',
-          stateCode: 'W',
-          cities: []),
-      State(id: 2045, name: 'Guárico', stateCode: 'J', cities: [
-        City(
-            id: 130039,
-            name: 'Altagracia de Orituco',
-            latitude: '9.86005000',
-            longitude: '-66.38139000'),
-        City(
-            id: 130053,
-            name: 'Calabozo',
-            latitude: '8.92416000',
-            longitude: '-67.42929000'),
-        City(
-            id: 130150,
-            name: 'San Juan de los Morros',
-            latitude: '9.91152000',
-            longitude: '-67.35381000'),
-        City(
-            id: 130167,
-            name: 'Valle de La Pascua',
-            latitude: '9.21554000',
-            longitude: '-66.00734000'),
-        City(
-            id: 130171,
-            name: 'Zaraza',
-            latitude: '9.35029000',
-            longitude: '-65.32452000')
-      ]),
-      State(id: 2038, name: 'Lara', stateCode: 'K', cities: [
-        City(
-            id: 130047,
-            name: 'Barquisimeto',
-            latitude: '10.06470000',
-            longitude: '-69.35703000'),
-        City(
-            id: 130051,
-            name: 'Cabudare',
-            latitude: '10.02658000',
-            longitude: '-69.26203000'),
-        City(
-            id: 130057,
-            name: 'Carora',
-            latitude: '10.17283000',
-            longitude: '-70.08100000'),
-        City(
-            id: 130079,
-            name: 'El Tocuyo',
-            latitude: '9.78709000',
-            longitude: '-69.79294000'),
-        City(
-            id: 130099,
-            name: 'Los Rastrojos',
-            latitude: '10.02588000',
-            longitude: '-69.24166000'),
-        City(
-            id: 130137,
-            name: 'Quíbor',
-            latitude: '9.92866000',
-            longitude: '-69.62010000')
-      ]),
-      State(id: 2053, name: 'Mérida', stateCode: 'L', cities: [
-        City(
-            id: 130074,
-            name: 'Ejido',
-            latitude: '8.54665000',
-            longitude: '-71.24087000'),
-        City(
-            id: 130080,
-            name: 'El Vigía',
-            latitude: '8.61350000',
-            longitude: '-71.65702000'),
-        City(
-            id: 130124,
-            name: 'Mérida',
-            latitude: '8.58972000',
-            longitude: '-71.15611000'),
-        City(
-            id: 130109,
-            name: 'Mucumpiz',
-            latitude: '8.41667000',
-            longitude: '-71.13333000'),
-        City(
-            id: 130115,
-            name: 'Municipio Libertador',
-            latitude: '8.33333000',
-            longitude: '-71.11667000')
-      ]),
-      State(id: 2037, name: 'Miranda', stateCode: 'M', cities: [
-        City(
-            id: 130048,
-            name: 'Baruta',
-            latitude: '10.43424000',
-            longitude: '-66.87558000'),
-        City(
-            id: 130058,
-            name: 'Carrizal',
-            latitude: '10.34985000',
-            longitude: '-66.98632000'),
-        City(
-            id: 130061,
-            name: 'Caucaguita',
-            latitude: '10.35782000',
-            longitude: '-66.80252000'),
-        City(
-            id: 130062,
-            name: 'Caucagüito',
-            latitude: '10.48666000',
-            longitude: '-66.73799000'),
-        City(
-            id: 130063,
-            name: 'Chacao',
-            latitude: '10.49581000',
-            longitude: '-66.85367000'),
-        City(
-            id: 130064,
-            name: 'Charallave',
-            latitude: '10.24247000',
-            longitude: '-66.85723000'),
-        City(
-            id: 130073,
-            name: 'Cúa',
-            latitude: '10.16245000',
-            longitude: '-66.88248000'),
-        City(
-            id: 130075,
-            name: 'El Cafetal',
-            latitude: '10.46541000',
-            longitude: '-66.82951000'),
-        City(
-            id: 130076,
-            name: 'El Hatillo',
-            latitude: '10.42411000',
-            longitude: '-66.82581000'),
-        City(
-            id: 130083,
-            name: 'Guarenas',
-            latitude: '10.47027000',
-            longitude: '-66.61934000'),
-        City(
-            id: 130084,
-            name: 'Guatire',
-            latitude: '10.47400000',
-            longitude: '-66.54241000'),
-        City(
-            id: 130089,
-            name: 'La Dolorita',
-            latitude: '10.48830000',
-            longitude: '-66.78608000'),
-        City(
-            id: 130097,
-            name: 'Los Dos Caminos',
-            latitude: '10.49389000',
-            longitude: '-66.82863000'),
-        City(
-            id: 130100,
-            name: 'Los Teques',
-            latitude: '10.34447000',
-            longitude: '-67.04325000'),
-        City(
-            id: 130126,
-            name: 'Ocumare del Tuy',
-            latitude: '10.11820000',
-            longitude: '-66.77513000'),
-        City(
-            id: 130129,
-            name: 'Petare',
-            latitude: '10.47679000',
-            longitude: '-66.80786000'),
-        City(
-            id: 130139,
-            name: 'San Antonio de Los Altos',
-            latitude: '10.38853000',
-            longitude: '-66.95179000'),
-        City(
-            id: 130155,
-            name: 'Santa Teresa del Tuy',
-            latitude: '10.23291000',
-            longitude: '-66.66474000')
-      ]),
-      State(id: 2054, name: 'Monagas', stateCode: 'N', cities: [
-        City(
-            id: 130056,
-            name: 'Caripito',
-            latitude: '10.11135000',
-            longitude: '-63.09985000'),
-        City(
-            id: 130107,
-            name: 'Maturín',
-            latitude: '9.74569000',
-            longitude: '-63.18323000'),
-        City(
-            id: 130117,
-            name: 'Municipio Maturín',
-            latitude: '9.40000000',
-            longitude: '-63.03333000'),
-        City(
-            id: 130122,
-            name: 'Municipio Uracoa',
-            latitude: '8.99960000',
-            longitude: '-62.35164000')
-      ]),
-      State(id: 2052, name: 'Nueva Esparta', stateCode: 'O', cities: [
-        City(
-            id: 130087,
-            name: 'Juan Griego',
-            latitude: '11.08172000',
-            longitude: '-63.96549000'),
-        City(
-            id: 130088,
-            name: 'La Asunción',
-            latitude: '11.03333000',
-            longitude: '-63.86278000'),
-        City(
-            id: 130130,
-            name: 'Porlamar',
-            latitude: '10.95771000',
-            longitude: '-63.86971000')
-      ]),
-      State(id: 2036, name: 'Portuguesa', stateCode: 'P', cities: [
-        City(
-            id: 130038,
-            name: 'Acarigua',
-            latitude: '9.55451000',
-            longitude: '-69.19564000'),
-        City(
-            id: 130043,
-            name: 'Araure',
-            latitude: '9.58144000',
-            longitude: '-69.23851000'),
-        City(
-            id: 130082,
-            name: 'Guanare',
-            latitude: '9.04183000',
-            longitude: '-69.74206000'),
-        City(
-            id: 130168,
-            name: 'Villa Bruzual',
-            latitude: '9.33186000',
-            longitude: '-69.11968000')
-      ]),
-      State(id: 2056, name: 'Sucre', stateCode: 'R', cities: [
-        City(
-            id: 130059,
-            name: 'Carúpano',
-            latitude: '10.66516000',
-            longitude: '-63.25387000'),
-        City(
-            id: 130072,
-            name: 'Cumaná',
-            latitude: '10.45397000',
-            longitude: '-64.18256000'),
-        City(
-            id: 130086,
-            name: 'Güiria',
-            latitude: '10.57721000',
-            longitude: '-62.29841000'),
-        City(
-            id: 130123,
-            name: 'Municipio Valdez',
-            latitude: '10.57945000',
-            longitude: '-62.30029000')
-      ]),
-      State(id: 2048, name: 'Táchira', stateCode: 'S', cities: [
-        City(
-            id: 130070,
-            name: 'Colón',
-            latitude: '8.03125000',
-            longitude: '-72.26053000'),
-        City(
-            id: 130090,
-            name: 'La Fría',
-            latitude: '8.21523000',
-            longitude: '-72.24888000'),
-        City(
-            id: 130091,
-            name: 'La Grita',
-            latitude: '8.13316000',
-            longitude: '-71.98390000'),
-        City(
-            id: 130114,
-            name: 'Municipio José María Vargas',
-            latitude: '8.03514000',
-            longitude: '-72.05675000'),
-        City(
-            id: 130138,
-            name: 'Rubio',
-            latitude: '7.70131000',
-            longitude: '-72.35569000'),
-        City(
-            id: 130140,
-            name: 'San Antonio del Táchira',
-            latitude: '7.81454000',
-            longitude: '-72.44310000'),
-        City(
-            id: 130144,
-            name: 'San Cristóbal',
-            latitude: '7.76694000',
-            longitude: '-72.22500000'),
-        City(
-            id: 130163,
-            name: 'Táriba',
-            latitude: '7.81880000',
-            longitude: '-72.22427000')
-      ]),
-      State(id: 2043, name: 'Trujillo', stateCode: 'T', cities: [
-        City(
-            id: 130049,
-            name: 'Boconó',
-            latitude: '9.25385000',
-            longitude: '-70.25105000'),
-        City(
-            id: 130120,
-            name: 'Municipio Pampanito',
-            latitude: '9.41147000',
-            longitude: '-70.49592000'),
-        City(
-            id: 130121,
-            name: 'Municipio San Rafael de Carvajal',
-            latitude: '9.30756000',
-            longitude: '-70.58965000'),
-        City(
-            id: 130159,
-            name: 'Trujillo',
-            latitude: '9.36583000',
-            longitude: '-70.43694000'),
-        City(
-            id: 130166,
-            name: 'Valera',
-            latitude: '9.31778000',
-            longitude: '-70.60361000')
-      ]),
-      State(id: 2055, name: 'Vargas', stateCode: 'X', cities: [
-        City(
-            id: 130055,
-            name: 'Caraballeda',
-            latitude: '10.61216000',
-            longitude: '-66.85192000'),
-        City(
-            id: 130060,
-            name: 'Catia La Mar',
-            latitude: '10.60545000',
-            longitude: '-67.03238000'),
-        City(
-            id: 130092,
-            name: 'La Guaira',
-            latitude: '10.60156000',
-            longitude: '-66.93293000'),
-        City(
-            id: 130102,
-            name: 'Maiquetía',
-            latitude: '10.59450000',
-            longitude: '-66.95624000')
-      ]),
-      State(id: 2041, name: 'Yaracuy', stateCode: 'U', cities: [
-        City(
-            id: 130066,
-            name: 'Chivacoa',
-            latitude: '10.15951000',
-            longitude: '-68.89453000'),
-        City(
-            id: 130112,
-            name: 'Municipio Independencia',
-            latitude: '10.33472000',
-            longitude: '-68.75555000'),
-        City(
-            id: 130125,
-            name: 'Nirgua',
-            latitude: '10.15039000',
-            longitude: '-68.56478000'),
-        City(
-            id: 130145,
-            name: 'San Felipe',
-            latitude: '10.33991000',
-            longitude: '-68.74247000'),
-        City(
-            id: 130170,
-            name: 'Yaritagua',
-            latitude: '10.08081000',
-            longitude: '-69.12420000')
-      ]),
-      State(id: 2042, name: 'Zulia', stateCode: 'V', cities: [
-        City(
-            id: 130050,
-            name: 'Cabimas',
-            latitude: '10.39907000',
-            longitude: '-71.45206000'),
-        City(
-            id: 130069,
-            name: 'Ciudad Ojeda',
-            latitude: '10.20161000',
-            longitude: '-71.31480000'),
-        City(
-            id: 130094,
-            name: 'La Villa del Rosario',
-            latitude: '10.32580000',
-            longitude: '-72.31343000'),
-        City(
-            id: 130095,
-            name: 'Lagunillas',
-            latitude: '10.13008000',
-            longitude: '-71.25946000'),
-        City(
-            id: 130101,
-            name: 'Machiques',
-            latitude: '10.06077000',
-            longitude: '-72.55212000'),
-        City(
-            id: 130103,
-            name: 'Maracaibo',
-            latitude: '10.66663000',
-            longitude: '-71.61245000'),
-        City(
-            id: 130143,
-            name: 'San Carlos del Zulia',
-            latitude: '9.00098000',
-            longitude: '-71.92683000'),
-        City(
-            id: 130154,
-            name: 'Santa Rita',
-            latitude: '10.53642000',
-            longitude: '-71.51104000')
-      ])
-    ]);
+  id: 239,
+  name: 'Venezuela',
+  iso3: 'VEN',
+  iso2: 'VE',
+  phoneCode: '58',
+  capital: 'Caracas',
+  currency: 'VEF',
+  currencySymbol: r'Bs',
+  tld: '.ve',
+  native: 'Venezuela',
+  region: 'Americas',
+  subregion: 'South America',
+  timezones: [
+    Timezone(
+      zoneName: 'America/Caracas',
+      gmtOffset: -14400,
+      gmtOffsetName: 'UTC-04:00',
+      abbreviation: 'VET',
+      tzName: 'Venezuelan Standard Time',
+    )
+  ],
+  emoji: '🇻🇪',
+  emojiU: 'U+1F1FB U+1F1EA',
+  states: [
+    CountryState(
+      id: 2044,
+      name: 'Amazonas',
+      stateCode: 'Z',
+      cities: [
+        City(
+          id: 130106,
+          name: 'Maroa',
+          latitude: '2.71880000',
+          longitude: '-67.56046000',
+        ),
+        City(
+          id: 130110,
+          name: 'Municipio Autónomo Alto Orinoco',
+          latitude: '2.73456000',
+          longitude: '-64.83032000',
+        ),
+        City(
+          id: 130131,
+          name: 'Puerto Ayacucho',
+          latitude: '5.66049000',
+          longitude: '-67.58343000',
+        ),
+        City(
+          id: 130142,
+          name: 'San Carlos de Río Negro',
+          latitude: '1.92027000',
+          longitude: '-67.06089000',
+        ),
+        City(
+          id: 130146,
+          name: 'San Fernando de Atabapo',
+          latitude: '4.04564000',
+          longitude: '-67.69934000',
+        ),
+        City(
+          id: 130149,
+          name: 'San Juan de Manapiare',
+          latitude: '5.32665000',
+          longitude: '-66.05402000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2050,
+      name: 'Anzoátegui',
+      stateCode: 'B',
+      cities: [
+        City(
+          id: 130041,
+          name: 'Anaco',
+          latitude: '9.42958000',
+          longitude: '-64.46428000',
+        ),
+        City(
+          id: 130042,
+          name: 'Aragua de Barcelona',
+          latitude: '9.45588000',
+          longitude: '-64.82928000',
+        ),
+        City(
+          id: 130044,
+          name: 'Barcelona',
+          latitude: '10.13625000',
+          longitude: '-64.68618000',
+        ),
+        City(
+          id: 130054,
+          name: 'Cantaura',
+          latitude: '9.30571000',
+          longitude: '-64.35841000',
+        ),
+        City(
+          id: 130078,
+          name: 'El Tigre',
+          latitude: '8.88902000',
+          longitude: '-64.25270000',
+        ),
+        City(
+          id: 130113,
+          name: 'Municipio José Gregorio Monagas',
+          latitude: '7.73874000',
+          longitude: '-64.71876000',
+        ),
+        City(
+          id: 130127,
+          name: 'Onoto',
+          latitude: '9.59714000',
+          longitude: '-65.19350000',
+        ),
+        City(
+          id: 130133,
+          name: 'Puerto La Cruz',
+          latitude: '10.21382000',
+          longitude: '-64.63280000',
+        ),
+        City(
+          id: 130134,
+          name: 'Puerto Píritu',
+          latitude: '10.05896000',
+          longitude: '-65.03698000',
+        ),
+        City(
+          id: 130148,
+          name: 'San José de Guanipa',
+          latitude: '8.88724000',
+          longitude: '-64.16512000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4856,
+      name: 'Apure',
+      stateCode: 'C',
+      cities: [],
+    ),
+    CountryState(
+      id: 2047,
+      name: 'Aragua',
+      stateCode: 'D',
+      cities: [
+        City(
+          id: 130052,
+          name: 'Cagua',
+          latitude: '10.18634000',
+          longitude: '-67.45935000',
+        ),
+        City(
+          id: 130077,
+          name: 'El Limón',
+          latitude: '10.30589000',
+          longitude: '-67.63212000',
+        ),
+        City(
+          id: 130093,
+          name: 'La Victoria',
+          latitude: '10.22677000',
+          longitude: '-67.33122000',
+        ),
+        City(
+          id: 130096,
+          name: 'Las Tejerías',
+          latitude: '10.25416000',
+          longitude: '-67.17333000',
+        ),
+        City(
+          id: 130104,
+          name: 'Maracay',
+          latitude: '10.23535000',
+          longitude: '-67.59113000',
+        ),
+        City(
+          id: 130128,
+          name: 'Palo Negro',
+          latitude: '10.17389000',
+          longitude: '-67.54194000',
+        ),
+        City(
+          id: 130151,
+          name: 'San Mateo',
+          latitude: '10.21302000',
+          longitude: '-67.42365000',
+        ),
+        City(
+          id: 130153,
+          name: 'Santa Rita',
+          latitude: '10.20540000',
+          longitude: '-67.55948000',
+        ),
+        City(
+          id: 130162,
+          name: 'Turmero',
+          latitude: '10.22856000',
+          longitude: '-67.47421000',
+        ),
+        City(
+          id: 130169,
+          name: 'Villa de Cura',
+          latitude: '10.03863000',
+          longitude: '-67.48938000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2049,
+      name: 'Barinas',
+      stateCode: 'E',
+      cities: [
+        City(
+          id: 130040,
+          name: 'Alto Barinas',
+          latitude: '8.59310000',
+          longitude: '-70.22610000',
+        ),
+        City(
+          id: 130045,
+          name: 'Barinas',
+          latitude: '8.62261000',
+          longitude: '-70.20749000',
+        ),
+        City(
+          id: 130046,
+          name: 'Barinitas',
+          latitude: '8.76171000',
+          longitude: '-70.41199000',
+        ),
+        City(
+          id: 130111,
+          name: 'Municipio Barinas',
+          latitude: '8.61497000',
+          longitude: '-70.19852000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2039,
+      name: 'Bolívar',
+      stateCode: 'F',
+      cities: [
+        City(
+          id: 130067,
+          name: 'Ciudad Bolívar',
+          latitude: '8.12923000',
+          longitude: '-63.54086000',
+        ),
+        City(
+          id: 130068,
+          name: 'Ciudad Guayana',
+          latitude: '8.35122000',
+          longitude: '-62.64102000',
+        ),
+        City(
+          id: 130119,
+          name: 'Municipio Padre Pedro Chien',
+          latitude: '8.02455000',
+          longitude: '-61.88187000',
+        ),
+        City(
+          id: 130152,
+          name: 'Santa Elena de Uairén',
+          latitude: '4.60226000',
+          longitude: '-61.11025000',
+        ),
+        City(
+          id: 130164,
+          name: 'Upata',
+          latitude: '8.01620000',
+          longitude: '-62.40561000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4855,
+      name: 'Capital District',
+      stateCode: 'A',
+      cities: [],
+    ),
+    CountryState(
+      id: 2040,
+      name: 'Carabobo',
+      stateCode: 'G',
+      cities: [
+        City(
+          id: 130081,
+          name: 'Guacara',
+          latitude: '10.22609000',
+          longitude: '-67.87700000',
+        ),
+        City(
+          id: 130085,
+          name: 'Güigüe',
+          latitude: '10.08344000',
+          longitude: '-67.77799000',
+        ),
+        City(
+          id: 130098,
+          name: 'Los Guayos',
+          latitude: '10.18932000',
+          longitude: '-67.93828000',
+        ),
+        City(
+          id: 130105,
+          name: 'Mariara',
+          latitude: '10.29532000',
+          longitude: '-67.71770000',
+        ),
+        City(
+          id: 130108,
+          name: 'Morón',
+          latitude: '10.48715000',
+          longitude: '-68.20078000',
+        ),
+        City(
+          id: 130132,
+          name: 'Puerto Cabello',
+          latitude: '10.47306000',
+          longitude: '-68.01250000',
+        ),
+        City(
+          id: 130147,
+          name: 'San Joaquín',
+          latitude: '10.26061000',
+          longitude: '-67.79348000',
+        ),
+        City(
+          id: 130156,
+          name: 'Tacarigua',
+          latitude: '10.08621000',
+          longitude: '-67.91982000',
+        ),
+        City(
+          id: 130158,
+          name: 'Tocuyito',
+          latitude: '10.11347000',
+          longitude: '-68.06783000',
+        ),
+        City(
+          id: 130165,
+          name: 'Valencia',
+          latitude: '10.16202000',
+          longitude: '-68.00765000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2034,
+      name: 'Cojedes',
+      stateCode: 'H',
+      cities: [
+        City(
+          id: 130141,
+          name: 'San Carlos',
+          latitude: '9.66124000',
+          longitude: '-68.58268000',
+        ),
+        City(
+          id: 130157,
+          name: 'Tinaquillo',
+          latitude: '9.91861000',
+          longitude: '-68.30472000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2051,
+      name: 'Delta Amacuro',
+      stateCode: 'Y',
+      cities: [
+        City(
+          id: 130161,
+          name: 'Tucupita',
+          latitude: '9.05806000',
+          longitude: '-62.05000000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2035,
+      name: 'Falcón',
+      stateCode: 'I',
+      cities: [
+        City(
+          id: 130065,
+          name: 'Chichiriviche',
+          latitude: '10.92872000',
+          longitude: '-68.27283000',
+        ),
+        City(
+          id: 130071,
+          name: 'Coro',
+          latitude: '11.40450000',
+          longitude: '-69.67344000',
+        ),
+        City(
+          id: 130116,
+          name: 'Municipio Los Taques',
+          latitude: '11.82308000',
+          longitude: '-70.25353000',
+        ),
+        City(
+          id: 130118,
+          name: 'Municipio Miranda',
+          latitude: '11.31667000',
+          longitude: '-69.86667000',
+        ),
+        City(
+          id: 130135,
+          name: 'Punta Cardón',
+          latitude: '11.65806000',
+          longitude: '-70.21500000',
+        ),
+        City(
+          id: 130136,
+          name: 'Punto Fijo',
+          latitude: '11.69152000',
+          longitude: '-70.19918000',
+        ),
+        City(
+          id: 130160,
+          name: 'Tucacas',
+          latitude: '10.79006000',
+          longitude: '-68.32564000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2046,
+      name: 'Federal Dependencies of Venezuela',
+      stateCode: 'W',
+      cities: [],
+    ),
+    CountryState(
+      id: 2045,
+      name: 'Guárico',
+      stateCode: 'J',
+      cities: [
+        City(
+          id: 130039,
+          name: 'Altagracia de Orituco',
+          latitude: '9.86005000',
+          longitude: '-66.38139000',
+        ),
+        City(
+          id: 130053,
+          name: 'Calabozo',
+          latitude: '8.92416000',
+          longitude: '-67.42929000',
+        ),
+        City(
+          id: 130150,
+          name: 'San Juan de los Morros',
+          latitude: '9.91152000',
+          longitude: '-67.35381000',
+        ),
+        City(
+          id: 130167,
+          name: 'Valle de La Pascua',
+          latitude: '9.21554000',
+          longitude: '-66.00734000',
+        ),
+        City(
+          id: 130171,
+          name: 'Zaraza',
+          latitude: '9.35029000',
+          longitude: '-65.32452000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2038,
+      name: 'Lara',
+      stateCode: 'K',
+      cities: [
+        City(
+          id: 130047,
+          name: 'Barquisimeto',
+          latitude: '10.06470000',
+          longitude: '-69.35703000',
+        ),
+        City(
+          id: 130051,
+          name: 'Cabudare',
+          latitude: '10.02658000',
+          longitude: '-69.26203000',
+        ),
+        City(
+          id: 130057,
+          name: 'Carora',
+          latitude: '10.17283000',
+          longitude: '-70.08100000',
+        ),
+        City(
+          id: 130079,
+          name: 'El Tocuyo',
+          latitude: '9.78709000',
+          longitude: '-69.79294000',
+        ),
+        City(
+          id: 130099,
+          name: 'Los Rastrojos',
+          latitude: '10.02588000',
+          longitude: '-69.24166000',
+        ),
+        City(
+          id: 130137,
+          name: 'Quíbor',
+          latitude: '9.92866000',
+          longitude: '-69.62010000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2053,
+      name: 'Mérida',
+      stateCode: 'L',
+      cities: [
+        City(
+          id: 130074,
+          name: 'Ejido',
+          latitude: '8.54665000',
+          longitude: '-71.24087000',
+        ),
+        City(
+          id: 130080,
+          name: 'El Vigía',
+          latitude: '8.61350000',
+          longitude: '-71.65702000',
+        ),
+        City(
+          id: 130124,
+          name: 'Mérida',
+          latitude: '8.58972000',
+          longitude: '-71.15611000',
+        ),
+        City(
+          id: 130109,
+          name: 'Mucumpiz',
+          latitude: '8.41667000',
+          longitude: '-71.13333000',
+        ),
+        City(
+          id: 130115,
+          name: 'Municipio Libertador',
+          latitude: '8.33333000',
+          longitude: '-71.11667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2037,
+      name: 'Miranda',
+      stateCode: 'M',
+      cities: [
+        City(
+          id: 130048,
+          name: 'Baruta',
+          latitude: '10.43424000',
+          longitude: '-66.87558000',
+        ),
+        City(
+          id: 130058,
+          name: 'Carrizal',
+          latitude: '10.34985000',
+          longitude: '-66.98632000',
+        ),
+        City(
+          id: 130061,
+          name: 'Caucaguita',
+          latitude: '10.35782000',
+          longitude: '-66.80252000',
+        ),
+        City(
+          id: 130062,
+          name: 'Caucagüito',
+          latitude: '10.48666000',
+          longitude: '-66.73799000',
+        ),
+        City(
+          id: 130063,
+          name: 'Chacao',
+          latitude: '10.49581000',
+          longitude: '-66.85367000',
+        ),
+        City(
+          id: 130064,
+          name: 'Charallave',
+          latitude: '10.24247000',
+          longitude: '-66.85723000',
+        ),
+        City(
+          id: 130073,
+          name: 'Cúa',
+          latitude: '10.16245000',
+          longitude: '-66.88248000',
+        ),
+        City(
+          id: 130075,
+          name: 'El Cafetal',
+          latitude: '10.46541000',
+          longitude: '-66.82951000',
+        ),
+        City(
+          id: 130076,
+          name: 'El Hatillo',
+          latitude: '10.42411000',
+          longitude: '-66.82581000',
+        ),
+        City(
+          id: 130083,
+          name: 'Guarenas',
+          latitude: '10.47027000',
+          longitude: '-66.61934000',
+        ),
+        City(
+          id: 130084,
+          name: 'Guatire',
+          latitude: '10.47400000',
+          longitude: '-66.54241000',
+        ),
+        City(
+          id: 130089,
+          name: 'La Dolorita',
+          latitude: '10.48830000',
+          longitude: '-66.78608000',
+        ),
+        City(
+          id: 130097,
+          name: 'Los Dos Caminos',
+          latitude: '10.49389000',
+          longitude: '-66.82863000',
+        ),
+        City(
+          id: 130100,
+          name: 'Los Teques',
+          latitude: '10.34447000',
+          longitude: '-67.04325000',
+        ),
+        City(
+          id: 130126,
+          name: 'Ocumare del Tuy',
+          latitude: '10.11820000',
+          longitude: '-66.77513000',
+        ),
+        City(
+          id: 130129,
+          name: 'Petare',
+          latitude: '10.47679000',
+          longitude: '-66.80786000',
+        ),
+        City(
+          id: 130139,
+          name: 'San Antonio de Los Altos',
+          latitude: '10.38853000',
+          longitude: '-66.95179000',
+        ),
+        City(
+          id: 130155,
+          name: 'Santa Teresa del Tuy',
+          latitude: '10.23291000',
+          longitude: '-66.66474000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2054,
+      name: 'Monagas',
+      stateCode: 'N',
+      cities: [
+        City(
+          id: 130056,
+          name: 'Caripito',
+          latitude: '10.11135000',
+          longitude: '-63.09985000',
+        ),
+        City(
+          id: 130107,
+          name: 'Maturín',
+          latitude: '9.74569000',
+          longitude: '-63.18323000',
+        ),
+        City(
+          id: 130117,
+          name: 'Municipio Maturín',
+          latitude: '9.40000000',
+          longitude: '-63.03333000',
+        ),
+        City(
+          id: 130122,
+          name: 'Municipio Uracoa',
+          latitude: '8.99960000',
+          longitude: '-62.35164000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2052,
+      name: 'Nueva Esparta',
+      stateCode: 'O',
+      cities: [
+        City(
+          id: 130087,
+          name: 'Juan Griego',
+          latitude: '11.08172000',
+          longitude: '-63.96549000',
+        ),
+        City(
+          id: 130088,
+          name: 'La Asunción',
+          latitude: '11.03333000',
+          longitude: '-63.86278000',
+        ),
+        City(
+          id: 130130,
+          name: 'Porlamar',
+          latitude: '10.95771000',
+          longitude: '-63.86971000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2036,
+      name: 'Portuguesa',
+      stateCode: 'P',
+      cities: [
+        City(
+          id: 130038,
+          name: 'Acarigua',
+          latitude: '9.55451000',
+          longitude: '-69.19564000',
+        ),
+        City(
+          id: 130043,
+          name: 'Araure',
+          latitude: '9.58144000',
+          longitude: '-69.23851000',
+        ),
+        City(
+          id: 130082,
+          name: 'Guanare',
+          latitude: '9.04183000',
+          longitude: '-69.74206000',
+        ),
+        City(
+          id: 130168,
+          name: 'Villa Bruzual',
+          latitude: '9.33186000',
+          longitude: '-69.11968000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2056,
+      name: 'Sucre',
+      stateCode: 'R',
+      cities: [
+        City(
+          id: 130059,
+          name: 'Carúpano',
+          latitude: '10.66516000',
+          longitude: '-63.25387000',
+        ),
+        City(
+          id: 130072,
+          name: 'Cumaná',
+          latitude: '10.45397000',
+          longitude: '-64.18256000',
+        ),
+        City(
+          id: 130086,
+          name: 'Güiria',
+          latitude: '10.57721000',
+          longitude: '-62.29841000',
+        ),
+        City(
+          id: 130123,
+          name: 'Municipio Valdez',
+          latitude: '10.57945000',
+          longitude: '-62.30029000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2048,
+      name: 'Táchira',
+      stateCode: 'S',
+      cities: [
+        City(
+          id: 130070,
+          name: 'Colón',
+          latitude: '8.03125000',
+          longitude: '-72.26053000',
+        ),
+        City(
+          id: 130090,
+          name: 'La Fría',
+          latitude: '8.21523000',
+          longitude: '-72.24888000',
+        ),
+        City(
+          id: 130091,
+          name: 'La Grita',
+          latitude: '8.13316000',
+          longitude: '-71.98390000',
+        ),
+        City(
+          id: 130114,
+          name: 'Municipio José María Vargas',
+          latitude: '8.03514000',
+          longitude: '-72.05675000',
+        ),
+        City(
+          id: 130138,
+          name: 'Rubio',
+          latitude: '7.70131000',
+          longitude: '-72.35569000',
+        ),
+        City(
+          id: 130140,
+          name: 'San Antonio del Táchira',
+          latitude: '7.81454000',
+          longitude: '-72.44310000',
+        ),
+        City(
+          id: 130144,
+          name: 'San Cristóbal',
+          latitude: '7.76694000',
+          longitude: '-72.22500000',
+        ),
+        City(
+          id: 130163,
+          name: 'Táriba',
+          latitude: '7.81880000',
+          longitude: '-72.22427000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2043,
+      name: 'Trujillo',
+      stateCode: 'T',
+      cities: [
+        City(
+          id: 130049,
+          name: 'Boconó',
+          latitude: '9.25385000',
+          longitude: '-70.25105000',
+        ),
+        City(
+          id: 130120,
+          name: 'Municipio Pampanito',
+          latitude: '9.41147000',
+          longitude: '-70.49592000',
+        ),
+        City(
+          id: 130121,
+          name: 'Municipio San Rafael de Carvajal',
+          latitude: '9.30756000',
+          longitude: '-70.58965000',
+        ),
+        City(
+          id: 130159,
+          name: 'Trujillo',
+          latitude: '9.36583000',
+          longitude: '-70.43694000',
+        ),
+        City(
+          id: 130166,
+          name: 'Valera',
+          latitude: '9.31778000',
+          longitude: '-70.60361000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2055,
+      name: 'Vargas',
+      stateCode: 'X',
+      cities: [
+        City(
+          id: 130055,
+          name: 'Caraballeda',
+          latitude: '10.61216000',
+          longitude: '-66.85192000',
+        ),
+        City(
+          id: 130060,
+          name: 'Catia La Mar',
+          latitude: '10.60545000',
+          longitude: '-67.03238000',
+        ),
+        City(
+          id: 130092,
+          name: 'La Guaira',
+          latitude: '10.60156000',
+          longitude: '-66.93293000',
+        ),
+        City(
+          id: 130102,
+          name: 'Maiquetía',
+          latitude: '10.59450000',
+          longitude: '-66.95624000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2041,
+      name: 'Yaracuy',
+      stateCode: 'U',
+      cities: [
+        City(
+          id: 130066,
+          name: 'Chivacoa',
+          latitude: '10.15951000',
+          longitude: '-68.89453000',
+        ),
+        City(
+          id: 130112,
+          name: 'Municipio Independencia',
+          latitude: '10.33472000',
+          longitude: '-68.75555000',
+        ),
+        City(
+          id: 130125,
+          name: 'Nirgua',
+          latitude: '10.15039000',
+          longitude: '-68.56478000',
+        ),
+        City(
+          id: 130145,
+          name: 'San Felipe',
+          latitude: '10.33991000',
+          longitude: '-68.74247000',
+        ),
+        City(
+          id: 130170,
+          name: 'Yaritagua',
+          latitude: '10.08081000',
+          longitude: '-69.12420000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2042,
+      name: 'Zulia',
+      stateCode: 'V',
+      cities: [
+        City(
+          id: 130050,
+          name: 'Cabimas',
+          latitude: '10.39907000',
+          longitude: '-71.45206000',
+        ),
+        City(
+          id: 130069,
+          name: 'Ciudad Ojeda',
+          latitude: '10.20161000',
+          longitude: '-71.31480000',
+        ),
+        City(
+          id: 130094,
+          name: 'La Villa del Rosario',
+          latitude: '10.32580000',
+          longitude: '-72.31343000',
+        ),
+        City(
+          id: 130095,
+          name: 'Lagunillas',
+          latitude: '10.13008000',
+          longitude: '-71.25946000',
+        ),
+        City(
+          id: 130101,
+          name: 'Machiques',
+          latitude: '10.06077000',
+          longitude: '-72.55212000',
+        ),
+        City(
+          id: 130103,
+          name: 'Maracaibo',
+          latitude: '10.66663000',
+          longitude: '-71.61245000',
+        ),
+        City(
+          id: 130143,
+          name: 'San Carlos del Zulia',
+          latitude: '9.00098000',
+          longitude: '-71.92683000',
+        ),
+        City(
+          id: 130154,
+          name: 'Santa Rita',
+          latitude: '10.53642000',
+          longitude: '-71.51104000',
+        ),
+      ],
+    ),
+  ],
+);

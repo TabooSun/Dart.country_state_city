@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const asm = Country(
-    id: 5,
-    name: 'American Samoa',
-    iso3: 'ASM',
-    iso2: 'AS',
-    phoneCode: '+1-684',
-    capital: 'Pago Pago',
-    currency: 'USD',
-    currencySymbol: r'$',
-    tld: '.as',
-    native: 'American Samoa',
-    region: 'Oceania',
-    subregion: 'Polynesia',
-    timezones: [
-      Timezone(
-          zoneName: 'Pacific/Pago_Pago',
-          gmtOffset: -39600,
-          gmtOffsetName: 'UTC-11:00',
-          abbreviation: 'SST',
-          tzName: 'Samoa Standard Time')
-    ],
-    emoji: '🇦🇸',
-    emojiU: 'U+1F1E6 U+1F1F8',
-    states: []);
+  id: 5,
+  name: 'American Samoa',
+  iso3: 'ASM',
+  iso2: 'AS',
+  phoneCode: '+1-684',
+  capital: 'Pago Pago',
+  currency: 'USD',
+  currencySymbol: r'$',
+  tld: '.as',
+  native: 'American Samoa',
+  region: 'Oceania',
+  subregion: 'Polynesia',
+  timezones: [
+    Timezone(
+      zoneName: 'Pacific/Pago_Pago',
+      gmtOffset: -39600,
+      gmtOffsetName: 'UTC-11:00',
+      abbreviation: 'SST',
+      tzName: 'Samoa Standard Time',
+    )
+  ],
+  emoji: '🇦🇸',
+  emojiU: 'U+1F1E6 U+1F1F8',
+  states: [],
+);

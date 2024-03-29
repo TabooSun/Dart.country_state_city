@@ -1,6 +1,4 @@
 import 'package:country_state_city/country_state_city.dart';
-import 'package:country_state_city/src/models/country.dart';
-import 'package:country_state_city/src/models/state.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -53,8 +51,8 @@ void main() {
 
 /// Run [expect] on states.
 ///
-/// Does not check if it is empty because a country might have no [State].
-void _expectStates(List<State> states) {
+/// Does not check if it is empty because a country might have no [CountryState].
+void _expectStates(List<CountryState> states) {
   expect(states, isNotNull);
-  expect(states, const TypeMatcher<List<State>>());
+  expect(states, const TypeMatcher<List<CountryState>>());
 }

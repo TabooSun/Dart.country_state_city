@@ -3,397 +3,519 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const gha = Country(
-    id: 83,
-    name: 'Ghana',
-    iso3: 'GHA',
-    iso2: 'GH',
-    phoneCode: '233',
-    capital: 'Accra',
-    currency: 'GHS',
-    currencySymbol: r'GH₵',
-    tld: '.gh',
-    native: 'Ghana',
-    region: 'Africa',
-    subregion: 'Western Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Accra',
-          gmtOffset: 0,
-          gmtOffsetName: 'UTC±00',
-          abbreviation: 'GMT',
-          tzName: 'Greenwich Mean Time')
-    ],
-    emoji: '🇬🇭',
-    emojiU: 'U+1F1EC U+1F1ED',
-    states: [
-      State(id: 48, name: 'Ashanti Region', stateCode: 'AH', cities: [
-        City(
-            id: 52151,
-            name: 'Agogo',
-            latitude: '6.80004000',
-            longitude: '-1.08193000'),
-        City(
-            id: 52164,
-            name: 'Bekwai',
-            latitude: '6.45195000',
-            longitude: '-1.57866000'),
-        City(
-            id: 52172,
-            name: 'Ejura',
-            latitude: '7.38558000',
-            longitude: '-1.35617000'),
-        City(
-            id: 52185,
-            name: 'Konongo',
-            latitude: '6.61667000',
-            longitude: '-1.21667000'),
-        City(
-            id: 52188,
-            name: 'Kumasi',
-            latitude: '6.68848000',
-            longitude: '-1.62443000'),
-        City(
-            id: 52189,
-            name: 'Mampong',
-            latitude: '7.06273000',
-            longitude: '-1.40010000'),
-        City(
-            id: 52196,
-            name: 'Obuase',
-            latitude: '6.20228000',
-            longitude: '-1.66796000'),
-        City(
-            id: 52206,
-            name: 'Tafo',
-            latitude: '6.73156000',
-            longitude: '-1.61370000')
-      ]),
-      State(id: 53, name: 'Brong-Ahafo Region', stateCode: 'BA', cities: [
-        City(
-            id: 52162,
-            name: 'Bechem',
-            latitude: '7.09034000',
-            longitude: '-2.02498000'),
-        City(
-            id: 52165,
-            name: 'Berekum',
-            latitude: '7.45340000',
-            longitude: '-2.58404000'),
-        City(
-            id: 52170,
-            name: 'Duayaw-Nkwanta',
-            latitude: '7.17487000',
-            longitude: '-2.09961000'),
-        City(
-            id: 52178,
-            name: 'Japekrom',
-            latitude: '7.57580000',
-            longitude: '-2.78516000'),
-        City(
-            id: 52183,
-            name: 'Kintampo',
-            latitude: '8.05627000',
-            longitude: '-1.73058000'),
-        City(
-            id: 52204,
-            name: 'Sunyani',
-            latitude: '7.33991000',
-            longitude: '-2.32676000'),
-        City(
-            id: 52210,
-            name: 'Techiman',
-            latitude: '7.58417000',
-            longitude: '-1.93815000'),
-        City(
-            id: 52214,
-            name: 'Wenchi',
-            latitude: '7.73916000',
-            longitude: '-2.10456000')
-      ]),
-      State(id: 52, name: 'Central Region', stateCode: 'CP', cities: [
-        City(
-            id: 52157,
-            name: 'Apam',
-            latitude: '5.28483000',
-            longitude: '-0.73711000'),
-        City(
-            id: 52168,
-            name: 'Cape Coast',
-            latitude: '5.10535000',
-            longitude: '-1.24660000'),
-        City(
-            id: 52171,
-            name: 'Dunkwa',
-            latitude: '5.95996000',
-            longitude: '-1.77792000'),
-        City(
-            id: 52173,
-            name: 'Elmina',
-            latitude: '5.08470000',
-            longitude: '-1.35093000'),
-        City(
-            id: 52174,
-            name: 'Foso',
-            latitude: '5.70119000',
-            longitude: '-1.28657000'),
-        City(
-            id: 52179,
-            name: 'Kasoa',
-            latitude: '5.53449000',
-            longitude: '-0.41679000'),
-        City(
-            id: 52192,
-            name: 'Mumford',
-            latitude: '5.26176000',
-            longitude: '-0.75897000'),
-        City(
-            id: 52199,
-            name: 'Saltpond',
-            latitude: '5.20913000',
-            longitude: '-1.06058000'),
-        City(
-            id: 52205,
-            name: 'Swedru',
-            latitude: '5.53711000',
-            longitude: '-0.69984000'),
-        City(
-            id: 52215,
-            name: 'Winneba',
-            latitude: '5.35113000',
-            longitude: '-0.62313000')
-      ]),
-      State(id: 50, name: 'Eastern Region', stateCode: 'EP', cities: [
-        City(
-            id: 52148,
-            name: 'Aburi',
-            latitude: '5.84802000',
-            longitude: '-0.17449000'),
-        City(
-            id: 52152,
-            name: 'Akim Oda',
-            latitude: '5.92665000',
-            longitude: '-0.98577000'),
-        City(
-            id: 52153,
-            name: 'Akim Swedru',
-            latitude: '5.89380000',
-            longitude: '-1.01636000'),
-        City(
-            id: 52154,
-            name: 'Akropong',
-            latitude: '5.97462000',
-            longitude: '-0.08542000'),
-        City(
-            id: 52155,
-            name: 'Akwatia',
-            latitude: '6.04024000',
-            longitude: '-0.80876000'),
-        City(
-            id: 52158,
-            name: 'Asamankese',
-            latitude: '5.86006000',
-            longitude: '-0.66350000'),
-        City(
-            id: 52163,
-            name: 'Begoro',
-            latitude: '6.38706000',
-            longitude: '-0.37738000'),
-        City(
-            id: 52182,
-            name: 'Kibi',
-            latitude: '6.16494000',
-            longitude: '-0.55376000'),
-        City(
-            id: 52184,
-            name: 'Koforidua',
-            latitude: '6.09408000',
-            longitude: '-0.25913000'),
-        City(
-            id: 52191,
-            name: 'Mpraeso',
-            latitude: '6.59321000',
-            longitude: '-0.73462000'),
-        City(
-            id: 52194,
-            name: 'Nsawam',
-            latitude: '5.80893000',
-            longitude: '-0.35026000'),
-        City(
-            id: 52203,
-            name: 'Suhum',
-            latitude: '6.04089000',
-            longitude: '-0.45004000')
-      ]),
-      State(id: 54, name: 'Greater Accra Region', stateCode: 'AA', cities: [
-        City(
-            id: 52149,
-            name: 'Accra',
-            latitude: '5.55602000',
-            longitude: '-0.19690000'),
-        City(
-            id: 52159,
-            name: 'Atsiaman',
-            latitude: '5.69775000',
-            longitude: '-0.32824000'),
-        City(
-            id: 52169,
-            name: 'Dome',
-            latitude: '5.65003000',
-            longitude: '-0.23610000'),
-        City(
-            id: 52175,
-            name: 'Gbawe',
-            latitude: '5.57692000',
-            longitude: '-0.31038000'),
-        City(
-            id: 52190,
-            name: 'Medina Estates',
-            latitude: '5.66580000',
-            longitude: '-0.16307000'),
-        City(
-            id: 52195,
-            name: 'Nungua',
-            latitude: '5.60105000',
-            longitude: '-0.07713000'),
-        City(
-            id: 52211,
-            name: 'Tema',
-            latitude: '5.66980000',
-            longitude: '-0.01657000'),
-        City(
-            id: 52212,
-            name: 'Teshi Old Town',
-            latitude: '5.58365000',
-            longitude: '-0.10722000')
-      ]),
-      State(id: 51, name: 'Northern Region', stateCode: 'NP', cities: [
-        City(
-            id: 52186,
-            name: 'Kpandae',
-            latitude: '8.46885000',
-            longitude: '-0.01127000'),
-        City(
-            id: 52198,
-            name: 'Salaga',
-            latitude: '8.55083000',
-            longitude: '-0.51875000'),
-        City(
-            id: 52200,
-            name: 'Savelugu',
-            latitude: '9.62441000',
-            longitude: '-0.82530000'),
-        City(
-            id: 52208,
-            name: 'Tamale',
-            latitude: '9.40079000',
-            longitude: '-0.83930000'),
-        City(
-            id: 52216,
-            name: 'Yendi',
-            latitude: '9.44272000',
-            longitude: '-0.00991000')
-      ]),
-      State(id: 55, name: 'Upper East Region', stateCode: 'UE', cities: [
-        City(
-            id: 52161,
-            name: 'Bawku',
-            latitude: '11.06160000',
-            longitude: '-0.24169000'),
-        City(
-            id: 52167,
-            name: 'Bolgatanga',
-            latitude: '10.78556000',
-            longitude: '-0.85139000'),
-        City(
-            id: 52193,
-            name: 'Navrongo',
-            latitude: '10.89557000',
-            longitude: '-1.09210000')
-      ]),
-      State(id: 57, name: 'Upper West Region', stateCode: 'UW', cities: [
-        City(
-            id: 52213,
-            name: 'Wa',
-            latitude: '10.06069000',
-            longitude: '-2.50192000')
-      ]),
-      State(id: 56, name: 'Volta Region', stateCode: 'TV', cities: [
-        City(
-            id: 52150,
-            name: 'Aflao',
-            latitude: '6.11982000',
-            longitude: '1.19012000'),
-        City(
-            id: 52156,
-            name: 'Anloga',
-            latitude: '5.79473000',
-            longitude: '0.89728000'),
-        City(
-            id: 52176,
-            name: 'Ho',
-            latitude: '6.60084000',
-            longitude: '0.47130000'),
-        City(
-            id: 52177,
-            name: 'Hohoe',
-            latitude: '7.15181000',
-            longitude: '0.47362000'),
-        City(
-            id: 52180,
-            name: 'Keta',
-            latitude: '5.91793000',
-            longitude: '0.98789000'),
-        City(
-            id: 52181,
-            name: 'Kete Krachi',
-            latitude: '7.79391000',
-            longitude: '-0.04980000'),
-        City(
-            id: 52187,
-            name: 'Kpandu',
-            latitude: '6.99536000',
-            longitude: '0.29306000')
-      ]),
-      State(id: 49, name: 'Western Region', stateCode: 'WP', cities: [
-        City(
-            id: 52147,
-            name: 'Aboso',
-            latitude: '5.36073000',
-            longitude: '-1.94856000'),
-        City(
-            id: 52160,
-            name: 'Axim',
-            latitude: '4.86641000',
-            longitude: '-2.24181000'),
-        City(
-            id: 52166,
-            name: 'Bibiani',
-            latitude: '6.46346000',
-            longitude: '-2.31938000'),
-        City(
-            id: 52197,
-            name: 'Prestea',
-            latitude: '5.43385000',
-            longitude: '-2.14295000'),
-        City(
-            id: 52201,
-            name: 'Sekondi-Takoradi',
-            latitude: '4.92678000',
-            longitude: '-1.75773000'),
-        City(
-            id: 52202,
-            name: 'Shama Junction',
-            latitude: '5.01806000',
-            longitude: '-1.66437000'),
-        City(
-            id: 52207,
-            name: 'Takoradi',
-            latitude: '4.89816000',
-            longitude: '-1.76029000'),
-        City(
-            id: 52209,
-            name: 'Tarkwa',
-            latitude: '5.30383000',
-            longitude: '-1.98956000')
-      ])
-    ]);
+  id: 83,
+  name: 'Ghana',
+  iso3: 'GHA',
+  iso2: 'GH',
+  phoneCode: '233',
+  capital: 'Accra',
+  currency: 'GHS',
+  currencySymbol: r'GH₵',
+  tld: '.gh',
+  native: 'Ghana',
+  region: 'Africa',
+  subregion: 'Western Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Accra',
+      gmtOffset: 0,
+      gmtOffsetName: 'UTC±00',
+      abbreviation: 'GMT',
+      tzName: 'Greenwich Mean Time',
+    )
+  ],
+  emoji: '🇬🇭',
+  emojiU: 'U+1F1EC U+1F1ED',
+  states: [
+    CountryState(
+      id: 48,
+      name: 'Ashanti Region',
+      stateCode: 'AH',
+      cities: [
+        City(
+          id: 52151,
+          name: 'Agogo',
+          latitude: '6.80004000',
+          longitude: '-1.08193000',
+        ),
+        City(
+          id: 52164,
+          name: 'Bekwai',
+          latitude: '6.45195000',
+          longitude: '-1.57866000',
+        ),
+        City(
+          id: 52172,
+          name: 'Ejura',
+          latitude: '7.38558000',
+          longitude: '-1.35617000',
+        ),
+        City(
+          id: 52185,
+          name: 'Konongo',
+          latitude: '6.61667000',
+          longitude: '-1.21667000',
+        ),
+        City(
+          id: 52188,
+          name: 'Kumasi',
+          latitude: '6.68848000',
+          longitude: '-1.62443000',
+        ),
+        City(
+          id: 52189,
+          name: 'Mampong',
+          latitude: '7.06273000',
+          longitude: '-1.40010000',
+        ),
+        City(
+          id: 52196,
+          name: 'Obuase',
+          latitude: '6.20228000',
+          longitude: '-1.66796000',
+        ),
+        City(
+          id: 52206,
+          name: 'Tafo',
+          latitude: '6.73156000',
+          longitude: '-1.61370000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 53,
+      name: 'Brong-Ahafo Region',
+      stateCode: 'BA',
+      cities: [
+        City(
+          id: 52162,
+          name: 'Bechem',
+          latitude: '7.09034000',
+          longitude: '-2.02498000',
+        ),
+        City(
+          id: 52165,
+          name: 'Berekum',
+          latitude: '7.45340000',
+          longitude: '-2.58404000',
+        ),
+        City(
+          id: 52170,
+          name: 'Duayaw-Nkwanta',
+          latitude: '7.17487000',
+          longitude: '-2.09961000',
+        ),
+        City(
+          id: 52178,
+          name: 'Japekrom',
+          latitude: '7.57580000',
+          longitude: '-2.78516000',
+        ),
+        City(
+          id: 52183,
+          name: 'Kintampo',
+          latitude: '8.05627000',
+          longitude: '-1.73058000',
+        ),
+        City(
+          id: 52204,
+          name: 'Sunyani',
+          latitude: '7.33991000',
+          longitude: '-2.32676000',
+        ),
+        City(
+          id: 52210,
+          name: 'Techiman',
+          latitude: '7.58417000',
+          longitude: '-1.93815000',
+        ),
+        City(
+          id: 52214,
+          name: 'Wenchi',
+          latitude: '7.73916000',
+          longitude: '-2.10456000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 52,
+      name: 'Central Region',
+      stateCode: 'CP',
+      cities: [
+        City(
+          id: 52157,
+          name: 'Apam',
+          latitude: '5.28483000',
+          longitude: '-0.73711000',
+        ),
+        City(
+          id: 52168,
+          name: 'Cape Coast',
+          latitude: '5.10535000',
+          longitude: '-1.24660000',
+        ),
+        City(
+          id: 52171,
+          name: 'Dunkwa',
+          latitude: '5.95996000',
+          longitude: '-1.77792000',
+        ),
+        City(
+          id: 52173,
+          name: 'Elmina',
+          latitude: '5.08470000',
+          longitude: '-1.35093000',
+        ),
+        City(
+          id: 52174,
+          name: 'Foso',
+          latitude: '5.70119000',
+          longitude: '-1.28657000',
+        ),
+        City(
+          id: 52179,
+          name: 'Kasoa',
+          latitude: '5.53449000',
+          longitude: '-0.41679000',
+        ),
+        City(
+          id: 52192,
+          name: 'Mumford',
+          latitude: '5.26176000',
+          longitude: '-0.75897000',
+        ),
+        City(
+          id: 52199,
+          name: 'Saltpond',
+          latitude: '5.20913000',
+          longitude: '-1.06058000',
+        ),
+        City(
+          id: 52205,
+          name: 'Swedru',
+          latitude: '5.53711000',
+          longitude: '-0.69984000',
+        ),
+        City(
+          id: 52215,
+          name: 'Winneba',
+          latitude: '5.35113000',
+          longitude: '-0.62313000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 50,
+      name: 'Eastern Region',
+      stateCode: 'EP',
+      cities: [
+        City(
+          id: 52148,
+          name: 'Aburi',
+          latitude: '5.84802000',
+          longitude: '-0.17449000',
+        ),
+        City(
+          id: 52152,
+          name: 'Akim Oda',
+          latitude: '5.92665000',
+          longitude: '-0.98577000',
+        ),
+        City(
+          id: 52153,
+          name: 'Akim Swedru',
+          latitude: '5.89380000',
+          longitude: '-1.01636000',
+        ),
+        City(
+          id: 52154,
+          name: 'Akropong',
+          latitude: '5.97462000',
+          longitude: '-0.08542000',
+        ),
+        City(
+          id: 52155,
+          name: 'Akwatia',
+          latitude: '6.04024000',
+          longitude: '-0.80876000',
+        ),
+        City(
+          id: 52158,
+          name: 'Asamankese',
+          latitude: '5.86006000',
+          longitude: '-0.66350000',
+        ),
+        City(
+          id: 52163,
+          name: 'Begoro',
+          latitude: '6.38706000',
+          longitude: '-0.37738000',
+        ),
+        City(
+          id: 52182,
+          name: 'Kibi',
+          latitude: '6.16494000',
+          longitude: '-0.55376000',
+        ),
+        City(
+          id: 52184,
+          name: 'Koforidua',
+          latitude: '6.09408000',
+          longitude: '-0.25913000',
+        ),
+        City(
+          id: 52191,
+          name: 'Mpraeso',
+          latitude: '6.59321000',
+          longitude: '-0.73462000',
+        ),
+        City(
+          id: 52194,
+          name: 'Nsawam',
+          latitude: '5.80893000',
+          longitude: '-0.35026000',
+        ),
+        City(
+          id: 52203,
+          name: 'Suhum',
+          latitude: '6.04089000',
+          longitude: '-0.45004000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 54,
+      name: 'Greater Accra Region',
+      stateCode: 'AA',
+      cities: [
+        City(
+          id: 52149,
+          name: 'Accra',
+          latitude: '5.55602000',
+          longitude: '-0.19690000',
+        ),
+        City(
+          id: 52159,
+          name: 'Atsiaman',
+          latitude: '5.69775000',
+          longitude: '-0.32824000',
+        ),
+        City(
+          id: 52169,
+          name: 'Dome',
+          latitude: '5.65003000',
+          longitude: '-0.23610000',
+        ),
+        City(
+          id: 52175,
+          name: 'Gbawe',
+          latitude: '5.57692000',
+          longitude: '-0.31038000',
+        ),
+        City(
+          id: 52190,
+          name: 'Medina Estates',
+          latitude: '5.66580000',
+          longitude: '-0.16307000',
+        ),
+        City(
+          id: 52195,
+          name: 'Nungua',
+          latitude: '5.60105000',
+          longitude: '-0.07713000',
+        ),
+        City(
+          id: 52211,
+          name: 'Tema',
+          latitude: '5.66980000',
+          longitude: '-0.01657000',
+        ),
+        City(
+          id: 52212,
+          name: 'Teshi Old Town',
+          latitude: '5.58365000',
+          longitude: '-0.10722000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 51,
+      name: 'Northern Region',
+      stateCode: 'NP',
+      cities: [
+        City(
+          id: 52186,
+          name: 'Kpandae',
+          latitude: '8.46885000',
+          longitude: '-0.01127000',
+        ),
+        City(
+          id: 52198,
+          name: 'Salaga',
+          latitude: '8.55083000',
+          longitude: '-0.51875000',
+        ),
+        City(
+          id: 52200,
+          name: 'Savelugu',
+          latitude: '9.62441000',
+          longitude: '-0.82530000',
+        ),
+        City(
+          id: 52208,
+          name: 'Tamale',
+          latitude: '9.40079000',
+          longitude: '-0.83930000',
+        ),
+        City(
+          id: 52216,
+          name: 'Yendi',
+          latitude: '9.44272000',
+          longitude: '-0.00991000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 55,
+      name: 'Upper East Region',
+      stateCode: 'UE',
+      cities: [
+        City(
+          id: 52161,
+          name: 'Bawku',
+          latitude: '11.06160000',
+          longitude: '-0.24169000',
+        ),
+        City(
+          id: 52167,
+          name: 'Bolgatanga',
+          latitude: '10.78556000',
+          longitude: '-0.85139000',
+        ),
+        City(
+          id: 52193,
+          name: 'Navrongo',
+          latitude: '10.89557000',
+          longitude: '-1.09210000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 57,
+      name: 'Upper West Region',
+      stateCode: 'UW',
+      cities: [
+        City(
+          id: 52213,
+          name: 'Wa',
+          latitude: '10.06069000',
+          longitude: '-2.50192000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 56,
+      name: 'Volta Region',
+      stateCode: 'TV',
+      cities: [
+        City(
+          id: 52150,
+          name: 'Aflao',
+          latitude: '6.11982000',
+          longitude: '1.19012000',
+        ),
+        City(
+          id: 52156,
+          name: 'Anloga',
+          latitude: '5.79473000',
+          longitude: '0.89728000',
+        ),
+        City(
+          id: 52176,
+          name: 'Ho',
+          latitude: '6.60084000',
+          longitude: '0.47130000',
+        ),
+        City(
+          id: 52177,
+          name: 'Hohoe',
+          latitude: '7.15181000',
+          longitude: '0.47362000',
+        ),
+        City(
+          id: 52180,
+          name: 'Keta',
+          latitude: '5.91793000',
+          longitude: '0.98789000',
+        ),
+        City(
+          id: 52181,
+          name: 'Kete Krachi',
+          latitude: '7.79391000',
+          longitude: '-0.04980000',
+        ),
+        City(
+          id: 52187,
+          name: 'Kpandu',
+          latitude: '6.99536000',
+          longitude: '0.29306000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 49,
+      name: 'Western Region',
+      stateCode: 'WP',
+      cities: [
+        City(
+          id: 52147,
+          name: 'Aboso',
+          latitude: '5.36073000',
+          longitude: '-1.94856000',
+        ),
+        City(
+          id: 52160,
+          name: 'Axim',
+          latitude: '4.86641000',
+          longitude: '-2.24181000',
+        ),
+        City(
+          id: 52166,
+          name: 'Bibiani',
+          latitude: '6.46346000',
+          longitude: '-2.31938000',
+        ),
+        City(
+          id: 52197,
+          name: 'Prestea',
+          latitude: '5.43385000',
+          longitude: '-2.14295000',
+        ),
+        City(
+          id: 52201,
+          name: 'Sekondi-Takoradi',
+          latitude: '4.92678000',
+          longitude: '-1.75773000',
+        ),
+        City(
+          id: 52202,
+          name: 'Shama Junction',
+          latitude: '5.01806000',
+          longitude: '-1.66437000',
+        ),
+        City(
+          id: 52207,
+          name: 'Takoradi',
+          latitude: '4.89816000',
+          longitude: '-1.76029000',
+        ),
+        City(
+          id: 52209,
+          name: 'Tarkwa',
+          latitude: '5.30383000',
+          longitude: '-1.98956000',
+        ),
+      ],
+    ),
+  ],
+);

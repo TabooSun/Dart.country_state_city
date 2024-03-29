@@ -3,1598 +3,2183 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const dza = Country(
-    id: 4,
-    name: 'Algeria',
-    iso3: 'DZA',
-    iso2: 'DZ',
-    phoneCode: '213',
-    capital: 'Algiers',
-    currency: 'DZD',
-    currencySymbol: r'دج',
-    tld: '.dz',
-    native: 'الجزائر',
-    region: 'Africa',
-    subregion: 'Northern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Algiers',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'CET',
-          tzName: 'Central European Time')
-    ],
-    emoji: '🇩🇿',
-    emojiU: 'U+1F1E9 U+1F1FF',
-    states: [
-      State(id: 1118, name: 'Adrar', stateCode: '01', cities: [
-        City(
-            id: 31227,
-            name: 'Adrar',
-            latitude: '27.87429000',
-            longitude: '-0.29388000'),
-        City(
-            id: 31234,
-            name: 'Aoulef',
-            latitude: '26.96667000',
-            longitude: '1.08333000'),
-        City(
-            id: 31406,
-            name: 'Reggane',
-            latitude: '26.71576000',
-            longitude: '0.17140000'),
-        City(
-            id: 31450,
-            name: 'Timimoun',
-            latitude: '29.26388000',
-            longitude: '0.23098000')
-      ]),
-      State(id: 1119, name: 'Aïn Defla', stateCode: '44', cities: [
-        City(
-            id: 31243,
-            name: 'Aïn Defla',
-            latitude: '36.26405000',
-            longitude: '1.96790000'),
-        City(
-            id: 31325,
-            name: 'El Abadia',
-            latitude: '36.26951000',
-            longitude: '1.68609000'),
-        City(
-            id: 31331,
-            name: 'El Attaf',
-            latitude: '36.22393000',
-            longitude: '1.67187000'),
-        City(
-            id: 31361,
-            name: 'Khemis Miliana',
-            latitude: '36.26104000',
-            longitude: '2.22015000'),
-        City(
-            id: 31448,
-            name: 'Theniet el Had',
-            latitude: '35.87111000',
-            longitude: '2.02806000')
-      ]),
-      State(id: 1122, name: 'Aïn Témouchent', stateCode: '46', cities: [
-        City(
-            id: 31250,
-            name: 'Aïn Temouchent',
-            latitude: '35.29749000',
-            longitude: '-1.14037000'),
-        City(
-            id: 31265,
-            name: 'Beni Saf',
-            latitude: '35.30099000',
-            longitude: '-1.38226000'),
-        City(
-            id: 31329,
-            name: 'El Amria',
-            latitude: '35.52439000',
-            longitude: '-1.01577000'),
-        City(
-            id: 31340,
-            name: 'El Malah',
-            latitude: '35.39137000',
-            longitude: '-1.09238000'),
-        City(
-            id: 31351,
-            name: 'Hammam Bou Hadjar',
-            latitude: '35.37889000',
-            longitude: '-0.96778000')
-      ]),
-      State(id: 1144, name: 'Algiers', stateCode: '16', cities: [
-        City(
-            id: 31249,
-            name: 'Aïn Taya',
-            latitude: '36.79333000',
-            longitude: '3.28694000'),
-        City(
-            id: 31230,
-            name: 'Algiers',
-            latitude: '36.73225000',
-            longitude: '3.08746000'),
-        City(
-            id: 31254,
-            name: 'Bab Ezzouar',
-            latitude: '36.72615000',
-            longitude: '3.18291000'),
-        City(
-            id: 31274,
-            name: 'Birkhadem',
-            latitude: '36.71499000',
-            longitude: '3.05002000'),
-        City(
-            id: 31281,
-            name: 'Bordj el Kiffan',
-            latitude: '36.74871000',
-            longitude: '3.19249000'),
-        City(
-            id: 31312,
-            name: 'Dar el Beïda',
-            latitude: '36.71333000',
-            longitude: '3.21250000'),
-        City(
-            id: 31413,
-            name: 'Rouiba',
-            latitude: '36.73829000',
-            longitude: '3.28079000')
-      ]),
-      State(id: 1103, name: 'Annaba', stateCode: '23', cities: [
-        City(
-            id: 31233,
-            name: 'Annaba',
-            latitude: '36.90000000',
-            longitude: '7.76667000'),
-        City(
-            id: 31267,
-            name: 'Berrahal',
-            latitude: '36.83528000',
-            longitude: '7.45333000'),
-        City(
-            id: 31323,
-            name: 'Drean',
-            latitude: '36.68482000',
-            longitude: '7.75111000'),
-        City(
-            id: 31334,
-            name: 'El Hadjar',
-            latitude: '36.80377000',
-            longitude: '7.73684000')
-      ]),
-      State(id: 1142, name: 'Batna', stateCode: '05', cities: [
-        City(
-            id: 31251,
-            name: 'Aïn Touta',
-            latitude: '35.37675000',
-            longitude: '5.90001000'),
-        City(
-            id: 31237,
-            name: 'Arris',
-            latitude: '35.25881000',
-            longitude: '6.34706000'),
-        City(
-            id: 31257,
-            name: 'Barika',
-            latitude: '35.38901000',
-            longitude: '5.36584000'),
-        City(
-            id: 31258,
-            name: 'Batna',
-            latitude: '35.55597000',
-            longitude: '6.17414000'),
-        City(
-            id: 31292,
-            name: 'Boumagueur',
-            latitude: '35.50520000',
-            longitude: '5.55250000'),
-        City(
-            id: 31382,
-            name: 'Merouana',
-            latitude: '35.63106000',
-            longitude: '5.91186000'),
-        City(
-            id: 31415,
-            name: 'Râs el Aïoun',
-            latitude: '35.67384000',
-            longitude: '5.64530000'),
-        City(
-            id: 31444,
-            name: 'Tazoult-Lambese',
-            latitude: '35.48171000',
-            longitude: '6.26074000')
-      ]),
-      State(id: 1108, name: 'Béchar', stateCode: '08', cities: [
-        City(
-            id: 31298,
-            name: 'Béchar',
-            latitude: '31.61667000',
-            longitude: '-2.21667000')
-      ]),
-      State(id: 1128, name: 'Béjaïa', stateCode: '06', cities: [
-        City(
-            id: 31229,
-            name: 'Akbou',
-            latitude: '36.45750000',
-            longitude: '4.53494000'),
-        City(
-            id: 31231,
-            name: 'Amizour',
-            latitude: '36.64022000',
-            longitude: '4.90131000'),
-        City(
-            id: 31256,
-            name: 'Barbacha',
-            latitude: '36.56667000',
-            longitude: '4.96667000'),
-        City(
-            id: 31259,
-            name: 'Bejaïa',
-            latitude: '36.75587000',
-            longitude: '5.08433000'),
-        City(
-            id: 31467,
-            name: 'el hed',
-            latitude: '36.65000000',
-            longitude: '4.77361000'),
-        City(
-            id: 31339,
-            name: 'El Kseur',
-            latitude: '36.67942000',
-            longitude: '4.85550000'),
-        City(
-            id: 31344,
-            name: 'Feraoun',
-            latitude: '36.56041000',
-            longitude: '4.85454000'),
-        City(
-            id: 31421,
-            name: 'Seddouk',
-            latitude: '36.54722000',
-            longitude: '4.68611000')
-      ]),
-      State(id: 4909, name: 'Béni Abbès', stateCode: '53', cities: []),
-      State(id: 1114, name: 'Biskra', stateCode: '07', cities: [
-        City(
-            id: 31275,
-            name: 'Biskra',
-            latitude: '34.85038000',
-            longitude: '5.72805000'),
-        City(
-            id: 31405,
-            name: 'Oumache',
-            latitude: '34.69292000',
-            longitude: '5.68092000'),
-        City(
-            id: 31427,
-            name: 'Sidi Khaled',
-            latitude: '34.38700000',
-            longitude: '4.98785000'),
-        City(
-            id: 31430,
-            name: 'Sidi Okba',
-            latitude: '34.74512000',
-            longitude: '5.89833000'),
-        City(
-            id: 31461,
-            name: 'Tolga',
-            latitude: '34.72224000',
-            longitude: '5.37845000'),
-        City(
-            id: 31466,
-            name: 'Zeribet el Oued',
-            latitude: '34.68284000',
-            longitude: '6.51109000')
-      ]),
-      State(id: 1111, name: 'Blida', stateCode: '09', cities: [
-        City(
-            id: 31263,
-            name: 'Beni Mered',
-            latitude: '36.52389000',
-            longitude: '2.86131000'),
-        City(
-            id: 31276,
-            name: 'Blida',
-            latitude: '36.47004000',
-            longitude: '2.82770000'),
-        City(
-            id: 31296,
-            name: 'Boû Arfa',
-            latitude: '36.46298000',
-            longitude: '2.81464000'),
-        City(
-            id: 31287,
-            name: 'Boufarik',
-            latitude: '36.57413000',
-            longitude: '2.91214000'),
-        City(
-            id: 31289,
-            name: 'Bougara',
-            latitude: '36.54178000',
-            longitude: '3.08100000'),
-        City(
-            id: 31290,
-            name: 'Bouinan',
-            latitude: '36.53167000',
-            longitude: '2.99194000'),
-        City(
-            id: 31301,
-            name: 'Chebli',
-            latitude: '36.57722000',
-            longitude: '3.00917000'),
-        City(
-            id: 31307,
-            name: 'Chiffa',
-            latitude: '36.46293000',
-            longitude: '2.73873000'),
-        City(
-            id: 31369,
-            name: 'Larbaâ',
-            latitude: '36.56471000',
-            longitude: '3.15434000'),
-        City(
-            id: 31377,
-            name: 'Meftah',
-            latitude: '36.62040000',
-            longitude: '3.22248000'),
-        City(
-            id: 31428,
-            name: 'Sidi Moussa',
-            latitude: '36.60637000',
-            longitude: '3.08783000'),
-        City(
-            id: 31438,
-            name: 'Souma',
-            latitude: '36.51833000',
-            longitude: '2.90528000')
-      ]),
-      State(id: 4908, name: 'Bordj Baji Mokhtar', stateCode: '52', cities: []),
-      State(id: 1116, name: 'Bordj Bou Arréridj', stateCode: '34', cities: [
-        City(
-            id: 31278,
-            name: 'Bordj Bou Arreridj',
-            latitude: '36.07321000',
-            longitude: '4.76108000'),
-        City(
-            id: 31279,
-            name: 'Bordj Ghdir',
-            latitude: '35.90111000',
-            longitude: '4.89806000'),
-        City(
-            id: 31280,
-            name: 'Bordj Zemoura',
-            latitude: '36.27462000',
-            longitude: '4.85668000'),
-        City(
-            id: 31327,
-            name: 'El Achir',
-            latitude: '36.06386000',
-            longitude: '4.62744000'),
-        City(
-            id: 31373,
-            name: 'Mansourah',
-            latitude: '36.08725000',
-            longitude: '4.45192000'),
-        City(
-            id: 31381,
-            name: 'Melouza',
-            latitude: '35.97999000',
-            longitude: '4.18665000'),
-        City(
-            id: 31416,
-            name: 'Râs el Oued',
-            latitude: '35.94410000',
-            longitude: '5.03107000')
-      ]),
-      State(id: 1104, name: 'Bouïra', stateCode: '10', cities: [
-        City(
-            id: 31241,
-            name: 'Aïn Bessem',
-            latitude: '36.29333000',
-            longitude: '3.67319000'),
-        City(
-            id: 31295,
-            name: 'Bouïra',
-            latitude: '36.37489000',
-            longitude: '3.90200000'),
-        City(
-            id: 31309,
-            name: 'Chorfa',
-            latitude: '36.36505000',
-            longitude: '4.32636000'),
-        City(
-            id: 31322,
-            name: 'Draa el Mizan',
-            latitude: '36.53628000',
-            longitude: '3.83340000'),
-        City(
-            id: 31368,
-            name: 'Lakhdaria',
-            latitude: '36.56463000',
-            longitude: '3.59330000'),
-        City(
-            id: 31439,
-            name: 'Sour el Ghozlane',
-            latitude: '36.14766000',
-            longitude: '3.69123000')
-      ]),
-      State(id: 1125, name: 'Boumerdès', stateCode: '35', cities: [
-        City(
-            id: 31235,
-            name: 'Arbatache',
-            latitude: '36.63773000',
-            longitude: '3.37127000'),
-        City(
-            id: 31261,
-            name: 'Beni Amrane',
-            latitude: '36.66774000',
-            longitude: '3.59115000'),
-        City(
-            id: 31286,
-            name: 'Boudouaou',
-            latitude: '36.72735000',
-            longitude: '3.40995000'),
-        City(
-            id: 31294,
-            name: 'Boumerdas',
-            latitude: '36.76639000',
-            longitude: '3.47717000'),
-        City(
-            id: 31299,
-            name: 'Chabet el Ameur',
-            latitude: '36.63709000',
-            longitude: '3.69474000'),
-        City(
-            id: 31314,
-            name: 'Dellys',
-            latitude: '36.91716000',
-            longitude: '3.91311000'),
-        City(
-            id: 31362,
-            name: 'Khemis el Khechna',
-            latitude: '36.64997000',
-            longitude: '3.33080000'),
-        City(
-            id: 31372,
-            name: 'Makouda',
-            latitude: '36.78567000',
-            longitude: '4.06273000'),
-        City(
-            id: 31393,
-            name: 'Naciria',
-            latitude: '36.74625000',
-            longitude: '3.83163000'),
-        City(
-            id: 31403,
-            name: 'Ouled Moussa',
-            latitude: '36.68394000',
-            longitude: '3.36661000'),
-        City(
-            id: 31407,
-            name: 'Reghaïa',
-            latitude: '36.73587000',
-            longitude: '3.34018000'),
-        City(
-            id: 31441,
-            name: 'Tadmaït',
-            latitude: '36.74413000',
-            longitude: '3.90045000'),
-        City(
-            id: 31447,
-            name: 'Thenia',
-            latitude: '36.72544000',
-            longitude: '3.55665000'),
-        City(
-            id: 31456,
-            name: 'Tizi Gheniff',
-            latitude: '36.58839000',
-            longitude: '3.77445000')
-      ]),
-      State(id: 1105, name: 'Chlef', stateCode: '02', cities: [
-        City(
-            id: 31226,
-            name: 'Abou el Hassan',
-            latitude: '36.41657000',
-            longitude: '1.19616000'),
-        City(
-            id: 31291,
-            name: 'Boukadir',
-            latitude: '36.06629000',
-            longitude: '1.12602000'),
-        City(
-            id: 31308,
-            name: 'Chlef',
-            latitude: '36.16525000',
-            longitude: '1.33452000'),
-        City(
-            id: 31324,
-            name: 'Ech Chettia',
-            latitude: '36.19591000',
-            longitude: '1.25537000'),
-        City(
-            id: 31397,
-            name: 'Oued Fodda',
-            latitude: '36.18503000',
-            longitude: '1.53299000'),
-        City(
-            id: 31399,
-            name: 'Oued Sly',
-            latitude: '36.10124000',
-            longitude: '1.19949000'),
-        City(
-            id: 31424,
-            name: 'Sidi Akkacha',
-            latitude: '36.46472000',
-            longitude: '1.30258000')
-      ]),
-      State(id: 1121, name: 'Constantine', stateCode: '25', cities: [
-        City(
-            id: 31469,
-            name: '’Aïn Abid',
-            latitude: '36.23194000',
-            longitude: '6.94333000'),
-        City(
-            id: 31248,
-            name: 'Aïn Smara',
-            latitude: '36.26740000',
-            longitude: '6.50135000'),
-        City(
-            id: 31310,
-            name: 'Constantine',
-            latitude: '36.36500000',
-            longitude: '6.61472000'),
-        City(
-            id: 31315,
-            name: 'Didouche Mourad',
-            latitude: '36.45250000',
-            longitude: '6.63639000'),
-        City(
-            id: 31338,
-            name: 'El Khroub',
-            latitude: '36.26333000',
-            longitude: '6.69361000'),
-        City(
-            id: 31350,
-            name: 'Hamma Bouziane',
-            latitude: '36.41205000',
-            longitude: '6.59603000')
-      ]),
-      State(id: 4912, name: 'Djanet', stateCode: '56', cities: []),
-      State(id: 1098, name: 'Djelfa', stateCode: '17', cities: [
-        City(
-            id: 31474,
-            name: '’Aïn el Bell',
-            latitude: '34.34381000',
-            longitude: '3.22475000'),
-        City(
-            id: 31246,
-            name: 'Aïn Oussera',
-            latitude: '35.45139000',
-            longitude: '2.90583000'),
-        City(
-            id: 31273,
-            name: 'Birine',
-            latitude: '35.63500000',
-            longitude: '3.22500000'),
-        City(
-            id: 31300,
-            name: 'Charef',
-            latitude: '34.62098000',
-            longitude: '2.79503000'),
-        City(
-            id: 31311,
-            name: 'Dar Chioukh',
-            latitude: '34.89638000',
-            longitude: '3.48543000'),
-        City(
-            id: 31318,
-            name: 'Djelfa',
-            latitude: '34.67279000',
-            longitude: '3.26300000'),
-        City(
-            id: 31336,
-            name: 'El Idrissia',
-            latitude: '34.44542000',
-            longitude: '2.52749000'),
-        City(
-            id: 31385,
-            name: 'Messaad',
-            latitude: '34.15429000',
-            longitude: '3.50309000')
-      ]),
-      State(id: 1129, name: 'El Bayadh', stateCode: '32', cities: [
-        City(
-            id: 31297,
-            name: 'Brezina',
-            latitude: '33.09892000',
-            longitude: '1.26082000'),
-        City(
-            id: 31326,
-            name: 'El Abiodh Sidi Cheikh',
-            latitude: '32.89300000',
-            longitude: '0.54839000'),
-        City(
-            id: 31332,
-            name: 'El Bayadh',
-            latitude: '33.68318000',
-            longitude: '1.01927000')
-      ]),
-      State(id: 4905, name: 'El M\'ghair', stateCode: '49', cities: []),
-      State(id: 4906, name: 'El Menia', stateCode: '50', cities: []),
-      State(id: 1099, name: 'El Oued', stateCode: '39', cities: [
-        City(
-            id: 31313,
-            name: 'Debila',
-            latitude: '33.51667000',
-            longitude: '6.95000000'),
-        City(
-            id: 31341,
-            name: 'El Oued',
-            latitude: '33.35608000',
-            longitude: '6.86319000'),
-        City(
-            id: 31408,
-            name: 'Reguiba',
-            latitude: '33.56391000',
-            longitude: '6.70326000'),
-        City(
-            id: 31411,
-            name: 'Robbah',
-            latitude: '33.27967000',
-            longitude: '6.90984000')
-      ]),
-      State(id: 1100, name: 'El Tarf', stateCode: '36', cities: [
-        City(
-            id: 31260,
-            name: 'Ben Mehidi',
-            latitude: '36.76967000',
-            longitude: '7.90641000'),
-        City(
-            id: 31270,
-            name: 'Besbes',
-            latitude: '36.70222000',
-            longitude: '7.84722000'),
-        City(
-            id: 31337,
-            name: 'El Kala',
-            latitude: '36.89556000',
-            longitude: '8.44333000'),
-        City(
-            id: 31342,
-            name: 'El Tarf',
-            latitude: '36.76720000',
-            longitude: '8.31377000')
-      ]),
-      State(id: 1127, name: 'Ghardaïa', stateCode: '47', cities: [
-        City(
-            id: 31268,
-            name: 'Berriane',
-            latitude: '32.82648000',
-            longitude: '3.76689000'),
-        City(
-            id: 31347,
-            name: 'Ghardaïa',
-            latitude: '32.49094000',
-            longitude: '3.67347000'),
-        City(
-            id: 31386,
-            name: 'Metlili Chaamba',
-            latitude: '32.26667000',
-            longitude: '3.63333000')
-      ]),
-      State(id: 1137, name: 'Guelma', stateCode: '24', cities: [
-        City(
-            id: 31293,
-            name: 'Boumahra Ahmed',
-            latitude: '36.45833000',
-            longitude: '7.51389000'),
-        City(
-            id: 31348,
-            name: 'Guelma',
-            latitude: '36.46214000',
-            longitude: '7.42608000'),
-        City(
-            id: 31355,
-            name: 'Héliopolis',
-            latitude: '36.50361000',
-            longitude: '7.44278000')
-      ]),
-      State(id: 1112, name: 'Illizi', stateCode: '33', cities: [
-        City(
-            id: 31358,
-            name: 'Illizi',
-            latitude: '26.48333000',
-            longitude: '8.46667000')
-      ]),
-      State(id: 4914, name: 'In Guezzam', stateCode: '58', cities: []),
-      State(id: 4913, name: 'In Salah', stateCode: '57', cities: []),
-      State(id: 1113, name: 'Jijel', stateCode: '18', cities: [
-        City(
-            id: 31359,
-            name: 'Jijel',
-            latitude: '36.82055000',
-            longitude: '5.76671000')
-      ]),
-      State(id: 1126, name: 'Khenchela', stateCode: '40', cities: [
-        City(
-            id: 31363,
-            name: 'Khenchela',
-            latitude: '35.43583000',
-            longitude: '7.14333000')
-      ]),
-      State(id: 1138, name: 'Laghouat', stateCode: '03', cities: [
-        City(
-            id: 31228,
-            name: 'Aflou',
-            latitude: '34.11279000',
-            longitude: '2.10228000'),
-        City(
-            id: 31367,
-            name: 'Laghouat',
-            latitude: '33.80000000',
-            longitude: '2.86514000')
-      ]),
-      State(id: 1134, name: 'M\'Sila', stateCode: '28', cities: [
-        City(
-            id: 31468,
-            name: '‘Aïn el Hadjel',
-            latitude: '35.67003000',
-            longitude: '3.88153000'),
-        City(
-            id: 31477,
-            name: '’Aïn el Melh',
-            latitude: '34.84146000',
-            longitude: '4.16383000'),
-        City(
-            id: 31391,
-            name: 'M’Sila',
-            latitude: '35.70583000',
-            longitude: '4.54194000'),
-        City(
-            id: 31426,
-            name: 'Sidi Aïssa',
-            latitude: '35.88548000',
-            longitude: '3.77236000')
-      ]),
-      State(id: 1124, name: 'Mascara', stateCode: '29', cities: [
-        City(
-            id: 31282,
-            name: 'Bou Hanifia el Hamamat',
-            latitude: '35.31473000',
-            longitude: '-0.05037000'),
-        City(
-            id: 31375,
-            name: 'Mascara',
-            latitude: '35.39664000',
-            longitude: '0.14027000'),
-        City(
-            id: 31400,
-            name: 'Oued el Abtal',
-            latitude: '35.45595000',
-            longitude: '0.68778000'),
-        City(
-            id: 31433,
-            name: 'Sig',
-            latitude: '35.52832000',
-            longitude: '-0.19369000')
-      ]),
-      State(id: 1109, name: 'Médéa', stateCode: '26', cities: [
-        City(
-            id: 31471,
-            name: '’Aïn Boucif',
-            latitude: '35.89123000',
-            longitude: '3.15850000'),
-        City(
-            id: 31269,
-            name: 'Berrouaghia',
-            latitude: '36.13516000',
-            longitude: '2.91085000'),
-        City(
-            id: 31366,
-            name: 'Ksar el Boukhari',
-            latitude: '35.88889000',
-            longitude: '2.74905000'),
-        City(
-            id: 31390,
-            name: 'Médéa',
-            latitude: '36.26417000',
-            longitude: '2.75393000')
-      ]),
-      State(id: 1132, name: 'Mila', stateCode: '43', cities: [
-        City(
-            id: 31302,
-            name: 'Chelghoum el Aïd',
-            latitude: '36.16286000',
-            longitude: '6.16651000'),
-        City(
-            id: 31387,
-            name: 'Mila',
-            latitude: '36.45028000',
-            longitude: '6.26444000'),
-        City(
-            id: 31412,
-            name: 'Rouached',
-            latitude: '36.45774000',
-            longitude: '6.04267000'),
-        City(
-            id: 31429,
-            name: 'Sidi Mérouane',
-            latitude: '36.52056000',
-            longitude: '6.26111000'),
-        City(
-            id: 31446,
-            name: 'Telerghma',
-            latitude: '36.11653000',
-            longitude: '6.35434000')
-      ]),
-      State(id: 1140, name: 'Mostaganem', stateCode: '27', cities: [
-        City(
-            id: 31388,
-            name: 'Mostaganem',
-            latitude: '35.93115000',
-            longitude: '0.08918000')
-      ]),
-      State(id: 1102, name: 'Naama', stateCode: '45', cities: [
-        City(
-            id: 31247,
-            name: 'Aïn Sefra',
-            latitude: '32.75000000',
-            longitude: '-0.58333000'),
-        City(
-            id: 31392,
-            name: 'Naama',
-            latitude: '33.26667000',
-            longitude: '-0.31667000')
-      ]),
-      State(id: 1101, name: 'Oran', stateCode: '31', cities: [
-        City(
-            id: 31478,
-            name: '’Aïn el Turk',
-            latitude: '35.74381000',
-            longitude: '-0.76930000'),
-        City(
-            id: 31252,
-            name: 'Aïn el Bya',
-            latitude: '35.80389000',
-            longitude: '-0.30178000'),
-        City(
-            id: 31272,
-            name: 'Bir el Djir',
-            latitude: '35.72000000',
-            longitude: '-0.54500000'),
-        City(
-            id: 31284,
-            name: 'Bou Tlelis',
-            latitude: '35.57272000',
-            longitude: '-0.89960000'),
-        City(
-            id: 31343,
-            name: 'Es Senia',
-            latitude: '35.64779000',
-            longitude: '-0.62397000'),
-        City(
-            id: 31383,
-            name: 'Mers el Kebir',
-            latitude: '35.72790000',
-            longitude: '-0.70810000'),
-        City(
-            id: 31395,
-            name: 'Oran',
-            latitude: '35.69906000',
-            longitude: '-0.63588000'),
-        City(
-            id: 31432,
-            name: 'Sidi ech Chahmi',
-            latitude: '35.65903000',
-            longitude: '-0.52168000')
-      ]),
-      State(id: 1139, name: 'Ouargla', stateCode: '30', cities: [
-        City(
-            id: 31316,
-            name: 'Djamaa',
-            latitude: '33.53388000',
-            longitude: '5.99306000'),
-        City(
-            id: 31335,
-            name: 'El Hadjira',
-            latitude: '32.61336000',
-            longitude: '5.51259000'),
-        City(
-            id: 31353,
-            name: 'Hassi Messaoud',
-            latitude: '31.68041000',
-            longitude: '6.07286000'),
-        City(
-            id: 31378,
-            name: 'Megarine',
-            latitude: '33.19195000',
-            longitude: '6.08695000'),
-        City(
-            id: 31396,
-            name: 'Ouargla',
-            latitude: '31.94932000',
-            longitude: '5.32502000'),
-        City(
-            id: 31414,
-            name: 'Rouissat',
-            latitude: '31.92427000',
-            longitude: '5.35018000'),
-        City(
-            id: 31425,
-            name: 'Sidi Amrane',
-            latitude: '33.49885000',
-            longitude: '6.00803000'),
-        City(
-            id: 31445,
-            name: 'Tebesbest',
-            latitude: '33.11667000',
-            longitude: '6.08333000'),
-        City(
-            id: 31462,
-            name: 'Touggourt',
-            latitude: '33.10527000',
-            longitude: '6.05796000')
-      ]),
-      State(id: 4907, name: 'Ouled Djellal', stateCode: '51', cities: []),
-      State(id: 1136, name: 'Oum El Bouaghi', stateCode: '04', cities: [
-        City(
-            id: 31242,
-            name: 'Aïn Beïda',
-            latitude: '35.79639000',
-            longitude: '7.39278000'),
-        City(
-            id: 31244,
-            name: 'Aïn Fakroun',
-            latitude: '35.97108000',
-            longitude: '6.87374000'),
-        City(
-            id: 31245,
-            name: 'Aïn Kercha',
-            latitude: '35.92472000',
-            longitude: '6.69528000'),
-        City(
-            id: 31330,
-            name: 'El Aouinet',
-            latitude: '35.86691000',
-            longitude: '7.88673000'),
-        City(
-            id: 31384,
-            name: 'Meskiana',
-            latitude: '35.63058000',
-            longitude: '7.66606000'),
-        City(
-            id: 31404,
-            name: 'Oum el Bouaghi',
-            latitude: '35.87541000',
-            longitude: '7.11353000')
-      ]),
-      State(id: 1130, name: 'Relizane', stateCode: '48', cities: [
-        City(
-            id: 31473,
-            name: '’Aïn Merane',
-            latitude: '36.16277000',
-            longitude: '0.97037000'),
-        City(
-            id: 31232,
-            name: 'Ammi Moussa',
-            latitude: '35.86781000',
-            longitude: '1.11143000'),
-        City(
-            id: 31319,
-            name: 'Djidiouia',
-            latitude: '35.92989000',
-            longitude: '0.82871000'),
-        City(
-            id: 31376,
-            name: 'Mazouna',
-            latitude: '36.12232000',
-            longitude: '0.89865000'),
-        City(
-            id: 31398,
-            name: 'Oued Rhiou',
-            latitude: '35.96124000',
-            longitude: '0.91896000'),
-        City(
-            id: 31409,
-            name: 'Relizane',
-            latitude: '35.73734000',
-            longitude: '0.55599000'),
-        City(
-            id: 31435,
-            name: 'Smala',
-            latitude: '35.71652000',
-            longitude: '0.75437000'),
-        City(
-            id: 31464,
-            name: 'Zemoura',
-            latitude: '35.72251000',
-            longitude: '0.75509000')
-      ]),
-      State(id: 1123, name: 'Saïda', stateCode: '20', cities: [
-        City(
-            id: 31475,
-            name: '’Aïn el Hadjar',
-            latitude: '34.75846000',
-            longitude: '0.14528000'),
-        City(
-            id: 31419,
-            name: 'Saïda',
-            latitude: '34.83033000',
-            longitude: '0.15171000')
-      ]),
-      State(id: 1141, name: 'Sétif', stateCode: '19', cities: [
-        City(
-            id: 31240,
-            name: 'Aïn Arnat',
-            latitude: '36.18683000',
-            longitude: '5.31347000'),
-        City(
-            id: 31253,
-            name: 'BABOR - VILLE',
-            latitude: '36.48994000',
-            longitude: '5.53930000'),
-        City(
-            id: 31288,
-            name: 'Bougaa',
-            latitude: '36.33293000',
-            longitude: '5.08843000'),
-        City(
-            id: 31333,
-            name: 'El Eulma',
-            latitude: '36.15281000',
-            longitude: '5.69016000'),
-        City(
-            id: 31417,
-            name: 'Salah Bey',
-            latitude: '35.85451000',
-            longitude: '5.29053000'),
-        City(
-            id: 31440,
-            name: 'Sétif',
-            latitude: '36.19112000',
-            longitude: '5.41373000')
-      ]),
-      State(id: 4902, name: 'Sidi Bel Abbès', stateCode: '22', cities: [
-        City(
-            id: 146185,
-            name: 'Aïn El Berd District',
-            latitude: '35.35000000',
-            longitude: '-0.51667000'),
-        City(
-            id: 146186,
-            name: 'Balidat Ameur',
-            latitude: '32.95138900',
-            longitude: '5.98055600'),
-        City(
-            id: 146187,
-            name: 'Belarbi',
-            latitude: '35.15149480',
-            longitude: '-0.45679090'),
-        City(
-            id: 146188,
-            name: 'Ben Badis, Sid Bel Abbés',
-            latitude: '34.95277778',
-            longitude: '-0.91444444'),
-        City(
-            id: 146189,
-            name: 'Djamaa',
-            latitude: '33.53137870',
-            longitude: '5.99098210'),
-        City(
-            id: 146190,
-            name: 'El Bour',
-            latitude: '32.16305556',
-            longitude: '5.34527778'),
-        City(
-            id: 146191,
-            name: 'El Hadjira',
-            latitude: '32.61666667',
-            longitude: '5.51666667'),
-        City(
-            id: 146192,
-            name: 'Haoud El Hamra',
-            latitude: '31.88944444',
-            longitude: '5.97305556'),
-        City(
-            id: 146193,
-            name: 'Hassi Messaoud',
-            latitude: '31.70000000',
-            longitude: '6.06666667'),
-        City(
-            id: 146194,
-            name: 'Lamtar',
-            latitude: '35.07062700',
-            longitude: '-0.79814000'),
-        City(
-            id: 146195,
-            name: 'Marhoum',
-            latitude: '34.44600420',
-            longitude: '-0.19502440'),
-        City(
-            id: 146196,
-            name: 'Megarine',
-            latitude: '33.19262320',
-            longitude: '6.09346390'),
-        City(
-            id: 146197,
-            name: 'Merine',
-            latitude: '34.78074720',
-            longitude: '-0.45104030'),
-        City(
-            id: 146198,
-            name: 'Mezaourou',
-            latitude: '34.81732670',
-            longitude: '-0.62331890'),
-        City(
-            id: 146199,
-            name: 'Moggar',
-            latitude: '33.26722222',
-            longitude: '6.06777778'),
-        City(
-            id: 146200,
-            name: 'Moulay Slissen',
-            latitude: '34.81666667',
-            longitude: '-0.76666667'),
-        City(
-            id: 146201,
-            name: 'N\'Goussa',
-            latitude: '32.14087970',
-            longitude: '5.30828480'),
-        City(
-            id: 146202,
-            name: 'Ouargla',
-            latitude: '31.95000000',
-            longitude: '5.31666667'),
-        City(
-            id: 146203,
-            name: 'Rouissat',
-            latitude: '31.93657600',
-            longitude: '5.33540730'),
-        City(
-            id: 146204,
-            name: 'Sfissef',
-            latitude: '35.23440280',
-            longitude: '-0.24341580'),
-        City(
-            id: 146205,
-            name: 'Sidi Ali Boussidi',
-            latitude: '35.10000000',
-            longitude: '-0.83333333'),
-        City(
-            id: 146206,
-            name: 'Sidi Amrane',
-            latitude: '33.50000000',
-            longitude: '6.01666667'),
-        City(
-            id: 146207,
-            name: 'Sidi Bel Abbès',
-            latitude: '35.20000000',
-            longitude: '-0.63333333'),
-        City(
-            id: 146208,
-            name: 'Sidi Brahim',
-            latitude: '35.26055600',
-            longitude: '-0.56750000'),
-        City(
-            id: 146209,
-            name: 'Sidi Hamadouche',
-            latitude: '35.29916667',
-            longitude: '-0.54888889'),
-        City(
-            id: 146210,
-            name: 'Sidi Slimane',
-            latitude: '33.28861111',
-            longitude: '6.09472222'),
-        City(
-            id: 146211,
-            name: 'Sidi Yacoub',
-            latitude: '35.13333333',
-            longitude: '-0.78333333'),
-        City(
-            id: 146212,
-            name: 'Sidi Yahia',
-            latitude: '33.52166667',
-            longitude: '5.94555556'),
-        City(
-            id: 146213,
-            name: 'Tabia, Sid Bel Abbés',
-            latitude: '35.01783660',
-            longitude: '-0.73385240'),
-        City(
-            id: 146214,
-            name: 'Taibet',
-            latitude: '33.08391890',
-            longitude: '6.39996530'),
-        City(
-            id: 146215,
-            name: 'Tamellaht',
-            latitude: '33.01190000',
-            longitude: '6.00972000'),
-        City(
-            id: 146216,
-            name: 'Tamerna Djedida',
-            latitude: '33.44640000',
-            longitude: '5.95639000'),
-        City(
-            id: 146217,
-            name: 'Tebesbest',
-            latitude: '33.12001290',
-            longitude: '6.08007430'),
-        City(
-            id: 146218,
-            name: 'Teghalimet',
-            latitude: '34.88283300',
-            longitude: '-0.56000230'),
-        City(
-            id: 146219,
-            name: 'Telagh',
-            latitude: '34.78490640',
-            longitude: '-0.57317730'),
-        City(
-            id: 146220,
-            name: 'Tenezara',
-            latitude: '34.96341170',
-            longitude: '-0.61446190'),
-        City(
-            id: 146221,
-            name: 'Tenira',
-            latitude: '35.01966420',
-            longitude: '-0.53206440'),
-        City(
-            id: 146222,
-            name: 'Tessala',
-            latitude: '35.24300000',
-            longitude: '-0.77316300'),
-        City(
-            id: 146223,
-            name: 'Touggourt',
-            latitude: '33.10000000',
-            longitude: '6.06666667'),
-        City(
-            id: 146224,
-            name: 'Zerouala',
-            latitude: '35.24232450',
-            longitude: '-0.52219390')
-      ]),
-      State(id: 1110, name: 'Skikda', stateCode: '21', cities: [
-        City(
-            id: 31239,
-            name: 'Azzaba',
-            latitude: '36.73944000',
-            longitude: '7.10528000'),
-        City(
-            id: 31360,
-            name: 'Karkira',
-            latitude: '36.92917000',
-            longitude: '6.58556000'),
-        City(
-            id: 31434,
-            name: 'Skikda',
-            latitude: '36.87617000',
-            longitude: '6.90921000'),
-        City(
-            id: 31442,
-            name: 'Tamalous',
-            latitude: '36.83763000',
-            longitude: '6.64018000')
-      ]),
-      State(id: 1143, name: 'Souk Ahras', stateCode: '41', cities: [
-        City(
-            id: 31422,
-            name: 'Sedrata',
-            latitude: '36.12868000',
-            longitude: '7.53376000'),
-        City(
-            id: 31437,
-            name: 'Souk Ahras',
-            latitude: '36.28639000',
-            longitude: '7.95111000')
-      ]),
-      State(id: 1135, name: 'Tamanghasset', stateCode: '11', cities: [
-        City(
-            id: 31356,
-            name: 'I-n-Salah',
-            latitude: '27.19351000',
-            longitude: '2.46069000'),
-        City(
-            id: 31443,
-            name: 'Tamanrasset',
-            latitude: '22.78500000',
-            longitude: '5.52278000')
-      ]),
-      State(id: 1117, name: 'Tébessa', stateCode: '12', cities: [
-        City(
-            id: 31271,
-            name: 'Bir el Ater',
-            latitude: '34.74488000',
-            longitude: '8.06024000'),
-        City(
-            id: 31305,
-            name: 'Cheria',
-            latitude: '35.27306000',
-            longitude: '7.75194000'),
-        City(
-            id: 31352,
-            name: 'Hammamet',
-            latitude: '35.44862000',
-            longitude: '7.95184000'),
-        City(
-            id: 31463,
-            name: 'Tébessa',
-            latitude: '35.40417000',
-            longitude: '8.12417000')
-      ]),
-      State(id: 1106, name: 'Tiaret', stateCode: '14', cities: [
-        City(
-            id: 31472,
-            name: '’Aïn Deheb',
-            latitude: '34.84218000',
-            longitude: '1.54697000'),
-        City(
-            id: 31317,
-            name: 'Djebilet Rosfa',
-            latitude: '34.86375000',
-            longitude: '0.83496000'),
-        City(
-            id: 31346,
-            name: 'Frenda',
-            latitude: '35.06544000',
-            longitude: '1.04945000'),
-        City(
-            id: 31365,
-            name: 'Ksar Chellala',
-            latitude: '35.21222000',
-            longitude: '2.31889000'),
-        City(
-            id: 31379,
-            name: 'Mehdia daira de meghila',
-            latitude: '35.43058000',
-            longitude: '1.75714000'),
-        City(
-            id: 31436,
-            name: 'Sougueur',
-            latitude: '35.18568000',
-            longitude: '1.49612000'),
-        City(
-            id: 31449,
-            name: 'Tiaret',
-            latitude: '35.37103000',
-            longitude: '1.31699000')
-      ]),
-      State(id: 4910, name: 'Timimoun', stateCode: '54', cities: []),
-      State(id: 1120, name: 'Tindouf', stateCode: '37', cities: [
-        City(
-            id: 31452,
-            name: 'Tindouf',
-            latitude: '27.67111000',
-            longitude: '-8.14743000')
-      ]),
-      State(id: 1115, name: 'Tipasa', stateCode: '42', cities: [
-        City(
-            id: 31470,
-            name: '’Aïn Benian',
-            latitude: '36.80277000',
-            longitude: '2.92185000'),
-        City(
-            id: 31255,
-            name: 'Baraki',
-            latitude: '36.66655000',
-            longitude: '3.09606000'),
-        City(
-            id: 31283,
-            name: 'Bou Ismaïl',
-            latitude: '36.64262000',
-            longitude: '2.69007000'),
-        City(
-            id: 31304,
-            name: 'Cheraga',
-            latitude: '36.76775000',
-            longitude: '2.95924000'),
-        City(
-            id: 31320,
-            name: 'Douera',
-            latitude: '36.67000000',
-            longitude: '2.94444000'),
-        City(
-            id: 31328,
-            name: 'El Affroun',
-            latitude: '36.47010000',
-            longitude: '2.62528000'),
-        City(
-            id: 31349,
-            name: 'Hadjout',
-            latitude: '36.51257000',
-            longitude: '2.41382000'),
-        City(
-            id: 31364,
-            name: 'Kolea',
-            latitude: '36.63888000',
-            longitude: '2.76845000'),
-        City(
-            id: 31389,
-            name: 'Mouzaïa',
-            latitude: '36.46695000',
-            longitude: '2.68991000'),
-        City(
-            id: 31401,
-            name: 'Oued el Alleug',
-            latitude: '36.55528000',
-            longitude: '2.79028000'),
-        City(
-            id: 31418,
-            name: 'Saoula',
-            latitude: '36.70456000',
-            longitude: '3.02462000'),
-        City(
-            id: 31453,
-            name: 'Tipasa',
-            latitude: '36.58972000',
-            longitude: '2.44750000'),
-        City(
-            id: 31465,
-            name: 'Zeralda',
-            latitude: '36.71169000',
-            longitude: '2.84244000')
-      ]),
-      State(id: 1133, name: 'Tissemsilt', stateCode: '38', cities: [
-        City(
-            id: 31370,
-            name: 'Lardjem',
-            latitude: '35.74922000',
-            longitude: '1.54778000'),
-        City(
-            id: 31455,
-            name: 'Tissemsilt',
-            latitude: '35.60722000',
-            longitude: '1.81081000')
-      ]),
-      State(id: 1131, name: 'Tizi Ouzou', stateCode: '15', cities: [
-        City(
-            id: 31476,
-            name: '’Aïn el Hammam',
-            latitude: '36.56471000',
-            longitude: '4.30619000'),
-        City(
-            id: 31236,
-            name: 'Arhribs',
-            latitude: '36.79361000',
-            longitude: '4.31158000'),
-        City(
-            id: 31238,
-            name: 'Azazga',
-            latitude: '36.74472000',
-            longitude: '4.37222000'),
-        City(
-            id: 31262,
-            name: 'Beni Douala',
-            latitude: '36.61954000',
-            longitude: '4.08282000'),
-        City(
-            id: 31277,
-            name: 'Boghni',
-            latitude: '36.54222000',
-            longitude: '3.95306000'),
-        City(
-            id: 31285,
-            name: 'Boudjima',
-            latitude: '36.80218000',
-            longitude: '4.15187000'),
-        City(
-            id: 31303,
-            name: 'Chemini',
-            latitude: '36.60000000',
-            longitude: '4.61667000'),
-        City(
-            id: 31321,
-            name: 'Draa Ben Khedda',
-            latitude: '36.73436000',
-            longitude: '3.96223000'),
-        City(
-            id: 31345,
-            name: 'Freha',
-            latitude: '36.75234000',
-            longitude: '4.31550000'),
-        City(
-            id: 31357,
-            name: 'Ighram',
-            latitude: '36.46295000',
-            longitude: '4.50532000'),
-        City(
-            id: 31371,
-            name: 'L’Arbaa Naït Irathen',
-            latitude: '36.63112000',
-            longitude: '4.19864000'),
-        City(
-            id: 31380,
-            name: 'Mekla',
-            latitude: '36.68178000',
-            longitude: '4.26378000'),
-        City(
-            id: 31451,
-            name: 'Timizart',
-            latitude: '36.80000000',
-            longitude: '4.26667000'),
-        City(
-            id: 31454,
-            name: 'Tirmitine',
-            latitude: '36.65393000',
-            longitude: '3.98143000'),
-        City(
-            id: 31457,
-            name: 'Tizi Ouzou',
-            latitude: '36.71182000',
-            longitude: '4.04591000'),
-        City(
-            id: 31458,
-            name: 'Tizi Rached',
-            latitude: '36.67176000',
-            longitude: '4.19176000'),
-        City(
-            id: 31459,
-            name: 'Tizi-n-Tleta',
-            latitude: '36.54569000',
-            longitude: '4.05712000')
-      ]),
-      State(id: 1107, name: 'Tlemcen', stateCode: '13', cities: [
-        City(
-            id: 31264,
-            name: 'Beni Mester',
-            latitude: '34.87045000',
-            longitude: '-1.42319000'),
-        City(
-            id: 31266,
-            name: 'Bensekrane',
-            latitude: '35.07465000',
-            longitude: '-1.22431000'),
-        City(
-            id: 31306,
-            name: 'Chetouane',
-            latitude: '34.92129000',
-            longitude: '-1.29512000'),
-        City(
-            id: 31354,
-            name: 'Hennaya',
-            latitude: '34.95139000',
-            longitude: '-1.36806000'),
-        City(
-            id: 31374,
-            name: 'Mansoûra',
-            latitude: '34.86158000',
-            longitude: '-1.33935000'),
-        City(
-            id: 31394,
-            name: 'Nedroma',
-            latitude: '35.01361000',
-            longitude: '-1.74799000'),
-        City(
-            id: 31402,
-            name: 'Ouled Mimoun',
-            latitude: '34.90472000',
-            longitude: '-1.03394000'),
-        City(
-            id: 31410,
-            name: 'Remchi',
-            latitude: '35.06196000',
-            longitude: '-1.43362000'),
-        City(
-            id: 31420,
-            name: 'Sebdou',
-            latitude: '34.63703000',
-            longitude: '-1.33143000'),
-        City(
-            id: 31423,
-            name: 'Sidi Abdelli',
-            latitude: '35.06937000',
-            longitude: '-1.13706000'),
-        City(
-            id: 31431,
-            name: 'Sidi Senoussi سيدي سنوسي',
-            latitude: '34.99691000',
-            longitude: '-1.09449000'),
-        City(
-            id: 31460,
-            name: 'Tlemcen',
-            latitude: '34.87833000',
-            longitude: '-1.31500000')
-      ]),
-      State(id: 4911, name: 'Touggourt', stateCode: '55', cities: [])
-    ]);
+  id: 4,
+  name: 'Algeria',
+  iso3: 'DZA',
+  iso2: 'DZ',
+  phoneCode: '213',
+  capital: 'Algiers',
+  currency: 'DZD',
+  currencySymbol: r'دج',
+  tld: '.dz',
+  native: 'الجزائر',
+  region: 'Africa',
+  subregion: 'Northern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Algiers',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'CET',
+      tzName: 'Central European Time',
+    )
+  ],
+  emoji: '🇩🇿',
+  emojiU: 'U+1F1E9 U+1F1FF',
+  states: [
+    CountryState(
+      id: 1118,
+      name: 'Adrar',
+      stateCode: '01',
+      cities: [
+        City(
+          id: 31227,
+          name: 'Adrar',
+          latitude: '27.87429000',
+          longitude: '-0.29388000',
+        ),
+        City(
+          id: 31234,
+          name: 'Aoulef',
+          latitude: '26.96667000',
+          longitude: '1.08333000',
+        ),
+        City(
+          id: 31406,
+          name: 'Reggane',
+          latitude: '26.71576000',
+          longitude: '0.17140000',
+        ),
+        City(
+          id: 31450,
+          name: 'Timimoun',
+          latitude: '29.26388000',
+          longitude: '0.23098000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1119,
+      name: 'Aïn Defla',
+      stateCode: '44',
+      cities: [
+        City(
+          id: 31243,
+          name: 'Aïn Defla',
+          latitude: '36.26405000',
+          longitude: '1.96790000',
+        ),
+        City(
+          id: 31325,
+          name: 'El Abadia',
+          latitude: '36.26951000',
+          longitude: '1.68609000',
+        ),
+        City(
+          id: 31331,
+          name: 'El Attaf',
+          latitude: '36.22393000',
+          longitude: '1.67187000',
+        ),
+        City(
+          id: 31361,
+          name: 'Khemis Miliana',
+          latitude: '36.26104000',
+          longitude: '2.22015000',
+        ),
+        City(
+          id: 31448,
+          name: 'Theniet el Had',
+          latitude: '35.87111000',
+          longitude: '2.02806000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1122,
+      name: 'Aïn Témouchent',
+      stateCode: '46',
+      cities: [
+        City(
+          id: 31250,
+          name: 'Aïn Temouchent',
+          latitude: '35.29749000',
+          longitude: '-1.14037000',
+        ),
+        City(
+          id: 31265,
+          name: 'Beni Saf',
+          latitude: '35.30099000',
+          longitude: '-1.38226000',
+        ),
+        City(
+          id: 31329,
+          name: 'El Amria',
+          latitude: '35.52439000',
+          longitude: '-1.01577000',
+        ),
+        City(
+          id: 31340,
+          name: 'El Malah',
+          latitude: '35.39137000',
+          longitude: '-1.09238000',
+        ),
+        City(
+          id: 31351,
+          name: 'Hammam Bou Hadjar',
+          latitude: '35.37889000',
+          longitude: '-0.96778000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1144,
+      name: 'Algiers',
+      stateCode: '16',
+      cities: [
+        City(
+          id: 31249,
+          name: 'Aïn Taya',
+          latitude: '36.79333000',
+          longitude: '3.28694000',
+        ),
+        City(
+          id: 31230,
+          name: 'Algiers',
+          latitude: '36.73225000',
+          longitude: '3.08746000',
+        ),
+        City(
+          id: 31254,
+          name: 'Bab Ezzouar',
+          latitude: '36.72615000',
+          longitude: '3.18291000',
+        ),
+        City(
+          id: 31274,
+          name: 'Birkhadem',
+          latitude: '36.71499000',
+          longitude: '3.05002000',
+        ),
+        City(
+          id: 31281,
+          name: 'Bordj el Kiffan',
+          latitude: '36.74871000',
+          longitude: '3.19249000',
+        ),
+        City(
+          id: 31312,
+          name: 'Dar el Beïda',
+          latitude: '36.71333000',
+          longitude: '3.21250000',
+        ),
+        City(
+          id: 31413,
+          name: 'Rouiba',
+          latitude: '36.73829000',
+          longitude: '3.28079000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1103,
+      name: 'Annaba',
+      stateCode: '23',
+      cities: [
+        City(
+          id: 31233,
+          name: 'Annaba',
+          latitude: '36.90000000',
+          longitude: '7.76667000',
+        ),
+        City(
+          id: 31267,
+          name: 'Berrahal',
+          latitude: '36.83528000',
+          longitude: '7.45333000',
+        ),
+        City(
+          id: 31323,
+          name: 'Drean',
+          latitude: '36.68482000',
+          longitude: '7.75111000',
+        ),
+        City(
+          id: 31334,
+          name: 'El Hadjar',
+          latitude: '36.80377000',
+          longitude: '7.73684000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1142,
+      name: 'Batna',
+      stateCode: '05',
+      cities: [
+        City(
+          id: 31251,
+          name: 'Aïn Touta',
+          latitude: '35.37675000',
+          longitude: '5.90001000',
+        ),
+        City(
+          id: 31237,
+          name: 'Arris',
+          latitude: '35.25881000',
+          longitude: '6.34706000',
+        ),
+        City(
+          id: 31257,
+          name: 'Barika',
+          latitude: '35.38901000',
+          longitude: '5.36584000',
+        ),
+        City(
+          id: 31258,
+          name: 'Batna',
+          latitude: '35.55597000',
+          longitude: '6.17414000',
+        ),
+        City(
+          id: 31292,
+          name: 'Boumagueur',
+          latitude: '35.50520000',
+          longitude: '5.55250000',
+        ),
+        City(
+          id: 31382,
+          name: 'Merouana',
+          latitude: '35.63106000',
+          longitude: '5.91186000',
+        ),
+        City(
+          id: 31415,
+          name: 'Râs el Aïoun',
+          latitude: '35.67384000',
+          longitude: '5.64530000',
+        ),
+        City(
+          id: 31444,
+          name: 'Tazoult-Lambese',
+          latitude: '35.48171000',
+          longitude: '6.26074000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1108,
+      name: 'Béchar',
+      stateCode: '08',
+      cities: [
+        City(
+          id: 31298,
+          name: 'Béchar',
+          latitude: '31.61667000',
+          longitude: '-2.21667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1128,
+      name: 'Béjaïa',
+      stateCode: '06',
+      cities: [
+        City(
+          id: 31229,
+          name: 'Akbou',
+          latitude: '36.45750000',
+          longitude: '4.53494000',
+        ),
+        City(
+          id: 31231,
+          name: 'Amizour',
+          latitude: '36.64022000',
+          longitude: '4.90131000',
+        ),
+        City(
+          id: 31256,
+          name: 'Barbacha',
+          latitude: '36.56667000',
+          longitude: '4.96667000',
+        ),
+        City(
+          id: 31259,
+          name: 'Bejaïa',
+          latitude: '36.75587000',
+          longitude: '5.08433000',
+        ),
+        City(
+          id: 31467,
+          name: 'el hed',
+          latitude: '36.65000000',
+          longitude: '4.77361000',
+        ),
+        City(
+          id: 31339,
+          name: 'El Kseur',
+          latitude: '36.67942000',
+          longitude: '4.85550000',
+        ),
+        City(
+          id: 31344,
+          name: 'Feraoun',
+          latitude: '36.56041000',
+          longitude: '4.85454000',
+        ),
+        City(
+          id: 31421,
+          name: 'Seddouk',
+          latitude: '36.54722000',
+          longitude: '4.68611000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4909,
+      name: 'Béni Abbès',
+      stateCode: '53',
+      cities: [],
+    ),
+    CountryState(
+      id: 1114,
+      name: 'Biskra',
+      stateCode: '07',
+      cities: [
+        City(
+          id: 31275,
+          name: 'Biskra',
+          latitude: '34.85038000',
+          longitude: '5.72805000',
+        ),
+        City(
+          id: 31405,
+          name: 'Oumache',
+          latitude: '34.69292000',
+          longitude: '5.68092000',
+        ),
+        City(
+          id: 31427,
+          name: 'Sidi Khaled',
+          latitude: '34.38700000',
+          longitude: '4.98785000',
+        ),
+        City(
+          id: 31430,
+          name: 'Sidi Okba',
+          latitude: '34.74512000',
+          longitude: '5.89833000',
+        ),
+        City(
+          id: 31461,
+          name: 'Tolga',
+          latitude: '34.72224000',
+          longitude: '5.37845000',
+        ),
+        City(
+          id: 31466,
+          name: 'Zeribet el Oued',
+          latitude: '34.68284000',
+          longitude: '6.51109000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1111,
+      name: 'Blida',
+      stateCode: '09',
+      cities: [
+        City(
+          id: 31263,
+          name: 'Beni Mered',
+          latitude: '36.52389000',
+          longitude: '2.86131000',
+        ),
+        City(
+          id: 31276,
+          name: 'Blida',
+          latitude: '36.47004000',
+          longitude: '2.82770000',
+        ),
+        City(
+          id: 31296,
+          name: 'Boû Arfa',
+          latitude: '36.46298000',
+          longitude: '2.81464000',
+        ),
+        City(
+          id: 31287,
+          name: 'Boufarik',
+          latitude: '36.57413000',
+          longitude: '2.91214000',
+        ),
+        City(
+          id: 31289,
+          name: 'Bougara',
+          latitude: '36.54178000',
+          longitude: '3.08100000',
+        ),
+        City(
+          id: 31290,
+          name: 'Bouinan',
+          latitude: '36.53167000',
+          longitude: '2.99194000',
+        ),
+        City(
+          id: 31301,
+          name: 'Chebli',
+          latitude: '36.57722000',
+          longitude: '3.00917000',
+        ),
+        City(
+          id: 31307,
+          name: 'Chiffa',
+          latitude: '36.46293000',
+          longitude: '2.73873000',
+        ),
+        City(
+          id: 31369,
+          name: 'Larbaâ',
+          latitude: '36.56471000',
+          longitude: '3.15434000',
+        ),
+        City(
+          id: 31377,
+          name: 'Meftah',
+          latitude: '36.62040000',
+          longitude: '3.22248000',
+        ),
+        City(
+          id: 31428,
+          name: 'Sidi Moussa',
+          latitude: '36.60637000',
+          longitude: '3.08783000',
+        ),
+        City(
+          id: 31438,
+          name: 'Souma',
+          latitude: '36.51833000',
+          longitude: '2.90528000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4908,
+      name: 'Bordj Baji Mokhtar',
+      stateCode: '52',
+      cities: [],
+    ),
+    CountryState(
+      id: 1116,
+      name: 'Bordj Bou Arréridj',
+      stateCode: '34',
+      cities: [
+        City(
+          id: 31278,
+          name: 'Bordj Bou Arreridj',
+          latitude: '36.07321000',
+          longitude: '4.76108000',
+        ),
+        City(
+          id: 31279,
+          name: 'Bordj Ghdir',
+          latitude: '35.90111000',
+          longitude: '4.89806000',
+        ),
+        City(
+          id: 31280,
+          name: 'Bordj Zemoura',
+          latitude: '36.27462000',
+          longitude: '4.85668000',
+        ),
+        City(
+          id: 31327,
+          name: 'El Achir',
+          latitude: '36.06386000',
+          longitude: '4.62744000',
+        ),
+        City(
+          id: 31373,
+          name: 'Mansourah',
+          latitude: '36.08725000',
+          longitude: '4.45192000',
+        ),
+        City(
+          id: 31381,
+          name: 'Melouza',
+          latitude: '35.97999000',
+          longitude: '4.18665000',
+        ),
+        City(
+          id: 31416,
+          name: 'Râs el Oued',
+          latitude: '35.94410000',
+          longitude: '5.03107000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1104,
+      name: 'Bouïra',
+      stateCode: '10',
+      cities: [
+        City(
+          id: 31241,
+          name: 'Aïn Bessem',
+          latitude: '36.29333000',
+          longitude: '3.67319000',
+        ),
+        City(
+          id: 31295,
+          name: 'Bouïra',
+          latitude: '36.37489000',
+          longitude: '3.90200000',
+        ),
+        City(
+          id: 31309,
+          name: 'Chorfa',
+          latitude: '36.36505000',
+          longitude: '4.32636000',
+        ),
+        City(
+          id: 31322,
+          name: 'Draa el Mizan',
+          latitude: '36.53628000',
+          longitude: '3.83340000',
+        ),
+        City(
+          id: 31368,
+          name: 'Lakhdaria',
+          latitude: '36.56463000',
+          longitude: '3.59330000',
+        ),
+        City(
+          id: 31439,
+          name: 'Sour el Ghozlane',
+          latitude: '36.14766000',
+          longitude: '3.69123000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1125,
+      name: 'Boumerdès',
+      stateCode: '35',
+      cities: [
+        City(
+          id: 31235,
+          name: 'Arbatache',
+          latitude: '36.63773000',
+          longitude: '3.37127000',
+        ),
+        City(
+          id: 31261,
+          name: 'Beni Amrane',
+          latitude: '36.66774000',
+          longitude: '3.59115000',
+        ),
+        City(
+          id: 31286,
+          name: 'Boudouaou',
+          latitude: '36.72735000',
+          longitude: '3.40995000',
+        ),
+        City(
+          id: 31294,
+          name: 'Boumerdas',
+          latitude: '36.76639000',
+          longitude: '3.47717000',
+        ),
+        City(
+          id: 31299,
+          name: 'Chabet el Ameur',
+          latitude: '36.63709000',
+          longitude: '3.69474000',
+        ),
+        City(
+          id: 31314,
+          name: 'Dellys',
+          latitude: '36.91716000',
+          longitude: '3.91311000',
+        ),
+        City(
+          id: 31362,
+          name: 'Khemis el Khechna',
+          latitude: '36.64997000',
+          longitude: '3.33080000',
+        ),
+        City(
+          id: 31372,
+          name: 'Makouda',
+          latitude: '36.78567000',
+          longitude: '4.06273000',
+        ),
+        City(
+          id: 31393,
+          name: 'Naciria',
+          latitude: '36.74625000',
+          longitude: '3.83163000',
+        ),
+        City(
+          id: 31403,
+          name: 'Ouled Moussa',
+          latitude: '36.68394000',
+          longitude: '3.36661000',
+        ),
+        City(
+          id: 31407,
+          name: 'Reghaïa',
+          latitude: '36.73587000',
+          longitude: '3.34018000',
+        ),
+        City(
+          id: 31441,
+          name: 'Tadmaït',
+          latitude: '36.74413000',
+          longitude: '3.90045000',
+        ),
+        City(
+          id: 31447,
+          name: 'Thenia',
+          latitude: '36.72544000',
+          longitude: '3.55665000',
+        ),
+        City(
+          id: 31456,
+          name: 'Tizi Gheniff',
+          latitude: '36.58839000',
+          longitude: '3.77445000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1105,
+      name: 'Chlef',
+      stateCode: '02',
+      cities: [
+        City(
+          id: 31226,
+          name: 'Abou el Hassan',
+          latitude: '36.41657000',
+          longitude: '1.19616000',
+        ),
+        City(
+          id: 31291,
+          name: 'Boukadir',
+          latitude: '36.06629000',
+          longitude: '1.12602000',
+        ),
+        City(
+          id: 31308,
+          name: 'Chlef',
+          latitude: '36.16525000',
+          longitude: '1.33452000',
+        ),
+        City(
+          id: 31324,
+          name: 'Ech Chettia',
+          latitude: '36.19591000',
+          longitude: '1.25537000',
+        ),
+        City(
+          id: 31397,
+          name: 'Oued Fodda',
+          latitude: '36.18503000',
+          longitude: '1.53299000',
+        ),
+        City(
+          id: 31399,
+          name: 'Oued Sly',
+          latitude: '36.10124000',
+          longitude: '1.19949000',
+        ),
+        City(
+          id: 31424,
+          name: 'Sidi Akkacha',
+          latitude: '36.46472000',
+          longitude: '1.30258000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1121,
+      name: 'Constantine',
+      stateCode: '25',
+      cities: [
+        City(
+          id: 31469,
+          name: '’Aïn Abid',
+          latitude: '36.23194000',
+          longitude: '6.94333000',
+        ),
+        City(
+          id: 31248,
+          name: 'Aïn Smara',
+          latitude: '36.26740000',
+          longitude: '6.50135000',
+        ),
+        City(
+          id: 31310,
+          name: 'Constantine',
+          latitude: '36.36500000',
+          longitude: '6.61472000',
+        ),
+        City(
+          id: 31315,
+          name: 'Didouche Mourad',
+          latitude: '36.45250000',
+          longitude: '6.63639000',
+        ),
+        City(
+          id: 31338,
+          name: 'El Khroub',
+          latitude: '36.26333000',
+          longitude: '6.69361000',
+        ),
+        City(
+          id: 31350,
+          name: 'Hamma Bouziane',
+          latitude: '36.41205000',
+          longitude: '6.59603000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4912,
+      name: 'Djanet',
+      stateCode: '56',
+      cities: [],
+    ),
+    CountryState(
+      id: 1098,
+      name: 'Djelfa',
+      stateCode: '17',
+      cities: [
+        City(
+          id: 31474,
+          name: '’Aïn el Bell',
+          latitude: '34.34381000',
+          longitude: '3.22475000',
+        ),
+        City(
+          id: 31246,
+          name: 'Aïn Oussera',
+          latitude: '35.45139000',
+          longitude: '2.90583000',
+        ),
+        City(
+          id: 31273,
+          name: 'Birine',
+          latitude: '35.63500000',
+          longitude: '3.22500000',
+        ),
+        City(
+          id: 31300,
+          name: 'Charef',
+          latitude: '34.62098000',
+          longitude: '2.79503000',
+        ),
+        City(
+          id: 31311,
+          name: 'Dar Chioukh',
+          latitude: '34.89638000',
+          longitude: '3.48543000',
+        ),
+        City(
+          id: 31318,
+          name: 'Djelfa',
+          latitude: '34.67279000',
+          longitude: '3.26300000',
+        ),
+        City(
+          id: 31336,
+          name: 'El Idrissia',
+          latitude: '34.44542000',
+          longitude: '2.52749000',
+        ),
+        City(
+          id: 31385,
+          name: 'Messaad',
+          latitude: '34.15429000',
+          longitude: '3.50309000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1129,
+      name: 'El Bayadh',
+      stateCode: '32',
+      cities: [
+        City(
+          id: 31297,
+          name: 'Brezina',
+          latitude: '33.09892000',
+          longitude: '1.26082000',
+        ),
+        City(
+          id: 31326,
+          name: 'El Abiodh Sidi Cheikh',
+          latitude: '32.89300000',
+          longitude: '0.54839000',
+        ),
+        City(
+          id: 31332,
+          name: 'El Bayadh',
+          latitude: '33.68318000',
+          longitude: '1.01927000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4905,
+      name: 'El M\'ghair',
+      stateCode: '49',
+      cities: [],
+    ),
+    CountryState(
+      id: 4906,
+      name: 'El Menia',
+      stateCode: '50',
+      cities: [],
+    ),
+    CountryState(
+      id: 1099,
+      name: 'El Oued',
+      stateCode: '39',
+      cities: [
+        City(
+          id: 31313,
+          name: 'Debila',
+          latitude: '33.51667000',
+          longitude: '6.95000000',
+        ),
+        City(
+          id: 31341,
+          name: 'El Oued',
+          latitude: '33.35608000',
+          longitude: '6.86319000',
+        ),
+        City(
+          id: 31408,
+          name: 'Reguiba',
+          latitude: '33.56391000',
+          longitude: '6.70326000',
+        ),
+        City(
+          id: 31411,
+          name: 'Robbah',
+          latitude: '33.27967000',
+          longitude: '6.90984000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1100,
+      name: 'El Tarf',
+      stateCode: '36',
+      cities: [
+        City(
+          id: 31260,
+          name: 'Ben Mehidi',
+          latitude: '36.76967000',
+          longitude: '7.90641000',
+        ),
+        City(
+          id: 31270,
+          name: 'Besbes',
+          latitude: '36.70222000',
+          longitude: '7.84722000',
+        ),
+        City(
+          id: 31337,
+          name: 'El Kala',
+          latitude: '36.89556000',
+          longitude: '8.44333000',
+        ),
+        City(
+          id: 31342,
+          name: 'El Tarf',
+          latitude: '36.76720000',
+          longitude: '8.31377000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1127,
+      name: 'Ghardaïa',
+      stateCode: '47',
+      cities: [
+        City(
+          id: 31268,
+          name: 'Berriane',
+          latitude: '32.82648000',
+          longitude: '3.76689000',
+        ),
+        City(
+          id: 31347,
+          name: 'Ghardaïa',
+          latitude: '32.49094000',
+          longitude: '3.67347000',
+        ),
+        City(
+          id: 31386,
+          name: 'Metlili Chaamba',
+          latitude: '32.26667000',
+          longitude: '3.63333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1137,
+      name: 'Guelma',
+      stateCode: '24',
+      cities: [
+        City(
+          id: 31293,
+          name: 'Boumahra Ahmed',
+          latitude: '36.45833000',
+          longitude: '7.51389000',
+        ),
+        City(
+          id: 31348,
+          name: 'Guelma',
+          latitude: '36.46214000',
+          longitude: '7.42608000',
+        ),
+        City(
+          id: 31355,
+          name: 'Héliopolis',
+          latitude: '36.50361000',
+          longitude: '7.44278000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1112,
+      name: 'Illizi',
+      stateCode: '33',
+      cities: [
+        City(
+          id: 31358,
+          name: 'Illizi',
+          latitude: '26.48333000',
+          longitude: '8.46667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4914,
+      name: 'In Guezzam',
+      stateCode: '58',
+      cities: [],
+    ),
+    CountryState(
+      id: 4913,
+      name: 'In Salah',
+      stateCode: '57',
+      cities: [],
+    ),
+    CountryState(
+      id: 1113,
+      name: 'Jijel',
+      stateCode: '18',
+      cities: [
+        City(
+          id: 31359,
+          name: 'Jijel',
+          latitude: '36.82055000',
+          longitude: '5.76671000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1126,
+      name: 'Khenchela',
+      stateCode: '40',
+      cities: [
+        City(
+          id: 31363,
+          name: 'Khenchela',
+          latitude: '35.43583000',
+          longitude: '7.14333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1138,
+      name: 'Laghouat',
+      stateCode: '03',
+      cities: [
+        City(
+          id: 31228,
+          name: 'Aflou',
+          latitude: '34.11279000',
+          longitude: '2.10228000',
+        ),
+        City(
+          id: 31367,
+          name: 'Laghouat',
+          latitude: '33.80000000',
+          longitude: '2.86514000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1134,
+      name: 'M\'Sila',
+      stateCode: '28',
+      cities: [
+        City(
+          id: 31468,
+          name: '‘Aïn el Hadjel',
+          latitude: '35.67003000',
+          longitude: '3.88153000',
+        ),
+        City(
+          id: 31477,
+          name: '’Aïn el Melh',
+          latitude: '34.84146000',
+          longitude: '4.16383000',
+        ),
+        City(
+          id: 31391,
+          name: 'M’Sila',
+          latitude: '35.70583000',
+          longitude: '4.54194000',
+        ),
+        City(
+          id: 31426,
+          name: 'Sidi Aïssa',
+          latitude: '35.88548000',
+          longitude: '3.77236000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1124,
+      name: 'Mascara',
+      stateCode: '29',
+      cities: [
+        City(
+          id: 31282,
+          name: 'Bou Hanifia el Hamamat',
+          latitude: '35.31473000',
+          longitude: '-0.05037000',
+        ),
+        City(
+          id: 31375,
+          name: 'Mascara',
+          latitude: '35.39664000',
+          longitude: '0.14027000',
+        ),
+        City(
+          id: 31400,
+          name: 'Oued el Abtal',
+          latitude: '35.45595000',
+          longitude: '0.68778000',
+        ),
+        City(
+          id: 31433,
+          name: 'Sig',
+          latitude: '35.52832000',
+          longitude: '-0.19369000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1109,
+      name: 'Médéa',
+      stateCode: '26',
+      cities: [
+        City(
+          id: 31471,
+          name: '’Aïn Boucif',
+          latitude: '35.89123000',
+          longitude: '3.15850000',
+        ),
+        City(
+          id: 31269,
+          name: 'Berrouaghia',
+          latitude: '36.13516000',
+          longitude: '2.91085000',
+        ),
+        City(
+          id: 31366,
+          name: 'Ksar el Boukhari',
+          latitude: '35.88889000',
+          longitude: '2.74905000',
+        ),
+        City(
+          id: 31390,
+          name: 'Médéa',
+          latitude: '36.26417000',
+          longitude: '2.75393000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1132,
+      name: 'Mila',
+      stateCode: '43',
+      cities: [
+        City(
+          id: 31302,
+          name: 'Chelghoum el Aïd',
+          latitude: '36.16286000',
+          longitude: '6.16651000',
+        ),
+        City(
+          id: 31387,
+          name: 'Mila',
+          latitude: '36.45028000',
+          longitude: '6.26444000',
+        ),
+        City(
+          id: 31412,
+          name: 'Rouached',
+          latitude: '36.45774000',
+          longitude: '6.04267000',
+        ),
+        City(
+          id: 31429,
+          name: 'Sidi Mérouane',
+          latitude: '36.52056000',
+          longitude: '6.26111000',
+        ),
+        City(
+          id: 31446,
+          name: 'Telerghma',
+          latitude: '36.11653000',
+          longitude: '6.35434000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1140,
+      name: 'Mostaganem',
+      stateCode: '27',
+      cities: [
+        City(
+          id: 31388,
+          name: 'Mostaganem',
+          latitude: '35.93115000',
+          longitude: '0.08918000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1102,
+      name: 'Naama',
+      stateCode: '45',
+      cities: [
+        City(
+          id: 31247,
+          name: 'Aïn Sefra',
+          latitude: '32.75000000',
+          longitude: '-0.58333000',
+        ),
+        City(
+          id: 31392,
+          name: 'Naama',
+          latitude: '33.26667000',
+          longitude: '-0.31667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1101,
+      name: 'Oran',
+      stateCode: '31',
+      cities: [
+        City(
+          id: 31478,
+          name: '’Aïn el Turk',
+          latitude: '35.74381000',
+          longitude: '-0.76930000',
+        ),
+        City(
+          id: 31252,
+          name: 'Aïn el Bya',
+          latitude: '35.80389000',
+          longitude: '-0.30178000',
+        ),
+        City(
+          id: 31272,
+          name: 'Bir el Djir',
+          latitude: '35.72000000',
+          longitude: '-0.54500000',
+        ),
+        City(
+          id: 31284,
+          name: 'Bou Tlelis',
+          latitude: '35.57272000',
+          longitude: '-0.89960000',
+        ),
+        City(
+          id: 31343,
+          name: 'Es Senia',
+          latitude: '35.64779000',
+          longitude: '-0.62397000',
+        ),
+        City(
+          id: 31383,
+          name: 'Mers el Kebir',
+          latitude: '35.72790000',
+          longitude: '-0.70810000',
+        ),
+        City(
+          id: 31395,
+          name: 'Oran',
+          latitude: '35.69906000',
+          longitude: '-0.63588000',
+        ),
+        City(
+          id: 31432,
+          name: 'Sidi ech Chahmi',
+          latitude: '35.65903000',
+          longitude: '-0.52168000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1139,
+      name: 'Ouargla',
+      stateCode: '30',
+      cities: [
+        City(
+          id: 31316,
+          name: 'Djamaa',
+          latitude: '33.53388000',
+          longitude: '5.99306000',
+        ),
+        City(
+          id: 31335,
+          name: 'El Hadjira',
+          latitude: '32.61336000',
+          longitude: '5.51259000',
+        ),
+        City(
+          id: 31353,
+          name: 'Hassi Messaoud',
+          latitude: '31.68041000',
+          longitude: '6.07286000',
+        ),
+        City(
+          id: 31378,
+          name: 'Megarine',
+          latitude: '33.19195000',
+          longitude: '6.08695000',
+        ),
+        City(
+          id: 31396,
+          name: 'Ouargla',
+          latitude: '31.94932000',
+          longitude: '5.32502000',
+        ),
+        City(
+          id: 31414,
+          name: 'Rouissat',
+          latitude: '31.92427000',
+          longitude: '5.35018000',
+        ),
+        City(
+          id: 31425,
+          name: 'Sidi Amrane',
+          latitude: '33.49885000',
+          longitude: '6.00803000',
+        ),
+        City(
+          id: 31445,
+          name: 'Tebesbest',
+          latitude: '33.11667000',
+          longitude: '6.08333000',
+        ),
+        City(
+          id: 31462,
+          name: 'Touggourt',
+          latitude: '33.10527000',
+          longitude: '6.05796000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4907,
+      name: 'Ouled Djellal',
+      stateCode: '51',
+      cities: [],
+    ),
+    CountryState(
+      id: 1136,
+      name: 'Oum El Bouaghi',
+      stateCode: '04',
+      cities: [
+        City(
+          id: 31242,
+          name: 'Aïn Beïda',
+          latitude: '35.79639000',
+          longitude: '7.39278000',
+        ),
+        City(
+          id: 31244,
+          name: 'Aïn Fakroun',
+          latitude: '35.97108000',
+          longitude: '6.87374000',
+        ),
+        City(
+          id: 31245,
+          name: 'Aïn Kercha',
+          latitude: '35.92472000',
+          longitude: '6.69528000',
+        ),
+        City(
+          id: 31330,
+          name: 'El Aouinet',
+          latitude: '35.86691000',
+          longitude: '7.88673000',
+        ),
+        City(
+          id: 31384,
+          name: 'Meskiana',
+          latitude: '35.63058000',
+          longitude: '7.66606000',
+        ),
+        City(
+          id: 31404,
+          name: 'Oum el Bouaghi',
+          latitude: '35.87541000',
+          longitude: '7.11353000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1130,
+      name: 'Relizane',
+      stateCode: '48',
+      cities: [
+        City(
+          id: 31473,
+          name: '’Aïn Merane',
+          latitude: '36.16277000',
+          longitude: '0.97037000',
+        ),
+        City(
+          id: 31232,
+          name: 'Ammi Moussa',
+          latitude: '35.86781000',
+          longitude: '1.11143000',
+        ),
+        City(
+          id: 31319,
+          name: 'Djidiouia',
+          latitude: '35.92989000',
+          longitude: '0.82871000',
+        ),
+        City(
+          id: 31376,
+          name: 'Mazouna',
+          latitude: '36.12232000',
+          longitude: '0.89865000',
+        ),
+        City(
+          id: 31398,
+          name: 'Oued Rhiou',
+          latitude: '35.96124000',
+          longitude: '0.91896000',
+        ),
+        City(
+          id: 31409,
+          name: 'Relizane',
+          latitude: '35.73734000',
+          longitude: '0.55599000',
+        ),
+        City(
+          id: 31435,
+          name: 'Smala',
+          latitude: '35.71652000',
+          longitude: '0.75437000',
+        ),
+        City(
+          id: 31464,
+          name: 'Zemoura',
+          latitude: '35.72251000',
+          longitude: '0.75509000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1123,
+      name: 'Saïda',
+      stateCode: '20',
+      cities: [
+        City(
+          id: 31475,
+          name: '’Aïn el Hadjar',
+          latitude: '34.75846000',
+          longitude: '0.14528000',
+        ),
+        City(
+          id: 31419,
+          name: 'Saïda',
+          latitude: '34.83033000',
+          longitude: '0.15171000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1141,
+      name: 'Sétif',
+      stateCode: '19',
+      cities: [
+        City(
+          id: 31240,
+          name: 'Aïn Arnat',
+          latitude: '36.18683000',
+          longitude: '5.31347000',
+        ),
+        City(
+          id: 31253,
+          name: 'BABOR - VILLE',
+          latitude: '36.48994000',
+          longitude: '5.53930000',
+        ),
+        City(
+          id: 31288,
+          name: 'Bougaa',
+          latitude: '36.33293000',
+          longitude: '5.08843000',
+        ),
+        City(
+          id: 31333,
+          name: 'El Eulma',
+          latitude: '36.15281000',
+          longitude: '5.69016000',
+        ),
+        City(
+          id: 31417,
+          name: 'Salah Bey',
+          latitude: '35.85451000',
+          longitude: '5.29053000',
+        ),
+        City(
+          id: 31440,
+          name: 'Sétif',
+          latitude: '36.19112000',
+          longitude: '5.41373000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4902,
+      name: 'Sidi Bel Abbès',
+      stateCode: '22',
+      cities: [
+        City(
+          id: 146185,
+          name: 'Aïn El Berd District',
+          latitude: '35.35000000',
+          longitude: '-0.51667000',
+        ),
+        City(
+          id: 146186,
+          name: 'Balidat Ameur',
+          latitude: '32.95138900',
+          longitude: '5.98055600',
+        ),
+        City(
+          id: 146187,
+          name: 'Belarbi',
+          latitude: '35.15149480',
+          longitude: '-0.45679090',
+        ),
+        City(
+          id: 146188,
+          name: 'Ben Badis, Sid Bel Abbés',
+          latitude: '34.95277778',
+          longitude: '-0.91444444',
+        ),
+        City(
+          id: 146189,
+          name: 'Djamaa',
+          latitude: '33.53137870',
+          longitude: '5.99098210',
+        ),
+        City(
+          id: 146190,
+          name: 'El Bour',
+          latitude: '32.16305556',
+          longitude: '5.34527778',
+        ),
+        City(
+          id: 146191,
+          name: 'El Hadjira',
+          latitude: '32.61666667',
+          longitude: '5.51666667',
+        ),
+        City(
+          id: 146192,
+          name: 'Haoud El Hamra',
+          latitude: '31.88944444',
+          longitude: '5.97305556',
+        ),
+        City(
+          id: 146193,
+          name: 'Hassi Messaoud',
+          latitude: '31.70000000',
+          longitude: '6.06666667',
+        ),
+        City(
+          id: 146194,
+          name: 'Lamtar',
+          latitude: '35.07062700',
+          longitude: '-0.79814000',
+        ),
+        City(
+          id: 146195,
+          name: 'Marhoum',
+          latitude: '34.44600420',
+          longitude: '-0.19502440',
+        ),
+        City(
+          id: 146196,
+          name: 'Megarine',
+          latitude: '33.19262320',
+          longitude: '6.09346390',
+        ),
+        City(
+          id: 146197,
+          name: 'Merine',
+          latitude: '34.78074720',
+          longitude: '-0.45104030',
+        ),
+        City(
+          id: 146198,
+          name: 'Mezaourou',
+          latitude: '34.81732670',
+          longitude: '-0.62331890',
+        ),
+        City(
+          id: 146199,
+          name: 'Moggar',
+          latitude: '33.26722222',
+          longitude: '6.06777778',
+        ),
+        City(
+          id: 146200,
+          name: 'Moulay Slissen',
+          latitude: '34.81666667',
+          longitude: '-0.76666667',
+        ),
+        City(
+          id: 146201,
+          name: 'N\'Goussa',
+          latitude: '32.14087970',
+          longitude: '5.30828480',
+        ),
+        City(
+          id: 146202,
+          name: 'Ouargla',
+          latitude: '31.95000000',
+          longitude: '5.31666667',
+        ),
+        City(
+          id: 146203,
+          name: 'Rouissat',
+          latitude: '31.93657600',
+          longitude: '5.33540730',
+        ),
+        City(
+          id: 146204,
+          name: 'Sfissef',
+          latitude: '35.23440280',
+          longitude: '-0.24341580',
+        ),
+        City(
+          id: 146205,
+          name: 'Sidi Ali Boussidi',
+          latitude: '35.10000000',
+          longitude: '-0.83333333',
+        ),
+        City(
+          id: 146206,
+          name: 'Sidi Amrane',
+          latitude: '33.50000000',
+          longitude: '6.01666667',
+        ),
+        City(
+          id: 146207,
+          name: 'Sidi Bel Abbès',
+          latitude: '35.20000000',
+          longitude: '-0.63333333',
+        ),
+        City(
+          id: 146208,
+          name: 'Sidi Brahim',
+          latitude: '35.26055600',
+          longitude: '-0.56750000',
+        ),
+        City(
+          id: 146209,
+          name: 'Sidi Hamadouche',
+          latitude: '35.29916667',
+          longitude: '-0.54888889',
+        ),
+        City(
+          id: 146210,
+          name: 'Sidi Slimane',
+          latitude: '33.28861111',
+          longitude: '6.09472222',
+        ),
+        City(
+          id: 146211,
+          name: 'Sidi Yacoub',
+          latitude: '35.13333333',
+          longitude: '-0.78333333',
+        ),
+        City(
+          id: 146212,
+          name: 'Sidi Yahia',
+          latitude: '33.52166667',
+          longitude: '5.94555556',
+        ),
+        City(
+          id: 146213,
+          name: 'Tabia, Sid Bel Abbés',
+          latitude: '35.01783660',
+          longitude: '-0.73385240',
+        ),
+        City(
+          id: 146214,
+          name: 'Taibet',
+          latitude: '33.08391890',
+          longitude: '6.39996530',
+        ),
+        City(
+          id: 146215,
+          name: 'Tamellaht',
+          latitude: '33.01190000',
+          longitude: '6.00972000',
+        ),
+        City(
+          id: 146216,
+          name: 'Tamerna Djedida',
+          latitude: '33.44640000',
+          longitude: '5.95639000',
+        ),
+        City(
+          id: 146217,
+          name: 'Tebesbest',
+          latitude: '33.12001290',
+          longitude: '6.08007430',
+        ),
+        City(
+          id: 146218,
+          name: 'Teghalimet',
+          latitude: '34.88283300',
+          longitude: '-0.56000230',
+        ),
+        City(
+          id: 146219,
+          name: 'Telagh',
+          latitude: '34.78490640',
+          longitude: '-0.57317730',
+        ),
+        City(
+          id: 146220,
+          name: 'Tenezara',
+          latitude: '34.96341170',
+          longitude: '-0.61446190',
+        ),
+        City(
+          id: 146221,
+          name: 'Tenira',
+          latitude: '35.01966420',
+          longitude: '-0.53206440',
+        ),
+        City(
+          id: 146222,
+          name: 'Tessala',
+          latitude: '35.24300000',
+          longitude: '-0.77316300',
+        ),
+        City(
+          id: 146223,
+          name: 'Touggourt',
+          latitude: '33.10000000',
+          longitude: '6.06666667',
+        ),
+        City(
+          id: 146224,
+          name: 'Zerouala',
+          latitude: '35.24232450',
+          longitude: '-0.52219390',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1110,
+      name: 'Skikda',
+      stateCode: '21',
+      cities: [
+        City(
+          id: 31239,
+          name: 'Azzaba',
+          latitude: '36.73944000',
+          longitude: '7.10528000',
+        ),
+        City(
+          id: 31360,
+          name: 'Karkira',
+          latitude: '36.92917000',
+          longitude: '6.58556000',
+        ),
+        City(
+          id: 31434,
+          name: 'Skikda',
+          latitude: '36.87617000',
+          longitude: '6.90921000',
+        ),
+        City(
+          id: 31442,
+          name: 'Tamalous',
+          latitude: '36.83763000',
+          longitude: '6.64018000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1143,
+      name: 'Souk Ahras',
+      stateCode: '41',
+      cities: [
+        City(
+          id: 31422,
+          name: 'Sedrata',
+          latitude: '36.12868000',
+          longitude: '7.53376000',
+        ),
+        City(
+          id: 31437,
+          name: 'Souk Ahras',
+          latitude: '36.28639000',
+          longitude: '7.95111000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1135,
+      name: 'Tamanghasset',
+      stateCode: '11',
+      cities: [
+        City(
+          id: 31356,
+          name: 'I-n-Salah',
+          latitude: '27.19351000',
+          longitude: '2.46069000',
+        ),
+        City(
+          id: 31443,
+          name: 'Tamanrasset',
+          latitude: '22.78500000',
+          longitude: '5.52278000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1117,
+      name: 'Tébessa',
+      stateCode: '12',
+      cities: [
+        City(
+          id: 31271,
+          name: 'Bir el Ater',
+          latitude: '34.74488000',
+          longitude: '8.06024000',
+        ),
+        City(
+          id: 31305,
+          name: 'Cheria',
+          latitude: '35.27306000',
+          longitude: '7.75194000',
+        ),
+        City(
+          id: 31352,
+          name: 'Hammamet',
+          latitude: '35.44862000',
+          longitude: '7.95184000',
+        ),
+        City(
+          id: 31463,
+          name: 'Tébessa',
+          latitude: '35.40417000',
+          longitude: '8.12417000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1106,
+      name: 'Tiaret',
+      stateCode: '14',
+      cities: [
+        City(
+          id: 31472,
+          name: '’Aïn Deheb',
+          latitude: '34.84218000',
+          longitude: '1.54697000',
+        ),
+        City(
+          id: 31317,
+          name: 'Djebilet Rosfa',
+          latitude: '34.86375000',
+          longitude: '0.83496000',
+        ),
+        City(
+          id: 31346,
+          name: 'Frenda',
+          latitude: '35.06544000',
+          longitude: '1.04945000',
+        ),
+        City(
+          id: 31365,
+          name: 'Ksar Chellala',
+          latitude: '35.21222000',
+          longitude: '2.31889000',
+        ),
+        City(
+          id: 31379,
+          name: 'Mehdia daira de meghila',
+          latitude: '35.43058000',
+          longitude: '1.75714000',
+        ),
+        City(
+          id: 31436,
+          name: 'Sougueur',
+          latitude: '35.18568000',
+          longitude: '1.49612000',
+        ),
+        City(
+          id: 31449,
+          name: 'Tiaret',
+          latitude: '35.37103000',
+          longitude: '1.31699000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4910,
+      name: 'Timimoun',
+      stateCode: '54',
+      cities: [],
+    ),
+    CountryState(
+      id: 1120,
+      name: 'Tindouf',
+      stateCode: '37',
+      cities: [
+        City(
+          id: 31452,
+          name: 'Tindouf',
+          latitude: '27.67111000',
+          longitude: '-8.14743000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1115,
+      name: 'Tipasa',
+      stateCode: '42',
+      cities: [
+        City(
+          id: 31470,
+          name: '’Aïn Benian',
+          latitude: '36.80277000',
+          longitude: '2.92185000',
+        ),
+        City(
+          id: 31255,
+          name: 'Baraki',
+          latitude: '36.66655000',
+          longitude: '3.09606000',
+        ),
+        City(
+          id: 31283,
+          name: 'Bou Ismaïl',
+          latitude: '36.64262000',
+          longitude: '2.69007000',
+        ),
+        City(
+          id: 31304,
+          name: 'Cheraga',
+          latitude: '36.76775000',
+          longitude: '2.95924000',
+        ),
+        City(
+          id: 31320,
+          name: 'Douera',
+          latitude: '36.67000000',
+          longitude: '2.94444000',
+        ),
+        City(
+          id: 31328,
+          name: 'El Affroun',
+          latitude: '36.47010000',
+          longitude: '2.62528000',
+        ),
+        City(
+          id: 31349,
+          name: 'Hadjout',
+          latitude: '36.51257000',
+          longitude: '2.41382000',
+        ),
+        City(
+          id: 31364,
+          name: 'Kolea',
+          latitude: '36.63888000',
+          longitude: '2.76845000',
+        ),
+        City(
+          id: 31389,
+          name: 'Mouzaïa',
+          latitude: '36.46695000',
+          longitude: '2.68991000',
+        ),
+        City(
+          id: 31401,
+          name: 'Oued el Alleug',
+          latitude: '36.55528000',
+          longitude: '2.79028000',
+        ),
+        City(
+          id: 31418,
+          name: 'Saoula',
+          latitude: '36.70456000',
+          longitude: '3.02462000',
+        ),
+        City(
+          id: 31453,
+          name: 'Tipasa',
+          latitude: '36.58972000',
+          longitude: '2.44750000',
+        ),
+        City(
+          id: 31465,
+          name: 'Zeralda',
+          latitude: '36.71169000',
+          longitude: '2.84244000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1133,
+      name: 'Tissemsilt',
+      stateCode: '38',
+      cities: [
+        City(
+          id: 31370,
+          name: 'Lardjem',
+          latitude: '35.74922000',
+          longitude: '1.54778000',
+        ),
+        City(
+          id: 31455,
+          name: 'Tissemsilt',
+          latitude: '35.60722000',
+          longitude: '1.81081000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1131,
+      name: 'Tizi Ouzou',
+      stateCode: '15',
+      cities: [
+        City(
+          id: 31476,
+          name: '’Aïn el Hammam',
+          latitude: '36.56471000',
+          longitude: '4.30619000',
+        ),
+        City(
+          id: 31236,
+          name: 'Arhribs',
+          latitude: '36.79361000',
+          longitude: '4.31158000',
+        ),
+        City(
+          id: 31238,
+          name: 'Azazga',
+          latitude: '36.74472000',
+          longitude: '4.37222000',
+        ),
+        City(
+          id: 31262,
+          name: 'Beni Douala',
+          latitude: '36.61954000',
+          longitude: '4.08282000',
+        ),
+        City(
+          id: 31277,
+          name: 'Boghni',
+          latitude: '36.54222000',
+          longitude: '3.95306000',
+        ),
+        City(
+          id: 31285,
+          name: 'Boudjima',
+          latitude: '36.80218000',
+          longitude: '4.15187000',
+        ),
+        City(
+          id: 31303,
+          name: 'Chemini',
+          latitude: '36.60000000',
+          longitude: '4.61667000',
+        ),
+        City(
+          id: 31321,
+          name: 'Draa Ben Khedda',
+          latitude: '36.73436000',
+          longitude: '3.96223000',
+        ),
+        City(
+          id: 31345,
+          name: 'Freha',
+          latitude: '36.75234000',
+          longitude: '4.31550000',
+        ),
+        City(
+          id: 31357,
+          name: 'Ighram',
+          latitude: '36.46295000',
+          longitude: '4.50532000',
+        ),
+        City(
+          id: 31371,
+          name: 'L’Arbaa Naït Irathen',
+          latitude: '36.63112000',
+          longitude: '4.19864000',
+        ),
+        City(
+          id: 31380,
+          name: 'Mekla',
+          latitude: '36.68178000',
+          longitude: '4.26378000',
+        ),
+        City(
+          id: 31451,
+          name: 'Timizart',
+          latitude: '36.80000000',
+          longitude: '4.26667000',
+        ),
+        City(
+          id: 31454,
+          name: 'Tirmitine',
+          latitude: '36.65393000',
+          longitude: '3.98143000',
+        ),
+        City(
+          id: 31457,
+          name: 'Tizi Ouzou',
+          latitude: '36.71182000',
+          longitude: '4.04591000',
+        ),
+        City(
+          id: 31458,
+          name: 'Tizi Rached',
+          latitude: '36.67176000',
+          longitude: '4.19176000',
+        ),
+        City(
+          id: 31459,
+          name: 'Tizi-n-Tleta',
+          latitude: '36.54569000',
+          longitude: '4.05712000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1107,
+      name: 'Tlemcen',
+      stateCode: '13',
+      cities: [
+        City(
+          id: 31264,
+          name: 'Beni Mester',
+          latitude: '34.87045000',
+          longitude: '-1.42319000',
+        ),
+        City(
+          id: 31266,
+          name: 'Bensekrane',
+          latitude: '35.07465000',
+          longitude: '-1.22431000',
+        ),
+        City(
+          id: 31306,
+          name: 'Chetouane',
+          latitude: '34.92129000',
+          longitude: '-1.29512000',
+        ),
+        City(
+          id: 31354,
+          name: 'Hennaya',
+          latitude: '34.95139000',
+          longitude: '-1.36806000',
+        ),
+        City(
+          id: 31374,
+          name: 'Mansoûra',
+          latitude: '34.86158000',
+          longitude: '-1.33935000',
+        ),
+        City(
+          id: 31394,
+          name: 'Nedroma',
+          latitude: '35.01361000',
+          longitude: '-1.74799000',
+        ),
+        City(
+          id: 31402,
+          name: 'Ouled Mimoun',
+          latitude: '34.90472000',
+          longitude: '-1.03394000',
+        ),
+        City(
+          id: 31410,
+          name: 'Remchi',
+          latitude: '35.06196000',
+          longitude: '-1.43362000',
+        ),
+        City(
+          id: 31420,
+          name: 'Sebdou',
+          latitude: '34.63703000',
+          longitude: '-1.33143000',
+        ),
+        City(
+          id: 31423,
+          name: 'Sidi Abdelli',
+          latitude: '35.06937000',
+          longitude: '-1.13706000',
+        ),
+        City(
+          id: 31431,
+          name: 'Sidi Senoussi سيدي سنوسي',
+          latitude: '34.99691000',
+          longitude: '-1.09449000',
+        ),
+        City(
+          id: 31460,
+          name: 'Tlemcen',
+          latitude: '34.87833000',
+          longitude: '-1.31500000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4911,
+      name: 'Touggourt',
+      stateCode: '55',
+      cities: [],
+    ),
+  ],
+);

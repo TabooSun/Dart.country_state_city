@@ -3,283 +3,433 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const tcd = Country(
-    id: 43,
-    name: 'Chad',
-    iso3: 'TCD',
-    iso2: 'TD',
-    phoneCode: '235',
-    capital: 'N\'Djamena',
-    currency: 'XAF',
-    currencySymbol: r'FCFA',
-    tld: '.td',
-    native: 'Tchad',
-    region: 'Africa',
-    subregion: 'Middle Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Ndjamena',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'WAT',
-          tzName: 'West Africa Time')
-    ],
-    emoji: '🇹🇩',
-    emojiU: 'U+1F1F9 U+1F1E9',
-    states: [
-      State(id: 3583, name: 'Bahr el Gazel', stateCode: 'BG', cities: [
+  id: 43,
+  name: 'Chad',
+  iso3: 'TCD',
+  iso2: 'TD',
+  phoneCode: '235',
+  capital: 'N\'Djamena',
+  currency: 'XAF',
+  currencySymbol: r'FCFA',
+  tld: '.td',
+  native: 'Tchad',
+  region: 'Africa',
+  subregion: 'Middle Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Ndjamena',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'WAT',
+      tzName: 'West Africa Time',
+    )
+  ],
+  emoji: '🇹🇩',
+  emojiU: 'U+1F1F9 U+1F1E9',
+  states: [
+    CountryState(
+      id: 3583,
+      name: 'Bahr el Gazel',
+      stateCode: 'BG',
+      cities: [
         City(
-            id: 105152,
-            name: 'Moussoro',
-            latitude: '13.64143000',
-            longitude: '16.48941000')
-      ]),
-      State(id: 3590, name: 'Batha Region', stateCode: 'BA', cities: [
+          id: 105152,
+          name: 'Moussoro',
+          latitude: '13.64143000',
+          longitude: '16.48941000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3590,
+      name: 'Batha Region',
+      stateCode: 'BA',
+      cities: [
         City(
-            id: 105120,
-            name: 'Ati',
-            latitude: '13.21540000',
-            longitude: '18.33530000'),
+          id: 105120,
+          name: 'Ati',
+          latitude: '13.21540000',
+          longitude: '18.33530000',
+        ),
         City(
-            id: 105154,
-            name: 'Oum Hadjer',
-            latitude: '13.29540000',
-            longitude: '19.69660000')
-      ]),
-      State(id: 3574, name: 'Borkou', stateCode: 'BO', cities: [
+          id: 105154,
+          name: 'Oum Hadjer',
+          latitude: '13.29540000',
+          longitude: '19.69660000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3574,
+      name: 'Borkou',
+      stateCode: 'BO',
+      cities: [
         City(
-            id: 105133,
-            name: 'Faya-Largeau',
-            latitude: '17.92570000',
-            longitude: '19.10428000')
-      ]),
-      State(id: 3578, name: 'Ennedi Region', stateCode: 'EN', cities: []),
-      State(id: 3575, name: 'Ennedi-Est', stateCode: 'EE', cities: []),
-      State(id: 3584, name: 'Ennedi-Ouest', stateCode: 'EO', cities: [
+          id: 105133,
+          name: 'Faya-Largeau',
+          latitude: '17.92570000',
+          longitude: '19.10428000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3578,
+      name: 'Ennedi Region',
+      stateCode: 'EN',
+      cities: [],
+    ),
+    CountryState(
+      id: 3575,
+      name: 'Ennedi-Est',
+      stateCode: 'EE',
+      cities: [],
+    ),
+    CountryState(
+      id: 3584,
+      name: 'Ennedi-Ouest',
+      stateCode: 'EO',
+      cities: [
         City(
-            id: 105132,
-            name: 'Fada',
-            latitude: '17.18535000',
-            longitude: '21.58114000')
-      ]),
-      State(id: 3576, name: 'Guéra Region', stateCode: 'GR', cities: [
+          id: 105132,
+          name: 'Fada',
+          latitude: '17.18535000',
+          longitude: '21.58114000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3576,
+      name: 'Guéra Region',
+      stateCode: 'GR',
+      cities: [
         City(
-            id: 105124,
-            name: 'Bitkine',
-            latitude: '11.98010000',
-            longitude: '18.21380000'),
+          id: 105124,
+          name: 'Bitkine',
+          latitude: '11.98010000',
+          longitude: '18.21380000',
+        ),
         City(
-            id: 105149,
-            name: 'Melfi',
-            latitude: '11.05980000',
-            longitude: '17.93550000'),
+          id: 105149,
+          name: 'Melfi',
+          latitude: '11.05980000',
+          longitude: '17.93550000',
+        ),
         City(
-            id: 105150,
-            name: 'Mongo',
-            latitude: '12.18441000',
-            longitude: '18.69303000')
-      ]),
-      State(id: 3573, name: 'Hadjer-Lamis', stateCode: 'HL', cities: [
+          id: 105150,
+          name: 'Mongo',
+          latitude: '12.18441000',
+          longitude: '18.69303000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3573,
+      name: 'Hadjer-Lamis',
+      stateCode: 'HL',
+      cities: [
         City(
-            id: 105125,
-            name: 'Bokoro',
-            latitude: '12.37813000',
-            longitude: '17.05876000'),
+          id: 105125,
+          name: 'Bokoro',
+          latitude: '12.37813000',
+          longitude: '17.05876000',
+        ),
         City(
-            id: 105146,
-            name: 'Massaguet',
-            latitude: '12.47554000',
-            longitude: '15.43647000'),
+          id: 105146,
+          name: 'Massaguet',
+          latitude: '12.47554000',
+          longitude: '15.43647000',
+        ),
         City(
-            id: 105147,
-            name: 'Massakory',
-            latitude: '12.99600000',
-            longitude: '15.72927000')
-      ]),
-      State(id: 3588, name: 'Kanem Region', stateCode: 'KA', cities: [
+          id: 105147,
+          name: 'Massakory',
+          latitude: '12.99600000',
+          longitude: '15.72927000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3588,
+      name: 'Kanem Region',
+      stateCode: 'KA',
+      cities: [
         City(
-            id: 105145,
-            name: 'Mao',
-            latitude: '14.12116000',
-            longitude: '15.31030000')
-      ]),
-      State(id: 3577, name: 'Lac Region', stateCode: 'LC', cities: [
+          id: 105145,
+          name: 'Mao',
+          latitude: '14.12116000',
+          longitude: '15.31030000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3577,
+      name: 'Lac Region',
+      stateCode: 'LC',
+      cities: [
         City(
-            id: 105126,
-            name: 'Bol',
-            latitude: '13.46706000',
-            longitude: '14.71363000')
-      ]),
-      State(
-          id: 3585,
-          name: 'Logone Occidental Region',
-          stateCode: 'LO',
-          cities: [
-            City(
-                id: 105122,
-                name: 'Beïnamar',
-                latitude: '8.66980000',
-                longitude: '15.38130000'),
-            City(
-                id: 105121,
-                name: 'Benoy',
-                latitude: '8.98327000',
-                longitude: '16.31991000'),
-            City(
-                id: 105143,
-                name: 'Lac Wey',
-                latitude: '8.70502000',
-                longitude: '15.98303000'),
-            City(
-                id: 105151,
-                name: 'Moundou',
-                latitude: '8.56667000',
-                longitude: '16.08333000')
-          ]),
-      State(id: 3591, name: 'Logone Oriental Region', stateCode: 'LR', cities: [
+          id: 105126,
+          name: 'Bol',
+          latitude: '13.46706000',
+          longitude: '14.71363000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3585,
+      name: 'Logone Occidental Region',
+      stateCode: 'LO',
+      cities: [
         City(
-            id: 105129,
-            name: 'Bébédja',
-            latitude: '8.67610000',
-            longitude: '16.56600000'),
+          id: 105122,
+          name: 'Beïnamar',
+          latitude: '8.66980000',
+          longitude: '15.38130000',
+        ),
         City(
-            id: 105128,
-            name: 'Béboto',
-            latitude: '8.26681000',
-            longitude: '16.93898000'),
+          id: 105121,
+          name: 'Benoy',
+          latitude: '8.98327000',
+          longitude: '16.31991000',
+        ),
         City(
-            id: 105131,
-            name: 'Doba',
-            latitude: '8.65000000',
-            longitude: '16.85000000')
-      ]),
-      State(id: 3589, name: 'Mandoul Region', stateCode: 'MA', cities: [
+          id: 105143,
+          name: 'Lac Wey',
+          latitude: '8.70502000',
+          longitude: '15.98303000',
+        ),
         City(
-            id: 105134,
-            name: 'Goundi',
-            latitude: '9.36267000',
-            longitude: '17.36597000'),
+          id: 105151,
+          name: 'Moundou',
+          latitude: '8.56667000',
+          longitude: '16.08333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3591,
+      name: 'Logone Oriental Region',
+      stateCode: 'LR',
+      cities: [
         City(
-            id: 105141,
-            name: 'Koumra',
-            latitude: '8.91256000',
-            longitude: '17.55392000'),
+          id: 105129,
+          name: 'Bébédja',
+          latitude: '8.67610000',
+          longitude: '16.56600000',
+        ),
         City(
-            id: 105153,
-            name: 'Moïssala',
-            latitude: '8.34040000',
-            longitude: '17.76630000')
-      ]),
-      State(id: 3580, name: 'Mayo-Kebbi Est Region', stateCode: 'ME', cities: [
+          id: 105128,
+          name: 'Béboto',
+          latitude: '8.26681000',
+          longitude: '16.93898000',
+        ),
         City(
-            id: 105127,
-            name: 'Bongor',
-            latitude: '10.28056000',
-            longitude: '15.37222000'),
+          id: 105131,
+          name: 'Doba',
+          latitude: '8.65000000',
+          longitude: '16.85000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3589,
+      name: 'Mandoul Region',
+      stateCode: 'MA',
+      cities: [
         City(
-            id: 105135,
-            name: 'Gounou Gaya',
-            latitude: '9.62940000',
-            longitude: '15.51320000'),
+          id: 105134,
+          name: 'Goundi',
+          latitude: '9.36267000',
+          longitude: '17.36597000',
+        ),
         City(
-            id: 105138,
-            name: 'Guelendeng',
-            latitude: '10.91762000',
-            longitude: '15.55011000')
-      ]),
-      State(
-          id: 3571,
-          name: 'Mayo-Kebbi Ouest Region',
-          stateCode: 'MO',
-          cities: [
-            City(
-                id: 105148,
-                name: 'Mboursou Léré',
-                latitude: '9.76390000',
-                longitude: '14.15390000'),
-            City(
-                id: 105155,
-                name: 'Pala',
-                latitude: '9.36420000',
-                longitude: '14.90460000')
-          ]),
-      State(id: 3570, name: 'Moyen-Chari Region', stateCode: 'MC', cities: [
+          id: 105141,
+          name: 'Koumra',
+          latitude: '8.91256000',
+          longitude: '17.55392000',
+        ),
         City(
-            id: 105142,
-            name: 'Kyabé',
-            latitude: '9.45149000',
-            longitude: '18.94493000'),
+          id: 105153,
+          name: 'Moïssala',
+          latitude: '8.34040000',
+          longitude: '17.76630000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3580,
+      name: 'Mayo-Kebbi Est Region',
+      stateCode: 'ME',
+      cities: [
         City(
-            id: 105156,
-            name: 'Sarh',
-            latitude: '9.14290000',
-            longitude: '18.39230000')
-      ]),
-      State(id: 3586, name: 'N\'Djamena', stateCode: 'ND', cities: []),
-      State(id: 3582, name: 'Ouaddaï Region', stateCode: 'OD', cities: [
+          id: 105127,
+          name: 'Bongor',
+          latitude: '10.28056000',
+          longitude: '15.37222000',
+        ),
         City(
-            id: 105116,
-            name: 'Abéché',
-            latitude: '13.82916000',
-            longitude: '20.83240000'),
+          id: 105135,
+          name: 'Gounou Gaya',
+          latitude: '9.62940000',
+          longitude: '15.51320000',
+        ),
         City(
-            id: 105117,
-            name: 'Adré',
-            latitude: '13.46648000',
-            longitude: '22.19875000'),
+          id: 105138,
+          name: 'Guelendeng',
+          latitude: '10.91762000',
+          longitude: '15.55011000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3571,
+      name: 'Mayo-Kebbi Ouest Region',
+      stateCode: 'MO',
+      cities: [
         City(
-            id: 105137,
-            name: 'Goz Béïda',
-            latitude: '13.94563000',
-            longitude: '20.54680000')
-      ]),
-      State(id: 3592, name: 'Salamat Region', stateCode: 'SA', cities: [
+          id: 105148,
+          name: 'Mboursou Léré',
+          latitude: '9.76390000',
+          longitude: '14.15390000',
+        ),
         City(
-            id: 105118,
-            name: 'Am Timan',
-            latitude: '11.02970000',
-            longitude: '20.28270000')
-      ]),
-      State(id: 3572, name: 'Sila Region', stateCode: 'SI', cities: [
+          id: 105155,
+          name: 'Pala',
+          latitude: '9.36420000',
+          longitude: '14.90460000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3570,
+      name: 'Moyen-Chari Region',
+      stateCode: 'MC',
+      cities: [
         City(
-            id: 105136,
-            name: 'Goz Beïda',
-            latitude: '12.22484000',
-            longitude: '21.41034000')
-      ]),
-      State(id: 3579, name: 'Tandjilé Region', stateCode: 'TA', cities: [
+          id: 105142,
+          name: 'Kyabé',
+          latitude: '9.45149000',
+          longitude: '18.94493000',
+        ),
         City(
-            id: 105130,
-            name: 'Béré',
-            latitude: '9.32020000',
-            longitude: '16.15520000'),
+          id: 105156,
+          name: 'Sarh',
+          latitude: '9.14290000',
+          longitude: '18.39230000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3586,
+      name: 'N\'Djamena',
+      stateCode: 'ND',
+      cities: [],
+    ),
+    CountryState(
+      id: 3582,
+      name: 'Ouaddaï Region',
+      stateCode: 'OD',
+      cities: [
         City(
-            id: 105140,
-            name: 'Kelo',
-            latitude: '9.30859000',
-            longitude: '15.80658000'),
+          id: 105116,
+          name: 'Abéché',
+          latitude: '13.82916000',
+          longitude: '20.83240000',
+        ),
         City(
-            id: 105144,
-            name: 'Laï',
-            latitude: '9.39720000',
-            longitude: '16.30066000')
-      ]),
-      State(id: 3587, name: 'Tibesti Region', stateCode: 'TI', cities: [
+          id: 105117,
+          name: 'Adré',
+          latitude: '13.46648000',
+          longitude: '22.19875000',
+        ),
         City(
-            id: 105119,
-            name: 'Aozou',
-            latitude: '21.83750000',
-            longitude: '17.42750000')
-      ]),
-      State(id: 3581, name: 'Wadi Fira Region', stateCode: 'WF', cities: [
+          id: 105137,
+          name: 'Goz Béïda',
+          latitude: '13.94563000',
+          longitude: '20.54680000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3592,
+      name: 'Salamat Region',
+      stateCode: 'SA',
+      cities: [
         City(
-            id: 105123,
-            name: 'Biltine',
-            latitude: '14.52791000',
-            longitude: '20.92749000'),
+          id: 105118,
+          name: 'Am Timan',
+          latitude: '11.02970000',
+          longitude: '20.28270000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3572,
+      name: 'Sila Region',
+      stateCode: 'SI',
+      cities: [
         City(
-            id: 105139,
-            name: 'Iriba',
-            latitude: '15.11667000',
-            longitude: '22.25000000')
-      ])
-    ]);
+          id: 105136,
+          name: 'Goz Beïda',
+          latitude: '12.22484000',
+          longitude: '21.41034000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3579,
+      name: 'Tandjilé Region',
+      stateCode: 'TA',
+      cities: [
+        City(
+          id: 105130,
+          name: 'Béré',
+          latitude: '9.32020000',
+          longitude: '16.15520000',
+        ),
+        City(
+          id: 105140,
+          name: 'Kelo',
+          latitude: '9.30859000',
+          longitude: '15.80658000',
+        ),
+        City(
+          id: 105144,
+          name: 'Laï',
+          latitude: '9.39720000',
+          longitude: '16.30066000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3587,
+      name: 'Tibesti Region',
+      stateCode: 'TI',
+      cities: [
+        City(
+          id: 105119,
+          name: 'Aozou',
+          latitude: '21.83750000',
+          longitude: '17.42750000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3581,
+      name: 'Wadi Fira Region',
+      stateCode: 'WF',
+      cities: [
+        City(
+          id: 105123,
+          name: 'Biltine',
+          latitude: '14.52791000',
+          longitude: '20.92749000',
+        ),
+        City(
+          id: 105139,
+          name: 'Iriba',
+          latitude: '15.11667000',
+          longitude: '22.25000000',
+        ),
+      ],
+    ),
+  ],
+);

@@ -3,861 +3,1103 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const nzl = Country(
-    id: 158,
-    name: 'New Zealand',
-    iso3: 'NZL',
-    iso2: 'NZ',
-    phoneCode: '64',
-    capital: 'Wellington',
-    currency: 'NZD',
-    currencySymbol: r'$',
-    tld: '.nz',
-    native: 'New Zealand',
-    region: 'Oceania',
-    subregion: 'Australia and New Zealand',
-    timezones: [
-      Timezone(
-          zoneName: 'Pacific/Auckland',
-          gmtOffset: 46800,
-          gmtOffsetName: 'UTC+13:00',
-          abbreviation: 'NZDT',
-          tzName: 'New Zealand Daylight Time'),
-      Timezone(
-          zoneName: 'Pacific/Chatham',
-          gmtOffset: 49500,
-          gmtOffsetName: 'UTC+13:45',
-          abbreviation: 'CHAST',
-          tzName: 'Chatham Standard Time')
-    ],
-    emoji: '🇳🇿',
-    emojiU: 'U+1F1F3 U+1F1FF',
-    states: [
-      State(id: 4072, name: 'Auckland Region', stateCode: 'AUK', cities: [
-        City(
-            id: 79773,
-            name: 'Auckland',
-            latitude: '-36.84853000',
-            longitude: '174.76349000'),
-        City(
-            id: 79823,
-            name: 'Mangere',
-            latitude: '-36.96807000',
-            longitude: '174.79875000'),
-        City(
-            id: 79824,
-            name: 'Manukau City',
-            latitude: '-36.99282000',
-            longitude: '174.87986000'),
-        City(
-            id: 79833,
-            name: 'Muriwai Beach',
-            latitude: '-36.81667000',
-            longitude: '174.45000000'),
-        City(
-            id: 79834,
-            name: 'Murrays Bay',
-            latitude: '-36.72819000',
-            longitude: '174.75019000'),
-        City(
-            id: 79843,
-            name: 'North Shore',
-            latitude: '-36.80000000',
-            longitude: '174.75000000'),
-        City(
-            id: 79852,
-            name: 'Pakuranga',
-            latitude: '-36.88333000',
-            longitude: '174.91667000'),
-        City(
-            id: 79854,
-            name: 'Papakura',
-            latitude: '-37.06573000',
-            longitude: '174.94393000'),
-        City(
-            id: 79856,
-            name: 'Parakai',
-            latitude: '-36.65000000',
-            longitude: '174.43333000'),
-        City(
-            id: 79865,
-            name: 'Pukekohe East',
-            latitude: '-37.20000000',
-            longitude: '174.95000000'),
-        City(
-            id: 79869,
-            name: 'Red Hill',
-            latitude: '-37.05820000',
-            longitude: '174.97019000'),
-        City(
-            id: 79873,
-            name: 'Rosebank',
-            latitude: '-36.87495000',
-            longitude: '174.66991000'),
-        City(
-            id: 79874,
-            name: 'Rothesay Bay',
-            latitude: '-36.72602000',
-            longitude: '174.74064000'),
-        City(
-            id: 79885,
-            name: 'Takanini',
-            latitude: '-37.04820000',
-            longitude: '174.90019000'),
-        City(
-            id: 79886,
-            name: 'Tamaki',
-            latitude: '-36.88820000',
-            longitude: '174.86019000'),
-        City(
-            id: 79896,
-            name: 'Titirangi',
-            latitude: '-36.93754000',
-            longitude: '174.65584000'),
-        City(
-            id: 79907,
-            name: 'Waitakere',
-            latitude: '-36.91754000',
-            longitude: '174.65773000'),
-        City(
-            id: 79910,
-            name: 'Waiuku',
-            latitude: '-37.24806000',
-            longitude: '174.73489000'),
-        City(
-            id: 79914,
-            name: 'Warkworth',
-            latitude: '-36.40000000',
-            longitude: '174.66667000'),
-        City(
-            id: 79917,
-            name: 'Wellsford',
-            latitude: '-36.28333000',
-            longitude: '174.51667000'),
-        City(
-            id: 79924,
-            name: 'Wiri',
-            latitude: '-36.99820000',
-            longitude: '174.86019000')
-      ]),
-      State(id: 4074, name: 'Bay of Plenty Region', stateCode: 'BOP', cities: [
-        City(
-            id: 79791,
-            name: 'Edgecumbe',
-            latitude: '-37.98333000',
-            longitude: '176.83333000'),
-        City(
-            id: 79809,
-            name: 'Katikati',
-            latitude: '-37.55000000',
-            longitude: '175.91667000'),
-        City(
-            id: 79811,
-            name: 'Kawerau',
-            latitude: '-38.10000000',
-            longitude: '176.70000000'),
-        City(
-            id: 79821,
-            name: 'Maketu',
-            latitude: '-37.76667000',
-            longitude: '176.45000000'),
-        City(
-            id: 79835,
-            name: 'Murupara',
-            latitude: '-38.46667000',
-            longitude: '176.70000000'),
-        City(
-            id: 79845,
-            name: 'Opotiki',
-            latitude: '-38.00915000',
-            longitude: '177.28706000'),
-        City(
-            id: 79875,
-            name: 'Rotorua',
-            latitude: '-38.13874000',
-            longitude: '176.24516000'),
-        City(
-            id: 79889,
-            name: 'Tauranga',
-            latitude: '-37.68611000',
-            longitude: '176.16667000'),
-        City(
-            id: 79901,
-            name: 'Waihi Beach',
-            latitude: '-37.40000000',
-            longitude: '175.93333000'),
-        City(
-            id: 79919,
-            name: 'Whakatane',
-            latitude: '-37.95855000',
-            longitude: '176.98545000')
-      ]),
-      State(id: 4066, name: 'Canterbury Region', stateCode: 'CAN', cities: [
-        City(
-            id: 79769,
-            name: 'Amberley',
-            latitude: '-43.15589000',
-            longitude: '172.72975000'),
-        City(
-            id: 79771,
-            name: 'Ashburton',
-            latitude: '-43.89834000',
-            longitude: '171.73011000'),
-        City(
-            id: 79772,
-            name: 'Ashburton District',
-            latitude: '-43.90000000',
-            longitude: '171.75000000'),
-        City(
-            id: 79780,
-            name: 'Burnham',
-            latitude: '-43.61667000',
-            longitude: '172.31667000'),
-        City(
-            id: 79783,
-            name: 'Christchurch',
-            latitude: '-43.53333000',
-            longitude: '172.63333000'),
-        City(
-            id: 79784,
-            name: 'Christchurch City',
-            latitude: '-43.64578000',
-            longitude: '172.74586000'),
-        City(
-            id: 79788,
-            name: 'Darfield',
-            latitude: '-43.48333000',
-            longitude: '172.11667000'),
-        City(
-            id: 79795,
-            name: 'Geraldine',
-            latitude: '-44.09061000',
-            longitude: '171.24458000'),
-        City(
-            id: 79805,
-            name: 'Kaiapoi',
-            latitude: '-43.37832000',
-            longitude: '172.64013000'),
-        City(
-            id: 79816,
-            name: 'Leeston',
-            latitude: '-43.76667000',
-            longitude: '172.30000000'),
-        City(
-            id: 79818,
-            name: 'Lincoln',
-            latitude: '-43.65000000',
-            longitude: '172.48333000'),
-        City(
-            id: 79820,
-            name: 'Mackenzie District',
-            latitude: '-43.93987000',
-            longitude: '170.51913000'),
-        City(
-            id: 79829,
-            name: 'Methven',
-            latitude: '-43.63333000',
-            longitude: '171.65000000'),
-        City(
-            id: 79849,
-            name: 'Oxford',
-            latitude: '-43.30000000',
-            longitude: '172.18333000'),
-        City(
-            id: 79861,
-            name: 'Pleasant Point',
-            latitude: '-44.26667000',
-            longitude: '171.13333000'),
-        City(
-            id: 79864,
-            name: 'Prebbleton',
-            latitude: '-43.58333000',
-            longitude: '172.51667000'),
-        City(
-            id: 79868,
-            name: 'Rakaia',
-            latitude: '-43.75000000',
-            longitude: '172.01667000'),
-        City(
-            id: 79872,
-            name: 'Rolleston',
-            latitude: '-43.58333000',
-            longitude: '172.38333000'),
-        City(
-            id: 79877,
-            name: 'Selwyn District',
-            latitude: '-43.32226000',
-            longitude: '171.87064000'),
-        City(
-            id: 79893,
-            name: 'Timaru',
-            latitude: '-44.39672000',
-            longitude: '171.25364000'),
-        City(
-            id: 79894,
-            name: 'Timaru District',
-            latitude: '-44.40000000',
-            longitude: '171.21667000'),
-        City(
-            id: 79895,
-            name: 'Tinwald',
-            latitude: '-43.91667000',
-            longitude: '171.71667000'),
-        City(
-            id: 79902,
-            name: 'Waimakariri District',
-            latitude: '-43.20750000',
-            longitude: '172.33286000'),
-        City(
-            id: 79925,
-            name: 'Woodend',
-            latitude: '-43.31667000',
-            longitude: '172.66667000')
-      ]),
-      State(id: 4067, name: 'Chatham Islands', stateCode: 'CIT', cities: [
-        City(
-            id: 79908,
-            name: 'Waitangi',
-            latitude: '-43.95353000',
-            longitude: '-176.55973000')
-      ]),
-      State(id: 4068, name: 'Gisborne District', stateCode: 'GIS', cities: [
-        City(
-            id: 79796,
-            name: 'Gisborne',
-            latitude: '-38.65333000',
-            longitude: '178.00417000')
-      ]),
-      State(id: 4075, name: 'Hawke\'s Bay Region', stateCode: 'HKB', cities: [
-        City(
-            id: 79800,
-            name: 'Hastings',
-            latitude: '-39.63810000',
-            longitude: '176.84918000'),
-        City(
-            id: 79836,
-            name: 'Napier',
-            latitude: '-39.49260000',
-            longitude: '176.91233000'),
-        City(
-            id: 79887,
-            name: 'Taradale',
-            latitude: '-39.53333000',
-            longitude: '176.85000000'),
-        City(
-            id: 79906,
-            name: 'Wairoa',
-            latitude: '-39.03333000',
-            longitude: '177.36667000')
-      ]),
-      State(
-          id: 4060,
-          name: 'Manawatu-Wanganui Region',
-          stateCode: 'MWT',
-          cities: [
-            City(
-                id: 79779,
-                name: 'Bulls',
-                latitude: '-40.17487000',
-                longitude: '175.38463000'),
-            City(
-                id: 79794,
-                name: 'Foxton',
-                latitude: '-40.46667000',
-                longitude: '175.30000000'),
-            City(
-                id: 79803,
-                name: 'Horowhenua District',
-                latitude: '-40.57733000',
-                longitude: '175.38071000'),
-            City(
-                id: 79817,
-                name: 'Levin',
-                latitude: '-40.63333000',
-                longitude: '175.27500000'),
-            City(
-                id: 79822,
-                name: 'Manawatu District',
-                latitude: '-40.11979000',
-                longitude: '175.67426000'),
-            City(
-                id: 79853,
-                name: 'Palmerston North',
-                latitude: '-40.35636000',
-                longitude: '175.61113000'),
-            City(
-                id: 79904,
-                name: 'Waiouru',
-                latitude: '-39.47753000',
-                longitude: '175.66834000'),
-            City(
-                id: 79913,
-                name: 'Wanganui',
-                latitude: '-39.93333000',
-                longitude: '175.05000000')
-          ]),
-      State(id: 4063, name: 'Marlborough Region', stateCode: 'MBH', cities: [
-        City(
-            id: 79775,
-            name: 'Blenheim',
-            latitude: '-41.51603000',
-            longitude: '173.95280000'),
-        City(
-            id: 79860,
-            name: 'Picton',
-            latitude: '-41.29067000',
-            longitude: '174.00801000')
-      ]),
-      State(id: 4070, name: 'Nelson Region', stateCode: 'NSN', cities: [
-        City(
-            id: 79837,
-            name: 'Nelson',
-            latitude: '-41.27078000',
-            longitude: '173.28404000')
-      ]),
-      State(id: 4059, name: 'Northland Region', stateCode: 'NTL', cities: [
-        City(
-            id: 79768,
-            name: 'Ahipara',
-            latitude: '-35.16667000',
-            longitude: '173.16667000'),
-        City(
-            id: 79789,
-            name: 'Dargaville',
-            latitude: '-35.93333000',
-            longitude: '173.88333000'),
-        City(
-            id: 79793,
-            name: 'Far North District',
-            latitude: '-35.03359000',
-            longitude: '173.48841000'),
-        City(
-            id: 79806,
-            name: 'Kaipara District',
-            latitude: '-35.99546000',
-            longitude: '174.04688000'),
-        City(
-            id: 79807,
-            name: 'Kaitaia',
-            latitude: '-35.11485000',
-            longitude: '173.26366000'),
-        City(
-            id: 79810,
-            name: 'Kawakawa',
-            latitude: '-35.38333000',
-            longitude: '174.06667000'),
-        City(
-            id: 79813,
-            name: 'Kerikeri',
-            latitude: '-35.22676000',
-            longitude: '173.94739000'),
-        City(
-            id: 79828,
-            name: 'Maungatapere',
-            latitude: '-35.75000000',
-            longitude: '174.20000000'),
-        City(
-            id: 79831,
-            name: 'Moerewa',
-            latitude: '-35.38333000',
-            longitude: '174.03333000'),
-        City(
-            id: 79842,
-            name: 'Ngunguru',
-            latitude: '-35.61667000',
-            longitude: '174.50000000'),
-        City(
-            id: 79851,
-            name: 'Paihia',
-            latitude: '-35.28067000',
-            longitude: '174.09103000'),
-        City(
-            id: 79876,
-            name: 'Ruakaka',
-            latitude: '-35.90818000',
-            longitude: '174.45019000'),
-        City(
-            id: 79882,
-            name: 'Taipa',
-            latitude: '-34.99604000',
-            longitude: '173.46665000'),
-        City(
-            id: 79903,
-            name: 'Waimate North',
-            latitude: '-35.31667000',
-            longitude: '173.88333000'),
-        City(
-            id: 79921,
-            name: 'Whangarei',
-            latitude: '-35.73167000',
-            longitude: '174.32391000')
-      ]),
-      State(id: 4062, name: 'Otago Region', stateCode: 'OTA', cities: [
-        City(
-            id: 79770,
-            name: 'Arrowtown',
-            latitude: '-44.93837000',
-            longitude: '168.81007000'),
-        City(
-            id: 79774,
-            name: 'Balclutha',
-            latitude: '-46.23389000',
-            longitude: '169.75000000'),
-        City(
-            id: 79785,
-            name: 'Clutha District',
-            latitude: '-46.03883000',
-            longitude: '169.60617000'),
-        City(
-            id: 79787,
-            name: 'Cromwell',
-            latitude: '-45.03837000',
-            longitude: '169.20008000'),
-        City(
-            id: 79790,
-            name: 'Dunedin',
-            latitude: '-45.87416000',
-            longitude: '170.50361000'),
-        City(
-            id: 79815,
-            name: 'Kingston',
-            latitude: '-45.33288000',
-            longitude: '168.71476000'),
-        City(
-            id: 79830,
-            name: 'Milton',
-            latitude: '-46.12083000',
-            longitude: '169.96944000'),
-        City(
-            id: 79844,
-            name: 'Oamaru',
-            latitude: '-45.09758000',
-            longitude: '170.97087000'),
-        City(
-            id: 79855,
-            name: 'Papatowai',
-            latitude: '-46.56069000',
-            longitude: '169.47068000'),
-        City(
-            id: 79863,
-            name: 'Portobello',
-            latitude: '-45.85000000',
-            longitude: '170.65000000'),
-        City(
-            id: 79866,
-            name: 'Queenstown',
-            latitude: '-45.03023000',
-            longitude: '168.66271000'),
-        City(
-            id: 79912,
-            name: 'Wanaka',
-            latitude: '-44.70000000',
-            longitude: '169.15000000')
-      ]),
-      State(id: 4071, name: 'Southland Region', stateCode: 'STL', cities: [
-        City(
-            id: 79776,
-            name: 'Bluff',
-            latitude: '-46.60000000',
-            longitude: '168.33333000'),
-        City(
-            id: 79797,
-            name: 'Gore',
-            latitude: '-46.10282000',
-            longitude: '168.94357000'),
-        City(
-            id: 79804,
-            name: 'Invercargill',
-            latitude: '-46.40000000',
-            longitude: '168.35000000'),
-        City(
-            id: 79871,
-            name: 'Riverton',
-            latitude: '-46.35000000',
-            longitude: '168.01667000'),
-        City(
-            id: 79881,
-            name: 'Southland District',
-            latitude: '-45.77256000',
-            longitude: '167.85266000'),
-        City(
-            id: 79890,
-            name: 'Te Anau',
-            latitude: '-45.41667000',
-            longitude: '167.71667000'),
-        City(
-            id: 79923,
-            name: 'Winton',
-            latitude: '-46.15000000',
-            longitude: '168.33333000')
-      ]),
-      State(id: 4069, name: 'Taranaki Region', stateCode: 'TKI', cities: [
-        City(
-            id: 79792,
-            name: 'Eltham',
-            latitude: '-39.42917000',
-            longitude: '174.30000000'),
-        City(
-            id: 79801,
-            name: 'Hawera',
-            latitude: '-39.59167000',
-            longitude: '174.28333000'),
-        City(
-            id: 79838,
-            name: 'New Plymouth',
-            latitude: '-39.06667000',
-            longitude: '174.08333000'),
-        City(
-            id: 79839,
-            name: 'New Plymouth District',
-            latitude: '-39.05865000',
-            longitude: '174.10309000'),
-        City(
-            id: 79846,
-            name: 'Opunake',
-            latitude: '-39.45556000',
-            longitude: '173.85833000'),
-        City(
-            id: 79858,
-            name: 'Patea',
-            latitude: '-39.75833000',
-            longitude: '174.48333000'),
-        City(
-            id: 79878,
-            name: 'South Taranaki District',
-            latitude: '-39.52156000',
-            longitude: '174.37160000'),
-        City(
-            id: 79909,
-            name: 'Waitara',
-            latitude: '-39.00158000',
-            longitude: '174.23836000')
-      ]),
-      State(id: 4073, name: 'Tasman District', stateCode: 'TAS', cities: [
-        City(
-            id: 79777,
-            name: 'Brightwater',
-            latitude: '-41.38333000',
-            longitude: '173.11667000'),
-        City(
-            id: 79825,
-            name: 'Mapua',
-            latitude: '-41.25000000',
-            longitude: '173.10000000'),
-        City(
-            id: 79832,
-            name: 'Motueka',
-            latitude: '-41.13333000',
-            longitude: '173.01667000'),
-        City(
-            id: 79870,
-            name: 'Richmond',
-            latitude: '-41.33333000',
-            longitude: '173.18333000'),
-        City(
-            id: 79884,
-            name: 'Takaka',
-            latitude: '-40.85000000',
-            longitude: '172.80000000'),
-        City(
-            id: 79911,
-            name: 'Wakefield',
-            latitude: '-41.40000000',
-            longitude: '173.05000000')
-      ]),
-      State(id: 4061, name: 'Waikato Region', stateCode: 'WKO', cities: [
-        City(
-            id: 79781,
-            name: 'Cambridge',
-            latitude: '-37.87822000',
-            longitude: '175.44020000'),
-        City(
-            id: 79786,
-            name: 'Coromandel',
-            latitude: '-36.76110000',
-            longitude: '175.49634000'),
-        City(
-            id: 79799,
-            name: 'Hamilton',
-            latitude: '-37.78333000',
-            longitude: '175.28333000'),
-        City(
-            id: 79827,
-            name: 'Matamata',
-            latitude: '-37.81060000',
-            longitude: '175.76237000'),
-        City(
-            id: 79840,
-            name: 'Ngaruawahia',
-            latitude: '-37.66738000',
-            longitude: '175.15554000'),
-        City(
-            id: 79841,
-            name: 'Ngatea',
-            latitude: '-37.28333000',
-            longitude: '175.50000000'),
-        City(
-            id: 79848,
-            name: 'Otorohanga',
-            latitude: '-38.18333000',
-            longitude: '175.20000000'),
-        City(
-            id: 79850,
-            name: 'Paeroa',
-            latitude: '-37.36667000',
-            longitude: '175.66667000'),
-        City(
-            id: 79867,
-            name: 'Raglan',
-            latitude: '-37.80000000',
-            longitude: '174.88333000'),
-        City(
-            id: 79879,
-            name: 'South Waikato District',
-            latitude: '-38.16797000',
-            longitude: '175.88624000'),
-        City(
-            id: 79883,
-            name: 'Tairua',
-            latitude: '-37.01667000',
-            longitude: '175.85000000'),
-        City(
-            id: 79888,
-            name: 'Taupo',
-            latitude: '-38.68333000',
-            longitude: '176.08333000'),
-        City(
-            id: 79891,
-            name: 'Te Kauwhata',
-            latitude: '-37.40000000',
-            longitude: '175.15000000'),
-        City(
-            id: 79892,
-            name: 'Thames',
-            latitude: '-37.13832000',
-            longitude: '175.54011000'),
-        City(
-            id: 79897,
-            name: 'Tokoroa',
-            latitude: '-38.23333000',
-            longitude: '175.86667000'),
-        City(
-            id: 79898,
-            name: 'Turangi',
-            latitude: '-38.99037000',
-            longitude: '175.80837000'),
-        City(
-            id: 79900,
-            name: 'Waihi',
-            latitude: '-37.38333000',
-            longitude: '175.83333000'),
-        City(
-            id: 79920,
-            name: 'Whangamata',
-            latitude: '-37.20000000',
-            longitude: '175.86667000'),
-        City(
-            id: 79922,
-            name: 'Whitianga',
-            latitude: '-36.83333000',
-            longitude: '175.70000000')
-      ]),
-      State(id: 4065, name: 'Wellington Region', stateCode: 'WGN', cities: [
-        City(
-            id: 79778,
-            name: 'Brooklyn',
-            latitude: '-41.30586000',
-            longitude: '174.76257000'),
-        City(
-            id: 79782,
-            name: 'Castlepoint',
-            latitude: '-40.90000000',
-            longitude: '176.21667000'),
-        City(
-            id: 79808,
-            name: 'Kapiti Coast District',
-            latitude: '-40.85682000',
-            longitude: '175.14690000'),
-        City(
-            id: 79812,
-            name: 'Kelburn',
-            latitude: '-41.28333000',
-            longitude: '174.76667000'),
-        City(
-            id: 79814,
-            name: 'Khandallah',
-            latitude: '-41.24500000',
-            longitude: '174.79422000'),
-        City(
-            id: 79819,
-            name: 'Lower Hutt',
-            latitude: '-41.21667000',
-            longitude: '174.91667000'),
-        City(
-            id: 79826,
-            name: 'Masterton',
-            latitude: '-40.95972000',
-            longitude: '175.65750000'),
-        City(
-            id: 79847,
-            name: 'Otaki',
-            latitude: '-40.75833000',
-            longitude: '175.15000000'),
-        City(
-            id: 79857,
-            name: 'Paraparaumu',
-            latitude: '-40.91667000',
-            longitude: '175.01667000'),
-        City(
-            id: 79859,
-            name: 'Petone',
-            latitude: '-41.22827000',
-            longitude: '174.87019000'),
-        City(
-            id: 79862,
-            name: 'Porirua',
-            latitude: '-41.13333000',
-            longitude: '174.85000000'),
-        City(
-            id: 79880,
-            name: 'South Wairarapa District',
-            latitude: '-41.26731000',
-            longitude: '175.38442000'),
-        City(
-            id: 79899,
-            name: 'Upper Hutt',
-            latitude: '-41.13827000',
-            longitude: '175.05020000'),
-        City(
-            id: 79905,
-            name: 'Waipawa',
-            latitude: '-41.41222000',
-            longitude: '175.51528000'),
-        City(
-            id: 79915,
-            name: 'Wellington',
-            latitude: '-41.28664000',
-            longitude: '174.77557000'),
-        City(
-            id: 79916,
-            name: 'Wellington City',
-            latitude: '-41.25300000',
-            longitude: '174.75424000')
-      ]),
-      State(id: 4064, name: 'West Coast Region', stateCode: 'WTC', cities: [
-        City(
-            id: 79798,
-            name: 'Greymouth',
-            latitude: '-42.46667000',
-            longitude: '171.20000000'),
-        City(
-            id: 79802,
-            name: 'Hokitika',
-            latitude: '-42.71667000',
-            longitude: '170.96667000'),
-        City(
-            id: 79918,
-            name: 'Westport',
-            latitude: '-41.75262000',
-            longitude: '171.60370000')
-      ])
-    ]);
+  id: 158,
+  name: 'New Zealand',
+  iso3: 'NZL',
+  iso2: 'NZ',
+  phoneCode: '64',
+  capital: 'Wellington',
+  currency: 'NZD',
+  currencySymbol: r'$',
+  tld: '.nz',
+  native: 'New Zealand',
+  region: 'Oceania',
+  subregion: 'Australia and New Zealand',
+  timezones: [
+    Timezone(
+      zoneName: 'Pacific/Auckland',
+      gmtOffset: 46800,
+      gmtOffsetName: 'UTC+13:00',
+      abbreviation: 'NZDT',
+      tzName: 'New Zealand Daylight Time',
+    ),
+    Timezone(
+      zoneName: 'Pacific/Chatham',
+      gmtOffset: 49500,
+      gmtOffsetName: 'UTC+13:45',
+      abbreviation: 'CHAST',
+      tzName: 'Chatham Standard Time',
+    ),
+  ],
+  emoji: '🇳🇿',
+  emojiU: 'U+1F1F3 U+1F1FF',
+  states: [
+    CountryState(
+      id: 4072,
+      name: 'Auckland Region',
+      stateCode: 'AUK',
+      cities: [
+        City(
+          id: 79773,
+          name: 'Auckland',
+          latitude: '-36.84853000',
+          longitude: '174.76349000',
+        ),
+        City(
+          id: 79823,
+          name: 'Mangere',
+          latitude: '-36.96807000',
+          longitude: '174.79875000',
+        ),
+        City(
+          id: 79824,
+          name: 'Manukau City',
+          latitude: '-36.99282000',
+          longitude: '174.87986000',
+        ),
+        City(
+          id: 79833,
+          name: 'Muriwai Beach',
+          latitude: '-36.81667000',
+          longitude: '174.45000000',
+        ),
+        City(
+          id: 79834,
+          name: 'Murrays Bay',
+          latitude: '-36.72819000',
+          longitude: '174.75019000',
+        ),
+        City(
+          id: 79843,
+          name: 'North Shore',
+          latitude: '-36.80000000',
+          longitude: '174.75000000',
+        ),
+        City(
+          id: 79852,
+          name: 'Pakuranga',
+          latitude: '-36.88333000',
+          longitude: '174.91667000',
+        ),
+        City(
+          id: 79854,
+          name: 'Papakura',
+          latitude: '-37.06573000',
+          longitude: '174.94393000',
+        ),
+        City(
+          id: 79856,
+          name: 'Parakai',
+          latitude: '-36.65000000',
+          longitude: '174.43333000',
+        ),
+        City(
+          id: 79865,
+          name: 'Pukekohe East',
+          latitude: '-37.20000000',
+          longitude: '174.95000000',
+        ),
+        City(
+          id: 79869,
+          name: 'Red Hill',
+          latitude: '-37.05820000',
+          longitude: '174.97019000',
+        ),
+        City(
+          id: 79873,
+          name: 'Rosebank',
+          latitude: '-36.87495000',
+          longitude: '174.66991000',
+        ),
+        City(
+          id: 79874,
+          name: 'Rothesay Bay',
+          latitude: '-36.72602000',
+          longitude: '174.74064000',
+        ),
+        City(
+          id: 79885,
+          name: 'Takanini',
+          latitude: '-37.04820000',
+          longitude: '174.90019000',
+        ),
+        City(
+          id: 79886,
+          name: 'Tamaki',
+          latitude: '-36.88820000',
+          longitude: '174.86019000',
+        ),
+        City(
+          id: 79896,
+          name: 'Titirangi',
+          latitude: '-36.93754000',
+          longitude: '174.65584000',
+        ),
+        City(
+          id: 79907,
+          name: 'Waitakere',
+          latitude: '-36.91754000',
+          longitude: '174.65773000',
+        ),
+        City(
+          id: 79910,
+          name: 'Waiuku',
+          latitude: '-37.24806000',
+          longitude: '174.73489000',
+        ),
+        City(
+          id: 79914,
+          name: 'Warkworth',
+          latitude: '-36.40000000',
+          longitude: '174.66667000',
+        ),
+        City(
+          id: 79917,
+          name: 'Wellsford',
+          latitude: '-36.28333000',
+          longitude: '174.51667000',
+        ),
+        City(
+          id: 79924,
+          name: 'Wiri',
+          latitude: '-36.99820000',
+          longitude: '174.86019000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4074,
+      name: 'Bay of Plenty Region',
+      stateCode: 'BOP',
+      cities: [
+        City(
+          id: 79791,
+          name: 'Edgecumbe',
+          latitude: '-37.98333000',
+          longitude: '176.83333000',
+        ),
+        City(
+          id: 79809,
+          name: 'Katikati',
+          latitude: '-37.55000000',
+          longitude: '175.91667000',
+        ),
+        City(
+          id: 79811,
+          name: 'Kawerau',
+          latitude: '-38.10000000',
+          longitude: '176.70000000',
+        ),
+        City(
+          id: 79821,
+          name: 'Maketu',
+          latitude: '-37.76667000',
+          longitude: '176.45000000',
+        ),
+        City(
+          id: 79835,
+          name: 'Murupara',
+          latitude: '-38.46667000',
+          longitude: '176.70000000',
+        ),
+        City(
+          id: 79845,
+          name: 'Opotiki',
+          latitude: '-38.00915000',
+          longitude: '177.28706000',
+        ),
+        City(
+          id: 79875,
+          name: 'Rotorua',
+          latitude: '-38.13874000',
+          longitude: '176.24516000',
+        ),
+        City(
+          id: 79889,
+          name: 'Tauranga',
+          latitude: '-37.68611000',
+          longitude: '176.16667000',
+        ),
+        City(
+          id: 79901,
+          name: 'Waihi Beach',
+          latitude: '-37.40000000',
+          longitude: '175.93333000',
+        ),
+        City(
+          id: 79919,
+          name: 'Whakatane',
+          latitude: '-37.95855000',
+          longitude: '176.98545000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4066,
+      name: 'Canterbury Region',
+      stateCode: 'CAN',
+      cities: [
+        City(
+          id: 79769,
+          name: 'Amberley',
+          latitude: '-43.15589000',
+          longitude: '172.72975000',
+        ),
+        City(
+          id: 79771,
+          name: 'Ashburton',
+          latitude: '-43.89834000',
+          longitude: '171.73011000',
+        ),
+        City(
+          id: 79772,
+          name: 'Ashburton District',
+          latitude: '-43.90000000',
+          longitude: '171.75000000',
+        ),
+        City(
+          id: 79780,
+          name: 'Burnham',
+          latitude: '-43.61667000',
+          longitude: '172.31667000',
+        ),
+        City(
+          id: 79783,
+          name: 'Christchurch',
+          latitude: '-43.53333000',
+          longitude: '172.63333000',
+        ),
+        City(
+          id: 79784,
+          name: 'Christchurch City',
+          latitude: '-43.64578000',
+          longitude: '172.74586000',
+        ),
+        City(
+          id: 79788,
+          name: 'Darfield',
+          latitude: '-43.48333000',
+          longitude: '172.11667000',
+        ),
+        City(
+          id: 79795,
+          name: 'Geraldine',
+          latitude: '-44.09061000',
+          longitude: '171.24458000',
+        ),
+        City(
+          id: 79805,
+          name: 'Kaiapoi',
+          latitude: '-43.37832000',
+          longitude: '172.64013000',
+        ),
+        City(
+          id: 79816,
+          name: 'Leeston',
+          latitude: '-43.76667000',
+          longitude: '172.30000000',
+        ),
+        City(
+          id: 79818,
+          name: 'Lincoln',
+          latitude: '-43.65000000',
+          longitude: '172.48333000',
+        ),
+        City(
+          id: 79820,
+          name: 'Mackenzie District',
+          latitude: '-43.93987000',
+          longitude: '170.51913000',
+        ),
+        City(
+          id: 79829,
+          name: 'Methven',
+          latitude: '-43.63333000',
+          longitude: '171.65000000',
+        ),
+        City(
+          id: 79849,
+          name: 'Oxford',
+          latitude: '-43.30000000',
+          longitude: '172.18333000',
+        ),
+        City(
+          id: 79861,
+          name: 'Pleasant Point',
+          latitude: '-44.26667000',
+          longitude: '171.13333000',
+        ),
+        City(
+          id: 79864,
+          name: 'Prebbleton',
+          latitude: '-43.58333000',
+          longitude: '172.51667000',
+        ),
+        City(
+          id: 79868,
+          name: 'Rakaia',
+          latitude: '-43.75000000',
+          longitude: '172.01667000',
+        ),
+        City(
+          id: 79872,
+          name: 'Rolleston',
+          latitude: '-43.58333000',
+          longitude: '172.38333000',
+        ),
+        City(
+          id: 79877,
+          name: 'Selwyn District',
+          latitude: '-43.32226000',
+          longitude: '171.87064000',
+        ),
+        City(
+          id: 79893,
+          name: 'Timaru',
+          latitude: '-44.39672000',
+          longitude: '171.25364000',
+        ),
+        City(
+          id: 79894,
+          name: 'Timaru District',
+          latitude: '-44.40000000',
+          longitude: '171.21667000',
+        ),
+        City(
+          id: 79895,
+          name: 'Tinwald',
+          latitude: '-43.91667000',
+          longitude: '171.71667000',
+        ),
+        City(
+          id: 79902,
+          name: 'Waimakariri District',
+          latitude: '-43.20750000',
+          longitude: '172.33286000',
+        ),
+        City(
+          id: 79925,
+          name: 'Woodend',
+          latitude: '-43.31667000',
+          longitude: '172.66667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4067,
+      name: 'Chatham Islands',
+      stateCode: 'CIT',
+      cities: [
+        City(
+          id: 79908,
+          name: 'Waitangi',
+          latitude: '-43.95353000',
+          longitude: '-176.55973000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4068,
+      name: 'Gisborne District',
+      stateCode: 'GIS',
+      cities: [
+        City(
+          id: 79796,
+          name: 'Gisborne',
+          latitude: '-38.65333000',
+          longitude: '178.00417000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4075,
+      name: 'Hawke\'s Bay Region',
+      stateCode: 'HKB',
+      cities: [
+        City(
+          id: 79800,
+          name: 'Hastings',
+          latitude: '-39.63810000',
+          longitude: '176.84918000',
+        ),
+        City(
+          id: 79836,
+          name: 'Napier',
+          latitude: '-39.49260000',
+          longitude: '176.91233000',
+        ),
+        City(
+          id: 79887,
+          name: 'Taradale',
+          latitude: '-39.53333000',
+          longitude: '176.85000000',
+        ),
+        City(
+          id: 79906,
+          name: 'Wairoa',
+          latitude: '-39.03333000',
+          longitude: '177.36667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4060,
+      name: 'Manawatu-Wanganui Region',
+      stateCode: 'MWT',
+      cities: [
+        City(
+          id: 79779,
+          name: 'Bulls',
+          latitude: '-40.17487000',
+          longitude: '175.38463000',
+        ),
+        City(
+          id: 79794,
+          name: 'Foxton',
+          latitude: '-40.46667000',
+          longitude: '175.30000000',
+        ),
+        City(
+          id: 79803,
+          name: 'Horowhenua District',
+          latitude: '-40.57733000',
+          longitude: '175.38071000',
+        ),
+        City(
+          id: 79817,
+          name: 'Levin',
+          latitude: '-40.63333000',
+          longitude: '175.27500000',
+        ),
+        City(
+          id: 79822,
+          name: 'Manawatu District',
+          latitude: '-40.11979000',
+          longitude: '175.67426000',
+        ),
+        City(
+          id: 79853,
+          name: 'Palmerston North',
+          latitude: '-40.35636000',
+          longitude: '175.61113000',
+        ),
+        City(
+          id: 79904,
+          name: 'Waiouru',
+          latitude: '-39.47753000',
+          longitude: '175.66834000',
+        ),
+        City(
+          id: 79913,
+          name: 'Wanganui',
+          latitude: '-39.93333000',
+          longitude: '175.05000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4063,
+      name: 'Marlborough Region',
+      stateCode: 'MBH',
+      cities: [
+        City(
+          id: 79775,
+          name: 'Blenheim',
+          latitude: '-41.51603000',
+          longitude: '173.95280000',
+        ),
+        City(
+          id: 79860,
+          name: 'Picton',
+          latitude: '-41.29067000',
+          longitude: '174.00801000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4070,
+      name: 'Nelson Region',
+      stateCode: 'NSN',
+      cities: [
+        City(
+          id: 79837,
+          name: 'Nelson',
+          latitude: '-41.27078000',
+          longitude: '173.28404000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4059,
+      name: 'Northland Region',
+      stateCode: 'NTL',
+      cities: [
+        City(
+          id: 79768,
+          name: 'Ahipara',
+          latitude: '-35.16667000',
+          longitude: '173.16667000',
+        ),
+        City(
+          id: 79789,
+          name: 'Dargaville',
+          latitude: '-35.93333000',
+          longitude: '173.88333000',
+        ),
+        City(
+          id: 79793,
+          name: 'Far North District',
+          latitude: '-35.03359000',
+          longitude: '173.48841000',
+        ),
+        City(
+          id: 79806,
+          name: 'Kaipara District',
+          latitude: '-35.99546000',
+          longitude: '174.04688000',
+        ),
+        City(
+          id: 79807,
+          name: 'Kaitaia',
+          latitude: '-35.11485000',
+          longitude: '173.26366000',
+        ),
+        City(
+          id: 79810,
+          name: 'Kawakawa',
+          latitude: '-35.38333000',
+          longitude: '174.06667000',
+        ),
+        City(
+          id: 79813,
+          name: 'Kerikeri',
+          latitude: '-35.22676000',
+          longitude: '173.94739000',
+        ),
+        City(
+          id: 79828,
+          name: 'Maungatapere',
+          latitude: '-35.75000000',
+          longitude: '174.20000000',
+        ),
+        City(
+          id: 79831,
+          name: 'Moerewa',
+          latitude: '-35.38333000',
+          longitude: '174.03333000',
+        ),
+        City(
+          id: 79842,
+          name: 'Ngunguru',
+          latitude: '-35.61667000',
+          longitude: '174.50000000',
+        ),
+        City(
+          id: 79851,
+          name: 'Paihia',
+          latitude: '-35.28067000',
+          longitude: '174.09103000',
+        ),
+        City(
+          id: 79876,
+          name: 'Ruakaka',
+          latitude: '-35.90818000',
+          longitude: '174.45019000',
+        ),
+        City(
+          id: 79882,
+          name: 'Taipa',
+          latitude: '-34.99604000',
+          longitude: '173.46665000',
+        ),
+        City(
+          id: 79903,
+          name: 'Waimate North',
+          latitude: '-35.31667000',
+          longitude: '173.88333000',
+        ),
+        City(
+          id: 79921,
+          name: 'Whangarei',
+          latitude: '-35.73167000',
+          longitude: '174.32391000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4062,
+      name: 'Otago Region',
+      stateCode: 'OTA',
+      cities: [
+        City(
+          id: 79770,
+          name: 'Arrowtown',
+          latitude: '-44.93837000',
+          longitude: '168.81007000',
+        ),
+        City(
+          id: 79774,
+          name: 'Balclutha',
+          latitude: '-46.23389000',
+          longitude: '169.75000000',
+        ),
+        City(
+          id: 79785,
+          name: 'Clutha District',
+          latitude: '-46.03883000',
+          longitude: '169.60617000',
+        ),
+        City(
+          id: 79787,
+          name: 'Cromwell',
+          latitude: '-45.03837000',
+          longitude: '169.20008000',
+        ),
+        City(
+          id: 79790,
+          name: 'Dunedin',
+          latitude: '-45.87416000',
+          longitude: '170.50361000',
+        ),
+        City(
+          id: 79815,
+          name: 'Kingston',
+          latitude: '-45.33288000',
+          longitude: '168.71476000',
+        ),
+        City(
+          id: 79830,
+          name: 'Milton',
+          latitude: '-46.12083000',
+          longitude: '169.96944000',
+        ),
+        City(
+          id: 79844,
+          name: 'Oamaru',
+          latitude: '-45.09758000',
+          longitude: '170.97087000',
+        ),
+        City(
+          id: 79855,
+          name: 'Papatowai',
+          latitude: '-46.56069000',
+          longitude: '169.47068000',
+        ),
+        City(
+          id: 79863,
+          name: 'Portobello',
+          latitude: '-45.85000000',
+          longitude: '170.65000000',
+        ),
+        City(
+          id: 79866,
+          name: 'Queenstown',
+          latitude: '-45.03023000',
+          longitude: '168.66271000',
+        ),
+        City(
+          id: 79912,
+          name: 'Wanaka',
+          latitude: '-44.70000000',
+          longitude: '169.15000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4071,
+      name: 'Southland Region',
+      stateCode: 'STL',
+      cities: [
+        City(
+          id: 79776,
+          name: 'Bluff',
+          latitude: '-46.60000000',
+          longitude: '168.33333000',
+        ),
+        City(
+          id: 79797,
+          name: 'Gore',
+          latitude: '-46.10282000',
+          longitude: '168.94357000',
+        ),
+        City(
+          id: 79804,
+          name: 'Invercargill',
+          latitude: '-46.40000000',
+          longitude: '168.35000000',
+        ),
+        City(
+          id: 79871,
+          name: 'Riverton',
+          latitude: '-46.35000000',
+          longitude: '168.01667000',
+        ),
+        City(
+          id: 79881,
+          name: 'Southland District',
+          latitude: '-45.77256000',
+          longitude: '167.85266000',
+        ),
+        City(
+          id: 79890,
+          name: 'Te Anau',
+          latitude: '-45.41667000',
+          longitude: '167.71667000',
+        ),
+        City(
+          id: 79923,
+          name: 'Winton',
+          latitude: '-46.15000000',
+          longitude: '168.33333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4069,
+      name: 'Taranaki Region',
+      stateCode: 'TKI',
+      cities: [
+        City(
+          id: 79792,
+          name: 'Eltham',
+          latitude: '-39.42917000',
+          longitude: '174.30000000',
+        ),
+        City(
+          id: 79801,
+          name: 'Hawera',
+          latitude: '-39.59167000',
+          longitude: '174.28333000',
+        ),
+        City(
+          id: 79838,
+          name: 'New Plymouth',
+          latitude: '-39.06667000',
+          longitude: '174.08333000',
+        ),
+        City(
+          id: 79839,
+          name: 'New Plymouth District',
+          latitude: '-39.05865000',
+          longitude: '174.10309000',
+        ),
+        City(
+          id: 79846,
+          name: 'Opunake',
+          latitude: '-39.45556000',
+          longitude: '173.85833000',
+        ),
+        City(
+          id: 79858,
+          name: 'Patea',
+          latitude: '-39.75833000',
+          longitude: '174.48333000',
+        ),
+        City(
+          id: 79878,
+          name: 'South Taranaki District',
+          latitude: '-39.52156000',
+          longitude: '174.37160000',
+        ),
+        City(
+          id: 79909,
+          name: 'Waitara',
+          latitude: '-39.00158000',
+          longitude: '174.23836000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4073,
+      name: 'Tasman District',
+      stateCode: 'TAS',
+      cities: [
+        City(
+          id: 79777,
+          name: 'Brightwater',
+          latitude: '-41.38333000',
+          longitude: '173.11667000',
+        ),
+        City(
+          id: 79825,
+          name: 'Mapua',
+          latitude: '-41.25000000',
+          longitude: '173.10000000',
+        ),
+        City(
+          id: 79832,
+          name: 'Motueka',
+          latitude: '-41.13333000',
+          longitude: '173.01667000',
+        ),
+        City(
+          id: 79870,
+          name: 'Richmond',
+          latitude: '-41.33333000',
+          longitude: '173.18333000',
+        ),
+        City(
+          id: 79884,
+          name: 'Takaka',
+          latitude: '-40.85000000',
+          longitude: '172.80000000',
+        ),
+        City(
+          id: 79911,
+          name: 'Wakefield',
+          latitude: '-41.40000000',
+          longitude: '173.05000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4061,
+      name: 'Waikato Region',
+      stateCode: 'WKO',
+      cities: [
+        City(
+          id: 79781,
+          name: 'Cambridge',
+          latitude: '-37.87822000',
+          longitude: '175.44020000',
+        ),
+        City(
+          id: 79786,
+          name: 'Coromandel',
+          latitude: '-36.76110000',
+          longitude: '175.49634000',
+        ),
+        City(
+          id: 79799,
+          name: 'Hamilton',
+          latitude: '-37.78333000',
+          longitude: '175.28333000',
+        ),
+        City(
+          id: 79827,
+          name: 'Matamata',
+          latitude: '-37.81060000',
+          longitude: '175.76237000',
+        ),
+        City(
+          id: 79840,
+          name: 'Ngaruawahia',
+          latitude: '-37.66738000',
+          longitude: '175.15554000',
+        ),
+        City(
+          id: 79841,
+          name: 'Ngatea',
+          latitude: '-37.28333000',
+          longitude: '175.50000000',
+        ),
+        City(
+          id: 79848,
+          name: 'Otorohanga',
+          latitude: '-38.18333000',
+          longitude: '175.20000000',
+        ),
+        City(
+          id: 79850,
+          name: 'Paeroa',
+          latitude: '-37.36667000',
+          longitude: '175.66667000',
+        ),
+        City(
+          id: 79867,
+          name: 'Raglan',
+          latitude: '-37.80000000',
+          longitude: '174.88333000',
+        ),
+        City(
+          id: 79879,
+          name: 'South Waikato District',
+          latitude: '-38.16797000',
+          longitude: '175.88624000',
+        ),
+        City(
+          id: 79883,
+          name: 'Tairua',
+          latitude: '-37.01667000',
+          longitude: '175.85000000',
+        ),
+        City(
+          id: 79888,
+          name: 'Taupo',
+          latitude: '-38.68333000',
+          longitude: '176.08333000',
+        ),
+        City(
+          id: 79891,
+          name: 'Te Kauwhata',
+          latitude: '-37.40000000',
+          longitude: '175.15000000',
+        ),
+        City(
+          id: 79892,
+          name: 'Thames',
+          latitude: '-37.13832000',
+          longitude: '175.54011000',
+        ),
+        City(
+          id: 79897,
+          name: 'Tokoroa',
+          latitude: '-38.23333000',
+          longitude: '175.86667000',
+        ),
+        City(
+          id: 79898,
+          name: 'Turangi',
+          latitude: '-38.99037000',
+          longitude: '175.80837000',
+        ),
+        City(
+          id: 79900,
+          name: 'Waihi',
+          latitude: '-37.38333000',
+          longitude: '175.83333000',
+        ),
+        City(
+          id: 79920,
+          name: 'Whangamata',
+          latitude: '-37.20000000',
+          longitude: '175.86667000',
+        ),
+        City(
+          id: 79922,
+          name: 'Whitianga',
+          latitude: '-36.83333000',
+          longitude: '175.70000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4065,
+      name: 'Wellington Region',
+      stateCode: 'WGN',
+      cities: [
+        City(
+          id: 79778,
+          name: 'Brooklyn',
+          latitude: '-41.30586000',
+          longitude: '174.76257000',
+        ),
+        City(
+          id: 79782,
+          name: 'Castlepoint',
+          latitude: '-40.90000000',
+          longitude: '176.21667000',
+        ),
+        City(
+          id: 79808,
+          name: 'Kapiti Coast District',
+          latitude: '-40.85682000',
+          longitude: '175.14690000',
+        ),
+        City(
+          id: 79812,
+          name: 'Kelburn',
+          latitude: '-41.28333000',
+          longitude: '174.76667000',
+        ),
+        City(
+          id: 79814,
+          name: 'Khandallah',
+          latitude: '-41.24500000',
+          longitude: '174.79422000',
+        ),
+        City(
+          id: 79819,
+          name: 'Lower Hutt',
+          latitude: '-41.21667000',
+          longitude: '174.91667000',
+        ),
+        City(
+          id: 79826,
+          name: 'Masterton',
+          latitude: '-40.95972000',
+          longitude: '175.65750000',
+        ),
+        City(
+          id: 79847,
+          name: 'Otaki',
+          latitude: '-40.75833000',
+          longitude: '175.15000000',
+        ),
+        City(
+          id: 79857,
+          name: 'Paraparaumu',
+          latitude: '-40.91667000',
+          longitude: '175.01667000',
+        ),
+        City(
+          id: 79859,
+          name: 'Petone',
+          latitude: '-41.22827000',
+          longitude: '174.87019000',
+        ),
+        City(
+          id: 79862,
+          name: 'Porirua',
+          latitude: '-41.13333000',
+          longitude: '174.85000000',
+        ),
+        City(
+          id: 79880,
+          name: 'South Wairarapa District',
+          latitude: '-41.26731000',
+          longitude: '175.38442000',
+        ),
+        City(
+          id: 79899,
+          name: 'Upper Hutt',
+          latitude: '-41.13827000',
+          longitude: '175.05020000',
+        ),
+        City(
+          id: 79905,
+          name: 'Waipawa',
+          latitude: '-41.41222000',
+          longitude: '175.51528000',
+        ),
+        City(
+          id: 79915,
+          name: 'Wellington',
+          latitude: '-41.28664000',
+          longitude: '174.77557000',
+        ),
+        City(
+          id: 79916,
+          name: 'Wellington City',
+          latitude: '-41.25300000',
+          longitude: '174.75424000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4064,
+      name: 'West Coast Region',
+      stateCode: 'WTC',
+      cities: [
+        City(
+          id: 79798,
+          name: 'Greymouth',
+          latitude: '-42.46667000',
+          longitude: '171.20000000',
+        ),
+        City(
+          id: 79802,
+          name: 'Hokitika',
+          latitude: '-42.71667000',
+          longitude: '170.96667000',
+        ),
+        City(
+          id: 79918,
+          name: 'Westport',
+          latitude: '-41.75262000',
+          longitude: '171.60370000',
+        ),
+      ],
+    ),
+  ],
+);

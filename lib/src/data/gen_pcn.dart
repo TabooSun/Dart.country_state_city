@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const pcn = Country(
-    id: 175,
-    name: 'Pitcairn Island',
-    iso3: 'PCN',
-    iso2: 'PN',
-    phoneCode: '870',
-    capital: 'Adamstown',
-    currency: 'NZD',
-    currencySymbol: r'$',
-    tld: '.pn',
-    native: 'Pitcairn Islands',
-    region: 'Oceania',
-    subregion: 'Polynesia',
-    timezones: [
-      Timezone(
-          zoneName: 'Pacific/Pitcairn',
-          gmtOffset: -28800,
-          gmtOffsetName: 'UTC-08:00',
-          abbreviation: 'PST',
-          tzName: 'Pacific Standard Time (North America')
-    ],
-    emoji: '🇵🇳',
-    emojiU: 'U+1F1F5 U+1F1F3',
-    states: []);
+  id: 175,
+  name: 'Pitcairn Island',
+  iso3: 'PCN',
+  iso2: 'PN',
+  phoneCode: '870',
+  capital: 'Adamstown',
+  currency: 'NZD',
+  currencySymbol: r'$',
+  tld: '.pn',
+  native: 'Pitcairn Islands',
+  region: 'Oceania',
+  subregion: 'Polynesia',
+  timezones: [
+    Timezone(
+      zoneName: 'Pacific/Pitcairn',
+      gmtOffset: -28800,
+      gmtOffsetName: 'UTC-08:00',
+      abbreviation: 'PST',
+      tzName: 'Pacific Standard Time (North America',
+    )
+  ],
+  emoji: '🇵🇳',
+  emojiU: 'U+1F1F5 U+1F1F3',
+  states: [],
+);

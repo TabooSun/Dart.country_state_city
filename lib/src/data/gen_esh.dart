@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const esh = Country(
-    id: 244,
-    name: 'Western Sahara',
-    iso3: 'ESH',
-    iso2: 'EH',
-    phoneCode: '212',
-    capital: 'El-Aaiun',
-    currency: 'MAD',
-    currencySymbol: r'MAD',
-    tld: '.eh',
-    native: 'الصحراء الغربية',
-    region: 'Africa',
-    subregion: 'Northern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/El_Aaiun',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'WEST',
-          tzName: 'Western European Summer Time')
-    ],
-    emoji: '🇪🇭',
-    emojiU: 'U+1F1EA U+1F1ED',
-    states: []);
+  id: 244,
+  name: 'Western Sahara',
+  iso3: 'ESH',
+  iso2: 'EH',
+  phoneCode: '212',
+  capital: 'El-Aaiun',
+  currency: 'MAD',
+  currencySymbol: r'MAD',
+  tld: '.eh',
+  native: 'الصحراء الغربية',
+  region: 'Africa',
+  subregion: 'Northern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/El_Aaiun',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'WEST',
+      tzName: 'Western European Summer Time',
+    )
+  ],
+  emoji: '🇪🇭',
+  emojiU: 'U+1F1EA U+1F1ED',
+  states: [],
+);

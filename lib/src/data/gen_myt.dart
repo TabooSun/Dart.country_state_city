@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const myt = Country(
-    id: 141,
-    name: 'Mayotte',
-    iso3: 'MYT',
-    iso2: 'YT',
-    phoneCode: '262',
-    capital: 'Mamoudzou',
-    currency: 'EUR',
-    currencySymbol: r'€',
-    tld: '.yt',
-    native: 'Mayotte',
-    region: 'Africa',
-    subregion: 'Eastern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Indian/Mayotte',
-          gmtOffset: 10800,
-          gmtOffsetName: 'UTC+03:00',
-          abbreviation: 'EAT',
-          tzName: 'East Africa Time')
-    ],
-    emoji: '🇾🇹',
-    emojiU: 'U+1F1FE U+1F1F9',
-    states: []);
+  id: 141,
+  name: 'Mayotte',
+  iso3: 'MYT',
+  iso2: 'YT',
+  phoneCode: '262',
+  capital: 'Mamoudzou',
+  currency: 'EUR',
+  currencySymbol: r'€',
+  tld: '.yt',
+  native: 'Mayotte',
+  region: 'Africa',
+  subregion: 'Eastern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Indian/Mayotte',
+      gmtOffset: 10800,
+      gmtOffsetName: 'UTC+03:00',
+      abbreviation: 'EAT',
+      tzName: 'East Africa Time',
+    )
+  ],
+  emoji: '🇾🇹',
+  emojiU: 'U+1F1FE U+1F1F9',
+  states: [],
+);

@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const bes = Country(
-    id: 155,
-    name: 'Bonaire, Sint Eustatius and Saba',
-    iso3: 'BES',
-    iso2: 'BQ',
-    phoneCode: '599',
-    capital: 'Kralendijk',
-    currency: 'USD',
-    currencySymbol: r'$',
-    tld: '.an',
-    native: 'Caribisch Nederland',
-    region: 'Americas',
-    subregion: 'Caribbean',
-    timezones: [
-      Timezone(
-          zoneName: 'America/Anguilla',
-          gmtOffset: -14400,
-          gmtOffsetName: 'UTC-04:00',
-          abbreviation: 'AST',
-          tzName: 'Atlantic Standard Time')
-    ],
-    emoji: '🇧🇶',
-    emojiU: 'U+1F1E7 U+1F1F6',
-    states: []);
+  id: 155,
+  name: 'Bonaire, Sint Eustatius and Saba',
+  iso3: 'BES',
+  iso2: 'BQ',
+  phoneCode: '599',
+  capital: 'Kralendijk',
+  currency: 'USD',
+  currencySymbol: r'$',
+  tld: '.an',
+  native: 'Caribisch Nederland',
+  region: 'Americas',
+  subregion: 'Caribbean',
+  timezones: [
+    Timezone(
+      zoneName: 'America/Anguilla',
+      gmtOffset: -14400,
+      gmtOffsetName: 'UTC-04:00',
+      abbreviation: 'AST',
+      tzName: 'Atlantic Standard Time',
+    )
+  ],
+  emoji: '🇧🇶',
+  emojiU: 'U+1F1E7 U+1F1F6',
+  states: [],
+);

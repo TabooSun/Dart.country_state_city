@@ -3,90 +3,146 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const smr = Country(
-    id: 192,
-    name: 'San Marino',
-    iso3: 'SMR',
-    iso2: 'SM',
-    phoneCode: '378',
-    capital: 'San Marino',
-    currency: 'EUR',
-    currencySymbol: r'€',
-    tld: '.sm',
-    native: 'San Marino',
-    region: 'Europe',
-    subregion: 'Southern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Europe/San_Marino',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'CET',
-          tzName: 'Central European Time')
-    ],
-    emoji: '🇸🇲',
-    emojiU: 'U+1F1F8 U+1F1F2',
-    states: [
-      State(id: 59, name: 'Acquaviva', stateCode: '01', cities: [
+  id: 192,
+  name: 'San Marino',
+  iso3: 'SMR',
+  iso2: 'SM',
+  phoneCode: '378',
+  capital: 'San Marino',
+  currency: 'EUR',
+  currencySymbol: r'€',
+  tld: '.sm',
+  native: 'San Marino',
+  region: 'Europe',
+  subregion: 'Southern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Europe/San_Marino',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'CET',
+      tzName: 'Central European Time',
+    )
+  ],
+  emoji: '🇸🇲',
+  emojiU: 'U+1F1F8 U+1F1F2',
+  states: [
+    CountryState(
+      id: 59,
+      name: 'Acquaviva',
+      stateCode: '01',
+      cities: [
         City(
-            id: 104693,
-            name: 'Acquaviva',
-            latitude: '43.94593000',
-            longitude: '12.41850000')
-      ]),
-      State(id: 61, name: 'Borgo Maggiore', stateCode: '06', cities: [
+          id: 104693,
+          name: 'Acquaviva',
+          latitude: '43.94593000',
+          longitude: '12.41850000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 61,
+      name: 'Borgo Maggiore',
+      stateCode: '06',
+      cities: [
         City(
-            id: 104694,
-            name: 'Borgo Maggiore',
-            latitude: '43.94193000',
-            longitude: '12.44738000')
-      ]),
-      State(id: 60, name: 'Chiesanuova', stateCode: '02', cities: [
+          id: 104694,
+          name: 'Borgo Maggiore',
+          latitude: '43.94193000',
+          longitude: '12.44738000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 60,
+      name: 'Chiesanuova',
+      stateCode: '02',
+      cities: [
         City(
-            id: 104699,
-            name: 'Poggio di Chiesanuova',
-            latitude: '43.90451000',
-            longitude: '12.42142000')
-      ]),
-      State(id: 64, name: 'Domagnano', stateCode: '03', cities: [
+          id: 104699,
+          name: 'Poggio di Chiesanuova',
+          latitude: '43.90451000',
+          longitude: '12.42142000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 64,
+      name: 'Domagnano',
+      stateCode: '03',
+      cities: [
         City(
-            id: 104695,
-            name: 'Domagnano',
-            latitude: '43.94961000',
-            longitude: '12.46828000')
-      ]),
-      State(id: 62, name: 'Faetano', stateCode: '04', cities: [
+          id: 104695,
+          name: 'Domagnano',
+          latitude: '43.94961000',
+          longitude: '12.46828000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 62,
+      name: 'Faetano',
+      stateCode: '04',
+      cities: [
         City(
-            id: 104696,
-            name: 'Faetano',
-            latitude: '43.92831000',
-            longitude: '12.49798000')
-      ]),
-      State(id: 66, name: 'Fiorentino', stateCode: '05', cities: [
+          id: 104696,
+          name: 'Faetano',
+          latitude: '43.92831000',
+          longitude: '12.49798000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 66,
+      name: 'Fiorentino',
+      stateCode: '05',
+      cities: [
         City(
-            id: 104697,
-            name: 'Fiorentino',
-            latitude: '43.91001000',
-            longitude: '12.45738000')
-      ]),
-      State(id: 63, name: 'Montegiardino', stateCode: '08', cities: [
+          id: 104697,
+          name: 'Fiorentino',
+          latitude: '43.91001000',
+          longitude: '12.45738000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 63,
+      name: 'Montegiardino',
+      stateCode: '08',
+      cities: [
         City(
-            id: 104698,
-            name: 'Monte Giardino',
-            latitude: '43.90878000',
-            longitude: '12.48201000')
-      ]),
-      State(id: 58, name: 'San Marino', stateCode: '07', cities: [
+          id: 104698,
+          name: 'Monte Giardino',
+          latitude: '43.90878000',
+          longitude: '12.48201000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 58,
+      name: 'San Marino',
+      stateCode: '07',
+      cities: [
         City(
-            id: 104700,
-            name: 'San Marino',
-            latitude: '43.93667000',
-            longitude: '12.44639000')
-      ]),
-      State(id: 65, name: 'Serravalle', stateCode: '09', cities: [
+          id: 104700,
+          name: 'San Marino',
+          latitude: '43.93667000',
+          longitude: '12.44639000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 65,
+      name: 'Serravalle',
+      stateCode: '09',
+      cities: [
         City(
-            id: 104701,
-            name: 'Serravalle',
-            latitude: '43.96897000',
-            longitude: '12.48167000')
-      ])
-    ]);
+          id: 104701,
+          name: 'Serravalle',
+          latitude: '43.96897000',
+          longitude: '12.48167000',
+        )
+      ],
+    ),
+  ],
+);

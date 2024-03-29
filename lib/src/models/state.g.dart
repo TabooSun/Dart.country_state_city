@@ -6,8 +6,8 @@ part of 'state.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-State _$StateFromJson(Map<String, dynamic> json) {
-  return State(
+CountryState _$StateFromJson(Map<String, dynamic> json) {
+  return CountryState(
     id: json['id'] as int,
     name: json['name'] as String,
     stateCode: json['state_code'] as String,
@@ -17,7 +17,7 @@ State _$StateFromJson(Map<String, dynamic> json) {
   );
 }
 
-Map<String, dynamic> _$StateToJson(State instance) => <String, dynamic>{
+Map<String, dynamic> _$StateToJson(CountryState instance) => <String, dynamic>{
       'id': instance.id,
       'name': instance.name,
       'state_code': instance.stateCode,

@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const spm = Country(
-    id: 187,
-    name: 'Saint Pierre and Miquelon',
-    iso3: 'SPM',
-    iso2: 'PM',
-    phoneCode: '508',
-    capital: 'Saint-Pierre',
-    currency: 'EUR',
-    currencySymbol: r'€',
-    tld: '.pm',
-    native: 'Saint-Pierre-et-Miquelon',
-    region: 'Americas',
-    subregion: 'Northern America',
-    timezones: [
-      Timezone(
-          zoneName: 'America/Miquelon',
-          gmtOffset: -10800,
-          gmtOffsetName: 'UTC-03:00',
-          abbreviation: 'PMDT',
-          tzName: 'Pierre & Miquelon Daylight Time')
-    ],
-    emoji: '🇵🇲',
-    emojiU: 'U+1F1F5 U+1F1F2',
-    states: []);
+  id: 187,
+  name: 'Saint Pierre and Miquelon',
+  iso3: 'SPM',
+  iso2: 'PM',
+  phoneCode: '508',
+  capital: 'Saint-Pierre',
+  currency: 'EUR',
+  currencySymbol: r'€',
+  tld: '.pm',
+  native: 'Saint-Pierre-et-Miquelon',
+  region: 'Americas',
+  subregion: 'Northern America',
+  timezones: [
+    Timezone(
+      zoneName: 'America/Miquelon',
+      gmtOffset: -10800,
+      gmtOffsetName: 'UTC-03:00',
+      abbreviation: 'PMDT',
+      tzName: 'Pierre & Miquelon Daylight Time',
+    )
+  ],
+  emoji: '🇵🇲',
+  emojiU: 'U+1F1F5 U+1F1F2',
+  states: [],
+);

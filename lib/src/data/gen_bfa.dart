@@ -3,574 +3,936 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const bfa = Country(
-    id: 35,
-    name: 'Burkina Faso',
-    iso3: 'BFA',
-    iso2: 'BF',
-    phoneCode: '226',
-    capital: 'Ouagadougou',
-    currency: 'XOF',
-    currencySymbol: r'CFA',
-    tld: '.bf',
-    native: 'Burkina Faso',
-    region: 'Africa',
-    subregion: 'Western Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Ouagadougou',
-          gmtOffset: 0,
-          gmtOffsetName: 'UTC±00',
-          abbreviation: 'GMT',
-          tzName: 'Greenwich Mean Time')
-    ],
-    emoji: '🇧🇫',
-    emojiU: 'U+1F1E7 U+1F1EB',
-    states: [
-      State(id: 3160, name: 'Balé Province', stateCode: 'BAL', cities: []),
-      State(id: 3155, name: 'Bam Province', stateCode: 'BAM', cities: []),
-      State(id: 3120, name: 'Banwa Province', stateCode: 'BAN', cities: []),
-      State(id: 3152, name: 'Bazèga Province', stateCode: 'BAZ', cities: []),
-      State(
-          id: 3138,
-          name: 'Boucle du Mouhoun Region',
-          stateCode: '01',
-          cities: [
-            City(
-                id: 9159,
-                name: 'Barani',
-                latitude: '13.16910000',
-                longitude: '-3.88990000'),
-            City(
-                id: 9164,
-                name: 'Boromo',
-                latitude: '11.74542000',
-                longitude: '-2.93006000'),
-            City(
-                id: 9172,
-                name: 'Dédougou',
-                latitude: '12.46338000',
-                longitude: '-3.46075000'),
-            City(
-                id: 9192,
-                name: 'Nouna',
-                latitude: '12.72939000',
-                longitude: '-3.86305000'),
-            City(
-                id: 9203,
-                name: 'Province de la Kossi',
-                latitude: '12.91667000',
-                longitude: '-3.83333000'),
-            City(
-                id: 9208,
-                name: 'Province des Balé',
-                latitude: '11.71667000',
-                longitude: '-3.05000000'),
-            City(
-                id: 9209,
-                name: 'Province des Banwa',
-                latitude: '12.16667000',
-                longitude: '-4.16667000'),
-            City(
-                id: 9221,
-                name: 'Province du Mouhoun',
-                latitude: '12.25000000',
-                longitude: '-3.41667000'),
-            City(
-                id: 9223,
-                name: 'Province du Nayala',
-                latitude: '12.66667000',
-                longitude: '-3.00000000'),
-            City(
-                id: 9230,
-                name: 'Province du Sourou',
-                latitude: '13.25000000',
-                longitude: '-3.00000000'),
-            City(
-                id: 9239,
-                name: 'Salanso',
-                latitude: '12.17423000',
-                longitude: '-4.08477000'),
-            City(
-                id: 9244,
-                name: 'Toma',
-                latitude: '12.75844000',
-                longitude: '-2.89879000'),
-            City(
-                id: 9245,
-                name: 'Tougan',
-                latitude: '13.07250000',
-                longitude: '-3.06940000')
-          ]),
-      State(
-          id: 3121, name: 'Bougouriba Province', stateCode: 'BGR', cities: []),
-      State(id: 3131, name: 'Boulgou', stateCode: 'BLG', cities: []),
-      State(id: 3153, name: 'Cascades Region', stateCode: '02', cities: [
-        City(
-            id: 9158,
-            name: 'Banfora',
-            latitude: '10.63333000',
-            longitude: '-4.76667000'),
-        City(
-            id: 9200,
-            name: 'Province de la Comoé',
-            latitude: '10.33333000',
-            longitude: '-4.41667000'),
-        City(
-            id: 9204,
-            name: 'Province de la Léraba',
-            latitude: '10.66667000',
-            longitude: '-5.20000000'),
-        City(
-            id: 9241,
-            name: 'Sindou',
-            latitude: '10.66667000',
-            longitude: '-5.16667000')
-      ]),
-      State(id: 3136, name: 'Centre', stateCode: '03', cities: [
-        City(
-            id: 9181,
-            name: 'Kadiogo Province',
-            latitude: '12.33333000',
-            longitude: '-1.50000000'),
-        City(
-            id: 9193,
-            name: 'Ouagadougou',
-            latitude: '12.36566000',
-            longitude: '-1.53388000')
-      ]),
-      State(id: 3162, name: 'Centre-Est Region', stateCode: '04', cities: [
-        City(
-            id: 9174,
-            name: 'Garango',
-            latitude: '11.80000000',
-            longitude: '-0.55056000'),
-        City(
-            id: 9187,
-            name: 'Koupéla',
-            latitude: '12.17864000',
-            longitude: '-0.35103000'),
-        City(
-            id: 9188,
-            name: 'Kouritenga Province',
-            latitude: '12.20000000',
-            longitude: '-0.30000000'),
-        City(
-            id: 9195,
-            name: 'Ouargaye',
-            latitude: '11.50202000',
-            longitude: '0.05886000'),
-        City(
-            id: 9211,
-            name: 'Province du Boulgou',
-            latitude: '11.50000000',
-            longitude: '-0.41667000'),
-        City(
-            id: 9217,
-            name: 'Province du Koulpélogo',
-            latitude: '11.41667000',
-            longitude: '0.16667000'),
-        City(
-            id: 9242,
-            name: 'Tenkodogo',
-            latitude: '11.78000000',
-            longitude: '-0.36972000')
-      ]),
-      State(id: 3127, name: 'Centre-Nord Region', stateCode: '05', cities: [
-        City(
-            id: 9165,
-            name: 'Boulsa',
-            latitude: '12.66664000',
-            longitude: '-0.57469000'),
-        City(
-            id: 9182,
-            name: 'Kaya',
-            latitude: '13.09167000',
-            longitude: '-1.08444000'),
-        City(
-            id: 9185,
-            name: 'Kongoussi',
-            latitude: '13.32583000',
-            longitude: '-1.53472000'),
-        City(
-            id: 9210,
-            name: 'Province du Bam',
-            latitude: '13.46667000',
-            longitude: '-1.58333000'),
-        City(
-            id: 9222,
-            name: 'Province du Namentenga',
-            latitude: '13.25000000',
-            longitude: '-0.50000000'),
-        City(
-            id: 9228,
-            name: 'Province du Sanmatenga',
-            latitude: '13.25000000',
-            longitude: '-1.08333000')
-      ]),
-      State(id: 3115, name: 'Centre-Ouest Region', stateCode: '06', cities: [
-        City(
-            id: 9178,
-            name: 'Goulouré',
-            latitude: '12.23484000',
-            longitude: '-1.93394000'),
-        City(
-            id: 9183,
-            name: 'Kokologo',
-            latitude: '12.19392000',
-            longitude: '-1.87687000'),
-        City(
-            id: 9186,
-            name: 'Koudougou',
-            latitude: '12.25263000',
-            longitude: '-2.36272000'),
-        City(
-            id: 9189,
-            name: 'Léo',
-            latitude: '11.10033000',
-            longitude: '-2.10654000'),
-        City(
-            id: 9198,
-            name: 'Pitmoaga',
-            latitude: '12.24564000',
-            longitude: '-1.88148000'),
-        City(
-            id: 9205,
-            name: 'Province de la Sissili',
-            latitude: '11.33333000',
-            longitude: '-2.25000000'),
-        City(
-            id: 9212,
-            name: 'Province du Boulkiemdé',
-            latitude: '12.33333000',
-            longitude: '-2.16667000'),
-        City(
-            id: 9227,
-            name: 'Province du Sanguié',
-            latitude: '12.16667000',
-            longitude: '-2.66667000'),
-        City(
-            id: 9235,
-            name: 'Province du Ziro',
-            latitude: '11.58333000',
-            longitude: '-1.91667000'),
-        City(
-            id: 9238,
-            name: 'Réo',
-            latitude: '12.31963000',
-            longitude: '-2.47094000'),
-        City(
-            id: 9240,
-            name: 'Sapouy',
-            latitude: '11.55444000',
-            longitude: '-1.77361000')
-      ]),
-      State(id: 3149, name: 'Centre-Sud Region', stateCode: '07', cities: [
-        City(
-            id: 9161,
-            name: 'Bazega Province',
-            latitude: '11.91667000',
-            longitude: '-1.50000000'),
-        City(
-            id: 9184,
-            name: 'Kombissiri',
-            latitude: '12.06884000',
-            longitude: '-1.33644000'),
-        City(
-            id: 9190,
-            name: 'Manga',
-            latitude: '11.66361000',
-            longitude: '-1.07306000'),
-        City(
-            id: 9191,
-            name: 'Nahouri Province',
-            latitude: '11.25000000',
-            longitude: '-1.25000000'),
-        City(
-            id: 9237,
-            name: 'Pô',
-            latitude: '11.16972000',
-            longitude: '-1.14500000'),
-        City(
-            id: 9249,
-            name: 'Zoundweogo Province',
-            latitude: '11.58333000',
-            longitude: '-1.00000000')
-      ]),
-      State(id: 3167, name: 'Comoé Province', stateCode: 'COM', cities: []),
-      State(id: 3158, name: 'Est Region', stateCode: '08', cities: [
-        City(
-            id: 9163,
-            name: 'Bogandé',
-            latitude: '12.97040000',
-            longitude: '-0.14953000'),
-        City(
-            id: 9168,
-            name: 'Diapaga',
-            latitude: '12.07305000',
-            longitude: '1.78838000'),
-        City(
-            id: 9173,
-            name: 'Fada N\'gourma',
-            latitude: '12.06157000',
-            longitude: '0.35843000'),
-        City(
-            id: 9175,
-            name: 'Gayéri',
-            latitude: '12.64824000',
-            longitude: '0.49314000'),
-        City(
-            id: 9176,
-            name: 'Gnagna Province',
-            latitude: '12.91880000',
-            longitude: '0.03920000'),
-        City(
-            id: 9197,
-            name: 'Pama',
-            latitude: '11.24972000',
-            longitude: '0.70750000'),
-        City(
-            id: 9201,
-            name: 'Province de la Komandjoari',
-            latitude: '12.66667000',
-            longitude: '0.66667000'),
-        City(
-            id: 9202,
-            name: 'Province de la Kompienga',
-            latitude: '11.41667000',
-            longitude: '0.91667000'),
-        City(
-            id: 9206,
-            name: 'Province de la Tapoa',
-            latitude: '12.00000000',
-            longitude: '1.75000000'),
-        City(
-            id: 9214,
-            name: 'Province du Gourma',
-            latitude: '12.08333000',
-            longitude: '0.50000000')
-      ]),
-      State(
-          id: 3148, name: 'Ganzourgou Province', stateCode: 'GAN', cities: []),
-      State(id: 3122, name: 'Gnagna Province', stateCode: 'GNA', cities: []),
-      State(id: 3143, name: 'Gourma Province', stateCode: 'GOU', cities: []),
-      State(id: 3165, name: 'Hauts-Bassins Region', stateCode: '09', cities: [
-        City(
-            id: 9162,
-            name: 'Bobo-Dioulasso',
-            latitude: '11.17715000',
-            longitude: '-4.29790000'),
-        City(
-            id: 9180,
-            name: 'Houndé',
-            latitude: '11.50000000',
-            longitude: '-3.51667000'),
-        City(
-            id: 9215,
-            name: 'Province du Houet',
-            latitude: '11.33333000',
-            longitude: '-4.25000000'),
-        City(
-            id: 9219,
-            name: 'Province du Kénédougou',
-            latitude: '11.41667000',
-            longitude: '-5.00000000'),
-        City(
-            id: 9232,
-            name: 'Province du Tuy',
-            latitude: '11.41667000',
-            longitude: '-3.41667000')
-      ]),
-      State(id: 3129, name: 'Houet Province', stateCode: 'HOU', cities: []),
-      State(id: 3135, name: 'Ioba Province', stateCode: 'IOB', cities: []),
-      State(id: 3168, name: 'Kadiogo Province', stateCode: 'KAD', cities: []),
-      State(
-          id: 3112, name: 'Kénédougou Province', stateCode: 'KEN', cities: []),
-      State(
-          id: 3132, name: 'Komondjari Province', stateCode: 'KMD', cities: []),
-      State(id: 3157, name: 'Kompienga Province', stateCode: 'KMP', cities: []),
-      State(id: 3146, name: 'Kossi Province', stateCode: 'KOS', cities: []),
-      State(
-          id: 3133, name: 'Koulpélogo Province', stateCode: 'KOP', cities: []),
-      State(
-          id: 3161, name: 'Kouritenga Province', stateCode: 'KOT', cities: []),
-      State(id: 3147, name: 'Kourwéogo Province', stateCode: 'KOW', cities: []),
-      State(id: 3159, name: 'Léraba Province', stateCode: 'LER', cities: []),
-      State(id: 3151, name: 'Loroum Province', stateCode: 'LOR', cities: []),
-      State(id: 3123, name: 'Mouhoun', stateCode: 'MOU', cities: []),
-      State(id: 3116, name: 'Nahouri Province', stateCode: 'NAO', cities: []),
-      State(
-          id: 3113, name: 'Namentenga Province', stateCode: 'NAM', cities: []),
-      State(id: 3142, name: 'Nayala Province', stateCode: 'NAY', cities: []),
-      State(
-          id: 3164,
-          name: 'Nord Region, Burkina Faso',
-          stateCode: '10',
-          cities: [
-            City(
-                id: 9179,
-                name: 'Gourcy',
-                latitude: '13.20776000',
-                longitude: '-2.35893000'),
-            City(
-                id: 9194,
-                name: 'Ouahigouya',
-                latitude: '13.58278000',
-                longitude: '-2.42158000'),
-            City(
-                id: 9220,
-                name: 'Province du Loroum',
-                latitude: '13.91667000',
-                longitude: '-2.16667000'),
-            City(
-                id: 9225,
-                name: 'Province du Passoré',
-                latitude: '12.91667000',
-                longitude: '-2.16667000'),
-            City(
-                id: 9234,
-                name: 'Province du Yatenga',
-                latitude: '13.58333000',
-                longitude: '-2.41667000'),
-            City(
-                id: 9236,
-                name: 'Province du Zondoma',
-                latitude: '13.18333000',
-                longitude: '-2.36667000'),
-            City(
-                id: 9243,
-                name: 'Titao',
-                latitude: '13.76667000',
-                longitude: '-2.06667000'),
-            City(
-                id: 9246,
-                name: 'Yako',
-                latitude: '12.95910000',
-                longitude: '-2.26075000')
-          ]),
-      State(id: 3156, name: 'Noumbiel Province', stateCode: 'NOU', cities: []),
-      State(
-          id: 3141, name: 'Oubritenga Province', stateCode: 'OUB', cities: []),
-      State(id: 3144, name: 'Oudalan Province', stateCode: 'OUD', cities: []),
-      State(id: 3117, name: 'Passoré Province', stateCode: 'PAS', cities: []),
-      State(id: 3125, name: 'Plateau-Central Region', stateCode: '11', cities: [
-        City(
-            id: 9166,
-            name: 'Boussé',
-            latitude: '12.66121000',
-            longitude: '-1.89515000'),
-        City(
-            id: 9196,
-            name: 'Oubritenga',
-            latitude: '12.66667000',
-            longitude: '-1.33333000'),
-        City(
-            id: 9213,
-            name: 'Province du Ganzourgou',
-            latitude: '12.26667000',
-            longitude: '-0.76667000'),
-        City(
-            id: 9218,
-            name: 'Province du Kourwéogo',
-            latitude: '12.58333000',
-            longitude: '-1.76667000'),
-        City(
-            id: 9247,
-            name: 'Ziniaré',
-            latitude: '12.58186000',
-            longitude: '-1.29710000'),
-        City(
-            id: 9248,
-            name: 'Zorgo',
-            latitude: '12.24922000',
-            longitude: '-0.61527000')
-      ]),
-      State(id: 3163, name: 'Poni Province', stateCode: 'PON', cities: []),
-      State(id: 3114, name: 'Sahel Region', stateCode: '12', cities: [
-        City(
-            id: 9170,
-            name: 'Djibo',
-            latitude: '14.09940000',
-            longitude: '-1.62554000'),
-        City(
-            id: 9171,
-            name: 'Dori',
-            latitude: '14.03540000',
-            longitude: '-0.03450000'),
-        City(
-            id: 9177,
-            name: 'Gorom-Gorom',
-            latitude: '14.44290000',
-            longitude: '-0.23468000'),
-        City(
-            id: 9207,
-            name: 'Province de l’Oudalan',
-            latitude: '14.66667000',
-            longitude: '-0.33333000'),
-        City(
-            id: 9231,
-            name: 'Province du Séno',
-            latitude: '13.96400000',
-            longitude: '0.01200000'),
-        City(
-            id: 9229,
-            name: 'Province du Soum',
-            latitude: '14.33333000',
-            longitude: '-1.25000000'),
-        City(
-            id: 9233,
-            name: 'Province du Yagha',
-            latitude: '13.41667000',
-            longitude: '0.58333000')
-      ]),
-      State(id: 3154, name: 'Sanguié Province', stateCode: 'SNG', cities: []),
-      State(
-          id: 3126, name: 'Sanmatenga Province', stateCode: 'SMT', cities: []),
-      State(id: 3139, name: 'Séno Province', stateCode: 'SEN', cities: []),
-      State(id: 3119, name: 'Sissili Province', stateCode: 'SIS', cities: []),
-      State(id: 3166, name: 'Soum Province', stateCode: 'SOM', cities: []),
-      State(id: 3137, name: 'Sourou Province', stateCode: 'SOR', cities: []),
-      State(id: 3140, name: 'Sud-Ouest Region', stateCode: '13', cities: [
-        City(
-            id: 9160,
-            name: 'Batié',
-            latitude: '9.88333000',
-            longitude: '-2.91667000'),
-        City(
-            id: 9167,
-            name: 'Dano',
-            latitude: '11.14640000',
-            longitude: '-3.05784000'),
-        City(
-            id: 9169,
-            name: 'Diébougou',
-            latitude: '10.96209000',
-            longitude: '-3.24967000'),
-        City(
-            id: 9199,
-            name: 'Province de la Bougouriba',
-            latitude: '10.83333000',
-            longitude: '-3.41667000'),
-        City(
-            id: 9216,
-            name: 'Province du Ioba',
-            latitude: '11.08333000',
-            longitude: '-3.08333000'),
-        City(
-            id: 9224,
-            name: 'Province du Noumbièl',
-            latitude: '9.83333000',
-            longitude: '-3.00000000'),
-        City(
-            id: 9226,
-            name: 'Province du Poni',
-            latitude: '10.25000000',
-            longitude: '-3.41667000')
-      ]),
-      State(id: 3128, name: 'Tapoa Province', stateCode: 'TAP', cities: []),
-      State(id: 3134, name: 'Tuy Province', stateCode: 'TUI', cities: []),
-      State(id: 3124, name: 'Yagha Province', stateCode: 'YAG', cities: []),
-      State(id: 3150, name: 'Yatenga Province', stateCode: 'YAT', cities: []),
-      State(id: 3145, name: 'Ziro Province', stateCode: 'ZIR', cities: []),
-      State(id: 3130, name: 'Zondoma Province', stateCode: 'ZON', cities: []),
-      State(id: 3118, name: 'Zoundwéogo Province', stateCode: 'ZOU', cities: [])
-    ]);
+  id: 35,
+  name: 'Burkina Faso',
+  iso3: 'BFA',
+  iso2: 'BF',
+  phoneCode: '226',
+  capital: 'Ouagadougou',
+  currency: 'XOF',
+  currencySymbol: r'CFA',
+  tld: '.bf',
+  native: 'Burkina Faso',
+  region: 'Africa',
+  subregion: 'Western Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Ouagadougou',
+      gmtOffset: 0,
+      gmtOffsetName: 'UTC±00',
+      abbreviation: 'GMT',
+      tzName: 'Greenwich Mean Time',
+    )
+  ],
+  emoji: '🇧🇫',
+  emojiU: 'U+1F1E7 U+1F1EB',
+  states: [
+    CountryState(
+      id: 3160,
+      name: 'Balé Province',
+      stateCode: 'BAL',
+      cities: [],
+    ),
+    CountryState(
+      id: 3155,
+      name: 'Bam Province',
+      stateCode: 'BAM',
+      cities: [],
+    ),
+    CountryState(
+      id: 3120,
+      name: 'Banwa Province',
+      stateCode: 'BAN',
+      cities: [],
+    ),
+    CountryState(
+      id: 3152,
+      name: 'Bazèga Province',
+      stateCode: 'BAZ',
+      cities: [],
+    ),
+    CountryState(
+      id: 3138,
+      name: 'Boucle du Mouhoun Region',
+      stateCode: '01',
+      cities: [
+        City(
+          id: 9159,
+          name: 'Barani',
+          latitude: '13.16910000',
+          longitude: '-3.88990000',
+        ),
+        City(
+          id: 9164,
+          name: 'Boromo',
+          latitude: '11.74542000',
+          longitude: '-2.93006000',
+        ),
+        City(
+          id: 9172,
+          name: 'Dédougou',
+          latitude: '12.46338000',
+          longitude: '-3.46075000',
+        ),
+        City(
+          id: 9192,
+          name: 'Nouna',
+          latitude: '12.72939000',
+          longitude: '-3.86305000',
+        ),
+        City(
+          id: 9203,
+          name: 'Province de la Kossi',
+          latitude: '12.91667000',
+          longitude: '-3.83333000',
+        ),
+        City(
+          id: 9208,
+          name: 'Province des Balé',
+          latitude: '11.71667000',
+          longitude: '-3.05000000',
+        ),
+        City(
+          id: 9209,
+          name: 'Province des Banwa',
+          latitude: '12.16667000',
+          longitude: '-4.16667000',
+        ),
+        City(
+          id: 9221,
+          name: 'Province du Mouhoun',
+          latitude: '12.25000000',
+          longitude: '-3.41667000',
+        ),
+        City(
+          id: 9223,
+          name: 'Province du Nayala',
+          latitude: '12.66667000',
+          longitude: '-3.00000000',
+        ),
+        City(
+          id: 9230,
+          name: 'Province du Sourou',
+          latitude: '13.25000000',
+          longitude: '-3.00000000',
+        ),
+        City(
+          id: 9239,
+          name: 'Salanso',
+          latitude: '12.17423000',
+          longitude: '-4.08477000',
+        ),
+        City(
+          id: 9244,
+          name: 'Toma',
+          latitude: '12.75844000',
+          longitude: '-2.89879000',
+        ),
+        City(
+          id: 9245,
+          name: 'Tougan',
+          latitude: '13.07250000',
+          longitude: '-3.06940000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3121,
+      name: 'Bougouriba Province',
+      stateCode: 'BGR',
+      cities: [],
+    ),
+    CountryState(
+      id: 3131,
+      name: 'Boulgou',
+      stateCode: 'BLG',
+      cities: [],
+    ),
+    CountryState(
+      id: 3153,
+      name: 'Cascades Region',
+      stateCode: '02',
+      cities: [
+        City(
+          id: 9158,
+          name: 'Banfora',
+          latitude: '10.63333000',
+          longitude: '-4.76667000',
+        ),
+        City(
+          id: 9200,
+          name: 'Province de la Comoé',
+          latitude: '10.33333000',
+          longitude: '-4.41667000',
+        ),
+        City(
+          id: 9204,
+          name: 'Province de la Léraba',
+          latitude: '10.66667000',
+          longitude: '-5.20000000',
+        ),
+        City(
+          id: 9241,
+          name: 'Sindou',
+          latitude: '10.66667000',
+          longitude: '-5.16667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3136,
+      name: 'Centre',
+      stateCode: '03',
+      cities: [
+        City(
+          id: 9181,
+          name: 'Kadiogo Province',
+          latitude: '12.33333000',
+          longitude: '-1.50000000',
+        ),
+        City(
+          id: 9193,
+          name: 'Ouagadougou',
+          latitude: '12.36566000',
+          longitude: '-1.53388000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3162,
+      name: 'Centre-Est Region',
+      stateCode: '04',
+      cities: [
+        City(
+          id: 9174,
+          name: 'Garango',
+          latitude: '11.80000000',
+          longitude: '-0.55056000',
+        ),
+        City(
+          id: 9187,
+          name: 'Koupéla',
+          latitude: '12.17864000',
+          longitude: '-0.35103000',
+        ),
+        City(
+          id: 9188,
+          name: 'Kouritenga Province',
+          latitude: '12.20000000',
+          longitude: '-0.30000000',
+        ),
+        City(
+          id: 9195,
+          name: 'Ouargaye',
+          latitude: '11.50202000',
+          longitude: '0.05886000',
+        ),
+        City(
+          id: 9211,
+          name: 'Province du Boulgou',
+          latitude: '11.50000000',
+          longitude: '-0.41667000',
+        ),
+        City(
+          id: 9217,
+          name: 'Province du Koulpélogo',
+          latitude: '11.41667000',
+          longitude: '0.16667000',
+        ),
+        City(
+          id: 9242,
+          name: 'Tenkodogo',
+          latitude: '11.78000000',
+          longitude: '-0.36972000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3127,
+      name: 'Centre-Nord Region',
+      stateCode: '05',
+      cities: [
+        City(
+          id: 9165,
+          name: 'Boulsa',
+          latitude: '12.66664000',
+          longitude: '-0.57469000',
+        ),
+        City(
+          id: 9182,
+          name: 'Kaya',
+          latitude: '13.09167000',
+          longitude: '-1.08444000',
+        ),
+        City(
+          id: 9185,
+          name: 'Kongoussi',
+          latitude: '13.32583000',
+          longitude: '-1.53472000',
+        ),
+        City(
+          id: 9210,
+          name: 'Province du Bam',
+          latitude: '13.46667000',
+          longitude: '-1.58333000',
+        ),
+        City(
+          id: 9222,
+          name: 'Province du Namentenga',
+          latitude: '13.25000000',
+          longitude: '-0.50000000',
+        ),
+        City(
+          id: 9228,
+          name: 'Province du Sanmatenga',
+          latitude: '13.25000000',
+          longitude: '-1.08333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3115,
+      name: 'Centre-Ouest Region',
+      stateCode: '06',
+      cities: [
+        City(
+          id: 9178,
+          name: 'Goulouré',
+          latitude: '12.23484000',
+          longitude: '-1.93394000',
+        ),
+        City(
+          id: 9183,
+          name: 'Kokologo',
+          latitude: '12.19392000',
+          longitude: '-1.87687000',
+        ),
+        City(
+          id: 9186,
+          name: 'Koudougou',
+          latitude: '12.25263000',
+          longitude: '-2.36272000',
+        ),
+        City(
+          id: 9189,
+          name: 'Léo',
+          latitude: '11.10033000',
+          longitude: '-2.10654000',
+        ),
+        City(
+          id: 9198,
+          name: 'Pitmoaga',
+          latitude: '12.24564000',
+          longitude: '-1.88148000',
+        ),
+        City(
+          id: 9205,
+          name: 'Province de la Sissili',
+          latitude: '11.33333000',
+          longitude: '-2.25000000',
+        ),
+        City(
+          id: 9212,
+          name: 'Province du Boulkiemdé',
+          latitude: '12.33333000',
+          longitude: '-2.16667000',
+        ),
+        City(
+          id: 9227,
+          name: 'Province du Sanguié',
+          latitude: '12.16667000',
+          longitude: '-2.66667000',
+        ),
+        City(
+          id: 9235,
+          name: 'Province du Ziro',
+          latitude: '11.58333000',
+          longitude: '-1.91667000',
+        ),
+        City(
+          id: 9238,
+          name: 'Réo',
+          latitude: '12.31963000',
+          longitude: '-2.47094000',
+        ),
+        City(
+          id: 9240,
+          name: 'Sapouy',
+          latitude: '11.55444000',
+          longitude: '-1.77361000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3149,
+      name: 'Centre-Sud Region',
+      stateCode: '07',
+      cities: [
+        City(
+          id: 9161,
+          name: 'Bazega Province',
+          latitude: '11.91667000',
+          longitude: '-1.50000000',
+        ),
+        City(
+          id: 9184,
+          name: 'Kombissiri',
+          latitude: '12.06884000',
+          longitude: '-1.33644000',
+        ),
+        City(
+          id: 9190,
+          name: 'Manga',
+          latitude: '11.66361000',
+          longitude: '-1.07306000',
+        ),
+        City(
+          id: 9191,
+          name: 'Nahouri Province',
+          latitude: '11.25000000',
+          longitude: '-1.25000000',
+        ),
+        City(
+          id: 9237,
+          name: 'Pô',
+          latitude: '11.16972000',
+          longitude: '-1.14500000',
+        ),
+        City(
+          id: 9249,
+          name: 'Zoundweogo Province',
+          latitude: '11.58333000',
+          longitude: '-1.00000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3167,
+      name: 'Comoé Province',
+      stateCode: 'COM',
+      cities: [],
+    ),
+    CountryState(
+      id: 3158,
+      name: 'Est Region',
+      stateCode: '08',
+      cities: [
+        City(
+          id: 9163,
+          name: 'Bogandé',
+          latitude: '12.97040000',
+          longitude: '-0.14953000',
+        ),
+        City(
+          id: 9168,
+          name: 'Diapaga',
+          latitude: '12.07305000',
+          longitude: '1.78838000',
+        ),
+        City(
+          id: 9173,
+          name: 'Fada N\'gourma',
+          latitude: '12.06157000',
+          longitude: '0.35843000',
+        ),
+        City(
+          id: 9175,
+          name: 'Gayéri',
+          latitude: '12.64824000',
+          longitude: '0.49314000',
+        ),
+        City(
+          id: 9176,
+          name: 'Gnagna Province',
+          latitude: '12.91880000',
+          longitude: '0.03920000',
+        ),
+        City(
+          id: 9197,
+          name: 'Pama',
+          latitude: '11.24972000',
+          longitude: '0.70750000',
+        ),
+        City(
+          id: 9201,
+          name: 'Province de la Komandjoari',
+          latitude: '12.66667000',
+          longitude: '0.66667000',
+        ),
+        City(
+          id: 9202,
+          name: 'Province de la Kompienga',
+          latitude: '11.41667000',
+          longitude: '0.91667000',
+        ),
+        City(
+          id: 9206,
+          name: 'Province de la Tapoa',
+          latitude: '12.00000000',
+          longitude: '1.75000000',
+        ),
+        City(
+          id: 9214,
+          name: 'Province du Gourma',
+          latitude: '12.08333000',
+          longitude: '0.50000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3148,
+      name: 'Ganzourgou Province',
+      stateCode: 'GAN',
+      cities: [],
+    ),
+    CountryState(
+      id: 3122,
+      name: 'Gnagna Province',
+      stateCode: 'GNA',
+      cities: [],
+    ),
+    CountryState(
+      id: 3143,
+      name: 'Gourma Province',
+      stateCode: 'GOU',
+      cities: [],
+    ),
+    CountryState(
+      id: 3165,
+      name: 'Hauts-Bassins Region',
+      stateCode: '09',
+      cities: [
+        City(
+          id: 9162,
+          name: 'Bobo-Dioulasso',
+          latitude: '11.17715000',
+          longitude: '-4.29790000',
+        ),
+        City(
+          id: 9180,
+          name: 'Houndé',
+          latitude: '11.50000000',
+          longitude: '-3.51667000',
+        ),
+        City(
+          id: 9215,
+          name: 'Province du Houet',
+          latitude: '11.33333000',
+          longitude: '-4.25000000',
+        ),
+        City(
+          id: 9219,
+          name: 'Province du Kénédougou',
+          latitude: '11.41667000',
+          longitude: '-5.00000000',
+        ),
+        City(
+          id: 9232,
+          name: 'Province du Tuy',
+          latitude: '11.41667000',
+          longitude: '-3.41667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3129,
+      name: 'Houet Province',
+      stateCode: 'HOU',
+      cities: [],
+    ),
+    CountryState(
+      id: 3135,
+      name: 'Ioba Province',
+      stateCode: 'IOB',
+      cities: [],
+    ),
+    CountryState(
+      id: 3168,
+      name: 'Kadiogo Province',
+      stateCode: 'KAD',
+      cities: [],
+    ),
+    CountryState(
+      id: 3112,
+      name: 'Kénédougou Province',
+      stateCode: 'KEN',
+      cities: [],
+    ),
+    CountryState(
+      id: 3132,
+      name: 'Komondjari Province',
+      stateCode: 'KMD',
+      cities: [],
+    ),
+    CountryState(
+      id: 3157,
+      name: 'Kompienga Province',
+      stateCode: 'KMP',
+      cities: [],
+    ),
+    CountryState(
+      id: 3146,
+      name: 'Kossi Province',
+      stateCode: 'KOS',
+      cities: [],
+    ),
+    CountryState(
+      id: 3133,
+      name: 'Koulpélogo Province',
+      stateCode: 'KOP',
+      cities: [],
+    ),
+    CountryState(
+      id: 3161,
+      name: 'Kouritenga Province',
+      stateCode: 'KOT',
+      cities: [],
+    ),
+    CountryState(
+      id: 3147,
+      name: 'Kourwéogo Province',
+      stateCode: 'KOW',
+      cities: [],
+    ),
+    CountryState(
+      id: 3159,
+      name: 'Léraba Province',
+      stateCode: 'LER',
+      cities: [],
+    ),
+    CountryState(
+      id: 3151,
+      name: 'Loroum Province',
+      stateCode: 'LOR',
+      cities: [],
+    ),
+    CountryState(
+      id: 3123,
+      name: 'Mouhoun',
+      stateCode: 'MOU',
+      cities: [],
+    ),
+    CountryState(
+      id: 3116,
+      name: 'Nahouri Province',
+      stateCode: 'NAO',
+      cities: [],
+    ),
+    CountryState(
+      id: 3113,
+      name: 'Namentenga Province',
+      stateCode: 'NAM',
+      cities: [],
+    ),
+    CountryState(
+      id: 3142,
+      name: 'Nayala Province',
+      stateCode: 'NAY',
+      cities: [],
+    ),
+    CountryState(
+      id: 3164,
+      name: 'Nord Region, Burkina Faso',
+      stateCode: '10',
+      cities: [
+        City(
+          id: 9179,
+          name: 'Gourcy',
+          latitude: '13.20776000',
+          longitude: '-2.35893000',
+        ),
+        City(
+          id: 9194,
+          name: 'Ouahigouya',
+          latitude: '13.58278000',
+          longitude: '-2.42158000',
+        ),
+        City(
+          id: 9220,
+          name: 'Province du Loroum',
+          latitude: '13.91667000',
+          longitude: '-2.16667000',
+        ),
+        City(
+          id: 9225,
+          name: 'Province du Passoré',
+          latitude: '12.91667000',
+          longitude: '-2.16667000',
+        ),
+        City(
+          id: 9234,
+          name: 'Province du Yatenga',
+          latitude: '13.58333000',
+          longitude: '-2.41667000',
+        ),
+        City(
+          id: 9236,
+          name: 'Province du Zondoma',
+          latitude: '13.18333000',
+          longitude: '-2.36667000',
+        ),
+        City(
+          id: 9243,
+          name: 'Titao',
+          latitude: '13.76667000',
+          longitude: '-2.06667000',
+        ),
+        City(
+          id: 9246,
+          name: 'Yako',
+          latitude: '12.95910000',
+          longitude: '-2.26075000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3156,
+      name: 'Noumbiel Province',
+      stateCode: 'NOU',
+      cities: [],
+    ),
+    CountryState(
+      id: 3141,
+      name: 'Oubritenga Province',
+      stateCode: 'OUB',
+      cities: [],
+    ),
+    CountryState(
+      id: 3144,
+      name: 'Oudalan Province',
+      stateCode: 'OUD',
+      cities: [],
+    ),
+    CountryState(
+      id: 3117,
+      name: 'Passoré Province',
+      stateCode: 'PAS',
+      cities: [],
+    ),
+    CountryState(
+      id: 3125,
+      name: 'Plateau-Central Region',
+      stateCode: '11',
+      cities: [
+        City(
+          id: 9166,
+          name: 'Boussé',
+          latitude: '12.66121000',
+          longitude: '-1.89515000',
+        ),
+        City(
+          id: 9196,
+          name: 'Oubritenga',
+          latitude: '12.66667000',
+          longitude: '-1.33333000',
+        ),
+        City(
+          id: 9213,
+          name: 'Province du Ganzourgou',
+          latitude: '12.26667000',
+          longitude: '-0.76667000',
+        ),
+        City(
+          id: 9218,
+          name: 'Province du Kourwéogo',
+          latitude: '12.58333000',
+          longitude: '-1.76667000',
+        ),
+        City(
+          id: 9247,
+          name: 'Ziniaré',
+          latitude: '12.58186000',
+          longitude: '-1.29710000',
+        ),
+        City(
+          id: 9248,
+          name: 'Zorgo',
+          latitude: '12.24922000',
+          longitude: '-0.61527000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3163,
+      name: 'Poni Province',
+      stateCode: 'PON',
+      cities: [],
+    ),
+    CountryState(
+      id: 3114,
+      name: 'Sahel Region',
+      stateCode: '12',
+      cities: [
+        City(
+          id: 9170,
+          name: 'Djibo',
+          latitude: '14.09940000',
+          longitude: '-1.62554000',
+        ),
+        City(
+          id: 9171,
+          name: 'Dori',
+          latitude: '14.03540000',
+          longitude: '-0.03450000',
+        ),
+        City(
+          id: 9177,
+          name: 'Gorom-Gorom',
+          latitude: '14.44290000',
+          longitude: '-0.23468000',
+        ),
+        City(
+          id: 9207,
+          name: 'Province de l’Oudalan',
+          latitude: '14.66667000',
+          longitude: '-0.33333000',
+        ),
+        City(
+          id: 9231,
+          name: 'Province du Séno',
+          latitude: '13.96400000',
+          longitude: '0.01200000',
+        ),
+        City(
+          id: 9229,
+          name: 'Province du Soum',
+          latitude: '14.33333000',
+          longitude: '-1.25000000',
+        ),
+        City(
+          id: 9233,
+          name: 'Province du Yagha',
+          latitude: '13.41667000',
+          longitude: '0.58333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3154,
+      name: 'Sanguié Province',
+      stateCode: 'SNG',
+      cities: [],
+    ),
+    CountryState(
+      id: 3126,
+      name: 'Sanmatenga Province',
+      stateCode: 'SMT',
+      cities: [],
+    ),
+    CountryState(
+      id: 3139,
+      name: 'Séno Province',
+      stateCode: 'SEN',
+      cities: [],
+    ),
+    CountryState(
+      id: 3119,
+      name: 'Sissili Province',
+      stateCode: 'SIS',
+      cities: [],
+    ),
+    CountryState(
+      id: 3166,
+      name: 'Soum Province',
+      stateCode: 'SOM',
+      cities: [],
+    ),
+    CountryState(
+      id: 3137,
+      name: 'Sourou Province',
+      stateCode: 'SOR',
+      cities: [],
+    ),
+    CountryState(
+      id: 3140,
+      name: 'Sud-Ouest Region',
+      stateCode: '13',
+      cities: [
+        City(
+          id: 9160,
+          name: 'Batié',
+          latitude: '9.88333000',
+          longitude: '-2.91667000',
+        ),
+        City(
+          id: 9167,
+          name: 'Dano',
+          latitude: '11.14640000',
+          longitude: '-3.05784000',
+        ),
+        City(
+          id: 9169,
+          name: 'Diébougou',
+          latitude: '10.96209000',
+          longitude: '-3.24967000',
+        ),
+        City(
+          id: 9199,
+          name: 'Province de la Bougouriba',
+          latitude: '10.83333000',
+          longitude: '-3.41667000',
+        ),
+        City(
+          id: 9216,
+          name: 'Province du Ioba',
+          latitude: '11.08333000',
+          longitude: '-3.08333000',
+        ),
+        City(
+          id: 9224,
+          name: 'Province du Noumbièl',
+          latitude: '9.83333000',
+          longitude: '-3.00000000',
+        ),
+        City(
+          id: 9226,
+          name: 'Province du Poni',
+          latitude: '10.25000000',
+          longitude: '-3.41667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3128,
+      name: 'Tapoa Province',
+      stateCode: 'TAP',
+      cities: [],
+    ),
+    CountryState(
+      id: 3134,
+      name: 'Tuy Province',
+      stateCode: 'TUI',
+      cities: [],
+    ),
+    CountryState(
+      id: 3124,
+      name: 'Yagha Province',
+      stateCode: 'YAG',
+      cities: [],
+    ),
+    CountryState(
+      id: 3150,
+      name: 'Yatenga Province',
+      stateCode: 'YAT',
+      cities: [],
+    ),
+    CountryState(
+      id: 3145,
+      name: 'Ziro Province',
+      stateCode: 'ZIR',
+      cities: [],
+    ),
+    CountryState(
+      id: 3130,
+      name: 'Zondoma Province',
+      stateCode: 'ZON',
+      cities: [],
+    ),
+    CountryState(
+      id: 3118,
+      name: 'Zoundwéogo Province',
+      stateCode: 'ZOU',
+      cities: [],
+    ),
+  ],
+);

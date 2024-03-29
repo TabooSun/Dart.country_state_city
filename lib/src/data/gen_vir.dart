@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const vir = Country(
-    id: 242,
-    name: 'Virgin Islands (US)',
-    iso3: 'VIR',
-    iso2: 'VI',
-    phoneCode: '+1-340',
-    capital: 'Charlotte Amalie',
-    currency: 'USD',
-    currencySymbol: r'$',
-    tld: '.vi',
-    native: 'United States Virgin Islands',
-    region: 'Americas',
-    subregion: 'Caribbean',
-    timezones: [
-      Timezone(
-          zoneName: 'America/St_Thomas',
-          gmtOffset: -14400,
-          gmtOffsetName: 'UTC-04:00',
-          abbreviation: 'AST',
-          tzName: 'Atlantic Standard Time')
-    ],
-    emoji: '🇻🇮',
-    emojiU: 'U+1F1FB U+1F1EE',
-    states: []);
+  id: 242,
+  name: 'Virgin Islands (US)',
+  iso3: 'VIR',
+  iso2: 'VI',
+  phoneCode: '+1-340',
+  capital: 'Charlotte Amalie',
+  currency: 'USD',
+  currencySymbol: r'$',
+  tld: '.vi',
+  native: 'United States Virgin Islands',
+  region: 'Americas',
+  subregion: 'Caribbean',
+  timezones: [
+    Timezone(
+      zoneName: 'America/St_Thomas',
+      gmtOffset: -14400,
+      gmtOffsetName: 'UTC-04:00',
+      abbreviation: 'AST',
+      tzName: 'Atlantic Standard Time',
+    )
+  ],
+  emoji: '🇻🇮',
+  emojiU: 'U+1F1FB U+1F1EE',
+  states: [],
+);

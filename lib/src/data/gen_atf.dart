@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const atf = Country(
-    id: 78,
-    name: 'French Southern Territories',
-    iso3: 'ATF',
-    iso2: 'TF',
-    phoneCode: '262',
-    capital: 'Port-aux-Francais',
-    currency: 'EUR',
-    currencySymbol: r'€',
-    tld: '.tf',
-    native: 'Territoire des Terres australes et antarctiques fr',
-    region: 'Africa',
-    subregion: 'Southern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Indian/Kerguelen',
-          gmtOffset: 18000,
-          gmtOffsetName: 'UTC+05:00',
-          abbreviation: 'TFT',
-          tzName: 'French Southern and Antarctic Time')
-    ],
-    emoji: '🇹🇫',
-    emojiU: 'U+1F1F9 U+1F1EB',
-    states: []);
+  id: 78,
+  name: 'French Southern Territories',
+  iso3: 'ATF',
+  iso2: 'TF',
+  phoneCode: '262',
+  capital: 'Port-aux-Francais',
+  currency: 'EUR',
+  currencySymbol: r'€',
+  tld: '.tf',
+  native: 'Territoire des Terres australes et antarctiques fr',
+  region: 'Africa',
+  subregion: 'Southern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Indian/Kerguelen',
+      gmtOffset: 18000,
+      gmtOffsetName: 'UTC+05:00',
+      abbreviation: 'TFT',
+      tzName: 'French Southern and Antarctic Time',
+    )
+  ],
+  emoji: '🇹🇫',
+  emojiU: 'U+1F1F9 U+1F1EB',
+  states: [],
+);

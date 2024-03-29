@@ -3,270 +3,417 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const mng = Country(
-    id: 146,
-    name: 'Mongolia',
-    iso3: 'MNG',
-    iso2: 'MN',
-    phoneCode: '976',
-    capital: 'Ulan Bator',
-    currency: 'MNT',
-    currencySymbol: r'₮',
-    tld: '.mn',
-    native: 'Монгол улс',
-    region: 'Asia',
-    subregion: 'Eastern Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Choibalsan',
-          gmtOffset: 28800,
-          gmtOffsetName: 'UTC+08:00',
-          abbreviation: 'CHOT',
-          tzName: 'Choibalsan Standard Time'),
-      Timezone(
-          zoneName: 'Asia/Hovd',
-          gmtOffset: 25200,
-          gmtOffsetName: 'UTC+07:00',
-          abbreviation: 'HOVT',
-          tzName: 'Hovd Time'),
-      Timezone(
-          zoneName: 'Asia/Ulaanbaatar',
-          gmtOffset: 28800,
-          gmtOffsetName: 'UTC+08:00',
-          abbreviation: 'ULAT',
-          tzName: 'Ulaanbaatar Standard Time')
-    ],
-    emoji: '🇲🇳',
-    emojiU: 'U+1F1F2 U+1F1F3',
-    states: [
-      State(id: 1973, name: 'Arkhangai Province', stateCode: '073', cities: [
+  id: 146,
+  name: 'Mongolia',
+  iso3: 'MNG',
+  iso2: 'MN',
+  phoneCode: '976',
+  capital: 'Ulan Bator',
+  currency: 'MNT',
+  currencySymbol: r'₮',
+  tld: '.mn',
+  native: 'Монгол улс',
+  region: 'Asia',
+  subregion: 'Eastern Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Choibalsan',
+      gmtOffset: 28800,
+      gmtOffsetName: 'UTC+08:00',
+      abbreviation: 'CHOT',
+      tzName: 'Choibalsan Standard Time',
+    ),
+    Timezone(
+      zoneName: 'Asia/Hovd',
+      gmtOffset: 25200,
+      gmtOffsetName: 'UTC+07:00',
+      abbreviation: 'HOVT',
+      tzName: 'Hovd Time',
+    ),
+    Timezone(
+      zoneName: 'Asia/Ulaanbaatar',
+      gmtOffset: 28800,
+      gmtOffsetName: 'UTC+08:00',
+      abbreviation: 'ULAT',
+      tzName: 'Ulaanbaatar Standard Time',
+    ),
+  ],
+  emoji: '🇲🇳',
+  emojiU: 'U+1F1F2 U+1F1F3',
+  states: [
+    CountryState(
+      id: 1973,
+      name: 'Arkhangai Province',
+      stateCode: '073',
+      cities: [
         City(
-            id: 67734,
-            name: 'Tsetserleg',
-            latitude: '47.47500000',
-            longitude: '101.45417000')
-      ]),
-      State(id: 1969, name: 'Bayan-Ölgii Province', stateCode: '071', cities: [
+          id: 67734,
+          name: 'Tsetserleg',
+          latitude: '47.47500000',
+          longitude: '101.45417000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1969,
+      name: 'Bayan-Ölgii Province',
+      stateCode: '071',
+      cities: [
         City(
-            id: 67706,
-            name: 'Altay',
-            latitude: '48.29359000',
-            longitude: '89.51488000'),
+          id: 67706,
+          name: 'Altay',
+          latitude: '48.29359000',
+          longitude: '89.51488000',
+        ),
         City(
-            id: 67740,
-            name: 'Ölgii',
-            latitude: '48.96833000',
-            longitude: '89.96250000'),
+          id: 67740,
+          name: 'Ölgii',
+          latitude: '48.96833000',
+          longitude: '89.96250000',
+        ),
         City(
-            id: 67733,
-            name: 'Tsengel',
-            latitude: '48.94314000',
-            longitude: '89.14358000')
-      ]),
-      State(id: 1976, name: 'Bayankhongor Province', stateCode: '069', cities: [
+          id: 67733,
+          name: 'Tsengel',
+          latitude: '48.94314000',
+          longitude: '89.14358000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1976,
+      name: 'Bayankhongor Province',
+      stateCode: '069',
+      cities: [
         City(
-            id: 67709,
-            name: 'Bayanhongor',
-            latitude: '46.19444000',
-            longitude: '100.71806000')
-      ]),
-      State(id: 1961, name: 'Bulgan Province', stateCode: '067', cities: [
+          id: 67709,
+          name: 'Bayanhongor',
+          latitude: '46.19444000',
+          longitude: '100.71806000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1961,
+      name: 'Bulgan Province',
+      stateCode: '067',
+      cities: [
         City(
-            id: 67710,
-            name: 'Bulgan',
-            latitude: '48.81250000',
-            longitude: '103.53472000')
-      ]),
-      State(id: 1962, name: 'Darkhan-Uul Province', stateCode: '037', cities: [
+          id: 67710,
+          name: 'Bulgan',
+          latitude: '48.81250000',
+          longitude: '103.53472000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1962,
+      name: 'Darkhan-Uul Province',
+      stateCode: '037',
+      cities: [
         City(
-            id: 67714,
-            name: 'Darhan',
-            latitude: '49.48667000',
-            longitude: '105.92278000')
-      ]),
-      State(id: 1963, name: 'Dornod Province', stateCode: '061', cities: [
+          id: 67714,
+          name: 'Darhan',
+          latitude: '49.48667000',
+          longitude: '105.92278000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1963,
+      name: 'Dornod Province',
+      stateCode: '061',
+      cities: [
         City(
-            id: 67711,
-            name: 'Choibalsan',
-            latitude: '48.07257000',
-            longitude: '114.53264000'),
+          id: 67711,
+          name: 'Choibalsan',
+          latitude: '48.07257000',
+          longitude: '114.53264000',
+        ),
         City(
-            id: 67718,
-            name: 'Ereencav',
-            latitude: '49.88070000',
-            longitude: '115.72526000')
-      ]),
-      State(id: 1981, name: 'Dornogovi Province', stateCode: '063', cities: []),
-      State(id: 1970, name: 'Dundgovi Province', stateCode: '059', cities: [
+          id: 67718,
+          name: 'Ereencav',
+          latitude: '49.88070000',
+          longitude: '115.72526000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1981,
+      name: 'Dornogovi Province',
+      stateCode: '063',
+      cities: [],
+    ),
+    CountryState(
+      id: 1970,
+      name: 'Dundgovi Province',
+      stateCode: '059',
+      cities: [
         City(
-            id: 67725,
-            name: 'Mandalgovi',
-            latitude: '45.76250000',
-            longitude: '106.27083000')
-      ]),
-      State(id: 1972, name: 'Govi-Altai Province', stateCode: '065', cities: [
+          id: 67725,
+          name: 'Mandalgovi',
+          latitude: '45.76250000',
+          longitude: '106.27083000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1972,
+      name: 'Govi-Altai Province',
+      stateCode: '065',
+      cities: [
         City(
-            id: 67705,
-            name: 'Altai',
-            latitude: '46.37222000',
-            longitude: '96.25833000')
-      ]),
-      State(id: 1978, name: 'Govisümber Province', stateCode: '064', cities: [
+          id: 67705,
+          name: 'Altai',
+          latitude: '46.37222000',
+          longitude: '96.25833000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1978,
+      name: 'Govisümber Province',
+      stateCode: '064',
+      cities: [
         City(
-            id: 67712,
-            name: 'Choyr',
-            latitude: '46.36111000',
-            longitude: '108.36111000')
-      ]),
-      State(id: 1974, name: 'Khentii Province', stateCode: '039', cities: [
+          id: 67712,
+          name: 'Choyr',
+          latitude: '46.36111000',
+          longitude: '108.36111000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1974,
+      name: 'Khentii Province',
+      stateCode: '039',
+      cities: [
         City(
-            id: 67739,
-            name: 'Undurkhaan',
-            latitude: '47.31944000',
-            longitude: '110.65556000')
-      ]),
-      State(id: 1964, name: 'Khovd Province', stateCode: '043', cities: [
+          id: 67739,
+          name: 'Undurkhaan',
+          latitude: '47.31944000',
+          longitude: '110.65556000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1964,
+      name: 'Khovd Province',
+      stateCode: '043',
+      cities: [
         City(
-            id: 67724,
-            name: 'Khovd',
-            latitude: '48.00556000',
-            longitude: '91.64194000'),
+          id: 67724,
+          name: 'Khovd',
+          latitude: '48.00556000',
+          longitude: '91.64194000',
+        ),
         City(
-            id: 67728,
-            name: 'Möst',
-            latitude: '46.67712000',
-            longitude: '92.78521000'),
+          id: 67728,
+          name: 'Möst',
+          latitude: '46.67712000',
+          longitude: '92.78521000',
+        ),
         City(
-            id: 67741,
-            name: 'Üyönch',
-            latitude: '46.04786000',
-            longitude: '92.02612000')
-      ]),
-      State(id: 1975, name: 'Khövsgöl Province', stateCode: '041', cities: [
+          id: 67741,
+          name: 'Üyönch',
+          latitude: '46.04786000',
+          longitude: '92.02612000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1975,
+      name: 'Khövsgöl Province',
+      stateCode: '041',
+      cities: [
         City(
-            id: 67719,
-            name: 'Hanh',
-            latitude: '51.50265000',
-            longitude: '100.66395000'),
+          id: 67719,
+          name: 'Hanh',
+          latitude: '51.50265000',
+          longitude: '100.66395000',
+        ),
         City(
-            id: 67726,
-            name: 'Murun-kuren',
-            latitude: '49.63417000',
-            longitude: '100.16250000'),
+          id: 67726,
+          name: 'Murun-kuren',
+          latitude: '49.63417000',
+          longitude: '100.16250000',
+        ),
         City(
-            id: 67732,
-            name: 'Tsengel',
-            latitude: '49.47833000',
-            longitude: '100.88944000'),
+          id: 67732,
+          name: 'Tsengel',
+          latitude: '49.47833000',
+          longitude: '100.88944000',
+        ),
         City(
-            id: 67735,
-            name: 'Turt',
-            latitude: '51.50725000',
-            longitude: '100.66257000')
-      ]),
-      State(id: 1967, name: 'Ömnögovi Province', stateCode: '053', cities: [
+          id: 67735,
+          name: 'Turt',
+          latitude: '51.50725000',
+          longitude: '100.66257000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1967,
+      name: 'Ömnögovi Province',
+      stateCode: '053',
+      cities: [
         City(
-            id: 67713,
-            name: 'Dalandzadgad',
-            latitude: '43.57083000',
-            longitude: '104.42500000'),
+          id: 67713,
+          name: 'Dalandzadgad',
+          latitude: '43.57083000',
+          longitude: '104.42500000',
+        ),
         City(
-            id: 67720,
-            name: 'Hanhongor',
-            latitude: '43.77345000',
-            longitude: '104.47998000'),
+          id: 67720,
+          name: 'Hanhongor',
+          latitude: '43.77345000',
+          longitude: '104.47998000',
+        ),
         City(
-            id: 67730,
-            name: 'Nomgon Sum',
-            latitude: '42.41462000',
-            longitude: '105.05640000')
-      ]),
-      State(id: 1966, name: 'Orkhon Province', stateCode: '035', cities: [
+          id: 67730,
+          name: 'Nomgon Sum',
+          latitude: '42.41462000',
+          longitude: '105.05640000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1966,
+      name: 'Orkhon Province',
+      stateCode: '035',
+      cities: [
         City(
-            id: 67717,
-            name: 'Erdenet',
-            latitude: '49.03333000',
-            longitude: '104.08333000')
-      ]),
-      State(id: 1965, name: 'Övörkhangai Province', stateCode: '055', cities: [
+          id: 67717,
+          name: 'Erdenet',
+          latitude: '49.03333000',
+          longitude: '104.08333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1965,
+      name: 'Övörkhangai Province',
+      stateCode: '055',
+      cities: [
         City(
-            id: 67707,
-            name: 'Arvayheer',
-            latitude: '46.26389000',
-            longitude: '102.77500000'),
+          id: 67707,
+          name: 'Arvayheer',
+          latitude: '46.26389000',
+          longitude: '102.77500000',
+        ),
         City(
-            id: 67721,
-            name: 'Harhorin',
-            latitude: '47.19753000',
-            longitude: '102.82379000'),
+          id: 67721,
+          name: 'Harhorin',
+          latitude: '47.19753000',
+          longitude: '102.82379000',
+        ),
         City(
-            id: 67722,
-            name: 'Hovd',
-            latitude: '44.67024000',
-            longitude: '102.17491000'),
+          id: 67722,
+          name: 'Hovd',
+          latitude: '44.67024000',
+          longitude: '102.17491000',
+        ),
         City(
-            id: 67723,
-            name: 'Kharkhorin',
-            latitude: '47.19245000',
-            longitude: '102.81349000'),
+          id: 67723,
+          name: 'Kharkhorin',
+          latitude: '47.19245000',
+          longitude: '102.81349000',
+        ),
         City(
-            id: 67729,
-            name: 'Nariynteel',
-            latitude: '45.95950000',
-            longitude: '101.45977000')
-      ]),
-      State(id: 1980, name: 'Selenge Province', stateCode: '049', cities: [
+          id: 67729,
+          name: 'Nariynteel',
+          latitude: '45.95950000',
+          longitude: '101.45977000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1980,
+      name: 'Selenge Province',
+      stateCode: '049',
+      cities: [
         City(
-            id: 67716,
-            name: 'Dzüünharaa',
-            latitude: '48.85229000',
-            longitude: '106.45786000'),
+          id: 67716,
+          name: 'Dzüünharaa',
+          latitude: '48.85229000',
+          longitude: '106.45786000',
+        ),
         City(
-            id: 67731,
-            name: 'Sühbaatar',
-            latitude: '50.23139000',
-            longitude: '106.20778000')
-      ]),
-      State(id: 1977, name: 'Sükhbaatar Province', stateCode: '051', cities: [
+          id: 67731,
+          name: 'Sühbaatar',
+          latitude: '50.23139000',
+          longitude: '106.20778000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1977,
+      name: 'Sükhbaatar Province',
+      stateCode: '051',
+      cities: [
         City(
-            id: 67708,
-            name: 'Baruun-Urt',
-            latitude: '46.68056000',
-            longitude: '113.27917000')
-      ]),
-      State(id: 1968, name: 'Töv Province', stateCode: '047', cities: [
+          id: 67708,
+          name: 'Baruun-Urt',
+          latitude: '46.68056000',
+          longitude: '113.27917000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1968,
+      name: 'Töv Province',
+      stateCode: '047',
+      cities: [
         City(
-            id: 67715,
-            name: 'Dzuunmod',
-            latitude: '47.70694000',
-            longitude: '106.95278000'),
+          id: 67715,
+          name: 'Dzuunmod',
+          latitude: '47.70694000',
+          longitude: '106.95278000',
+        ),
         City(
-            id: 67727,
-            name: 'Möngönmorĭt',
-            latitude: '48.19504000',
-            longitude: '108.48295000'),
+          id: 67727,
+          name: 'Möngönmorĭt',
+          latitude: '48.19504000',
+          longitude: '108.48295000',
+        ),
         City(
-            id: 67737,
-            name: 'Ulaanhudag',
-            latitude: '47.33333000',
-            longitude: '104.50000000'),
+          id: 67737,
+          name: 'Ulaanhudag',
+          latitude: '47.33333000',
+          longitude: '104.50000000',
+        ),
         City(
-            id: 67742,
-            name: 'Зуунмод',
-            latitude: '47.70693000',
-            longitude: '106.95276000')
-      ]),
-      State(id: 1971, name: 'Uvs Province', stateCode: '046', cities: [
+          id: 67742,
+          name: 'Зуунмод',
+          latitude: '47.70693000',
+          longitude: '106.95276000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1971,
+      name: 'Uvs Province',
+      stateCode: '046',
+      cities: [
         City(
-            id: 67736,
-            name: 'Ulaangom',
-            latitude: '49.98111000',
-            longitude: '92.06667000')
-      ]),
-      State(id: 1979, name: 'Zavkhan Province', stateCode: '057', cities: [
+          id: 67736,
+          name: 'Ulaangom',
+          latitude: '49.98111000',
+          longitude: '92.06667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1979,
+      name: 'Zavkhan Province',
+      stateCode: '057',
+      cities: [
         City(
-            id: 67738,
-            name: 'Uliastay',
-            latitude: '47.74167000',
-            longitude: '96.84444000')
-      ])
-    ]);
+          id: 67738,
+          name: 'Uliastay',
+          latitude: '47.74167000',
+          longitude: '96.84444000',
+        )
+      ],
+    ),
+  ],
+);

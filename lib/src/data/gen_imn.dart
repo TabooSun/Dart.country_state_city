@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const imn = Country(
-    id: 136,
-    name: 'Man (Isle of)',
-    iso3: 'IMN',
-    iso2: 'IM',
-    phoneCode: '+44-1624',
-    capital: 'Douglas, Isle of Man',
-    currency: 'GBP',
-    currencySymbol: r'£',
-    tld: '.im',
-    native: 'Isle of Man',
-    region: 'Europe',
-    subregion: 'Northern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Europe/Isle_of_Man',
-          gmtOffset: 0,
-          gmtOffsetName: 'UTC±00',
-          abbreviation: 'GMT',
-          tzName: 'Greenwich Mean Time')
-    ],
-    emoji: '🇮🇲',
-    emojiU: 'U+1F1EE U+1F1F2',
-    states: []);
+  id: 136,
+  name: 'Man (Isle of)',
+  iso3: 'IMN',
+  iso2: 'IM',
+  phoneCode: '+44-1624',
+  capital: 'Douglas, Isle of Man',
+  currency: 'GBP',
+  currencySymbol: r'£',
+  tld: '.im',
+  native: 'Isle of Man',
+  region: 'Europe',
+  subregion: 'Northern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Europe/Isle_of_Man',
+      gmtOffset: 0,
+      gmtOffsetName: 'UTC±00',
+      abbreviation: 'GMT',
+      tzName: 'Greenwich Mean Time',
+    )
+  ],
+  emoji: '🇮🇲',
+  emojiU: 'U+1F1EE U+1F1F2',
+  states: [],
+);

@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const tkl = Country(
-    id: 221,
-    name: 'Tokelau',
-    iso3: 'TKL',
-    iso2: 'TK',
-    phoneCode: '690',
-    capital: '',
-    currency: 'NZD',
-    currencySymbol: r'$',
-    tld: '.tk',
-    native: 'Tokelau',
-    region: 'Oceania',
-    subregion: 'Polynesia',
-    timezones: [
-      Timezone(
-          zoneName: 'Pacific/Fakaofo',
-          gmtOffset: 46800,
-          gmtOffsetName: 'UTC+13:00',
-          abbreviation: 'TKT',
-          tzName: 'Tokelau Time')
-    ],
-    emoji: '🇹🇰',
-    emojiU: 'U+1F1F9 U+1F1F0',
-    states: []);
+  id: 221,
+  name: 'Tokelau',
+  iso3: 'TKL',
+  iso2: 'TK',
+  phoneCode: '690',
+  capital: '',
+  currency: 'NZD',
+  currencySymbol: r'$',
+  tld: '.tk',
+  native: 'Tokelau',
+  region: 'Oceania',
+  subregion: 'Polynesia',
+  timezones: [
+    Timezone(
+      zoneName: 'Pacific/Fakaofo',
+      gmtOffset: 46800,
+      gmtOffsetName: 'UTC+13:00',
+      abbreviation: 'TKT',
+      tzName: 'Tokelau Time',
+    )
+  ],
+  emoji: '🇹🇰',
+  emojiU: 'U+1F1F9 U+1F1F0',
+  states: [],
+);

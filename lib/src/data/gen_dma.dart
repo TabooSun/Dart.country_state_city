@@ -3,132 +3,201 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const dma = Country(
-    id: 61,
-    name: 'Dominica',
-    iso3: 'DMA',
-    iso2: 'DM',
-    phoneCode: '+1-767',
-    capital: 'Roseau',
-    currency: 'XCD',
-    currencySymbol: r'$',
-    tld: '.dm',
-    native: 'Dominica',
-    region: 'Americas',
-    subregion: 'Caribbean',
-    timezones: [
-      Timezone(
-          zoneName: 'America/Dominica',
-          gmtOffset: -14400,
-          gmtOffsetName: 'UTC-04:00',
-          abbreviation: 'AST',
-          tzName: 'Atlantic Standard Time')
-    ],
-    emoji: '🇩🇲',
-    emojiU: 'U+1F1E9 U+1F1F2',
-    states: [
-      State(id: 4082, name: 'Saint Andrew Parish', stateCode: '02', cities: [
+  id: 61,
+  name: 'Dominica',
+  iso3: 'DMA',
+  iso2: 'DM',
+  phoneCode: '+1-767',
+  capital: 'Roseau',
+  currency: 'XCD',
+  currencySymbol: r'$',
+  tld: '.dm',
+  native: 'Dominica',
+  region: 'Americas',
+  subregion: 'Caribbean',
+  timezones: [
+    Timezone(
+      zoneName: 'America/Dominica',
+      gmtOffset: -14400,
+      gmtOffsetName: 'UTC-04:00',
+      abbreviation: 'AST',
+      tzName: 'Atlantic Standard Time',
+    )
+  ],
+  emoji: '🇩🇲',
+  emojiU: 'U+1F1E9 U+1F1F2',
+  states: [
+    CountryState(
+      id: 4082,
+      name: 'Saint Andrew Parish',
+      stateCode: '02',
+      cities: [
         City(
-            id: 31003,
-            name: 'Calibishie',
-            latitude: '15.59297000',
-            longitude: '-61.34901000'),
+          id: 31003,
+          name: 'Calibishie',
+          latitude: '15.59297000',
+          longitude: '-61.34901000',
+        ),
         City(
-            id: 31008,
-            name: 'Marigot',
-            latitude: '15.53886000',
-            longitude: '-61.28375000'),
+          id: 31008,
+          name: 'Marigot',
+          latitude: '15.53886000',
+          longitude: '-61.28375000',
+        ),
         City(
-            id: 31017,
-            name: 'Wesley',
-            latitude: '15.56667000',
-            longitude: '-61.31667000'),
+          id: 31017,
+          name: 'Wesley',
+          latitude: '15.56667000',
+          longitude: '-61.31667000',
+        ),
         City(
-            id: 31018,
-            name: 'Woodford Hill',
-            latitude: '15.58093000',
-            longitude: '-61.33149000')
-      ]),
-      State(id: 4078, name: 'Saint David Parish', stateCode: '03', cities: [
+          id: 31018,
+          name: 'Woodford Hill',
+          latitude: '15.58093000',
+          longitude: '-61.33149000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4078,
+      name: 'Saint David Parish',
+      stateCode: '03',
+      cities: [
         City(
-            id: 31004,
-            name: 'Castle Bruce',
-            latitude: '15.44397000',
-            longitude: '-61.25723000'),
+          id: 31004,
+          name: 'Castle Bruce',
+          latitude: '15.44397000',
+          longitude: '-61.25723000',
+        ),
         City(
-            id: 31012,
-            name: 'Rosalie',
-            latitude: '15.36667000',
-            longitude: '-61.26667000')
-      ]),
-      State(id: 4079, name: 'Saint George Parish', stateCode: '04', cities: [
+          id: 31012,
+          name: 'Rosalie',
+          latitude: '15.36667000',
+          longitude: '-61.26667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4079,
+      name: 'Saint George Parish',
+      stateCode: '04',
+      cities: [
         City(
-            id: 31013,
-            name: 'Roseau',
-            latitude: '15.30174000',
-            longitude: '-61.38808000')
-      ]),
-      State(id: 4076, name: 'Saint John Parish', stateCode: '05', cities: [
+          id: 31013,
+          name: 'Roseau',
+          latitude: '15.30174000',
+          longitude: '-61.38808000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4076,
+      name: 'Saint John Parish',
+      stateCode: '05',
+      cities: [
         City(
-            id: 31011,
-            name: 'Portsmouth',
-            latitude: '15.58333000',
-            longitude: '-61.46667000')
-      ]),
-      State(id: 4085, name: 'Saint Joseph Parish', stateCode: '06', cities: [
+          id: 31011,
+          name: 'Portsmouth',
+          latitude: '15.58333000',
+          longitude: '-61.46667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4085,
+      name: 'Saint Joseph Parish',
+      stateCode: '06',
+      cities: [
         City(
-            id: 31014,
-            name: 'Saint Joseph',
-            latitude: '15.40000000',
-            longitude: '-61.43333000'),
+          id: 31014,
+          name: 'Saint Joseph',
+          latitude: '15.40000000',
+          longitude: '-61.43333000',
+        ),
         City(
-            id: 31015,
-            name: 'Salisbury',
-            latitude: '15.43689000',
-            longitude: '-61.43637000')
-      ]),
-      State(id: 4083, name: 'Saint Luke Parish', stateCode: '07', cities: [
+          id: 31015,
+          name: 'Salisbury',
+          latitude: '15.43689000',
+          longitude: '-61.43637000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4083,
+      name: 'Saint Luke Parish',
+      stateCode: '07',
+      cities: [
         City(
-            id: 31009,
-            name: 'Pointe Michel',
-            latitude: '15.25976000',
-            longitude: '-61.37452000')
-      ]),
-      State(id: 4077, name: 'Saint Mark Parish', stateCode: '08', cities: [
+          id: 31009,
+          name: 'Pointe Michel',
+          latitude: '15.25976000',
+          longitude: '-61.37452000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4077,
+      name: 'Saint Mark Parish',
+      stateCode: '08',
+      cities: [
         City(
-            id: 31016,
-            name: 'Soufrière',
-            latitude: '15.23374000',
-            longitude: '-61.35881000')
-      ]),
-      State(id: 4080, name: 'Saint Patrick Parish', stateCode: '09', cities: [
+          id: 31016,
+          name: 'Soufrière',
+          latitude: '15.23374000',
+          longitude: '-61.35881000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4080,
+      name: 'Saint Patrick Parish',
+      stateCode: '09',
+      cities: [
         City(
-            id: 31002,
-            name: 'Berekua',
-            latitude: '15.23333000',
-            longitude: '-61.31667000'),
+          id: 31002,
+          name: 'Berekua',
+          latitude: '15.23333000',
+          longitude: '-61.31667000',
+        ),
         City(
-            id: 31006,
-            name: 'La Plaine',
-            latitude: '15.32768000',
-            longitude: '-61.24753000')
-      ]),
-      State(id: 4084, name: 'Saint Paul Parish', stateCode: '10', cities: [
+          id: 31006,
+          name: 'La Plaine',
+          latitude: '15.32768000',
+          longitude: '-61.24753000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4084,
+      name: 'Saint Paul Parish',
+      stateCode: '10',
+      cities: [
         City(
-            id: 31007,
-            name: 'Mahaut',
-            latitude: '15.36357000',
-            longitude: '-61.39701000'),
+          id: 31007,
+          name: 'Mahaut',
+          latitude: '15.36357000',
+          longitude: '-61.39701000',
+        ),
         City(
-            id: 31010,
-            name: 'Pont Cassé',
-            latitude: '15.36667000',
-            longitude: '-61.35000000')
-      ]),
-      State(id: 4081, name: 'Saint Peter Parish', stateCode: '11', cities: [
+          id: 31010,
+          name: 'Pont Cassé',
+          latitude: '15.36667000',
+          longitude: '-61.35000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4081,
+      name: 'Saint Peter Parish',
+      stateCode: '11',
+      cities: [
         City(
-            id: 31005,
-            name: 'Colihaut',
-            latitude: '15.48478000',
-            longitude: '-61.46215000')
-      ])
-    ]);
+          id: 31005,
+          name: 'Colihaut',
+          latitude: '15.48478000',
+          longitude: '-61.46215000',
+        )
+      ],
+    ),
+  ],
+);

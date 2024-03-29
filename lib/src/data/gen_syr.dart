@@ -3,773 +3,979 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const syr = Country(
-    id: 215,
-    name: 'Syria',
-    iso3: 'SYR',
-    iso2: 'SY',
-    phoneCode: '963',
-    capital: 'Damascus',
-    currency: 'SYP',
-    currencySymbol: r'LS',
-    tld: '.sy',
-    native: 'سوريا',
-    region: 'Asia',
-    subregion: 'Western Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Damascus',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'EET',
-          tzName: 'Eastern European Time')
-    ],
-    emoji: '🇸🇾',
-    emojiU: 'U+1F1F8 U+1F1FE',
-    states: [
-      State(id: 2941, name: 'Al-Hasakah Governorate', stateCode: 'HA', cities: [
-        City(
-            id: 104940,
-            name: 'Ad Darbāsīyah',
-            latitude: '37.07279000',
-            longitude: '40.65199000'),
-        City(
-            id: 104957,
-            name: 'Al Ḩasakah',
-            latitude: '36.50237000',
-            longitude: '40.74772000'),
-        City(
-            id: 104950,
-            name: 'Al Mālikīyah',
-            latitude: '37.17701000',
-            longitude: '42.14006000'),
-        City(
-            id: 104955,
-            name: 'Al Qāmishlī',
-            latitude: '37.05215000',
-            longitude: '41.23142000'),
-        City(
-            id: 104960,
-            name: 'Al-Malikiyah District',
-            latitude: '36.94113000',
-            longitude: '41.90157000'),
-        City(
-            id: 104967,
-            name: 'Amude',
-            latitude: '37.10417000',
-            longitude: '40.93000000')
-      ]),
-      State(id: 2944, name: 'Al-Raqqah Governorate', stateCode: 'RA', cities: [
-        City(
-            id: 104964,
-            name: 'Al-Thawrah District',
-            latitude: '35.79843000',
-            longitude: '38.34550000'),
-        City(
-            id: 104969,
-            name: 'Ar Raqqah',
-            latitude: '35.95283000',
-            longitude: '39.00788000'),
-        City(
-            id: 104971,
-            name: 'Ar-Raqqah District',
-            latitude: '35.87204000',
-            longitude: '39.04706000'),
-        City(
-            id: 104981,
-            name: 'Ath Thawrah',
-            latitude: '35.83758000',
-            longitude: '38.54828000'),
-        City(
-            id: 105055,
-            name: 'Tall Abyaḑ',
-            latitude: '36.69648000',
-            longitude: '38.95382000'),
-        City(
-            id: 105062,
-            name: 'Tell Abyad District',
-            latitude: '36.48280000',
-            longitude: '39.21360000')
-      ]),
-      State(id: 2946, name: 'Aleppo Governorate', stateCode: 'HL', cities: [
-        City(
-            id: 105079,
-            name: '‘Afrīn',
-            latitude: '36.51194000',
-            longitude: '36.86954000'),
-        City(
-            id: 105080,
-            name: '‘Ayn al ‘Arab',
-            latitude: '36.89095000',
-            longitude: '38.35347000'),
-        City(
-            id: 104943,
-            name: 'Afrin District',
-            latitude: '36.54891000',
-            longitude: '36.79295000'),
-        City(
-            id: 104944,
-            name: 'Al Atārib',
-            latitude: '36.13907000',
-            longitude: '36.82504000'),
-        City(
-            id: 104945,
-            name: 'Al Bāb',
-            latitude: '36.37051000',
-            longitude: '37.51570000'),
-        City(
-            id: 104958,
-            name: 'Al-Bab District',
-            latitude: '36.30946000',
-            longitude: '37.53277000'),
-        City(
-            id: 104966,
-            name: 'Aleppo',
-            latitude: '36.20124000',
-            longitude: '37.16117000'),
-        City(
-            id: 104974,
-            name: 'As Safīrah',
-            latitude: '36.07696000',
-            longitude: '37.37251000'),
-        City(
-            id: 104983,
-            name: 'Azaz District',
-            latitude: '36.49986000',
-            longitude: '37.18382000'),
-        City(
-            id: 104992,
-            name: 'Dayr Ḩāfir',
-            latitude: '36.15694000',
-            longitude: '37.70778000'),
-        City(
-            id: 105006,
-            name: 'I‘zāz',
-            latitude: '36.58662000',
-            longitude: '37.04628000'),
-        City(
-            id: 105010,
-            name: 'Jarābulus',
-            latitude: '36.81750000',
-            longitude: '38.01111000'),
-        City(
-            id: 105019,
-            name: 'Kafr Şaghīr',
-            latitude: '36.29264000',
-            longitude: '37.25590000'),
-        City(
-            id: 105022,
-            name: 'Khanāşir',
-            latitude: '35.78159000',
-            longitude: '37.49919000'),
-        City(
-            id: 105027,
-            name: 'Manbij',
-            latitude: '36.52815000',
-            longitude: '37.95495000'),
-        City(
-            id: 105028,
-            name: 'Manbij District',
-            latitude: '36.06687000',
-            longitude: '37.91735000'),
-        City(
-            id: 105034,
-            name: 'Mount Simeon District',
-            latitude: '35.99956000',
-            longitude: '37.08473000'),
-        City(
-            id: 105038,
-            name: 'Nubl',
-            latitude: '36.37867000',
-            longitude: '36.99294000'),
-        City(
-            id: 105072,
-            name: 'Şūrān',
-            latitude: '36.56579000',
-            longitude: '37.21270000'),
-        City(
-            id: 105064,
-            name: 'Tādif',
-            latitude: '36.34814000',
-            longitude: '37.53090000'),
-        City(
-            id: 105056,
-            name: 'Tall Rif‘at',
-            latitude: '36.47229000',
-            longitude: '37.09471000')
-      ]),
-      State(id: 2936, name: 'As-Suwayda Governorate', stateCode: 'SU', cities: [
-        City(
-            id: 104977,
-            name: 'As-Suwayda',
-            latitude: '32.70896000',
-            longitude: '36.56951000'),
-        City(
-            id: 104978,
-            name: 'As-Suwayda District',
-            latitude: '32.78127000',
-            longitude: '36.86502000'),
-        City(
-            id: 105069,
-            name: 'Şalākhid',
-            latitude: '32.87271000',
-            longitude: '36.57271000'),
-        City(
-            id: 105068,
-            name: 'Şalkhad',
-            latitude: '32.49200000',
-            longitude: '36.71114000'),
-        City(
-            id: 105043,
-            name: 'Salkhad District',
-            latitude: '32.51779000',
-            longitude: '36.91954000'),
-        City(
-            id: 105049,
-            name: 'Shahbā',
-            latitude: '32.85514000',
-            longitude: '36.62896000'),
-        City(
-            id: 105048,
-            name: 'Shahba District',
-            latitude: '33.04282000',
-            longitude: '36.72034000')
-      ]),
-      State(id: 2939, name: 'Damascus Governorate', stateCode: 'DI', cities: [
-        City(
-            id: 104988,
-            name: 'Damascus',
-            latitude: '33.51020000',
-            longitude: '36.29128000')
-      ]),
-      State(id: 2945, name: 'Daraa Governorate', stateCode: 'DR', cities: [
-        City(
-            id: 104956,
-            name: 'Al Ḩarāk',
-            latitude: '32.74932000',
-            longitude: '36.30994000'),
-        City(
-            id: 104949,
-            name: 'Al Muzayrīb',
-            latitude: '32.71084000',
-            longitude: '36.02751000'),
-        City(
-            id: 104963,
-            name: 'Al-Sanamayn District',
-            latitude: '33.12559000',
-            longitude: '36.27540000'),
-        City(
-            id: 104984,
-            name: 'Aş Şanamayn',
-            latitude: '33.07186000',
-            longitude: '36.18316000'),
-        City(
-            id: 104979,
-            name: 'Ash Shaykh Miskīn',
-            latitude: '32.82944000',
-            longitude: '36.15933000'),
-        City(
-            id: 104986,
-            name: 'Buşrá ash Shām',
-            latitude: '32.52013000',
-            longitude: '36.48256000'),
-        City(
-            id: 104990,
-            name: 'Dar‘ā',
-            latitude: '32.61889000',
-            longitude: '36.10213000'),
-        City(
-            id: 104996,
-            name: 'Ghabāghib',
-            latitude: '33.18235000',
-            longitude: '36.22534000'),
-        City(
-            id: 105003,
-            name: 'Inkhil',
-            latitude: '33.01809000',
-            longitude: '36.12828000'),
-        City(
-            id: 105004,
-            name: 'Izra District',
-            latitude: '32.90121000',
-            longitude: '36.16144000'),
-        City(
-            id: 105005,
-            name: 'Izra‘',
-            latitude: '32.87060000',
-            longitude: '36.25453000'),
-        City(
-            id: 105014,
-            name: 'Jāsim',
-            latitude: '32.99233000',
-            longitude: '36.06018000'),
-        City(
-            id: 105037,
-            name: 'Nawá',
-            latitude: '32.89044000',
-            longitude: '36.03990000'),
-        City(
-            id: 105073,
-            name: 'Ţafas',
-            latitude: '32.73709000',
-            longitude: '36.06654000'),
-        City(
-            id: 105061,
-            name: 'Tasīl',
-            latitude: '32.83395000',
-            longitude: '35.96973000')
-      ]),
-      State(
-          id: 2937,
-          name: 'Deir ez-Zor Governorate',
-          stateCode: 'DY',
-          cities: [
-            City(
-                id: 104948,
-                name: 'Al Mayādīn',
-                latitude: '35.01982000',
-                longitude: '40.45154000'),
-            City(
-                id: 105066,
-                name: 'Ālbū Kamāl',
-                latitude: '34.45226000',
-                longitude: '40.91854000'),
-            City(
-                id: 104993,
-                name: 'Deir ez-Zor',
-                latitude: '35.33588000',
-                longitude: '40.14084000'),
-            City(
-                id: 104997,
-                name: 'Hajīn',
-                latitude: '34.69508000',
-                longitude: '40.83138000'),
-            City(
-                id: 105051,
-                name: 'Subaykhān',
-                latitude: '34.85305000',
-                longitude: '40.59987000')
-          ]),
-      State(id: 2934, name: 'Hama Governorate', stateCode: 'HM', cities: [
-        City(
-            id: 104962,
-            name: 'Al-Salamiyah District',
-            latitude: '35.14398000',
-            longitude: '37.59235000'),
-        City(
-            id: 104975,
-            name: 'As Salamīyah',
-            latitude: '35.01127000',
-            longitude: '37.05324000'),
-        City(
-            id: 104976,
-            name: 'As Suqaylibīyah',
-            latitude: '35.36674000',
-            longitude: '36.39359000'),
-        City(
-            id: 105075,
-            name: 'Ḩalfāyā',
-            latitude: '35.26014000',
-            longitude: '36.60581000'),
-        City(
-            id: 104998,
-            name: 'Hama District',
-            latitude: '35.28577000',
-            longitude: '37.12626000'),
-        City(
-            id: 105076,
-            name: 'Ḩamāh',
-            latitude: '35.13179000',
-            longitude: '36.75783000'),
-        City(
-            id: 105018,
-            name: 'Kafr Zaytā',
-            latitude: '35.37425000',
-            longitude: '36.60330000'),
-        City(
-            id: 105030,
-            name: 'Maşyāf',
-            latitude: '35.06530000',
-            longitude: '36.34060000'),
-        City(
-            id: 105029,
-            name: 'Masyaf District',
-            latitude: '35.10335000',
-            longitude: '36.33920000'),
-        City(
-            id: 105036,
-            name: 'Mūrak',
-            latitude: '35.37615000',
-            longitude: '36.68970000'),
-        City(
-            id: 105050,
-            name: 'Souran',
-            latitude: '35.29193000',
-            longitude: '36.74848000'),
-        City(
-            id: 105057,
-            name: 'Tall Salḩab',
-            latitude: '35.25884000',
-            longitude: '36.38461000'),
-        City(
-            id: 105074,
-            name: 'Ţayyibat al Imām',
-            latitude: '35.26592000',
-            longitude: '36.71219000'),
-        City(
-            id: 105063,
-            name: 'Tremseh',
-            latitude: '35.27181000',
-            longitude: '36.50395000')
-      ]),
-      State(id: 2942, name: 'Homs Governorate', stateCode: 'HI', cities: [
-        City(
-            id: 104946,
-            name: 'Al Ghanţū',
-            latitude: '34.82202000',
-            longitude: '36.69613000'),
-        City(
-            id: 104951,
-            name: 'Al Qaryatayn',
-            latitude: '34.22956000',
-            longitude: '37.24066000'),
-        City(
-            id: 104953,
-            name: 'Al Quşayr',
-            latitude: '34.50780000',
-            longitude: '36.58029000'),
-        City(
-            id: 104961,
-            name: 'Al-Rastan District',
-            latitude: '34.87100000',
-            longitude: '36.77245000'),
-        City(
-            id: 104970,
-            name: 'Ar Rastan',
-            latitude: '34.92667000',
-            longitude: '36.73241000'),
-        City(
-            id: 105000,
-            name: 'Hisya',
-            latitude: '34.41197000',
-            longitude: '36.75867000'),
-        City(
-            id: 105001,
-            name: 'Homs',
-            latitude: '34.72682000',
-            longitude: '36.72339000'),
-        City(
-            id: 105016,
-            name: 'Kafr Lāhā',
-            latitude: '34.89469000',
-            longitude: '36.49582000'),
-        City(
-            id: 105035,
-            name: 'Mukharram al Fawqānī',
-            latitude: '34.81521000',
-            longitude: '37.08677000'),
-        City(
-            id: 105067,
-            name: 'Şadad',
-            latitude: '34.31248000',
-            longitude: '36.92562000'),
-        City(
-            id: 105052,
-            name: 'Tadmur',
-            latitude: '34.56240000',
-            longitude: '38.28402000'),
-        City(
-            id: 105053,
-            name: 'Tadmur District',
-            latitude: '34.42401000',
-            longitude: '38.64580000'),
-        City(
-            id: 105058,
-            name: 'Tallbīsah',
-            latitude: '34.84072000',
-            longitude: '36.73092000'),
-        City(
-            id: 105059,
-            name: 'Tallkalakh',
-            latitude: '34.66842000',
-            longitude: '36.25995000')
-      ]),
-      State(id: 2940, name: 'Idlib Governorate', stateCode: 'ID', cities: [
-        City(
-            id: 104942,
-            name: 'Ad Dānā',
-            latitude: '36.21254000',
-            longitude: '36.76998000'),
-        City(
-            id: 104973,
-            name: 'Arīḩā',
-            latitude: '35.81374000',
-            longitude: '36.60964000'),
-        City(
-            id: 104972,
-            name: 'Armanāz',
-            latitude: '36.08363000',
-            longitude: '36.50310000'),
-        City(
-            id: 104985,
-            name: 'Binnish',
-            latitude: '35.95664000',
-            longitude: '36.71380000'),
-        City(
-            id: 104989,
-            name: 'Darkūsh',
-            latitude: '35.99180000',
-            longitude: '36.39361000'),
-        City(
-            id: 104999,
-            name: 'Harem District',
-            latitude: '36.14014000',
-            longitude: '36.56535000'),
-        City(
-            id: 105078,
-            name: 'Ḩārim',
-            latitude: '36.21176000',
-            longitude: '36.52078000'),
-        City(
-            id: 105002,
-            name: 'Idlib',
-            latitude: '35.93062000',
-            longitude: '36.63393000'),
-        City(
-            id: 105012,
-            name: 'Jisr al-Shughur District',
-            latitude: '35.87756000',
-            longitude: '36.32901000'),
-        City(
-            id: 105013,
-            name: 'Jisr ash Shughūr',
-            latitude: '35.81418000',
-            longitude: '36.31983000'),
-        City(
-            id: 105017,
-            name: 'Kafr Takhārīm',
-            latitude: '36.11680000',
-            longitude: '36.51522000'),
-        City(
-            id: 105020,
-            name: 'Kafranbel',
-            latitude: '35.61376000',
-            longitude: '36.56449000'),
-        City(
-            id: 105023,
-            name: 'Khān Shaykhūn',
-            latitude: '35.44208000',
-            longitude: '36.65095000'),
-        City(
-            id: 105031,
-            name: 'Ma‘arratmişrīn',
-            latitude: '36.01152000',
-            longitude: '36.67183000'),
-        City(
-            id: 105026,
-            name: 'Maarrat al-Nu\'man District',
-            latitude: '35.53858000',
-            longitude: '36.79193000'),
-        City(
-            id: 105044,
-            name: 'Salqīn',
-            latitude: '36.13865000',
-            longitude: '36.45244000'),
-        City(
-            id: 105046,
-            name: 'Sarāqib',
-            latitude: '35.86447000',
-            longitude: '36.80591000'),
-        City(
-            id: 105045,
-            name: 'Sarmīn',
-            latitude: '35.90403000',
-            longitude: '36.72501000'),
-        City(
-            id: 105054,
-            name: 'Taftanāz',
-            latitude: '35.99832000',
-            longitude: '36.78579000')
-      ]),
-      State(id: 2938, name: 'Latakia Governorate', stateCode: 'LA', cities: [
-        City(
-            id: 104959,
-            name: 'Al-Haffah District',
-            latitude: '35.59687000',
-            longitude: '36.11198000'),
-        City(
-            id: 105007,
-            name: 'Jablah',
-            latitude: '35.36211000',
-            longitude: '35.92759000'),
-        City(
-            id: 105008,
-            name: 'Jableh District',
-            latitude: '35.29048000',
-            longitude: '36.04490000'),
-        City(
-            id: 105021,
-            name: 'Kassab',
-            latitude: '35.92639000',
-            longitude: '35.98970000'),
-        City(
-            id: 105024,
-            name: 'Latakia',
-            latitude: '35.53168000',
-            longitude: '35.79011000'),
-        City(
-            id: 105025,
-            name: 'Latakia District',
-            latitude: '35.72426000',
-            longitude: '35.94150000'),
-        City(
-            id: 105039,
-            name: 'Qardaha District',
-            latitude: '35.39593000',
-            longitude: '36.08603000'),
-        City(
-            id: 105071,
-            name: 'Şlinfah',
-            latitude: '35.59822000',
-            longitude: '36.18770000')
-      ]),
-      State(id: 2943, name: 'Quneitra Governorate', stateCode: 'QU', cities: [
-        City(
-            id: 104952,
-            name: 'Al Qunayţirah',
-            latitude: '33.12595000',
-            longitude: '35.82461000')
-      ]),
-      State(
-          id: 2935,
-          name: 'Rif Dimashq Governorate',
-          stateCode: 'RD',
-          cities: [
-            City(
-                id: 105081,
-                name: '‘Irbīn',
-                latitude: '33.53719000',
-                longitude: '36.36635000'),
-            City(
-                id: 104947,
-                name: 'Al Kiswah',
-                latitude: '33.35810000',
-                longitude: '36.24190000'),
-            City(
-                id: 104954,
-                name: 'Al Quţayfah',
-                latitude: '33.73848000',
-                longitude: '36.60071000'),
-            City(
-                id: 104965,
-                name: 'Al-Zabadani District',
-                latitude: '33.70819000',
-                longitude: '36.11198000'),
-            City(
-                id: 104968,
-                name: 'An Nabk',
-                latitude: '34.02403000',
-                longitude: '36.72848000'),
-            City(
-                id: 104980,
-                name: 'At Tall',
-                latitude: '33.61033000',
-                longitude: '36.31070000'),
-            City(
-                id: 104982,
-                name: 'Az Zabadānī',
-                latitude: '33.72488000',
-                longitude: '36.10050000'),
-            City(
-                id: 104995,
-                name: 'Dārayyā',
-                latitude: '33.45835000',
-                longitude: '36.23256000'),
-            City(
-                id: 104991,
-                name: 'Dayr al ‘Aşāfīr',
-                latitude: '33.46585000',
-                longitude: '36.42044000'),
-            City(
-                id: 104994,
-                name: 'Douma',
-                latitude: '33.57175000',
-                longitude: '36.40270000'),
-            City(
-                id: 105077,
-                name: 'Ḩarastā',
-                latitude: '33.55869000',
-                longitude: '36.36515000'),
-            City(
-                id: 105009,
-                name: 'Jaramānā',
-                latitude: '33.48620000',
-                longitude: '36.34614000'),
-            City(
-                id: 105011,
-                name: 'Jayrūd',
-                latitude: '33.80709000',
-                longitude: '36.73861000'),
-            City(
-                id: 105032,
-                name: 'Ma‘lūlā',
-                latitude: '33.84529000',
-                longitude: '36.54514000'),
-            City(
-                id: 105033,
-                name: 'Medaya',
-                latitude: '33.69032000',
-                longitude: '36.10354000'),
-            City(
-                id: 105041,
-                name: 'Qārah',
-                latitude: '34.15558000',
-                longitude: '36.74284000'),
-            City(
-                id: 105040,
-                name: 'Qaţanā',
-                latitude: '33.43757000',
-                longitude: '36.07888000'),
-            City(
-                id: 105070,
-                name: 'Şaydnāyā',
-                latitude: '33.69473000',
-                longitude: '36.37146000'),
-            City(
-                id: 105065,
-                name: 'Yabrūd',
-                latitude: '33.96921000',
-                longitude: '36.65729000')
-          ]),
-      State(id: 2947, name: 'Tartus Governorate', stateCode: 'TA', cities: [
-        City(
-            id: 104941,
-            name: 'Ad Duraykīsh',
-            latitude: '34.89514000',
-            longitude: '36.14303000'),
-        City(
-            id: 104987,
-            name: 'Bāniyās',
-            latitude: '35.18188000',
-            longitude: '35.94871000'),
-        City(
-            id: 105015,
-            name: 'Kaff al-Jaa',
-            latitude: '35.08638000',
-            longitude: '36.20605000'),
-        City(
-            id: 105042,
-            name: 'Safita District',
-            latitude: '34.80419000',
-            longitude: '36.12293000'),
-        City(
-            id: 105047,
-            name: 'Satita',
-            latitude: '34.82099000',
-            longitude: '36.11773000'),
-        City(
-            id: 105060,
-            name: 'Tartouss',
-            latitude: '34.88902000',
-            longitude: '35.88659000')
-      ])
-    ]);
+  id: 215,
+  name: 'Syria',
+  iso3: 'SYR',
+  iso2: 'SY',
+  phoneCode: '963',
+  capital: 'Damascus',
+  currency: 'SYP',
+  currencySymbol: r'LS',
+  tld: '.sy',
+  native: 'سوريا',
+  region: 'Asia',
+  subregion: 'Western Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Damascus',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'EET',
+      tzName: 'Eastern European Time',
+    )
+  ],
+  emoji: '🇸🇾',
+  emojiU: 'U+1F1F8 U+1F1FE',
+  states: [
+    CountryState(
+      id: 2941,
+      name: 'Al-Hasakah Governorate',
+      stateCode: 'HA',
+      cities: [
+        City(
+          id: 104940,
+          name: 'Ad Darbāsīyah',
+          latitude: '37.07279000',
+          longitude: '40.65199000',
+        ),
+        City(
+          id: 104957,
+          name: 'Al Ḩasakah',
+          latitude: '36.50237000',
+          longitude: '40.74772000',
+        ),
+        City(
+          id: 104950,
+          name: 'Al Mālikīyah',
+          latitude: '37.17701000',
+          longitude: '42.14006000',
+        ),
+        City(
+          id: 104955,
+          name: 'Al Qāmishlī',
+          latitude: '37.05215000',
+          longitude: '41.23142000',
+        ),
+        City(
+          id: 104960,
+          name: 'Al-Malikiyah District',
+          latitude: '36.94113000',
+          longitude: '41.90157000',
+        ),
+        City(
+          id: 104967,
+          name: 'Amude',
+          latitude: '37.10417000',
+          longitude: '40.93000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2944,
+      name: 'Al-Raqqah Governorate',
+      stateCode: 'RA',
+      cities: [
+        City(
+          id: 104964,
+          name: 'Al-Thawrah District',
+          latitude: '35.79843000',
+          longitude: '38.34550000',
+        ),
+        City(
+          id: 104969,
+          name: 'Ar Raqqah',
+          latitude: '35.95283000',
+          longitude: '39.00788000',
+        ),
+        City(
+          id: 104971,
+          name: 'Ar-Raqqah District',
+          latitude: '35.87204000',
+          longitude: '39.04706000',
+        ),
+        City(
+          id: 104981,
+          name: 'Ath Thawrah',
+          latitude: '35.83758000',
+          longitude: '38.54828000',
+        ),
+        City(
+          id: 105055,
+          name: 'Tall Abyaḑ',
+          latitude: '36.69648000',
+          longitude: '38.95382000',
+        ),
+        City(
+          id: 105062,
+          name: 'Tell Abyad District',
+          latitude: '36.48280000',
+          longitude: '39.21360000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2946,
+      name: 'Aleppo Governorate',
+      stateCode: 'HL',
+      cities: [
+        City(
+          id: 105079,
+          name: '‘Afrīn',
+          latitude: '36.51194000',
+          longitude: '36.86954000',
+        ),
+        City(
+          id: 105080,
+          name: '‘Ayn al ‘Arab',
+          latitude: '36.89095000',
+          longitude: '38.35347000',
+        ),
+        City(
+          id: 104943,
+          name: 'Afrin District',
+          latitude: '36.54891000',
+          longitude: '36.79295000',
+        ),
+        City(
+          id: 104944,
+          name: 'Al Atārib',
+          latitude: '36.13907000',
+          longitude: '36.82504000',
+        ),
+        City(
+          id: 104945,
+          name: 'Al Bāb',
+          latitude: '36.37051000',
+          longitude: '37.51570000',
+        ),
+        City(
+          id: 104958,
+          name: 'Al-Bab District',
+          latitude: '36.30946000',
+          longitude: '37.53277000',
+        ),
+        City(
+          id: 104966,
+          name: 'Aleppo',
+          latitude: '36.20124000',
+          longitude: '37.16117000',
+        ),
+        City(
+          id: 104974,
+          name: 'As Safīrah',
+          latitude: '36.07696000',
+          longitude: '37.37251000',
+        ),
+        City(
+          id: 104983,
+          name: 'Azaz District',
+          latitude: '36.49986000',
+          longitude: '37.18382000',
+        ),
+        City(
+          id: 104992,
+          name: 'Dayr Ḩāfir',
+          latitude: '36.15694000',
+          longitude: '37.70778000',
+        ),
+        City(
+          id: 105006,
+          name: 'I‘zāz',
+          latitude: '36.58662000',
+          longitude: '37.04628000',
+        ),
+        City(
+          id: 105010,
+          name: 'Jarābulus',
+          latitude: '36.81750000',
+          longitude: '38.01111000',
+        ),
+        City(
+          id: 105019,
+          name: 'Kafr Şaghīr',
+          latitude: '36.29264000',
+          longitude: '37.25590000',
+        ),
+        City(
+          id: 105022,
+          name: 'Khanāşir',
+          latitude: '35.78159000',
+          longitude: '37.49919000',
+        ),
+        City(
+          id: 105027,
+          name: 'Manbij',
+          latitude: '36.52815000',
+          longitude: '37.95495000',
+        ),
+        City(
+          id: 105028,
+          name: 'Manbij District',
+          latitude: '36.06687000',
+          longitude: '37.91735000',
+        ),
+        City(
+          id: 105034,
+          name: 'Mount Simeon District',
+          latitude: '35.99956000',
+          longitude: '37.08473000',
+        ),
+        City(
+          id: 105038,
+          name: 'Nubl',
+          latitude: '36.37867000',
+          longitude: '36.99294000',
+        ),
+        City(
+          id: 105072,
+          name: 'Şūrān',
+          latitude: '36.56579000',
+          longitude: '37.21270000',
+        ),
+        City(
+          id: 105064,
+          name: 'Tādif',
+          latitude: '36.34814000',
+          longitude: '37.53090000',
+        ),
+        City(
+          id: 105056,
+          name: 'Tall Rif‘at',
+          latitude: '36.47229000',
+          longitude: '37.09471000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2936,
+      name: 'As-Suwayda Governorate',
+      stateCode: 'SU',
+      cities: [
+        City(
+          id: 104977,
+          name: 'As-Suwayda',
+          latitude: '32.70896000',
+          longitude: '36.56951000',
+        ),
+        City(
+          id: 104978,
+          name: 'As-Suwayda District',
+          latitude: '32.78127000',
+          longitude: '36.86502000',
+        ),
+        City(
+          id: 105069,
+          name: 'Şalākhid',
+          latitude: '32.87271000',
+          longitude: '36.57271000',
+        ),
+        City(
+          id: 105068,
+          name: 'Şalkhad',
+          latitude: '32.49200000',
+          longitude: '36.71114000',
+        ),
+        City(
+          id: 105043,
+          name: 'Salkhad District',
+          latitude: '32.51779000',
+          longitude: '36.91954000',
+        ),
+        City(
+          id: 105049,
+          name: 'Shahbā',
+          latitude: '32.85514000',
+          longitude: '36.62896000',
+        ),
+        City(
+          id: 105048,
+          name: 'Shahba District',
+          latitude: '33.04282000',
+          longitude: '36.72034000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2939,
+      name: 'Damascus Governorate',
+      stateCode: 'DI',
+      cities: [
+        City(
+          id: 104988,
+          name: 'Damascus',
+          latitude: '33.51020000',
+          longitude: '36.29128000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2945,
+      name: 'Daraa Governorate',
+      stateCode: 'DR',
+      cities: [
+        City(
+          id: 104956,
+          name: 'Al Ḩarāk',
+          latitude: '32.74932000',
+          longitude: '36.30994000',
+        ),
+        City(
+          id: 104949,
+          name: 'Al Muzayrīb',
+          latitude: '32.71084000',
+          longitude: '36.02751000',
+        ),
+        City(
+          id: 104963,
+          name: 'Al-Sanamayn District',
+          latitude: '33.12559000',
+          longitude: '36.27540000',
+        ),
+        City(
+          id: 104984,
+          name: 'Aş Şanamayn',
+          latitude: '33.07186000',
+          longitude: '36.18316000',
+        ),
+        City(
+          id: 104979,
+          name: 'Ash Shaykh Miskīn',
+          latitude: '32.82944000',
+          longitude: '36.15933000',
+        ),
+        City(
+          id: 104986,
+          name: 'Buşrá ash Shām',
+          latitude: '32.52013000',
+          longitude: '36.48256000',
+        ),
+        City(
+          id: 104990,
+          name: 'Dar‘ā',
+          latitude: '32.61889000',
+          longitude: '36.10213000',
+        ),
+        City(
+          id: 104996,
+          name: 'Ghabāghib',
+          latitude: '33.18235000',
+          longitude: '36.22534000',
+        ),
+        City(
+          id: 105003,
+          name: 'Inkhil',
+          latitude: '33.01809000',
+          longitude: '36.12828000',
+        ),
+        City(
+          id: 105004,
+          name: 'Izra District',
+          latitude: '32.90121000',
+          longitude: '36.16144000',
+        ),
+        City(
+          id: 105005,
+          name: 'Izra‘',
+          latitude: '32.87060000',
+          longitude: '36.25453000',
+        ),
+        City(
+          id: 105014,
+          name: 'Jāsim',
+          latitude: '32.99233000',
+          longitude: '36.06018000',
+        ),
+        City(
+          id: 105037,
+          name: 'Nawá',
+          latitude: '32.89044000',
+          longitude: '36.03990000',
+        ),
+        City(
+          id: 105073,
+          name: 'Ţafas',
+          latitude: '32.73709000',
+          longitude: '36.06654000',
+        ),
+        City(
+          id: 105061,
+          name: 'Tasīl',
+          latitude: '32.83395000',
+          longitude: '35.96973000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2937,
+      name: 'Deir ez-Zor Governorate',
+      stateCode: 'DY',
+      cities: [
+        City(
+          id: 104948,
+          name: 'Al Mayādīn',
+          latitude: '35.01982000',
+          longitude: '40.45154000',
+        ),
+        City(
+          id: 105066,
+          name: 'Ālbū Kamāl',
+          latitude: '34.45226000',
+          longitude: '40.91854000',
+        ),
+        City(
+          id: 104993,
+          name: 'Deir ez-Zor',
+          latitude: '35.33588000',
+          longitude: '40.14084000',
+        ),
+        City(
+          id: 104997,
+          name: 'Hajīn',
+          latitude: '34.69508000',
+          longitude: '40.83138000',
+        ),
+        City(
+          id: 105051,
+          name: 'Subaykhān',
+          latitude: '34.85305000',
+          longitude: '40.59987000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2934,
+      name: 'Hama Governorate',
+      stateCode: 'HM',
+      cities: [
+        City(
+          id: 104962,
+          name: 'Al-Salamiyah District',
+          latitude: '35.14398000',
+          longitude: '37.59235000',
+        ),
+        City(
+          id: 104975,
+          name: 'As Salamīyah',
+          latitude: '35.01127000',
+          longitude: '37.05324000',
+        ),
+        City(
+          id: 104976,
+          name: 'As Suqaylibīyah',
+          latitude: '35.36674000',
+          longitude: '36.39359000',
+        ),
+        City(
+          id: 105075,
+          name: 'Ḩalfāyā',
+          latitude: '35.26014000',
+          longitude: '36.60581000',
+        ),
+        City(
+          id: 104998,
+          name: 'Hama District',
+          latitude: '35.28577000',
+          longitude: '37.12626000',
+        ),
+        City(
+          id: 105076,
+          name: 'Ḩamāh',
+          latitude: '35.13179000',
+          longitude: '36.75783000',
+        ),
+        City(
+          id: 105018,
+          name: 'Kafr Zaytā',
+          latitude: '35.37425000',
+          longitude: '36.60330000',
+        ),
+        City(
+          id: 105030,
+          name: 'Maşyāf',
+          latitude: '35.06530000',
+          longitude: '36.34060000',
+        ),
+        City(
+          id: 105029,
+          name: 'Masyaf District',
+          latitude: '35.10335000',
+          longitude: '36.33920000',
+        ),
+        City(
+          id: 105036,
+          name: 'Mūrak',
+          latitude: '35.37615000',
+          longitude: '36.68970000',
+        ),
+        City(
+          id: 105050,
+          name: 'Souran',
+          latitude: '35.29193000',
+          longitude: '36.74848000',
+        ),
+        City(
+          id: 105057,
+          name: 'Tall Salḩab',
+          latitude: '35.25884000',
+          longitude: '36.38461000',
+        ),
+        City(
+          id: 105074,
+          name: 'Ţayyibat al Imām',
+          latitude: '35.26592000',
+          longitude: '36.71219000',
+        ),
+        City(
+          id: 105063,
+          name: 'Tremseh',
+          latitude: '35.27181000',
+          longitude: '36.50395000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2942,
+      name: 'Homs Governorate',
+      stateCode: 'HI',
+      cities: [
+        City(
+          id: 104946,
+          name: 'Al Ghanţū',
+          latitude: '34.82202000',
+          longitude: '36.69613000',
+        ),
+        City(
+          id: 104951,
+          name: 'Al Qaryatayn',
+          latitude: '34.22956000',
+          longitude: '37.24066000',
+        ),
+        City(
+          id: 104953,
+          name: 'Al Quşayr',
+          latitude: '34.50780000',
+          longitude: '36.58029000',
+        ),
+        City(
+          id: 104961,
+          name: 'Al-Rastan District',
+          latitude: '34.87100000',
+          longitude: '36.77245000',
+        ),
+        City(
+          id: 104970,
+          name: 'Ar Rastan',
+          latitude: '34.92667000',
+          longitude: '36.73241000',
+        ),
+        City(
+          id: 105000,
+          name: 'Hisya',
+          latitude: '34.41197000',
+          longitude: '36.75867000',
+        ),
+        City(
+          id: 105001,
+          name: 'Homs',
+          latitude: '34.72682000',
+          longitude: '36.72339000',
+        ),
+        City(
+          id: 105016,
+          name: 'Kafr Lāhā',
+          latitude: '34.89469000',
+          longitude: '36.49582000',
+        ),
+        City(
+          id: 105035,
+          name: 'Mukharram al Fawqānī',
+          latitude: '34.81521000',
+          longitude: '37.08677000',
+        ),
+        City(
+          id: 105067,
+          name: 'Şadad',
+          latitude: '34.31248000',
+          longitude: '36.92562000',
+        ),
+        City(
+          id: 105052,
+          name: 'Tadmur',
+          latitude: '34.56240000',
+          longitude: '38.28402000',
+        ),
+        City(
+          id: 105053,
+          name: 'Tadmur District',
+          latitude: '34.42401000',
+          longitude: '38.64580000',
+        ),
+        City(
+          id: 105058,
+          name: 'Tallbīsah',
+          latitude: '34.84072000',
+          longitude: '36.73092000',
+        ),
+        City(
+          id: 105059,
+          name: 'Tallkalakh',
+          latitude: '34.66842000',
+          longitude: '36.25995000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2940,
+      name: 'Idlib Governorate',
+      stateCode: 'ID',
+      cities: [
+        City(
+          id: 104942,
+          name: 'Ad Dānā',
+          latitude: '36.21254000',
+          longitude: '36.76998000',
+        ),
+        City(
+          id: 104973,
+          name: 'Arīḩā',
+          latitude: '35.81374000',
+          longitude: '36.60964000',
+        ),
+        City(
+          id: 104972,
+          name: 'Armanāz',
+          latitude: '36.08363000',
+          longitude: '36.50310000',
+        ),
+        City(
+          id: 104985,
+          name: 'Binnish',
+          latitude: '35.95664000',
+          longitude: '36.71380000',
+        ),
+        City(
+          id: 104989,
+          name: 'Darkūsh',
+          latitude: '35.99180000',
+          longitude: '36.39361000',
+        ),
+        City(
+          id: 104999,
+          name: 'Harem District',
+          latitude: '36.14014000',
+          longitude: '36.56535000',
+        ),
+        City(
+          id: 105078,
+          name: 'Ḩārim',
+          latitude: '36.21176000',
+          longitude: '36.52078000',
+        ),
+        City(
+          id: 105002,
+          name: 'Idlib',
+          latitude: '35.93062000',
+          longitude: '36.63393000',
+        ),
+        City(
+          id: 105012,
+          name: 'Jisr al-Shughur District',
+          latitude: '35.87756000',
+          longitude: '36.32901000',
+        ),
+        City(
+          id: 105013,
+          name: 'Jisr ash Shughūr',
+          latitude: '35.81418000',
+          longitude: '36.31983000',
+        ),
+        City(
+          id: 105017,
+          name: 'Kafr Takhārīm',
+          latitude: '36.11680000',
+          longitude: '36.51522000',
+        ),
+        City(
+          id: 105020,
+          name: 'Kafranbel',
+          latitude: '35.61376000',
+          longitude: '36.56449000',
+        ),
+        City(
+          id: 105023,
+          name: 'Khān Shaykhūn',
+          latitude: '35.44208000',
+          longitude: '36.65095000',
+        ),
+        City(
+          id: 105031,
+          name: 'Ma‘arratmişrīn',
+          latitude: '36.01152000',
+          longitude: '36.67183000',
+        ),
+        City(
+          id: 105026,
+          name: 'Maarrat al-Nu\'man District',
+          latitude: '35.53858000',
+          longitude: '36.79193000',
+        ),
+        City(
+          id: 105044,
+          name: 'Salqīn',
+          latitude: '36.13865000',
+          longitude: '36.45244000',
+        ),
+        City(
+          id: 105046,
+          name: 'Sarāqib',
+          latitude: '35.86447000',
+          longitude: '36.80591000',
+        ),
+        City(
+          id: 105045,
+          name: 'Sarmīn',
+          latitude: '35.90403000',
+          longitude: '36.72501000',
+        ),
+        City(
+          id: 105054,
+          name: 'Taftanāz',
+          latitude: '35.99832000',
+          longitude: '36.78579000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2938,
+      name: 'Latakia Governorate',
+      stateCode: 'LA',
+      cities: [
+        City(
+          id: 104959,
+          name: 'Al-Haffah District',
+          latitude: '35.59687000',
+          longitude: '36.11198000',
+        ),
+        City(
+          id: 105007,
+          name: 'Jablah',
+          latitude: '35.36211000',
+          longitude: '35.92759000',
+        ),
+        City(
+          id: 105008,
+          name: 'Jableh District',
+          latitude: '35.29048000',
+          longitude: '36.04490000',
+        ),
+        City(
+          id: 105021,
+          name: 'Kassab',
+          latitude: '35.92639000',
+          longitude: '35.98970000',
+        ),
+        City(
+          id: 105024,
+          name: 'Latakia',
+          latitude: '35.53168000',
+          longitude: '35.79011000',
+        ),
+        City(
+          id: 105025,
+          name: 'Latakia District',
+          latitude: '35.72426000',
+          longitude: '35.94150000',
+        ),
+        City(
+          id: 105039,
+          name: 'Qardaha District',
+          latitude: '35.39593000',
+          longitude: '36.08603000',
+        ),
+        City(
+          id: 105071,
+          name: 'Şlinfah',
+          latitude: '35.59822000',
+          longitude: '36.18770000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2943,
+      name: 'Quneitra Governorate',
+      stateCode: 'QU',
+      cities: [
+        City(
+          id: 104952,
+          name: 'Al Qunayţirah',
+          latitude: '33.12595000',
+          longitude: '35.82461000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2935,
+      name: 'Rif Dimashq Governorate',
+      stateCode: 'RD',
+      cities: [
+        City(
+          id: 105081,
+          name: '‘Irbīn',
+          latitude: '33.53719000',
+          longitude: '36.36635000',
+        ),
+        City(
+          id: 104947,
+          name: 'Al Kiswah',
+          latitude: '33.35810000',
+          longitude: '36.24190000',
+        ),
+        City(
+          id: 104954,
+          name: 'Al Quţayfah',
+          latitude: '33.73848000',
+          longitude: '36.60071000',
+        ),
+        City(
+          id: 104965,
+          name: 'Al-Zabadani District',
+          latitude: '33.70819000',
+          longitude: '36.11198000',
+        ),
+        City(
+          id: 104968,
+          name: 'An Nabk',
+          latitude: '34.02403000',
+          longitude: '36.72848000',
+        ),
+        City(
+          id: 104980,
+          name: 'At Tall',
+          latitude: '33.61033000',
+          longitude: '36.31070000',
+        ),
+        City(
+          id: 104982,
+          name: 'Az Zabadānī',
+          latitude: '33.72488000',
+          longitude: '36.10050000',
+        ),
+        City(
+          id: 104995,
+          name: 'Dārayyā',
+          latitude: '33.45835000',
+          longitude: '36.23256000',
+        ),
+        City(
+          id: 104991,
+          name: 'Dayr al ‘Aşāfīr',
+          latitude: '33.46585000',
+          longitude: '36.42044000',
+        ),
+        City(
+          id: 104994,
+          name: 'Douma',
+          latitude: '33.57175000',
+          longitude: '36.40270000',
+        ),
+        City(
+          id: 105077,
+          name: 'Ḩarastā',
+          latitude: '33.55869000',
+          longitude: '36.36515000',
+        ),
+        City(
+          id: 105009,
+          name: 'Jaramānā',
+          latitude: '33.48620000',
+          longitude: '36.34614000',
+        ),
+        City(
+          id: 105011,
+          name: 'Jayrūd',
+          latitude: '33.80709000',
+          longitude: '36.73861000',
+        ),
+        City(
+          id: 105032,
+          name: 'Ma‘lūlā',
+          latitude: '33.84529000',
+          longitude: '36.54514000',
+        ),
+        City(
+          id: 105033,
+          name: 'Medaya',
+          latitude: '33.69032000',
+          longitude: '36.10354000',
+        ),
+        City(
+          id: 105041,
+          name: 'Qārah',
+          latitude: '34.15558000',
+          longitude: '36.74284000',
+        ),
+        City(
+          id: 105040,
+          name: 'Qaţanā',
+          latitude: '33.43757000',
+          longitude: '36.07888000',
+        ),
+        City(
+          id: 105070,
+          name: 'Şaydnāyā',
+          latitude: '33.69473000',
+          longitude: '36.37146000',
+        ),
+        City(
+          id: 105065,
+          name: 'Yabrūd',
+          latitude: '33.96921000',
+          longitude: '36.65729000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2947,
+      name: 'Tartus Governorate',
+      stateCode: 'TA',
+      cities: [
+        City(
+          id: 104941,
+          name: 'Ad Duraykīsh',
+          latitude: '34.89514000',
+          longitude: '36.14303000',
+        ),
+        City(
+          id: 104987,
+          name: 'Bāniyās',
+          latitude: '35.18188000',
+          longitude: '35.94871000',
+        ),
+        City(
+          id: 105015,
+          name: 'Kaff al-Jaa',
+          latitude: '35.08638000',
+          longitude: '36.20605000',
+        ),
+        City(
+          id: 105042,
+          name: 'Safita District',
+          latitude: '34.80419000',
+          longitude: '36.12293000',
+        ),
+        City(
+          id: 105047,
+          name: 'Satita',
+          latitude: '34.82099000',
+          longitude: '36.11773000',
+        ),
+        City(
+          id: 105060,
+          name: 'Tartouss',
+          latitude: '34.88902000',
+          longitude: '35.88659000',
+        ),
+      ],
+    ),
+  ],
+);

@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const sgs = Country(
-    id: 205,
-    name: 'South Georgia',
-    iso3: 'SGS',
-    iso2: 'GS',
-    phoneCode: '500',
-    capital: 'Grytviken',
-    currency: 'GBP',
-    currencySymbol: r'£',
-    tld: '.gs',
-    native: 'South Georgia',
-    region: 'Americas',
-    subregion: 'South America',
-    timezones: [
-      Timezone(
-          zoneName: 'Atlantic/South_Georgia',
-          gmtOffset: -7200,
-          gmtOffsetName: 'UTC-02:00',
-          abbreviation: 'GST',
-          tzName: 'South Georgia and the South Sandwich Islands Time')
-    ],
-    emoji: '🇬🇸',
-    emojiU: 'U+1F1EC U+1F1F8',
-    states: []);
+  id: 205,
+  name: 'South Georgia',
+  iso3: 'SGS',
+  iso2: 'GS',
+  phoneCode: '500',
+  capital: 'Grytviken',
+  currency: 'GBP',
+  currencySymbol: r'£',
+  tld: '.gs',
+  native: 'South Georgia',
+  region: 'Americas',
+  subregion: 'South America',
+  timezones: [
+    Timezone(
+      zoneName: 'Atlantic/South_Georgia',
+      gmtOffset: -7200,
+      gmtOffsetName: 'UTC-02:00',
+      abbreviation: 'GST',
+      tzName: 'South Georgia and the South Sandwich Islands Time',
+    )
+  ],
+  emoji: '🇬🇸',
+  emojiU: 'U+1F1EC U+1F1F8',
+  states: [],
+);

@@ -3,417 +3,529 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const isl = Country(
-    id: 100,
-    name: 'Iceland',
-    iso3: 'ISL',
-    iso2: 'IS',
-    phoneCode: '354',
-    capital: 'Reykjavik',
-    currency: 'ISK',
-    currencySymbol: r'kr',
-    tld: '.is',
-    native: 'Ísland',
-    region: 'Europe',
-    subregion: 'Northern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Atlantic/Reykjavik',
-          gmtOffset: 0,
-          gmtOffsetName: 'UTC±00',
-          abbreviation: 'GMT',
-          tzName: 'Greenwich Mean Time')
-    ],
-    emoji: '🇮🇸',
-    emojiU: 'U+1F1EE U+1F1F8',
-    states: [
-      State(id: 3431, name: 'Capital Region', stateCode: '1', cities: [
-        City(
-            id: 135228,
-            name: 'Álftanes',
-            latitude: '64.10000000',
-            longitude: '-22.01667000'),
-        City(
-            id: 135181,
-            name: 'Garðabær',
-            latitude: '64.08865000',
-            longitude: '-21.92298000'),
-        City(
-            id: 135186,
-            name: 'Hafnarfjörður',
-            latitude: '64.06710000',
-            longitude: '-21.93774000'),
-        City(
-            id: 135196,
-            name: 'Kjósarhreppur',
-            latitude: '64.30644000',
-            longitude: '-21.49919000'),
-        City(
-            id: 135197,
-            name: 'Kópavogur',
-            latitude: '64.11234000',
-            longitude: '-21.91298000'),
-        City(
-            id: 135200,
-            name: 'Mosfellsbaer',
-            latitude: '64.15000000',
-            longitude: '-21.65000000'),
-        City(
-            id: 135201,
-            name: 'Mosfellsbær',
-            latitude: '64.16667000',
-            longitude: '-21.70000000'),
-        City(
-            id: 135206,
-            name: 'Reykjavík',
-            latitude: '64.13548000',
-            longitude: '-21.89541000'),
-        City(
-            id: 135211,
-            name: 'Seltjarnarnes',
-            latitude: '64.15309000',
-            longitude: '-21.99499000')
-      ]),
-      State(id: 3433, name: 'Eastern Region', stateCode: '7', cities: [
-        City(
-            id: 135166,
-            name: 'Borgarfjarðarhreppur',
-            latitude: '65.43401000',
-            longitude: '-13.82933000'),
-        City(
-            id: 135168,
-            name: 'Breiðdalshreppur',
-            latitude: '64.83333000',
-            longitude: '-14.25000000'),
-        City(
-            id: 135172,
-            name: 'Egilsstaðir',
-            latitude: '65.26687000',
-            longitude: '-14.39485000'),
-        City(
-            id: 135173,
-            name: 'Eskifjörður',
-            latitude: '65.07306000',
-            longitude: '-14.01525000'),
-        City(
-            id: 135177,
-            name: 'Fjarðabyggð',
-            latitude: '65.08333000',
-            longitude: '-14.00000000'),
-        City(
-            id: 135179,
-            name: 'Fljótsdalshérað',
-            latitude: '65.25020000',
-            longitude: '-15.37211000'),
-        City(
-            id: 135178,
-            name: 'Fljótsdalshreppur',
-            latitude: '64.85275000',
-            longitude: '-15.25680000'),
-        City(
-            id: 135191,
-            name: 'Höfn',
-            latitude: '64.25388000',
-            longitude: '-15.21212000'),
-        City(
-            id: 135203,
-            name: 'Neskaupstaður',
-            latitude: '65.14819000',
-            longitude: '-13.68368000'),
-        City(
-            id: 135207,
-            name: 'Reyðarfjörður',
-            latitude: '65.03164000',
-            longitude: '-14.21832000')
-      ]),
-      State(id: 3437, name: 'Northeastern Region', stateCode: '6', cities: [
-        City(
-            id: 135163,
-            name: 'Akureyri',
-            latitude: '65.68353000',
-            longitude: '-18.08780000'),
-        City(
-            id: 135170,
-            name: 'Dalvík',
-            latitude: '65.97018000',
-            longitude: '-18.52861000'),
-        City(
-            id: 135171,
-            name: 'Dalvíkurbyggð',
-            latitude: '65.87318000',
-            longitude: '-18.60844000'),
-        City(
-            id: 135175,
-            name: 'Eyjafjarðarsveit',
-            latitude: '65.33333000',
-            longitude: '-18.16667000'),
-        City(
-            id: 135176,
-            name: 'Fjallabyggð',
-            latitude: '66.05962000',
-            longitude: '-18.78220000'),
-        City(
-            id: 135185,
-            name: 'Grýtubakkahreppur',
-            latitude: '65.98333000',
-            longitude: '-18.11667000'),
-        City(
-            id: 135192,
-            name: 'Hörgársveit',
-            latitude: '65.64828000',
-            longitude: '-18.49599000'),
-        City(
-            id: 135194,
-            name: 'Húsavík',
-            latitude: '66.04148000',
-            longitude: '-17.33834000'),
-        City(
-            id: 135198,
-            name: 'Langanesbyggð',
-            latitude: '66.05186000',
-            longitude: '-15.18969000'),
-        City(
-            id: 135199,
-            name: 'Laugar',
-            latitude: '65.72159000',
-            longitude: '-17.37352000'),
-        City(
-            id: 135212,
-            name: 'Siglufjörður',
-            latitude: '66.15198000',
-            longitude: '-18.90815000'),
-        City(
-            id: 135217,
-            name: 'Skútustaðahreppur',
-            latitude: '65.17177000',
-            longitude: '-16.77890000'),
-        City(
-            id: 135221,
-            name: 'Svalbarðsstrandarhreppur',
-            latitude: '65.74138000',
-            longitude: '-18.03513000'),
-        City(
-            id: 135223,
-            name: 'Tjörneshreppur',
-            latitude: '66.11667000',
-            longitude: '-17.20000000'),
-        City(
-            id: 135233,
-            name: 'Þingeyjarsveit',
-            latitude: '65.37229000',
-            longitude: '-17.59927000')
-      ]),
-      State(id: 3435, name: 'Northwestern Region', stateCode: '5', cities: [
-        City(
-            id: 135161,
-            name: 'Akrahreppur',
-            latitude: '65.35505000',
-            longitude: '-18.79572000'),
-        City(
-            id: 135193,
-            name: 'Húnaþing Vestra',
-            latitude: '65.25000000',
-            longitude: '-20.91667000'),
-        City(
-            id: 135209,
-            name: 'Sauðárkrókur',
-            latitude: '65.74611000',
-            longitude: '-19.63944000'),
-        City(
-            id: 135214,
-            name: 'Skagabyggð',
-            latitude: '65.95000000',
-            longitude: '-20.25000000'),
-        City(
-            id: 135222,
-            name: 'Sveitarfélagið Skagafjörður',
-            latitude: '65.50018000',
-            longitude: '-19.44566000')
-      ]),
-      State(
-          id: 3430,
-          name: 'Southern Peninsula Region',
-          stateCode: '2',
-          cities: [
-            City(
-                id: 135182,
-                name: 'Garður',
-                latitude: '64.06558000',
-                longitude: '-22.64656000'),
-            City(
-                id: 135183,
-                name: 'Grindavík',
-                latitude: '63.83849000',
-                longitude: '-22.43931000'),
-            City(
-                id: 135195,
-                name: 'Keflavík',
-                latitude: '64.00492000',
-                longitude: '-22.56242000'),
-            City(
-                id: 135205,
-                name: 'Reykjanesbær',
-                latitude: '63.99813000',
-                longitude: '-22.56111000'),
-            City(
-                id: 135208,
-                name: 'Sandgerði',
-                latitude: '64.03762000',
-                longitude: '-22.70799000'),
-            City(
-                id: 135227,
-                name: 'Vogar',
-                latitude: '63.98160000',
-                longitude: '-22.38473000')
-          ]),
-      State(id: 3434, name: 'Southern Region', stateCode: '8', cities: [
-        City(
-            id: 135229,
-            name: 'Ásahreppur',
-            latitude: '63.87589000',
-            longitude: '-20.59484000'),
-        City(
-            id: 135164,
-            name: 'Bláskógabyggð',
-            latitude: '64.41667000',
-            longitude: '-20.33333000'),
-        City(
-            id: 135180,
-            name: 'Flóahreppur',
-            latitude: '63.89569000',
-            longitude: '-20.80159000'),
-        City(
-            id: 135184,
-            name: 'Grímsnes- og Grafningshreppur',
-            latitude: '64.08533000',
-            longitude: '-20.96710000'),
-        City(
-            id: 135188,
-            name: 'Hrunamannahreppur',
-            latitude: '64.40944000',
-            longitude: '-19.72237000'),
-        City(
-            id: 135190,
-            name: 'Hveragerði',
-            latitude: '64.00039000',
-            longitude: '-21.18602000'),
-        City(
-            id: 135202,
-            name: 'Mýrdalshreppur',
-            latitude: '63.50000000',
-            longitude: '-19.00000000'),
-        City(
-            id: 135210,
-            name: 'Selfoss',
-            latitude: '63.93311000',
-            longitude: '-20.99712000'),
-        City(
-            id: 135213,
-            name: 'Skaftárhreppur',
-            latitude: '63.95948000',
-            longitude: '-18.14491000'),
-        City(
-            id: 135215,
-            name: 'Skeiða- og Gnúpverjahreppur',
-            latitude: '64.34738000',
-            longitude: '-19.37757000'),
-        City(
-            id: 135225,
-            name: 'Vestmannaeyjabær',
-            latitude: '63.43877000',
-            longitude: '-20.26900000'),
-        City(
-            id: 135226,
-            name: 'Vestmannaeyjar',
-            latitude: '63.44273000',
-            longitude: '-20.27339000'),
-        City(
-            id: 135234,
-            name: 'Þorlákshöfn',
-            latitude: '63.85591000',
-            longitude: '-21.38337000')
-      ]),
-      State(id: 3436, name: 'Western Region', stateCode: '3', cities: [
-        City(
-            id: 135162,
-            name: 'Akranes',
-            latitude: '64.32179000',
-            longitude: '-22.07490000'),
-        City(
-            id: 135165,
-            name: 'Borgarbyggð',
-            latitude: '64.71446000',
-            longitude: '-21.23788000'),
-        City(
-            id: 135167,
-            name: 'Borgarnes',
-            latitude: '64.53834000',
-            longitude: '-21.92064000'),
-        City(
-            id: 135169,
-            name: 'Dalabyggð',
-            latitude: '65.10121000',
-            longitude: '-21.72871000'),
-        City(
-            id: 135174,
-            name: 'Eyja- og Miklaholtshreppur',
-            latitude: '64.85846000',
-            longitude: '-22.54557000'),
-        City(
-            id: 135187,
-            name: 'Helgafellssveit',
-            latitude: '64.99069000',
-            longitude: '-22.78948000'),
-        City(
-            id: 135189,
-            name: 'Hvalfjarðarsveit',
-            latitude: '64.44265000',
-            longitude: '-21.61086000'),
-        City(
-            id: 135232,
-            name: 'Ólafsvík',
-            latitude: '64.89429000',
-            longitude: '-23.70918000'),
-        City(
-            id: 135216,
-            name: 'Skorradalshreppur',
-            latitude: '64.51667000',
-            longitude: '-21.50000000'),
-        City(
-            id: 135218,
-            name: 'Snæfellsbær',
-            latitude: '64.86667000',
-            longitude: '-23.50000000'),
-        City(
-            id: 135220,
-            name: 'Stykkishólmur',
-            latitude: '65.07537000',
-            longitude: '-22.72977000')
-      ]),
-      State(id: 3432, name: 'Westfjords', stateCode: '4', cities: [
-        City(
-            id: 135230,
-            name: 'Ísafjarðarbær',
-            latitude: '66.07586000',
-            longitude: '-23.12794000'),
-        City(
-            id: 135231,
-            name: 'Ísafjörður',
-            latitude: '66.07475000',
-            longitude: '-23.13498000'),
-        City(
-            id: 135204,
-            name: 'Reykhólahreppur',
-            latitude: '65.60990000',
-            longitude: '-22.33324000'),
-        City(
-            id: 135219,
-            name: 'Strandabyggð',
-            latitude: '65.77455000',
-            longitude: '-21.95725000'),
-        City(
-            id: 135224,
-            name: 'Tálknafjarðarhreppur',
-            latitude: '65.61667000',
-            longitude: '-23.88333000')
-      ])
-    ]);
+  id: 100,
+  name: 'Iceland',
+  iso3: 'ISL',
+  iso2: 'IS',
+  phoneCode: '354',
+  capital: 'Reykjavik',
+  currency: 'ISK',
+  currencySymbol: r'kr',
+  tld: '.is',
+  native: 'Ísland',
+  region: 'Europe',
+  subregion: 'Northern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Atlantic/Reykjavik',
+      gmtOffset: 0,
+      gmtOffsetName: 'UTC±00',
+      abbreviation: 'GMT',
+      tzName: 'Greenwich Mean Time',
+    )
+  ],
+  emoji: '🇮🇸',
+  emojiU: 'U+1F1EE U+1F1F8',
+  states: [
+    CountryState(
+      id: 3431,
+      name: 'Capital Region',
+      stateCode: '1',
+      cities: [
+        City(
+          id: 135228,
+          name: 'Álftanes',
+          latitude: '64.10000000',
+          longitude: '-22.01667000',
+        ),
+        City(
+          id: 135181,
+          name: 'Garðabær',
+          latitude: '64.08865000',
+          longitude: '-21.92298000',
+        ),
+        City(
+          id: 135186,
+          name: 'Hafnarfjörður',
+          latitude: '64.06710000',
+          longitude: '-21.93774000',
+        ),
+        City(
+          id: 135196,
+          name: 'Kjósarhreppur',
+          latitude: '64.30644000',
+          longitude: '-21.49919000',
+        ),
+        City(
+          id: 135197,
+          name: 'Kópavogur',
+          latitude: '64.11234000',
+          longitude: '-21.91298000',
+        ),
+        City(
+          id: 135200,
+          name: 'Mosfellsbaer',
+          latitude: '64.15000000',
+          longitude: '-21.65000000',
+        ),
+        City(
+          id: 135201,
+          name: 'Mosfellsbær',
+          latitude: '64.16667000',
+          longitude: '-21.70000000',
+        ),
+        City(
+          id: 135206,
+          name: 'Reykjavík',
+          latitude: '64.13548000',
+          longitude: '-21.89541000',
+        ),
+        City(
+          id: 135211,
+          name: 'Seltjarnarnes',
+          latitude: '64.15309000',
+          longitude: '-21.99499000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3433,
+      name: 'Eastern Region',
+      stateCode: '7',
+      cities: [
+        City(
+          id: 135166,
+          name: 'Borgarfjarðarhreppur',
+          latitude: '65.43401000',
+          longitude: '-13.82933000',
+        ),
+        City(
+          id: 135168,
+          name: 'Breiðdalshreppur',
+          latitude: '64.83333000',
+          longitude: '-14.25000000',
+        ),
+        City(
+          id: 135172,
+          name: 'Egilsstaðir',
+          latitude: '65.26687000',
+          longitude: '-14.39485000',
+        ),
+        City(
+          id: 135173,
+          name: 'Eskifjörður',
+          latitude: '65.07306000',
+          longitude: '-14.01525000',
+        ),
+        City(
+          id: 135177,
+          name: 'Fjarðabyggð',
+          latitude: '65.08333000',
+          longitude: '-14.00000000',
+        ),
+        City(
+          id: 135179,
+          name: 'Fljótsdalshérað',
+          latitude: '65.25020000',
+          longitude: '-15.37211000',
+        ),
+        City(
+          id: 135178,
+          name: 'Fljótsdalshreppur',
+          latitude: '64.85275000',
+          longitude: '-15.25680000',
+        ),
+        City(
+          id: 135191,
+          name: 'Höfn',
+          latitude: '64.25388000',
+          longitude: '-15.21212000',
+        ),
+        City(
+          id: 135203,
+          name: 'Neskaupstaður',
+          latitude: '65.14819000',
+          longitude: '-13.68368000',
+        ),
+        City(
+          id: 135207,
+          name: 'Reyðarfjörður',
+          latitude: '65.03164000',
+          longitude: '-14.21832000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3437,
+      name: 'Northeastern Region',
+      stateCode: '6',
+      cities: [
+        City(
+          id: 135163,
+          name: 'Akureyri',
+          latitude: '65.68353000',
+          longitude: '-18.08780000',
+        ),
+        City(
+          id: 135170,
+          name: 'Dalvík',
+          latitude: '65.97018000',
+          longitude: '-18.52861000',
+        ),
+        City(
+          id: 135171,
+          name: 'Dalvíkurbyggð',
+          latitude: '65.87318000',
+          longitude: '-18.60844000',
+        ),
+        City(
+          id: 135175,
+          name: 'Eyjafjarðarsveit',
+          latitude: '65.33333000',
+          longitude: '-18.16667000',
+        ),
+        City(
+          id: 135176,
+          name: 'Fjallabyggð',
+          latitude: '66.05962000',
+          longitude: '-18.78220000',
+        ),
+        City(
+          id: 135185,
+          name: 'Grýtubakkahreppur',
+          latitude: '65.98333000',
+          longitude: '-18.11667000',
+        ),
+        City(
+          id: 135192,
+          name: 'Hörgársveit',
+          latitude: '65.64828000',
+          longitude: '-18.49599000',
+        ),
+        City(
+          id: 135194,
+          name: 'Húsavík',
+          latitude: '66.04148000',
+          longitude: '-17.33834000',
+        ),
+        City(
+          id: 135198,
+          name: 'Langanesbyggð',
+          latitude: '66.05186000',
+          longitude: '-15.18969000',
+        ),
+        City(
+          id: 135199,
+          name: 'Laugar',
+          latitude: '65.72159000',
+          longitude: '-17.37352000',
+        ),
+        City(
+          id: 135212,
+          name: 'Siglufjörður',
+          latitude: '66.15198000',
+          longitude: '-18.90815000',
+        ),
+        City(
+          id: 135217,
+          name: 'Skútustaðahreppur',
+          latitude: '65.17177000',
+          longitude: '-16.77890000',
+        ),
+        City(
+          id: 135221,
+          name: 'Svalbarðsstrandarhreppur',
+          latitude: '65.74138000',
+          longitude: '-18.03513000',
+        ),
+        City(
+          id: 135223,
+          name: 'Tjörneshreppur',
+          latitude: '66.11667000',
+          longitude: '-17.20000000',
+        ),
+        City(
+          id: 135233,
+          name: 'Þingeyjarsveit',
+          latitude: '65.37229000',
+          longitude: '-17.59927000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3435,
+      name: 'Northwestern Region',
+      stateCode: '5',
+      cities: [
+        City(
+          id: 135161,
+          name: 'Akrahreppur',
+          latitude: '65.35505000',
+          longitude: '-18.79572000',
+        ),
+        City(
+          id: 135193,
+          name: 'Húnaþing Vestra',
+          latitude: '65.25000000',
+          longitude: '-20.91667000',
+        ),
+        City(
+          id: 135209,
+          name: 'Sauðárkrókur',
+          latitude: '65.74611000',
+          longitude: '-19.63944000',
+        ),
+        City(
+          id: 135214,
+          name: 'Skagabyggð',
+          latitude: '65.95000000',
+          longitude: '-20.25000000',
+        ),
+        City(
+          id: 135222,
+          name: 'Sveitarfélagið Skagafjörður',
+          latitude: '65.50018000',
+          longitude: '-19.44566000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3430,
+      name: 'Southern Peninsula Region',
+      stateCode: '2',
+      cities: [
+        City(
+          id: 135182,
+          name: 'Garður',
+          latitude: '64.06558000',
+          longitude: '-22.64656000',
+        ),
+        City(
+          id: 135183,
+          name: 'Grindavík',
+          latitude: '63.83849000',
+          longitude: '-22.43931000',
+        ),
+        City(
+          id: 135195,
+          name: 'Keflavík',
+          latitude: '64.00492000',
+          longitude: '-22.56242000',
+        ),
+        City(
+          id: 135205,
+          name: 'Reykjanesbær',
+          latitude: '63.99813000',
+          longitude: '-22.56111000',
+        ),
+        City(
+          id: 135208,
+          name: 'Sandgerði',
+          latitude: '64.03762000',
+          longitude: '-22.70799000',
+        ),
+        City(
+          id: 135227,
+          name: 'Vogar',
+          latitude: '63.98160000',
+          longitude: '-22.38473000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3434,
+      name: 'Southern Region',
+      stateCode: '8',
+      cities: [
+        City(
+          id: 135229,
+          name: 'Ásahreppur',
+          latitude: '63.87589000',
+          longitude: '-20.59484000',
+        ),
+        City(
+          id: 135164,
+          name: 'Bláskógabyggð',
+          latitude: '64.41667000',
+          longitude: '-20.33333000',
+        ),
+        City(
+          id: 135180,
+          name: 'Flóahreppur',
+          latitude: '63.89569000',
+          longitude: '-20.80159000',
+        ),
+        City(
+          id: 135184,
+          name: 'Grímsnes- og Grafningshreppur',
+          latitude: '64.08533000',
+          longitude: '-20.96710000',
+        ),
+        City(
+          id: 135188,
+          name: 'Hrunamannahreppur',
+          latitude: '64.40944000',
+          longitude: '-19.72237000',
+        ),
+        City(
+          id: 135190,
+          name: 'Hveragerði',
+          latitude: '64.00039000',
+          longitude: '-21.18602000',
+        ),
+        City(
+          id: 135202,
+          name: 'Mýrdalshreppur',
+          latitude: '63.50000000',
+          longitude: '-19.00000000',
+        ),
+        City(
+          id: 135210,
+          name: 'Selfoss',
+          latitude: '63.93311000',
+          longitude: '-20.99712000',
+        ),
+        City(
+          id: 135213,
+          name: 'Skaftárhreppur',
+          latitude: '63.95948000',
+          longitude: '-18.14491000',
+        ),
+        City(
+          id: 135215,
+          name: 'Skeiða- og Gnúpverjahreppur',
+          latitude: '64.34738000',
+          longitude: '-19.37757000',
+        ),
+        City(
+          id: 135225,
+          name: 'Vestmannaeyjabær',
+          latitude: '63.43877000',
+          longitude: '-20.26900000',
+        ),
+        City(
+          id: 135226,
+          name: 'Vestmannaeyjar',
+          latitude: '63.44273000',
+          longitude: '-20.27339000',
+        ),
+        City(
+          id: 135234,
+          name: 'Þorlákshöfn',
+          latitude: '63.85591000',
+          longitude: '-21.38337000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3436,
+      name: 'Western Region',
+      stateCode: '3',
+      cities: [
+        City(
+          id: 135162,
+          name: 'Akranes',
+          latitude: '64.32179000',
+          longitude: '-22.07490000',
+        ),
+        City(
+          id: 135165,
+          name: 'Borgarbyggð',
+          latitude: '64.71446000',
+          longitude: '-21.23788000',
+        ),
+        City(
+          id: 135167,
+          name: 'Borgarnes',
+          latitude: '64.53834000',
+          longitude: '-21.92064000',
+        ),
+        City(
+          id: 135169,
+          name: 'Dalabyggð',
+          latitude: '65.10121000',
+          longitude: '-21.72871000',
+        ),
+        City(
+          id: 135174,
+          name: 'Eyja- og Miklaholtshreppur',
+          latitude: '64.85846000',
+          longitude: '-22.54557000',
+        ),
+        City(
+          id: 135187,
+          name: 'Helgafellssveit',
+          latitude: '64.99069000',
+          longitude: '-22.78948000',
+        ),
+        City(
+          id: 135189,
+          name: 'Hvalfjarðarsveit',
+          latitude: '64.44265000',
+          longitude: '-21.61086000',
+        ),
+        City(
+          id: 135232,
+          name: 'Ólafsvík',
+          latitude: '64.89429000',
+          longitude: '-23.70918000',
+        ),
+        City(
+          id: 135216,
+          name: 'Skorradalshreppur',
+          latitude: '64.51667000',
+          longitude: '-21.50000000',
+        ),
+        City(
+          id: 135218,
+          name: 'Snæfellsbær',
+          latitude: '64.86667000',
+          longitude: '-23.50000000',
+        ),
+        City(
+          id: 135220,
+          name: 'Stykkishólmur',
+          latitude: '65.07537000',
+          longitude: '-22.72977000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3432,
+      name: 'Westfjords',
+      stateCode: '4',
+      cities: [
+        City(
+          id: 135230,
+          name: 'Ísafjarðarbær',
+          latitude: '66.07586000',
+          longitude: '-23.12794000',
+        ),
+        City(
+          id: 135231,
+          name: 'Ísafjörður',
+          latitude: '66.07475000',
+          longitude: '-23.13498000',
+        ),
+        City(
+          id: 135204,
+          name: 'Reykhólahreppur',
+          latitude: '65.60990000',
+          longitude: '-22.33324000',
+        ),
+        City(
+          id: 135219,
+          name: 'Strandabyggð',
+          latitude: '65.77455000',
+          longitude: '-21.95725000',
+        ),
+        City(
+          id: 135224,
+          name: 'Tálknafjarðarhreppur',
+          latitude: '65.61667000',
+          longitude: '-23.88333000',
+        ),
+      ],
+    ),
+  ],
+);

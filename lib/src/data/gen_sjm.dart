@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const sjm = Country(
-    id: 211,
-    name: 'Svalbard And Jan Mayen Islands',
-    iso3: 'SJM',
-    iso2: 'SJ',
-    phoneCode: '47',
-    capital: 'Longyearbyen',
-    currency: 'NOK',
-    currencySymbol: r'kr',
-    tld: '.sj',
-    native: 'Svalbard og Jan Mayen',
-    region: 'Europe',
-    subregion: 'Northern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Arctic/Longyearbyen',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'CET',
-          tzName: 'Central European Time')
-    ],
-    emoji: '🇸🇯',
-    emojiU: 'U+1F1F8 U+1F1EF',
-    states: []);
+  id: 211,
+  name: 'Svalbard And Jan Mayen Islands',
+  iso3: 'SJM',
+  iso2: 'SJ',
+  phoneCode: '47',
+  capital: 'Longyearbyen',
+  currency: 'NOK',
+  currencySymbol: r'kr',
+  tld: '.sj',
+  native: 'Svalbard og Jan Mayen',
+  region: 'Europe',
+  subregion: 'Northern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Arctic/Longyearbyen',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'CET',
+      tzName: 'Central European Time',
+    )
+  ],
+  emoji: '🇸🇯',
+  emojiU: 'U+1F1F8 U+1F1EF',
+  states: [],
+);

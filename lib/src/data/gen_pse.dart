@@ -3,32 +3,35 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const pse = Country(
-    id: 169,
-    name: 'Palestinian Territory Occupied',
-    iso3: 'PSE',
-    iso2: 'PS',
-    phoneCode: '970',
-    capital: 'East Jerusalem',
-    currency: 'ILS',
-    currencySymbol: r'₪',
-    tld: '.ps',
-    native: 'فلسطين',
-    region: 'Asia',
-    subregion: 'Western Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Gaza',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'EET',
-          tzName: 'Eastern European Time'),
-      Timezone(
-          zoneName: 'Asia/Hebron',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'EET',
-          tzName: 'Eastern European Time')
-    ],
-    emoji: '🇵🇸',
-    emojiU: 'U+1F1F5 U+1F1F8',
-    states: []);
+  id: 169,
+  name: 'Palestinian Territory Occupied',
+  iso3: 'PSE',
+  iso2: 'PS',
+  phoneCode: '970',
+  capital: 'East Jerusalem',
+  currency: 'ILS',
+  currencySymbol: r'₪',
+  tld: '.ps',
+  native: 'فلسطين',
+  region: 'Asia',
+  subregion: 'Western Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Gaza',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'EET',
+      tzName: 'Eastern European Time',
+    ),
+    Timezone(
+      zoneName: 'Asia/Hebron',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'EET',
+      tzName: 'Eastern European Time',
+    ),
+  ],
+  emoji: '🇵🇸',
+  emojiU: 'U+1F1F5 U+1F1F8',
+  states: [],
+);

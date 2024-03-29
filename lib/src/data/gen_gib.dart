@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const gib = Country(
-    id: 84,
-    name: 'Gibraltar',
-    iso3: 'GIB',
-    iso2: 'GI',
-    phoneCode: '350',
-    capital: 'Gibraltar',
-    currency: 'GIP',
-    currencySymbol: r'£',
-    tld: '.gi',
-    native: 'Gibraltar',
-    region: 'Europe',
-    subregion: 'Southern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Europe/Gibraltar',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'CET',
-          tzName: 'Central European Time')
-    ],
-    emoji: '🇬🇮',
-    emojiU: 'U+1F1EC U+1F1EE',
-    states: []);
+  id: 84,
+  name: 'Gibraltar',
+  iso3: 'GIB',
+  iso2: 'GI',
+  phoneCode: '350',
+  capital: 'Gibraltar',
+  currency: 'GIP',
+  currencySymbol: r'£',
+  tld: '.gi',
+  native: 'Gibraltar',
+  region: 'Europe',
+  subregion: 'Southern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Europe/Gibraltar',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'CET',
+      tzName: 'Central European Time',
+    )
+  ],
+  emoji: '🇬🇮',
+  emojiU: 'U+1F1EC U+1F1EE',
+  states: [],
+);

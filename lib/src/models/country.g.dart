@@ -26,7 +26,7 @@ Country _$CountryFromJson(Map<String, dynamic> json) {
     emoji: json['emoji'] as String,
     emojiU: json['emojiU'] as String,
     states: (json['states'] as List<dynamic>)
-        .map((e) => State.fromJson(e as Map<String, dynamic>))
+        .map((e) => CountryState.fromJson(e as Map<String, dynamic>))
         .toList(),
   );
 }

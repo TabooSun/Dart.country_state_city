@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const pri = Country(
-    id: 178,
-    name: 'Puerto Rico',
-    iso3: 'PRI',
-    iso2: 'PR',
-    phoneCode: '+1-787 and 1-939',
-    capital: 'San Juan',
-    currency: 'USD',
-    currencySymbol: r'$',
-    tld: '.pr',
-    native: 'Puerto Rico',
-    region: 'Americas',
-    subregion: 'Caribbean',
-    timezones: [
-      Timezone(
-          zoneName: 'America/Puerto_Rico',
-          gmtOffset: -14400,
-          gmtOffsetName: 'UTC-04:00',
-          abbreviation: 'AST',
-          tzName: 'Atlantic Standard Time')
-    ],
-    emoji: '🇵🇷',
-    emojiU: 'U+1F1F5 U+1F1F7',
-    states: []);
+  id: 178,
+  name: 'Puerto Rico',
+  iso3: 'PRI',
+  iso2: 'PR',
+  phoneCode: '+1-787 and 1-939',
+  capital: 'San Juan',
+  currency: 'USD',
+  currencySymbol: r'$',
+  tld: '.pr',
+  native: 'Puerto Rico',
+  region: 'Americas',
+  subregion: 'Caribbean',
+  timezones: [
+    Timezone(
+      zoneName: 'America/Puerto_Rico',
+      gmtOffset: -14400,
+      gmtOffsetName: 'UTC-04:00',
+      abbreviation: 'AST',
+      tzName: 'Atlantic Standard Time',
+    )
+  ],
+  emoji: '🇵🇷',
+  emojiU: 'U+1F1F5 U+1F1F7',
+  states: [],
+);

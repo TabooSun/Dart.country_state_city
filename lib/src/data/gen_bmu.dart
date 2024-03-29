@@ -3,50 +3,95 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const bmu = Country(
-    id: 25,
-    name: 'Bermuda',
-    iso3: 'BMU',
-    iso2: 'BM',
-    phoneCode: '+1-441',
-    capital: 'Hamilton',
-    currency: 'BMD',
-    currencySymbol: r'$',
-    tld: '.bm',
-    native: 'Bermuda',
-    region: 'Americas',
-    subregion: 'Northern America',
-    timezones: [
-      Timezone(
-          zoneName: 'Atlantic/Bermuda',
-          gmtOffset: -14400,
-          gmtOffsetName: 'UTC-04:00',
-          abbreviation: 'AST',
-          tzName: 'Atlantic Standard Time')
-    ],
-    emoji: '🇧🇲',
-    emojiU: 'U+1F1E7 U+1F1F2',
-    states: [
-      State(id: 4860, name: 'Devonshire Parish', stateCode: 'DEV', cities: []),
-      State(
-          id: 4862,
-          name: 'Hamilton Municipality',
-          stateCode: 'HAM',
-          cities: []),
-      State(id: 4861, name: 'Hamilton Parish', stateCode: 'HA', cities: []),
-      State(id: 4863, name: 'Paget Parish', stateCode: 'PAG', cities: []),
-      State(id: 4864, name: 'Pembroke Parish', stateCode: 'PEM', cities: []),
-      State(
-          id: 4865,
-          name: 'Saint George\'s Municipality',
-          stateCode: 'SG',
-          cities: []),
-      State(
-          id: 4866,
-          name: 'Saint George\'s Parish',
-          stateCode: 'SGE',
-          cities: []),
-      State(id: 4867, name: 'Sandys Parish', stateCode: 'SAN', cities: []),
-      State(id: 4868, name: 'Smith\'s Parish,', stateCode: 'SMI', cities: []),
-      State(id: 4869, name: 'Southampton Parish', stateCode: 'SOU', cities: []),
-      State(id: 4870, name: 'Warwick Parish', stateCode: 'WAR', cities: [])
-    ]);
+  id: 25,
+  name: 'Bermuda',
+  iso3: 'BMU',
+  iso2: 'BM',
+  phoneCode: '+1-441',
+  capital: 'Hamilton',
+  currency: 'BMD',
+  currencySymbol: r'$',
+  tld: '.bm',
+  native: 'Bermuda',
+  region: 'Americas',
+  subregion: 'Northern America',
+  timezones: [
+    Timezone(
+      zoneName: 'Atlantic/Bermuda',
+      gmtOffset: -14400,
+      gmtOffsetName: 'UTC-04:00',
+      abbreviation: 'AST',
+      tzName: 'Atlantic Standard Time',
+    )
+  ],
+  emoji: '🇧🇲',
+  emojiU: 'U+1F1E7 U+1F1F2',
+  states: [
+    CountryState(
+      id: 4860,
+      name: 'Devonshire Parish',
+      stateCode: 'DEV',
+      cities: [],
+    ),
+    CountryState(
+      id: 4862,
+      name: 'Hamilton Municipality',
+      stateCode: 'HAM',
+      cities: [],
+    ),
+    CountryState(
+      id: 4861,
+      name: 'Hamilton Parish',
+      stateCode: 'HA',
+      cities: [],
+    ),
+    CountryState(
+      id: 4863,
+      name: 'Paget Parish',
+      stateCode: 'PAG',
+      cities: [],
+    ),
+    CountryState(
+      id: 4864,
+      name: 'Pembroke Parish',
+      stateCode: 'PEM',
+      cities: [],
+    ),
+    CountryState(
+      id: 4865,
+      name: 'Saint George\'s Municipality',
+      stateCode: 'SG',
+      cities: [],
+    ),
+    CountryState(
+      id: 4866,
+      name: 'Saint George\'s Parish',
+      stateCode: 'SGE',
+      cities: [],
+    ),
+    CountryState(
+      id: 4867,
+      name: 'Sandys Parish',
+      stateCode: 'SAN',
+      cities: [],
+    ),
+    CountryState(
+      id: 4868,
+      name: 'Smith\'s Parish,',
+      stateCode: 'SMI',
+      cities: [],
+    ),
+    CountryState(
+      id: 4869,
+      name: 'Southampton Parish',
+      stateCode: 'SOU',
+      cities: [],
+    ),
+    CountryState(
+      id: 4870,
+      name: 'Warwick Parish',
+      stateCode: 'WAR',
+      cities: [],
+    ),
+  ],
+);

@@ -3,420 +3,565 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const sen = Country(
-    id: 195,
-    name: 'Senegal',
-    iso3: 'SEN',
-    iso2: 'SN',
-    phoneCode: '221',
-    capital: 'Dakar',
-    currency: 'XOF',
-    currencySymbol: r'CFA',
-    tld: '.sn',
-    native: 'Sénégal',
-    region: 'Africa',
-    subregion: 'Western Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Dakar',
-          gmtOffset: 0,
-          gmtOffsetName: 'UTC±00',
-          abbreviation: 'GMT',
-          tzName: 'Greenwich Mean Time')
-    ],
-    emoji: '🇸🇳',
-    emojiU: 'U+1F1F8 U+1F1F3',
-    states: [
-      State(id: 473, name: 'Dakar', stateCode: 'DK', cities: [
-        City(
-            id: 104704,
-            name: 'Dakar',
-            latitude: '14.69370000',
-            longitude: '-17.44406000'),
-        City(
-            id: 104705,
-            name: 'Dakar Department',
-            latitude: '14.71403000',
-            longitude: '-17.45534000'),
-        City(
-            id: 104716,
-            name: 'Guédiawaye Department',
-            latitude: '14.77610000',
-            longitude: '-17.39560000'),
-        City(
-            id: 104737,
-            name: 'Mermoz Boabab',
-            latitude: '14.70649000',
-            longitude: '-17.47581000'),
-        City(
-            id: 104744,
-            name: 'N’diareme limamoulaye',
-            latitude: '14.78148000',
-            longitude: '-17.38410000'),
-        City(
-            id: 104748,
-            name: 'Pikine',
-            latitude: '14.76457000',
-            longitude: '-17.39071000'),
-        City(
-            id: 104749,
-            name: 'Pikine Department',
-            latitude: '14.76515000',
-            longitude: '-17.35198000'),
-        City(
-            id: 104756,
-            name: 'Rufisque Department',
-            latitude: '14.74339000',
-            longitude: '-17.19841000')
-      ]),
-      State(id: 480, name: 'Diourbel Region', stateCode: 'DB', cities: [
-        City(
-            id: 104734,
-            name: 'Mbacké',
-            latitude: '14.80828000',
-            longitude: '-15.86454000'),
-        City(
-            id: 104735,
-            name: 'Mbaké',
-            latitude: '14.79032000',
-            longitude: '-15.90803000'),
-        City(
-            id: 104769,
-            name: 'Tiébo',
-            latitude: '14.63333000',
-            longitude: '-16.23333000'),
-        City(
-            id: 104770,
-            name: 'Touba',
-            latitude: '14.85000000',
-            longitude: '-15.88333000')
-      ]),
-      State(id: 479, name: 'Fatick', stateCode: 'FK', cities: [
-        City(
-            id: 104708,
-            name: 'Diofior',
-            latitude: '14.18333000',
-            longitude: '-16.66667000'),
-        City(
-            id: 104710,
-            name: 'Fatick Department',
-            latitude: '14.25909000',
-            longitude: '-16.49884000'),
-        City(
-            id: 104711,
-            name: 'Foundiougne',
-            latitude: '14.13333000',
-            longitude: '-16.46667000'),
-        City(
-            id: 104715,
-            name: 'Guinguinéo',
-            latitude: '14.26667000',
-            longitude: '-15.95000000'),
-        City(
-            id: 104747,
-            name: 'Passi',
-            latitude: '13.98333000',
-            longitude: '-16.26667000'),
-        City(
-            id: 104751,
-            name: 'Pourham',
-            latitude: '14.35000000',
-            longitude: '-16.41667000'),
-        City(
-            id: 104759,
-            name: 'Sokone',
-            latitude: '13.88333000',
-            longitude: '-16.36667000')
-      ]),
-      State(id: 475, name: 'Kaffrine', stateCode: 'KA', cities: [
-        City(
-            id: 104719,
-            name: 'Kaffrine',
-            latitude: '14.10594000',
-            longitude: '-15.55080000'),
-        City(
-            id: 104726,
-            name: 'Koungheul',
-            latitude: '13.98333000',
-            longitude: '-14.80000000')
-      ]),
-      State(id: 483, name: 'Kaolack', stateCode: 'KL', cities: [
-        City(
-            id: 104712,
-            name: 'Gandiaye',
-            latitude: '14.23333000',
-            longitude: '-16.26667000'),
-        City(
-            id: 104721,
-            name: 'Kaolack',
-            latitude: '14.15197000',
-            longitude: '-16.07259000'),
-        City(
-            id: 104741,
-            name: 'Ndofane',
-            latitude: '13.91667000',
-            longitude: '-15.93333000'),
-        City(
-            id: 104743,
-            name: 'Nioro du Rip',
-            latitude: '13.75000000',
-            longitude: '-15.80000000')
-      ]),
-      State(id: 481, name: 'Kédougou', stateCode: 'KE', cities: [
-        City(
-            id: 104709,
-            name: 'Département de Salémata',
-            latitude: '12.59971000',
-            longitude: '-12.77619000'),
-        City(
-            id: 104727,
-            name: 'Kédougou',
-            latitude: '12.55561000',
-            longitude: '-12.18076000'),
-        City(
-            id: 104728,
-            name: 'Kédougou Department',
-            latitude: '12.81716000',
-            longitude: '-12.17834000'),
-        City(
-            id: 104758,
-            name: 'Saraya',
-            latitude: '13.00150000',
-            longitude: '-11.79627000')
-      ]),
-      State(id: 474, name: 'Kolda', stateCode: 'KD', cities: [
-        City(
-            id: 104724,
-            name: 'Kolda',
-            latitude: '12.89390000',
-            longitude: '-14.94125000'),
-        City(
-            id: 104725,
-            name: 'Kolda Department',
-            latitude: '12.88300000',
-            longitude: '-14.95000000'),
-        City(
-            id: 104731,
-            name: 'Marsassoum',
-            latitude: '12.82750000',
-            longitude: '-15.98056000'),
-        City(
-            id: 104771,
-            name: 'Vélingara',
-            latitude: '13.15000000',
-            longitude: '-14.11667000')
-      ]),
-      State(id: 485, name: 'Louga', stateCode: 'LG', cities: [
-        City(
-            id: 104706,
-            name: 'Dara',
-            latitude: '15.34844000',
-            longitude: '-15.47993000'),
-        City(
-            id: 104717,
-            name: 'Guéoul',
-            latitude: '15.48333000',
-            longitude: '-16.35000000'),
-        City(
-            id: 104729,
-            name: 'Linguere Department',
-            latitude: '15.35900000',
-            longitude: '-15.15800000'),
-        City(
-            id: 104730,
-            name: 'Louga',
-            latitude: '15.61867000',
-            longitude: '-16.22436000'),
-        City(
-            id: 104739,
-            name: 'Ndibène Dahra',
-            latitude: '15.33380000',
-            longitude: '-15.47660000')
-      ]),
-      State(id: 476, name: 'Matam', stateCode: 'MT', cities: [
-        City(
-            id: 104707,
-            name: 'Diawara',
-            latitude: '15.02196000',
-            longitude: '-12.54374000'),
-        City(
-            id: 104720,
-            name: 'Kanel',
-            latitude: '15.49160000',
-            longitude: '-13.17627000'),
-        City(
-            id: 104732,
-            name: 'Matam',
-            latitude: '15.65587000',
-            longitude: '-13.25544000'),
-        City(
-            id: 104733,
-            name: 'Matam Department',
-            latitude: '15.73191000',
-            longitude: '-13.63393000'),
-        City(
-            id: 104745,
-            name: 'Ouro Sogui',
-            latitude: '15.60588000',
-            longitude: '-13.32230000'),
-        City(
-            id: 104753,
-            name: 'Ranérou',
-            latitude: '15.30000000',
-            longitude: '-13.96667000'),
-        City(
-            id: 104761,
-            name: 'Sémé',
-            latitude: '15.19422000',
-            longitude: '-12.94482000'),
-        City(
-            id: 104772,
-            name: 'Waoundé',
-            latitude: '15.26367000',
-            longitude: '-12.86821000')
-      ]),
-      State(id: 477, name: 'Saint-Louis', stateCode: 'SL', cities: [
-        City(
-            id: 104713,
-            name: 'Goléré',
-            latitude: '16.25575000',
-            longitude: '-14.10165000'),
-        City(
-            id: 104740,
-            name: 'Ndioum',
-            latitude: '16.51293000',
-            longitude: '-14.64706000'),
-        City(
-            id: 104750,
-            name: 'Polel Diaoubé',
-            latitude: '15.26667000',
-            longitude: '-13.00000000'),
-        City(
-            id: 104754,
-            name: 'Richard-Toll',
-            latitude: '16.46250000',
-            longitude: '-15.70083000'),
-        City(
-            id: 104755,
-            name: 'Rosso',
-            latitude: '16.42028000',
-            longitude: '-15.79834000'),
-        City(
-            id: 104757,
-            name: 'Saint-Louis',
-            latitude: '16.01793000',
-            longitude: '-16.48962000')
-      ]),
-      State(id: 482, name: 'Sédhiou', stateCode: 'SE', cities: [
-        City(
-            id: 104714,
-            name: 'Goudomp Department',
-            latitude: '12.57778000',
-            longitude: '-15.87222000'),
-        City(
-            id: 104760,
-            name: 'Sédhiou',
-            latitude: '12.70806000',
-            longitude: '-15.55694000')
-      ]),
-      State(id: 486, name: 'Tambacounda Region', stateCode: 'TC', cities: [
-        City(
-            id: 104762,
-            name: 'Tambacounda',
-            latitude: '13.77073000',
-            longitude: '-13.66734000'),
-        City(
-            id: 104763,
-            name: 'Tambacounda Department',
-            latitude: '13.60500000',
-            longitude: '-13.64700000')
-      ]),
-      State(id: 484, name: 'Thiès Region', stateCode: 'TH', cities: [
-        City(
-            id: 104718,
-            name: 'Joal-Fadiout',
-            latitude: '14.16667000',
-            longitude: '-16.83333000'),
-        City(
-            id: 104722,
-            name: 'Kayar',
-            latitude: '14.91893000',
-            longitude: '-17.11978000'),
-        City(
-            id: 104723,
-            name: 'Khombole',
-            latitude: '14.76667000',
-            longitude: '-16.70000000'),
-        City(
-            id: 104736,
-            name: 'Mbour',
-            latitude: '14.40569000',
-            longitude: '-16.85559000'),
-        City(
-            id: 104738,
-            name: 'Mékhé',
-            latitude: '15.10970000',
-            longitude: '-16.62180000'),
-        City(
-            id: 104742,
-            name: 'Nguékhokh',
-            latitude: '14.51255000',
-            longitude: '-17.00447000'),
-        City(
-            id: 104752,
-            name: 'Pout',
-            latitude: '14.77099000',
-            longitude: '-17.06107000'),
-        City(
-            id: 104764,
-            name: 'Thiès',
-            latitude: '14.73004000',
-            longitude: '-16.86974000'),
-        City(
-            id: 104765,
-            name: 'Thiès Nones',
-            latitude: '14.78333000',
-            longitude: '-16.96667000'),
-        City(
-            id: 104766,
-            name: 'Tiadiaye',
-            latitude: '14.41667000',
-            longitude: '-16.70000000'),
-        City(
-            id: 104768,
-            name: 'Tivaouane',
-            latitude: '15.08519000',
-            longitude: '-16.71058000'),
-        City(
-            id: 104773,
-            name: 'Warang',
-            latitude: '14.37349000',
-            longitude: '-16.94366000')
-      ]),
-      State(id: 478, name: 'Ziguinchor', stateCode: 'ZG', cities: [
-        City(
-            id: 104702,
-            name: 'Adéane',
-            latitude: '12.63000000',
-            longitude: '-16.01694000'),
-        City(
-            id: 104703,
-            name: 'Bignona',
-            latitude: '12.81028000',
-            longitude: '-16.22639000'),
-        City(
-            id: 104746,
-            name: 'Oussouye',
-            latitude: '12.48500000',
-            longitude: '-16.54694000'),
-        City(
-            id: 104767,
-            name: 'Tionk Essil',
-            latitude: '12.78556000',
-            longitude: '-16.52167000'),
-        City(
-            id: 104774,
-            name: 'Ziguinchor',
-            latitude: '12.56801000',
-            longitude: '-16.27326000')
-      ])
-    ]);
+  id: 195,
+  name: 'Senegal',
+  iso3: 'SEN',
+  iso2: 'SN',
+  phoneCode: '221',
+  capital: 'Dakar',
+  currency: 'XOF',
+  currencySymbol: r'CFA',
+  tld: '.sn',
+  native: 'Sénégal',
+  region: 'Africa',
+  subregion: 'Western Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Dakar',
+      gmtOffset: 0,
+      gmtOffsetName: 'UTC±00',
+      abbreviation: 'GMT',
+      tzName: 'Greenwich Mean Time',
+    )
+  ],
+  emoji: '🇸🇳',
+  emojiU: 'U+1F1F8 U+1F1F3',
+  states: [
+    CountryState(
+      id: 473,
+      name: 'Dakar',
+      stateCode: 'DK',
+      cities: [
+        City(
+          id: 104704,
+          name: 'Dakar',
+          latitude: '14.69370000',
+          longitude: '-17.44406000',
+        ),
+        City(
+          id: 104705,
+          name: 'Dakar Department',
+          latitude: '14.71403000',
+          longitude: '-17.45534000',
+        ),
+        City(
+          id: 104716,
+          name: 'Guédiawaye Department',
+          latitude: '14.77610000',
+          longitude: '-17.39560000',
+        ),
+        City(
+          id: 104737,
+          name: 'Mermoz Boabab',
+          latitude: '14.70649000',
+          longitude: '-17.47581000',
+        ),
+        City(
+          id: 104744,
+          name: 'N’diareme limamoulaye',
+          latitude: '14.78148000',
+          longitude: '-17.38410000',
+        ),
+        City(
+          id: 104748,
+          name: 'Pikine',
+          latitude: '14.76457000',
+          longitude: '-17.39071000',
+        ),
+        City(
+          id: 104749,
+          name: 'Pikine Department',
+          latitude: '14.76515000',
+          longitude: '-17.35198000',
+        ),
+        City(
+          id: 104756,
+          name: 'Rufisque Department',
+          latitude: '14.74339000',
+          longitude: '-17.19841000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 480,
+      name: 'Diourbel Region',
+      stateCode: 'DB',
+      cities: [
+        City(
+          id: 104734,
+          name: 'Mbacké',
+          latitude: '14.80828000',
+          longitude: '-15.86454000',
+        ),
+        City(
+          id: 104735,
+          name: 'Mbaké',
+          latitude: '14.79032000',
+          longitude: '-15.90803000',
+        ),
+        City(
+          id: 104769,
+          name: 'Tiébo',
+          latitude: '14.63333000',
+          longitude: '-16.23333000',
+        ),
+        City(
+          id: 104770,
+          name: 'Touba',
+          latitude: '14.85000000',
+          longitude: '-15.88333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 479,
+      name: 'Fatick',
+      stateCode: 'FK',
+      cities: [
+        City(
+          id: 104708,
+          name: 'Diofior',
+          latitude: '14.18333000',
+          longitude: '-16.66667000',
+        ),
+        City(
+          id: 104710,
+          name: 'Fatick Department',
+          latitude: '14.25909000',
+          longitude: '-16.49884000',
+        ),
+        City(
+          id: 104711,
+          name: 'Foundiougne',
+          latitude: '14.13333000',
+          longitude: '-16.46667000',
+        ),
+        City(
+          id: 104715,
+          name: 'Guinguinéo',
+          latitude: '14.26667000',
+          longitude: '-15.95000000',
+        ),
+        City(
+          id: 104747,
+          name: 'Passi',
+          latitude: '13.98333000',
+          longitude: '-16.26667000',
+        ),
+        City(
+          id: 104751,
+          name: 'Pourham',
+          latitude: '14.35000000',
+          longitude: '-16.41667000',
+        ),
+        City(
+          id: 104759,
+          name: 'Sokone',
+          latitude: '13.88333000',
+          longitude: '-16.36667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 475,
+      name: 'Kaffrine',
+      stateCode: 'KA',
+      cities: [
+        City(
+          id: 104719,
+          name: 'Kaffrine',
+          latitude: '14.10594000',
+          longitude: '-15.55080000',
+        ),
+        City(
+          id: 104726,
+          name: 'Koungheul',
+          latitude: '13.98333000',
+          longitude: '-14.80000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 483,
+      name: 'Kaolack',
+      stateCode: 'KL',
+      cities: [
+        City(
+          id: 104712,
+          name: 'Gandiaye',
+          latitude: '14.23333000',
+          longitude: '-16.26667000',
+        ),
+        City(
+          id: 104721,
+          name: 'Kaolack',
+          latitude: '14.15197000',
+          longitude: '-16.07259000',
+        ),
+        City(
+          id: 104741,
+          name: 'Ndofane',
+          latitude: '13.91667000',
+          longitude: '-15.93333000',
+        ),
+        City(
+          id: 104743,
+          name: 'Nioro du Rip',
+          latitude: '13.75000000',
+          longitude: '-15.80000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 481,
+      name: 'Kédougou',
+      stateCode: 'KE',
+      cities: [
+        City(
+          id: 104709,
+          name: 'Département de Salémata',
+          latitude: '12.59971000',
+          longitude: '-12.77619000',
+        ),
+        City(
+          id: 104727,
+          name: 'Kédougou',
+          latitude: '12.55561000',
+          longitude: '-12.18076000',
+        ),
+        City(
+          id: 104728,
+          name: 'Kédougou Department',
+          latitude: '12.81716000',
+          longitude: '-12.17834000',
+        ),
+        City(
+          id: 104758,
+          name: 'Saraya',
+          latitude: '13.00150000',
+          longitude: '-11.79627000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 474,
+      name: 'Kolda',
+      stateCode: 'KD',
+      cities: [
+        City(
+          id: 104724,
+          name: 'Kolda',
+          latitude: '12.89390000',
+          longitude: '-14.94125000',
+        ),
+        City(
+          id: 104725,
+          name: 'Kolda Department',
+          latitude: '12.88300000',
+          longitude: '-14.95000000',
+        ),
+        City(
+          id: 104731,
+          name: 'Marsassoum',
+          latitude: '12.82750000',
+          longitude: '-15.98056000',
+        ),
+        City(
+          id: 104771,
+          name: 'Vélingara',
+          latitude: '13.15000000',
+          longitude: '-14.11667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 485,
+      name: 'Louga',
+      stateCode: 'LG',
+      cities: [
+        City(
+          id: 104706,
+          name: 'Dara',
+          latitude: '15.34844000',
+          longitude: '-15.47993000',
+        ),
+        City(
+          id: 104717,
+          name: 'Guéoul',
+          latitude: '15.48333000',
+          longitude: '-16.35000000',
+        ),
+        City(
+          id: 104729,
+          name: 'Linguere Department',
+          latitude: '15.35900000',
+          longitude: '-15.15800000',
+        ),
+        City(
+          id: 104730,
+          name: 'Louga',
+          latitude: '15.61867000',
+          longitude: '-16.22436000',
+        ),
+        City(
+          id: 104739,
+          name: 'Ndibène Dahra',
+          latitude: '15.33380000',
+          longitude: '-15.47660000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 476,
+      name: 'Matam',
+      stateCode: 'MT',
+      cities: [
+        City(
+          id: 104707,
+          name: 'Diawara',
+          latitude: '15.02196000',
+          longitude: '-12.54374000',
+        ),
+        City(
+          id: 104720,
+          name: 'Kanel',
+          latitude: '15.49160000',
+          longitude: '-13.17627000',
+        ),
+        City(
+          id: 104732,
+          name: 'Matam',
+          latitude: '15.65587000',
+          longitude: '-13.25544000',
+        ),
+        City(
+          id: 104733,
+          name: 'Matam Department',
+          latitude: '15.73191000',
+          longitude: '-13.63393000',
+        ),
+        City(
+          id: 104745,
+          name: 'Ouro Sogui',
+          latitude: '15.60588000',
+          longitude: '-13.32230000',
+        ),
+        City(
+          id: 104753,
+          name: 'Ranérou',
+          latitude: '15.30000000',
+          longitude: '-13.96667000',
+        ),
+        City(
+          id: 104761,
+          name: 'Sémé',
+          latitude: '15.19422000',
+          longitude: '-12.94482000',
+        ),
+        City(
+          id: 104772,
+          name: 'Waoundé',
+          latitude: '15.26367000',
+          longitude: '-12.86821000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 477,
+      name: 'Saint-Louis',
+      stateCode: 'SL',
+      cities: [
+        City(
+          id: 104713,
+          name: 'Goléré',
+          latitude: '16.25575000',
+          longitude: '-14.10165000',
+        ),
+        City(
+          id: 104740,
+          name: 'Ndioum',
+          latitude: '16.51293000',
+          longitude: '-14.64706000',
+        ),
+        City(
+          id: 104750,
+          name: 'Polel Diaoubé',
+          latitude: '15.26667000',
+          longitude: '-13.00000000',
+        ),
+        City(
+          id: 104754,
+          name: 'Richard-Toll',
+          latitude: '16.46250000',
+          longitude: '-15.70083000',
+        ),
+        City(
+          id: 104755,
+          name: 'Rosso',
+          latitude: '16.42028000',
+          longitude: '-15.79834000',
+        ),
+        City(
+          id: 104757,
+          name: 'Saint-Louis',
+          latitude: '16.01793000',
+          longitude: '-16.48962000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 482,
+      name: 'Sédhiou',
+      stateCode: 'SE',
+      cities: [
+        City(
+          id: 104714,
+          name: 'Goudomp Department',
+          latitude: '12.57778000',
+          longitude: '-15.87222000',
+        ),
+        City(
+          id: 104760,
+          name: 'Sédhiou',
+          latitude: '12.70806000',
+          longitude: '-15.55694000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 486,
+      name: 'Tambacounda Region',
+      stateCode: 'TC',
+      cities: [
+        City(
+          id: 104762,
+          name: 'Tambacounda',
+          latitude: '13.77073000',
+          longitude: '-13.66734000',
+        ),
+        City(
+          id: 104763,
+          name: 'Tambacounda Department',
+          latitude: '13.60500000',
+          longitude: '-13.64700000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 484,
+      name: 'Thiès Region',
+      stateCode: 'TH',
+      cities: [
+        City(
+          id: 104718,
+          name: 'Joal-Fadiout',
+          latitude: '14.16667000',
+          longitude: '-16.83333000',
+        ),
+        City(
+          id: 104722,
+          name: 'Kayar',
+          latitude: '14.91893000',
+          longitude: '-17.11978000',
+        ),
+        City(
+          id: 104723,
+          name: 'Khombole',
+          latitude: '14.76667000',
+          longitude: '-16.70000000',
+        ),
+        City(
+          id: 104736,
+          name: 'Mbour',
+          latitude: '14.40569000',
+          longitude: '-16.85559000',
+        ),
+        City(
+          id: 104738,
+          name: 'Mékhé',
+          latitude: '15.10970000',
+          longitude: '-16.62180000',
+        ),
+        City(
+          id: 104742,
+          name: 'Nguékhokh',
+          latitude: '14.51255000',
+          longitude: '-17.00447000',
+        ),
+        City(
+          id: 104752,
+          name: 'Pout',
+          latitude: '14.77099000',
+          longitude: '-17.06107000',
+        ),
+        City(
+          id: 104764,
+          name: 'Thiès',
+          latitude: '14.73004000',
+          longitude: '-16.86974000',
+        ),
+        City(
+          id: 104765,
+          name: 'Thiès Nones',
+          latitude: '14.78333000',
+          longitude: '-16.96667000',
+        ),
+        City(
+          id: 104766,
+          name: 'Tiadiaye',
+          latitude: '14.41667000',
+          longitude: '-16.70000000',
+        ),
+        City(
+          id: 104768,
+          name: 'Tivaouane',
+          latitude: '15.08519000',
+          longitude: '-16.71058000',
+        ),
+        City(
+          id: 104773,
+          name: 'Warang',
+          latitude: '14.37349000',
+          longitude: '-16.94366000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 478,
+      name: 'Ziguinchor',
+      stateCode: 'ZG',
+      cities: [
+        City(
+          id: 104702,
+          name: 'Adéane',
+          latitude: '12.63000000',
+          longitude: '-16.01694000',
+        ),
+        City(
+          id: 104703,
+          name: 'Bignona',
+          latitude: '12.81028000',
+          longitude: '-16.22639000',
+        ),
+        City(
+          id: 104746,
+          name: 'Oussouye',
+          latitude: '12.48500000',
+          longitude: '-16.54694000',
+        ),
+        City(
+          id: 104767,
+          name: 'Tionk Essil',
+          latitude: '12.78556000',
+          longitude: '-16.52167000',
+        ),
+        City(
+          id: 104774,
+          name: 'Ziguinchor',
+          latitude: '12.56801000',
+          longitude: '-16.27326000',
+        ),
+      ],
+    ),
+  ],
+);

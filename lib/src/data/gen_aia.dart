@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const aia = Country(
-    id: 8,
-    name: 'Anguilla',
-    iso3: 'AIA',
-    iso2: 'AI',
-    phoneCode: '+1-264',
-    capital: 'The Valley',
-    currency: 'XCD',
-    currencySymbol: r'$',
-    tld: '.ai',
-    native: 'Anguilla',
-    region: 'Americas',
-    subregion: 'Caribbean',
-    timezones: [
-      Timezone(
-          zoneName: 'America/Anguilla',
-          gmtOffset: -14400,
-          gmtOffsetName: 'UTC-04:00',
-          abbreviation: 'AST',
-          tzName: 'Atlantic Standard Time')
-    ],
-    emoji: '🇦🇮',
-    emojiU: 'U+1F1E6 U+1F1EE',
-    states: []);
+  id: 8,
+  name: 'Anguilla',
+  iso3: 'AIA',
+  iso2: 'AI',
+  phoneCode: '+1-264',
+  capital: 'The Valley',
+  currency: 'XCD',
+  currencySymbol: r'$',
+  tld: '.ai',
+  native: 'Anguilla',
+  region: 'Americas',
+  subregion: 'Caribbean',
+  timezones: [
+    Timezone(
+      zoneName: 'America/Anguilla',
+      gmtOffset: -14400,
+      gmtOffsetName: 'UTC-04:00',
+      abbreviation: 'AST',
+      tzName: 'Atlantic Standard Time',
+    )
+  ],
+  emoji: '🇦🇮',
+  emojiU: 'U+1F1E6 U+1F1EE',
+  states: [],
+);

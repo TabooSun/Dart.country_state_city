@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const fro = Country(
-    id: 72,
-    name: 'Faroe Islands',
-    iso3: 'FRO',
-    iso2: 'FO',
-    phoneCode: '298',
-    capital: 'Torshavn',
-    currency: 'DKK',
-    currencySymbol: r'Kr.',
-    tld: '.fo',
-    native: 'Føroyar',
-    region: 'Europe',
-    subregion: 'Northern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Atlantic/Faroe',
-          gmtOffset: 0,
-          gmtOffsetName: 'UTC±00',
-          abbreviation: 'WET',
-          tzName: 'Western European Time')
-    ],
-    emoji: '🇫🇴',
-    emojiU: 'U+1F1EB U+1F1F4',
-    states: []);
+  id: 72,
+  name: 'Faroe Islands',
+  iso3: 'FRO',
+  iso2: 'FO',
+  phoneCode: '298',
+  capital: 'Torshavn',
+  currency: 'DKK',
+  currencySymbol: r'Kr.',
+  tld: '.fo',
+  native: 'Føroyar',
+  region: 'Europe',
+  subregion: 'Northern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Atlantic/Faroe',
+      gmtOffset: 0,
+      gmtOffsetName: 'UTC±00',
+      abbreviation: 'WET',
+      tzName: 'Western European Time',
+    )
+  ],
+  emoji: '🇫🇴',
+  emojiU: 'U+1F1EB U+1F1F4',
+  states: [],
+);

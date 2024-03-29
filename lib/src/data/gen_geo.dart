@@ -3,625 +3,797 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const geo = Country(
-    id: 81,
-    name: 'Georgia',
-    iso3: 'GEO',
-    iso2: 'GE',
-    phoneCode: '995',
-    capital: 'Tbilisi',
-    currency: 'GEL',
-    currencySymbol: r'ლ',
-    tld: '.ge',
-    native: 'საქართველო',
-    region: 'Asia',
-    subregion: 'Western Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Tbilisi',
-          gmtOffset: 14400,
-          gmtOffsetName: 'UTC+04:00',
-          abbreviation: 'GET',
-          tzName: 'Georgia Standard Time')
-    ],
-    emoji: '🇬🇪',
-    emojiU: 'U+1F1EC U+1F1EA',
-    states: [
-      State(id: 900, name: 'Adjara', stateCode: 'AJ', cities: [
-        City(
-            id: 52040,
-            name: 'Akhaldaba',
-            latitude: '41.65395000',
-            longitude: '42.15163000'),
-        City(
-            id: 52053,
-            name: 'Batumi',
-            latitude: '41.64228000',
-            longitude: '41.63392000'),
-        City(
-            id: 52058,
-            name: 'Chakvi',
-            latitude: '41.72528000',
-            longitude: '41.73278000'),
-        City(
-            id: 52061,
-            name: 'Dioknisi',
-            latitude: '41.62933000',
-            longitude: '42.39171000'),
-        City(
-            id: 52081,
-            name: 'Khelvachauri',
-            latitude: '41.58556000',
-            longitude: '41.66889000'),
-        City(
-            id: 52084,
-            name: 'Khulo',
-            latitude: '41.64353000',
-            longitude: '42.30397000'),
-        City(
-            id: 52085,
-            name: 'Kobuleti',
-            latitude: '41.82143000',
-            longitude: '41.77921000'),
-        City(
-            id: 52093,
-            name: 'Makhinjauri',
-            latitude: '41.67385000',
-            longitude: '41.69401000'),
-        City(
-            id: 52104,
-            name: 'Ochkhamuri',
-            latitude: '41.85975000',
-            longitude: '41.85309000'),
-        City(
-            id: 52119,
-            name: 'Shuakhevi',
-            latitude: '41.63000000',
-            longitude: '42.19083000'),
-        City(
-            id: 52134,
-            name: 'Tsikhisdziri',
-            latitude: '41.76659000',
-            longitude: '41.75517000')
-      ]),
-      State(
-          id: 901,
-          name: 'Autonomous Republic of Abkhazia',
-          stateCode: 'AB',
-          cities: [
-            City(
-                id: 52054,
-                name: 'Bich’vinta',
-                latitude: '43.16197000',
-                longitude: '40.34102000'),
-            City(
-                id: 52063,
-                name: 'Dranda',
-                latitude: '42.87167000',
-                longitude: '41.15333000'),
-            City(
-                id: 52065,
-                name: 'Gagra',
-                latitude: '43.27858000',
-                longitude: '40.27124000'),
-            City(
-                id: 52066,
-                name: 'Gali',
-                latitude: '42.62655000',
-                longitude: '41.73808000'),
-            City(
-                id: 52067,
-                name: 'Gantiadi',
-                latitude: '43.38111000',
-                longitude: '40.07944000'),
-            City(
-                id: 52073,
-                name: 'Gudauta',
-                latitude: '43.10547000',
-                longitude: '40.62067000'),
-            City(
-                id: 52078,
-                name: 'Kelasuri',
-                latitude: '42.97877000',
-                longitude: '41.07067000'),
-            City(
-                id: 52105,
-                name: 'Och’amch’ire',
-                latitude: '42.71232000',
-                longitude: '41.46863000'),
-            City(
-                id: 52111,
-                name: 'P’rimorsk’oe',
-                latitude: '43.09236000',
-                longitude: '40.69650000'),
-            City(
-                id: 52122,
-                name: 'Sokhumi',
-                latitude: '43.00697000',
-                longitude: '40.98930000'),
-            City(
-                id: 52123,
-                name: 'Stantsiya Novyy Afon',
-                latitude: '43.08056000',
-                longitude: '40.83833000'),
-            City(
-                id: 52130,
-                name: 'Tqvarch\'eli',
-                latitude: '42.84035000',
-                longitude: '41.68007000')
-          ]),
-      State(id: 907, name: 'Guria', stateCode: 'GU', cities: [
-        City(
-            id: 52091,
-            name: 'Lanchkhuti',
-            latitude: '42.09027000',
-            longitude: '42.03239000'),
-        City(
-            id: 52102,
-            name: 'Naruja',
-            latitude: '41.90694000',
-            longitude: '41.95417000'),
-        City(
-            id: 52108,
-            name: 'Ozurgeti',
-            latitude: '41.92442000',
-            longitude: '42.00682000'),
-        City(
-            id: 52141,
-            name: 'Urek’i',
-            latitude: '41.99556000',
-            longitude: '41.77861000')
-      ]),
-      State(id: 905, name: 'Imereti', stateCode: 'IM', cities: [
-        City(
-            id: 52051,
-            name: 'Baghdatis Munitsip’alit’et’i',
-            latitude: '42.00000000',
-            longitude: '42.90000000'),
-        City(
-            id: 52059,
-            name: 'Chiat’ura',
-            latitude: '42.29806000',
-            longitude: '43.29889000'),
-        City(
-            id: 52088,
-            name: 'K’alak’i Chiat’ura',
-            latitude: '42.28333000',
-            longitude: '43.25000000'),
-        City(
-            id: 52089,
-            name: 'K’ulashi',
-            latitude: '42.20405000',
-            longitude: '42.34289000'),
-        City(
-            id: 52079,
-            name: 'Kharagauli',
-            latitude: '42.02137000',
-            longitude: '43.19773000'),
-        City(
-            id: 52083,
-            name: 'Khoni',
-            latitude: '42.32260000',
-            longitude: '42.42061000'),
-        City(
-            id: 52086,
-            name: 'Kutaisi',
-            latitude: '42.26791000',
-            longitude: '42.69459000'),
-        City(
-            id: 52114,
-            name: 'Sach’khere',
-            latitude: '42.34528000',
-            longitude: '43.41944000'),
-        City(
-            id: 52116,
-            name: 'Samtredia',
-            latitude: '42.15370000',
-            longitude: '42.33517000'),
-        City(
-            id: 52118,
-            name: 'Shorapani',
-            latitude: '42.08980000',
-            longitude: '43.08662000'),
-        City(
-            id: 52129,
-            name: 'Tqibuli',
-            latitude: '42.35121000',
-            longitude: '42.99874000'),
-        City(
-            id: 52137,
-            name: 'Tsqaltubo',
-            latitude: '42.34129000',
-            longitude: '42.59760000'),
-        City(
-            id: 52143,
-            name: 'Vani',
-            latitude: '42.08320000',
-            longitude: '42.52163000'),
-        City(
-            id: 52144,
-            name: 'Zestap’oni',
-            latitude: '42.11000000',
-            longitude: '43.05250000')
-      ]),
-      State(id: 910, name: 'Kakheti', stateCode: 'KA', cities: [
-        City(
-            id: 52045,
-            name: 'Akhmet’a',
-            latitude: '42.03111000',
-            longitude: '45.20750000'),
-        City(
-            id: 52046,
-            name: 'Akhmet’is Munitsip’alit’et’i',
-            latitude: '42.25000000',
-            longitude: '45.33333000'),
-        City(
-            id: 52074,
-            name: 'Gurjaani',
-            latitude: '41.74292000',
-            longitude: '45.80111000'),
-        City(
-            id: 52090,
-            name: 'Lagodekhi',
-            latitude: '41.82681000',
-            longitude: '46.27667000'),
-        City(
-            id: 52112,
-            name: 'Qvareli',
-            latitude: '41.95493000',
-            longitude: '45.81716000'),
-        City(
-            id: 52115,
-            name: 'Sagarejo',
-            latitude: '41.73397000',
-            longitude: '45.33149000'),
-        City(
-            id: 52120,
-            name: 'Sighnaghi',
-            latitude: '41.62046000',
-            longitude: '45.92198000'),
-        City(
-            id: 52121,
-            name: 'Sighnaghis Munitsip’alit’et’i',
-            latitude: '41.56667000',
-            longitude: '45.85000000'),
-        City(
-            id: 52127,
-            name: 'Telavi',
-            latitude: '41.91978000',
-            longitude: '45.47315000'),
-        City(
-            id: 52135,
-            name: 'Tsinandali',
-            latitude: '41.89315000',
-            longitude: '45.57129000'),
-        City(
-            id: 52136,
-            name: 'Tsnori',
-            latitude: '41.62088000',
-            longitude: '45.96943000')
-      ]),
-      State(
-          id: 897,
-          name: 'Khelvachauri Municipality',
-          stateCode: '29',
-          cities: []),
-      State(id: 904, name: 'Kvemo Kartli', stateCode: 'KK', cities: [
-        City(
-            id: 52055,
-            name: 'Bolnisi',
-            latitude: '41.44794000',
-            longitude: '44.53838000'),
-        City(
-            id: 52056,
-            name: 'Bolnisis Munitsip’alit’et’i',
-            latitude: '41.36667000',
-            longitude: '44.51667000'),
-        City(
-            id: 52060,
-            name: 'Didi Lilo',
-            latitude: '41.73611000',
-            longitude: '44.96472000'),
-        City(
-            id: 52062,
-            name: 'Dmanisis Munitsip’alit’et’i',
-            latitude: '41.35000000',
-            longitude: '44.13333000'),
-        City(
-            id: 52068,
-            name: 'Gardabani',
-            latitude: '41.46054000',
-            longitude: '45.09283000'),
-        City(
-            id: 52069,
-            name: 'Gardabnis Munitsip’alit’et’i',
-            latitude: '41.61667000',
-            longitude: '45.00000000'),
-        City(
-            id: 52094,
-            name: 'Manglisi',
-            latitude: '41.69698000',
-            longitude: '44.38448000'),
-        City(
-            id: 52095,
-            name: 'Marneuli',
-            latitude: '41.47588000',
-            longitude: '44.80895000'),
-        City(
-            id: 52096,
-            name: 'Marneulis Munitsip’alit’et’i',
-            latitude: '41.38333000',
-            longitude: '44.85000000'),
-        City(
-            id: 52101,
-            name: 'Naghvarevi',
-            latitude: '41.35272000',
-            longitude: '44.76178000'),
-        City(
-            id: 52113,
-            name: 'Rust’avi',
-            latitude: '41.54949000',
-            longitude: '44.99323000'),
-        City(
-            id: 52140,
-            name: 'T’et’ri Tsqaro',
-            latitude: '41.54448000',
-            longitude: '44.46153000'),
-        City(
-            id: 52128,
-            name: 'Tetrits’q’alos Munitsip’alit’et’i',
-            latitude: '41.60000000',
-            longitude: '44.50000000'),
-        City(
-            id: 52138,
-            name: 'Ts’alk’is Munitsip’alit’et’i',
-            latitude: '41.63333000',
-            longitude: '43.96667000'),
-        City(
-            id: 52133,
-            name: 'Tsalka',
-            latitude: '41.59460000',
-            longitude: '44.08909000')
-      ]),
-      State(id: 902, name: 'Mtskheta-Mtianeti', stateCode: 'MM', cities: [
-        City(
-            id: 52041,
-            name: 'Akhalgori',
-            latitude: '42.12597000',
-            longitude: '44.48333000'),
-        City(
-            id: 52064,
-            name: 'Dzegvi',
-            latitude: '41.84569000',
-            longitude: '44.60097000'),
-        City(
-            id: 52072,
-            name: 'Gudauri',
-            latitude: '42.47797000',
-            longitude: '44.47616000'),
-        City(
-            id: 52075,
-            name: 'Java',
-            latitude: '42.39972000',
-            longitude: '43.93667000'),
-        City(
-            id: 52100,
-            name: 'Mtskheta',
-            latitude: '41.84514000',
-            longitude: '44.71875000'),
-        City(
-            id: 52109,
-            name: 'P’asanauri',
-            latitude: '42.35060000',
-            longitude: '44.68912000'),
-        City(
-            id: 52124,
-            name: 'Step’antsminda',
-            latitude: '42.65667000',
-            longitude: '44.64333000'),
-        City(
-            id: 52145,
-            name: 'Zhinvali',
-            latitude: '42.13181000',
-            longitude: '44.77264000')
-      ]),
-      State(
-          id: 909,
-          name: 'Racha-Lechkhumi and Kvemo Svaneti',
-          stateCode: 'RL',
-          cities: [
-            City(
-                id: 52047,
-                name: 'Ambrolauri',
-                latitude: '42.52111000',
-                longitude: '43.16222000'),
-            City(
-                id: 52048,
-                name: 'Ambrolauris Munitsip’alit’et’i',
-                latitude: '42.56667000',
-                longitude: '43.10000000'),
-            City(
-                id: 52092,
-                name: 'Lent’ekhi',
-                latitude: '42.78893000',
-                longitude: '42.72226000'),
-            City(
-                id: 52106,
-                name: 'Oni',
-                latitude: '42.57944000',
-                longitude: '43.44250000')
-          ]),
-      State(id: 908, name: 'Samegrelo-Zemo Svaneti', stateCode: 'SZ', cities: [
-        City(
-            id: 52035,
-            name: 'Abasha',
-            latitude: '42.20000000',
-            longitude: '42.20000000'),
-        City(
-            id: 52076,
-            name: 'Jvari',
-            latitude: '42.71693000',
-            longitude: '42.05200000'),
-        City(
-            id: 52082,
-            name: 'Khobi',
-            latitude: '42.31558000',
-            longitude: '41.89871000'),
-        City(
-            id: 52087,
-            name: 'Kveda Chkhorots’q’u',
-            latitude: '42.48103000',
-            longitude: '42.09661000'),
-        City(
-            id: 52097,
-            name: 'Mart’vili',
-            latitude: '42.41436000',
-            longitude: '42.37924000'),
-        City(
-            id: 52098,
-            name: 'Mest’ia',
-            latitude: '43.04581000',
-            longitude: '42.72780000'),
-        City(
-            id: 52099,
-            name: 'Mest’iis Munitsip’alit’et’i',
-            latitude: '43.05000000',
-            longitude: '42.55000000'),
-        City(
-            id: 52107,
-            name: 'Orsant’ia',
-            latitude: '42.46777000',
-            longitude: '41.67377000'),
-        City(
-            id: 52110,
-            name: 'P’ot’i',
-            latitude: '42.14616000',
-            longitude: '41.67197000'),
-        City(
-            id: 52117,
-            name: 'Senak’i',
-            latitude: '42.27042000',
-            longitude: '42.06750000'),
-        City(
-            id: 52132,
-            name: 'Tsalenjikha',
-            latitude: '42.60444000',
-            longitude: '42.06825000'),
-        City(
-            id: 52146,
-            name: 'Zugdidi',
-            latitude: '42.50880000',
-            longitude: '41.87088000')
-      ]),
-      State(id: 906, name: 'Samtskhe-Javakheti', stateCode: 'SJ', cities: [
-        City(
-            id: 52036,
-            name: 'Adigeni',
-            latitude: '41.68191000',
-            longitude: '42.69867000'),
-        City(
-            id: 52037,
-            name: 'Adigeni Municipality',
-            latitude: '41.71667000',
-            longitude: '42.73333000'),
-        City(
-            id: 52039,
-            name: 'Akhaldaba',
-            latitude: '41.92945000',
-            longitude: '43.48762000'),
-        City(
-            id: 52042,
-            name: 'Akhalk’alak’i',
-            latitude: '41.40514000',
-            longitude: '43.48629000'),
-        City(
-            id: 52043,
-            name: 'Akhaltsikhe',
-            latitude: '41.63901000',
-            longitude: '42.98262000'),
-        City(
-            id: 52044,
-            name: 'Akhaltsikhis Munitsip’alit’et’i',
-            latitude: '41.63333000',
-            longitude: '43.00000000'),
-        City(
-            id: 52050,
-            name: 'Asp’indzis Munitsip’alit’et’i',
-            latitude: '41.50000000',
-            longitude: '43.25000000'),
-        City(
-            id: 52049,
-            name: 'Aspindza',
-            latitude: '41.57389000',
-            longitude: '43.24826000'),
-        City(
-            id: 52052,
-            name: 'Bakuriani',
-            latitude: '41.74972000',
-            longitude: '43.53250000'),
-        City(
-            id: 52057,
-            name: 'Borjomi',
-            latitude: '41.85272000',
-            longitude: '43.41284000'),
-        City(
-            id: 52103,
-            name: 'Ninotsminda',
-            latitude: '41.26458000',
-            longitude: '43.59161000'),
-        City(
-            id: 52131,
-            name: 'Tsaghveri',
-            latitude: '41.80365000',
-            longitude: '43.48194000'),
-        City(
-            id: 52142,
-            name: 'Vale',
-            latitude: '41.61558000',
-            longitude: '42.87224000')
-      ]),
-      State(id: 898, name: 'Senaki Municipality', stateCode: '50', cities: []),
-      State(id: 903, name: 'Shida Kartli', stateCode: 'SK', cities: [
-        City(
-            id: 52038,
-            name: 'Agara',
-            latitude: '42.03761000',
-            longitude: '43.82382000'),
-        City(
-            id: 52070,
-            name: 'Gori',
-            latitude: '41.98422000',
-            longitude: '44.11578000'),
-        City(
-            id: 52071,
-            name: 'Goris Munitsip’alit’et’i',
-            latitude: '42.06667000',
-            longitude: '44.11667000'),
-        City(
-            id: 52077,
-            name: 'Kaspi',
-            latitude: '41.92520000',
-            longitude: '44.42568000'),
-        City(
-            id: 52080,
-            name: 'Khashuri',
-            latitude: '41.99414000',
-            longitude: '43.59994000'),
-        City(
-            id: 52125,
-            name: 'Surami',
-            latitude: '42.02431000',
-            longitude: '43.55556000'),
-        City(
-            id: 52139,
-            name: 'Ts’khinvali',
-            latitude: '42.22764000',
-            longitude: '43.96861000')
-      ]),
-      State(id: 899, name: 'Tbilisi', stateCode: 'TB', cities: [
-        City(
-            id: 52126,
-            name: 'Tbilisi',
-            latitude: '41.69411000',
-            longitude: '44.83368000')
-      ])
-    ]);
+  id: 81,
+  name: 'Georgia',
+  iso3: 'GEO',
+  iso2: 'GE',
+  phoneCode: '995',
+  capital: 'Tbilisi',
+  currency: 'GEL',
+  currencySymbol: r'ლ',
+  tld: '.ge',
+  native: 'საქართველო',
+  region: 'Asia',
+  subregion: 'Western Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Tbilisi',
+      gmtOffset: 14400,
+      gmtOffsetName: 'UTC+04:00',
+      abbreviation: 'GET',
+      tzName: 'Georgia Standard Time',
+    )
+  ],
+  emoji: '🇬🇪',
+  emojiU: 'U+1F1EC U+1F1EA',
+  states: [
+    CountryState(
+      id: 900,
+      name: 'Adjara',
+      stateCode: 'AJ',
+      cities: [
+        City(
+          id: 52040,
+          name: 'Akhaldaba',
+          latitude: '41.65395000',
+          longitude: '42.15163000',
+        ),
+        City(
+          id: 52053,
+          name: 'Batumi',
+          latitude: '41.64228000',
+          longitude: '41.63392000',
+        ),
+        City(
+          id: 52058,
+          name: 'Chakvi',
+          latitude: '41.72528000',
+          longitude: '41.73278000',
+        ),
+        City(
+          id: 52061,
+          name: 'Dioknisi',
+          latitude: '41.62933000',
+          longitude: '42.39171000',
+        ),
+        City(
+          id: 52081,
+          name: 'Khelvachauri',
+          latitude: '41.58556000',
+          longitude: '41.66889000',
+        ),
+        City(
+          id: 52084,
+          name: 'Khulo',
+          latitude: '41.64353000',
+          longitude: '42.30397000',
+        ),
+        City(
+          id: 52085,
+          name: 'Kobuleti',
+          latitude: '41.82143000',
+          longitude: '41.77921000',
+        ),
+        City(
+          id: 52093,
+          name: 'Makhinjauri',
+          latitude: '41.67385000',
+          longitude: '41.69401000',
+        ),
+        City(
+          id: 52104,
+          name: 'Ochkhamuri',
+          latitude: '41.85975000',
+          longitude: '41.85309000',
+        ),
+        City(
+          id: 52119,
+          name: 'Shuakhevi',
+          latitude: '41.63000000',
+          longitude: '42.19083000',
+        ),
+        City(
+          id: 52134,
+          name: 'Tsikhisdziri',
+          latitude: '41.76659000',
+          longitude: '41.75517000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 901,
+      name: 'Autonomous Republic of Abkhazia',
+      stateCode: 'AB',
+      cities: [
+        City(
+          id: 52054,
+          name: 'Bich’vinta',
+          latitude: '43.16197000',
+          longitude: '40.34102000',
+        ),
+        City(
+          id: 52063,
+          name: 'Dranda',
+          latitude: '42.87167000',
+          longitude: '41.15333000',
+        ),
+        City(
+          id: 52065,
+          name: 'Gagra',
+          latitude: '43.27858000',
+          longitude: '40.27124000',
+        ),
+        City(
+          id: 52066,
+          name: 'Gali',
+          latitude: '42.62655000',
+          longitude: '41.73808000',
+        ),
+        City(
+          id: 52067,
+          name: 'Gantiadi',
+          latitude: '43.38111000',
+          longitude: '40.07944000',
+        ),
+        City(
+          id: 52073,
+          name: 'Gudauta',
+          latitude: '43.10547000',
+          longitude: '40.62067000',
+        ),
+        City(
+          id: 52078,
+          name: 'Kelasuri',
+          latitude: '42.97877000',
+          longitude: '41.07067000',
+        ),
+        City(
+          id: 52105,
+          name: 'Och’amch’ire',
+          latitude: '42.71232000',
+          longitude: '41.46863000',
+        ),
+        City(
+          id: 52111,
+          name: 'P’rimorsk’oe',
+          latitude: '43.09236000',
+          longitude: '40.69650000',
+        ),
+        City(
+          id: 52122,
+          name: 'Sokhumi',
+          latitude: '43.00697000',
+          longitude: '40.98930000',
+        ),
+        City(
+          id: 52123,
+          name: 'Stantsiya Novyy Afon',
+          latitude: '43.08056000',
+          longitude: '40.83833000',
+        ),
+        City(
+          id: 52130,
+          name: 'Tqvarch\'eli',
+          latitude: '42.84035000',
+          longitude: '41.68007000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 907,
+      name: 'Guria',
+      stateCode: 'GU',
+      cities: [
+        City(
+          id: 52091,
+          name: 'Lanchkhuti',
+          latitude: '42.09027000',
+          longitude: '42.03239000',
+        ),
+        City(
+          id: 52102,
+          name: 'Naruja',
+          latitude: '41.90694000',
+          longitude: '41.95417000',
+        ),
+        City(
+          id: 52108,
+          name: 'Ozurgeti',
+          latitude: '41.92442000',
+          longitude: '42.00682000',
+        ),
+        City(
+          id: 52141,
+          name: 'Urek’i',
+          latitude: '41.99556000',
+          longitude: '41.77861000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 905,
+      name: 'Imereti',
+      stateCode: 'IM',
+      cities: [
+        City(
+          id: 52051,
+          name: 'Baghdatis Munitsip’alit’et’i',
+          latitude: '42.00000000',
+          longitude: '42.90000000',
+        ),
+        City(
+          id: 52059,
+          name: 'Chiat’ura',
+          latitude: '42.29806000',
+          longitude: '43.29889000',
+        ),
+        City(
+          id: 52088,
+          name: 'K’alak’i Chiat’ura',
+          latitude: '42.28333000',
+          longitude: '43.25000000',
+        ),
+        City(
+          id: 52089,
+          name: 'K’ulashi',
+          latitude: '42.20405000',
+          longitude: '42.34289000',
+        ),
+        City(
+          id: 52079,
+          name: 'Kharagauli',
+          latitude: '42.02137000',
+          longitude: '43.19773000',
+        ),
+        City(
+          id: 52083,
+          name: 'Khoni',
+          latitude: '42.32260000',
+          longitude: '42.42061000',
+        ),
+        City(
+          id: 52086,
+          name: 'Kutaisi',
+          latitude: '42.26791000',
+          longitude: '42.69459000',
+        ),
+        City(
+          id: 52114,
+          name: 'Sach’khere',
+          latitude: '42.34528000',
+          longitude: '43.41944000',
+        ),
+        City(
+          id: 52116,
+          name: 'Samtredia',
+          latitude: '42.15370000',
+          longitude: '42.33517000',
+        ),
+        City(
+          id: 52118,
+          name: 'Shorapani',
+          latitude: '42.08980000',
+          longitude: '43.08662000',
+        ),
+        City(
+          id: 52129,
+          name: 'Tqibuli',
+          latitude: '42.35121000',
+          longitude: '42.99874000',
+        ),
+        City(
+          id: 52137,
+          name: 'Tsqaltubo',
+          latitude: '42.34129000',
+          longitude: '42.59760000',
+        ),
+        City(
+          id: 52143,
+          name: 'Vani',
+          latitude: '42.08320000',
+          longitude: '42.52163000',
+        ),
+        City(
+          id: 52144,
+          name: 'Zestap’oni',
+          latitude: '42.11000000',
+          longitude: '43.05250000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 910,
+      name: 'Kakheti',
+      stateCode: 'KA',
+      cities: [
+        City(
+          id: 52045,
+          name: 'Akhmet’a',
+          latitude: '42.03111000',
+          longitude: '45.20750000',
+        ),
+        City(
+          id: 52046,
+          name: 'Akhmet’is Munitsip’alit’et’i',
+          latitude: '42.25000000',
+          longitude: '45.33333000',
+        ),
+        City(
+          id: 52074,
+          name: 'Gurjaani',
+          latitude: '41.74292000',
+          longitude: '45.80111000',
+        ),
+        City(
+          id: 52090,
+          name: 'Lagodekhi',
+          latitude: '41.82681000',
+          longitude: '46.27667000',
+        ),
+        City(
+          id: 52112,
+          name: 'Qvareli',
+          latitude: '41.95493000',
+          longitude: '45.81716000',
+        ),
+        City(
+          id: 52115,
+          name: 'Sagarejo',
+          latitude: '41.73397000',
+          longitude: '45.33149000',
+        ),
+        City(
+          id: 52120,
+          name: 'Sighnaghi',
+          latitude: '41.62046000',
+          longitude: '45.92198000',
+        ),
+        City(
+          id: 52121,
+          name: 'Sighnaghis Munitsip’alit’et’i',
+          latitude: '41.56667000',
+          longitude: '45.85000000',
+        ),
+        City(
+          id: 52127,
+          name: 'Telavi',
+          latitude: '41.91978000',
+          longitude: '45.47315000',
+        ),
+        City(
+          id: 52135,
+          name: 'Tsinandali',
+          latitude: '41.89315000',
+          longitude: '45.57129000',
+        ),
+        City(
+          id: 52136,
+          name: 'Tsnori',
+          latitude: '41.62088000',
+          longitude: '45.96943000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 897,
+      name: 'Khelvachauri Municipality',
+      stateCode: '29',
+      cities: [],
+    ),
+    CountryState(
+      id: 904,
+      name: 'Kvemo Kartli',
+      stateCode: 'KK',
+      cities: [
+        City(
+          id: 52055,
+          name: 'Bolnisi',
+          latitude: '41.44794000',
+          longitude: '44.53838000',
+        ),
+        City(
+          id: 52056,
+          name: 'Bolnisis Munitsip’alit’et’i',
+          latitude: '41.36667000',
+          longitude: '44.51667000',
+        ),
+        City(
+          id: 52060,
+          name: 'Didi Lilo',
+          latitude: '41.73611000',
+          longitude: '44.96472000',
+        ),
+        City(
+          id: 52062,
+          name: 'Dmanisis Munitsip’alit’et’i',
+          latitude: '41.35000000',
+          longitude: '44.13333000',
+        ),
+        City(
+          id: 52068,
+          name: 'Gardabani',
+          latitude: '41.46054000',
+          longitude: '45.09283000',
+        ),
+        City(
+          id: 52069,
+          name: 'Gardabnis Munitsip’alit’et’i',
+          latitude: '41.61667000',
+          longitude: '45.00000000',
+        ),
+        City(
+          id: 52094,
+          name: 'Manglisi',
+          latitude: '41.69698000',
+          longitude: '44.38448000',
+        ),
+        City(
+          id: 52095,
+          name: 'Marneuli',
+          latitude: '41.47588000',
+          longitude: '44.80895000',
+        ),
+        City(
+          id: 52096,
+          name: 'Marneulis Munitsip’alit’et’i',
+          latitude: '41.38333000',
+          longitude: '44.85000000',
+        ),
+        City(
+          id: 52101,
+          name: 'Naghvarevi',
+          latitude: '41.35272000',
+          longitude: '44.76178000',
+        ),
+        City(
+          id: 52113,
+          name: 'Rust’avi',
+          latitude: '41.54949000',
+          longitude: '44.99323000',
+        ),
+        City(
+          id: 52140,
+          name: 'T’et’ri Tsqaro',
+          latitude: '41.54448000',
+          longitude: '44.46153000',
+        ),
+        City(
+          id: 52128,
+          name: 'Tetrits’q’alos Munitsip’alit’et’i',
+          latitude: '41.60000000',
+          longitude: '44.50000000',
+        ),
+        City(
+          id: 52138,
+          name: 'Ts’alk’is Munitsip’alit’et’i',
+          latitude: '41.63333000',
+          longitude: '43.96667000',
+        ),
+        City(
+          id: 52133,
+          name: 'Tsalka',
+          latitude: '41.59460000',
+          longitude: '44.08909000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 902,
+      name: 'Mtskheta-Mtianeti',
+      stateCode: 'MM',
+      cities: [
+        City(
+          id: 52041,
+          name: 'Akhalgori',
+          latitude: '42.12597000',
+          longitude: '44.48333000',
+        ),
+        City(
+          id: 52064,
+          name: 'Dzegvi',
+          latitude: '41.84569000',
+          longitude: '44.60097000',
+        ),
+        City(
+          id: 52072,
+          name: 'Gudauri',
+          latitude: '42.47797000',
+          longitude: '44.47616000',
+        ),
+        City(
+          id: 52075,
+          name: 'Java',
+          latitude: '42.39972000',
+          longitude: '43.93667000',
+        ),
+        City(
+          id: 52100,
+          name: 'Mtskheta',
+          latitude: '41.84514000',
+          longitude: '44.71875000',
+        ),
+        City(
+          id: 52109,
+          name: 'P’asanauri',
+          latitude: '42.35060000',
+          longitude: '44.68912000',
+        ),
+        City(
+          id: 52124,
+          name: 'Step’antsminda',
+          latitude: '42.65667000',
+          longitude: '44.64333000',
+        ),
+        City(
+          id: 52145,
+          name: 'Zhinvali',
+          latitude: '42.13181000',
+          longitude: '44.77264000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 909,
+      name: 'Racha-Lechkhumi and Kvemo Svaneti',
+      stateCode: 'RL',
+      cities: [
+        City(
+          id: 52047,
+          name: 'Ambrolauri',
+          latitude: '42.52111000',
+          longitude: '43.16222000',
+        ),
+        City(
+          id: 52048,
+          name: 'Ambrolauris Munitsip’alit’et’i',
+          latitude: '42.56667000',
+          longitude: '43.10000000',
+        ),
+        City(
+          id: 52092,
+          name: 'Lent’ekhi',
+          latitude: '42.78893000',
+          longitude: '42.72226000',
+        ),
+        City(
+          id: 52106,
+          name: 'Oni',
+          latitude: '42.57944000',
+          longitude: '43.44250000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 908,
+      name: 'Samegrelo-Zemo Svaneti',
+      stateCode: 'SZ',
+      cities: [
+        City(
+          id: 52035,
+          name: 'Abasha',
+          latitude: '42.20000000',
+          longitude: '42.20000000',
+        ),
+        City(
+          id: 52076,
+          name: 'Jvari',
+          latitude: '42.71693000',
+          longitude: '42.05200000',
+        ),
+        City(
+          id: 52082,
+          name: 'Khobi',
+          latitude: '42.31558000',
+          longitude: '41.89871000',
+        ),
+        City(
+          id: 52087,
+          name: 'Kveda Chkhorots’q’u',
+          latitude: '42.48103000',
+          longitude: '42.09661000',
+        ),
+        City(
+          id: 52097,
+          name: 'Mart’vili',
+          latitude: '42.41436000',
+          longitude: '42.37924000',
+        ),
+        City(
+          id: 52098,
+          name: 'Mest’ia',
+          latitude: '43.04581000',
+          longitude: '42.72780000',
+        ),
+        City(
+          id: 52099,
+          name: 'Mest’iis Munitsip’alit’et’i',
+          latitude: '43.05000000',
+          longitude: '42.55000000',
+        ),
+        City(
+          id: 52107,
+          name: 'Orsant’ia',
+          latitude: '42.46777000',
+          longitude: '41.67377000',
+        ),
+        City(
+          id: 52110,
+          name: 'P’ot’i',
+          latitude: '42.14616000',
+          longitude: '41.67197000',
+        ),
+        City(
+          id: 52117,
+          name: 'Senak’i',
+          latitude: '42.27042000',
+          longitude: '42.06750000',
+        ),
+        City(
+          id: 52132,
+          name: 'Tsalenjikha',
+          latitude: '42.60444000',
+          longitude: '42.06825000',
+        ),
+        City(
+          id: 52146,
+          name: 'Zugdidi',
+          latitude: '42.50880000',
+          longitude: '41.87088000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 906,
+      name: 'Samtskhe-Javakheti',
+      stateCode: 'SJ',
+      cities: [
+        City(
+          id: 52036,
+          name: 'Adigeni',
+          latitude: '41.68191000',
+          longitude: '42.69867000',
+        ),
+        City(
+          id: 52037,
+          name: 'Adigeni Municipality',
+          latitude: '41.71667000',
+          longitude: '42.73333000',
+        ),
+        City(
+          id: 52039,
+          name: 'Akhaldaba',
+          latitude: '41.92945000',
+          longitude: '43.48762000',
+        ),
+        City(
+          id: 52042,
+          name: 'Akhalk’alak’i',
+          latitude: '41.40514000',
+          longitude: '43.48629000',
+        ),
+        City(
+          id: 52043,
+          name: 'Akhaltsikhe',
+          latitude: '41.63901000',
+          longitude: '42.98262000',
+        ),
+        City(
+          id: 52044,
+          name: 'Akhaltsikhis Munitsip’alit’et’i',
+          latitude: '41.63333000',
+          longitude: '43.00000000',
+        ),
+        City(
+          id: 52050,
+          name: 'Asp’indzis Munitsip’alit’et’i',
+          latitude: '41.50000000',
+          longitude: '43.25000000',
+        ),
+        City(
+          id: 52049,
+          name: 'Aspindza',
+          latitude: '41.57389000',
+          longitude: '43.24826000',
+        ),
+        City(
+          id: 52052,
+          name: 'Bakuriani',
+          latitude: '41.74972000',
+          longitude: '43.53250000',
+        ),
+        City(
+          id: 52057,
+          name: 'Borjomi',
+          latitude: '41.85272000',
+          longitude: '43.41284000',
+        ),
+        City(
+          id: 52103,
+          name: 'Ninotsminda',
+          latitude: '41.26458000',
+          longitude: '43.59161000',
+        ),
+        City(
+          id: 52131,
+          name: 'Tsaghveri',
+          latitude: '41.80365000',
+          longitude: '43.48194000',
+        ),
+        City(
+          id: 52142,
+          name: 'Vale',
+          latitude: '41.61558000',
+          longitude: '42.87224000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 898,
+      name: 'Senaki Municipality',
+      stateCode: '50',
+      cities: [],
+    ),
+    CountryState(
+      id: 903,
+      name: 'Shida Kartli',
+      stateCode: 'SK',
+      cities: [
+        City(
+          id: 52038,
+          name: 'Agara',
+          latitude: '42.03761000',
+          longitude: '43.82382000',
+        ),
+        City(
+          id: 52070,
+          name: 'Gori',
+          latitude: '41.98422000',
+          longitude: '44.11578000',
+        ),
+        City(
+          id: 52071,
+          name: 'Goris Munitsip’alit’et’i',
+          latitude: '42.06667000',
+          longitude: '44.11667000',
+        ),
+        City(
+          id: 52077,
+          name: 'Kaspi',
+          latitude: '41.92520000',
+          longitude: '44.42568000',
+        ),
+        City(
+          id: 52080,
+          name: 'Khashuri',
+          latitude: '41.99414000',
+          longitude: '43.59994000',
+        ),
+        City(
+          id: 52125,
+          name: 'Surami',
+          latitude: '42.02431000',
+          longitude: '43.55556000',
+        ),
+        City(
+          id: 52139,
+          name: 'Ts’khinvali',
+          latitude: '42.22764000',
+          longitude: '43.96861000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 899,
+      name: 'Tbilisi',
+      stateCode: 'TB',
+      cities: [
+        City(
+          id: 52126,
+          name: 'Tbilisi',
+          latitude: '41.69411000',
+          longitude: '44.83368000',
+        )
+      ],
+    ),
+  ],
+);

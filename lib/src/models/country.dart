@@ -1,5 +1,4 @@
-import 'package:country_state_city/src/models/state.dart';
-import 'package:country_state_city/src/models/timezone.dart';
+import 'package:country_state_city/country_state_city.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'country.g.dart';
@@ -69,7 +68,7 @@ class Country {
   final String emojiU;
 
   /// The states of the country.
-  final List<State> states;
+  final List<CountryState> states;
 
   const Country({
     required this.id,
@@ -89,6 +88,9 @@ class Country {
     required this.emojiU,
     required this.states,
   });
+
+  factory Country.fromCountryCode(String countryCode) =>
+      CountryStateCity.instance.findCountryByIso2(countryCode);
 
   factory Country.fromJson(Map<String, dynamic> json) =>
       _$CountryFromJson(json);

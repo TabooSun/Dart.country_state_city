@@ -3,180 +3,328 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const mdv = Country(
-    id: 133,
-    name: 'Maldives',
-    iso3: 'MDV',
-    iso2: 'MV',
-    phoneCode: '960',
-    capital: 'Male',
-    currency: 'MVR',
-    currencySymbol: r'Rf',
-    tld: '.mv',
-    native: 'Maldives',
-    region: 'Asia',
-    subregion: 'Southern Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Indian/Maldives',
-          gmtOffset: 18000,
-          gmtOffsetName: 'UTC+05:00',
-          abbreviation: 'MVT',
-          tzName: 'Maldives Time')
-    ],
-    emoji: '🇲🇻',
-    emojiU: 'U+1F1F2 U+1F1FB',
-    states: [
-      State(id: 2594, name: 'Addu Atoll', stateCode: '01', cities: [
+  id: 133,
+  name: 'Maldives',
+  iso3: 'MDV',
+  iso2: 'MV',
+  phoneCode: '960',
+  capital: 'Male',
+  currency: 'MVR',
+  currencySymbol: r'Rf',
+  tld: '.mv',
+  native: 'Maldives',
+  region: 'Asia',
+  subregion: 'Southern Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Indian/Maldives',
+      gmtOffset: 18000,
+      gmtOffsetName: 'UTC+05:00',
+      abbreviation: 'MVT',
+      tzName: 'Maldives Time',
+    )
+  ],
+  emoji: '🇲🇻',
+  emojiU: 'U+1F1F2 U+1F1FB',
+  states: [
+    CountryState(
+      id: 2594,
+      name: 'Addu Atoll',
+      stateCode: '01',
+      cities: [
         City(
-            id: 67929,
-            name: 'Hithadhoo',
-            latitude: '-0.60000000',
-            longitude: '73.08333000'),
+          id: 67929,
+          name: 'Hithadhoo',
+          latitude: '-0.60000000',
+          longitude: '73.08333000',
+        ),
         City(
-            id: 67937,
-            name: 'Meedhoo',
-            latitude: '-0.58333000',
-            longitude: '73.23333000')
-      ]),
-      State(id: 2587, name: 'Alif Alif Atoll', stateCode: '02', cities: []),
-      State(id: 2600, name: 'Alif Dhaal Atoll', stateCode: '00', cities: []),
-      State(id: 2604, name: 'Central Province', stateCode: 'CE', cities: []),
-      State(id: 2590, name: 'Dhaalu Atoll', stateCode: '17', cities: [
+          id: 67937,
+          name: 'Meedhoo',
+          latitude: '-0.58333000',
+          longitude: '73.23333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2587,
+      name: 'Alif Alif Atoll',
+      stateCode: '02',
+      cities: [],
+    ),
+    CountryState(
+      id: 2600,
+      name: 'Alif Dhaal Atoll',
+      stateCode: '00',
+      cities: [],
+    ),
+    CountryState(
+      id: 2604,
+      name: 'Central Province',
+      stateCode: 'CE',
+      cities: [],
+    ),
+    CountryState(
+      id: 2590,
+      name: 'Dhaalu Atoll',
+      stateCode: '17',
+      cities: [
         City(
-            id: 67931,
-            name: 'Kudahuvadhoo',
-            latitude: '2.67075000',
-            longitude: '72.89437000')
-      ]),
-      State(id: 2599, name: 'Faafu Atoll', stateCode: '14', cities: []),
-      State(id: 2598, name: 'Gaafu Alif Atoll', stateCode: '27', cities: [
+          id: 67931,
+          name: 'Kudahuvadhoo',
+          latitude: '2.67075000',
+          longitude: '72.89437000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2599,
+      name: 'Faafu Atoll',
+      stateCode: '14',
+      cities: [],
+    ),
+    CountryState(
+      id: 2598,
+      name: 'Gaafu Alif Atoll',
+      stateCode: '27',
+      cities: [
         City(
-            id: 67943,
-            name: 'Viligili',
-            latitude: '0.75906000',
-            longitude: '73.43296000')
-      ]),
-      State(id: 2603, name: 'Gaafu Dhaalu Atoll', stateCode: '28', cities: [
+          id: 67943,
+          name: 'Viligili',
+          latitude: '0.75906000',
+          longitude: '73.43296000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2603,
+      name: 'Gaafu Dhaalu Atoll',
+      stateCode: '28',
+      cities: [
         City(
-            id: 67940,
-            name: 'Thinadhoo',
-            latitude: '0.53060000',
-            longitude: '72.99969000')
-      ]),
-      State(id: 2595, name: 'Gnaviyani Atoll', stateCode: '29', cities: [
+          id: 67940,
+          name: 'Thinadhoo',
+          latitude: '0.53060000',
+          longitude: '72.99969000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2595,
+      name: 'Gnaviyani Atoll',
+      stateCode: '29',
+      cities: [
         City(
-            id: 67927,
-            name: 'Fuvahmulah',
-            latitude: '-0.29878000',
-            longitude: '73.42403000')
-      ]),
-      State(id: 2586, name: 'Haa Alif Atoll', stateCode: '07', cities: [
+          id: 67927,
+          name: 'Fuvahmulah',
+          latitude: '-0.29878000',
+          longitude: '73.42403000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2586,
+      name: 'Haa Alif Atoll',
+      stateCode: '07',
+      cities: [
         City(
-            id: 67923,
-            name: 'Dhidhdhoo',
-            latitude: '6.88744000',
-            longitude: '73.11402000')
-      ]),
-      State(id: 2597, name: 'Haa Dhaalu Atoll', stateCode: '23', cities: [
+          id: 67923,
+          name: 'Dhidhdhoo',
+          latitude: '6.88744000',
+          longitude: '73.11402000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2597,
+      name: 'Haa Dhaalu Atoll',
+      stateCode: '23',
+      cities: [
         City(
-            id: 67932,
-            name: 'Kulhudhuffushi',
-            latitude: '6.62207000',
-            longitude: '73.06998000')
-      ]),
-      State(id: 2596, name: 'Kaafu Atoll', stateCode: '26', cities: [
+          id: 67932,
+          name: 'Kulhudhuffushi',
+          latitude: '6.62207000',
+          longitude: '73.06998000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2596,
+      name: 'Kaafu Atoll',
+      stateCode: '26',
+      cities: [
         City(
-            id: 67928,
-            name: 'Guraidhoo',
-            latitude: '3.90045000',
-            longitude: '73.46623000'),
+          id: 67928,
+          name: 'Guraidhoo',
+          latitude: '3.90045000',
+          longitude: '73.46623000',
+        ),
         City(
-            id: 67930,
-            name: 'Hulhumale',
-            latitude: '4.21169000',
-            longitude: '73.54008000'),
+          id: 67930,
+          name: 'Hulhumale',
+          latitude: '4.21169000',
+          longitude: '73.54008000',
+        ),
         City(
-            id: 67933,
-            name: 'Maafushi',
-            latitude: '3.94231000',
-            longitude: '73.49070000'),
+          id: 67933,
+          name: 'Maafushi',
+          latitude: '3.94231000',
+          longitude: '73.49070000',
+        ),
         City(
-            id: 67935,
-            name: 'Male',
-            latitude: '4.17521000',
-            longitude: '73.50916000')
-      ]),
-      State(id: 2601, name: 'Laamu Atoll', stateCode: '05', cities: [
+          id: 67935,
+          name: 'Male',
+          latitude: '4.17521000',
+          longitude: '73.50916000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 2601,
+      name: 'Laamu Atoll',
+      stateCode: '05',
+      cities: [
         City(
-            id: 67925,
-            name: 'Fonadhoo',
-            latitude: '1.83243000',
-            longitude: '73.50257000')
-      ]),
-      State(id: 2607, name: 'Lhaviyani Atoll', stateCode: '03', cities: [
+          id: 67925,
+          name: 'Fonadhoo',
+          latitude: '1.83243000',
+          longitude: '73.50257000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2607,
+      name: 'Lhaviyani Atoll',
+      stateCode: '03',
+      cities: [
         City(
-            id: 67939,
-            name: 'Naifaru',
-            latitude: '5.44438000',
-            longitude: '73.36571000')
-      ]),
-      State(id: 2609, name: 'Malé', stateCode: 'MLE', cities: []),
-      State(id: 2608, name: 'Meemu Atoll', stateCode: '12', cities: [
+          id: 67939,
+          name: 'Naifaru',
+          latitude: '5.44438000',
+          longitude: '73.36571000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2609,
+      name: 'Malé',
+      stateCode: 'MLE',
+      cities: [],
+    ),
+    CountryState(
+      id: 2608,
+      name: 'Meemu Atoll',
+      stateCode: '12',
+      cities: [
         City(
-            id: 67938,
-            name: 'Muli',
-            latitude: '2.91667000',
-            longitude: '73.56667000')
-      ]),
-      State(id: 2592, name: 'Noonu Atoll', stateCode: '25', cities: [
+          id: 67938,
+          name: 'Muli',
+          latitude: '2.91667000',
+          longitude: '73.56667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2592,
+      name: 'Noonu Atoll',
+      stateCode: '25',
+      cities: [
         City(
-            id: 67936,
-            name: 'Manadhoo',
-            latitude: '5.76687000',
-            longitude: '73.41360000')
-      ]),
-      State(
-          id: 2589,
-          name: 'North Central Province',
-          stateCode: 'NC',
-          cities: []),
-      State(id: 2588, name: 'North Province', stateCode: 'NO', cities: []),
-      State(id: 2602, name: 'Raa Atoll', stateCode: '13', cities: [
+          id: 67936,
+          name: 'Manadhoo',
+          latitude: '5.76687000',
+          longitude: '73.41360000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2589,
+      name: 'North Central Province',
+      stateCode: 'NC',
+      cities: [],
+    ),
+    CountryState(
+      id: 2588,
+      name: 'North Province',
+      stateCode: 'NO',
+      cities: [],
+    ),
+    CountryState(
+      id: 2602,
+      name: 'Raa Atoll',
+      stateCode: '13',
+      cities: [
         City(
-            id: 67941,
-            name: 'Ugoofaaru',
-            latitude: '5.66812000',
-            longitude: '73.03017000')
-      ]),
-      State(id: 2585, name: 'Shaviyani Atoll', stateCode: '24', cities: [
+          id: 67941,
+          name: 'Ugoofaaru',
+          latitude: '5.66812000',
+          longitude: '73.03017000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2585,
+      name: 'Shaviyani Atoll',
+      stateCode: '24',
+      cities: [
         City(
-            id: 67926,
-            name: 'Funadhoo',
-            latitude: '6.15091000',
-            longitude: '73.29013000')
-      ]),
-      State(id: 2606, name: 'South Central Province', stateCode: 'SC', cities: [
+          id: 67926,
+          name: 'Funadhoo',
+          latitude: '6.15091000',
+          longitude: '73.29013000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2606,
+      name: 'South Central Province',
+      stateCode: 'SC',
+      cities: [
         City(
-            id: 67934,
-            name: 'Mahibadhoo',
-            latitude: '3.75713000',
-            longitude: '72.96893000')
-      ]),
-      State(id: 2605, name: 'South Province', stateCode: 'SU', cities: []),
-      State(id: 2591, name: 'Thaa Atoll', stateCode: '08', cities: [
+          id: 67934,
+          name: 'Mahibadhoo',
+          latitude: '3.75713000',
+          longitude: '72.96893000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2605,
+      name: 'South Province',
+      stateCode: 'SU',
+      cities: [],
+    ),
+    CountryState(
+      id: 2591,
+      name: 'Thaa Atoll',
+      stateCode: '08',
+      cities: [
         City(
-            id: 67942,
-            name: 'Veymandoo',
-            latitude: '2.18772000',
-            longitude: '73.09556000')
-      ]),
-      State(
-          id: 2593, name: 'Upper South Province', stateCode: 'US', cities: []),
-      State(id: 2584, name: 'Vaavu Atoll', stateCode: '04', cities: [
+          id: 67942,
+          name: 'Veymandoo',
+          latitude: '2.18772000',
+          longitude: '73.09556000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 2593,
+      name: 'Upper South Province',
+      stateCode: 'US',
+      cities: [],
+    ),
+    CountryState(
+      id: 2584,
+      name: 'Vaavu Atoll',
+      stateCode: '04',
+      cities: [
         City(
-            id: 67924,
-            name: 'Felidhoo',
-            latitude: '3.47182000',
-            longitude: '73.54699000')
-      ])
-    ]);
+          id: 67924,
+          name: 'Felidhoo',
+          latitude: '3.47182000',
+          longitude: '73.54699000',
+        )
+      ],
+    ),
+  ],
+);

@@ -3,91 +3,138 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const and = Country(
-    id: 6,
-    name: 'Andorra',
-    iso3: 'AND',
-    iso2: 'AD',
-    phoneCode: '376',
-    capital: 'Andorra la Vella',
-    currency: 'EUR',
-    currencySymbol: r'€',
-    tld: '.ad',
-    native: 'Andorra',
-    region: 'Europe',
-    subregion: 'Southern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Europe/Andorra',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'CET',
-          tzName: 'Central European Time')
-    ],
-    emoji: '🇦🇩',
-    emojiU: 'U+1F1E6 U+1F1E9',
-    states: [
-      State(id: 488, name: 'Andorra la Vella', stateCode: '07', cities: [
+  id: 6,
+  name: 'Andorra',
+  iso3: 'AND',
+  iso2: 'AD',
+  phoneCode: '376',
+  capital: 'Andorra la Vella',
+  currency: 'EUR',
+  currencySymbol: r'€',
+  tld: '.ad',
+  native: 'Andorra',
+  region: 'Europe',
+  subregion: 'Southern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Europe/Andorra',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'CET',
+      tzName: 'Central European Time',
+    )
+  ],
+  emoji: '🇦🇩',
+  emojiU: 'U+1F1E6 U+1F1E9',
+  states: [
+    CountryState(
+      id: 488,
+      name: 'Andorra la Vella',
+      stateCode: '07',
+      cities: [
         City(
-            id: 1,
-            name: 'Andorra la Vella',
-            latitude: '42.50779000',
-            longitude: '1.52109000')
-      ]),
-      State(id: 489, name: 'Canillo', stateCode: '02', cities: [
+          id: 1,
+          name: 'Andorra la Vella',
+          latitude: '42.50779000',
+          longitude: '1.52109000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 489,
+      name: 'Canillo',
+      stateCode: '02',
+      cities: [
         City(
-            id: 3,
-            name: 'Canillo',
-            latitude: '42.56760000',
-            longitude: '1.59756000'),
+          id: 3,
+          name: 'Canillo',
+          latitude: '42.56760000',
+          longitude: '1.59756000',
+        ),
         City(
-            id: 4,
-            name: 'El Tarter',
-            latitude: '42.57952000',
-            longitude: '1.65362000')
-      ]),
-      State(id: 487, name: 'Encamp', stateCode: '03', cities: [
+          id: 4,
+          name: 'El Tarter',
+          latitude: '42.57952000',
+          longitude: '1.65362000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 487,
+      name: 'Encamp',
+      stateCode: '03',
+      cities: [
         City(
-            id: 5,
-            name: 'Encamp',
-            latitude: '42.53474000',
-            longitude: '1.58014000'),
+          id: 5,
+          name: 'Encamp',
+          latitude: '42.53474000',
+          longitude: '1.58014000',
+        ),
         City(
-            id: 7,
-            name: 'Pas de la Casa',
-            latitude: '42.54277000',
-            longitude: '1.73361000')
-      ]),
-      State(id: 492, name: 'Escaldes-Engordany', stateCode: '08', cities: [
+          id: 7,
+          name: 'Pas de la Casa',
+          latitude: '42.54277000',
+          longitude: '1.73361000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 492,
+      name: 'Escaldes-Engordany',
+      stateCode: '08',
+      cities: [
         City(
-            id: 10,
-            name: 'les Escaldes',
-            latitude: '42.50729000',
-            longitude: '1.53414000')
-      ]),
-      State(id: 493, name: 'La Massana', stateCode: '04', cities: [
+          id: 10,
+          name: 'les Escaldes',
+          latitude: '42.50729000',
+          longitude: '1.53414000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 493,
+      name: 'La Massana',
+      stateCode: '04',
+      cities: [
         City(
-            id: 2,
-            name: 'Arinsal',
-            latitude: '42.57205000',
-            longitude: '1.48453000'),
+          id: 2,
+          name: 'Arinsal',
+          latitude: '42.57205000',
+          longitude: '1.48453000',
+        ),
         City(
-            id: 9,
-            name: 'la Massana',
-            latitude: '42.54499000',
-            longitude: '1.51483000')
-      ]),
-      State(id: 491, name: 'Ordino', stateCode: '05', cities: [
+          id: 9,
+          name: 'la Massana',
+          latitude: '42.54499000',
+          longitude: '1.51483000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 491,
+      name: 'Ordino',
+      stateCode: '05',
+      cities: [
         City(
-            id: 6,
-            name: 'Ordino',
-            latitude: '42.55623000',
-            longitude: '1.53319000')
-      ]),
-      State(id: 490, name: 'Sant Julià de Lòria', stateCode: '06', cities: [
+          id: 6,
+          name: 'Ordino',
+          latitude: '42.55623000',
+          longitude: '1.53319000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 490,
+      name: 'Sant Julià de Lòria',
+      stateCode: '06',
+      cities: [
         City(
-            id: 8,
-            name: 'Sant Julià de Lòria',
-            latitude: '42.46372000',
-            longitude: '1.49129000')
-      ])
-    ]);
+          id: 8,
+          name: 'Sant Julià de Lòria',
+          latitude: '42.46372000',
+          longitude: '1.49129000',
+        )
+      ],
+    ),
+  ],
+);

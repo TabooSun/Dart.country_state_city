@@ -30,7 +30,7 @@ class CountryStateCity {
     return countries!;
   }*/
 
-  List<State> getStatesByCountryIso2(String iso2) {
+  List<CountryState> getStatesByCountryIso2(String iso2) {
     return findCountryByIso2(iso2).states;
   }
 

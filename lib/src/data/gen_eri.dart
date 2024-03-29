@@ -3,102 +3,137 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const eri = Country(
-    id: 68,
-    name: 'Eritrea',
-    iso3: 'ERI',
-    iso2: 'ER',
-    phoneCode: '291',
-    capital: 'Asmara',
-    currency: 'ERN',
-    currencySymbol: r'Nfk',
-    tld: '.er',
-    native: 'ኤርትራ',
-    region: 'Africa',
-    subregion: 'Eastern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Asmara',
-          gmtOffset: 10800,
-          gmtOffsetName: 'UTC+03:00',
-          abbreviation: 'EAT',
-          tzName: 'East Africa Time')
-    ],
-    emoji: '🇪🇷',
-    emojiU: 'U+1F1EA U+1F1F7',
-    states: [
-      State(id: 3425, name: 'Anseba Region', stateCode: 'AN', cities: [
+  id: 68,
+  name: 'Eritrea',
+  iso3: 'ERI',
+  iso2: 'ER',
+  phoneCode: '291',
+  capital: 'Asmara',
+  currency: 'ERN',
+  currencySymbol: r'Nfk',
+  tld: '.er',
+  native: 'ኤርትራ',
+  region: 'Africa',
+  subregion: 'Eastern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Asmara',
+      gmtOffset: 10800,
+      gmtOffsetName: 'UTC+03:00',
+      abbreviation: 'EAT',
+      tzName: 'East Africa Time',
+    )
+  ],
+  emoji: '🇪🇷',
+  emojiU: 'U+1F1EA U+1F1F7',
+  states: [
+    CountryState(
+      id: 3425,
+      name: 'Anseba Region',
+      stateCode: 'AN',
+      cities: [
         City(
-            id: 31888,
-            name: 'Keren',
-            latitude: '15.77792000',
-            longitude: '38.45107000')
-      ]),
-      State(id: 3427, name: 'Debub Region', stateCode: 'DU', cities: [
+          id: 31888,
+          name: 'Keren',
+          latitude: '15.77792000',
+          longitude: '38.45107000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3427,
+      name: 'Debub Region',
+      stateCode: 'DU',
+      cities: [
         City(
-            id: 31881,
-            name: 'Adi Keyh',
-            latitude: '14.84444000',
-            longitude: '39.37722000'),
+          id: 31881,
+          name: 'Adi Keyh',
+          latitude: '14.84444000',
+          longitude: '39.37722000',
+        ),
         City(
-            id: 31886,
-            name: 'Dek’emhāre',
-            latitude: '15.07000000',
-            longitude: '39.04750000'),
+          id: 31886,
+          name: 'Dek’emhāre',
+          latitude: '15.07000000',
+          longitude: '39.04750000',
+        ),
         City(
-            id: 31890,
-            name: 'Mendefera',
-            latitude: '14.88722000',
-            longitude: '38.81528000')
-      ]),
-      State(id: 3428, name: 'Gash-Barka Region', stateCode: 'GB', cities: [
+          id: 31890,
+          name: 'Mendefera',
+          latitude: '14.88722000',
+          longitude: '38.81528000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3428,
+      name: 'Gash-Barka Region',
+      stateCode: 'GB',
+      cities: [
         City(
-            id: 31882,
-            name: 'Ak’ordat',
-            latitude: '15.54798000',
-            longitude: '37.88291000'),
+          id: 31882,
+          name: 'Ak’ordat',
+          latitude: '15.54798000',
+          longitude: '37.88291000',
+        ),
         City(
-            id: 31885,
-            name: 'Barentu',
-            latitude: '15.10582000',
-            longitude: '37.59067000'),
+          id: 31885,
+          name: 'Barentu',
+          latitude: '15.10582000',
+          longitude: '37.59067000',
+        ),
         City(
-            id: 31891,
-            name: 'Teseney',
-            latitude: '15.11000000',
-            longitude: '36.65750000')
-      ]),
-      State(id: 3426, name: 'Maekel Region', stateCode: 'MA', cities: [
+          id: 31891,
+          name: 'Teseney',
+          latitude: '15.11000000',
+          longitude: '36.65750000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3426,
+      name: 'Maekel Region',
+      stateCode: 'MA',
+      cities: [
         City(
-            id: 31883,
-            name: 'Asmara',
-            latitude: '15.33805000',
-            longitude: '38.93184000')
-      ]),
-      State(
-          id: 3424,
-          name: 'Northern Red Sea Region',
-          stateCode: 'SK',
-          cities: [
-            City(
-                id: 31889,
-                name: 'Massawa',
-                latitude: '15.60811000',
-                longitude: '39.47455000')
-          ]),
-      State(
-          id: 3429,
-          name: 'Southern Red Sea Region',
-          stateCode: 'DK',
-          cities: [
-            City(
-                id: 31884,
-                name: 'Assab',
-                latitude: '13.00917000',
-                longitude: '42.73944000'),
-            City(
-                id: 31887,
-                name: 'Edd',
-                latitude: '13.93088000',
-                longitude: '41.69380000')
-          ])
-    ]);
+          id: 31883,
+          name: 'Asmara',
+          latitude: '15.33805000',
+          longitude: '38.93184000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3424,
+      name: 'Northern Red Sea Region',
+      stateCode: 'SK',
+      cities: [
+        City(
+          id: 31889,
+          name: 'Massawa',
+          latitude: '15.60811000',
+          longitude: '39.47455000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3429,
+      name: 'Southern Red Sea Region',
+      stateCode: 'DK',
+      cities: [
+        City(
+          id: 31884,
+          name: 'Assab',
+          latitude: '13.00917000',
+          longitude: '42.73944000',
+        ),
+        City(
+          id: 31887,
+          name: 'Edd',
+          latitude: '13.93088000',
+          longitude: '41.69380000',
+        ),
+      ],
+    ),
+  ],
+);

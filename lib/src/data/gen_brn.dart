@@ -3,80 +3,111 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const brn = Country(
-    id: 33,
-    name: 'Brunei',
-    iso3: 'BRN',
-    iso2: 'BN',
-    phoneCode: '673',
-    capital: 'Bandar Seri Begawan',
-    currency: 'BND',
-    currencySymbol: r'B$',
-    tld: '.bn',
-    native: 'Negara Brunei Darussalam',
-    region: 'Asia',
-    subregion: 'South-Eastern Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Brunei',
-          gmtOffset: 28800,
-          gmtOffsetName: 'UTC+08:00',
-          abbreviation: 'BNT',
-          tzName: 'Brunei Darussalam Time')
-    ],
-    emoji: '🇧🇳',
-    emojiU: 'U+1F1E7 U+1F1F3',
-    states: [
-      State(id: 1217, name: 'Belait District', stateCode: 'BE', cities: [
+  id: 33,
+  name: 'Brunei',
+  iso3: 'BRN',
+  iso2: 'BN',
+  phoneCode: '673',
+  capital: 'Bandar Seri Begawan',
+  currency: 'BND',
+  currencySymbol: r'B$',
+  tld: '.bn',
+  native: 'Negara Brunei Darussalam',
+  region: 'Asia',
+  subregion: 'South-Eastern Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Brunei',
+      gmtOffset: 28800,
+      gmtOffsetName: 'UTC+08:00',
+      abbreviation: 'BNT',
+      tzName: 'Brunei Darussalam Time',
+    )
+  ],
+  emoji: '🇧🇳',
+  emojiU: 'U+1F1E7 U+1F1F3',
+  states: [
+    CountryState(
+      id: 1217,
+      name: 'Belait District',
+      stateCode: 'BE',
+      cities: [
         City(
-            id: 9820,
-            name: 'Kuala Belait',
-            latitude: '4.58361000',
-            longitude: '114.23120000'),
+          id: 9820,
+          name: 'Kuala Belait',
+          latitude: '4.58361000',
+          longitude: '114.23120000',
+        ),
         City(
-            id: 9823,
-            name: 'Seria',
-            latitude: '4.60637000',
-            longitude: '114.32476000')
-      ]),
-      State(id: 1216, name: 'Brunei-Muara District', stateCode: 'BM', cities: [
+          id: 9823,
+          name: 'Seria',
+          latitude: '4.60637000',
+          longitude: '114.32476000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1216,
+      name: 'Brunei-Muara District',
+      stateCode: 'BM',
+      cities: [
         City(
-            id: 9816,
-            name: 'Bandar Seri Begawan',
-            latitude: '4.89035000',
-            longitude: '114.94006000'),
+          id: 9816,
+          name: 'Bandar Seri Begawan',
+          latitude: '4.89035000',
+          longitude: '114.94006000',
+        ),
         City(
-            id: 9818,
-            name: 'Berakas A',
-            latitude: '4.97032000',
-            longitude: '114.92989000'),
+          id: 9818,
+          name: 'Berakas A',
+          latitude: '4.97032000',
+          longitude: '114.92989000',
+        ),
         City(
-            id: 9819,
-            name: 'Kapok',
-            latitude: '5.02447000',
-            longitude: '115.04664000'),
+          id: 9819,
+          name: 'Kapok',
+          latitude: '5.02447000',
+          longitude: '115.04664000',
+        ),
         City(
-            id: 9821,
-            name: 'Mentiri',
-            latitude: '4.97058000',
-            longitude: '115.02078000'),
+          id: 9821,
+          name: 'Mentiri',
+          latitude: '4.97058000',
+          longitude: '115.02078000',
+        ),
         City(
-            id: 9822,
-            name: 'Serasa',
-            latitude: '5.01718000',
-            longitude: '115.05841000')
-      ]),
-      State(id: 1218, name: 'Temburong District', stateCode: 'TE', cities: [
+          id: 9822,
+          name: 'Serasa',
+          latitude: '5.01718000',
+          longitude: '115.05841000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1218,
+      name: 'Temburong District',
+      stateCode: 'TE',
+      cities: [
         City(
-            id: 9817,
-            name: 'Bangar',
-            latitude: '4.70861000',
-            longitude: '115.07167000')
-      ]),
-      State(id: 1219, name: 'Tutong District', stateCode: 'TU', cities: [
+          id: 9817,
+          name: 'Bangar',
+          latitude: '4.70861000',
+          longitude: '115.07167000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 1219,
+      name: 'Tutong District',
+      stateCode: 'TU',
+      cities: [
         City(
-            id: 9824,
-            name: 'Tutong',
-            latitude: '4.80278000',
-            longitude: '114.64917000')
-      ])
-    ]);
+          id: 9824,
+          name: 'Tutong',
+          latitude: '4.80278000',
+          longitude: '114.64917000',
+        )
+      ],
+    ),
+  ],
+);

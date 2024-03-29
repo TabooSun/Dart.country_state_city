@@ -3,97 +3,136 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const rwa = Country(
-    id: 183,
-    name: 'Rwanda',
-    iso3: 'RWA',
-    iso2: 'RW',
-    phoneCode: '250',
-    capital: 'Kigali',
-    currency: 'RWF',
-    currencySymbol: r'FRw',
-    tld: '.rw',
-    native: 'Rwanda',
-    region: 'Africa',
-    subregion: 'Eastern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Kigali',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'CAT',
-          tzName: 'Central Africa Time')
-    ],
-    emoji: '🇷🇼',
-    emojiU: 'U+1F1F7 U+1F1FC',
-    states: [
-      State(id: 261, name: 'Eastern Province', stateCode: '02', cities: [
+  id: 183,
+  name: 'Rwanda',
+  iso3: 'RWA',
+  iso2: 'RW',
+  phoneCode: '250',
+  capital: 'Kigali',
+  currency: 'RWF',
+  currencySymbol: r'FRw',
+  tld: '.rw',
+  native: 'Rwanda',
+  region: 'Africa',
+  subregion: 'Eastern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Kigali',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'CAT',
+      tzName: 'Central Africa Time',
+    )
+  ],
+  emoji: '🇷🇼',
+  emojiU: 'U+1F1F7 U+1F1FC',
+  states: [
+    CountryState(
+      id: 261,
+      name: 'Eastern Province',
+      stateCode: '02',
+      cities: [
         City(
-            id: 102798,
-            name: 'Kibungo',
-            latitude: '-2.15970000',
-            longitude: '30.54270000'),
+          id: 102798,
+          name: 'Kibungo',
+          latitude: '-2.15970000',
+          longitude: '30.54270000',
+        ),
         City(
-            id: 102803,
-            name: 'Rwamagana',
-            latitude: '-1.94870000',
-            longitude: '30.43470000')
-      ]),
-      State(id: 262, name: 'Kigali district', stateCode: '01', cities: [
+          id: 102803,
+          name: 'Rwamagana',
+          latitude: '-1.94870000',
+          longitude: '30.43470000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 262,
+      name: 'Kigali district',
+      stateCode: '01',
+      cities: [
         City(
-            id: 102800,
-            name: 'Kigali',
-            latitude: '-1.94995000',
-            longitude: '30.05885000')
-      ]),
-      State(id: 263, name: 'Northern Province', stateCode: '03', cities: [
+          id: 102800,
+          name: 'Kigali',
+          latitude: '-1.94995000',
+          longitude: '30.05885000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 263,
+      name: 'Northern Province',
+      stateCode: '03',
+      cities: [
         City(
-            id: 102793,
-            name: 'Byumba',
-            latitude: '-1.57630000',
-            longitude: '30.06750000'),
+          id: 102793,
+          name: 'Byumba',
+          latitude: '-1.57630000',
+          longitude: '30.06750000',
+        ),
         City(
-            id: 102801,
-            name: 'Musanze',
-            latitude: '-1.49984000',
-            longitude: '29.63497000')
-      ]),
-      State(id: 259, name: 'Southern Province', stateCode: '05', cities: [
+          id: 102801,
+          name: 'Musanze',
+          latitude: '-1.49984000',
+          longitude: '29.63497000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 259,
+      name: 'Southern Province',
+      stateCode: '05',
+      cities: [
         City(
-            id: 102792,
-            name: 'Butare',
-            latitude: '-2.59667000',
-            longitude: '29.73944000'),
+          id: 102792,
+          name: 'Butare',
+          latitude: '-2.59667000',
+          longitude: '29.73944000',
+        ),
         City(
-            id: 102795,
-            name: 'Eglise Catholique, Centrale GIKO',
-            latitude: '-1.93653000',
-            longitude: '29.80610000'),
+          id: 102795,
+          name: 'Eglise Catholique, Centrale GIKO',
+          latitude: '-1.93653000',
+          longitude: '29.80610000',
+        ),
         City(
-            id: 102797,
-            name: 'Gitarama',
-            latitude: '-2.07444000',
-            longitude: '29.75667000'),
+          id: 102797,
+          name: 'Gitarama',
+          latitude: '-2.07444000',
+          longitude: '29.75667000',
+        ),
         City(
-            id: 102802,
-            name: 'Nzega',
-            latitude: '-2.47900000',
-            longitude: '29.55640000')
-      ]),
-      State(id: 260, name: 'Western Province', stateCode: '04', cities: [
+          id: 102802,
+          name: 'Nzega',
+          latitude: '-2.47900000',
+          longitude: '29.55640000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 260,
+      name: 'Western Province',
+      stateCode: '04',
+      cities: [
         City(
-            id: 102794,
-            name: 'Cyangugu',
-            latitude: '-2.48460000',
-            longitude: '28.90750000'),
+          id: 102794,
+          name: 'Cyangugu',
+          latitude: '-2.48460000',
+          longitude: '28.90750000',
+        ),
         City(
-            id: 102796,
-            name: 'Gisenyi',
-            latitude: '-1.70278000',
-            longitude: '29.25639000'),
+          id: 102796,
+          name: 'Gisenyi',
+          latitude: '-1.70278000',
+          longitude: '29.25639000',
+        ),
         City(
-            id: 102799,
-            name: 'Kibuye',
-            latitude: '-2.06028000',
-            longitude: '29.34778000')
-      ])
-    ]);
+          id: 102799,
+          name: 'Kibuye',
+          latitude: '-2.06028000',
+          longitude: '29.34778000',
+        ),
+      ],
+    ),
+  ],
+);

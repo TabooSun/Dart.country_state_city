@@ -3,402 +3,525 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const zmb = Country(
-    id: 246,
-    name: 'Zambia',
-    iso3: 'ZMB',
-    iso2: 'ZM',
-    phoneCode: '260',
-    capital: 'Lusaka',
-    currency: 'ZMW',
-    currencySymbol: r'ZK',
-    tld: '.zm',
-    native: 'Zambia',
-    region: 'Africa',
-    subregion: 'Eastern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Lusaka',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'CAT',
-          tzName: 'Central Africa Time')
-    ],
-    emoji: '🇿🇲',
-    emojiU: 'U+1F1FF U+1F1F2',
-    states: [
-      State(id: 1986, name: 'Central Province', stateCode: '02', cities: [
-        City(
-            id: 131332,
-            name: 'Chibombo',
-            latitude: '-14.65685000',
-            longitude: '28.07057000'),
-        City(
-            id: 131333,
-            name: 'Chibombo District',
-            latitude: '-14.65808000',
-            longitude: '28.07376000'),
-        City(
-            id: 131345,
-            name: 'Kabwe',
-            latitude: '-14.44690000',
-            longitude: '28.44644000'),
-        City(
-            id: 131352,
-            name: 'Kapiri Mposhi',
-            latitude: '-13.97147000',
-            longitude: '28.66985000'),
-        City(
-            id: 131371,
-            name: 'Mkushi',
-            latitude: '-13.62015000',
-            longitude: '29.39390000'),
-        City(
-            id: 131380,
-            name: 'Mumbwa',
-            latitude: '-14.98293000',
-            longitude: '27.06190000'),
-        City(
-            id: 131393,
-            name: 'Serenje',
-            latitude: '-13.23251000',
-            longitude: '30.23522000')
-      ]),
-      State(id: 1984, name: 'Copperbelt Province', stateCode: '08', cities: [
-        City(
-            id: 131331,
-            name: 'Chambishi',
-            latitude: '-12.63247000',
-            longitude: '28.05367000'),
-        City(
-            id: 131334,
-            name: 'Chililabombwe',
-            latitude: '-12.36475000',
-            longitude: '27.82286000'),
-        City(
-            id: 131335,
-            name: 'Chingola',
-            latitude: '-12.52897000',
-            longitude: '27.88382000'),
-        City(
-            id: 131336,
-            name: 'Chingola District',
-            latitude: '-12.48478000',
-            longitude: '27.66313000'),
-        City(
-            id: 131349,
-            name: 'Kalulushi',
-            latitude: '-12.84151000',
-            longitude: '28.09479000'),
-        City(
-            id: 131356,
-            name: 'Kataba',
-            latitude: '-11.88333000',
-            longitude: '29.78333000'),
-        City(
-            id: 131358,
-            name: 'Kitwe',
-            latitude: '-12.80243000',
-            longitude: '28.21323000'),
-        City(
-            id: 131362,
-            name: 'Luanshya',
-            latitude: '-13.13667000',
-            longitude: '28.41661000'),
-        City(
-            id: 131375,
-            name: 'Mpongwe',
-            latitude: '-13.50914000',
-            longitude: '28.15504000'),
-        City(
-            id: 131378,
-            name: 'Mufulira',
-            latitude: '-12.54982000',
-            longitude: '28.24071000'),
-        City(
-            id: 131388,
-            name: 'Ndola',
-            latitude: '-12.95867000',
-            longitude: '28.63659000')
-      ]),
-      State(id: 1991, name: 'Eastern Province', stateCode: '03', cities: [
-        City(
-            id: 131329,
-            name: 'Chadiza',
-            latitude: '-14.06779000',
-            longitude: '32.43917000'),
-        City(
-            id: 131338,
-            name: 'Chipata',
-            latitude: '-13.63333000',
-            longitude: '32.65000000'),
-        City(
-            id: 131364,
-            name: 'Lundazi',
-            latitude: '-12.29292000',
-            longitude: '33.17820000'),
-        City(
-            id: 131389,
-            name: 'Nyimba',
-            latitude: '-14.55656000',
-            longitude: '30.81490000'),
-        City(
-            id: 131390,
-            name: 'Petauke',
-            latitude: '-14.24117000',
-            longitude: '31.31975000')
-      ]),
-      State(id: 1987, name: 'Luapula Province', stateCode: '04', cities: [
-        City(
-            id: 131357,
-            name: 'Kawambwa',
-            latitude: '-9.79150000',
-            longitude: '29.07913000'),
-        City(
-            id: 131368,
-            name: 'Mansa',
-            latitude: '-11.19976000',
-            longitude: '28.89431000'),
-        City(
-            id: 131382,
-            name: 'Mwense',
-            latitude: '-10.38447000',
-            longitude: '28.69800000'),
-        City(
-            id: 131387,
-            name: 'Nchelenge',
-            latitude: '-9.34506000',
-            longitude: '28.73396000'),
-        City(
-            id: 131391,
-            name: 'Samfya',
-            latitude: '-11.36491000',
-            longitude: '29.55652000')
-      ]),
-      State(id: 1988, name: 'Lusaka Province', stateCode: '09', cities: [
-        City(
-            id: 131340,
-            name: 'Chongwe',
-            latitude: '-15.32916000',
-            longitude: '28.68204000'),
-        City(
-            id: 131346,
-            name: 'Kafue',
-            latitude: '-15.76911000',
-            longitude: '28.18136000'),
-        City(
-            id: 131361,
-            name: 'Luangwa',
-            latitude: '-15.61667000',
-            longitude: '30.41667000'),
-        City(
-            id: 131365,
-            name: 'Lusaka',
-            latitude: '-15.40669000',
-            longitude: '28.28713000')
-      ]),
-      State(id: 1989, name: 'Muchinga Province', stateCode: '10', cities: [
-        City(
-            id: 131330,
-            name: 'Chama',
-            latitude: '-11.21303000',
-            longitude: '33.15210000'),
-        City(
-            id: 131337,
-            name: 'Chinsali',
-            latitude: '-10.54142000',
-            longitude: '32.08162000'),
-        City(
-            id: 131342,
-            name: 'Isoka',
-            latitude: '-10.16062000',
-            longitude: '32.63353000'),
-        City(
-            id: 131374,
-            name: 'Mpika',
-            latitude: '-11.83431000',
-            longitude: '31.45287000'),
-        City(
-            id: 131385,
-            name: 'Nakonde',
-            latitude: '-9.34213000',
-            longitude: '32.74500000')
-      ]),
-      State(id: 1982, name: 'Northern Province', stateCode: '05', cities: [
-        City(
-            id: 131353,
-            name: 'Kaputa',
-            latitude: '-8.46887000',
-            longitude: '29.66193000'),
-        City(
-            id: 131354,
-            name: 'Kasama',
-            latitude: '-10.21289000',
-            longitude: '31.18084000'),
-        City(
-            id: 131366,
-            name: 'Luwingu',
-            latitude: '-10.26210000',
-            longitude: '29.92712000'),
-        City(
-            id: 131370,
-            name: 'Mbala',
-            latitude: '-8.84024000',
-            longitude: '31.36587000'),
-        City(
-            id: 131376,
-            name: 'Mporokoso',
-            latitude: '-9.37273000',
-            longitude: '30.12501000'),
-        City(
-            id: 131377,
-            name: 'Mpulungu',
-            latitude: '-8.76234000',
-            longitude: '31.11405000'),
-        City(
-            id: 131381,
-            name: 'Mungwi',
-            latitude: '-10.17320000',
-            longitude: '31.36942000')
-      ]),
-      State(id: 1985, name: 'Northwestern Province', stateCode: '06', cities: [
-        City(
-            id: 131344,
-            name: 'Kabompo',
-            latitude: '-13.59268000',
-            longitude: '24.20081000'),
-        City(
-            id: 131348,
-            name: 'Kalengwa',
-            latitude: '-13.46586000',
-            longitude: '25.00271000'),
-        City(
-            id: 131350,
-            name: 'Kansanshi',
-            latitude: '-12.09514000',
-            longitude: '26.42727000'),
-        City(
-            id: 131355,
-            name: 'Kasempa',
-            latitude: '-13.45836000',
-            longitude: '25.83380000'),
-        City(
-            id: 131379,
-            name: 'Mufumbwe',
-            latitude: '-13.68333000',
-            longitude: '24.80000000'),
-        City(
-            id: 131383,
-            name: 'Mwinilunga',
-            latitude: '-11.73584000',
-            longitude: '24.42926000'),
-        City(
-            id: 131398,
-            name: 'Solwezi',
-            latitude: '-12.16880000',
-            longitude: '26.38938000'),
-        City(
-            id: 131399,
-            name: 'Zambezi',
-            latitude: '-13.54323000',
-            longitude: '23.10467000')
-      ]),
-      State(id: 1990, name: 'Southern Province', stateCode: '07', cities: [
-        City(
-            id: 131339,
-            name: 'Choma',
-            latitude: '-16.80889000',
-            longitude: '26.98750000'),
-        City(
-            id: 131341,
-            name: 'Gwembe',
-            latitude: '-16.49755000',
-            longitude: '27.60691000'),
-        City(
-            id: 131343,
-            name: 'Itezhi-Tezhi District',
-            latitude: '-15.74092000',
-            longitude: '26.04146000'),
-        City(
-            id: 131360,
-            name: 'Livingstone',
-            latitude: '-17.84194000',
-            longitude: '25.85425000'),
-        City(
-            id: 131367,
-            name: 'Maamba',
-            latitude: '-17.36667000',
-            longitude: '27.15000000'),
-        City(
-            id: 131369,
-            name: 'Mazabuka',
-            latitude: '-15.85601000',
-            longitude: '27.74800000'),
-        City(
-            id: 131373,
-            name: 'Monze',
-            latitude: '-16.28333000',
-            longitude: '27.48333000'),
-        City(
-            id: 131384,
-            name: 'Nakambala',
-            latitude: '-15.83244000',
-            longitude: '27.77994000'),
-        City(
-            id: 131386,
-            name: 'Namwala',
-            latitude: '-15.75042000',
-            longitude: '26.43839000'),
-        City(
-            id: 131395,
-            name: 'Siavonga',
-            latitude: '-16.53818000',
-            longitude: '28.70876000'),
-        City(
-            id: 131396,
-            name: 'Siavonga District',
-            latitude: '-16.26742000',
-            longitude: '28.55036000'),
-        City(
-            id: 131397,
-            name: 'Sinazongwe',
-            latitude: '-17.26140000',
-            longitude: '27.46179000')
-      ]),
-      State(id: 1983, name: 'Western Province', stateCode: '01', cities: [
-        City(
-            id: 131347,
-            name: 'Kalabo',
-            latitude: '-14.99307000',
-            longitude: '22.67926000'),
-        City(
-            id: 131351,
-            name: 'Kaoma',
-            latitude: '-14.78333000',
-            longitude: '24.80000000'),
-        City(
-            id: 131359,
-            name: 'Limulunga',
-            latitude: '-15.09691000',
-            longitude: '23.13757000'),
-        City(
-            id: 131363,
-            name: 'Lukulu',
-            latitude: '-14.37067000',
-            longitude: '23.24196000'),
-        City(
-            id: 131372,
-            name: 'Mongu',
-            latitude: '-15.24835000',
-            longitude: '23.12741000'),
-        City(
-            id: 131392,
-            name: 'Senanga',
-            latitude: '-16.11667000',
-            longitude: '23.26667000'),
-        City(
-            id: 131394,
-            name: 'Sesheke',
-            latitude: '-17.47593000',
-            longitude: '24.29684000')
-      ])
-    ]);
+  id: 246,
+  name: 'Zambia',
+  iso3: 'ZMB',
+  iso2: 'ZM',
+  phoneCode: '260',
+  capital: 'Lusaka',
+  currency: 'ZMW',
+  currencySymbol: r'ZK',
+  tld: '.zm',
+  native: 'Zambia',
+  region: 'Africa',
+  subregion: 'Eastern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Lusaka',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'CAT',
+      tzName: 'Central Africa Time',
+    )
+  ],
+  emoji: '🇿🇲',
+  emojiU: 'U+1F1FF U+1F1F2',
+  states: [
+    CountryState(
+      id: 1986,
+      name: 'Central Province',
+      stateCode: '02',
+      cities: [
+        City(
+          id: 131332,
+          name: 'Chibombo',
+          latitude: '-14.65685000',
+          longitude: '28.07057000',
+        ),
+        City(
+          id: 131333,
+          name: 'Chibombo District',
+          latitude: '-14.65808000',
+          longitude: '28.07376000',
+        ),
+        City(
+          id: 131345,
+          name: 'Kabwe',
+          latitude: '-14.44690000',
+          longitude: '28.44644000',
+        ),
+        City(
+          id: 131352,
+          name: 'Kapiri Mposhi',
+          latitude: '-13.97147000',
+          longitude: '28.66985000',
+        ),
+        City(
+          id: 131371,
+          name: 'Mkushi',
+          latitude: '-13.62015000',
+          longitude: '29.39390000',
+        ),
+        City(
+          id: 131380,
+          name: 'Mumbwa',
+          latitude: '-14.98293000',
+          longitude: '27.06190000',
+        ),
+        City(
+          id: 131393,
+          name: 'Serenje',
+          latitude: '-13.23251000',
+          longitude: '30.23522000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1984,
+      name: 'Copperbelt Province',
+      stateCode: '08',
+      cities: [
+        City(
+          id: 131331,
+          name: 'Chambishi',
+          latitude: '-12.63247000',
+          longitude: '28.05367000',
+        ),
+        City(
+          id: 131334,
+          name: 'Chililabombwe',
+          latitude: '-12.36475000',
+          longitude: '27.82286000',
+        ),
+        City(
+          id: 131335,
+          name: 'Chingola',
+          latitude: '-12.52897000',
+          longitude: '27.88382000',
+        ),
+        City(
+          id: 131336,
+          name: 'Chingola District',
+          latitude: '-12.48478000',
+          longitude: '27.66313000',
+        ),
+        City(
+          id: 131349,
+          name: 'Kalulushi',
+          latitude: '-12.84151000',
+          longitude: '28.09479000',
+        ),
+        City(
+          id: 131356,
+          name: 'Kataba',
+          latitude: '-11.88333000',
+          longitude: '29.78333000',
+        ),
+        City(
+          id: 131358,
+          name: 'Kitwe',
+          latitude: '-12.80243000',
+          longitude: '28.21323000',
+        ),
+        City(
+          id: 131362,
+          name: 'Luanshya',
+          latitude: '-13.13667000',
+          longitude: '28.41661000',
+        ),
+        City(
+          id: 131375,
+          name: 'Mpongwe',
+          latitude: '-13.50914000',
+          longitude: '28.15504000',
+        ),
+        City(
+          id: 131378,
+          name: 'Mufulira',
+          latitude: '-12.54982000',
+          longitude: '28.24071000',
+        ),
+        City(
+          id: 131388,
+          name: 'Ndola',
+          latitude: '-12.95867000',
+          longitude: '28.63659000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1991,
+      name: 'Eastern Province',
+      stateCode: '03',
+      cities: [
+        City(
+          id: 131329,
+          name: 'Chadiza',
+          latitude: '-14.06779000',
+          longitude: '32.43917000',
+        ),
+        City(
+          id: 131338,
+          name: 'Chipata',
+          latitude: '-13.63333000',
+          longitude: '32.65000000',
+        ),
+        City(
+          id: 131364,
+          name: 'Lundazi',
+          latitude: '-12.29292000',
+          longitude: '33.17820000',
+        ),
+        City(
+          id: 131389,
+          name: 'Nyimba',
+          latitude: '-14.55656000',
+          longitude: '30.81490000',
+        ),
+        City(
+          id: 131390,
+          name: 'Petauke',
+          latitude: '-14.24117000',
+          longitude: '31.31975000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1987,
+      name: 'Luapula Province',
+      stateCode: '04',
+      cities: [
+        City(
+          id: 131357,
+          name: 'Kawambwa',
+          latitude: '-9.79150000',
+          longitude: '29.07913000',
+        ),
+        City(
+          id: 131368,
+          name: 'Mansa',
+          latitude: '-11.19976000',
+          longitude: '28.89431000',
+        ),
+        City(
+          id: 131382,
+          name: 'Mwense',
+          latitude: '-10.38447000',
+          longitude: '28.69800000',
+        ),
+        City(
+          id: 131387,
+          name: 'Nchelenge',
+          latitude: '-9.34506000',
+          longitude: '28.73396000',
+        ),
+        City(
+          id: 131391,
+          name: 'Samfya',
+          latitude: '-11.36491000',
+          longitude: '29.55652000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1988,
+      name: 'Lusaka Province',
+      stateCode: '09',
+      cities: [
+        City(
+          id: 131340,
+          name: 'Chongwe',
+          latitude: '-15.32916000',
+          longitude: '28.68204000',
+        ),
+        City(
+          id: 131346,
+          name: 'Kafue',
+          latitude: '-15.76911000',
+          longitude: '28.18136000',
+        ),
+        City(
+          id: 131361,
+          name: 'Luangwa',
+          latitude: '-15.61667000',
+          longitude: '30.41667000',
+        ),
+        City(
+          id: 131365,
+          name: 'Lusaka',
+          latitude: '-15.40669000',
+          longitude: '28.28713000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1989,
+      name: 'Muchinga Province',
+      stateCode: '10',
+      cities: [
+        City(
+          id: 131330,
+          name: 'Chama',
+          latitude: '-11.21303000',
+          longitude: '33.15210000',
+        ),
+        City(
+          id: 131337,
+          name: 'Chinsali',
+          latitude: '-10.54142000',
+          longitude: '32.08162000',
+        ),
+        City(
+          id: 131342,
+          name: 'Isoka',
+          latitude: '-10.16062000',
+          longitude: '32.63353000',
+        ),
+        City(
+          id: 131374,
+          name: 'Mpika',
+          latitude: '-11.83431000',
+          longitude: '31.45287000',
+        ),
+        City(
+          id: 131385,
+          name: 'Nakonde',
+          latitude: '-9.34213000',
+          longitude: '32.74500000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1982,
+      name: 'Northern Province',
+      stateCode: '05',
+      cities: [
+        City(
+          id: 131353,
+          name: 'Kaputa',
+          latitude: '-8.46887000',
+          longitude: '29.66193000',
+        ),
+        City(
+          id: 131354,
+          name: 'Kasama',
+          latitude: '-10.21289000',
+          longitude: '31.18084000',
+        ),
+        City(
+          id: 131366,
+          name: 'Luwingu',
+          latitude: '-10.26210000',
+          longitude: '29.92712000',
+        ),
+        City(
+          id: 131370,
+          name: 'Mbala',
+          latitude: '-8.84024000',
+          longitude: '31.36587000',
+        ),
+        City(
+          id: 131376,
+          name: 'Mporokoso',
+          latitude: '-9.37273000',
+          longitude: '30.12501000',
+        ),
+        City(
+          id: 131377,
+          name: 'Mpulungu',
+          latitude: '-8.76234000',
+          longitude: '31.11405000',
+        ),
+        City(
+          id: 131381,
+          name: 'Mungwi',
+          latitude: '-10.17320000',
+          longitude: '31.36942000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1985,
+      name: 'Northwestern Province',
+      stateCode: '06',
+      cities: [
+        City(
+          id: 131344,
+          name: 'Kabompo',
+          latitude: '-13.59268000',
+          longitude: '24.20081000',
+        ),
+        City(
+          id: 131348,
+          name: 'Kalengwa',
+          latitude: '-13.46586000',
+          longitude: '25.00271000',
+        ),
+        City(
+          id: 131350,
+          name: 'Kansanshi',
+          latitude: '-12.09514000',
+          longitude: '26.42727000',
+        ),
+        City(
+          id: 131355,
+          name: 'Kasempa',
+          latitude: '-13.45836000',
+          longitude: '25.83380000',
+        ),
+        City(
+          id: 131379,
+          name: 'Mufumbwe',
+          latitude: '-13.68333000',
+          longitude: '24.80000000',
+        ),
+        City(
+          id: 131383,
+          name: 'Mwinilunga',
+          latitude: '-11.73584000',
+          longitude: '24.42926000',
+        ),
+        City(
+          id: 131398,
+          name: 'Solwezi',
+          latitude: '-12.16880000',
+          longitude: '26.38938000',
+        ),
+        City(
+          id: 131399,
+          name: 'Zambezi',
+          latitude: '-13.54323000',
+          longitude: '23.10467000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1990,
+      name: 'Southern Province',
+      stateCode: '07',
+      cities: [
+        City(
+          id: 131339,
+          name: 'Choma',
+          latitude: '-16.80889000',
+          longitude: '26.98750000',
+        ),
+        City(
+          id: 131341,
+          name: 'Gwembe',
+          latitude: '-16.49755000',
+          longitude: '27.60691000',
+        ),
+        City(
+          id: 131343,
+          name: 'Itezhi-Tezhi District',
+          latitude: '-15.74092000',
+          longitude: '26.04146000',
+        ),
+        City(
+          id: 131360,
+          name: 'Livingstone',
+          latitude: '-17.84194000',
+          longitude: '25.85425000',
+        ),
+        City(
+          id: 131367,
+          name: 'Maamba',
+          latitude: '-17.36667000',
+          longitude: '27.15000000',
+        ),
+        City(
+          id: 131369,
+          name: 'Mazabuka',
+          latitude: '-15.85601000',
+          longitude: '27.74800000',
+        ),
+        City(
+          id: 131373,
+          name: 'Monze',
+          latitude: '-16.28333000',
+          longitude: '27.48333000',
+        ),
+        City(
+          id: 131384,
+          name: 'Nakambala',
+          latitude: '-15.83244000',
+          longitude: '27.77994000',
+        ),
+        City(
+          id: 131386,
+          name: 'Namwala',
+          latitude: '-15.75042000',
+          longitude: '26.43839000',
+        ),
+        City(
+          id: 131395,
+          name: 'Siavonga',
+          latitude: '-16.53818000',
+          longitude: '28.70876000',
+        ),
+        City(
+          id: 131396,
+          name: 'Siavonga District',
+          latitude: '-16.26742000',
+          longitude: '28.55036000',
+        ),
+        City(
+          id: 131397,
+          name: 'Sinazongwe',
+          latitude: '-17.26140000',
+          longitude: '27.46179000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 1983,
+      name: 'Western Province',
+      stateCode: '01',
+      cities: [
+        City(
+          id: 131347,
+          name: 'Kalabo',
+          latitude: '-14.99307000',
+          longitude: '22.67926000',
+        ),
+        City(
+          id: 131351,
+          name: 'Kaoma',
+          latitude: '-14.78333000',
+          longitude: '24.80000000',
+        ),
+        City(
+          id: 131359,
+          name: 'Limulunga',
+          latitude: '-15.09691000',
+          longitude: '23.13757000',
+        ),
+        City(
+          id: 131363,
+          name: 'Lukulu',
+          latitude: '-14.37067000',
+          longitude: '23.24196000',
+        ),
+        City(
+          id: 131372,
+          name: 'Mongu',
+          latitude: '-15.24835000',
+          longitude: '23.12741000',
+        ),
+        City(
+          id: 131392,
+          name: 'Senanga',
+          latitude: '-16.11667000',
+          longitude: '23.26667000',
+        ),
+        City(
+          id: 131394,
+          name: 'Sesheke',
+          latitude: '-17.47593000',
+          longitude: '24.29684000',
+        ),
+      ],
+    ),
+  ],
+);

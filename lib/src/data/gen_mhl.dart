@@ -3,35 +3,48 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const mhl = Country(
-    id: 137,
-    name: 'Marshall Islands',
-    iso3: 'MHL',
-    iso2: 'MH',
-    phoneCode: '692',
-    capital: 'Majuro',
-    currency: 'USD',
-    currencySymbol: r'$',
-    tld: '.mh',
-    native: 'M̧ajeļ',
-    region: 'Oceania',
-    subregion: 'Micronesia',
-    timezones: [
-      Timezone(
-          zoneName: 'Pacific/Kwajalein',
-          gmtOffset: 43200,
-          gmtOffsetName: 'UTC+12:00',
-          abbreviation: 'MHT',
-          tzName: 'Marshall Islands Time'),
-      Timezone(
-          zoneName: 'Pacific/Majuro',
-          gmtOffset: 43200,
-          gmtOffsetName: 'UTC+12:00',
-          abbreviation: 'MHT',
-          tzName: 'Marshall Islands Time')
-    ],
-    emoji: '🇲🇭',
-    emojiU: 'U+1F1F2 U+1F1ED',
-    states: [
-      State(id: 2574, name: 'Ralik Chain', stateCode: 'L', cities: []),
-      State(id: 2573, name: 'Ratak Chain', stateCode: 'T', cities: [])
-    ]);
+  id: 137,
+  name: 'Marshall Islands',
+  iso3: 'MHL',
+  iso2: 'MH',
+  phoneCode: '692',
+  capital: 'Majuro',
+  currency: 'USD',
+  currencySymbol: r'$',
+  tld: '.mh',
+  native: 'M̧ajeļ',
+  region: 'Oceania',
+  subregion: 'Micronesia',
+  timezones: [
+    Timezone(
+      zoneName: 'Pacific/Kwajalein',
+      gmtOffset: 43200,
+      gmtOffsetName: 'UTC+12:00',
+      abbreviation: 'MHT',
+      tzName: 'Marshall Islands Time',
+    ),
+    Timezone(
+      zoneName: 'Pacific/Majuro',
+      gmtOffset: 43200,
+      gmtOffsetName: 'UTC+12:00',
+      abbreviation: 'MHT',
+      tzName: 'Marshall Islands Time',
+    ),
+  ],
+  emoji: '🇲🇭',
+  emojiU: 'U+1F1F2 U+1F1ED',
+  states: [
+    CountryState(
+      id: 2574,
+      name: 'Ralik Chain',
+      stateCode: 'L',
+      cities: [],
+    ),
+    CountryState(
+      id: 2573,
+      name: 'Ratak Chain',
+      stateCode: 'T',
+      cities: [],
+    ),
+  ],
+);

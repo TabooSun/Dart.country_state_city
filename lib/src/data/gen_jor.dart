@@ -3,461 +3,605 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const jor = Country(
-    id: 111,
-    name: 'Jordan',
-    iso3: 'JOR',
-    iso2: 'JO',
-    phoneCode: '962',
-    capital: 'Amman',
-    currency: 'JOD',
-    currencySymbol: r'ا.د',
-    tld: '.jo',
-    native: 'الأردن',
-    region: 'Asia',
-    subregion: 'Western Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Amman',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'EET',
-          tzName: 'Eastern European Time')
-    ],
-    emoji: '🇯🇴',
-    emojiU: 'U+1F1EF U+1F1F4',
-    states: [
-      State(id: 963, name: 'Ajloun Governorate', stateCode: 'AJ', cities: [
-        City(
-            id: 63206,
-            name: '‘Ajlūn',
-            latitude: '32.33326000',
-            longitude: '35.75279000'),
-        City(
-            id: 63207,
-            name: '‘Anjarah',
-            latitude: '32.30630000',
-            longitude: '35.75653000'),
-        City(
-            id: 63208,
-            name: '‘Ayn Jannah',
-            latitude: '32.33466000',
-            longitude: '35.76370000'),
-        City(
-            id: 63202,
-            name: 'Ḩalāwah',
-            latitude: '32.38433000',
-            longitude: '35.66167000'),
-        City(
-            id: 63199,
-            name: 'Şakhrah',
-            latitude: '32.37087000',
-            longitude: '35.84267000')
-      ]),
-      State(id: 965, name: 'Amman Governorate', stateCode: 'AM', cities: [
-        City(
-            id: 63133,
-            name: 'Al Jīzah',
-            latitude: '31.69893000',
-            longitude: '35.95530000'),
-        City(
-            id: 63132,
-            name: 'Al Jubayhah',
-            latitude: '32.01071000',
-            longitude: '35.89802000'),
-        City(
-            id: 63141,
-            name: 'Amman',
-            latitude: '31.95522000',
-            longitude: '35.94503000'),
-        City(
-            id: 63203,
-            name: 'Ḩayy al Bunayyāt',
-            latitude: '31.89603000',
-            longitude: '35.88465000'),
-        City(
-            id: 63204,
-            name: 'Ḩayy al Quwaysimah',
-            latitude: '31.91037000',
-            longitude: '35.94975000'),
-        City(
-            id: 63162,
-            name: 'Jāwā',
-            latitude: '31.85247000',
-            longitude: '35.93928000'),
-        City(
-            id: 63185,
-            name: 'Saḩāb',
-            latitude: '31.87032000',
-            longitude: '36.00479000'),
-        City(
-            id: 63192,
-            name: 'Umm as Summāq',
-            latitude: '31.88542000',
-            longitude: '35.85430000'),
-        City(
-            id: 63194,
-            name: 'Wādī as Sīr',
-            latitude: '31.95450000',
-            longitude: '35.81831000')
-      ]),
-      State(id: 959, name: 'Aqaba Governorate', stateCode: 'AQ', cities: [
-        City(
-            id: 63142,
-            name: 'Aqaba',
-            latitude: '29.52667000',
-            longitude: '35.00778000'),
-        City(
-            id: 63188,
-            name: 'Tala Bay',
-            latitude: '29.40842000',
-            longitude: '34.97918000')
-      ]),
-      State(id: 961, name: 'Balqa Governorate', stateCode: 'BA', cities: [
-        City(
-            id: 63134,
-            name: 'Al Karāmah',
-            latitude: '31.95439000',
-            longitude: '35.58033000'),
-        City(
-            id: 63145,
-            name: 'As Salţ',
-            latitude: '32.03917000',
-            longitude: '35.72722000'),
-        City(
-            id: 63195,
-            name: 'Yarqā',
-            latitude: '31.97583000',
-            longitude: '35.69638000')
-      ]),
-      State(id: 960, name: 'Irbid Governorate', stateCode: 'IR', cities: [
-        City(
-            id: 63144,
-            name: 'Ar Ramthā',
-            latitude: '32.55873000',
-            longitude: '36.00816000'),
-        City(
-            id: 63146,
-            name: 'Ash Shajarah',
-            latitude: '32.64391000',
-            longitude: '35.94175000'),
-        City(
-            id: 63151,
-            name: 'Aţ Ţayyibah',
-            latitude: '32.54304000',
-            longitude: '35.71756000'),
-        City(
-            id: 63152,
-            name: 'Aţ Ţurrah',
-            latitude: '32.63979000',
-            longitude: '35.98943000'),
-        City(
-            id: 63148,
-            name: 'Aydūn',
-            latitude: '32.50528000',
-            longitude: '35.85809000'),
-        City(
-            id: 63155,
-            name: 'Bayt Īdis',
-            latitude: '32.43775000',
-            longitude: '35.69765000'),
-        City(
-            id: 63154,
-            name: 'Bayt Yāfā',
-            latitude: '32.52253000',
-            longitude: '35.78618000'),
-        City(
-            id: 63158,
-            name: 'Dayr Yūsuf',
-            latitude: '32.48701000',
-            longitude: '35.79635000'),
-        City(
-            id: 63201,
-            name: 'Ḩakamā',
-            latitude: '32.59354000',
-            longitude: '35.88320000'),
-        City(
-            id: 63205,
-            name: 'Ḩātim',
-            latitude: '32.64492000',
-            longitude: '35.77771000'),
-        City(
-            id: 63159,
-            name: 'Irbid',
-            latitude: '32.55556000',
-            longitude: '35.85000000'),
-        City(
-            id: 63161,
-            name: 'Judita',
-            latitude: '32.40792000',
-            longitude: '35.70802000'),
-        City(
-            id: 63163,
-            name: 'Kafr Abīl',
-            latitude: '32.41752000',
-            longitude: '35.66305000'),
-        City(
-            id: 63164,
-            name: 'Kafr Asad',
-            latitude: '32.59800000',
-            longitude: '35.71266000'),
-        City(
-            id: 63165,
-            name: 'Kafr Sawm',
-            latitude: '32.68527000',
-            longitude: '35.80102000'),
-        City(
-            id: 63167,
-            name: 'Kharjā',
-            latitude: '32.65988000',
-            longitude: '35.88782000'),
-        City(
-            id: 63168,
-            name: 'Kitim',
-            latitude: '32.43834000',
-            longitude: '35.89677000'),
-        City(
-            id: 63169,
-            name: 'Kurayyimah',
-            latitude: '32.27639000',
-            longitude: '35.59938000'),
-        City(
-            id: 63172,
-            name: 'Malkā',
-            latitude: '32.67645000',
-            longitude: '35.74851000'),
-        City(
-            id: 63176,
-            name: 'Qumaym',
-            latitude: '32.57174000',
-            longitude: '35.73452000'),
-        City(
-            id: 63184,
-            name: 'Saḩam al Kaffārāt',
-            latitude: '32.69848000',
-            longitude: '35.77438000'),
-        City(
-            id: 63186,
-            name: 'Sāl',
-            latitude: '32.56897000',
-            longitude: '35.91185000'),
-        City(
-            id: 63200,
-            name: 'Şammā',
-            latitude: '32.57102000',
-            longitude: '35.68984000'),
-        City(
-            id: 63189,
-            name: 'Tibnah',
-            latitude: '32.47521000',
-            longitude: '35.73056000'),
-        City(
-            id: 63190,
-            name: 'Umm Qays',
-            latitude: '32.65348000',
-            longitude: '35.68457000'),
-        City(
-            id: 63193,
-            name: 'Waqqāş',
-            latitude: '32.54214000',
-            longitude: '35.60508000'),
-        City(
-            id: 63197,
-            name: 'Zaḩar',
-            latitude: '32.56670000',
-            longitude: '35.77811000')
-      ]),
-      State(id: 966, name: 'Jerash Governorate', stateCode: 'JA', cities: [
-        City(
-            id: 63136,
-            name: 'Al Kittah',
-            latitude: '32.27685000',
-            longitude: '35.84114000'),
-        City(
-            id: 63153,
-            name: 'Balīlā',
-            latitude: '32.39109000',
-            longitude: '35.93832000'),
-        City(
-            id: 63156,
-            name: 'Burmā',
-            latitude: '32.21930000',
-            longitude: '35.78507000'),
-        City(
-            id: 63160,
-            name: 'Jarash',
-            latitude: '32.28082000',
-            longitude: '35.89929000'),
-        City(
-            id: 63175,
-            name: 'Qafqafā',
-            latitude: '32.34851000',
-            longitude: '35.93864000'),
-        City(
-            id: 63178,
-            name: 'Raymūn',
-            latitude: '32.28202000',
-            longitude: '35.82779000'),
-        City(
-            id: 63183,
-            name: 'Sakib',
-            latitude: '32.28431000',
-            longitude: '35.80909000'),
-        City(
-            id: 63187,
-            name: 'Sūf',
-            latitude: '32.31372000',
-            longitude: '35.83713000')
-      ]),
-      State(id: 956, name: 'Karak Governorate', stateCode: 'KA', cities: [
-        City(
-            id: 63209,
-            name: '‘Ayy',
-            latitude: '31.13371000',
-            longitude: '35.64375000'),
-        City(
-            id: 63210,
-            name: '‘Izrā',
-            latitude: '31.15889000',
-            longitude: '35.69278000'),
-        City(
-            id: 63129,
-            name: 'Adir',
-            latitude: '31.20217000',
-            longitude: '35.76155000'),
-        City(
-            id: 63135,
-            name: 'Al Khinzīrah',
-            latitude: '31.05056000',
-            longitude: '35.60606000'),
-        City(
-            id: 63137,
-            name: 'Al Mazār al Janūbī',
-            latitude: '31.06722000',
-            longitude: '35.69486000'),
-        City(
-            id: 63138,
-            name: 'Al Qaşr',
-            latitude: '31.31407000',
-            longitude: '35.74393000'),
-        City(
-            id: 63143,
-            name: 'Ar Rabbah',
-            latitude: '31.26923000',
-            longitude: '35.73829000'),
-        City(
-            id: 63166,
-            name: 'Karak City',
-            latitude: '31.16368000',
-            longitude: '35.76204000'),
-        City(
-            id: 63182,
-            name: 'Safi',
-            latitude: '31.03608000',
-            longitude: '35.46544000')
-      ]),
-      State(id: 964, name: 'Ma\'an Governorate', stateCode: 'MN', cities: [
-        City(
-            id: 63131,
-            name: 'Al Jafr',
-            latitude: '30.31840000',
-            longitude: '36.17775000'),
-        City(
-            id: 63139,
-            name: 'Al Quwayrah',
-            latitude: '29.80045000',
-            longitude: '35.31160000'),
-        City(
-            id: 63147,
-            name: 'Ash Shawbak',
-            latitude: '30.52134000',
-            longitude: '35.57135000'),
-        City(
-            id: 63150,
-            name: 'Aţ Ţayyibah',
-            latitude: '30.25125000',
-            longitude: '35.46570000'),
-        City(
-            id: 63170,
-            name: 'Ma\'an',
-            latitude: '30.19624000',
-            longitude: '35.73405000'),
-        City(
-            id: 63174,
-            name: 'Petra',
-            latitude: '30.32096000',
-            longitude: '35.47895000'),
-        City(
-            id: 63177,
-            name: 'Qīr Moāv',
-            latitude: '31.18248000',
-            longitude: '35.69999000')
-      ]),
-      State(id: 958, name: 'Madaba Governorate', stateCode: 'MD', cities: [
-        City(
-            id: 63173,
-            name: 'Mādabā',
-            latitude: '31.71599000',
-            longitude: '35.79392000')
-      ]),
-      State(id: 962, name: 'Mafraq Governorate', stateCode: 'MA', cities: [
-        City(
-            id: 63140,
-            name: 'Al Ḩamrā’',
-            latitude: '32.44017000',
-            longitude: '36.15265000'),
-        City(
-            id: 63171,
-            name: 'Mafraq',
-            latitude: '32.34289000',
-            longitude: '36.20804000'),
-        City(
-            id: 63179,
-            name: 'Rehab',
-            latitude: '32.32341000',
-            longitude: '36.09087000'),
-        City(
-            id: 63180,
-            name: 'Rukban',
-            latitude: '33.31405000',
-            longitude: '38.70342000'),
-        City(
-            id: 63198,
-            name: 'Şabḩā',
-            latitude: '32.32696000',
-            longitude: '36.50159000'),
-        City(
-            id: 63191,
-            name: 'Umm al Qiţţayn',
-            latitude: '32.31449000',
-            longitude: '36.62826000')
-      ]),
-      State(id: 957, name: 'Tafilah Governorate', stateCode: 'AT', cities: [
-        City(
-            id: 63149,
-            name: 'Aţ Ţafīlah',
-            latitude: '30.83752000',
-            longitude: '35.60442000'),
-        City(
-            id: 63157,
-            name: 'Buşayrā',
-            latitude: '30.73256000',
-            longitude: '35.60943000')
-      ]),
-      State(id: 967, name: 'Zarqa Governorate', stateCode: 'AZ', cities: [
-        City(
-            id: 63130,
-            name: 'Al Azraq ash Shamālī',
-            latitude: '31.88209000',
-            longitude: '36.83017000'),
-        City(
-            id: 63181,
-            name: 'Russeifa',
-            latitude: '32.01778000',
-            longitude: '36.04639000'),
-        City(
-            id: 63196,
-            name: 'Zarqa',
-            latitude: '32.07275000',
-            longitude: '36.08796000')
-      ])
-    ]);
+  id: 111,
+  name: 'Jordan',
+  iso3: 'JOR',
+  iso2: 'JO',
+  phoneCode: '962',
+  capital: 'Amman',
+  currency: 'JOD',
+  currencySymbol: r'ا.د',
+  tld: '.jo',
+  native: 'الأردن',
+  region: 'Asia',
+  subregion: 'Western Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Amman',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'EET',
+      tzName: 'Eastern European Time',
+    )
+  ],
+  emoji: '🇯🇴',
+  emojiU: 'U+1F1EF U+1F1F4',
+  states: [
+    CountryState(
+      id: 963,
+      name: 'Ajloun Governorate',
+      stateCode: 'AJ',
+      cities: [
+        City(
+          id: 63206,
+          name: '‘Ajlūn',
+          latitude: '32.33326000',
+          longitude: '35.75279000',
+        ),
+        City(
+          id: 63207,
+          name: '‘Anjarah',
+          latitude: '32.30630000',
+          longitude: '35.75653000',
+        ),
+        City(
+          id: 63208,
+          name: '‘Ayn Jannah',
+          latitude: '32.33466000',
+          longitude: '35.76370000',
+        ),
+        City(
+          id: 63202,
+          name: 'Ḩalāwah',
+          latitude: '32.38433000',
+          longitude: '35.66167000',
+        ),
+        City(
+          id: 63199,
+          name: 'Şakhrah',
+          latitude: '32.37087000',
+          longitude: '35.84267000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 965,
+      name: 'Amman Governorate',
+      stateCode: 'AM',
+      cities: [
+        City(
+          id: 63133,
+          name: 'Al Jīzah',
+          latitude: '31.69893000',
+          longitude: '35.95530000',
+        ),
+        City(
+          id: 63132,
+          name: 'Al Jubayhah',
+          latitude: '32.01071000',
+          longitude: '35.89802000',
+        ),
+        City(
+          id: 63141,
+          name: 'Amman',
+          latitude: '31.95522000',
+          longitude: '35.94503000',
+        ),
+        City(
+          id: 63203,
+          name: 'Ḩayy al Bunayyāt',
+          latitude: '31.89603000',
+          longitude: '35.88465000',
+        ),
+        City(
+          id: 63204,
+          name: 'Ḩayy al Quwaysimah',
+          latitude: '31.91037000',
+          longitude: '35.94975000',
+        ),
+        City(
+          id: 63162,
+          name: 'Jāwā',
+          latitude: '31.85247000',
+          longitude: '35.93928000',
+        ),
+        City(
+          id: 63185,
+          name: 'Saḩāb',
+          latitude: '31.87032000',
+          longitude: '36.00479000',
+        ),
+        City(
+          id: 63192,
+          name: 'Umm as Summāq',
+          latitude: '31.88542000',
+          longitude: '35.85430000',
+        ),
+        City(
+          id: 63194,
+          name: 'Wādī as Sīr',
+          latitude: '31.95450000',
+          longitude: '35.81831000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 959,
+      name: 'Aqaba Governorate',
+      stateCode: 'AQ',
+      cities: [
+        City(
+          id: 63142,
+          name: 'Aqaba',
+          latitude: '29.52667000',
+          longitude: '35.00778000',
+        ),
+        City(
+          id: 63188,
+          name: 'Tala Bay',
+          latitude: '29.40842000',
+          longitude: '34.97918000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 961,
+      name: 'Balqa Governorate',
+      stateCode: 'BA',
+      cities: [
+        City(
+          id: 63134,
+          name: 'Al Karāmah',
+          latitude: '31.95439000',
+          longitude: '35.58033000',
+        ),
+        City(
+          id: 63145,
+          name: 'As Salţ',
+          latitude: '32.03917000',
+          longitude: '35.72722000',
+        ),
+        City(
+          id: 63195,
+          name: 'Yarqā',
+          latitude: '31.97583000',
+          longitude: '35.69638000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 960,
+      name: 'Irbid Governorate',
+      stateCode: 'IR',
+      cities: [
+        City(
+          id: 63144,
+          name: 'Ar Ramthā',
+          latitude: '32.55873000',
+          longitude: '36.00816000',
+        ),
+        City(
+          id: 63146,
+          name: 'Ash Shajarah',
+          latitude: '32.64391000',
+          longitude: '35.94175000',
+        ),
+        City(
+          id: 63151,
+          name: 'Aţ Ţayyibah',
+          latitude: '32.54304000',
+          longitude: '35.71756000',
+        ),
+        City(
+          id: 63152,
+          name: 'Aţ Ţurrah',
+          latitude: '32.63979000',
+          longitude: '35.98943000',
+        ),
+        City(
+          id: 63148,
+          name: 'Aydūn',
+          latitude: '32.50528000',
+          longitude: '35.85809000',
+        ),
+        City(
+          id: 63155,
+          name: 'Bayt Īdis',
+          latitude: '32.43775000',
+          longitude: '35.69765000',
+        ),
+        City(
+          id: 63154,
+          name: 'Bayt Yāfā',
+          latitude: '32.52253000',
+          longitude: '35.78618000',
+        ),
+        City(
+          id: 63158,
+          name: 'Dayr Yūsuf',
+          latitude: '32.48701000',
+          longitude: '35.79635000',
+        ),
+        City(
+          id: 63201,
+          name: 'Ḩakamā',
+          latitude: '32.59354000',
+          longitude: '35.88320000',
+        ),
+        City(
+          id: 63205,
+          name: 'Ḩātim',
+          latitude: '32.64492000',
+          longitude: '35.77771000',
+        ),
+        City(
+          id: 63159,
+          name: 'Irbid',
+          latitude: '32.55556000',
+          longitude: '35.85000000',
+        ),
+        City(
+          id: 63161,
+          name: 'Judita',
+          latitude: '32.40792000',
+          longitude: '35.70802000',
+        ),
+        City(
+          id: 63163,
+          name: 'Kafr Abīl',
+          latitude: '32.41752000',
+          longitude: '35.66305000',
+        ),
+        City(
+          id: 63164,
+          name: 'Kafr Asad',
+          latitude: '32.59800000',
+          longitude: '35.71266000',
+        ),
+        City(
+          id: 63165,
+          name: 'Kafr Sawm',
+          latitude: '32.68527000',
+          longitude: '35.80102000',
+        ),
+        City(
+          id: 63167,
+          name: 'Kharjā',
+          latitude: '32.65988000',
+          longitude: '35.88782000',
+        ),
+        City(
+          id: 63168,
+          name: 'Kitim',
+          latitude: '32.43834000',
+          longitude: '35.89677000',
+        ),
+        City(
+          id: 63169,
+          name: 'Kurayyimah',
+          latitude: '32.27639000',
+          longitude: '35.59938000',
+        ),
+        City(
+          id: 63172,
+          name: 'Malkā',
+          latitude: '32.67645000',
+          longitude: '35.74851000',
+        ),
+        City(
+          id: 63176,
+          name: 'Qumaym',
+          latitude: '32.57174000',
+          longitude: '35.73452000',
+        ),
+        City(
+          id: 63184,
+          name: 'Saḩam al Kaffārāt',
+          latitude: '32.69848000',
+          longitude: '35.77438000',
+        ),
+        City(
+          id: 63186,
+          name: 'Sāl',
+          latitude: '32.56897000',
+          longitude: '35.91185000',
+        ),
+        City(
+          id: 63200,
+          name: 'Şammā',
+          latitude: '32.57102000',
+          longitude: '35.68984000',
+        ),
+        City(
+          id: 63189,
+          name: 'Tibnah',
+          latitude: '32.47521000',
+          longitude: '35.73056000',
+        ),
+        City(
+          id: 63190,
+          name: 'Umm Qays',
+          latitude: '32.65348000',
+          longitude: '35.68457000',
+        ),
+        City(
+          id: 63193,
+          name: 'Waqqāş',
+          latitude: '32.54214000',
+          longitude: '35.60508000',
+        ),
+        City(
+          id: 63197,
+          name: 'Zaḩar',
+          latitude: '32.56670000',
+          longitude: '35.77811000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 966,
+      name: 'Jerash Governorate',
+      stateCode: 'JA',
+      cities: [
+        City(
+          id: 63136,
+          name: 'Al Kittah',
+          latitude: '32.27685000',
+          longitude: '35.84114000',
+        ),
+        City(
+          id: 63153,
+          name: 'Balīlā',
+          latitude: '32.39109000',
+          longitude: '35.93832000',
+        ),
+        City(
+          id: 63156,
+          name: 'Burmā',
+          latitude: '32.21930000',
+          longitude: '35.78507000',
+        ),
+        City(
+          id: 63160,
+          name: 'Jarash',
+          latitude: '32.28082000',
+          longitude: '35.89929000',
+        ),
+        City(
+          id: 63175,
+          name: 'Qafqafā',
+          latitude: '32.34851000',
+          longitude: '35.93864000',
+        ),
+        City(
+          id: 63178,
+          name: 'Raymūn',
+          latitude: '32.28202000',
+          longitude: '35.82779000',
+        ),
+        City(
+          id: 63183,
+          name: 'Sakib',
+          latitude: '32.28431000',
+          longitude: '35.80909000',
+        ),
+        City(
+          id: 63187,
+          name: 'Sūf',
+          latitude: '32.31372000',
+          longitude: '35.83713000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 956,
+      name: 'Karak Governorate',
+      stateCode: 'KA',
+      cities: [
+        City(
+          id: 63209,
+          name: '‘Ayy',
+          latitude: '31.13371000',
+          longitude: '35.64375000',
+        ),
+        City(
+          id: 63210,
+          name: '‘Izrā',
+          latitude: '31.15889000',
+          longitude: '35.69278000',
+        ),
+        City(
+          id: 63129,
+          name: 'Adir',
+          latitude: '31.20217000',
+          longitude: '35.76155000',
+        ),
+        City(
+          id: 63135,
+          name: 'Al Khinzīrah',
+          latitude: '31.05056000',
+          longitude: '35.60606000',
+        ),
+        City(
+          id: 63137,
+          name: 'Al Mazār al Janūbī',
+          latitude: '31.06722000',
+          longitude: '35.69486000',
+        ),
+        City(
+          id: 63138,
+          name: 'Al Qaşr',
+          latitude: '31.31407000',
+          longitude: '35.74393000',
+        ),
+        City(
+          id: 63143,
+          name: 'Ar Rabbah',
+          latitude: '31.26923000',
+          longitude: '35.73829000',
+        ),
+        City(
+          id: 63166,
+          name: 'Karak City',
+          latitude: '31.16368000',
+          longitude: '35.76204000',
+        ),
+        City(
+          id: 63182,
+          name: 'Safi',
+          latitude: '31.03608000',
+          longitude: '35.46544000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 964,
+      name: 'Ma\'an Governorate',
+      stateCode: 'MN',
+      cities: [
+        City(
+          id: 63131,
+          name: 'Al Jafr',
+          latitude: '30.31840000',
+          longitude: '36.17775000',
+        ),
+        City(
+          id: 63139,
+          name: 'Al Quwayrah',
+          latitude: '29.80045000',
+          longitude: '35.31160000',
+        ),
+        City(
+          id: 63147,
+          name: 'Ash Shawbak',
+          latitude: '30.52134000',
+          longitude: '35.57135000',
+        ),
+        City(
+          id: 63150,
+          name: 'Aţ Ţayyibah',
+          latitude: '30.25125000',
+          longitude: '35.46570000',
+        ),
+        City(
+          id: 63170,
+          name: 'Ma\'an',
+          latitude: '30.19624000',
+          longitude: '35.73405000',
+        ),
+        City(
+          id: 63174,
+          name: 'Petra',
+          latitude: '30.32096000',
+          longitude: '35.47895000',
+        ),
+        City(
+          id: 63177,
+          name: 'Qīr Moāv',
+          latitude: '31.18248000',
+          longitude: '35.69999000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 958,
+      name: 'Madaba Governorate',
+      stateCode: 'MD',
+      cities: [
+        City(
+          id: 63173,
+          name: 'Mādabā',
+          latitude: '31.71599000',
+          longitude: '35.79392000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 962,
+      name: 'Mafraq Governorate',
+      stateCode: 'MA',
+      cities: [
+        City(
+          id: 63140,
+          name: 'Al Ḩamrā’',
+          latitude: '32.44017000',
+          longitude: '36.15265000',
+        ),
+        City(
+          id: 63171,
+          name: 'Mafraq',
+          latitude: '32.34289000',
+          longitude: '36.20804000',
+        ),
+        City(
+          id: 63179,
+          name: 'Rehab',
+          latitude: '32.32341000',
+          longitude: '36.09087000',
+        ),
+        City(
+          id: 63180,
+          name: 'Rukban',
+          latitude: '33.31405000',
+          longitude: '38.70342000',
+        ),
+        City(
+          id: 63198,
+          name: 'Şabḩā',
+          latitude: '32.32696000',
+          longitude: '36.50159000',
+        ),
+        City(
+          id: 63191,
+          name: 'Umm al Qiţţayn',
+          latitude: '32.31449000',
+          longitude: '36.62826000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 957,
+      name: 'Tafilah Governorate',
+      stateCode: 'AT',
+      cities: [
+        City(
+          id: 63149,
+          name: 'Aţ Ţafīlah',
+          latitude: '30.83752000',
+          longitude: '35.60442000',
+        ),
+        City(
+          id: 63157,
+          name: 'Buşayrā',
+          latitude: '30.73256000',
+          longitude: '35.60943000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 967,
+      name: 'Zarqa Governorate',
+      stateCode: 'AZ',
+      cities: [
+        City(
+          id: 63130,
+          name: 'Al Azraq ash Shamālī',
+          latitude: '31.88209000',
+          longitude: '36.83017000',
+        ),
+        City(
+          id: 63181,
+          name: 'Russeifa',
+          latitude: '32.01778000',
+          longitude: '36.04639000',
+        ),
+        City(
+          id: 63196,
+          name: 'Zarqa',
+          latitude: '32.07275000',
+          longitude: '36.08796000',
+        ),
+      ],
+    ),
+  ],
+);

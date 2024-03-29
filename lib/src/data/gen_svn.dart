@@ -3,2347 +3,3362 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const svn = Country(
-    id: 201,
-    name: 'Slovenia',
-    iso3: 'SVN',
-    iso2: 'SI',
-    phoneCode: '386',
-    capital: 'Ljubljana',
-    currency: 'EUR',
-    currencySymbol: r'€',
-    tld: '.si',
-    native: 'Slovenija',
-    region: 'Europe',
-    subregion: 'Southern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Europe/Ljubljana',
-          gmtOffset: 3600,
-          gmtOffsetName: 'UTC+01:00',
-          abbreviation: 'CET',
-          tzName: 'Central European Time')
-    ],
-    emoji: '🇸🇮',
-    emojiU: 'U+1F1F8 U+1F1EE',
-    states: [
-      State(
-          id: 4183,
-          name: 'Ajdovščina Municipality',
-          stateCode: '001',
-          cities: [
-            City(
-                id: 104059,
-                name: 'Ajdovščina',
-                latitude: '45.88601000',
-                longitude: '13.90946000'),
-            City(
-                id: 104084,
-                name: 'Cirkulane',
-                latitude: '46.34408000',
-                longitude: '15.99472000'),
-            City(
-                id: 104174,
-                name: 'Lokavec',
-                latitude: '45.90167000',
-                longitude: '13.87972000')
-          ]),
-      State(id: 4326, name: 'Ankaran Municipality', stateCode: '213', cities: [
-        City(
-            id: 104060,
-            name: 'Ankaran',
-            latitude: '45.57861000',
-            longitude: '13.73611000')
-      ]),
-      State(id: 4301, name: 'Beltinci Municipality', stateCode: '002', cities: [
-        City(
-            id: 104063,
-            name: 'Beltinci',
-            latitude: '46.60528000',
-            longitude: '16.24056000'),
-        City(
-            id: 104104,
-            name: 'Gančani',
-            latitude: '46.63250000',
-            longitude: '16.25111000'),
-        City(
-            id: 104166,
-            name: 'Lipovci',
-            latitude: '46.62833000',
-            longitude: '16.22806000'),
-        City(
-            id: 104331,
-            name: 'Zgornje Gorje',
-            latitude: '46.37962000',
-            longitude: '14.06937000')
-      ]),
-      State(id: 4166, name: 'Benedikt Municipality', stateCode: '148', cities: [
-        City(
-            id: 104064,
-            name: 'Benedikt',
-            latitude: '46.60861000',
-            longitude: '15.88833000')
-      ]),
-      State(
-          id: 4179,
-          name: 'Bistrica ob Sotli Municipality',
-          stateCode: '149',
-          cities: [
-            City(
-                id: 104067,
-                name: 'Bistrica ob Sotli',
-                latitude: '46.05889000',
-                longitude: '15.66417000')
-          ]),
-      State(id: 4202, name: 'Bled Municipality', stateCode: '003', cities: [
-        City(
-            id: 104069,
-            name: 'Bled',
-            latitude: '46.36917000',
-            longitude: '14.11361000'),
-        City(
-            id: 104144,
-            name: 'Kostanjevica na Krki',
-            latitude: '45.84611000',
-            longitude: '15.42222000'),
-        City(
-            id: 104326,
-            name: 'Zasip',
-            latitude: '46.39284000',
-            longitude: '14.10869000')
-      ]),
-      State(id: 4278, name: 'Bloke Municipality', stateCode: '150', cities: [
-        City(
-            id: 104207,
-            name: 'Nova Vas',
-            latitude: '45.77167000',
-            longitude: '14.50583000')
-      ]),
-      State(id: 4282, name: 'Bohinj Municipality', stateCode: '004', cities: [
-        City(
-            id: 104070,
-            name: 'Bohinjska Bistrica',
-            latitude: '46.27216000',
-            longitude: '13.95350000'),
-        City(
-            id: 104100,
-            name: 'Dragomer',
-            latitude: '46.01667000',
-            longitude: '14.38333000'),
-        City(
-            id: 104172,
-            name: 'Log pri Brezovici',
-            latitude: '46.01667000',
-            longitude: '14.36667000')
-      ]),
-      State(
-          id: 4200,
-          name: 'Borovnica Municipality',
-          stateCode: '005',
-          cities: [
-            City(
-                id: 104071,
-                name: 'Borovnica',
-                latitude: '45.91583000',
-                longitude: '14.36306000'),
-            City(
-                id: 104180,
-                name: 'Makole',
-                latitude: '46.31722000',
-                longitude: '15.66722000')
-          ]),
-      State(id: 4181, name: 'Bovec Municipality', stateCode: '006', cities: [
-        City(
-            id: 104072,
-            name: 'Bovec',
-            latitude: '46.33808000',
-            longitude: '13.55245000'),
-        City(
-            id: 104190,
-            name: 'Mirna',
-            latitude: '45.95528000',
-            longitude: '15.06194000')
-      ]),
-      State(
-          id: 4141,
-          name: 'Braslovče Municipality',
-          stateCode: '151',
-          cities: [
-            City(
-                id: 104073,
-                name: 'Braslovče',
-                latitude: '46.28972000',
-                longitude: '15.03889000')
-          ]),
-      State(id: 4240, name: 'Brda Municipality', stateCode: '007', cities: [
-        City(
-            id: 104094,
-            name: 'Dobrovo',
-            latitude: '45.99639000',
-            longitude: '13.52639000'),
-        City(
-            id: 104195,
-            name: 'Mokronog',
-            latitude: '45.93417000',
-            longitude: '15.14083000')
-      ]),
-      State(id: 4215, name: 'Brežice Municipality', stateCode: '009', cities: [
-        City(
-            id: 104076,
-            name: 'Brežice',
-            latitude: '45.90333000',
-            longitude: '15.59111000'),
-        City(
-            id: 104227,
-            name: 'Poljčane',
-            latitude: '46.31194000',
-            longitude: '15.57917000')
-      ]),
-      State(
-          id: 4165,
-          name: 'Brezovica Municipality',
-          stateCode: '008',
-          cities: [
-            City(
-                id: 104075,
-                name: 'Brezovica pri Ljubljani',
-                latitude: '46.03333000',
-                longitude: '14.40000000'),
-            City(
-                id: 104205,
-                name: 'Notranje Gorice',
-                latitude: '45.98750000',
-                longitude: '14.39889000'),
-            City(
-                id: 104214,
-                name: 'Opština Ljubljana-Vič-Rudnik',
-                latitude: '46.03333000',
-                longitude: '14.41667000'),
-            City(
-                id: 104254,
-                name: 'Rečica ob Savinji',
-                latitude: '46.31667000',
-                longitude: '14.91667000'),
-            City(
-                id: 104316,
-                name: 'Vnanje Gorice',
-                latitude: '46.00722000',
-                longitude: '14.42194000')
-          ]),
-      State(id: 4147, name: 'Cankova Municipality', stateCode: '152', cities: [
-        City(
-            id: 104078,
-            name: 'Cankova',
-            latitude: '46.72083000',
-            longitude: '16.02250000')
-      ]),
-      State(
-          id: 4310,
-          name: 'Cerklje na Gorenjskem Municipality',
-          stateCode: '012',
-          cities: [
-            City(
-                id: 104080,
-                name: 'Cerklje na Gorenjskem',
-                latitude: '46.25417000',
-                longitude: '14.48861000')
-          ]),
-      State(id: 4162, name: 'Cerknica Municipality', stateCode: '013', cities: [
-        City(
-            id: 104081,
-            name: 'Cerknica',
-            latitude: '45.79306000',
-            longitude: '14.36250000'),
-        City(
-            id: 104246,
-            name: 'Rakek',
-            latitude: '45.81333000',
-            longitude: '14.31111000')
-      ]),
-      State(id: 4178, name: 'Cerkno Municipality', stateCode: '014', cities: [
-        City(
-            id: 104082,
-            name: 'Cerkno',
-            latitude: '46.12556000',
-            longitude: '13.98167000')
-      ]),
-      State(
-          id: 4176,
-          name: 'Cerkvenjak Municipality',
-          stateCode: '153',
-          cities: [
-            City(
-                id: 104083,
-                name: 'Cerkvenjak',
-                latitude: '46.57056000',
-                longitude: '15.94361000')
-          ]),
-      State(
-          id: 4191,
-          name: 'City Municipality of Celje',
-          stateCode: '011',
-          cities: [
-            City(
-                id: 104079,
-                name: 'Celje',
-                latitude: '46.23092000',
-                longitude: '15.26044000'),
-            City(
-                id: 104168,
-                name: 'Ljubečna',
-                latitude: '46.25567000',
-                longitude: '15.32430000'),
-            City(
-                id: 104299,
-                name: 'Trnovlje pri Celju',
-                latitude: '46.25667000',
-                longitude: '15.29528000')
-          ]),
-      State(
-          id: 4236,
-          name: 'City Municipality of Novo Mesto',
-          stateCode: '085',
-          cities: [
-            City(
-                id: 104208,
-                name: 'Novo Mesto',
-                latitude: '45.80397000',
-                longitude: '15.16886000')
-          ]),
-      State(
-          id: 4151,
-          name: 'Črenšovci Municipality',
-          stateCode: '015',
-          cities: [
-            City(
-                id: 104337,
-                name: 'Črenšovci',
-                latitude: '46.55794000',
-                longitude: '16.30410000')
-          ]),
-      State(
-          id: 4232,
-          name: 'Črna na Koroškem Municipality',
-          stateCode: '016',
-          cities: [
-            City(
-                id: 104338,
-                name: 'Črna na Koroškem',
-                latitude: '46.47045000',
-                longitude: '14.85009000')
-          ]),
-      State(id: 4291, name: 'Črnomelj Municipality', stateCode: '017', cities: [
-        City(
-            id: 104339,
-            name: 'Črnomelj',
-            latitude: '45.57111000',
-            longitude: '15.18889000')
-      ]),
-      State(id: 4304, name: 'Destrnik Municipality', stateCode: '018', cities: [
-        City(
-            id: 104087,
-            name: 'Destrnik',
-            latitude: '46.49254000',
-            longitude: '15.87893000')
-      ]),
-      State(id: 4167, name: 'Divača Municipality', stateCode: '019', cities: [
-        City(
-            id: 104088,
-            name: 'Divača',
-            latitude: '45.68472000',
-            longitude: '13.97028000')
-      ]),
-      State(id: 4295, name: 'Dobje Municipality', stateCode: '154', cities: [
-        City(
-            id: 104090,
-            name: 'Dobje pri Planini',
-            latitude: '46.13747000',
-            longitude: '15.39412000')
-      ]),
-      State(
-          id: 4216,
-          name: 'Dobrepolje Municipality',
-          stateCode: '020',
-          cities: [
-            City(
-                id: 104309,
-                name: 'Videm',
-                latitude: '45.85000000',
-                longitude: '14.69417000')
-          ]),
-      State(id: 4252, name: 'Dobrna Municipality', stateCode: '155', cities: [
-        City(
-            id: 104091,
-            name: 'Dobrna',
-            latitude: '46.33750000',
-            longitude: '15.22639000')
-      ]),
-      State(
-          id: 4308,
-          name: 'Dobrova–Polhov Gradec Municipality',
-          stateCode: '021',
-          cities: [
-            City(
-                id: 104092,
-                name: 'Dobrova',
-                latitude: '46.04580000',
-                longitude: '14.39186000')
-          ]),
-      State(
-          id: 4189,
-          name: 'Dobrovnik Municipality',
-          stateCode: '156',
-          cities: [
-            City(
-                id: 104093,
-                name: 'Dobrovnik',
-                latitude: '46.65139000',
-                longitude: '16.35250000')
-          ]),
-      State(
-          id: 4173,
-          name: 'Dol pri Ljubljani Municipality',
-          stateCode: '022',
-          cities: [
-            City(
-                id: 104096,
-                name: 'Dol pri Ljubljani',
-                latitude: '46.08861000',
-                longitude: '14.60083000')
-          ]),
-      State(
-          id: 4281,
-          name: 'Dolenjske Toplice Municipality',
-          stateCode: '157',
-          cities: [
-            City(
-                id: 104097,
-                name: 'Dolenjske Toplice',
-                latitude: '45.75657000',
-                longitude: '15.05917000')
-          ]),
-      State(id: 4159, name: 'Domžale Municipality', stateCode: '023', cities: [
-        City(
-            id: 104089,
-            name: 'Dob',
-            latitude: '46.15194000',
-            longitude: '14.62861000'),
-        City(
-            id: 104098,
-            name: 'Domžale',
-            latitude: '46.13774000',
-            longitude: '14.59371000'),
-        City(
-            id: 104244,
-            name: 'Radomlje',
-            latitude: '46.17361000',
-            longitude: '14.61222000'),
-        City(
-            id: 104312,
-            name: 'Vir',
-            latitude: '46.15325000',
-            longitude: '14.60741000')
-      ]),
-      State(id: 4290, name: 'Dornava Municipality', stateCode: '024', cities: [
-        City(
-            id: 104099,
-            name: 'Dornava',
-            latitude: '46.43667000',
-            longitude: '15.95361000')
-      ]),
-      State(
-          id: 4345,
-          name: 'Dravograd Municipality',
-          stateCode: '025',
-          cities: [
-            City(
-                id: 104102,
-                name: 'Dravograd',
-                latitude: '46.58806000',
-                longitude: '15.01917000')
-          ]),
-      State(id: 4213, name: 'Duplek Municipality', stateCode: '026', cities: [
-        City(
-            id: 104283,
-            name: 'Spodnji Duplek',
-            latitude: '46.50306000',
-            longitude: '15.74528000'),
-        City(
-            id: 104334,
-            name: 'Zgornji Duplek',
-            latitude: '46.51361000',
-            longitude: '15.72083000')
-      ]),
-      State(
-          id: 4293,
-          name: 'Gorenja Vas–Poljane Municipality',
-          stateCode: '027',
-          cities: [
-            City(
-                id: 104106,
-                name: 'Gorenja Vas',
-                latitude: '46.10722000',
-                longitude: '14.14806000')
-          ]),
-      State(
-          id: 4210,
-          name: 'Gorišnica Municipality',
-          stateCode: '028',
-          cities: [
-            City(
-                id: 104107,
-                name: 'Gorišnica',
-                latitude: '46.41472000',
-                longitude: '16.01389000')
-          ]),
-      State(id: 4284, name: 'Gorje Municipality', stateCode: '207', cities: []),
-      State(
-          id: 4343,
-          name: 'Gornja Radgona Municipality',
-          stateCode: '029',
-          cities: [
-            City(
-                id: 104108,
-                name: 'Gornja Radgona',
-                latitude: '46.67333000',
-                longitude: '15.99222000')
-          ]),
-      State(
-          id: 4339,
-          name: 'Gornji Grad Municipality',
-          stateCode: '030',
-          cities: [
-            City(
-                id: 104109,
-                name: 'Gornji Grad',
-                latitude: '46.29528000',
-                longitude: '14.80833000')
-          ]),
-      State(
-          id: 4271,
-          name: 'Gornji Petrovci Municipality',
-          stateCode: '031',
-          cities: [
-            City(
-                id: 104110,
-                name: 'Gornji Petrovci',
-                latitude: '46.80528000',
-                longitude: '16.22250000')
-          ]),
-      State(id: 4217, name: 'Grad Municipality', stateCode: '158', cities: [
-        City(
-            id: 104112,
-            name: 'Grad',
-            latitude: '46.80000000',
-            longitude: '16.10000000')
-      ]),
-      State(
-          id: 4336,
-          name: 'Grosuplje Municipality',
-          stateCode: '032',
-          cities: [
-            City(
-                id: 104113,
-                name: 'Grosuplje',
-                latitude: '45.95556000',
-                longitude: '14.65889000'),
-            City(
-                id: 104357,
-                name: 'Šmarje-Sap',
-                latitude: '45.97618000',
-                longitude: '14.61177000')
-          ]),
-      State(id: 4145, name: 'Hajdina Municipality', stateCode: '159', cities: [
-        City(
-            id: 104279,
-            name: 'Spodnja Hajdina',
-            latitude: '46.40889000',
-            longitude: '15.84694000')
-      ]),
-      State(
-          id: 4175,
-          name: 'Hoče–Slivnica Municipality',
-          stateCode: '160',
-          cities: [
-            City(
-                id: 104116,
-                name: 'Hotinja Vas',
-                latitude: '46.46667000',
-                longitude: '15.66667000'),
-            City(
-                id: 104242,
-                name: 'Radizel',
-                latitude: '46.47444000',
-                longitude: '15.65583000'),
-            City(
-                id: 104260,
-                name: 'Rogoza',
-                latitude: '46.50000000',
-                longitude: '15.68333000'),
-            City(
-                id: 104281,
-                name: 'Spodnje Hoče',
-                latitude: '46.50000000',
-                longitude: '15.65000000')
-          ]),
-      State(id: 4327, name: 'Hodoš Municipality', stateCode: '161', cities: [
-        City(
-            id: 104114,
-            name: 'Hodoš',
-            latitude: '46.82333000',
-            longitude: '16.33417000')
-      ]),
-      State(id: 4193, name: 'Horjul Municipality', stateCode: '162', cities: [
-        City(
-            id: 104115,
-            name: 'Horjul',
-            latitude: '46.02361000',
-            longitude: '14.29917000')
-      ]),
-      State(id: 4341, name: 'Hrastnik Municipality', stateCode: '034', cities: [
-        City(
-            id: 104095,
-            name: 'Dol pri Hrastniku',
-            latitude: '46.14194000',
-            longitude: '15.11278000'),
-        City(
-            id: 104118,
-            name: 'Hrastnik',
-            latitude: '46.14611000',
-            longitude: '15.08139000')
-      ]),
-      State(
-          id: 4321,
-          name: 'Hrpelje–Kozina Municipality',
-          stateCode: '035',
-          cities: [
-            City(
-                id: 104147,
-                name: 'Kozina',
-                latitude: '45.61000000',
-                longitude: '13.93556000')
-          ]),
-      State(id: 4152, name: 'Idrija Municipality', stateCode: '036', cities: [
-        City(
-            id: 104122,
-            name: 'Idrija',
-            latitude: '46.00278000',
-            longitude: '14.03056000'),
-        City(
-            id: 104280,
-            name: 'Spodnja Idrija',
-            latitude: '46.03194000',
-            longitude: '14.02722000')
-      ]),
-      State(id: 4286, name: 'Ig Municipality', stateCode: '037', cities: [
-        City(
-            id: 104123,
-            name: 'Ig',
-            latitude: '45.96028000',
-            longitude: '14.52889000')
-      ]),
-      State(
-          id: 4305,
-          name: 'Ivančna Gorica Municipality',
-          stateCode: '039',
-          cities: [
-            City(
-                id: 104125,
-                name: 'Ivančna Gorica',
-                latitude: '45.93833000',
-                longitude: '14.80444000'),
-            City(
-                id: 104350,
-                name: 'Šentvid pri Stični',
-                latitude: '45.95004000',
-                longitude: '14.84344000')
-          ]),
-      State(id: 4322, name: 'Izola Municipality', stateCode: '040', cities: [
-        City(
-            id: 104127,
-            name: 'Izola',
-            latitude: '45.53694000',
-            longitude: '13.66194000'),
-        City(
-            id: 104128,
-            name: 'Jagodje',
-            latitude: '45.52845000',
-            longitude: '13.64721000')
-      ]),
-      State(id: 4337, name: 'Jesenice Municipality', stateCode: '041', cities: [
-        City(
-            id: 104120,
-            name: 'Hrušica',
-            latitude: '46.44500000',
-            longitude: '14.01778000'),
-        City(
-            id: 104130,
-            name: 'Jesenice',
-            latitude: '46.43056000',
-            longitude: '14.06694000'),
-        City(
-            id: 104143,
-            name: 'Koroška Bela',
-            latitude: '46.44913000',
-            longitude: '14.11135000'),
-        City(
-            id: 104274,
-            name: 'Slovenski Javornik',
-            latitude: '46.42611000',
-            longitude: '14.08722000')
-      ]),
-      State(id: 4203, name: 'Jezersko Municipality', stateCode: '163', cities: [
-        City(
-            id: 104332,
-            name: 'Zgornje Jezersko',
-            latitude: '46.39410000',
-            longitude: '14.50659000')
-      ]),
-      State(id: 4266, name: 'Juršinci Municipality', stateCode: '042', cities: [
-        City(
-            id: 104131,
-            name: 'Juršinci',
-            latitude: '46.48472000',
-            longitude: '15.97139000')
-      ]),
-      State(id: 4180, name: 'Kamnik Municipality', stateCode: '043', cities: [
-        City(
-            id: 104133,
-            name: 'Kamnik',
-            latitude: '46.22587000',
-            longitude: '14.61207000'),
-        City(
-            id: 104184,
-            name: 'Mekinje',
-            latitude: '46.23333000',
-            longitude: '14.61667000'),
-        City(
-            id: 104355,
-            name: 'Šmarca',
-            latitude: '46.19333000',
-            longitude: '14.59667000')
-      ]),
-      State(
-          id: 4227,
-          name: 'Kanal ob Soči Municipality',
-          stateCode: '044',
-          cities: [
-            City(
-                id: 104086,
-                name: 'Deskle',
-                latitude: '46.05307000',
-                longitude: '13.61382000'),
-            City(
-                id: 104134,
-                name: 'Kanal',
-                latitude: '46.08861000',
-                longitude: '13.63972000')
-          ]),
-      State(
-          id: 4150,
-          name: 'Kidričevo Municipality',
-          stateCode: '045',
-          cities: [
-            City(
-                id: 104135,
-                name: 'Kidričevo',
-                latitude: '46.40361000',
-                longitude: '15.79111000')
-          ]),
-      State(id: 4243, name: 'Kobarid Municipality', stateCode: '046', cities: [
-        City(
-            id: 104137,
-            name: 'Kobarid',
-            latitude: '46.24761000',
-            longitude: '13.57907000')
-      ]),
-      State(id: 4325, name: 'Kobilje Municipality', stateCode: '047', cities: [
-        City(
-            id: 104138,
-            name: 'Kobilje',
-            latitude: '46.68472000',
-            longitude: '16.39778000')
-      ]),
-      State(id: 4335, name: 'Kočevje Municipality', stateCode: '048', cities: [
-        City(
-            id: 104149,
-            name: 'Kočevje',
-            latitude: '45.64333000',
-            longitude: '14.86333000')
-      ]),
-      State(id: 4315, name: 'Komen Municipality', stateCode: '049', cities: [
-        City(
-            id: 104140,
-            name: 'Komen',
-            latitude: '45.81528000',
-            longitude: '13.74833000')
-      ]),
-      State(id: 4283, name: 'Komenda Municipality', stateCode: '164', cities: [
-        City(
-            id: 104141,
-            name: 'Komenda',
-            latitude: '46.20484000',
-            longitude: '14.53839000'),
-        City(
-            id: 104199,
-            name: 'Moste',
-            latitude: '46.19500000',
-            longitude: '14.55139000')
-      ]),
-      State(
-          id: 4319,
-          name: 'Koper City Municipality',
-          stateCode: '050',
-          cities: [
-            City(
-                id: 104085,
-                name: 'Dekani',
-                latitude: '45.54972000',
-                longitude: '13.81361000'),
-            City(
-                id: 104121,
-                name: 'Hrvatini',
-                latitude: '45.58278000',
-                longitude: '13.75667000'),
-            City(
-                id: 104142,
-                name: 'Koper',
-                latitude: '45.54694000',
-                longitude: '13.72944000'),
-            City(
-                id: 104223,
-                name: 'Pobegi',
-                latitude: '45.53944000',
-                longitude: '13.79611000'),
-            City(
-                id: 104231,
-                name: 'Prade',
-                latitude: '45.54003000',
-                longitude: '13.77607000'),
-            City(
-                id: 104282,
-                name: 'Spodnje Škofije',
-                latitude: '45.57167000',
-                longitude: '13.79250000'),
-            City(
-                id: 104288,
-                name: 'Sv. Anton',
-                latitude: '45.52583000',
-                longitude: '13.83194000')
-          ]),
-      State(
-          id: 4254,
-          name: 'Kostanjevica na Krki Municipality',
-          stateCode: '197',
-          cities: []),
-      State(id: 4331, name: 'Kostel Municipality', stateCode: '165', cities: [
-        City(
-            id: 104145,
-            name: 'Kostel',
-            latitude: '45.50842000',
-            longitude: '14.91005000')
-      ]),
-      State(id: 4186, name: 'Kozje Municipality', stateCode: '051', cities: [
-        City(
-            id: 104148,
-            name: 'Kozje',
-            latitude: '46.07500000',
-            longitude: '15.56028000')
-      ]),
-      State(
-          id: 4287,
-          name: 'Kranj City Municipality',
-          stateCode: '052',
-          cities: [
-            City(
-                id: 104077,
-                name: 'Britof',
-                latitude: '46.26024000',
-                longitude: '14.39037000'),
-            City(
-                id: 104105,
-                name: 'Golnik',
-                latitude: '46.33333000',
-                longitude: '14.33333000'),
-            City(
-                id: 104139,
-                name: 'Kokrica',
-                latitude: '46.27028000',
-                longitude: '14.36111000'),
-            City(
-                id: 104150,
-                name: 'Kranj',
-                latitude: '46.23887000',
-                longitude: '14.35561000'),
-            City(
-                id: 104193,
-                name: 'Mlaka pri Kranju',
-                latitude: '46.28333000',
-                longitude: '14.35000000'),
-            City(
-                id: 104330,
-                name: 'Zgornje Bitnje',
-                latitude: '46.22000000',
-                longitude: '14.33667000')
-          ]),
-      State(
-          id: 4340,
-          name: 'Kranjska Gora Municipality',
-          stateCode: '053',
-          cities: [
-            City(
-                id: 104151,
-                name: 'Kranjska Gora',
-                latitude: '46.45689000',
-                longitude: '13.77824000'),
-            City(
-                id: 104194,
-                name: 'Mojstrana',
-                latitude: '46.42383000',
-                longitude: '13.87520000')
-          ]),
-      State(id: 4238, name: 'Križevci Municipality', stateCode: '166', cities: [
-        City(
-            id: 104152,
-            name: 'Križevci pri Ljutomeru',
-            latitude: '46.56833000',
-            longitude: '16.13861000')
-      ]),
-      State(id: 4197, name: 'Kungota', stateCode: '055', cities: [
-        City(
-            id: 104328,
-            name: 'Zgornja Kungota',
-            latitude: '46.63917000',
-            longitude: '15.61556000')
-      ]),
-      State(id: 4211, name: 'Kuzma Municipality', stateCode: '056', cities: [
-        City(
-            id: 104156,
-            name: 'Kuzma',
-            latitude: '46.83694000',
-            longitude: '16.08333000')
-      ]),
-      State(id: 4338, name: 'Laško Municipality', stateCode: '057', cities: [
-        City(
-            id: 104158,
-            name: 'Laško',
-            latitude: '46.15463000',
-            longitude: '15.23555000')
-      ]),
-      State(id: 4142, name: 'Lenart Municipality', stateCode: '058', cities: [
-        City(
-            id: 104160,
-            name: 'Lenart v Slov. Goricah',
-            latitude: '46.57611000',
-            longitude: '15.83139000')
-      ]),
-      State(id: 4225, name: 'Lendava Municipality', stateCode: '059', cities: [
-        City(
-            id: 104161,
-            name: 'Lendava',
-            latitude: '46.56494000',
-            longitude: '16.45091000')
-      ]),
-      State(id: 4347, name: 'Litija Municipality', stateCode: '060', cities: [
-        City(
-            id: 104167,
-            name: 'Litija',
-            latitude: '46.05861000',
-            longitude: '14.82250000')
-      ]),
-      State(
-          id: 4270,
-          name: 'Ljubljana City Municipality',
-          stateCode: '061',
-          cities: [
-            City(
-                id: 104101,
-                name: 'Dravlje District',
-                latitude: '46.07290000',
-                longitude: '14.44741000'),
-            City(
-                id: 104129,
-                name: 'Jarše District',
-                latitude: '46.07345000',
-                longitude: '14.55431000'),
-            City(
-                id: 104169,
-                name: 'Ljubljana',
-                latitude: '46.05108000',
-                longitude: '14.50513000'),
-            City(
-                id: 104211,
-                name: 'Opčina Ljubljana-Bežigrad',
-                latitude: '46.08333000',
-                longitude: '14.53333000'),
-            City(
-                id: 104212,
-                name: 'Opština Ljubljana-Center',
-                latitude: '46.05000000',
-                longitude: '14.53333000'),
-            City(
-                id: 104213,
-                name: 'Opština Ljubljana-Moste-Polje',
-                latitude: '46.06667000',
-                longitude: '14.61667000'),
-            City(
-                id: 104262,
-                name: 'Rožnik District',
-                latitude: '46.05999000',
-                longitude: '14.46779000'),
-            City(
-                id: 104349,
-                name: 'Šentvid District',
-                latitude: '46.10559000',
-                longitude: '14.43329000'),
-            City(
-                id: 104278,
-                name: 'Sostro District',
-                latitude: '46.04341000',
-                longitude: '14.67293000'),
-            City(
-                id: 104300,
-                name: 'Trnovo District',
-                latitude: '46.02412000',
-                longitude: '14.48891000'),
-            City(
-                id: 104315,
-                name: 'Vič District',
-                latitude: '46.00779000',
-                longitude: '14.46968000')
-          ]),
-      State(id: 4294, name: 'Ljubno Municipality', stateCode: '062', cities: [
-        City(
-            id: 104170,
-            name: 'Ljubno ob Savinji',
-            latitude: '46.34358000',
-            longitude: '14.83377000')
-      ]),
-      State(id: 4351, name: 'Ljutomer Municipality', stateCode: '063', cities: [
-        City(
-            id: 104171,
-            name: 'Ljutomer',
-            latitude: '46.52083000',
-            longitude: '16.19750000')
-      ]),
-      State(
-          id: 4306,
-          name: 'Log–Dragomer Municipality',
-          stateCode: '208',
-          cities: []),
-      State(id: 4350, name: 'Logatec Municipality', stateCode: '064', cities: [
-        City(
-            id: 104173,
-            name: 'Logatec',
-            latitude: '45.91444000',
-            longitude: '14.22583000')
-      ]),
-      State(
-          id: 4174,
-          name: 'Loška Dolina Municipality',
-          stateCode: '065',
-          cities: [
-            City(
-                id: 104163,
-                name: 'Leskova Dolina',
-                latitude: '45.62139000',
-                longitude: '14.46056000')
-          ]),
-      State(
-          id: 4158,
-          name: 'Loški Potok Municipality',
-          stateCode: '066',
-          cities: [
-            City(
-                id: 104119,
-                name: 'Hrib-Loški Potok',
-                latitude: '45.70688000',
-                longitude: '14.61674000')
-          ]),
-      State(
-          id: 4156,
-          name: 'Lovrenc na Pohorju Municipality',
-          stateCode: '167',
-          cities: [
-            City(
-                id: 104175,
-                name: 'Lovrenc na Pohorju',
-                latitude: '46.54056000',
-                longitude: '15.39306000')
-          ]),
-      State(id: 4219, name: 'Luče Municipality', stateCode: '067', cities: [
-        City(
-            id: 104178,
-            name: 'Luče',
-            latitude: '46.35611000',
-            longitude: '14.74667000')
-      ]),
-      State(id: 4302, name: 'Lukovica Municipality', stateCode: '068', cities: [
-        City(
-            id: 104177,
-            name: 'Lukovica pri Domžalah',
-            latitude: '46.16988000',
-            longitude: '14.69179000')
-      ]),
-      State(id: 4157, name: 'Majšperk Municipality', stateCode: '069', cities: [
-        City(
-            id: 104179,
-            name: 'Majšperk',
-            latitude: '46.35167000',
-            longitude: '15.73361000')
-      ]),
-      State(
-          id: 4224, name: 'Makole Municipality', stateCode: '198', cities: []),
-      State(
-          id: 4242,
-          name: 'Maribor City Municipality',
-          stateCode: '070',
-          cities: [
-            City(
-                id: 104074,
-                name: 'Bresternica',
-                latitude: '46.56972000',
-                longitude: '15.57500000'),
-            City(
-                id: 104132,
-                name: 'Kamnica',
-                latitude: '46.57444000',
-                longitude: '15.61417000'),
-            City(
-                id: 104165,
-                name: 'Limbuš',
-                latitude: '46.55361000',
-                longitude: '15.58361000'),
-            City(
-                id: 104181,
-                name: 'Maribor',
-                latitude: '46.55472000',
-                longitude: '15.64667000'),
-            City(
-                id: 104219,
-                name: 'Pekre',
-                latitude: '46.54722000',
-                longitude: '15.59556000'),
-            City(
-                id: 104251,
-                name: 'Razvanje',
-                latitude: '46.51444000',
-                longitude: '15.63611000')
-          ]),
-      State(id: 4244, name: 'Markovci Municipality', stateCode: '168', cities: [
-        City(
-            id: 104182,
-            name: 'Markovci',
-            latitude: '46.39557000',
-            longitude: '15.92831000')
-      ]),
-      State(id: 4349, name: 'Medvode Municipality', stateCode: '071', cities: [
-        City(
-            id: 104183,
-            name: 'Medvode',
-            latitude: '46.14220000',
-            longitude: '14.41114000'),
-        City(
-            id: 104215,
-            name: 'Opština [historical] Ljubljana-Šiška',
-            latitude: '46.16667000',
-            longitude: '14.43333000'),
-        City(
-            id: 104333,
-            name: 'Zgornje Pirniče',
-            latitude: '46.14251000',
-            longitude: '14.43158000')
-      ]),
-      State(id: 4348, name: 'Mengeš Municipality', stateCode: '072', cities: [
-        City(
-            id: 104185,
-            name: 'Mengeš',
-            latitude: '46.16694000',
-            longitude: '14.57500000'),
-        City(
-            id: 104235,
-            name: 'Preserje pri Radomljah',
-            latitude: '46.16911000',
-            longitude: '14.59698000')
-      ]),
-      State(id: 4323, name: 'Metlika Municipality', stateCode: '073', cities: [
-        City(
-            id: 104186,
-            name: 'Metlika',
-            latitude: '45.64722000',
-            longitude: '15.31417000')
-      ]),
-      State(id: 4265, name: 'Mežica Municipality', stateCode: '074', cities: [
-        City(
-            id: 104187,
-            name: 'Mežica',
-            latitude: '46.52139000',
-            longitude: '14.85444000')
-      ]),
-      State(
-          id: 4223,
-          name: 'Miklavž na Dravskem Polju Municipality',
-          stateCode: '169',
-          cities: [
-            City(
-                id: 104188,
-                name: 'Miklavž na Dravskem Polju',
-                latitude: '46.50583000',
-                longitude: '15.69722000')
-          ]),
-      State(
-          id: 4220,
-          name: 'Miren–Kostanjevica Municipality',
-          stateCode: '075',
-          cities: [
-            City(
-                id: 104065,
-                name: 'Bilje',
-                latitude: '45.89444000',
-                longitude: '13.63222000'),
-            City(
-                id: 104189,
-                name: 'Miren',
-                latitude: '45.89556000',
-                longitude: '13.60750000')
-          ]),
-      State(id: 4298, name: 'Mirna Municipality', stateCode: '212', cities: []),
-      State(
-          id: 4237,
-          name: 'Mirna Peč Municipality',
-          stateCode: '170',
-          cities: [
-            City(
-                id: 104191,
-                name: 'Mirna Peč',
-                latitude: '45.86028000',
-                longitude: '15.08333000')
-          ]),
-      State(id: 4212, name: 'Mislinja Municipality', stateCode: '076', cities: [
-        City(
-            id: 104192,
-            name: 'Mislinja',
-            latitude: '46.44141000',
-            longitude: '15.20027000')
-      ]),
-      State(
-          id: 4297,
-          name: 'Mokronog–Trebelno Municipality',
-          stateCode: '199',
-          cities: []),
-      State(id: 4168, name: 'Moravče Municipality', stateCode: '077', cities: [
-        City(
-            id: 104197,
-            name: 'Moravče',
-            latitude: '46.13694000',
-            longitude: '14.74500000')
-      ]),
-      State(
-          id: 4218,
-          name: 'Moravske Toplice Municipality',
-          stateCode: '078',
-          cities: [
-            City(
-                id: 104196,
-                name: 'Moravske Toplice',
-                latitude: '46.68313000',
-                longitude: '16.22080000')
-          ]),
-      State(id: 4190, name: 'Mozirje Municipality', stateCode: '079', cities: [
-        City(
-            id: 104200,
-            name: 'Mozirje',
-            latitude: '46.33944000',
-            longitude: '14.96333000')
-      ]),
-      State(id: 4318, name: 'Municipality of Apače', stateCode: '195', cities: [
-        City(
-            id: 104061,
-            name: 'Apače',
-            latitude: '46.69722000',
-            longitude: '15.91056000')
-      ]),
-      State(
-          id: 4309,
-          name: 'Municipality of Cirkulane',
-          stateCode: '196',
-          cities: []),
-      State(
-          id: 4344,
-          name: 'Municipality of Ilirska Bistrica',
-          stateCode: '038',
-          cities: [
-            City(
-                id: 104124,
-                name: 'Ilirska Bistrica',
-                latitude: '45.56757000',
-                longitude: '14.24571000')
-          ]),
-      State(id: 4314, name: 'Municipality of Krško', stateCode: '054', cities: [
-        City(
-            id: 104155,
-            name: 'Krško',
-            latitude: '45.95915000',
-            longitude: '15.49167000'),
-        City(
-            id: 104164,
-            name: 'Leskovec pri Krškem',
-            latitude: '45.93566000',
-            longitude: '15.47184000'),
-        City(
-            id: 104267,
-            name: 'Senovo',
-            latitude: '46.02361000',
-            longitude: '15.47694000')
-      ]),
-      State(
-          id: 4187,
-          name: 'Municipality of Škofljica',
-          stateCode: '123',
-          cities: [
-            City(
-                id: 104157,
-                name: 'Lavrica',
-                latitude: '46.00002000',
-                longitude: '14.55730000'),
-            City(
-                id: 104354,
-                name: 'Škofljica',
-                latitude: '45.98333000',
-                longitude: '14.57667000')
-          ]),
-      State(
-          id: 4313,
-          name: 'Murska Sobota City Municipality',
-          stateCode: '080',
-          cities: [
-            City(
-                id: 104062,
-                name: 'Bakovci',
-                latitude: '46.61889000',
-                longitude: '16.15028000'),
-            City(
-                id: 104336,
-                name: 'Černelavci',
-                latitude: '46.66667000',
-                longitude: '16.13333000'),
-            City(
-                id: 104153,
-                name: 'Krog',
-                latitude: '46.63806000',
-                longitude: '16.14139000'),
-            City(
-                id: 104201,
-                name: 'Murska Sobota',
-                latitude: '46.66250000',
-                longitude: '16.16639000'),
-            City(
-                id: 104247,
-                name: 'Rakičan',
-                latitude: '46.65167000',
-                longitude: '16.20417000')
-          ]),
-      State(id: 4208, name: 'Muta Municipality', stateCode: '081', cities: [
-        City(
-            id: 104202,
-            name: 'Muta',
-            latitude: '46.61139000',
-            longitude: '15.16611000')
-      ]),
-      State(id: 4177, name: 'Naklo Municipality', stateCode: '082', cities: [
-        City(
-            id: 104203,
-            name: 'Naklo',
-            latitude: '46.27278000',
-            longitude: '14.31722000')
-      ]),
-      State(id: 4329, name: 'Nazarje Municipality', stateCode: '083', cities: [
-        City(
-            id: 104204,
-            name: 'Nazarje',
-            latitude: '46.31757000',
-            longitude: '14.94674000')
-      ]),
-      State(
-          id: 4205,
-          name: 'Nova Gorica City Municipality',
-          stateCode: '084',
-          cities: [
-            City(
-                id: 104154,
-                name: 'Kromberk',
-                latitude: '45.96083000',
-                longitude: '13.66556000'),
-            City(
-                id: 104206,
-                name: 'Nova Gorica',
-                latitude: '45.95604000',
-                longitude: '13.64837000'),
-            City(
-                id: 104237,
-                name: 'Prvačina',
-                latitude: '45.89000000',
-                longitude: '13.71806000'),
-            City(
-                id: 104342,
-                name: 'Šempas',
-                latitude: '45.93028000',
-                longitude: '13.74361000'),
-            City(
-                id: 104276,
-                name: 'Solkan',
-                latitude: '45.97139000',
-                longitude: '13.64944000')
-          ]),
-      State(id: 4320, name: 'Odranci Municipality', stateCode: '086', cities: [
-        City(
-            id: 104209,
-            name: 'Odranci',
-            latitude: '46.58667000',
-            longitude: '16.28028000')
-      ]),
-      State(id: 4143, name: 'Oplotnica', stateCode: '171', cities: [
-        City(
-            id: 104210,
-            name: 'Oplotnica',
-            latitude: '46.38778000',
-            longitude: '15.44667000')
-      ]),
-      State(id: 4221, name: 'Ormož Municipality', stateCode: '087', cities: [
-        City(
-            id: 104216,
-            name: 'Ormož',
-            latitude: '46.41139000',
-            longitude: '16.15444000')
-      ]),
-      State(id: 4199, name: 'Osilnica Municipality', stateCode: '088', cities: [
-        City(
-            id: 104217,
-            name: 'Osilnica',
-            latitude: '45.52914000',
-            longitude: '14.69838000')
-      ]),
-      State(id: 4172, name: 'Pesnica Municipality', stateCode: '089', cities: [
-        City(
-            id: 104220,
-            name: 'Pesnica pri Mariboru',
-            latitude: '46.60694000',
-            longitude: '15.67667000')
-      ]),
-      State(id: 4201, name: 'Piran Municipality', stateCode: '090', cities: [
-        City(
-            id: 104176,
-            name: 'Lucija',
-            latitude: '45.50526000',
-            longitude: '13.60240000'),
-        City(
-            id: 104221,
-            name: 'Piran',
-            latitude: '45.52778000',
-            longitude: '13.57056000'),
-        City(
-            id: 104229,
-            name: 'Portorož',
-            latitude: '45.51429000',
-            longitude: '13.59206000'),
-        City(
-            id: 104269,
-            name: 'Seča',
-            latitude: '45.49584000',
-            longitude: '13.61466000')
-      ]),
-      State(id: 4184, name: 'Pivka Municipality', stateCode: '091', cities: [
-        City(
-            id: 104222,
-            name: 'Pivka',
-            latitude: '45.68292000',
-            longitude: '14.19588000')
-      ]),
-      State(
-          id: 4146,
-          name: 'Podčetrtek Municipality',
-          stateCode: '092',
-          cities: [
-            City(
-                id: 104226,
-                name: 'Podčetrtek',
-                latitude: '46.15694000',
-                longitude: '15.59861000')
-          ]),
-      State(
-          id: 4161,
-          name: 'Podlehnik Municipality',
-          stateCode: '172',
-          cities: [
-            City(
-                id: 104224,
-                name: 'Podlehnik',
-                latitude: '46.33528000',
-                longitude: '15.88000000')
-          ]),
-      State(id: 4234, name: 'Podvelka Municipality', stateCode: '093', cities: [
-        City(
-            id: 104225,
-            name: 'Podvelka',
-            latitude: '46.58694000',
-            longitude: '15.33056000')
-      ]),
-      State(
-          id: 4239,
-          name: 'Poljčane Municipality',
-          stateCode: '200',
-          cities: []),
-      State(id: 4272, name: 'Polzela Municipality', stateCode: '173', cities: [
-        City(
-            id: 104228,
-            name: 'Polzela',
-            latitude: '46.28333000',
-            longitude: '15.06667000')
-      ]),
-      State(id: 4330, name: 'Postojna Municipality', stateCode: '094', cities: [
-        City(
-            id: 104230,
-            name: 'Postojna',
-            latitude: '45.77435000',
-            longitude: '14.21528000')
-      ]),
-      State(id: 4188, name: 'Prebold Municipality', stateCode: '174', cities: [
-        City(
-            id: 104233,
-            name: 'Prebold',
-            latitude: '46.23694000',
-            longitude: '15.09250000')
-      ]),
-      State(id: 4303, name: 'Preddvor Municipality', stateCode: '095', cities: [
-        City(
-            id: 104234,
-            name: 'Preddvor',
-            latitude: '46.30250000',
-            longitude: '14.42306000')
-      ]),
-      State(id: 4274, name: 'Prevalje Municipality', stateCode: '175', cities: [
-        City(
-            id: 104236,
-            name: 'Prevalje',
-            latitude: '46.54694000',
-            longitude: '14.92083000')
-      ]),
-      State(
-          id: 4228,
-          name: 'Ptuj City Municipality',
-          stateCode: '096',
-          cities: [
-            City(
-                id: 104238,
-                name: 'Ptuj',
-                latitude: '46.42005000',
-                longitude: '15.87018000')
-          ]),
-      State(id: 4288, name: 'Puconci Municipality', stateCode: '097', cities: [
-        City(
-            id: 104239,
-            name: 'Puconci',
-            latitude: '46.70667000',
-            longitude: '16.15639000')
-      ]),
-      State(
-          id: 4204,
-          name: 'Rače–Fram Municipality',
-          stateCode: '098',
-          cities: [
-            City(
-                id: 104103,
-                name: 'Fram',
-                latitude: '46.45600000',
-                longitude: '15.63007000'),
-            City(
-                id: 104198,
-                name: 'Morje',
-                latitude: '46.44444000',
-                longitude: '15.62139000'),
-            City(
-                id: 104252,
-                name: 'Rače',
-                latitude: '46.45194000',
-                longitude: '15.68139000')
-          ]),
-      State(id: 4195, name: 'Radeče Municipality', stateCode: '099', cities: [
-        City(
-            id: 104241,
-            name: 'Radeče',
-            latitude: '46.06806000',
-            longitude: '15.18389000')
-      ]),
-      State(id: 4292, name: 'Radenci Municipality', stateCode: '100', cities: [
-        City(
-            id: 104240,
-            name: 'Radenci',
-            latitude: '46.64201000',
-            longitude: '16.03781000')
-      ]),
-      State(
-          id: 4275,
-          name: 'Radlje ob Dravi Municipality',
-          stateCode: '101',
-          cities: [
-            City(
-                id: 104243,
-                name: 'Radlje ob Dravi',
-                latitude: '46.61417000',
-                longitude: '15.22639000')
-          ]),
-      State(
-          id: 4231,
-          name: 'Radovljica Municipality',
-          stateCode: '102',
-          cities: [
-            City(
-                id: 104162,
-                name: 'Lesce',
-                latitude: '46.36111000',
-                longitude: '14.15778000'),
-            City(
-                id: 104245,
-                name: 'Radovljica',
-                latitude: '46.34444000',
-                longitude: '14.17444000')
-          ]),
-      State(
-          id: 4155,
-          name: 'Ravne na Koroškem Municipality',
-          stateCode: '103',
-          cities: [
-            City(
-                id: 104146,
-                name: 'Kotlje',
-                latitude: '46.52139000',
-                longitude: '14.98694000'),
-            City(
-                id: 104249,
-                name: 'Ravne na Koroškem',
-                latitude: '46.54306000',
-                longitude: '14.96917000')
-          ]),
-      State(
-          id: 4206,
-          name: 'Razkrižje Municipality',
-          stateCode: '176',
-          cities: [
-            City(
-                id: 104250,
-                name: 'Razkrižje',
-                latitude: '46.52167000',
-                longitude: '16.28111000')
-          ]),
-      State(
-          id: 4160,
-          name: 'Rečica ob Savinji Municipality',
-          stateCode: '209',
-          cities: []),
-      State(
-          id: 4253,
-          name: 'Renče–Vogrsko Municipality',
-          stateCode: '201',
-          cities: [
-            City(
-                id: 104253,
-                name: 'Renče',
-                latitude: '45.89000000',
-                longitude: '13.66861000'),
-            City(
-                id: 104319,
-                name: 'Volčja Draga',
-                latitude: '45.90694000',
-                longitude: '13.67750000')
-          ]),
-      State(id: 4235, name: 'Ribnica Municipality', stateCode: '104', cities: [
-        City(
-            id: 104255,
-            name: 'Ribnica',
-            latitude: '45.73861000',
-            longitude: '14.72750000')
-      ]),
-      State(
-          id: 4207,
-          name: 'Ribnica na Pohorju Municipality',
-          stateCode: '177',
-          cities: [
-            City(
-                id: 104256,
-                name: 'Ribnica na Pohorju',
-                latitude: '46.53500000',
-                longitude: '15.27278000')
-          ]),
-      State(
-          id: 4233,
-          name: 'Rogaška Slatina Municipality',
-          stateCode: '106',
-          cities: [
-            City(
-                id: 104258,
-                name: 'Rogaška Slatina',
-                latitude: '46.23750000',
-                longitude: '15.63972000')
-          ]),
-      State(
-          id: 4264,
-          name: 'Rogašovci Municipality',
-          stateCode: '105',
-          cities: [
-            City(
-                id: 104259,
-                name: 'Rogašovci',
-                latitude: '46.80000000',
-                longitude: '16.03333000')
-          ]),
-      State(id: 4209, name: 'Rogatec Municipality', stateCode: '107', cities: [
-        City(
-            id: 104257,
-            name: 'Rogatec',
-            latitude: '46.22944000',
-            longitude: '15.70028000')
-      ]),
-      State(id: 4280, name: 'Ruše Municipality', stateCode: '108', cities: [
-        City(
-            id: 104066,
-            name: 'Bistrica ob Dravi',
-            latitude: '46.55419000',
-            longitude: '15.54855000'),
-        City(
-            id: 104263,
-            name: 'Ruše',
-            latitude: '46.53944000',
-            longitude: '15.51583000')
-      ]),
-      State(id: 4222, name: 'Šalovci Municipality', stateCode: '033', cities: [
-        City(
-            id: 104341,
-            name: 'Šalovci',
-            latitude: '46.82500000',
-            longitude: '16.29806000')
-      ]),
-      State(
-          id: 4230,
-          name: 'Selnica ob Dravi Municipality',
-          stateCode: '178',
-          cities: [
-            City(
-                id: 104264,
-                name: 'Selnica ob Dravi',
-                latitude: '46.55000000',
-                longitude: '15.49500000')
-          ]),
-      State(id: 4346, name: 'Semič Municipality', stateCode: '109', cities: [
-        City(
-            id: 104266,
-            name: 'Semič',
-            latitude: '45.64611000',
-            longitude: '15.18222000')
-      ]),
-      State(
-          id: 4317,
-          name: 'Šempeter–Vrtojba Municipality',
-          stateCode: '183',
-          cities: [
-            City(
-                id: 104261,
-                name: 'Rožna Dolina',
-                latitude: '45.94194000',
-                longitude: '13.66779000'),
-            City(
-                id: 104343,
-                name: 'Šempeter pri Gorici',
-                latitude: '45.92750000',
-                longitude: '13.64111000'),
-            City(
-                id: 104322,
-                name: 'Vrtojba',
-                latitude: '45.91250000',
-                longitude: '13.63417000')
-          ]),
-      State(id: 4299, name: 'Šenčur Municipality', stateCode: '117', cities: [
-        City(
-            id: 104117,
-            name: 'Hrastje',
-            latitude: '46.21667000',
-            longitude: '14.40000000'),
-        City(
-            id: 104351,
-            name: 'Šenčur',
-            latitude: '46.24556000',
-            longitude: '14.41972000')
-      ]),
-      State(id: 4324, name: 'Šentilj Municipality', stateCode: '118', cities: [
-        City(
-            id: 104265,
-            name: 'Selnica ob Muri',
-            latitude: '46.68333000',
-            longitude: '15.70000000'),
-        City(
-            id: 104345,
-            name: 'Šentilj v Slov. Goricah',
-            latitude: '46.68167000',
-            longitude: '15.64806000')
-      ]),
-      State(
-          id: 4241,
-          name: 'Šentjernej Municipality',
-          stateCode: '119',
-          cities: [
-            City(
-                id: 104346,
-                name: 'Šentjernej',
-                latitude: '45.84000000',
-                longitude: '15.33611000')
-          ]),
-      State(id: 4171, name: 'Šentjur Municipality', stateCode: '120', cities: [
-        City(
-            id: 104347,
-            name: 'Šentjur',
-            latitude: '46.21722000',
-            longitude: '15.39750000')
-      ]),
-      State(
-          id: 4311,
-          name: 'Šentrupert Municipality',
-          stateCode: '211',
-          cities: [
-            City(
-                id: 104348,
-                name: 'Šentrupert',
-                latitude: '45.97778000',
-                longitude: '15.09556000')
-          ]),
-      State(id: 4268, name: 'Sevnica Municipality', stateCode: '110', cities: [
-        City(
-            id: 104268,
-            name: 'Sevnica',
-            latitude: '46.00778000',
-            longitude: '15.31556000')
-      ]),
-      State(id: 4149, name: 'Sežana Municipality', stateCode: '111', cities: [
-        City(
-            id: 104270,
-            name: 'Sežana',
-            latitude: '45.70924000',
-            longitude: '13.87333000')
-      ]),
-      State(id: 4170, name: 'Škocjan Municipality', stateCode: '121', cities: [
-        City(
-            id: 104352,
-            name: 'Škocjan',
-            latitude: '45.90667000',
-            longitude: '15.29139000')
-      ]),
-      State(
-          id: 4316,
-          name: 'Škofja Loka Municipality',
-          stateCode: '122',
-          cities: [
-            City(
-                id: 104353,
-                name: 'Škofja Loka',
-                latitude: '46.16551000',
-                longitude: '14.30626000'),
-            City(
-                id: 104289,
-                name: 'Sv. Duh',
-                latitude: '46.18333000',
-                longitude: '14.33333000')
-          ]),
-      State(
-          id: 4169,
-          name: 'Slovenj Gradec City Municipality',
-          stateCode: '112',
-          cities: [
-            City(
-                id: 104159,
-                name: 'Legen',
-                latitude: '46.50651000',
-                longitude: '15.14424000'),
-            City(
-                id: 104218,
-                name: 'Pameče',
-                latitude: '46.53417000',
-                longitude: '15.07917000'),
-            City(
-                id: 104271,
-                name: 'Slovenj Gradec',
-                latitude: '46.51028000',
-                longitude: '15.08056000'),
-            City(
-                id: 104361,
-                name: 'Šmartno pri Slovenj Gradcu',
-                latitude: '46.48944000',
-                longitude: '15.10667000')
-          ]),
-      State(
-          id: 4332,
-          name: 'Slovenska Bistrica Municipality',
-          stateCode: '113',
-          cities: [
-            City(
-                id: 104232,
-                name: 'Pragersko',
-                latitude: '46.39667000',
-                longitude: '15.66000000'),
-            City(
-                id: 104272,
-                name: 'Slovenska Bistrica',
-                latitude: '46.39278000',
-                longitude: '15.57444000'),
-            City(
-                id: 104329,
-                name: 'Zgornja Polskava',
-                latitude: '46.42556000',
-                longitude: '15.61222000')
-          ]),
-      State(
-          id: 4198,
-          name: 'Slovenske Konjice Municipality',
-          stateCode: '114',
-          cities: [
-            City(
-                id: 104273,
-                name: 'Slovenske Konjice',
-                latitude: '46.33667000',
-                longitude: '15.42583000')
-          ]),
-      State(
-          id: 4285,
-          name: 'Šmarje pri Jelšah Municipality',
-          stateCode: '124',
-          cities: [
-            City(
-                id: 104356,
-                name: 'Šmarje pri Jelšah',
-                latitude: '46.22722000',
-                longitude: '15.51917000')
-          ]),
-      State(
-          id: 4289,
-          name: 'Šmarješke Toplice Municipality',
-          stateCode: '206',
-          cities: [
-            City(
-                id: 104358,
-                name: 'Šmarjeta',
-                latitude: '45.88333000',
-                longitude: '15.25000000')
-          ]),
-      State(
-          id: 4296,
-          name: 'Šmartno ob Paki Municipality',
-          stateCode: '125',
-          cities: [
-            City(
-                id: 104359,
-                name: 'Šmartno ob Paki',
-                latitude: '46.33333000',
-                longitude: '15.03333000')
-          ]),
-      State(
-          id: 4279,
-          name: 'Šmartno pri Litiji Municipality',
-          stateCode: '194',
-          cities: [
-            City(
-                id: 104360,
-                name: 'Šmartno pri Litiji',
-                latitude: '46.04444000',
-                longitude: '14.84417000')
-          ]),
-      State(
-          id: 4277,
-          name: 'Sodražica Municipality',
-          stateCode: '179',
-          cities: [
-            City(
-                id: 104275,
-                name: 'Sodražica',
-                latitude: '45.76111000',
-                longitude: '14.63556000')
-          ]),
-      State(id: 4261, name: 'Solčava Municipality', stateCode: '180', cities: [
-        City(
-            id: 104277,
-            name: 'Solčava',
-            latitude: '46.41944000',
-            longitude: '14.69361000')
-      ]),
-      State(id: 4248, name: 'Šoštanj Municipality', stateCode: '126', cities: [
-        City(
-            id: 104248,
-            name: 'Ravne',
-            latitude: '46.41413000',
-            longitude: '15.06087000'),
-        City(
-            id: 104362,
-            name: 'Šoštanj',
-            latitude: '46.38000000',
-            longitude: '15.04861000'),
-        City(
-            id: 104296,
-            name: 'Topolšica',
-            latitude: '46.40028000',
-            longitude: '15.02157000')
-      ]),
-      State(id: 4263, name: 'Središče ob Dravi', stateCode: '202', cities: [
-        City(
-            id: 104284,
-            name: 'Središče ob Dravi',
-            latitude: '46.39417000',
-            longitude: '16.26806000')
-      ]),
-      State(id: 4259, name: 'Starše Municipality', stateCode: '115', cities: [
-        City(
-            id: 104285,
-            name: 'Starše',
-            latitude: '46.46583000',
-            longitude: '15.76722000')
-      ]),
-      State(id: 4185, name: 'Štore Municipality', stateCode: '127', cities: [
-        City(
-            id: 104363,
-            name: 'Štore',
-            latitude: '46.22083000',
-            longitude: '15.31389000')
-      ]),
-      State(id: 4333, name: 'Straža Municipality', stateCode: '203', cities: [
-        City(
-            id: 104286,
-            name: 'Straža',
-            latitude: '45.78000000',
-            longitude: '15.07278000')
-      ]),
-      State(
-          id: 4164,
-          name: 'Sveta Ana Municipality',
-          stateCode: '181',
-          cities: [
-            City(
-                id: 104287,
-                name: 'Sv. Ana v Slov. Goricah',
-                latitude: '46.64917000',
-                longitude: '15.84417000')
-          ]),
-      State(
-          id: 4260,
-          name: 'Sveta Trojica v Slovenskih Goricah Municipality',
-          stateCode: '204',
-          cities: [
-            City(
-                id: 104290,
-                name: 'Sv. Trojica v Slov. Goricah',
-                latitude: '46.57667000',
-                longitude: '15.87694000')
-          ]),
-      State(
-          id: 4229,
-          name: 'Sveti Andraž v Slovenskih Goricah Municipality',
-          stateCode: '182',
-          cities: [
-            City(
-                id: 104314,
-                name: 'Vitomarci',
-                latitude: '46.52750000',
-                longitude: '15.93944000')
-          ]),
-      State(
-          id: 4255,
-          name: 'Sveti Jurij ob Ščavnici Municipality',
-          stateCode: '116',
-          cities: []),
-      State(
-          id: 4328,
-          name: 'Sveti Jurij v Slovenskih Goricah Municipality',
-          stateCode: '210',
-          cities: [
-            City(
-                id: 104291,
-                name: 'Sveti Jurij ob Ščavnici',
-                latitude: '46.56950000',
-                longitude: '16.02347000')
-          ]),
-      State(
-          id: 4273,
-          name: 'Sveti Tomaž Municipality',
-          stateCode: '205',
-          cities: [
-            City(
-                id: 104292,
-                name: 'Sveti Tomaž',
-                latitude: '46.48417000',
-                longitude: '16.08361000')
-          ]),
-      State(id: 4194, name: 'Tabor Municipality', stateCode: '184', cities: [
-        City(
-            id: 104293,
-            name: 'Tabor',
-            latitude: '46.23611000',
-            longitude: '15.01833000')
-      ]),
-      State(id: 4312, name: 'Tišina Municipality', stateCode: '010', cities: [
-        City(
-            id: 104294,
-            name: 'Tišina',
-            latitude: '46.65806000',
-            longitude: '16.09167000')
-      ]),
-      State(id: 4247, name: 'Tolmin Municipality', stateCode: '128', cities: [
-        City(
-            id: 104295,
-            name: 'Tolmin',
-            latitude: '46.18304000',
-            longitude: '13.73321000')
-      ]),
-      State(id: 4246, name: 'Trbovlje Municipality', stateCode: '129', cities: [
-        City(
-            id: 104297,
-            name: 'Trbovlje',
-            latitude: '46.15500000',
-            longitude: '15.05333000')
-      ]),
-      State(id: 4214, name: 'Trebnje Municipality', stateCode: '130', cities: [
-        City(
-            id: 104298,
-            name: 'Trebnje',
-            latitude: '45.90417000',
-            longitude: '15.02167000')
-      ]),
-      State(
-          id: 4153,
-          name: 'Trnovska Vas Municipality',
-          stateCode: '185',
-          cities: [
-            City(
-                id: 104301,
-                name: 'Trnovska Vas',
-                latitude: '46.52019000',
-                longitude: '15.88657000')
-          ]),
-      State(id: 4250, name: 'Tržič Municipality', stateCode: '131', cities: [
-        City(
-            id: 104068,
-            name: 'Bistrica pri Tržiču',
-            latitude: '46.35472000',
-            longitude: '14.29167000'),
-        City(
-            id: 104303,
-            name: 'Tržič',
-            latitude: '46.36357000',
-            longitude: '14.31046000')
-      ]),
-      State(id: 4334, name: 'Trzin Municipality', stateCode: '186', cities: [
-        City(
-            id: 104340,
-            name: 'Črnuče District',
-            latitude: '46.11506000',
-            longitude: '14.55371000'),
-        City(
-            id: 104302,
-            name: 'Trzin',
-            latitude: '46.13333000',
-            longitude: '14.56667000')
-      ]),
-      State(id: 4251, name: 'Turnišče Municipality', stateCode: '132', cities: [
-        City(
-            id: 104304,
-            name: 'Turnišče',
-            latitude: '46.62778000',
-            longitude: '16.32028000')
-      ]),
-      State(
-          id: 4267,
-          name: 'Velika Polana Municipality',
-          stateCode: '187',
-          cities: [
-            City(
-                id: 104305,
-                name: 'Velika Polana',
-                latitude: '46.57194000',
-                longitude: '16.34694000')
-          ]),
-      State(
-          id: 4144,
-          name: 'Velike Lašče Municipality',
-          stateCode: '134',
-          cities: [
-            City(
-                id: 104306,
-                name: 'Velike Lašče',
-                latitude: '45.83222000',
-                longitude: '14.63639000')
-          ]),
-      State(id: 4257, name: 'Veržej Municipality', stateCode: '188', cities: [
-        City(
-            id: 104308,
-            name: 'Veržej',
-            latitude: '46.58361000',
-            longitude: '16.16528000')
-      ]),
-      State(id: 4300, name: 'Videm Municipality', stateCode: '135', cities: [
-        City(
-            id: 104310,
-            name: 'Videm pri Ptuju',
-            latitude: '46.36861000',
-            longitude: '15.90639000')
-      ]),
-      State(id: 4196, name: 'Vipava Municipality', stateCode: '136', cities: [
-        City(
-            id: 104311,
-            name: 'Vipava',
-            latitude: '45.84667000',
-            longitude: '13.96306000')
-      ]),
-      State(id: 4148, name: 'Vitanje Municipality', stateCode: '137', cities: [
-        City(
-            id: 104313,
-            name: 'Vitanje',
-            latitude: '46.38167000',
-            longitude: '15.29583000')
-      ]),
-      State(id: 4154, name: 'Vodice Municipality', stateCode: '138', cities: [
-        City(
-            id: 104317,
-            name: 'Vodice',
-            latitude: '46.18987000',
-            longitude: '14.49492000')
-      ]),
-      State(id: 4245, name: 'Vojnik Municipality', stateCode: '139', cities: [
-        City(
-            id: 104318,
-            name: 'Vojnik',
-            latitude: '46.29333000',
-            longitude: '15.30333000')
-      ]),
-      State(id: 4163, name: 'Vransko Municipality', stateCode: '189', cities: [
-        City(
-            id: 104320,
-            name: 'Vransko',
-            latitude: '46.24389000',
-            longitude: '14.95139000')
-      ]),
-      State(id: 4262, name: 'Vrhnika Municipality', stateCode: '140', cities: [
-        City(
-            id: 104307,
-            name: 'Verd',
-            latitude: '45.95667000',
-            longitude: '14.30583000'),
-        City(
-            id: 104321,
-            name: 'Vrhnika',
-            latitude: '45.96350000',
-            longitude: '14.29484000')
-      ]),
-      State(id: 4226, name: 'Vuzenica Municipality', stateCode: '141', cities: [
-        City(
-            id: 104323,
-            name: 'Vuzenica',
-            latitude: '46.59639000',
-            longitude: '15.16722000')
-      ]),
-      State(
-          id: 4269,
-          name: 'Zagorje ob Savi Municipality',
-          stateCode: '142',
-          cities: [
-            City(
-                id: 104126,
-                name: 'Izlake',
-                latitude: '46.15000000',
-                longitude: '14.95000000'),
-            City(
-                id: 104136,
-                name: 'Kisovec',
-                latitude: '46.13911000',
-                longitude: '14.96295000'),
-            City(
-                id: 104325,
-                name: 'Zagorje ob Savi',
-                latitude: '46.13179000',
-                longitude: '14.99694000')
-          ]),
-      State(id: 4258, name: 'Žalec Municipality', stateCode: '190', cities: [
-        City(
-            id: 104111,
-            name: 'Gotovlje',
-            latitude: '46.27418000',
-            longitude: '15.15186000'),
-        City(
-            id: 104344,
-            name: 'Šempeter v Savinj. Dolini',
-            latitude: '46.25639000',
-            longitude: '15.12194000'),
-        City(
-            id: 104324,
-            name: 'Zabukovica',
-            latitude: '46.21408000',
-            longitude: '15.15954000'),
-        City(
-            id: 104364,
-            name: 'Žalec',
-            latitude: '46.25151000',
-            longitude: '15.16482000')
-      ]),
-      State(id: 4182, name: 'Zavrč Municipality', stateCode: '143', cities: [
-        City(
-            id: 104327,
-            name: 'Zavrč',
-            latitude: '46.39167000',
-            longitude: '16.04972000')
-      ]),
-      State(
-          id: 4256,
-          name: 'Železniki Municipality',
-          stateCode: '146',
-          cities: [
-            City(
-                id: 104365,
-                name: 'Železniki',
-                latitude: '46.22482000',
-                longitude: '14.17205000')
-          ]),
-      State(id: 4249, name: 'Žetale Municipality', stateCode: '191', cities: [
-        City(
-            id: 104366,
-            name: 'Žetale',
-            latitude: '46.27356000',
-            longitude: '15.82658000')
-      ]),
-      State(id: 4192, name: 'Žiri Municipality', stateCode: '147', cities: [
-        City(
-            id: 104367,
-            name: 'Žiri',
-            latitude: '46.04222000',
-            longitude: '14.10722000')
-      ]),
-      State(
-          id: 4276,
-          name: 'Žirovnica Municipality',
-          stateCode: '192',
-          cities: [
-            City(
-                id: 104368,
-                name: 'Žirovnica',
-                latitude: '46.40472000',
-                longitude: '14.14000000')
-          ]),
-      State(id: 4342, name: 'Zreče Municipality', stateCode: '144', cities: [
-        City(
-            id: 104335,
-            name: 'Zreče',
-            latitude: '46.38222000',
-            longitude: '15.37917000')
-      ]),
-      State(
-          id: 4307,
-          name: 'Žužemberk Municipality',
-          stateCode: '193',
-          cities: [
-            City(
-                id: 104369,
-                name: 'Žužemberk',
-                latitude: '45.83389000',
-                longitude: '14.92917000')
-          ])
-    ]);
+  id: 201,
+  name: 'Slovenia',
+  iso3: 'SVN',
+  iso2: 'SI',
+  phoneCode: '386',
+  capital: 'Ljubljana',
+  currency: 'EUR',
+  currencySymbol: r'€',
+  tld: '.si',
+  native: 'Slovenija',
+  region: 'Europe',
+  subregion: 'Southern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Europe/Ljubljana',
+      gmtOffset: 3600,
+      gmtOffsetName: 'UTC+01:00',
+      abbreviation: 'CET',
+      tzName: 'Central European Time',
+    )
+  ],
+  emoji: '🇸🇮',
+  emojiU: 'U+1F1F8 U+1F1EE',
+  states: [
+    CountryState(
+      id: 4183,
+      name: 'Ajdovščina Municipality',
+      stateCode: '001',
+      cities: [
+        City(
+          id: 104059,
+          name: 'Ajdovščina',
+          latitude: '45.88601000',
+          longitude: '13.90946000',
+        ),
+        City(
+          id: 104084,
+          name: 'Cirkulane',
+          latitude: '46.34408000',
+          longitude: '15.99472000',
+        ),
+        City(
+          id: 104174,
+          name: 'Lokavec',
+          latitude: '45.90167000',
+          longitude: '13.87972000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4326,
+      name: 'Ankaran Municipality',
+      stateCode: '213',
+      cities: [
+        City(
+          id: 104060,
+          name: 'Ankaran',
+          latitude: '45.57861000',
+          longitude: '13.73611000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4301,
+      name: 'Beltinci Municipality',
+      stateCode: '002',
+      cities: [
+        City(
+          id: 104063,
+          name: 'Beltinci',
+          latitude: '46.60528000',
+          longitude: '16.24056000',
+        ),
+        City(
+          id: 104104,
+          name: 'Gančani',
+          latitude: '46.63250000',
+          longitude: '16.25111000',
+        ),
+        City(
+          id: 104166,
+          name: 'Lipovci',
+          latitude: '46.62833000',
+          longitude: '16.22806000',
+        ),
+        City(
+          id: 104331,
+          name: 'Zgornje Gorje',
+          latitude: '46.37962000',
+          longitude: '14.06937000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4166,
+      name: 'Benedikt Municipality',
+      stateCode: '148',
+      cities: [
+        City(
+          id: 104064,
+          name: 'Benedikt',
+          latitude: '46.60861000',
+          longitude: '15.88833000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4179,
+      name: 'Bistrica ob Sotli Municipality',
+      stateCode: '149',
+      cities: [
+        City(
+          id: 104067,
+          name: 'Bistrica ob Sotli',
+          latitude: '46.05889000',
+          longitude: '15.66417000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4202,
+      name: 'Bled Municipality',
+      stateCode: '003',
+      cities: [
+        City(
+          id: 104069,
+          name: 'Bled',
+          latitude: '46.36917000',
+          longitude: '14.11361000',
+        ),
+        City(
+          id: 104144,
+          name: 'Kostanjevica na Krki',
+          latitude: '45.84611000',
+          longitude: '15.42222000',
+        ),
+        City(
+          id: 104326,
+          name: 'Zasip',
+          latitude: '46.39284000',
+          longitude: '14.10869000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4278,
+      name: 'Bloke Municipality',
+      stateCode: '150',
+      cities: [
+        City(
+          id: 104207,
+          name: 'Nova Vas',
+          latitude: '45.77167000',
+          longitude: '14.50583000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4282,
+      name: 'Bohinj Municipality',
+      stateCode: '004',
+      cities: [
+        City(
+          id: 104070,
+          name: 'Bohinjska Bistrica',
+          latitude: '46.27216000',
+          longitude: '13.95350000',
+        ),
+        City(
+          id: 104100,
+          name: 'Dragomer',
+          latitude: '46.01667000',
+          longitude: '14.38333000',
+        ),
+        City(
+          id: 104172,
+          name: 'Log pri Brezovici',
+          latitude: '46.01667000',
+          longitude: '14.36667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4200,
+      name: 'Borovnica Municipality',
+      stateCode: '005',
+      cities: [
+        City(
+          id: 104071,
+          name: 'Borovnica',
+          latitude: '45.91583000',
+          longitude: '14.36306000',
+        ),
+        City(
+          id: 104180,
+          name: 'Makole',
+          latitude: '46.31722000',
+          longitude: '15.66722000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4181,
+      name: 'Bovec Municipality',
+      stateCode: '006',
+      cities: [
+        City(
+          id: 104072,
+          name: 'Bovec',
+          latitude: '46.33808000',
+          longitude: '13.55245000',
+        ),
+        City(
+          id: 104190,
+          name: 'Mirna',
+          latitude: '45.95528000',
+          longitude: '15.06194000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4141,
+      name: 'Braslovče Municipality',
+      stateCode: '151',
+      cities: [
+        City(
+          id: 104073,
+          name: 'Braslovče',
+          latitude: '46.28972000',
+          longitude: '15.03889000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4240,
+      name: 'Brda Municipality',
+      stateCode: '007',
+      cities: [
+        City(
+          id: 104094,
+          name: 'Dobrovo',
+          latitude: '45.99639000',
+          longitude: '13.52639000',
+        ),
+        City(
+          id: 104195,
+          name: 'Mokronog',
+          latitude: '45.93417000',
+          longitude: '15.14083000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4215,
+      name: 'Brežice Municipality',
+      stateCode: '009',
+      cities: [
+        City(
+          id: 104076,
+          name: 'Brežice',
+          latitude: '45.90333000',
+          longitude: '15.59111000',
+        ),
+        City(
+          id: 104227,
+          name: 'Poljčane',
+          latitude: '46.31194000',
+          longitude: '15.57917000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4165,
+      name: 'Brezovica Municipality',
+      stateCode: '008',
+      cities: [
+        City(
+          id: 104075,
+          name: 'Brezovica pri Ljubljani',
+          latitude: '46.03333000',
+          longitude: '14.40000000',
+        ),
+        City(
+          id: 104205,
+          name: 'Notranje Gorice',
+          latitude: '45.98750000',
+          longitude: '14.39889000',
+        ),
+        City(
+          id: 104214,
+          name: 'Opština Ljubljana-Vič-Rudnik',
+          latitude: '46.03333000',
+          longitude: '14.41667000',
+        ),
+        City(
+          id: 104254,
+          name: 'Rečica ob Savinji',
+          latitude: '46.31667000',
+          longitude: '14.91667000',
+        ),
+        City(
+          id: 104316,
+          name: 'Vnanje Gorice',
+          latitude: '46.00722000',
+          longitude: '14.42194000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4147,
+      name: 'Cankova Municipality',
+      stateCode: '152',
+      cities: [
+        City(
+          id: 104078,
+          name: 'Cankova',
+          latitude: '46.72083000',
+          longitude: '16.02250000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4310,
+      name: 'Cerklje na Gorenjskem Municipality',
+      stateCode: '012',
+      cities: [
+        City(
+          id: 104080,
+          name: 'Cerklje na Gorenjskem',
+          latitude: '46.25417000',
+          longitude: '14.48861000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4162,
+      name: 'Cerknica Municipality',
+      stateCode: '013',
+      cities: [
+        City(
+          id: 104081,
+          name: 'Cerknica',
+          latitude: '45.79306000',
+          longitude: '14.36250000',
+        ),
+        City(
+          id: 104246,
+          name: 'Rakek',
+          latitude: '45.81333000',
+          longitude: '14.31111000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4178,
+      name: 'Cerkno Municipality',
+      stateCode: '014',
+      cities: [
+        City(
+          id: 104082,
+          name: 'Cerkno',
+          latitude: '46.12556000',
+          longitude: '13.98167000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4176,
+      name: 'Cerkvenjak Municipality',
+      stateCode: '153',
+      cities: [
+        City(
+          id: 104083,
+          name: 'Cerkvenjak',
+          latitude: '46.57056000',
+          longitude: '15.94361000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4191,
+      name: 'City Municipality of Celje',
+      stateCode: '011',
+      cities: [
+        City(
+          id: 104079,
+          name: 'Celje',
+          latitude: '46.23092000',
+          longitude: '15.26044000',
+        ),
+        City(
+          id: 104168,
+          name: 'Ljubečna',
+          latitude: '46.25567000',
+          longitude: '15.32430000',
+        ),
+        City(
+          id: 104299,
+          name: 'Trnovlje pri Celju',
+          latitude: '46.25667000',
+          longitude: '15.29528000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4236,
+      name: 'City Municipality of Novo Mesto',
+      stateCode: '085',
+      cities: [
+        City(
+          id: 104208,
+          name: 'Novo Mesto',
+          latitude: '45.80397000',
+          longitude: '15.16886000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4151,
+      name: 'Črenšovci Municipality',
+      stateCode: '015',
+      cities: [
+        City(
+          id: 104337,
+          name: 'Črenšovci',
+          latitude: '46.55794000',
+          longitude: '16.30410000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4232,
+      name: 'Črna na Koroškem Municipality',
+      stateCode: '016',
+      cities: [
+        City(
+          id: 104338,
+          name: 'Črna na Koroškem',
+          latitude: '46.47045000',
+          longitude: '14.85009000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4291,
+      name: 'Črnomelj Municipality',
+      stateCode: '017',
+      cities: [
+        City(
+          id: 104339,
+          name: 'Črnomelj',
+          latitude: '45.57111000',
+          longitude: '15.18889000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4304,
+      name: 'Destrnik Municipality',
+      stateCode: '018',
+      cities: [
+        City(
+          id: 104087,
+          name: 'Destrnik',
+          latitude: '46.49254000',
+          longitude: '15.87893000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4167,
+      name: 'Divača Municipality',
+      stateCode: '019',
+      cities: [
+        City(
+          id: 104088,
+          name: 'Divača',
+          latitude: '45.68472000',
+          longitude: '13.97028000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4295,
+      name: 'Dobje Municipality',
+      stateCode: '154',
+      cities: [
+        City(
+          id: 104090,
+          name: 'Dobje pri Planini',
+          latitude: '46.13747000',
+          longitude: '15.39412000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4216,
+      name: 'Dobrepolje Municipality',
+      stateCode: '020',
+      cities: [
+        City(
+          id: 104309,
+          name: 'Videm',
+          latitude: '45.85000000',
+          longitude: '14.69417000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4252,
+      name: 'Dobrna Municipality',
+      stateCode: '155',
+      cities: [
+        City(
+          id: 104091,
+          name: 'Dobrna',
+          latitude: '46.33750000',
+          longitude: '15.22639000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4308,
+      name: 'Dobrova–Polhov Gradec Municipality',
+      stateCode: '021',
+      cities: [
+        City(
+          id: 104092,
+          name: 'Dobrova',
+          latitude: '46.04580000',
+          longitude: '14.39186000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4189,
+      name: 'Dobrovnik Municipality',
+      stateCode: '156',
+      cities: [
+        City(
+          id: 104093,
+          name: 'Dobrovnik',
+          latitude: '46.65139000',
+          longitude: '16.35250000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4173,
+      name: 'Dol pri Ljubljani Municipality',
+      stateCode: '022',
+      cities: [
+        City(
+          id: 104096,
+          name: 'Dol pri Ljubljani',
+          latitude: '46.08861000',
+          longitude: '14.60083000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4281,
+      name: 'Dolenjske Toplice Municipality',
+      stateCode: '157',
+      cities: [
+        City(
+          id: 104097,
+          name: 'Dolenjske Toplice',
+          latitude: '45.75657000',
+          longitude: '15.05917000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4159,
+      name: 'Domžale Municipality',
+      stateCode: '023',
+      cities: [
+        City(
+          id: 104089,
+          name: 'Dob',
+          latitude: '46.15194000',
+          longitude: '14.62861000',
+        ),
+        City(
+          id: 104098,
+          name: 'Domžale',
+          latitude: '46.13774000',
+          longitude: '14.59371000',
+        ),
+        City(
+          id: 104244,
+          name: 'Radomlje',
+          latitude: '46.17361000',
+          longitude: '14.61222000',
+        ),
+        City(
+          id: 104312,
+          name: 'Vir',
+          latitude: '46.15325000',
+          longitude: '14.60741000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4290,
+      name: 'Dornava Municipality',
+      stateCode: '024',
+      cities: [
+        City(
+          id: 104099,
+          name: 'Dornava',
+          latitude: '46.43667000',
+          longitude: '15.95361000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4345,
+      name: 'Dravograd Municipality',
+      stateCode: '025',
+      cities: [
+        City(
+          id: 104102,
+          name: 'Dravograd',
+          latitude: '46.58806000',
+          longitude: '15.01917000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4213,
+      name: 'Duplek Municipality',
+      stateCode: '026',
+      cities: [
+        City(
+          id: 104283,
+          name: 'Spodnji Duplek',
+          latitude: '46.50306000',
+          longitude: '15.74528000',
+        ),
+        City(
+          id: 104334,
+          name: 'Zgornji Duplek',
+          latitude: '46.51361000',
+          longitude: '15.72083000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4293,
+      name: 'Gorenja Vas–Poljane Municipality',
+      stateCode: '027',
+      cities: [
+        City(
+          id: 104106,
+          name: 'Gorenja Vas',
+          latitude: '46.10722000',
+          longitude: '14.14806000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4210,
+      name: 'Gorišnica Municipality',
+      stateCode: '028',
+      cities: [
+        City(
+          id: 104107,
+          name: 'Gorišnica',
+          latitude: '46.41472000',
+          longitude: '16.01389000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4284,
+      name: 'Gorje Municipality',
+      stateCode: '207',
+      cities: [],
+    ),
+    CountryState(
+      id: 4343,
+      name: 'Gornja Radgona Municipality',
+      stateCode: '029',
+      cities: [
+        City(
+          id: 104108,
+          name: 'Gornja Radgona',
+          latitude: '46.67333000',
+          longitude: '15.99222000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4339,
+      name: 'Gornji Grad Municipality',
+      stateCode: '030',
+      cities: [
+        City(
+          id: 104109,
+          name: 'Gornji Grad',
+          latitude: '46.29528000',
+          longitude: '14.80833000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4271,
+      name: 'Gornji Petrovci Municipality',
+      stateCode: '031',
+      cities: [
+        City(
+          id: 104110,
+          name: 'Gornji Petrovci',
+          latitude: '46.80528000',
+          longitude: '16.22250000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4217,
+      name: 'Grad Municipality',
+      stateCode: '158',
+      cities: [
+        City(
+          id: 104112,
+          name: 'Grad',
+          latitude: '46.80000000',
+          longitude: '16.10000000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4336,
+      name: 'Grosuplje Municipality',
+      stateCode: '032',
+      cities: [
+        City(
+          id: 104113,
+          name: 'Grosuplje',
+          latitude: '45.95556000',
+          longitude: '14.65889000',
+        ),
+        City(
+          id: 104357,
+          name: 'Šmarje-Sap',
+          latitude: '45.97618000',
+          longitude: '14.61177000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4145,
+      name: 'Hajdina Municipality',
+      stateCode: '159',
+      cities: [
+        City(
+          id: 104279,
+          name: 'Spodnja Hajdina',
+          latitude: '46.40889000',
+          longitude: '15.84694000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4175,
+      name: 'Hoče–Slivnica Municipality',
+      stateCode: '160',
+      cities: [
+        City(
+          id: 104116,
+          name: 'Hotinja Vas',
+          latitude: '46.46667000',
+          longitude: '15.66667000',
+        ),
+        City(
+          id: 104242,
+          name: 'Radizel',
+          latitude: '46.47444000',
+          longitude: '15.65583000',
+        ),
+        City(
+          id: 104260,
+          name: 'Rogoza',
+          latitude: '46.50000000',
+          longitude: '15.68333000',
+        ),
+        City(
+          id: 104281,
+          name: 'Spodnje Hoče',
+          latitude: '46.50000000',
+          longitude: '15.65000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4327,
+      name: 'Hodoš Municipality',
+      stateCode: '161',
+      cities: [
+        City(
+          id: 104114,
+          name: 'Hodoš',
+          latitude: '46.82333000',
+          longitude: '16.33417000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4193,
+      name: 'Horjul Municipality',
+      stateCode: '162',
+      cities: [
+        City(
+          id: 104115,
+          name: 'Horjul',
+          latitude: '46.02361000',
+          longitude: '14.29917000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4341,
+      name: 'Hrastnik Municipality',
+      stateCode: '034',
+      cities: [
+        City(
+          id: 104095,
+          name: 'Dol pri Hrastniku',
+          latitude: '46.14194000',
+          longitude: '15.11278000',
+        ),
+        City(
+          id: 104118,
+          name: 'Hrastnik',
+          latitude: '46.14611000',
+          longitude: '15.08139000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4321,
+      name: 'Hrpelje–Kozina Municipality',
+      stateCode: '035',
+      cities: [
+        City(
+          id: 104147,
+          name: 'Kozina',
+          latitude: '45.61000000',
+          longitude: '13.93556000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4152,
+      name: 'Idrija Municipality',
+      stateCode: '036',
+      cities: [
+        City(
+          id: 104122,
+          name: 'Idrija',
+          latitude: '46.00278000',
+          longitude: '14.03056000',
+        ),
+        City(
+          id: 104280,
+          name: 'Spodnja Idrija',
+          latitude: '46.03194000',
+          longitude: '14.02722000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4286,
+      name: 'Ig Municipality',
+      stateCode: '037',
+      cities: [
+        City(
+          id: 104123,
+          name: 'Ig',
+          latitude: '45.96028000',
+          longitude: '14.52889000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4305,
+      name: 'Ivančna Gorica Municipality',
+      stateCode: '039',
+      cities: [
+        City(
+          id: 104125,
+          name: 'Ivančna Gorica',
+          latitude: '45.93833000',
+          longitude: '14.80444000',
+        ),
+        City(
+          id: 104350,
+          name: 'Šentvid pri Stični',
+          latitude: '45.95004000',
+          longitude: '14.84344000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4322,
+      name: 'Izola Municipality',
+      stateCode: '040',
+      cities: [
+        City(
+          id: 104127,
+          name: 'Izola',
+          latitude: '45.53694000',
+          longitude: '13.66194000',
+        ),
+        City(
+          id: 104128,
+          name: 'Jagodje',
+          latitude: '45.52845000',
+          longitude: '13.64721000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4337,
+      name: 'Jesenice Municipality',
+      stateCode: '041',
+      cities: [
+        City(
+          id: 104120,
+          name: 'Hrušica',
+          latitude: '46.44500000',
+          longitude: '14.01778000',
+        ),
+        City(
+          id: 104130,
+          name: 'Jesenice',
+          latitude: '46.43056000',
+          longitude: '14.06694000',
+        ),
+        City(
+          id: 104143,
+          name: 'Koroška Bela',
+          latitude: '46.44913000',
+          longitude: '14.11135000',
+        ),
+        City(
+          id: 104274,
+          name: 'Slovenski Javornik',
+          latitude: '46.42611000',
+          longitude: '14.08722000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4203,
+      name: 'Jezersko Municipality',
+      stateCode: '163',
+      cities: [
+        City(
+          id: 104332,
+          name: 'Zgornje Jezersko',
+          latitude: '46.39410000',
+          longitude: '14.50659000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4266,
+      name: 'Juršinci Municipality',
+      stateCode: '042',
+      cities: [
+        City(
+          id: 104131,
+          name: 'Juršinci',
+          latitude: '46.48472000',
+          longitude: '15.97139000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4180,
+      name: 'Kamnik Municipality',
+      stateCode: '043',
+      cities: [
+        City(
+          id: 104133,
+          name: 'Kamnik',
+          latitude: '46.22587000',
+          longitude: '14.61207000',
+        ),
+        City(
+          id: 104184,
+          name: 'Mekinje',
+          latitude: '46.23333000',
+          longitude: '14.61667000',
+        ),
+        City(
+          id: 104355,
+          name: 'Šmarca',
+          latitude: '46.19333000',
+          longitude: '14.59667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4227,
+      name: 'Kanal ob Soči Municipality',
+      stateCode: '044',
+      cities: [
+        City(
+          id: 104086,
+          name: 'Deskle',
+          latitude: '46.05307000',
+          longitude: '13.61382000',
+        ),
+        City(
+          id: 104134,
+          name: 'Kanal',
+          latitude: '46.08861000',
+          longitude: '13.63972000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4150,
+      name: 'Kidričevo Municipality',
+      stateCode: '045',
+      cities: [
+        City(
+          id: 104135,
+          name: 'Kidričevo',
+          latitude: '46.40361000',
+          longitude: '15.79111000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4243,
+      name: 'Kobarid Municipality',
+      stateCode: '046',
+      cities: [
+        City(
+          id: 104137,
+          name: 'Kobarid',
+          latitude: '46.24761000',
+          longitude: '13.57907000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4325,
+      name: 'Kobilje Municipality',
+      stateCode: '047',
+      cities: [
+        City(
+          id: 104138,
+          name: 'Kobilje',
+          latitude: '46.68472000',
+          longitude: '16.39778000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4335,
+      name: 'Kočevje Municipality',
+      stateCode: '048',
+      cities: [
+        City(
+          id: 104149,
+          name: 'Kočevje',
+          latitude: '45.64333000',
+          longitude: '14.86333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4315,
+      name: 'Komen Municipality',
+      stateCode: '049',
+      cities: [
+        City(
+          id: 104140,
+          name: 'Komen',
+          latitude: '45.81528000',
+          longitude: '13.74833000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4283,
+      name: 'Komenda Municipality',
+      stateCode: '164',
+      cities: [
+        City(
+          id: 104141,
+          name: 'Komenda',
+          latitude: '46.20484000',
+          longitude: '14.53839000',
+        ),
+        City(
+          id: 104199,
+          name: 'Moste',
+          latitude: '46.19500000',
+          longitude: '14.55139000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4319,
+      name: 'Koper City Municipality',
+      stateCode: '050',
+      cities: [
+        City(
+          id: 104085,
+          name: 'Dekani',
+          latitude: '45.54972000',
+          longitude: '13.81361000',
+        ),
+        City(
+          id: 104121,
+          name: 'Hrvatini',
+          latitude: '45.58278000',
+          longitude: '13.75667000',
+        ),
+        City(
+          id: 104142,
+          name: 'Koper',
+          latitude: '45.54694000',
+          longitude: '13.72944000',
+        ),
+        City(
+          id: 104223,
+          name: 'Pobegi',
+          latitude: '45.53944000',
+          longitude: '13.79611000',
+        ),
+        City(
+          id: 104231,
+          name: 'Prade',
+          latitude: '45.54003000',
+          longitude: '13.77607000',
+        ),
+        City(
+          id: 104282,
+          name: 'Spodnje Škofije',
+          latitude: '45.57167000',
+          longitude: '13.79250000',
+        ),
+        City(
+          id: 104288,
+          name: 'Sv. Anton',
+          latitude: '45.52583000',
+          longitude: '13.83194000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4254,
+      name: 'Kostanjevica na Krki Municipality',
+      stateCode: '197',
+      cities: [],
+    ),
+    CountryState(
+      id: 4331,
+      name: 'Kostel Municipality',
+      stateCode: '165',
+      cities: [
+        City(
+          id: 104145,
+          name: 'Kostel',
+          latitude: '45.50842000',
+          longitude: '14.91005000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4186,
+      name: 'Kozje Municipality',
+      stateCode: '051',
+      cities: [
+        City(
+          id: 104148,
+          name: 'Kozje',
+          latitude: '46.07500000',
+          longitude: '15.56028000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4287,
+      name: 'Kranj City Municipality',
+      stateCode: '052',
+      cities: [
+        City(
+          id: 104077,
+          name: 'Britof',
+          latitude: '46.26024000',
+          longitude: '14.39037000',
+        ),
+        City(
+          id: 104105,
+          name: 'Golnik',
+          latitude: '46.33333000',
+          longitude: '14.33333000',
+        ),
+        City(
+          id: 104139,
+          name: 'Kokrica',
+          latitude: '46.27028000',
+          longitude: '14.36111000',
+        ),
+        City(
+          id: 104150,
+          name: 'Kranj',
+          latitude: '46.23887000',
+          longitude: '14.35561000',
+        ),
+        City(
+          id: 104193,
+          name: 'Mlaka pri Kranju',
+          latitude: '46.28333000',
+          longitude: '14.35000000',
+        ),
+        City(
+          id: 104330,
+          name: 'Zgornje Bitnje',
+          latitude: '46.22000000',
+          longitude: '14.33667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4340,
+      name: 'Kranjska Gora Municipality',
+      stateCode: '053',
+      cities: [
+        City(
+          id: 104151,
+          name: 'Kranjska Gora',
+          latitude: '46.45689000',
+          longitude: '13.77824000',
+        ),
+        City(
+          id: 104194,
+          name: 'Mojstrana',
+          latitude: '46.42383000',
+          longitude: '13.87520000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4238,
+      name: 'Križevci Municipality',
+      stateCode: '166',
+      cities: [
+        City(
+          id: 104152,
+          name: 'Križevci pri Ljutomeru',
+          latitude: '46.56833000',
+          longitude: '16.13861000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4197,
+      name: 'Kungota',
+      stateCode: '055',
+      cities: [
+        City(
+          id: 104328,
+          name: 'Zgornja Kungota',
+          latitude: '46.63917000',
+          longitude: '15.61556000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4211,
+      name: 'Kuzma Municipality',
+      stateCode: '056',
+      cities: [
+        City(
+          id: 104156,
+          name: 'Kuzma',
+          latitude: '46.83694000',
+          longitude: '16.08333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4338,
+      name: 'Laško Municipality',
+      stateCode: '057',
+      cities: [
+        City(
+          id: 104158,
+          name: 'Laško',
+          latitude: '46.15463000',
+          longitude: '15.23555000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4142,
+      name: 'Lenart Municipality',
+      stateCode: '058',
+      cities: [
+        City(
+          id: 104160,
+          name: 'Lenart v Slov. Goricah',
+          latitude: '46.57611000',
+          longitude: '15.83139000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4225,
+      name: 'Lendava Municipality',
+      stateCode: '059',
+      cities: [
+        City(
+          id: 104161,
+          name: 'Lendava',
+          latitude: '46.56494000',
+          longitude: '16.45091000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4347,
+      name: 'Litija Municipality',
+      stateCode: '060',
+      cities: [
+        City(
+          id: 104167,
+          name: 'Litija',
+          latitude: '46.05861000',
+          longitude: '14.82250000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4270,
+      name: 'Ljubljana City Municipality',
+      stateCode: '061',
+      cities: [
+        City(
+          id: 104101,
+          name: 'Dravlje District',
+          latitude: '46.07290000',
+          longitude: '14.44741000',
+        ),
+        City(
+          id: 104129,
+          name: 'Jarše District',
+          latitude: '46.07345000',
+          longitude: '14.55431000',
+        ),
+        City(
+          id: 104169,
+          name: 'Ljubljana',
+          latitude: '46.05108000',
+          longitude: '14.50513000',
+        ),
+        City(
+          id: 104211,
+          name: 'Opčina Ljubljana-Bežigrad',
+          latitude: '46.08333000',
+          longitude: '14.53333000',
+        ),
+        City(
+          id: 104212,
+          name: 'Opština Ljubljana-Center',
+          latitude: '46.05000000',
+          longitude: '14.53333000',
+        ),
+        City(
+          id: 104213,
+          name: 'Opština Ljubljana-Moste-Polje',
+          latitude: '46.06667000',
+          longitude: '14.61667000',
+        ),
+        City(
+          id: 104262,
+          name: 'Rožnik District',
+          latitude: '46.05999000',
+          longitude: '14.46779000',
+        ),
+        City(
+          id: 104349,
+          name: 'Šentvid District',
+          latitude: '46.10559000',
+          longitude: '14.43329000',
+        ),
+        City(
+          id: 104278,
+          name: 'Sostro District',
+          latitude: '46.04341000',
+          longitude: '14.67293000',
+        ),
+        City(
+          id: 104300,
+          name: 'Trnovo District',
+          latitude: '46.02412000',
+          longitude: '14.48891000',
+        ),
+        City(
+          id: 104315,
+          name: 'Vič District',
+          latitude: '46.00779000',
+          longitude: '14.46968000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4294,
+      name: 'Ljubno Municipality',
+      stateCode: '062',
+      cities: [
+        City(
+          id: 104170,
+          name: 'Ljubno ob Savinji',
+          latitude: '46.34358000',
+          longitude: '14.83377000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4351,
+      name: 'Ljutomer Municipality',
+      stateCode: '063',
+      cities: [
+        City(
+          id: 104171,
+          name: 'Ljutomer',
+          latitude: '46.52083000',
+          longitude: '16.19750000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4306,
+      name: 'Log–Dragomer Municipality',
+      stateCode: '208',
+      cities: [],
+    ),
+    CountryState(
+      id: 4350,
+      name: 'Logatec Municipality',
+      stateCode: '064',
+      cities: [
+        City(
+          id: 104173,
+          name: 'Logatec',
+          latitude: '45.91444000',
+          longitude: '14.22583000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4174,
+      name: 'Loška Dolina Municipality',
+      stateCode: '065',
+      cities: [
+        City(
+          id: 104163,
+          name: 'Leskova Dolina',
+          latitude: '45.62139000',
+          longitude: '14.46056000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4158,
+      name: 'Loški Potok Municipality',
+      stateCode: '066',
+      cities: [
+        City(
+          id: 104119,
+          name: 'Hrib-Loški Potok',
+          latitude: '45.70688000',
+          longitude: '14.61674000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4156,
+      name: 'Lovrenc na Pohorju Municipality',
+      stateCode: '167',
+      cities: [
+        City(
+          id: 104175,
+          name: 'Lovrenc na Pohorju',
+          latitude: '46.54056000',
+          longitude: '15.39306000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4219,
+      name: 'Luče Municipality',
+      stateCode: '067',
+      cities: [
+        City(
+          id: 104178,
+          name: 'Luče',
+          latitude: '46.35611000',
+          longitude: '14.74667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4302,
+      name: 'Lukovica Municipality',
+      stateCode: '068',
+      cities: [
+        City(
+          id: 104177,
+          name: 'Lukovica pri Domžalah',
+          latitude: '46.16988000',
+          longitude: '14.69179000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4157,
+      name: 'Majšperk Municipality',
+      stateCode: '069',
+      cities: [
+        City(
+          id: 104179,
+          name: 'Majšperk',
+          latitude: '46.35167000',
+          longitude: '15.73361000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4224,
+      name: 'Makole Municipality',
+      stateCode: '198',
+      cities: [],
+    ),
+    CountryState(
+      id: 4242,
+      name: 'Maribor City Municipality',
+      stateCode: '070',
+      cities: [
+        City(
+          id: 104074,
+          name: 'Bresternica',
+          latitude: '46.56972000',
+          longitude: '15.57500000',
+        ),
+        City(
+          id: 104132,
+          name: 'Kamnica',
+          latitude: '46.57444000',
+          longitude: '15.61417000',
+        ),
+        City(
+          id: 104165,
+          name: 'Limbuš',
+          latitude: '46.55361000',
+          longitude: '15.58361000',
+        ),
+        City(
+          id: 104181,
+          name: 'Maribor',
+          latitude: '46.55472000',
+          longitude: '15.64667000',
+        ),
+        City(
+          id: 104219,
+          name: 'Pekre',
+          latitude: '46.54722000',
+          longitude: '15.59556000',
+        ),
+        City(
+          id: 104251,
+          name: 'Razvanje',
+          latitude: '46.51444000',
+          longitude: '15.63611000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4244,
+      name: 'Markovci Municipality',
+      stateCode: '168',
+      cities: [
+        City(
+          id: 104182,
+          name: 'Markovci',
+          latitude: '46.39557000',
+          longitude: '15.92831000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4349,
+      name: 'Medvode Municipality',
+      stateCode: '071',
+      cities: [
+        City(
+          id: 104183,
+          name: 'Medvode',
+          latitude: '46.14220000',
+          longitude: '14.41114000',
+        ),
+        City(
+          id: 104215,
+          name: 'Opština [historical] Ljubljana-Šiška',
+          latitude: '46.16667000',
+          longitude: '14.43333000',
+        ),
+        City(
+          id: 104333,
+          name: 'Zgornje Pirniče',
+          latitude: '46.14251000',
+          longitude: '14.43158000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4348,
+      name: 'Mengeš Municipality',
+      stateCode: '072',
+      cities: [
+        City(
+          id: 104185,
+          name: 'Mengeš',
+          latitude: '46.16694000',
+          longitude: '14.57500000',
+        ),
+        City(
+          id: 104235,
+          name: 'Preserje pri Radomljah',
+          latitude: '46.16911000',
+          longitude: '14.59698000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4323,
+      name: 'Metlika Municipality',
+      stateCode: '073',
+      cities: [
+        City(
+          id: 104186,
+          name: 'Metlika',
+          latitude: '45.64722000',
+          longitude: '15.31417000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4265,
+      name: 'Mežica Municipality',
+      stateCode: '074',
+      cities: [
+        City(
+          id: 104187,
+          name: 'Mežica',
+          latitude: '46.52139000',
+          longitude: '14.85444000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4223,
+      name: 'Miklavž na Dravskem Polju Municipality',
+      stateCode: '169',
+      cities: [
+        City(
+          id: 104188,
+          name: 'Miklavž na Dravskem Polju',
+          latitude: '46.50583000',
+          longitude: '15.69722000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4220,
+      name: 'Miren–Kostanjevica Municipality',
+      stateCode: '075',
+      cities: [
+        City(
+          id: 104065,
+          name: 'Bilje',
+          latitude: '45.89444000',
+          longitude: '13.63222000',
+        ),
+        City(
+          id: 104189,
+          name: 'Miren',
+          latitude: '45.89556000',
+          longitude: '13.60750000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4298,
+      name: 'Mirna Municipality',
+      stateCode: '212',
+      cities: [],
+    ),
+    CountryState(
+      id: 4237,
+      name: 'Mirna Peč Municipality',
+      stateCode: '170',
+      cities: [
+        City(
+          id: 104191,
+          name: 'Mirna Peč',
+          latitude: '45.86028000',
+          longitude: '15.08333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4212,
+      name: 'Mislinja Municipality',
+      stateCode: '076',
+      cities: [
+        City(
+          id: 104192,
+          name: 'Mislinja',
+          latitude: '46.44141000',
+          longitude: '15.20027000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4297,
+      name: 'Mokronog–Trebelno Municipality',
+      stateCode: '199',
+      cities: [],
+    ),
+    CountryState(
+      id: 4168,
+      name: 'Moravče Municipality',
+      stateCode: '077',
+      cities: [
+        City(
+          id: 104197,
+          name: 'Moravče',
+          latitude: '46.13694000',
+          longitude: '14.74500000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4218,
+      name: 'Moravske Toplice Municipality',
+      stateCode: '078',
+      cities: [
+        City(
+          id: 104196,
+          name: 'Moravske Toplice',
+          latitude: '46.68313000',
+          longitude: '16.22080000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4190,
+      name: 'Mozirje Municipality',
+      stateCode: '079',
+      cities: [
+        City(
+          id: 104200,
+          name: 'Mozirje',
+          latitude: '46.33944000',
+          longitude: '14.96333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4318,
+      name: 'Municipality of Apače',
+      stateCode: '195',
+      cities: [
+        City(
+          id: 104061,
+          name: 'Apače',
+          latitude: '46.69722000',
+          longitude: '15.91056000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4309,
+      name: 'Municipality of Cirkulane',
+      stateCode: '196',
+      cities: [],
+    ),
+    CountryState(
+      id: 4344,
+      name: 'Municipality of Ilirska Bistrica',
+      stateCode: '038',
+      cities: [
+        City(
+          id: 104124,
+          name: 'Ilirska Bistrica',
+          latitude: '45.56757000',
+          longitude: '14.24571000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4314,
+      name: 'Municipality of Krško',
+      stateCode: '054',
+      cities: [
+        City(
+          id: 104155,
+          name: 'Krško',
+          latitude: '45.95915000',
+          longitude: '15.49167000',
+        ),
+        City(
+          id: 104164,
+          name: 'Leskovec pri Krškem',
+          latitude: '45.93566000',
+          longitude: '15.47184000',
+        ),
+        City(
+          id: 104267,
+          name: 'Senovo',
+          latitude: '46.02361000',
+          longitude: '15.47694000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4187,
+      name: 'Municipality of Škofljica',
+      stateCode: '123',
+      cities: [
+        City(
+          id: 104157,
+          name: 'Lavrica',
+          latitude: '46.00002000',
+          longitude: '14.55730000',
+        ),
+        City(
+          id: 104354,
+          name: 'Škofljica',
+          latitude: '45.98333000',
+          longitude: '14.57667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4313,
+      name: 'Murska Sobota City Municipality',
+      stateCode: '080',
+      cities: [
+        City(
+          id: 104062,
+          name: 'Bakovci',
+          latitude: '46.61889000',
+          longitude: '16.15028000',
+        ),
+        City(
+          id: 104336,
+          name: 'Černelavci',
+          latitude: '46.66667000',
+          longitude: '16.13333000',
+        ),
+        City(
+          id: 104153,
+          name: 'Krog',
+          latitude: '46.63806000',
+          longitude: '16.14139000',
+        ),
+        City(
+          id: 104201,
+          name: 'Murska Sobota',
+          latitude: '46.66250000',
+          longitude: '16.16639000',
+        ),
+        City(
+          id: 104247,
+          name: 'Rakičan',
+          latitude: '46.65167000',
+          longitude: '16.20417000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4208,
+      name: 'Muta Municipality',
+      stateCode: '081',
+      cities: [
+        City(
+          id: 104202,
+          name: 'Muta',
+          latitude: '46.61139000',
+          longitude: '15.16611000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4177,
+      name: 'Naklo Municipality',
+      stateCode: '082',
+      cities: [
+        City(
+          id: 104203,
+          name: 'Naklo',
+          latitude: '46.27278000',
+          longitude: '14.31722000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4329,
+      name: 'Nazarje Municipality',
+      stateCode: '083',
+      cities: [
+        City(
+          id: 104204,
+          name: 'Nazarje',
+          latitude: '46.31757000',
+          longitude: '14.94674000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4205,
+      name: 'Nova Gorica City Municipality',
+      stateCode: '084',
+      cities: [
+        City(
+          id: 104154,
+          name: 'Kromberk',
+          latitude: '45.96083000',
+          longitude: '13.66556000',
+        ),
+        City(
+          id: 104206,
+          name: 'Nova Gorica',
+          latitude: '45.95604000',
+          longitude: '13.64837000',
+        ),
+        City(
+          id: 104237,
+          name: 'Prvačina',
+          latitude: '45.89000000',
+          longitude: '13.71806000',
+        ),
+        City(
+          id: 104342,
+          name: 'Šempas',
+          latitude: '45.93028000',
+          longitude: '13.74361000',
+        ),
+        City(
+          id: 104276,
+          name: 'Solkan',
+          latitude: '45.97139000',
+          longitude: '13.64944000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4320,
+      name: 'Odranci Municipality',
+      stateCode: '086',
+      cities: [
+        City(
+          id: 104209,
+          name: 'Odranci',
+          latitude: '46.58667000',
+          longitude: '16.28028000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4143,
+      name: 'Oplotnica',
+      stateCode: '171',
+      cities: [
+        City(
+          id: 104210,
+          name: 'Oplotnica',
+          latitude: '46.38778000',
+          longitude: '15.44667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4221,
+      name: 'Ormož Municipality',
+      stateCode: '087',
+      cities: [
+        City(
+          id: 104216,
+          name: 'Ormož',
+          latitude: '46.41139000',
+          longitude: '16.15444000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4199,
+      name: 'Osilnica Municipality',
+      stateCode: '088',
+      cities: [
+        City(
+          id: 104217,
+          name: 'Osilnica',
+          latitude: '45.52914000',
+          longitude: '14.69838000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4172,
+      name: 'Pesnica Municipality',
+      stateCode: '089',
+      cities: [
+        City(
+          id: 104220,
+          name: 'Pesnica pri Mariboru',
+          latitude: '46.60694000',
+          longitude: '15.67667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4201,
+      name: 'Piran Municipality',
+      stateCode: '090',
+      cities: [
+        City(
+          id: 104176,
+          name: 'Lucija',
+          latitude: '45.50526000',
+          longitude: '13.60240000',
+        ),
+        City(
+          id: 104221,
+          name: 'Piran',
+          latitude: '45.52778000',
+          longitude: '13.57056000',
+        ),
+        City(
+          id: 104229,
+          name: 'Portorož',
+          latitude: '45.51429000',
+          longitude: '13.59206000',
+        ),
+        City(
+          id: 104269,
+          name: 'Seča',
+          latitude: '45.49584000',
+          longitude: '13.61466000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4184,
+      name: 'Pivka Municipality',
+      stateCode: '091',
+      cities: [
+        City(
+          id: 104222,
+          name: 'Pivka',
+          latitude: '45.68292000',
+          longitude: '14.19588000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4146,
+      name: 'Podčetrtek Municipality',
+      stateCode: '092',
+      cities: [
+        City(
+          id: 104226,
+          name: 'Podčetrtek',
+          latitude: '46.15694000',
+          longitude: '15.59861000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4161,
+      name: 'Podlehnik Municipality',
+      stateCode: '172',
+      cities: [
+        City(
+          id: 104224,
+          name: 'Podlehnik',
+          latitude: '46.33528000',
+          longitude: '15.88000000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4234,
+      name: 'Podvelka Municipality',
+      stateCode: '093',
+      cities: [
+        City(
+          id: 104225,
+          name: 'Podvelka',
+          latitude: '46.58694000',
+          longitude: '15.33056000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4239,
+      name: 'Poljčane Municipality',
+      stateCode: '200',
+      cities: [],
+    ),
+    CountryState(
+      id: 4272,
+      name: 'Polzela Municipality',
+      stateCode: '173',
+      cities: [
+        City(
+          id: 104228,
+          name: 'Polzela',
+          latitude: '46.28333000',
+          longitude: '15.06667000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4330,
+      name: 'Postojna Municipality',
+      stateCode: '094',
+      cities: [
+        City(
+          id: 104230,
+          name: 'Postojna',
+          latitude: '45.77435000',
+          longitude: '14.21528000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4188,
+      name: 'Prebold Municipality',
+      stateCode: '174',
+      cities: [
+        City(
+          id: 104233,
+          name: 'Prebold',
+          latitude: '46.23694000',
+          longitude: '15.09250000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4303,
+      name: 'Preddvor Municipality',
+      stateCode: '095',
+      cities: [
+        City(
+          id: 104234,
+          name: 'Preddvor',
+          latitude: '46.30250000',
+          longitude: '14.42306000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4274,
+      name: 'Prevalje Municipality',
+      stateCode: '175',
+      cities: [
+        City(
+          id: 104236,
+          name: 'Prevalje',
+          latitude: '46.54694000',
+          longitude: '14.92083000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4228,
+      name: 'Ptuj City Municipality',
+      stateCode: '096',
+      cities: [
+        City(
+          id: 104238,
+          name: 'Ptuj',
+          latitude: '46.42005000',
+          longitude: '15.87018000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4288,
+      name: 'Puconci Municipality',
+      stateCode: '097',
+      cities: [
+        City(
+          id: 104239,
+          name: 'Puconci',
+          latitude: '46.70667000',
+          longitude: '16.15639000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4204,
+      name: 'Rače–Fram Municipality',
+      stateCode: '098',
+      cities: [
+        City(
+          id: 104103,
+          name: 'Fram',
+          latitude: '46.45600000',
+          longitude: '15.63007000',
+        ),
+        City(
+          id: 104198,
+          name: 'Morje',
+          latitude: '46.44444000',
+          longitude: '15.62139000',
+        ),
+        City(
+          id: 104252,
+          name: 'Rače',
+          latitude: '46.45194000',
+          longitude: '15.68139000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4195,
+      name: 'Radeče Municipality',
+      stateCode: '099',
+      cities: [
+        City(
+          id: 104241,
+          name: 'Radeče',
+          latitude: '46.06806000',
+          longitude: '15.18389000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4292,
+      name: 'Radenci Municipality',
+      stateCode: '100',
+      cities: [
+        City(
+          id: 104240,
+          name: 'Radenci',
+          latitude: '46.64201000',
+          longitude: '16.03781000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4275,
+      name: 'Radlje ob Dravi Municipality',
+      stateCode: '101',
+      cities: [
+        City(
+          id: 104243,
+          name: 'Radlje ob Dravi',
+          latitude: '46.61417000',
+          longitude: '15.22639000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4231,
+      name: 'Radovljica Municipality',
+      stateCode: '102',
+      cities: [
+        City(
+          id: 104162,
+          name: 'Lesce',
+          latitude: '46.36111000',
+          longitude: '14.15778000',
+        ),
+        City(
+          id: 104245,
+          name: 'Radovljica',
+          latitude: '46.34444000',
+          longitude: '14.17444000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4155,
+      name: 'Ravne na Koroškem Municipality',
+      stateCode: '103',
+      cities: [
+        City(
+          id: 104146,
+          name: 'Kotlje',
+          latitude: '46.52139000',
+          longitude: '14.98694000',
+        ),
+        City(
+          id: 104249,
+          name: 'Ravne na Koroškem',
+          latitude: '46.54306000',
+          longitude: '14.96917000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4206,
+      name: 'Razkrižje Municipality',
+      stateCode: '176',
+      cities: [
+        City(
+          id: 104250,
+          name: 'Razkrižje',
+          latitude: '46.52167000',
+          longitude: '16.28111000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4160,
+      name: 'Rečica ob Savinji Municipality',
+      stateCode: '209',
+      cities: [],
+    ),
+    CountryState(
+      id: 4253,
+      name: 'Renče–Vogrsko Municipality',
+      stateCode: '201',
+      cities: [
+        City(
+          id: 104253,
+          name: 'Renče',
+          latitude: '45.89000000',
+          longitude: '13.66861000',
+        ),
+        City(
+          id: 104319,
+          name: 'Volčja Draga',
+          latitude: '45.90694000',
+          longitude: '13.67750000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4235,
+      name: 'Ribnica Municipality',
+      stateCode: '104',
+      cities: [
+        City(
+          id: 104255,
+          name: 'Ribnica',
+          latitude: '45.73861000',
+          longitude: '14.72750000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4207,
+      name: 'Ribnica na Pohorju Municipality',
+      stateCode: '177',
+      cities: [
+        City(
+          id: 104256,
+          name: 'Ribnica na Pohorju',
+          latitude: '46.53500000',
+          longitude: '15.27278000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4233,
+      name: 'Rogaška Slatina Municipality',
+      stateCode: '106',
+      cities: [
+        City(
+          id: 104258,
+          name: 'Rogaška Slatina',
+          latitude: '46.23750000',
+          longitude: '15.63972000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4264,
+      name: 'Rogašovci Municipality',
+      stateCode: '105',
+      cities: [
+        City(
+          id: 104259,
+          name: 'Rogašovci',
+          latitude: '46.80000000',
+          longitude: '16.03333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4209,
+      name: 'Rogatec Municipality',
+      stateCode: '107',
+      cities: [
+        City(
+          id: 104257,
+          name: 'Rogatec',
+          latitude: '46.22944000',
+          longitude: '15.70028000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4280,
+      name: 'Ruše Municipality',
+      stateCode: '108',
+      cities: [
+        City(
+          id: 104066,
+          name: 'Bistrica ob Dravi',
+          latitude: '46.55419000',
+          longitude: '15.54855000',
+        ),
+        City(
+          id: 104263,
+          name: 'Ruše',
+          latitude: '46.53944000',
+          longitude: '15.51583000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4222,
+      name: 'Šalovci Municipality',
+      stateCode: '033',
+      cities: [
+        City(
+          id: 104341,
+          name: 'Šalovci',
+          latitude: '46.82500000',
+          longitude: '16.29806000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4230,
+      name: 'Selnica ob Dravi Municipality',
+      stateCode: '178',
+      cities: [
+        City(
+          id: 104264,
+          name: 'Selnica ob Dravi',
+          latitude: '46.55000000',
+          longitude: '15.49500000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4346,
+      name: 'Semič Municipality',
+      stateCode: '109',
+      cities: [
+        City(
+          id: 104266,
+          name: 'Semič',
+          latitude: '45.64611000',
+          longitude: '15.18222000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4317,
+      name: 'Šempeter–Vrtojba Municipality',
+      stateCode: '183',
+      cities: [
+        City(
+          id: 104261,
+          name: 'Rožna Dolina',
+          latitude: '45.94194000',
+          longitude: '13.66779000',
+        ),
+        City(
+          id: 104343,
+          name: 'Šempeter pri Gorici',
+          latitude: '45.92750000',
+          longitude: '13.64111000',
+        ),
+        City(
+          id: 104322,
+          name: 'Vrtojba',
+          latitude: '45.91250000',
+          longitude: '13.63417000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4299,
+      name: 'Šenčur Municipality',
+      stateCode: '117',
+      cities: [
+        City(
+          id: 104117,
+          name: 'Hrastje',
+          latitude: '46.21667000',
+          longitude: '14.40000000',
+        ),
+        City(
+          id: 104351,
+          name: 'Šenčur',
+          latitude: '46.24556000',
+          longitude: '14.41972000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4324,
+      name: 'Šentilj Municipality',
+      stateCode: '118',
+      cities: [
+        City(
+          id: 104265,
+          name: 'Selnica ob Muri',
+          latitude: '46.68333000',
+          longitude: '15.70000000',
+        ),
+        City(
+          id: 104345,
+          name: 'Šentilj v Slov. Goricah',
+          latitude: '46.68167000',
+          longitude: '15.64806000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4241,
+      name: 'Šentjernej Municipality',
+      stateCode: '119',
+      cities: [
+        City(
+          id: 104346,
+          name: 'Šentjernej',
+          latitude: '45.84000000',
+          longitude: '15.33611000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4171,
+      name: 'Šentjur Municipality',
+      stateCode: '120',
+      cities: [
+        City(
+          id: 104347,
+          name: 'Šentjur',
+          latitude: '46.21722000',
+          longitude: '15.39750000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4311,
+      name: 'Šentrupert Municipality',
+      stateCode: '211',
+      cities: [
+        City(
+          id: 104348,
+          name: 'Šentrupert',
+          latitude: '45.97778000',
+          longitude: '15.09556000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4268,
+      name: 'Sevnica Municipality',
+      stateCode: '110',
+      cities: [
+        City(
+          id: 104268,
+          name: 'Sevnica',
+          latitude: '46.00778000',
+          longitude: '15.31556000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4149,
+      name: 'Sežana Municipality',
+      stateCode: '111',
+      cities: [
+        City(
+          id: 104270,
+          name: 'Sežana',
+          latitude: '45.70924000',
+          longitude: '13.87333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4170,
+      name: 'Škocjan Municipality',
+      stateCode: '121',
+      cities: [
+        City(
+          id: 104352,
+          name: 'Škocjan',
+          latitude: '45.90667000',
+          longitude: '15.29139000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4316,
+      name: 'Škofja Loka Municipality',
+      stateCode: '122',
+      cities: [
+        City(
+          id: 104353,
+          name: 'Škofja Loka',
+          latitude: '46.16551000',
+          longitude: '14.30626000',
+        ),
+        City(
+          id: 104289,
+          name: 'Sv. Duh',
+          latitude: '46.18333000',
+          longitude: '14.33333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4169,
+      name: 'Slovenj Gradec City Municipality',
+      stateCode: '112',
+      cities: [
+        City(
+          id: 104159,
+          name: 'Legen',
+          latitude: '46.50651000',
+          longitude: '15.14424000',
+        ),
+        City(
+          id: 104218,
+          name: 'Pameče',
+          latitude: '46.53417000',
+          longitude: '15.07917000',
+        ),
+        City(
+          id: 104271,
+          name: 'Slovenj Gradec',
+          latitude: '46.51028000',
+          longitude: '15.08056000',
+        ),
+        City(
+          id: 104361,
+          name: 'Šmartno pri Slovenj Gradcu',
+          latitude: '46.48944000',
+          longitude: '15.10667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4332,
+      name: 'Slovenska Bistrica Municipality',
+      stateCode: '113',
+      cities: [
+        City(
+          id: 104232,
+          name: 'Pragersko',
+          latitude: '46.39667000',
+          longitude: '15.66000000',
+        ),
+        City(
+          id: 104272,
+          name: 'Slovenska Bistrica',
+          latitude: '46.39278000',
+          longitude: '15.57444000',
+        ),
+        City(
+          id: 104329,
+          name: 'Zgornja Polskava',
+          latitude: '46.42556000',
+          longitude: '15.61222000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4198,
+      name: 'Slovenske Konjice Municipality',
+      stateCode: '114',
+      cities: [
+        City(
+          id: 104273,
+          name: 'Slovenske Konjice',
+          latitude: '46.33667000',
+          longitude: '15.42583000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4285,
+      name: 'Šmarje pri Jelšah Municipality',
+      stateCode: '124',
+      cities: [
+        City(
+          id: 104356,
+          name: 'Šmarje pri Jelšah',
+          latitude: '46.22722000',
+          longitude: '15.51917000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4289,
+      name: 'Šmarješke Toplice Municipality',
+      stateCode: '206',
+      cities: [
+        City(
+          id: 104358,
+          name: 'Šmarjeta',
+          latitude: '45.88333000',
+          longitude: '15.25000000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4296,
+      name: 'Šmartno ob Paki Municipality',
+      stateCode: '125',
+      cities: [
+        City(
+          id: 104359,
+          name: 'Šmartno ob Paki',
+          latitude: '46.33333000',
+          longitude: '15.03333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4279,
+      name: 'Šmartno pri Litiji Municipality',
+      stateCode: '194',
+      cities: [
+        City(
+          id: 104360,
+          name: 'Šmartno pri Litiji',
+          latitude: '46.04444000',
+          longitude: '14.84417000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4277,
+      name: 'Sodražica Municipality',
+      stateCode: '179',
+      cities: [
+        City(
+          id: 104275,
+          name: 'Sodražica',
+          latitude: '45.76111000',
+          longitude: '14.63556000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4261,
+      name: 'Solčava Municipality',
+      stateCode: '180',
+      cities: [
+        City(
+          id: 104277,
+          name: 'Solčava',
+          latitude: '46.41944000',
+          longitude: '14.69361000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4248,
+      name: 'Šoštanj Municipality',
+      stateCode: '126',
+      cities: [
+        City(
+          id: 104248,
+          name: 'Ravne',
+          latitude: '46.41413000',
+          longitude: '15.06087000',
+        ),
+        City(
+          id: 104362,
+          name: 'Šoštanj',
+          latitude: '46.38000000',
+          longitude: '15.04861000',
+        ),
+        City(
+          id: 104296,
+          name: 'Topolšica',
+          latitude: '46.40028000',
+          longitude: '15.02157000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4263,
+      name: 'Središče ob Dravi',
+      stateCode: '202',
+      cities: [
+        City(
+          id: 104284,
+          name: 'Središče ob Dravi',
+          latitude: '46.39417000',
+          longitude: '16.26806000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4259,
+      name: 'Starše Municipality',
+      stateCode: '115',
+      cities: [
+        City(
+          id: 104285,
+          name: 'Starše',
+          latitude: '46.46583000',
+          longitude: '15.76722000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4185,
+      name: 'Štore Municipality',
+      stateCode: '127',
+      cities: [
+        City(
+          id: 104363,
+          name: 'Štore',
+          latitude: '46.22083000',
+          longitude: '15.31389000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4333,
+      name: 'Straža Municipality',
+      stateCode: '203',
+      cities: [
+        City(
+          id: 104286,
+          name: 'Straža',
+          latitude: '45.78000000',
+          longitude: '15.07278000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4164,
+      name: 'Sveta Ana Municipality',
+      stateCode: '181',
+      cities: [
+        City(
+          id: 104287,
+          name: 'Sv. Ana v Slov. Goricah',
+          latitude: '46.64917000',
+          longitude: '15.84417000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4260,
+      name: 'Sveta Trojica v Slovenskih Goricah Municipality',
+      stateCode: '204',
+      cities: [
+        City(
+          id: 104290,
+          name: 'Sv. Trojica v Slov. Goricah',
+          latitude: '46.57667000',
+          longitude: '15.87694000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4229,
+      name: 'Sveti Andraž v Slovenskih Goricah Municipality',
+      stateCode: '182',
+      cities: [
+        City(
+          id: 104314,
+          name: 'Vitomarci',
+          latitude: '46.52750000',
+          longitude: '15.93944000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4255,
+      name: 'Sveti Jurij ob Ščavnici Municipality',
+      stateCode: '116',
+      cities: [],
+    ),
+    CountryState(
+      id: 4328,
+      name: 'Sveti Jurij v Slovenskih Goricah Municipality',
+      stateCode: '210',
+      cities: [
+        City(
+          id: 104291,
+          name: 'Sveti Jurij ob Ščavnici',
+          latitude: '46.56950000',
+          longitude: '16.02347000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4273,
+      name: 'Sveti Tomaž Municipality',
+      stateCode: '205',
+      cities: [
+        City(
+          id: 104292,
+          name: 'Sveti Tomaž',
+          latitude: '46.48417000',
+          longitude: '16.08361000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4194,
+      name: 'Tabor Municipality',
+      stateCode: '184',
+      cities: [
+        City(
+          id: 104293,
+          name: 'Tabor',
+          latitude: '46.23611000',
+          longitude: '15.01833000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4312,
+      name: 'Tišina Municipality',
+      stateCode: '010',
+      cities: [
+        City(
+          id: 104294,
+          name: 'Tišina',
+          latitude: '46.65806000',
+          longitude: '16.09167000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4247,
+      name: 'Tolmin Municipality',
+      stateCode: '128',
+      cities: [
+        City(
+          id: 104295,
+          name: 'Tolmin',
+          latitude: '46.18304000',
+          longitude: '13.73321000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4246,
+      name: 'Trbovlje Municipality',
+      stateCode: '129',
+      cities: [
+        City(
+          id: 104297,
+          name: 'Trbovlje',
+          latitude: '46.15500000',
+          longitude: '15.05333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4214,
+      name: 'Trebnje Municipality',
+      stateCode: '130',
+      cities: [
+        City(
+          id: 104298,
+          name: 'Trebnje',
+          latitude: '45.90417000',
+          longitude: '15.02167000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4153,
+      name: 'Trnovska Vas Municipality',
+      stateCode: '185',
+      cities: [
+        City(
+          id: 104301,
+          name: 'Trnovska Vas',
+          latitude: '46.52019000',
+          longitude: '15.88657000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4250,
+      name: 'Tržič Municipality',
+      stateCode: '131',
+      cities: [
+        City(
+          id: 104068,
+          name: 'Bistrica pri Tržiču',
+          latitude: '46.35472000',
+          longitude: '14.29167000',
+        ),
+        City(
+          id: 104303,
+          name: 'Tržič',
+          latitude: '46.36357000',
+          longitude: '14.31046000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4334,
+      name: 'Trzin Municipality',
+      stateCode: '186',
+      cities: [
+        City(
+          id: 104340,
+          name: 'Črnuče District',
+          latitude: '46.11506000',
+          longitude: '14.55371000',
+        ),
+        City(
+          id: 104302,
+          name: 'Trzin',
+          latitude: '46.13333000',
+          longitude: '14.56667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4251,
+      name: 'Turnišče Municipality',
+      stateCode: '132',
+      cities: [
+        City(
+          id: 104304,
+          name: 'Turnišče',
+          latitude: '46.62778000',
+          longitude: '16.32028000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4267,
+      name: 'Velika Polana Municipality',
+      stateCode: '187',
+      cities: [
+        City(
+          id: 104305,
+          name: 'Velika Polana',
+          latitude: '46.57194000',
+          longitude: '16.34694000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4144,
+      name: 'Velike Lašče Municipality',
+      stateCode: '134',
+      cities: [
+        City(
+          id: 104306,
+          name: 'Velike Lašče',
+          latitude: '45.83222000',
+          longitude: '14.63639000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4257,
+      name: 'Veržej Municipality',
+      stateCode: '188',
+      cities: [
+        City(
+          id: 104308,
+          name: 'Veržej',
+          latitude: '46.58361000',
+          longitude: '16.16528000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4300,
+      name: 'Videm Municipality',
+      stateCode: '135',
+      cities: [
+        City(
+          id: 104310,
+          name: 'Videm pri Ptuju',
+          latitude: '46.36861000',
+          longitude: '15.90639000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4196,
+      name: 'Vipava Municipality',
+      stateCode: '136',
+      cities: [
+        City(
+          id: 104311,
+          name: 'Vipava',
+          latitude: '45.84667000',
+          longitude: '13.96306000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4148,
+      name: 'Vitanje Municipality',
+      stateCode: '137',
+      cities: [
+        City(
+          id: 104313,
+          name: 'Vitanje',
+          latitude: '46.38167000',
+          longitude: '15.29583000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4154,
+      name: 'Vodice Municipality',
+      stateCode: '138',
+      cities: [
+        City(
+          id: 104317,
+          name: 'Vodice',
+          latitude: '46.18987000',
+          longitude: '14.49492000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4245,
+      name: 'Vojnik Municipality',
+      stateCode: '139',
+      cities: [
+        City(
+          id: 104318,
+          name: 'Vojnik',
+          latitude: '46.29333000',
+          longitude: '15.30333000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4163,
+      name: 'Vransko Municipality',
+      stateCode: '189',
+      cities: [
+        City(
+          id: 104320,
+          name: 'Vransko',
+          latitude: '46.24389000',
+          longitude: '14.95139000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4262,
+      name: 'Vrhnika Municipality',
+      stateCode: '140',
+      cities: [
+        City(
+          id: 104307,
+          name: 'Verd',
+          latitude: '45.95667000',
+          longitude: '14.30583000',
+        ),
+        City(
+          id: 104321,
+          name: 'Vrhnika',
+          latitude: '45.96350000',
+          longitude: '14.29484000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4226,
+      name: 'Vuzenica Municipality',
+      stateCode: '141',
+      cities: [
+        City(
+          id: 104323,
+          name: 'Vuzenica',
+          latitude: '46.59639000',
+          longitude: '15.16722000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4269,
+      name: 'Zagorje ob Savi Municipality',
+      stateCode: '142',
+      cities: [
+        City(
+          id: 104126,
+          name: 'Izlake',
+          latitude: '46.15000000',
+          longitude: '14.95000000',
+        ),
+        City(
+          id: 104136,
+          name: 'Kisovec',
+          latitude: '46.13911000',
+          longitude: '14.96295000',
+        ),
+        City(
+          id: 104325,
+          name: 'Zagorje ob Savi',
+          latitude: '46.13179000',
+          longitude: '14.99694000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4258,
+      name: 'Žalec Municipality',
+      stateCode: '190',
+      cities: [
+        City(
+          id: 104111,
+          name: 'Gotovlje',
+          latitude: '46.27418000',
+          longitude: '15.15186000',
+        ),
+        City(
+          id: 104344,
+          name: 'Šempeter v Savinj. Dolini',
+          latitude: '46.25639000',
+          longitude: '15.12194000',
+        ),
+        City(
+          id: 104324,
+          name: 'Zabukovica',
+          latitude: '46.21408000',
+          longitude: '15.15954000',
+        ),
+        City(
+          id: 104364,
+          name: 'Žalec',
+          latitude: '46.25151000',
+          longitude: '15.16482000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4182,
+      name: 'Zavrč Municipality',
+      stateCode: '143',
+      cities: [
+        City(
+          id: 104327,
+          name: 'Zavrč',
+          latitude: '46.39167000',
+          longitude: '16.04972000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4256,
+      name: 'Železniki Municipality',
+      stateCode: '146',
+      cities: [
+        City(
+          id: 104365,
+          name: 'Železniki',
+          latitude: '46.22482000',
+          longitude: '14.17205000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4249,
+      name: 'Žetale Municipality',
+      stateCode: '191',
+      cities: [
+        City(
+          id: 104366,
+          name: 'Žetale',
+          latitude: '46.27356000',
+          longitude: '15.82658000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4192,
+      name: 'Žiri Municipality',
+      stateCode: '147',
+      cities: [
+        City(
+          id: 104367,
+          name: 'Žiri',
+          latitude: '46.04222000',
+          longitude: '14.10722000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4276,
+      name: 'Žirovnica Municipality',
+      stateCode: '192',
+      cities: [
+        City(
+          id: 104368,
+          name: 'Žirovnica',
+          latitude: '46.40472000',
+          longitude: '14.14000000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4342,
+      name: 'Zreče Municipality',
+      stateCode: '144',
+      cities: [
+        City(
+          id: 104335,
+          name: 'Zreče',
+          latitude: '46.38222000',
+          longitude: '15.37917000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 4307,
+      name: 'Žužemberk Municipality',
+      stateCode: '193',
+      cities: [
+        City(
+          id: 104369,
+          name: 'Žužemberk',
+          latitude: '45.83389000',
+          longitude: '14.92917000',
+        )
+      ],
+    ),
+  ],
+);

@@ -3,26 +3,28 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const cym = Country(
-    id: 41,
-    name: 'Cayman Islands',
-    iso3: 'CYM',
-    iso2: 'KY',
-    phoneCode: '+1-345',
-    capital: 'George Town',
-    currency: 'KYD',
-    currencySymbol: r'$',
-    tld: '.ky',
-    native: 'Cayman Islands',
-    region: 'Americas',
-    subregion: 'Caribbean',
-    timezones: [
-      Timezone(
-          zoneName: 'America/Cayman',
-          gmtOffset: -18000,
-          gmtOffsetName: 'UTC-05:00',
-          abbreviation: 'EST',
-          tzName: 'Eastern Standard Time (North America')
-    ],
-    emoji: '🇰🇾',
-    emojiU: 'U+1F1F0 U+1F1FE',
-    states: []);
+  id: 41,
+  name: 'Cayman Islands',
+  iso3: 'CYM',
+  iso2: 'KY',
+  phoneCode: '+1-345',
+  capital: 'George Town',
+  currency: 'KYD',
+  currencySymbol: r'$',
+  tld: '.ky',
+  native: 'Cayman Islands',
+  region: 'Americas',
+  subregion: 'Caribbean',
+  timezones: [
+    Timezone(
+      zoneName: 'America/Cayman',
+      gmtOffset: -18000,
+      gmtOffsetName: 'UTC-05:00',
+      abbreviation: 'EST',
+      tzName: 'Eastern Standard Time (North America',
+    )
+  ],
+  emoji: '🇰🇾',
+  emojiU: 'U+1F1F0 U+1F1FE',
+  states: [],
+);

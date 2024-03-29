@@ -3,729 +3,967 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const egy = Country(
-    id: 65,
-    name: 'Egypt',
-    iso3: 'EGY',
-    iso2: 'EG',
-    phoneCode: '20',
-    capital: 'Cairo',
-    currency: 'EGP',
-    currencySymbol: r'ج.م',
-    tld: '.eg',
-    native: 'مصر‎',
-    region: 'Africa',
-    subregion: 'Northern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Cairo',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'EET',
-          tzName: 'Eastern European Time')
-    ],
-    emoji: '🇪🇬',
-    emojiU: 'U+1F1EA U+1F1EC',
-    states: [
-      State(
-          id: 3235,
-          name: 'Alexandria Governorate',
-          stateCode: 'ALX',
-          cities: [
-            City(
-                id: 31787,
-                name: 'Alexandria',
-                latitude: '31.20176000',
-                longitude: '29.91582000')
-          ]),
-      State(id: 3225, name: 'Aswan Governorate', stateCode: 'ASN', cities: [
-        City(
-            id: 31756,
-            name: 'Abu Simbel',
-            latitude: '22.34570000',
-            longitude: '31.61624000'),
-        City(
-            id: 31791,
-            name: 'Aswan',
-            latitude: '24.09082000',
-            longitude: '32.89942000'),
-        City(
-            id: 31819,
-            name: 'Idfū',
-            latitude: '24.97916000',
-            longitude: '32.87722000'),
-        City(
-            id: 31829,
-            name: 'Kawm Umbū',
-            latitude: '24.47669000',
-            longitude: '32.94626000')
-      ]),
-      State(id: 3236, name: 'Asyut Governorate', stateCode: 'AST', cities: [
-        City(
-            id: 31755,
-            name: 'Abnūb',
-            latitude: '27.26960000',
-            longitude: '31.15105000'),
-        City(
-            id: 31758,
-            name: 'Abū Tīj',
-            latitude: '27.04411000',
-            longitude: '31.31897000'),
-        City(
-            id: 31764,
-            name: 'Al Badārī',
-            latitude: '26.99257000',
-            longitude: '31.41554000'),
-        City(
-            id: 31781,
-            name: 'Al Qūşīyah',
-            latitude: '27.44020000',
-            longitude: '30.81841000'),
-        City(
-            id: 31792,
-            name: 'Asyūţ',
-            latitude: '27.18096000',
-            longitude: '31.18368000'),
-        City(
-            id: 31807,
-            name: 'Dayrūţ',
-            latitude: '27.55602000',
-            longitude: '30.80764000'),
-        City(
-            id: 31836,
-            name: 'Manfalūţ',
-            latitude: '27.31040000',
-            longitude: '30.97004000')
-      ]),
-      State(id: 3241, name: 'Beheira Governorate', stateCode: 'BH', cities: [
-        City(
-            id: 31759,
-            name: 'Abū al Maţāmīr',
-            latitude: '30.91018000',
-            longitude: '30.17438000'),
-        City(
-            id: 31760,
-            name: 'Ad Dilinjāt',
-            latitude: '30.82796000',
-            longitude: '30.53552000'),
-        City(
-            id: 31804,
-            name: 'Damanhūr',
-            latitude: '31.03408000',
-            longitude: '30.46823000'),
-        City(
-            id: 31879,
-            name: 'Ḩawsh ‘Īsá',
-            latitude: '30.91280000',
-            longitude: '30.29019000'),
-        City(
-            id: 31820,
-            name: 'Idkū',
-            latitude: '31.30730000',
-            longitude: '30.29810000'),
-        City(
-            id: 31826,
-            name: 'Kafr ad Dawwār',
-            latitude: '31.13379000',
-            longitude: '30.12969000'),
-        City(
-            id: 31830,
-            name: 'Kawm Ḩamādah',
-            latitude: '30.76128000',
-            longitude: '30.69972000'),
-        City(
-            id: 31857,
-            name: 'Rosetta',
-            latitude: '31.39951000',
-            longitude: '30.41718000')
-      ]),
-      State(id: 3230, name: 'Beni Suef Governorate', stateCode: 'BNS', cities: [
-        City(
-            id: 31768,
-            name: 'Al Fashn',
-            latitude: '28.82431000',
-            longitude: '30.89948000'),
-        City(
-            id: 31798,
-            name: 'Banī Suwayf',
-            latitude: '29.07441000',
-            longitude: '31.09785000'),
-        City(
-            id: 31801,
-            name: 'Būsh',
-            latitude: '29.14816000',
-            longitude: '31.12733000'),
-        City(
-            id: 31869,
-            name: 'Sumusţā as Sulţānī',
-            latitude: '28.91667000',
-            longitude: '30.85000000')
-      ]),
-      State(id: 3223, name: 'Cairo Governorate', stateCode: 'C', cities: [
-        City(
-            id: 31802,
-            name: 'Cairo',
-            latitude: '30.06263000',
-            longitude: '31.24967000'),
-        City(
-            id: 31878,
-            name: 'Ḩalwān',
-            latitude: '29.84144000',
-            longitude: '31.30084000'),
-        City(
-            id: 31848,
-            name: 'New Cairo',
-            latitude: '30.03000000',
-            longitude: '31.47000000')
-      ]),
-      State(id: 3245, name: 'Dakahlia Governorate', stateCode: 'DK', cities: [
-        City(
-            id: 31880,
-            name: '‘Izbat al Burj',
-            latitude: '31.50840000',
-            longitude: '31.84106000'),
-        City(
-            id: 31762,
-            name: 'Ajā',
-            latitude: '30.94162000',
-            longitude: '31.29039000'),
-        City(
-            id: 31770,
-            name: 'Al Jammālīyah',
-            latitude: '31.18065000',
-            longitude: '31.86497000'),
-        City(
-            id: 31775,
-            name: 'Al Manşūrah',
-            latitude: '31.03637000',
-            longitude: '31.38069000'),
-        City(
-            id: 31774,
-            name: 'Al Manzalah',
-            latitude: '31.15823000',
-            longitude: '31.93600000'),
-        City(
-            id: 31776,
-            name: 'Al Maţarīyah',
-            latitude: '31.18287000',
-            longitude: '32.03108000'),
-        City(
-            id: 31800,
-            name: 'Bilqās',
-            latitude: '31.21452000',
-            longitude: '31.35798000'),
-        City(
-            id: 31808,
-            name: 'Dikirnis',
-            latitude: '31.08898000',
-            longitude: '31.59478000'),
-        City(
-            id: 31844,
-            name: 'Minyat an Naşr',
-            latitude: '31.12624000',
-            longitude: '31.64313000'),
-        City(
-            id: 31865,
-            name: 'Shirbīn',
-            latitude: '31.19688000',
-            longitude: '31.52430000'),
-        City(
-            id: 31876,
-            name: 'Ţalkhā',
-            latitude: '31.05390000',
-            longitude: '31.37787000')
-      ]),
-      State(id: 3224, name: 'Damietta Governorate', stateCode: 'DT', cities: [
-        City(
-            id: 31794,
-            name: 'Az Zarqā',
-            latitude: '31.20864000',
-            longitude: '31.63528000'),
-        City(
-            id: 31805,
-            name: 'Damietta',
-            latitude: '31.41648000',
-            longitude: '31.81332000'),
-        City(
-            id: 31815,
-            name: 'Fāraskūr',
-            latitude: '31.32977000',
-            longitude: '31.71507000')
-      ]),
-      State(id: 3238, name: 'Faiyum Governorate', stateCode: 'FYM', cities: [
-        City(
-            id: 31769,
-            name: 'Al Fayyūm',
-            latitude: '29.30995000',
-            longitude: '30.84180000'),
-        City(
-            id: 31782,
-            name: 'Al Wāsiţah',
-            latitude: '29.33778000',
-            longitude: '31.20556000'),
-        City(
-            id: 31818,
-            name: 'Ibshawāy',
-            latitude: '29.35896000',
-            longitude: '30.68061000'),
-        City(
-            id: 31823,
-            name: 'Iţsā',
-            latitude: '29.23760000',
-            longitude: '30.78944000'),
-        City(
-            id: 31877,
-            name: 'Ţāmiyah',
-            latitude: '29.47639000',
-            longitude: '30.96119000')
-      ]),
-      State(id: 3234, name: 'Gharbia Governorate', stateCode: 'GH', cities: [
-        City(
-            id: 31777,
-            name: 'Al Maḩallah al Kubrá',
-            latitude: '30.97063000',
-            longitude: '31.16690000'),
-        City(
-            id: 31799,
-            name: 'Basyūn',
-            latitude: '30.93976000',
-            longitude: '30.81338000'),
-        City(
-            id: 31828,
-            name: 'Kafr az Zayyāt',
-            latitude: '30.82480000',
-            longitude: '30.81805000'),
-        City(
-            id: 31855,
-            name: 'Quţūr',
-            latitude: '30.97225000',
-            longitude: '30.95614000'),
-        City(
-            id: 31860,
-            name: 'Samannūd',
-            latitude: '30.96160000',
-            longitude: '31.24069000'),
-        City(
-            id: 31872,
-            name: 'Tanda',
-            latitude: '30.78847000',
-            longitude: '31.00192000'),
-        City(
-            id: 31874,
-            name: 'Zefta',
-            latitude: '30.71420000',
-            longitude: '31.24425000')
-      ]),
-      State(id: 3239, name: 'Giza Governorate', stateCode: 'GZ', cities: [
-        City(
-            id: 31786,
-            name: 'Al ‘Ayyāţ',
-            latitude: '29.61972000',
-            longitude: '31.25750000'),
-        City(
-            id: 31766,
-            name: 'Al Bawīţī',
-            latitude: '28.34919000',
-            longitude: '28.86591000'),
-        City(
-            id: 31783,
-            name: 'Al Ḩawāmidīyah',
-            latitude: '29.90000000',
-            longitude: '31.25000000'),
-        City(
-            id: 31795,
-            name: 'Aş Şaff',
-            latitude: '29.56472000',
-            longitude: '31.28111000'),
-        City(
-            id: 31793,
-            name: 'Awsīm',
-            latitude: '30.12303000',
-            longitude: '31.13571000'),
-        City(
-            id: 31816,
-            name: 'Giza',
-            latitude: '30.00808000',
-            longitude: '31.21093000'),
-        City(
-            id: 31833,
-            name: 'Madīnat Sittah Uktūbar',
-            latitude: '29.81667000',
-            longitude: '31.05000000')
-      ]),
-      State(id: 3244, name: 'Ismailia Governorate', stateCode: 'IS', cities: [
-        City(
-            id: 31821,
-            name: 'Ismailia',
-            latitude: '30.60427000',
-            longitude: '32.27225000')
-      ]),
-      State(
-          id: 3222,
-          name: 'Kafr el-Sheikh Governorate',
-          stateCode: 'KFS',
-          cities: [
-            City(
-                id: 31784,
-                name: 'Al Ḩāmūl',
-                latitude: '31.31146000',
-                longitude: '31.14766000'),
-            City(
-                id: 31810,
-                name: 'Disūq',
-                latitude: '31.13259000',
-                longitude: '30.64784000'),
-            City(
-                id: 31814,
-                name: 'Fuwwah',
-                latitude: '31.20365000',
-                longitude: '30.54908000'),
-            City(
-                id: 31827,
-                name: 'Kafr ash Shaykh',
-                latitude: '31.11174000',
-                longitude: '30.93991000'),
-            City(
-                id: 31837,
-                name: 'Markaz Disūq',
-                latitude: '31.14590000',
-                longitude: '30.71609000'),
-            City(
-                id: 31845,
-                name: 'Munshāt ‘Alī Āghā',
-                latitude: '31.15791000',
-                longitude: '30.70177000'),
-            City(
-                id: 31870,
-                name: 'Sīdī Sālim',
-                latitude: '31.27133000',
-                longitude: '30.78617000')
-          ]),
-      State(id: 3242, name: 'Luxor Governorate', stateCode: 'LX', cities: [
-        City(
-            id: 31832,
-            name: 'Luxor',
-            latitude: '25.69893000',
-            longitude: '32.64210000'),
-        City(
-            id: 31840,
-            name: 'Markaz al Uqşur',
-            latitude: '25.62986000',
-            longitude: '32.59017000')
-      ]),
-      State(id: 3231, name: 'Matrouh Governorate', stateCode: 'MT', cities: [
-        City(
-            id: 31785,
-            name: 'Al ‘Alamayn',
-            latitude: '30.83007000',
-            longitude: '28.95502000'),
-        City(
-            id: 31843,
-            name: 'Mersa Matruh',
-            latitude: '31.35290000',
-            longitude: '27.23725000'),
-        City(
-            id: 31866,
-            name: 'Siwa Oasis',
-            latitude: '29.20320000',
-            longitude: '25.51965000')
-      ]),
-      State(id: 3243, name: 'Minya Governorate', stateCode: 'MN', cities: [
-        City(
-            id: 31757,
-            name: 'Abū Qurqāş',
-            latitude: '27.93120000',
-            longitude: '30.83841000'),
-        City(
-            id: 31778,
-            name: 'Al Minyā',
-            latitude: '28.10988000',
-            longitude: '30.75030000'),
-        City(
-            id: 31797,
-            name: 'Banī Mazār',
-            latitude: '28.50360000',
-            longitude: '30.80040000'),
-        City(
-            id: 31806,
-            name: 'Dayr Mawās',
-            latitude: '27.64176000',
-            longitude: '30.84662000'),
-        City(
-            id: 31835,
-            name: 'Mallawī',
-            latitude: '27.73140000',
-            longitude: '30.84165000'),
-        City(
-            id: 31842,
-            name: 'Maţāy',
-            latitude: '28.41899000',
-            longitude: '30.77924000'),
-        City(
-            id: 31861,
-            name: 'Samālūţ',
-            latitude: '28.31214000',
-            longitude: '30.71007000')
-      ]),
-      State(id: 3228, name: 'Monufia Governorate', stateCode: 'MNF', cities: [
-        City(
-            id: 31767,
-            name: 'Al Bājūr',
-            latitude: '30.43046000',
-            longitude: '31.03679000'),
-        City(
-            id: 31789,
-            name: 'Ash Shuhadā’',
-            latitude: '30.59683000',
-            longitude: '30.89931000'),
-        City(
-            id: 31790,
-            name: 'Ashmūn',
-            latitude: '30.29735000',
-            longitude: '30.97641000'),
-        City(
-            id: 31846,
-            name: 'Munūf',
-            latitude: '30.46597000',
-            longitude: '30.93199000'),
-        City(
-            id: 31854,
-            name: 'Quwaysinā',
-            latitude: '30.56482000',
-            longitude: '31.15777000'),
-        City(
-            id: 31863,
-            name: 'Shibīn al Kawm',
-            latitude: '30.55258000',
-            longitude: '31.00904000'),
-        City(
-            id: 31871,
-            name: 'Talā',
-            latitude: '30.67980000',
-            longitude: '30.94364000')
-      ]),
-      State(
-          id: 3246,
-          name: 'New Valley Governorate',
-          stateCode: 'WAD',
-          cities: [
-            City(
-                id: 31772,
-                name: 'Al Khārijah',
-                latitude: '25.45141000',
-                longitude: '30.54635000'),
-            City(
-                id: 31852,
-                name: 'Qaşr al Farāfirah',
-                latitude: '27.05680000',
-                longitude: '27.96979000')
-          ]),
-      State(
-          id: 3227,
-          name: 'North Sinai Governorate',
-          stateCode: 'SIN',
-          cities: [
-            City(
-                id: 31788,
-                name: 'Arish',
-                latitude: '31.13159000',
-                longitude: '33.79844000')
-          ]),
-      State(id: 3229, name: 'Port Said Governorate', stateCode: 'PTS', cities: [
-        City(
-            id: 31850,
-            name: 'Port Said',
-            latitude: '31.25654000',
-            longitude: '32.28411000')
-      ]),
-      State(id: 3232, name: 'Qalyubia Governorate', stateCode: 'KB', cities: [
-        City(
-            id: 31771,
-            name: 'Al Khānkah',
-            latitude: '30.21035000',
-            longitude: '31.36812000'),
-        City(
-            id: 31779,
-            name: 'Al Qanāţir al Khayrīyah',
-            latitude: '30.19327000',
-            longitude: '31.13703000'),
-        City(
-            id: 31796,
-            name: 'Banhā',
-            latitude: '30.45977000',
-            longitude: '31.18420000'),
-        City(
-            id: 31851,
-            name: 'Qalyūb',
-            latitude: '30.17922000',
-            longitude: '31.20560000'),
-        City(
-            id: 31864,
-            name: 'Shibīn al Qanāṭir',
-            latitude: '30.31269000',
-            longitude: '31.32018000'),
-        City(
-            id: 31873,
-            name: 'Toukh',
-            latitude: '30.35487000',
-            longitude: '31.20105000')
-      ]),
-      State(id: 3247, name: 'Qena Governorate', stateCode: 'KN', cities: [
-        City(
-            id: 31809,
-            name: 'Dishnā',
-            latitude: '26.12467000',
-            longitude: '32.47598000'),
-        City(
-            id: 31813,
-            name: 'Farshūţ',
-            latitude: '26.05494000',
-            longitude: '32.16329000'),
-        City(
-            id: 31822,
-            name: 'Isnā',
-            latitude: '25.29336000',
-            longitude: '32.55402000'),
-        City(
-            id: 31831,
-            name: 'Kousa',
-            latitude: '25.91407000',
-            longitude: '32.76362000'),
-        City(
-            id: 31847,
-            name: 'Naja\' Ḥammādī',
-            latitude: '26.04949000',
-            longitude: '32.24142000'),
-        City(
-            id: 31853,
-            name: 'Qinā',
-            latitude: '26.16418000',
-            longitude: '32.72671000')
-      ]),
-      State(id: 3240, name: 'Red Sea Governorate', stateCode: 'BA', cities: [
-        City(
-            id: 31780,
-            name: 'Al Quşayr',
-            latitude: '26.10426000',
-            longitude: '34.27793000'),
-        City(
-            id: 31811,
-            name: 'El Gouna',
-            latitude: '27.39417000',
-            longitude: '33.67825000'),
-        City(
-            id: 31817,
-            name: 'Hurghada',
-            latitude: '27.25738000',
-            longitude: '33.81291000'),
-        City(
-            id: 31834,
-            name: 'Makadi Bay',
-            latitude: '26.99123000',
-            longitude: '33.89952000'),
-        City(
-            id: 31841,
-            name: 'Marsa Alam',
-            latitude: '25.06305000',
-            longitude: '34.89005000'),
-        City(
-            id: 31856,
-            name: 'Ras Gharib',
-            latitude: '28.35831000',
-            longitude: '33.07829000'),
-        City(
-            id: 31858,
-            name: 'Safaga',
-            latitude: '26.74906000',
-            longitude: '33.93891000')
-      ]),
-      State(id: 3226, name: 'Sohag Governorate', stateCode: 'SHG', cities: [
-        City(
-            id: 31763,
-            name: 'Akhmīm',
-            latitude: '26.56217000',
-            longitude: '31.74503000'),
-        City(
-            id: 31765,
-            name: 'Al Balyanā',
-            latitude: '26.23568000',
-            longitude: '32.00347000'),
-        City(
-            id: 31773,
-            name: 'Al Manshāh',
-            latitude: '26.47686000',
-            longitude: '31.80350000'),
-        City(
-            id: 31824,
-            name: 'Jirjā',
-            latitude: '26.33826000',
-            longitude: '31.89161000'),
-        City(
-            id: 31825,
-            name: 'Juhaynah',
-            latitude: '26.67319000',
-            longitude: '31.49760000'),
-        City(
-            id: 31838,
-            name: 'Markaz Jirjā',
-            latitude: '26.30683000',
-            longitude: '31.84574000'),
-        City(
-            id: 31839,
-            name: 'Markaz Sūhāj',
-            latitude: '26.53948000',
-            longitude: '31.67524000'),
-        City(
-            id: 31867,
-            name: 'Sohag',
-            latitude: '26.55695000',
-            longitude: '31.69478000'),
-        City(
-            id: 31875,
-            name: 'Ţahţā',
-            latitude: '26.76930000',
-            longitude: '31.50214000')
-      ]),
-      State(
-          id: 3237,
-          name: 'South Sinai Governorate',
-          stateCode: 'JS',
-          cities: [
-            City(
-                id: 31803,
-                name: 'Dahab',
-                latitude: '28.48208000',
-                longitude: '34.49505000'),
-            City(
-                id: 31812,
-                name: 'El-Tor',
-                latitude: '28.24168000',
-                longitude: '33.62220000'),
-            City(
-                id: 31849,
-                name: 'Nuwaybi‘a',
-                latitude: '29.04681000',
-                longitude: '34.66340000'),
-            City(
-                id: 31859,
-                name: 'Saint Catherine',
-                latitude: '28.56191000',
-                longitude: '33.94934000'),
-            City(
-                id: 31862,
-                name: 'Sharm el-Sheikh',
-                latitude: '27.91582000',
-                longitude: '34.32995000')
-          ]),
-      State(id: 3233, name: 'Suez Governorate', stateCode: 'SUZ', cities: [
-        City(
-            id: 31761,
-            name: 'Ain Sukhna',
-            latitude: '29.60018000',
-            longitude: '32.31671000'),
-        City(
-            id: 31868,
-            name: 'Suez',
-            latitude: '29.97371000',
-            longitude: '32.52627000')
-      ])
-    ]);
+  id: 65,
+  name: 'Egypt',
+  iso3: 'EGY',
+  iso2: 'EG',
+  phoneCode: '20',
+  capital: 'Cairo',
+  currency: 'EGP',
+  currencySymbol: r'ج.م',
+  tld: '.eg',
+  native: 'مصر‎',
+  region: 'Africa',
+  subregion: 'Northern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Cairo',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'EET',
+      tzName: 'Eastern European Time',
+    )
+  ],
+  emoji: '🇪🇬',
+  emojiU: 'U+1F1EA U+1F1EC',
+  states: [
+    CountryState(
+      id: 3235,
+      name: 'Alexandria Governorate',
+      stateCode: 'ALX',
+      cities: [
+        City(
+          id: 31787,
+          name: 'Alexandria',
+          latitude: '31.20176000',
+          longitude: '29.91582000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3225,
+      name: 'Aswan Governorate',
+      stateCode: 'ASN',
+      cities: [
+        City(
+          id: 31756,
+          name: 'Abu Simbel',
+          latitude: '22.34570000',
+          longitude: '31.61624000',
+        ),
+        City(
+          id: 31791,
+          name: 'Aswan',
+          latitude: '24.09082000',
+          longitude: '32.89942000',
+        ),
+        City(
+          id: 31819,
+          name: 'Idfū',
+          latitude: '24.97916000',
+          longitude: '32.87722000',
+        ),
+        City(
+          id: 31829,
+          name: 'Kawm Umbū',
+          latitude: '24.47669000',
+          longitude: '32.94626000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3236,
+      name: 'Asyut Governorate',
+      stateCode: 'AST',
+      cities: [
+        City(
+          id: 31755,
+          name: 'Abnūb',
+          latitude: '27.26960000',
+          longitude: '31.15105000',
+        ),
+        City(
+          id: 31758,
+          name: 'Abū Tīj',
+          latitude: '27.04411000',
+          longitude: '31.31897000',
+        ),
+        City(
+          id: 31764,
+          name: 'Al Badārī',
+          latitude: '26.99257000',
+          longitude: '31.41554000',
+        ),
+        City(
+          id: 31781,
+          name: 'Al Qūşīyah',
+          latitude: '27.44020000',
+          longitude: '30.81841000',
+        ),
+        City(
+          id: 31792,
+          name: 'Asyūţ',
+          latitude: '27.18096000',
+          longitude: '31.18368000',
+        ),
+        City(
+          id: 31807,
+          name: 'Dayrūţ',
+          latitude: '27.55602000',
+          longitude: '30.80764000',
+        ),
+        City(
+          id: 31836,
+          name: 'Manfalūţ',
+          latitude: '27.31040000',
+          longitude: '30.97004000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3241,
+      name: 'Beheira Governorate',
+      stateCode: 'BH',
+      cities: [
+        City(
+          id: 31759,
+          name: 'Abū al Maţāmīr',
+          latitude: '30.91018000',
+          longitude: '30.17438000',
+        ),
+        City(
+          id: 31760,
+          name: 'Ad Dilinjāt',
+          latitude: '30.82796000',
+          longitude: '30.53552000',
+        ),
+        City(
+          id: 31804,
+          name: 'Damanhūr',
+          latitude: '31.03408000',
+          longitude: '30.46823000',
+        ),
+        City(
+          id: 31879,
+          name: 'Ḩawsh ‘Īsá',
+          latitude: '30.91280000',
+          longitude: '30.29019000',
+        ),
+        City(
+          id: 31820,
+          name: 'Idkū',
+          latitude: '31.30730000',
+          longitude: '30.29810000',
+        ),
+        City(
+          id: 31826,
+          name: 'Kafr ad Dawwār',
+          latitude: '31.13379000',
+          longitude: '30.12969000',
+        ),
+        City(
+          id: 31830,
+          name: 'Kawm Ḩamādah',
+          latitude: '30.76128000',
+          longitude: '30.69972000',
+        ),
+        City(
+          id: 31857,
+          name: 'Rosetta',
+          latitude: '31.39951000',
+          longitude: '30.41718000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3230,
+      name: 'Beni Suef Governorate',
+      stateCode: 'BNS',
+      cities: [
+        City(
+          id: 31768,
+          name: 'Al Fashn',
+          latitude: '28.82431000',
+          longitude: '30.89948000',
+        ),
+        City(
+          id: 31798,
+          name: 'Banī Suwayf',
+          latitude: '29.07441000',
+          longitude: '31.09785000',
+        ),
+        City(
+          id: 31801,
+          name: 'Būsh',
+          latitude: '29.14816000',
+          longitude: '31.12733000',
+        ),
+        City(
+          id: 31869,
+          name: 'Sumusţā as Sulţānī',
+          latitude: '28.91667000',
+          longitude: '30.85000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3223,
+      name: 'Cairo Governorate',
+      stateCode: 'C',
+      cities: [
+        City(
+          id: 31802,
+          name: 'Cairo',
+          latitude: '30.06263000',
+          longitude: '31.24967000',
+        ),
+        City(
+          id: 31878,
+          name: 'Ḩalwān',
+          latitude: '29.84144000',
+          longitude: '31.30084000',
+        ),
+        City(
+          id: 31848,
+          name: 'New Cairo',
+          latitude: '30.03000000',
+          longitude: '31.47000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3245,
+      name: 'Dakahlia Governorate',
+      stateCode: 'DK',
+      cities: [
+        City(
+          id: 31880,
+          name: '‘Izbat al Burj',
+          latitude: '31.50840000',
+          longitude: '31.84106000',
+        ),
+        City(
+          id: 31762,
+          name: 'Ajā',
+          latitude: '30.94162000',
+          longitude: '31.29039000',
+        ),
+        City(
+          id: 31770,
+          name: 'Al Jammālīyah',
+          latitude: '31.18065000',
+          longitude: '31.86497000',
+        ),
+        City(
+          id: 31775,
+          name: 'Al Manşūrah',
+          latitude: '31.03637000',
+          longitude: '31.38069000',
+        ),
+        City(
+          id: 31774,
+          name: 'Al Manzalah',
+          latitude: '31.15823000',
+          longitude: '31.93600000',
+        ),
+        City(
+          id: 31776,
+          name: 'Al Maţarīyah',
+          latitude: '31.18287000',
+          longitude: '32.03108000',
+        ),
+        City(
+          id: 31800,
+          name: 'Bilqās',
+          latitude: '31.21452000',
+          longitude: '31.35798000',
+        ),
+        City(
+          id: 31808,
+          name: 'Dikirnis',
+          latitude: '31.08898000',
+          longitude: '31.59478000',
+        ),
+        City(
+          id: 31844,
+          name: 'Minyat an Naşr',
+          latitude: '31.12624000',
+          longitude: '31.64313000',
+        ),
+        City(
+          id: 31865,
+          name: 'Shirbīn',
+          latitude: '31.19688000',
+          longitude: '31.52430000',
+        ),
+        City(
+          id: 31876,
+          name: 'Ţalkhā',
+          latitude: '31.05390000',
+          longitude: '31.37787000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3224,
+      name: 'Damietta Governorate',
+      stateCode: 'DT',
+      cities: [
+        City(
+          id: 31794,
+          name: 'Az Zarqā',
+          latitude: '31.20864000',
+          longitude: '31.63528000',
+        ),
+        City(
+          id: 31805,
+          name: 'Damietta',
+          latitude: '31.41648000',
+          longitude: '31.81332000',
+        ),
+        City(
+          id: 31815,
+          name: 'Fāraskūr',
+          latitude: '31.32977000',
+          longitude: '31.71507000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3238,
+      name: 'Faiyum Governorate',
+      stateCode: 'FYM',
+      cities: [
+        City(
+          id: 31769,
+          name: 'Al Fayyūm',
+          latitude: '29.30995000',
+          longitude: '30.84180000',
+        ),
+        City(
+          id: 31782,
+          name: 'Al Wāsiţah',
+          latitude: '29.33778000',
+          longitude: '31.20556000',
+        ),
+        City(
+          id: 31818,
+          name: 'Ibshawāy',
+          latitude: '29.35896000',
+          longitude: '30.68061000',
+        ),
+        City(
+          id: 31823,
+          name: 'Iţsā',
+          latitude: '29.23760000',
+          longitude: '30.78944000',
+        ),
+        City(
+          id: 31877,
+          name: 'Ţāmiyah',
+          latitude: '29.47639000',
+          longitude: '30.96119000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3234,
+      name: 'Gharbia Governorate',
+      stateCode: 'GH',
+      cities: [
+        City(
+          id: 31777,
+          name: 'Al Maḩallah al Kubrá',
+          latitude: '30.97063000',
+          longitude: '31.16690000',
+        ),
+        City(
+          id: 31799,
+          name: 'Basyūn',
+          latitude: '30.93976000',
+          longitude: '30.81338000',
+        ),
+        City(
+          id: 31828,
+          name: 'Kafr az Zayyāt',
+          latitude: '30.82480000',
+          longitude: '30.81805000',
+        ),
+        City(
+          id: 31855,
+          name: 'Quţūr',
+          latitude: '30.97225000',
+          longitude: '30.95614000',
+        ),
+        City(
+          id: 31860,
+          name: 'Samannūd',
+          latitude: '30.96160000',
+          longitude: '31.24069000',
+        ),
+        City(
+          id: 31872,
+          name: 'Tanda',
+          latitude: '30.78847000',
+          longitude: '31.00192000',
+        ),
+        City(
+          id: 31874,
+          name: 'Zefta',
+          latitude: '30.71420000',
+          longitude: '31.24425000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3239,
+      name: 'Giza Governorate',
+      stateCode: 'GZ',
+      cities: [
+        City(
+          id: 31786,
+          name: 'Al ‘Ayyāţ',
+          latitude: '29.61972000',
+          longitude: '31.25750000',
+        ),
+        City(
+          id: 31766,
+          name: 'Al Bawīţī',
+          latitude: '28.34919000',
+          longitude: '28.86591000',
+        ),
+        City(
+          id: 31783,
+          name: 'Al Ḩawāmidīyah',
+          latitude: '29.90000000',
+          longitude: '31.25000000',
+        ),
+        City(
+          id: 31795,
+          name: 'Aş Şaff',
+          latitude: '29.56472000',
+          longitude: '31.28111000',
+        ),
+        City(
+          id: 31793,
+          name: 'Awsīm',
+          latitude: '30.12303000',
+          longitude: '31.13571000',
+        ),
+        City(
+          id: 31816,
+          name: 'Giza',
+          latitude: '30.00808000',
+          longitude: '31.21093000',
+        ),
+        City(
+          id: 31833,
+          name: 'Madīnat Sittah Uktūbar',
+          latitude: '29.81667000',
+          longitude: '31.05000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3244,
+      name: 'Ismailia Governorate',
+      stateCode: 'IS',
+      cities: [
+        City(
+          id: 31821,
+          name: 'Ismailia',
+          latitude: '30.60427000',
+          longitude: '32.27225000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3222,
+      name: 'Kafr el-Sheikh Governorate',
+      stateCode: 'KFS',
+      cities: [
+        City(
+          id: 31784,
+          name: 'Al Ḩāmūl',
+          latitude: '31.31146000',
+          longitude: '31.14766000',
+        ),
+        City(
+          id: 31810,
+          name: 'Disūq',
+          latitude: '31.13259000',
+          longitude: '30.64784000',
+        ),
+        City(
+          id: 31814,
+          name: 'Fuwwah',
+          latitude: '31.20365000',
+          longitude: '30.54908000',
+        ),
+        City(
+          id: 31827,
+          name: 'Kafr ash Shaykh',
+          latitude: '31.11174000',
+          longitude: '30.93991000',
+        ),
+        City(
+          id: 31837,
+          name: 'Markaz Disūq',
+          latitude: '31.14590000',
+          longitude: '30.71609000',
+        ),
+        City(
+          id: 31845,
+          name: 'Munshāt ‘Alī Āghā',
+          latitude: '31.15791000',
+          longitude: '30.70177000',
+        ),
+        City(
+          id: 31870,
+          name: 'Sīdī Sālim',
+          latitude: '31.27133000',
+          longitude: '30.78617000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3242,
+      name: 'Luxor Governorate',
+      stateCode: 'LX',
+      cities: [
+        City(
+          id: 31832,
+          name: 'Luxor',
+          latitude: '25.69893000',
+          longitude: '32.64210000',
+        ),
+        City(
+          id: 31840,
+          name: 'Markaz al Uqşur',
+          latitude: '25.62986000',
+          longitude: '32.59017000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3231,
+      name: 'Matrouh Governorate',
+      stateCode: 'MT',
+      cities: [
+        City(
+          id: 31785,
+          name: 'Al ‘Alamayn',
+          latitude: '30.83007000',
+          longitude: '28.95502000',
+        ),
+        City(
+          id: 31843,
+          name: 'Mersa Matruh',
+          latitude: '31.35290000',
+          longitude: '27.23725000',
+        ),
+        City(
+          id: 31866,
+          name: 'Siwa Oasis',
+          latitude: '29.20320000',
+          longitude: '25.51965000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3243,
+      name: 'Minya Governorate',
+      stateCode: 'MN',
+      cities: [
+        City(
+          id: 31757,
+          name: 'Abū Qurqāş',
+          latitude: '27.93120000',
+          longitude: '30.83841000',
+        ),
+        City(
+          id: 31778,
+          name: 'Al Minyā',
+          latitude: '28.10988000',
+          longitude: '30.75030000',
+        ),
+        City(
+          id: 31797,
+          name: 'Banī Mazār',
+          latitude: '28.50360000',
+          longitude: '30.80040000',
+        ),
+        City(
+          id: 31806,
+          name: 'Dayr Mawās',
+          latitude: '27.64176000',
+          longitude: '30.84662000',
+        ),
+        City(
+          id: 31835,
+          name: 'Mallawī',
+          latitude: '27.73140000',
+          longitude: '30.84165000',
+        ),
+        City(
+          id: 31842,
+          name: 'Maţāy',
+          latitude: '28.41899000',
+          longitude: '30.77924000',
+        ),
+        City(
+          id: 31861,
+          name: 'Samālūţ',
+          latitude: '28.31214000',
+          longitude: '30.71007000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3228,
+      name: 'Monufia Governorate',
+      stateCode: 'MNF',
+      cities: [
+        City(
+          id: 31767,
+          name: 'Al Bājūr',
+          latitude: '30.43046000',
+          longitude: '31.03679000',
+        ),
+        City(
+          id: 31789,
+          name: 'Ash Shuhadā’',
+          latitude: '30.59683000',
+          longitude: '30.89931000',
+        ),
+        City(
+          id: 31790,
+          name: 'Ashmūn',
+          latitude: '30.29735000',
+          longitude: '30.97641000',
+        ),
+        City(
+          id: 31846,
+          name: 'Munūf',
+          latitude: '30.46597000',
+          longitude: '30.93199000',
+        ),
+        City(
+          id: 31854,
+          name: 'Quwaysinā',
+          latitude: '30.56482000',
+          longitude: '31.15777000',
+        ),
+        City(
+          id: 31863,
+          name: 'Shibīn al Kawm',
+          latitude: '30.55258000',
+          longitude: '31.00904000',
+        ),
+        City(
+          id: 31871,
+          name: 'Talā',
+          latitude: '30.67980000',
+          longitude: '30.94364000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3246,
+      name: 'New Valley Governorate',
+      stateCode: 'WAD',
+      cities: [
+        City(
+          id: 31772,
+          name: 'Al Khārijah',
+          latitude: '25.45141000',
+          longitude: '30.54635000',
+        ),
+        City(
+          id: 31852,
+          name: 'Qaşr al Farāfirah',
+          latitude: '27.05680000',
+          longitude: '27.96979000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3227,
+      name: 'North Sinai Governorate',
+      stateCode: 'SIN',
+      cities: [
+        City(
+          id: 31788,
+          name: 'Arish',
+          latitude: '31.13159000',
+          longitude: '33.79844000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3229,
+      name: 'Port Said Governorate',
+      stateCode: 'PTS',
+      cities: [
+        City(
+          id: 31850,
+          name: 'Port Said',
+          latitude: '31.25654000',
+          longitude: '32.28411000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3232,
+      name: 'Qalyubia Governorate',
+      stateCode: 'KB',
+      cities: [
+        City(
+          id: 31771,
+          name: 'Al Khānkah',
+          latitude: '30.21035000',
+          longitude: '31.36812000',
+        ),
+        City(
+          id: 31779,
+          name: 'Al Qanāţir al Khayrīyah',
+          latitude: '30.19327000',
+          longitude: '31.13703000',
+        ),
+        City(
+          id: 31796,
+          name: 'Banhā',
+          latitude: '30.45977000',
+          longitude: '31.18420000',
+        ),
+        City(
+          id: 31851,
+          name: 'Qalyūb',
+          latitude: '30.17922000',
+          longitude: '31.20560000',
+        ),
+        City(
+          id: 31864,
+          name: 'Shibīn al Qanāṭir',
+          latitude: '30.31269000',
+          longitude: '31.32018000',
+        ),
+        City(
+          id: 31873,
+          name: 'Toukh',
+          latitude: '30.35487000',
+          longitude: '31.20105000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3247,
+      name: 'Qena Governorate',
+      stateCode: 'KN',
+      cities: [
+        City(
+          id: 31809,
+          name: 'Dishnā',
+          latitude: '26.12467000',
+          longitude: '32.47598000',
+        ),
+        City(
+          id: 31813,
+          name: 'Farshūţ',
+          latitude: '26.05494000',
+          longitude: '32.16329000',
+        ),
+        City(
+          id: 31822,
+          name: 'Isnā',
+          latitude: '25.29336000',
+          longitude: '32.55402000',
+        ),
+        City(
+          id: 31831,
+          name: 'Kousa',
+          latitude: '25.91407000',
+          longitude: '32.76362000',
+        ),
+        City(
+          id: 31847,
+          name: 'Naja\' Ḥammādī',
+          latitude: '26.04949000',
+          longitude: '32.24142000',
+        ),
+        City(
+          id: 31853,
+          name: 'Qinā',
+          latitude: '26.16418000',
+          longitude: '32.72671000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3240,
+      name: 'Red Sea Governorate',
+      stateCode: 'BA',
+      cities: [
+        City(
+          id: 31780,
+          name: 'Al Quşayr',
+          latitude: '26.10426000',
+          longitude: '34.27793000',
+        ),
+        City(
+          id: 31811,
+          name: 'El Gouna',
+          latitude: '27.39417000',
+          longitude: '33.67825000',
+        ),
+        City(
+          id: 31817,
+          name: 'Hurghada',
+          latitude: '27.25738000',
+          longitude: '33.81291000',
+        ),
+        City(
+          id: 31834,
+          name: 'Makadi Bay',
+          latitude: '26.99123000',
+          longitude: '33.89952000',
+        ),
+        City(
+          id: 31841,
+          name: 'Marsa Alam',
+          latitude: '25.06305000',
+          longitude: '34.89005000',
+        ),
+        City(
+          id: 31856,
+          name: 'Ras Gharib',
+          latitude: '28.35831000',
+          longitude: '33.07829000',
+        ),
+        City(
+          id: 31858,
+          name: 'Safaga',
+          latitude: '26.74906000',
+          longitude: '33.93891000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3226,
+      name: 'Sohag Governorate',
+      stateCode: 'SHG',
+      cities: [
+        City(
+          id: 31763,
+          name: 'Akhmīm',
+          latitude: '26.56217000',
+          longitude: '31.74503000',
+        ),
+        City(
+          id: 31765,
+          name: 'Al Balyanā',
+          latitude: '26.23568000',
+          longitude: '32.00347000',
+        ),
+        City(
+          id: 31773,
+          name: 'Al Manshāh',
+          latitude: '26.47686000',
+          longitude: '31.80350000',
+        ),
+        City(
+          id: 31824,
+          name: 'Jirjā',
+          latitude: '26.33826000',
+          longitude: '31.89161000',
+        ),
+        City(
+          id: 31825,
+          name: 'Juhaynah',
+          latitude: '26.67319000',
+          longitude: '31.49760000',
+        ),
+        City(
+          id: 31838,
+          name: 'Markaz Jirjā',
+          latitude: '26.30683000',
+          longitude: '31.84574000',
+        ),
+        City(
+          id: 31839,
+          name: 'Markaz Sūhāj',
+          latitude: '26.53948000',
+          longitude: '31.67524000',
+        ),
+        City(
+          id: 31867,
+          name: 'Sohag',
+          latitude: '26.55695000',
+          longitude: '31.69478000',
+        ),
+        City(
+          id: 31875,
+          name: 'Ţahţā',
+          latitude: '26.76930000',
+          longitude: '31.50214000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3237,
+      name: 'South Sinai Governorate',
+      stateCode: 'JS',
+      cities: [
+        City(
+          id: 31803,
+          name: 'Dahab',
+          latitude: '28.48208000',
+          longitude: '34.49505000',
+        ),
+        City(
+          id: 31812,
+          name: 'El-Tor',
+          latitude: '28.24168000',
+          longitude: '33.62220000',
+        ),
+        City(
+          id: 31849,
+          name: 'Nuwaybi‘a',
+          latitude: '29.04681000',
+          longitude: '34.66340000',
+        ),
+        City(
+          id: 31859,
+          name: 'Saint Catherine',
+          latitude: '28.56191000',
+          longitude: '33.94934000',
+        ),
+        City(
+          id: 31862,
+          name: 'Sharm el-Sheikh',
+          latitude: '27.91582000',
+          longitude: '34.32995000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3233,
+      name: 'Suez Governorate',
+      stateCode: 'SUZ',
+      cities: [
+        City(
+          id: 31761,
+          name: 'Ain Sukhna',
+          latitude: '29.60018000',
+          longitude: '32.31671000',
+        ),
+        City(
+          id: 31868,
+          name: 'Suez',
+          latitude: '29.97371000',
+          longitude: '32.52627000',
+        ),
+      ],
+    ),
+  ],
+);

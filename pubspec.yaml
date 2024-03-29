@@ -1,19 +1,20 @@
 name: country_state_city
-description: A dart plugin that deals with coutries, cities and states
-version: 0.1.0
+description: A dart plugin that deals with countries, cities and states
+version: 0.2.0
 homepage:
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  json_annotation: ^4.3.0
-  collection: ^1.15.0
+  json_annotation: ^4.8.1
+  collection: ^1.18.0
 
 dev_dependencies:
-  test: ^1.19.0
-  pedantic: ^1.11.0
-  json_serializable: ^6.0.1
-  build_runner: ^2.1.4
-  code_builder: ^4.1.0
-  dart_style: ^2.2.0
+  test: ^1.25.2
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.9
+  code_builder: ^4.10.0
+  dart_style: ^2.3.6
+  lints: ^3.0.0
+  path: any

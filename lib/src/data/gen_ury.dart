@@ -3,684 +3,900 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const ury = Country(
-    id: 235,
-    name: 'Uruguay',
-    iso3: 'URY',
-    iso2: 'UY',
-    phoneCode: '598',
-    capital: 'Montevideo',
-    currency: 'UYU',
-    currencySymbol: r'$',
-    tld: '.uy',
-    native: 'Uruguay',
-    region: 'Americas',
-    subregion: 'South America',
-    timezones: [
-      Timezone(
-          zoneName: 'America/Montevideo',
-          gmtOffset: -10800,
-          gmtOffsetName: 'UTC-03:00',
-          abbreviation: 'UYT',
-          tzName: 'Uruguay Standard Time')
-    ],
-    emoji: '🇺🇾',
-    emojiU: 'U+1F1FA U+1F1FE',
-    states: [
-      State(id: 3205, name: 'Artigas Department', stateCode: 'AR', cities: [
-        City(
-            id: 129777,
-            name: 'Artigas',
-            latitude: '-30.40000000',
-            longitude: '-56.46667000'),
-        City(
-            id: 129779,
-            name: 'Baltasar Brum',
-            latitude: '-30.71905000',
-            longitude: '-57.32596000'),
-        City(
-            id: 129782,
-            name: 'Bella Unión',
-            latitude: '-30.25966000',
-            longitude: '-57.59919000'),
-        City(
-            id: 129820,
-            name: 'Las Piedras',
-            latitude: '-30.26204000',
-            longitude: '-57.58174000'),
-        City(
-            id: 129881,
-            name: 'Tomás Gomensoro',
-            latitude: '-30.42870000',
-            longitude: '-57.43609000')
-      ]),
-      State(id: 3213, name: 'Canelones Department', stateCode: 'CA', cities: [
-        City(
-            id: 129774,
-            name: 'Aguas Corrientes',
-            latitude: '-34.52194000',
-            longitude: '-56.39361000'),
-        City(
-            id: 129778,
-            name: 'Atlántida',
-            latitude: '-34.77190000',
-            longitude: '-55.75840000'),
-        City(
-            id: 129780,
-            name: 'Barra de Carrasco',
-            latitude: '-34.87722000',
-            longitude: '-56.02972000'),
-        City(
-            id: 129781,
-            name: 'Barros Blancos',
-            latitude: '-34.75240000',
-            longitude: '-56.00259000'),
-        City(
-            id: 129785,
-            name: 'Canelones',
-            latitude: '-34.52278000',
-            longitude: '-56.27778000'),
-        City(
-            id: 129794,
-            name: 'Colonia Nicolich',
-            latitude: '-34.81516000',
-            longitude: '-56.02435000'),
-        City(
-            id: 129802,
-            name: 'Empalme Olmos',
-            latitude: '-34.69753000',
-            longitude: '-55.89268000'),
-        City(
-            id: 129809,
-            name: 'Joaquín Suárez',
-            latitude: '-34.73501000',
-            longitude: '-56.03470000'),
-        City(
-            id: 129814,
-            name: 'Juanicó',
-            latitude: '-34.59454000',
-            longitude: '-56.25334000'),
-        City(
-            id: 129815,
-            name: 'La Floresta',
-            latitude: '-34.75572000',
-            longitude: '-55.68141000'),
-        City(
-            id: 129818,
-            name: 'La Paz',
-            latitude: '-34.76031000',
-            longitude: '-56.22590000'),
-        City(
-            id: 129819,
-            name: 'Las Piedras',
-            latitude: '-34.73020000',
-            longitude: '-56.21915000'),
-        City(
-            id: 129821,
-            name: 'Las Toscas',
-            latitude: '-34.73333000',
-            longitude: '-55.71667000'),
-        City(
-            id: 129824,
-            name: 'Los Cerrillos',
-            latitude: '-34.60500000',
-            longitude: '-56.35639000'),
-        City(
-            id: 129829,
-            name: 'Migues',
-            latitude: '-34.48759000',
-            longitude: '-55.62793000'),
-        City(
-            id: 129832,
-            name: 'Montes',
-            latitude: '-34.49339000',
-            longitude: '-55.56219000'),
-        City(
-            id: 129841,
-            name: 'Pando',
-            latitude: '-34.71716000',
-            longitude: '-55.95840000'),
-        City(
-            id: 129842,
-            name: 'Paso de Carrasco',
-            latitude: '-34.86028000',
-            longitude: '-56.05222000'),
-        City(
-            id: 129847,
-            name: 'Progreso',
-            latitude: '-34.66737000',
-            longitude: '-56.21758000'),
-        City(
-            id: 129858,
-            name: 'San Antonio',
-            latitude: '-34.45130000',
-            longitude: '-56.08036000'),
-        City(
-            id: 129859,
-            name: 'San Bautista',
-            latitude: '-34.44016000',
-            longitude: '-55.95861000'),
-        City(
-            id: 129862,
-            name: 'San Jacinto',
-            latitude: '-34.54465000',
-            longitude: '-55.87151000'),
-        City(
-            id: 129865,
-            name: 'San Ramón',
-            latitude: '-34.29155000',
-            longitude: '-55.95571000'),
-        City(
-            id: 129869,
-            name: 'Santa Lucía',
-            latitude: '-34.45333000',
-            longitude: '-56.39056000'),
-        City(
-            id: 129870,
-            name: 'Santa Rosa',
-            latitude: '-34.49819000',
-            longitude: '-56.03795000'),
-        City(
-            id: 129874,
-            name: 'Sauce',
-            latitude: '-34.65191000',
-            longitude: '-56.06431000'),
-        City(
-            id: 129875,
-            name: 'Soca',
-            latitude: '-34.68432000',
-            longitude: '-55.70200000'),
-        City(
-            id: 129878,
-            name: 'Tala',
-            latitude: '-34.34349000',
-            longitude: '-55.76375000'),
-        City(
-            id: 129880,
-            name: 'Toledo',
-            latitude: '-34.73807000',
-            longitude: '-56.09469000')
-      ]),
-      State(id: 3211, name: 'Cerro Largo Department', stateCode: 'CL', cities: [
-        City(
-            id: 129773,
-            name: 'Aceguá',
-            latitude: '-31.87178000',
-            longitude: '-54.16351000'),
-        City(
-            id: 129808,
-            name: 'Isidoro Noblía',
-            latitude: '-31.96218000',
-            longitude: '-54.12309000'),
-        City(
-            id: 129827,
-            name: 'Melo',
-            latitude: '-32.37028000',
-            longitude: '-54.16750000'),
-        City(
-            id: 129856,
-            name: 'Río Branco',
-            latitude: '-32.59802000',
-            longitude: '-53.38583000'),
-        City(
-            id: 129885,
-            name: 'Tupambaé',
-            latitude: '-32.83333000',
-            longitude: '-54.76667000')
-      ]),
-      State(id: 3208, name: 'Colonia Department', stateCode: 'CO', cities: [
-        City(
-            id: 129789,
-            name: 'Carmelo',
-            latitude: '-34.00023000',
-            longitude: '-58.28402000'),
-        City(
-            id: 129795,
-            name: 'Colonia del Sacramento',
-            latitude: '-34.46262000',
-            longitude: '-57.83976000'),
-        City(
-            id: 129804,
-            name: 'Florencio Sánchez',
-            latitude: '-33.87785000',
-            longitude: '-57.37166000'),
-        City(
-            id: 129813,
-            name: 'Juan L. Lacaze',
-            latitude: '-34.41888000',
-            longitude: '-57.45285000'),
-        City(
-            id: 129834,
-            name: 'Nueva Helvecia',
-            latitude: '-34.30000000',
-            longitude: '-57.23333000'),
-        City(
-            id: 129835,
-            name: 'Nueva Palmira',
-            latitude: '-33.87031000',
-            longitude: '-58.41176000'),
-        City(
-            id: 129837,
-            name: 'Ombúes de Lavalle',
-            latitude: '-33.93783000',
-            longitude: '-57.80959000'),
-        City(
-            id: 129855,
-            name: 'Rosario',
-            latitude: '-34.31667000',
-            longitude: '-57.35000000'),
-        City(
-            id: 129879,
-            name: 'Tarariras',
-            latitude: '-34.26555000',
-            longitude: '-57.61866000')
-      ]),
-      State(id: 3209, name: 'Durazno Department', stateCode: 'DU', cities: [
-        City(
-            id: 129784,
-            name: 'Blanquillo',
-            latitude: '-32.76667000',
-            longitude: '-55.63333000'),
-        City(
-            id: 129788,
-            name: 'Carlos Reyles',
-            latitude: '-33.05658000',
-            longitude: '-56.47652000'),
-        City(
-            id: 129800,
-            name: 'Durazno',
-            latitude: '-33.38056000',
-            longitude: '-56.52361000'),
-        City(
-            id: 129817,
-            name: 'La Paloma',
-            latitude: '-32.72689000',
-            longitude: '-55.58270000'),
-        City(
-            id: 129866,
-            name: 'Santa Bernardina',
-            latitude: '-33.35360000',
-            longitude: '-56.52498000'),
-        City(
-            id: 129873,
-            name: 'Sarandí del Yi',
-            latitude: '-33.35000000',
-            longitude: '-55.63333000'),
-        City(
-            id: 129892,
-            name: 'Villa del Carmen',
-            latitude: '-33.23943000',
-            longitude: '-56.00936000')
-      ]),
-      State(id: 3203, name: 'Flores Department', stateCode: 'FS', cities: [
-        City(
-            id: 129884,
-            name: 'Trinidad',
-            latitude: '-33.51650000',
-            longitude: '-56.89957000')
-      ]),
-      State(id: 3217, name: 'Florida Department', stateCode: 'FD', cities: [
-        City(
-            id: 129771,
-            name: '25 de Agosto',
-            latitude: '-34.41167000',
-            longitude: '-56.40222000'),
-        City(
-            id: 129772,
-            name: '25 de Mayo',
-            latitude: '-34.18917000',
-            longitude: '-56.33944000'),
-        City(
-            id: 129776,
-            name: 'Alejandro Gallinal',
-            latitude: '-33.86252000',
-            longitude: '-55.54264000'),
-        City(
-            id: 129786,
-            name: 'Cardal',
-            latitude: '-34.29056000',
-            longitude: '-56.38889000'),
-        City(
-            id: 129791,
-            name: 'Casupá',
-            latitude: '-34.09994000',
-            longitude: '-55.64811000'),
-        City(
-            id: 129805,
-            name: 'Florida',
-            latitude: '-34.09556000',
-            longitude: '-56.21417000'),
-        City(
-            id: 129872,
-            name: 'Sarandí Grande',
-            latitude: '-33.73333000',
-            longitude: '-56.33333000')
-      ]),
-      State(id: 3215, name: 'Lavalleja Department', stateCode: 'LA', cities: [
-        City(
-            id: 129810,
-            name: 'José Batlle y Ordóñez',
-            latitude: '-33.46667000',
-            longitude: '-55.11667000'),
-        City(
-            id: 129812,
-            name: 'José Pedro Varela',
-            latitude: '-33.45451000',
-            longitude: '-54.53586000'),
-        City(
-            id: 129826,
-            name: 'Mariscala',
-            latitude: '-34.04085000',
-            longitude: '-54.77732000'),
-        City(
-            id: 129830,
-            name: 'Minas',
-            latitude: '-34.37589000',
-            longitude: '-55.23771000'),
-        City(
-            id: 129876,
-            name: 'Solís de Mataojo',
-            latitude: '-34.59951000',
-            longitude: '-55.46808000')
-      ]),
-      State(id: 3206, name: 'Maldonado Department', stateCode: 'MA', cities: [
-        City(
-            id: 129775,
-            name: 'Aiguá',
-            latitude: '-34.20498000',
-            longitude: '-54.75665000'),
-        City(
-            id: 129825,
-            name: 'Maldonado',
-            latitude: '-34.90000000',
-            longitude: '-54.95000000'),
-        City(
-            id: 129840,
-            name: 'Pan de Azúcar',
-            latitude: '-34.77870000',
-            longitude: '-55.23582000'),
-        City(
-            id: 129846,
-            name: 'Piriápolis',
-            latitude: '-34.86287000',
-            longitude: '-55.27471000'),
-        City(
-            id: 129848,
-            name: 'Punta del Este',
-            latitude: '-34.94747000',
-            longitude: '-54.93382000'),
-        City(
-            id: 129860,
-            name: 'San Carlos',
-            latitude: '-34.79123000',
-            longitude: '-54.91824000')
-      ]),
-      State(id: 3218, name: 'Montevideo Department', stateCode: 'MO', cities: [
-        City(
-            id: 129833,
-            name: 'Montevideo',
-            latitude: '-34.90328000',
-            longitude: '-56.18816000'),
-        City(
-            id: 129838,
-            name: 'Pajas Blancas',
-            latitude: '-34.80167000',
-            longitude: '-56.33417000'),
-        City(
-            id: 129871,
-            name: 'Santiago Vázquez',
-            latitude: '-34.79028000',
-            longitude: '-56.35000000')
-      ]),
-      State(id: 3212, name: 'Paysandú Department', stateCode: 'PA', cities: [
-        City(
-            id: 129803,
-            name: 'Estación Porvenir',
-            latitude: '-32.37085000',
-            longitude: '-57.85371000'),
-        City(
-            id: 129807,
-            name: 'Guichón',
-            latitude: '-32.35846000',
-            longitude: '-57.19778000'),
-        City(
-            id: 129844,
-            name: 'Paysandú',
-            latitude: '-32.31710000',
-            longitude: '-58.08072000'),
-        City(
-            id: 129845,
-            name: 'Piedras Coloradas',
-            latitude: '-32.37183000',
-            longitude: '-57.60901000'),
-        City(
-            id: 129850,
-            name: 'Quebracho',
-            latitude: '-31.93526000',
-            longitude: '-57.90140000'),
-        City(
-            id: 129861,
-            name: 'San Félix',
-            latitude: '-32.34631000',
-            longitude: '-58.10094000')
-      ]),
-      State(id: 3210, name: 'Río Negro Department', stateCode: 'RN', cities: [
-        City(
-            id: 129806,
-            name: 'Fray Bentos',
-            latitude: '-33.11651000',
-            longitude: '-58.31067000'),
-        City(
-            id: 129836,
-            name: 'Nuevo Berlín',
-            latitude: '-32.97974000',
-            longitude: '-58.05858000'),
-        City(
-            id: 129863,
-            name: 'San Javier',
-            latitude: '-32.66523000',
-            longitude: '-58.13320000'),
-        City(
-            id: 129893,
-            name: 'Young',
-            latitude: '-32.69844000',
-            longitude: '-57.62693000')
-      ]),
-      State(id: 3207, name: 'Rivera Department', stateCode: 'RV', cities: [
-        City(
-            id: 129831,
-            name: 'Minas de Corrales',
-            latitude: '-31.57375000',
-            longitude: '-55.47075000'),
-        City(
-            id: 129852,
-            name: 'Rivera',
-            latitude: '-30.90534000',
-            longitude: '-55.55076000'),
-        City(
-            id: 129882,
-            name: 'Tranqueras',
-            latitude: '-31.20000000',
-            longitude: '-55.75000000'),
-        City(
-            id: 129888,
-            name: 'Vichadero',
-            latitude: '-31.77794000',
-            longitude: '-54.69183000')
-      ]),
-      State(id: 3216, name: 'Rocha Department', stateCode: 'RO', cities: [
-        City(
-            id: 129790,
-            name: 'Castillos',
-            latitude: '-34.19871000',
-            longitude: '-53.85919000'),
-        City(
-            id: 129792,
-            name: 'Cebollatí',
-            latitude: '-33.26703000',
-            longitude: '-53.79425000'),
-        City(
-            id: 129793,
-            name: 'Chui',
-            latitude: '-33.69792000',
-            longitude: '-53.45926000'),
-        City(
-            id: 129798,
-            name: 'Dieciocho de Julio',
-            latitude: '-33.68216000',
-            longitude: '-53.55325000'),
-        City(
-            id: 129816,
-            name: 'La Paloma',
-            latitude: '-34.66268000',
-            longitude: '-54.16452000'),
-        City(
-            id: 129822,
-            name: 'Lascano',
-            latitude: '-33.67235000',
-            longitude: '-54.20650000'),
-        City(
-            id: 129853,
-            name: 'Rocha',
-            latitude: '-34.48333000',
-            longitude: '-54.33333000'),
-        City(
-            id: 129886,
-            name: 'Velázquez',
-            latitude: '-34.03631000',
-            longitude: '-54.28054000')
-      ]),
-      State(id: 3220, name: 'Salto Department', stateCode: 'SA', cities: [
-        City(
-            id: 129783,
-            name: 'Belén',
-            latitude: '-30.78716000',
-            longitude: '-57.77577000'),
-        City(
-            id: 129857,
-            name: 'Salto',
-            latitude: '-31.38333000',
-            longitude: '-57.96667000'),
-        City(
-            id: 129889,
-            name: 'Villa Constitución',
-            latitude: '-31.06913000',
-            longitude: '-57.84946000')
-      ]),
-      State(id: 3204, name: 'San José Department', stateCode: 'SJ', cities: [
-        City(
-            id: 129797,
-            name: 'Delta del Tigre',
-            latitude: '-34.76488000',
-            longitude: '-56.36450000'),
-        City(
-            id: 129801,
-            name: 'Ecilda Paullier',
-            latitude: '-34.35778000',
-            longitude: '-57.04883000'),
-        City(
-            id: 129823,
-            name: 'Libertad',
-            latitude: '-34.63459000',
-            longitude: '-56.61739000'),
-        City(
-            id: 129849,
-            name: 'Puntas de Valdéz',
-            latitude: '-34.58550000',
-            longitude: '-56.70097000'),
-        City(
-            id: 129851,
-            name: 'Rafael Perazza',
-            latitude: '-34.52335000',
-            longitude: '-56.79710000'),
-        City(
-            id: 129854,
-            name: 'Rodríguez',
-            latitude: '-34.38100000',
-            longitude: '-56.53797000'),
-        City(
-            id: 129864,
-            name: 'San José de Mayo',
-            latitude: '-34.33750000',
-            longitude: '-56.71361000')
-      ]),
-      State(id: 3219, name: 'Soriano Department', stateCode: 'SO', cities: [
-        City(
-            id: 129787,
-            name: 'Cardona',
-            latitude: '-33.87049000',
-            longitude: '-57.36954000'),
-        City(
-            id: 129799,
-            name: 'Dolores',
-            latitude: '-33.53009000',
-            longitude: '-58.21701000'),
-        City(
-            id: 129811,
-            name: 'José Enrique Rodó',
-            latitude: '-33.69618000',
-            longitude: '-57.53153000'),
-        City(
-            id: 129828,
-            name: 'Mercedes',
-            latitude: '-33.25240000',
-            longitude: '-58.03047000'),
-        City(
-            id: 129839,
-            name: 'Palmitas',
-            latitude: '-33.50719000',
-            longitude: '-57.80079000'),
-        City(
-            id: 129867,
-            name: 'Santa Catalina',
-            latitude: '-33.79100000',
-            longitude: '-57.48824000'),
-        City(
-            id: 129891,
-            name: 'Villa Soriano',
-            latitude: '-33.39811000',
-            longitude: '-58.32177000')
-      ]),
-      State(id: 3221, name: 'Tacuarembó Department', stateCode: 'TA', cities: [
-        City(
-            id: 129796,
-            name: 'Curtina',
-            latitude: '-32.15000000',
-            longitude: '-56.11667000'),
-        City(
-            id: 129843,
-            name: 'Paso de los Toros',
-            latitude: '-32.81667000',
-            longitude: '-56.51667000'),
-        City(
-            id: 129877,
-            name: 'Tacuarembó',
-            latitude: '-31.71694000',
-            longitude: '-55.98111000')
-      ]),
-      State(
-          id: 3214,
-          name: 'Treinta y Tres Department',
-          stateCode: 'TT',
-          cities: [
-            City(
-                id: 129868,
-                name: 'Santa Clara de Olimar',
-                latitude: '-32.92254000',
-                longitude: '-54.94447000'),
-            City(
-                id: 129883,
-                name: 'Treinta y Tres',
-                latitude: '-33.23333000',
-                longitude: '-54.38333000'),
-            City(
-                id: 129887,
-                name: 'Vergara',
-                latitude: '-32.94419000',
-                longitude: '-53.93810000'),
-            City(
-                id: 129890,
-                name: 'Villa Sara',
-                latitude: '-33.25340000',
-                longitude: '-54.41947000')
-          ])
-    ]);
+  id: 235,
+  name: 'Uruguay',
+  iso3: 'URY',
+  iso2: 'UY',
+  phoneCode: '598',
+  capital: 'Montevideo',
+  currency: 'UYU',
+  currencySymbol: r'$',
+  tld: '.uy',
+  native: 'Uruguay',
+  region: 'Americas',
+  subregion: 'South America',
+  timezones: [
+    Timezone(
+      zoneName: 'America/Montevideo',
+      gmtOffset: -10800,
+      gmtOffsetName: 'UTC-03:00',
+      abbreviation: 'UYT',
+      tzName: 'Uruguay Standard Time',
+    )
+  ],
+  emoji: '🇺🇾',
+  emojiU: 'U+1F1FA U+1F1FE',
+  states: [
+    CountryState(
+      id: 3205,
+      name: 'Artigas Department',
+      stateCode: 'AR',
+      cities: [
+        City(
+          id: 129777,
+          name: 'Artigas',
+          latitude: '-30.40000000',
+          longitude: '-56.46667000',
+        ),
+        City(
+          id: 129779,
+          name: 'Baltasar Brum',
+          latitude: '-30.71905000',
+          longitude: '-57.32596000',
+        ),
+        City(
+          id: 129782,
+          name: 'Bella Unión',
+          latitude: '-30.25966000',
+          longitude: '-57.59919000',
+        ),
+        City(
+          id: 129820,
+          name: 'Las Piedras',
+          latitude: '-30.26204000',
+          longitude: '-57.58174000',
+        ),
+        City(
+          id: 129881,
+          name: 'Tomás Gomensoro',
+          latitude: '-30.42870000',
+          longitude: '-57.43609000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3213,
+      name: 'Canelones Department',
+      stateCode: 'CA',
+      cities: [
+        City(
+          id: 129774,
+          name: 'Aguas Corrientes',
+          latitude: '-34.52194000',
+          longitude: '-56.39361000',
+        ),
+        City(
+          id: 129778,
+          name: 'Atlántida',
+          latitude: '-34.77190000',
+          longitude: '-55.75840000',
+        ),
+        City(
+          id: 129780,
+          name: 'Barra de Carrasco',
+          latitude: '-34.87722000',
+          longitude: '-56.02972000',
+        ),
+        City(
+          id: 129781,
+          name: 'Barros Blancos',
+          latitude: '-34.75240000',
+          longitude: '-56.00259000',
+        ),
+        City(
+          id: 129785,
+          name: 'Canelones',
+          latitude: '-34.52278000',
+          longitude: '-56.27778000',
+        ),
+        City(
+          id: 129794,
+          name: 'Colonia Nicolich',
+          latitude: '-34.81516000',
+          longitude: '-56.02435000',
+        ),
+        City(
+          id: 129802,
+          name: 'Empalme Olmos',
+          latitude: '-34.69753000',
+          longitude: '-55.89268000',
+        ),
+        City(
+          id: 129809,
+          name: 'Joaquín Suárez',
+          latitude: '-34.73501000',
+          longitude: '-56.03470000',
+        ),
+        City(
+          id: 129814,
+          name: 'Juanicó',
+          latitude: '-34.59454000',
+          longitude: '-56.25334000',
+        ),
+        City(
+          id: 129815,
+          name: 'La Floresta',
+          latitude: '-34.75572000',
+          longitude: '-55.68141000',
+        ),
+        City(
+          id: 129818,
+          name: 'La Paz',
+          latitude: '-34.76031000',
+          longitude: '-56.22590000',
+        ),
+        City(
+          id: 129819,
+          name: 'Las Piedras',
+          latitude: '-34.73020000',
+          longitude: '-56.21915000',
+        ),
+        City(
+          id: 129821,
+          name: 'Las Toscas',
+          latitude: '-34.73333000',
+          longitude: '-55.71667000',
+        ),
+        City(
+          id: 129824,
+          name: 'Los Cerrillos',
+          latitude: '-34.60500000',
+          longitude: '-56.35639000',
+        ),
+        City(
+          id: 129829,
+          name: 'Migues',
+          latitude: '-34.48759000',
+          longitude: '-55.62793000',
+        ),
+        City(
+          id: 129832,
+          name: 'Montes',
+          latitude: '-34.49339000',
+          longitude: '-55.56219000',
+        ),
+        City(
+          id: 129841,
+          name: 'Pando',
+          latitude: '-34.71716000',
+          longitude: '-55.95840000',
+        ),
+        City(
+          id: 129842,
+          name: 'Paso de Carrasco',
+          latitude: '-34.86028000',
+          longitude: '-56.05222000',
+        ),
+        City(
+          id: 129847,
+          name: 'Progreso',
+          latitude: '-34.66737000',
+          longitude: '-56.21758000',
+        ),
+        City(
+          id: 129858,
+          name: 'San Antonio',
+          latitude: '-34.45130000',
+          longitude: '-56.08036000',
+        ),
+        City(
+          id: 129859,
+          name: 'San Bautista',
+          latitude: '-34.44016000',
+          longitude: '-55.95861000',
+        ),
+        City(
+          id: 129862,
+          name: 'San Jacinto',
+          latitude: '-34.54465000',
+          longitude: '-55.87151000',
+        ),
+        City(
+          id: 129865,
+          name: 'San Ramón',
+          latitude: '-34.29155000',
+          longitude: '-55.95571000',
+        ),
+        City(
+          id: 129869,
+          name: 'Santa Lucía',
+          latitude: '-34.45333000',
+          longitude: '-56.39056000',
+        ),
+        City(
+          id: 129870,
+          name: 'Santa Rosa',
+          latitude: '-34.49819000',
+          longitude: '-56.03795000',
+        ),
+        City(
+          id: 129874,
+          name: 'Sauce',
+          latitude: '-34.65191000',
+          longitude: '-56.06431000',
+        ),
+        City(
+          id: 129875,
+          name: 'Soca',
+          latitude: '-34.68432000',
+          longitude: '-55.70200000',
+        ),
+        City(
+          id: 129878,
+          name: 'Tala',
+          latitude: '-34.34349000',
+          longitude: '-55.76375000',
+        ),
+        City(
+          id: 129880,
+          name: 'Toledo',
+          latitude: '-34.73807000',
+          longitude: '-56.09469000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3211,
+      name: 'Cerro Largo Department',
+      stateCode: 'CL',
+      cities: [
+        City(
+          id: 129773,
+          name: 'Aceguá',
+          latitude: '-31.87178000',
+          longitude: '-54.16351000',
+        ),
+        City(
+          id: 129808,
+          name: 'Isidoro Noblía',
+          latitude: '-31.96218000',
+          longitude: '-54.12309000',
+        ),
+        City(
+          id: 129827,
+          name: 'Melo',
+          latitude: '-32.37028000',
+          longitude: '-54.16750000',
+        ),
+        City(
+          id: 129856,
+          name: 'Río Branco',
+          latitude: '-32.59802000',
+          longitude: '-53.38583000',
+        ),
+        City(
+          id: 129885,
+          name: 'Tupambaé',
+          latitude: '-32.83333000',
+          longitude: '-54.76667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3208,
+      name: 'Colonia Department',
+      stateCode: 'CO',
+      cities: [
+        City(
+          id: 129789,
+          name: 'Carmelo',
+          latitude: '-34.00023000',
+          longitude: '-58.28402000',
+        ),
+        City(
+          id: 129795,
+          name: 'Colonia del Sacramento',
+          latitude: '-34.46262000',
+          longitude: '-57.83976000',
+        ),
+        City(
+          id: 129804,
+          name: 'Florencio Sánchez',
+          latitude: '-33.87785000',
+          longitude: '-57.37166000',
+        ),
+        City(
+          id: 129813,
+          name: 'Juan L. Lacaze',
+          latitude: '-34.41888000',
+          longitude: '-57.45285000',
+        ),
+        City(
+          id: 129834,
+          name: 'Nueva Helvecia',
+          latitude: '-34.30000000',
+          longitude: '-57.23333000',
+        ),
+        City(
+          id: 129835,
+          name: 'Nueva Palmira',
+          latitude: '-33.87031000',
+          longitude: '-58.41176000',
+        ),
+        City(
+          id: 129837,
+          name: 'Ombúes de Lavalle',
+          latitude: '-33.93783000',
+          longitude: '-57.80959000',
+        ),
+        City(
+          id: 129855,
+          name: 'Rosario',
+          latitude: '-34.31667000',
+          longitude: '-57.35000000',
+        ),
+        City(
+          id: 129879,
+          name: 'Tarariras',
+          latitude: '-34.26555000',
+          longitude: '-57.61866000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3209,
+      name: 'Durazno Department',
+      stateCode: 'DU',
+      cities: [
+        City(
+          id: 129784,
+          name: 'Blanquillo',
+          latitude: '-32.76667000',
+          longitude: '-55.63333000',
+        ),
+        City(
+          id: 129788,
+          name: 'Carlos Reyles',
+          latitude: '-33.05658000',
+          longitude: '-56.47652000',
+        ),
+        City(
+          id: 129800,
+          name: 'Durazno',
+          latitude: '-33.38056000',
+          longitude: '-56.52361000',
+        ),
+        City(
+          id: 129817,
+          name: 'La Paloma',
+          latitude: '-32.72689000',
+          longitude: '-55.58270000',
+        ),
+        City(
+          id: 129866,
+          name: 'Santa Bernardina',
+          latitude: '-33.35360000',
+          longitude: '-56.52498000',
+        ),
+        City(
+          id: 129873,
+          name: 'Sarandí del Yi',
+          latitude: '-33.35000000',
+          longitude: '-55.63333000',
+        ),
+        City(
+          id: 129892,
+          name: 'Villa del Carmen',
+          latitude: '-33.23943000',
+          longitude: '-56.00936000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3203,
+      name: 'Flores Department',
+      stateCode: 'FS',
+      cities: [
+        City(
+          id: 129884,
+          name: 'Trinidad',
+          latitude: '-33.51650000',
+          longitude: '-56.89957000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3217,
+      name: 'Florida Department',
+      stateCode: 'FD',
+      cities: [
+        City(
+          id: 129771,
+          name: '25 de Agosto',
+          latitude: '-34.41167000',
+          longitude: '-56.40222000',
+        ),
+        City(
+          id: 129772,
+          name: '25 de Mayo',
+          latitude: '-34.18917000',
+          longitude: '-56.33944000',
+        ),
+        City(
+          id: 129776,
+          name: 'Alejandro Gallinal',
+          latitude: '-33.86252000',
+          longitude: '-55.54264000',
+        ),
+        City(
+          id: 129786,
+          name: 'Cardal',
+          latitude: '-34.29056000',
+          longitude: '-56.38889000',
+        ),
+        City(
+          id: 129791,
+          name: 'Casupá',
+          latitude: '-34.09994000',
+          longitude: '-55.64811000',
+        ),
+        City(
+          id: 129805,
+          name: 'Florida',
+          latitude: '-34.09556000',
+          longitude: '-56.21417000',
+        ),
+        City(
+          id: 129872,
+          name: 'Sarandí Grande',
+          latitude: '-33.73333000',
+          longitude: '-56.33333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3215,
+      name: 'Lavalleja Department',
+      stateCode: 'LA',
+      cities: [
+        City(
+          id: 129810,
+          name: 'José Batlle y Ordóñez',
+          latitude: '-33.46667000',
+          longitude: '-55.11667000',
+        ),
+        City(
+          id: 129812,
+          name: 'José Pedro Varela',
+          latitude: '-33.45451000',
+          longitude: '-54.53586000',
+        ),
+        City(
+          id: 129826,
+          name: 'Mariscala',
+          latitude: '-34.04085000',
+          longitude: '-54.77732000',
+        ),
+        City(
+          id: 129830,
+          name: 'Minas',
+          latitude: '-34.37589000',
+          longitude: '-55.23771000',
+        ),
+        City(
+          id: 129876,
+          name: 'Solís de Mataojo',
+          latitude: '-34.59951000',
+          longitude: '-55.46808000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3206,
+      name: 'Maldonado Department',
+      stateCode: 'MA',
+      cities: [
+        City(
+          id: 129775,
+          name: 'Aiguá',
+          latitude: '-34.20498000',
+          longitude: '-54.75665000',
+        ),
+        City(
+          id: 129825,
+          name: 'Maldonado',
+          latitude: '-34.90000000',
+          longitude: '-54.95000000',
+        ),
+        City(
+          id: 129840,
+          name: 'Pan de Azúcar',
+          latitude: '-34.77870000',
+          longitude: '-55.23582000',
+        ),
+        City(
+          id: 129846,
+          name: 'Piriápolis',
+          latitude: '-34.86287000',
+          longitude: '-55.27471000',
+        ),
+        City(
+          id: 129848,
+          name: 'Punta del Este',
+          latitude: '-34.94747000',
+          longitude: '-54.93382000',
+        ),
+        City(
+          id: 129860,
+          name: 'San Carlos',
+          latitude: '-34.79123000',
+          longitude: '-54.91824000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3218,
+      name: 'Montevideo Department',
+      stateCode: 'MO',
+      cities: [
+        City(
+          id: 129833,
+          name: 'Montevideo',
+          latitude: '-34.90328000',
+          longitude: '-56.18816000',
+        ),
+        City(
+          id: 129838,
+          name: 'Pajas Blancas',
+          latitude: '-34.80167000',
+          longitude: '-56.33417000',
+        ),
+        City(
+          id: 129871,
+          name: 'Santiago Vázquez',
+          latitude: '-34.79028000',
+          longitude: '-56.35000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3212,
+      name: 'Paysandú Department',
+      stateCode: 'PA',
+      cities: [
+        City(
+          id: 129803,
+          name: 'Estación Porvenir',
+          latitude: '-32.37085000',
+          longitude: '-57.85371000',
+        ),
+        City(
+          id: 129807,
+          name: 'Guichón',
+          latitude: '-32.35846000',
+          longitude: '-57.19778000',
+        ),
+        City(
+          id: 129844,
+          name: 'Paysandú',
+          latitude: '-32.31710000',
+          longitude: '-58.08072000',
+        ),
+        City(
+          id: 129845,
+          name: 'Piedras Coloradas',
+          latitude: '-32.37183000',
+          longitude: '-57.60901000',
+        ),
+        City(
+          id: 129850,
+          name: 'Quebracho',
+          latitude: '-31.93526000',
+          longitude: '-57.90140000',
+        ),
+        City(
+          id: 129861,
+          name: 'San Félix',
+          latitude: '-32.34631000',
+          longitude: '-58.10094000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3210,
+      name: 'Río Negro Department',
+      stateCode: 'RN',
+      cities: [
+        City(
+          id: 129806,
+          name: 'Fray Bentos',
+          latitude: '-33.11651000',
+          longitude: '-58.31067000',
+        ),
+        City(
+          id: 129836,
+          name: 'Nuevo Berlín',
+          latitude: '-32.97974000',
+          longitude: '-58.05858000',
+        ),
+        City(
+          id: 129863,
+          name: 'San Javier',
+          latitude: '-32.66523000',
+          longitude: '-58.13320000',
+        ),
+        City(
+          id: 129893,
+          name: 'Young',
+          latitude: '-32.69844000',
+          longitude: '-57.62693000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3207,
+      name: 'Rivera Department',
+      stateCode: 'RV',
+      cities: [
+        City(
+          id: 129831,
+          name: 'Minas de Corrales',
+          latitude: '-31.57375000',
+          longitude: '-55.47075000',
+        ),
+        City(
+          id: 129852,
+          name: 'Rivera',
+          latitude: '-30.90534000',
+          longitude: '-55.55076000',
+        ),
+        City(
+          id: 129882,
+          name: 'Tranqueras',
+          latitude: '-31.20000000',
+          longitude: '-55.75000000',
+        ),
+        City(
+          id: 129888,
+          name: 'Vichadero',
+          latitude: '-31.77794000',
+          longitude: '-54.69183000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3216,
+      name: 'Rocha Department',
+      stateCode: 'RO',
+      cities: [
+        City(
+          id: 129790,
+          name: 'Castillos',
+          latitude: '-34.19871000',
+          longitude: '-53.85919000',
+        ),
+        City(
+          id: 129792,
+          name: 'Cebollatí',
+          latitude: '-33.26703000',
+          longitude: '-53.79425000',
+        ),
+        City(
+          id: 129793,
+          name: 'Chui',
+          latitude: '-33.69792000',
+          longitude: '-53.45926000',
+        ),
+        City(
+          id: 129798,
+          name: 'Dieciocho de Julio',
+          latitude: '-33.68216000',
+          longitude: '-53.55325000',
+        ),
+        City(
+          id: 129816,
+          name: 'La Paloma',
+          latitude: '-34.66268000',
+          longitude: '-54.16452000',
+        ),
+        City(
+          id: 129822,
+          name: 'Lascano',
+          latitude: '-33.67235000',
+          longitude: '-54.20650000',
+        ),
+        City(
+          id: 129853,
+          name: 'Rocha',
+          latitude: '-34.48333000',
+          longitude: '-54.33333000',
+        ),
+        City(
+          id: 129886,
+          name: 'Velázquez',
+          latitude: '-34.03631000',
+          longitude: '-54.28054000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3220,
+      name: 'Salto Department',
+      stateCode: 'SA',
+      cities: [
+        City(
+          id: 129783,
+          name: 'Belén',
+          latitude: '-30.78716000',
+          longitude: '-57.77577000',
+        ),
+        City(
+          id: 129857,
+          name: 'Salto',
+          latitude: '-31.38333000',
+          longitude: '-57.96667000',
+        ),
+        City(
+          id: 129889,
+          name: 'Villa Constitución',
+          latitude: '-31.06913000',
+          longitude: '-57.84946000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3204,
+      name: 'San José Department',
+      stateCode: 'SJ',
+      cities: [
+        City(
+          id: 129797,
+          name: 'Delta del Tigre',
+          latitude: '-34.76488000',
+          longitude: '-56.36450000',
+        ),
+        City(
+          id: 129801,
+          name: 'Ecilda Paullier',
+          latitude: '-34.35778000',
+          longitude: '-57.04883000',
+        ),
+        City(
+          id: 129823,
+          name: 'Libertad',
+          latitude: '-34.63459000',
+          longitude: '-56.61739000',
+        ),
+        City(
+          id: 129849,
+          name: 'Puntas de Valdéz',
+          latitude: '-34.58550000',
+          longitude: '-56.70097000',
+        ),
+        City(
+          id: 129851,
+          name: 'Rafael Perazza',
+          latitude: '-34.52335000',
+          longitude: '-56.79710000',
+        ),
+        City(
+          id: 129854,
+          name: 'Rodríguez',
+          latitude: '-34.38100000',
+          longitude: '-56.53797000',
+        ),
+        City(
+          id: 129864,
+          name: 'San José de Mayo',
+          latitude: '-34.33750000',
+          longitude: '-56.71361000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3219,
+      name: 'Soriano Department',
+      stateCode: 'SO',
+      cities: [
+        City(
+          id: 129787,
+          name: 'Cardona',
+          latitude: '-33.87049000',
+          longitude: '-57.36954000',
+        ),
+        City(
+          id: 129799,
+          name: 'Dolores',
+          latitude: '-33.53009000',
+          longitude: '-58.21701000',
+        ),
+        City(
+          id: 129811,
+          name: 'José Enrique Rodó',
+          latitude: '-33.69618000',
+          longitude: '-57.53153000',
+        ),
+        City(
+          id: 129828,
+          name: 'Mercedes',
+          latitude: '-33.25240000',
+          longitude: '-58.03047000',
+        ),
+        City(
+          id: 129839,
+          name: 'Palmitas',
+          latitude: '-33.50719000',
+          longitude: '-57.80079000',
+        ),
+        City(
+          id: 129867,
+          name: 'Santa Catalina',
+          latitude: '-33.79100000',
+          longitude: '-57.48824000',
+        ),
+        City(
+          id: 129891,
+          name: 'Villa Soriano',
+          latitude: '-33.39811000',
+          longitude: '-58.32177000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3221,
+      name: 'Tacuarembó Department',
+      stateCode: 'TA',
+      cities: [
+        City(
+          id: 129796,
+          name: 'Curtina',
+          latitude: '-32.15000000',
+          longitude: '-56.11667000',
+        ),
+        City(
+          id: 129843,
+          name: 'Paso de los Toros',
+          latitude: '-32.81667000',
+          longitude: '-56.51667000',
+        ),
+        City(
+          id: 129877,
+          name: 'Tacuarembó',
+          latitude: '-31.71694000',
+          longitude: '-55.98111000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3214,
+      name: 'Treinta y Tres Department',
+      stateCode: 'TT',
+      cities: [
+        City(
+          id: 129868,
+          name: 'Santa Clara de Olimar',
+          latitude: '-32.92254000',
+          longitude: '-54.94447000',
+        ),
+        City(
+          id: 129883,
+          name: 'Treinta y Tres',
+          latitude: '-33.23333000',
+          longitude: '-54.38333000',
+        ),
+        City(
+          id: 129887,
+          name: 'Vergara',
+          latitude: '-32.94419000',
+          longitude: '-53.93810000',
+        ),
+        City(
+          id: 129890,
+          name: 'Villa Sara',
+          latitude: '-33.25340000',
+          longitude: '-54.41947000',
+        ),
+      ],
+    ),
+  ],
+);

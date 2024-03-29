@@ -3,867 +3,1106 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const est = Country(
-    id: 69,
-    name: 'Estonia',
-    iso3: 'EST',
-    iso2: 'EE',
-    phoneCode: '372',
-    capital: 'Tallinn',
-    currency: 'EUR',
-    currencySymbol: r'€',
-    tld: '.ee',
-    native: 'Eesti',
-    region: 'Europe',
-    subregion: 'Northern Europe',
-    timezones: [
-      Timezone(
-          zoneName: 'Europe/Tallinn',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'EET',
-          tzName: 'Eastern European Time')
-    ],
-    emoji: '🇪🇪',
-    emojiU: 'U+1F1EA U+1F1EA',
-    states: [
-      State(id: 3567, name: 'Harju County', stateCode: '37', cities: [
-        City(
-            id: 31595,
-            name: 'Anija vald',
-            latitude: '59.27644000',
-            longitude: '25.48168000'),
-        City(
-            id: 31598,
-            name: 'Aruküla',
-            latitude: '59.36686000',
-            longitude: '25.07618000'),
-        City(
-            id: 31602,
-            name: 'Haabneeme',
-            latitude: '59.51358000',
-            longitude: '24.82225000'),
-        City(
-            id: 31607,
-            name: 'Harku',
-            latitude: '59.38641000',
-            longitude: '24.57176000'),
-        City(
-            id: 31608,
-            name: 'Harku vald',
-            latitude: '59.39157000',
-            longitude: '24.46206000'),
-        City(
-            id: 31613,
-            name: 'Jõelähtme vald',
-            latitude: '59.43996000',
-            longitude: '25.13535000'),
-        City(
-            id: 31618,
-            name: 'Jüri',
-            latitude: '59.35417000',
-            longitude: '24.89417000'),
-        City(
-            id: 31626,
-            name: 'Kehra',
-            latitude: '59.33611000',
-            longitude: '25.32111000'),
-        City(
-            id: 31629,
-            name: 'Keila',
-            latitude: '59.30361000',
-            longitude: '24.41306000'),
-        City(
-            id: 31631,
-            name: 'Kiili',
-            latitude: '59.30775000',
-            longitude: '24.83776000'),
-        City(
-            id: 31632,
-            name: 'Kiili vald',
-            latitude: '59.29672000',
-            longitude: '24.85292000'),
-        City(
-            id: 31640,
-            name: 'Kose',
-            latitude: '59.46001000',
-            longitude: '24.87824000'),
-        City(
-            id: 31644,
-            name: 'Kuusalu',
-            latitude: '59.44389000',
-            longitude: '25.44139000'),
-        City(
-            id: 31647,
-            name: 'Laagri',
-            latitude: '59.35083000',
-            longitude: '24.61418000'),
-        City(
-            id: 31651,
-            name: 'Loksa',
-            latitude: '59.57639000',
-            longitude: '25.72139000'),
-        City(
-            id: 31652,
-            name: 'Loksa linn',
-            latitude: '59.57844000',
-            longitude: '25.71667000'),
-        City(
-            id: 31653,
-            name: 'Loo',
-            latitude: '59.43123000',
-            longitude: '24.94949000'),
-        City(
-            id: 31658,
-            name: 'Maardu',
-            latitude: '59.46529000',
-            longitude: '24.98215000'),
-        City(
-            id: 31659,
-            name: 'Maardu linn',
-            latitude: '59.46385000',
-            longitude: '24.97350000'),
-        City(
-            id: 31676,
-            name: 'Paldiski',
-            latitude: '59.35667000',
-            longitude: '24.05306000'),
-        City(
-            id: 31678,
-            name: 'Pringi',
-            latitude: '59.53459000',
-            longitude: '24.79726000'),
-        City(
-            id: 31688,
-            name: 'Raasiku',
-            latitude: '59.36639000',
-            longitude: '25.18306000'),
-        City(
-            id: 31689,
-            name: 'Rae vald',
-            latitude: '59.33202000',
-            longitude: '24.93932000'),
-        City(
-            id: 31695,
-            name: 'Riisipere',
-            latitude: '59.11417000',
-            longitude: '24.31056000'),
-        City(
-            id: 31698,
-            name: 'Rummu',
-            latitude: '59.53528000',
-            longitude: '24.79972000'),
-        City(
-            id: 31704,
-            name: 'Saku',
-            latitude: '59.30354000',
-            longitude: '24.66382000'),
-        City(
-            id: 31705,
-            name: 'Saku vald',
-            latitude: '59.28069000',
-            longitude: '24.71649000'),
-        City(
-            id: 31706,
-            name: 'Saue',
-            latitude: '59.32258000',
-            longitude: '24.54967000'),
-        City(
-            id: 31707,
-            name: 'Saue vald',
-            latitude: '59.29255000',
-            longitude: '24.52503000'),
-        City(
-            id: 31714,
-            name: 'Tabasalu',
-            latitude: '59.42607000',
-            longitude: '24.55330000'),
-        City(
-            id: 31716,
-            name: 'Tallinn',
-            latitude: '59.43696000',
-            longitude: '24.75353000'),
-        City(
-            id: 31727,
-            name: 'Turba',
-            latitude: '59.08306000',
-            longitude: '24.22500000'),
-        City(
-            id: 31734,
-            name: 'Vaida',
-            latitude: '59.28546000',
-            longitude: '24.97897000'),
-        City(
-            id: 31737,
-            name: 'Viimsi',
-            latitude: '59.50502000',
-            longitude: '24.84807000'),
-        City(
-            id: 31738,
-            name: 'Viimsi vald',
-            latitude: '59.50204000',
-            longitude: '24.84833000')
-      ]),
-      State(id: 3555, name: 'Hiiu County', stateCode: '39', cities: [
-        City(
-            id: 31645,
-            name: 'Kärdla',
-            latitude: '58.99778000',
-            longitude: '22.74917000')
-      ]),
-      State(id: 3569, name: 'Ida-Viru County', stateCode: '44', cities: [
-        City(
-            id: 31610,
-            name: 'Iisaku',
-            latitude: '59.10139000',
-            longitude: '27.30806000'),
-        City(
-            id: 31616,
-            name: 'Jõhvi',
-            latitude: '59.35917000',
-            longitude: '27.42111000'),
-        City(
-            id: 31617,
-            name: 'Jõhvi vald',
-            latitude: '59.35653000',
-            longitude: '27.39304000'),
-        City(
-            id: 31634,
-            name: 'Kiviõli',
-            latitude: '59.35306000',
-            longitude: '26.97111000'),
-        City(
-            id: 31638,
-            name: 'Kohtla-Järve',
-            latitude: '59.39861000',
-            longitude: '27.27306000'),
-        City(
-            id: 31639,
-            name: 'Kohtla-Nõmme',
-            latitude: '59.35167000',
-            longitude: '27.17500000'),
-        City(
-            id: 31657,
-            name: 'Lüganuse vald',
-            latitude: '59.39262000',
-            longitude: '27.07641000'),
-        City(
-            id: 31665,
-            name: 'Narva',
-            latitude: '59.37722000',
-            longitude: '28.19028000'),
-        City(
-            id: 31666,
-            name: 'Narva-Jõesuu',
-            latitude: '59.45889000',
-            longitude: '28.04083000'),
-        City(
-            id: 31667,
-            name: 'Narva-Jõesuu linn',
-            latitude: '59.44127000',
-            longitude: '28.02142000'),
-        City(
-            id: 31687,
-            name: 'Püssi',
-            latitude: '59.36000000',
-            longitude: '27.04972000'),
-        City(
-            id: 31709,
-            name: 'Sillamäe',
-            latitude: '59.39697000',
-            longitude: '27.76331000'),
-        City(
-            id: 31724,
-            name: 'Toila',
-            latitude: '59.42127000',
-            longitude: '27.50807000'),
-        City(
-            id: 31745,
-            name: 'Voka',
-            latitude: '59.40776000',
-            longitude: '27.58263000')
-      ]),
-      State(id: 3566, name: 'Järva County', stateCode: '51', cities: [
-        City(
-            id: 31611,
-            name: 'Järva-Jaani',
-            latitude: '59.03861000',
-            longitude: '25.88639000'),
-        City(
-            id: 31635,
-            name: 'Koeru',
-            latitude: '58.96306000',
-            longitude: '26.03083000'),
-        City(
-            id: 31672,
-            name: 'Paide',
-            latitude: '58.88556000',
-            longitude: '25.55722000'),
-        City(
-            id: 31673,
-            name: 'Paide linn',
-            latitude: '58.88504000',
-            longitude: '25.56021000'),
-        City(
-            id: 31712,
-            name: 'Särevere',
-            latitude: '58.79000000',
-            longitude: '25.42806000'),
-        City(
-            id: 31729,
-            name: 'Türi',
-            latitude: '58.80861000',
-            longitude: '25.43250000'),
-        City(
-            id: 31730,
-            name: 'Türi vald',
-            latitude: '58.74143000',
-            longitude: '25.46443000')
-      ]),
-      State(id: 3565, name: 'Jõgeva County', stateCode: '49', cities: [
-        City(
-            id: 31614,
-            name: 'Jõgeva',
-            latitude: '58.74667000',
-            longitude: '26.39389000'),
-        City(
-            id: 31615,
-            name: 'Jõgeva vald',
-            latitude: '58.78732000',
-            longitude: '26.38122000'),
-        City(
-            id: 31661,
-            name: 'Mustvee',
-            latitude: '58.84861000',
-            longitude: '26.93972000'),
-        City(
-            id: 31683,
-            name: 'Põltsamaa',
-            latitude: '58.65250000',
-            longitude: '25.97056000'),
-        City(
-            id: 31684,
-            name: 'Põltsamaa vald',
-            latitude: '58.64067000',
-            longitude: '26.00957000')
-      ]),
-      State(id: 3568, name: 'Lääne County', stateCode: '57', cities: [
-        City(
-            id: 31603,
-            name: 'Haapsalu',
-            latitude: '58.94306000',
-            longitude: '23.54139000'),
-        City(
-            id: 31604,
-            name: 'Haapsalu linn',
-            latitude: '58.93580000',
-            longitude: '23.53005000'),
-        City(
-            id: 31609,
-            name: 'Hullo',
-            latitude: '58.99004000',
-            longitude: '23.24441000'),
-        City(
-            id: 31656,
-            name: 'Lääne-Nigula vald',
-            latitude: '58.96045000',
-            longitude: '23.74489000'),
-        City(
-            id: 31715,
-            name: 'Taebla',
-            latitude: '58.95389000',
-            longitude: '23.75222000'),
-        City(
-            id: 31731,
-            name: 'Uuemõisa',
-            latitude: '58.93944000',
-            longitude: '23.58944000'),
-        City(
-            id: 31746,
-            name: 'Vormsi vald',
-            latitude: '58.99986000',
-            longitude: '23.23408000')
-      ]),
-      State(id: 3564, name: 'Lääne-Viru County', stateCode: '59', cities: [
-        City(
-            id: 31599,
-            name: 'Aseri',
-            latitude: '59.45056000',
-            longitude: '26.86750000'),
-        City(
-            id: 31605,
-            name: 'Haljala',
-            latitude: '59.43361000',
-            longitude: '26.26139000'),
-        City(
-            id: 31606,
-            name: 'Haljala vald',
-            latitude: '59.45427000',
-            longitude: '26.22015000'),
-        City(
-            id: 31619,
-            name: 'Kadrina',
-            latitude: '59.33472000',
-            longitude: '26.14500000'),
-        City(
-            id: 31620,
-            name: 'Kadrina vald',
-            latitude: '59.37463000',
-            longitude: '26.04150000'),
-        City(
-            id: 31641,
-            name: 'Kunda',
-            latitude: '59.49861000',
-            longitude: '26.52611000'),
-        City(
-            id: 31675,
-            name: 'Pajusti',
-            latitude: '59.27444000',
-            longitude: '26.42333000'),
-        City(
-            id: 31690,
-            name: 'Rakke',
-            latitude: '58.98167000',
-            longitude: '26.25444000'),
-        City(
-            id: 31691,
-            name: 'Rakvere',
-            latitude: '59.34639000',
-            longitude: '26.35583000'),
-        City(
-            id: 31692,
-            name: 'Rakvere vald',
-            latitude: '59.32457000',
-            longitude: '26.29757000'),
-        City(
-            id: 31713,
-            name: 'Sõmeru',
-            latitude: '59.36111000',
-            longitude: '26.43750000'),
-        City(
-            id: 31717,
-            name: 'Tamsalu',
-            latitude: '59.15861000',
-            longitude: '26.11528000'),
-        City(
-            id: 31718,
-            name: 'Tapa',
-            latitude: '59.26056000',
-            longitude: '25.95861000'),
-        City(
-            id: 31719,
-            name: 'Tapa vald',
-            latitude: '59.23821000',
-            longitude: '25.84572000'),
-        City(
-            id: 31733,
-            name: 'Vaiatu',
-            latitude: '59.35556000',
-            longitude: '25.99528000'),
-        City(
-            id: 31747,
-            name: 'Väike-Maarja',
-            latitude: '59.12639000',
-            longitude: '26.25000000'),
-        City(
-            id: 31748,
-            name: 'Väike-Maarja vald',
-            latitude: '59.06556000',
-            longitude: '26.31417000'),
-        City(
-            id: 31742,
-            name: 'Vinni',
-            latitude: '59.29583000',
-            longitude: '26.43222000'),
-        City(
-            id: 31743,
-            name: 'Vinni vald',
-            latitude: '59.23744000',
-            longitude: '26.62261000'),
-        City(
-            id: 31744,
-            name: 'Viru-Nigula vald',
-            latitude: '59.46387000',
-            longitude: '26.58585000')
-      ]),
-      State(id: 3562, name: 'Pärnu County', stateCode: '67', cities: [
-        City(
-            id: 31600,
-            name: 'Audru',
-            latitude: '58.40861000',
-            longitude: '24.37389000'),
-        City(
-            id: 31630,
-            name: 'Kihnu vald',
-            latitude: '58.13000000',
-            longitude: '23.99002000'),
-        City(
-            id: 31633,
-            name: 'Kilingi-Nõmme',
-            latitude: '58.15028000',
-            longitude: '24.96417000'),
-        City(
-            id: 31648,
-            name: 'Lihula',
-            latitude: '58.68139000',
-            longitude: '23.84528000'),
-        City(
-            id: 31650,
-            name: 'Linaküla',
-            latitude: '58.13722000',
-            longitude: '23.97444000'),
-        City(
-            id: 31674,
-            name: 'Paikuse',
-            latitude: '58.37917000',
-            longitude: '24.63444000'),
-        City(
-            id: 31680,
-            name: 'Pärnu',
-            latitude: '58.38588000',
-            longitude: '24.49711000'),
-        City(
-            id: 31681,
-            name: 'Pärnu linn',
-            latitude: '58.37901000',
-            longitude: '24.52784000'),
-        City(
-            id: 31682,
-            name: 'Pärnu-Jaagupi',
-            latitude: '58.61052000',
-            longitude: '24.50689000'),
-        City(
-            id: 31703,
-            name: 'Saarde vald',
-            latitude: '58.13802000',
-            longitude: '24.95564000'),
-        City(
-            id: 31708,
-            name: 'Sauga',
-            latitude: '58.42720000',
-            longitude: '24.49496000'),
-        City(
-            id: 31710,
-            name: 'Sindi',
-            latitude: '58.40056000',
-            longitude: '24.66750000'),
-        City(
-            id: 31725,
-            name: 'Tootsi',
-            latitude: '58.57806000',
-            longitude: '24.79250000'),
-        City(
-            id: 31726,
-            name: 'Tori vald',
-            latitude: '58.48663000',
-            longitude: '24.88961000'),
-        City(
-            id: 31732,
-            name: 'Uulu',
-            latitude: '58.28361000',
-            longitude: '24.58722000'),
-        City(
-            id: 31749,
-            name: 'Vändra',
-            latitude: '58.64806000',
-            longitude: '25.03611000')
-      ]),
-      State(id: 3563, name: 'Põlva County', stateCode: '65', cities: [
-        City(
-            id: 31623,
-            name: 'Kanepi',
-            latitude: '57.98306000',
-            longitude: '26.75639000'),
-        City(
-            id: 31624,
-            name: 'Kanepi vald',
-            latitude: '57.98058000',
-            longitude: '26.76151000'),
-        City(
-            id: 31685,
-            name: 'Põlva',
-            latitude: '58.06028000',
-            longitude: '27.06944000'),
-        City(
-            id: 31686,
-            name: 'Põlva vald',
-            latitude: '58.08368000',
-            longitude: '26.98242000'),
-        City(
-            id: 31699,
-            name: 'Räpina',
-            latitude: '58.09806000',
-            longitude: '27.46361000'),
-        City(
-            id: 31700,
-            name: 'Räpina vald',
-            latitude: '58.10777000',
-            longitude: '27.38580000')
-      ]),
-      State(id: 3559, name: 'Rapla County', stateCode: '70', cities: [
-        City(
-            id: 31612,
-            name: 'Järvakandi',
-            latitude: '58.77889000',
-            longitude: '24.82583000'),
-        City(
-            id: 31627,
-            name: 'Kehtna',
-            latitude: '58.93028000',
-            longitude: '24.87806000'),
-        City(
-            id: 31628,
-            name: 'Kehtna vald',
-            latitude: '58.84274000',
-            longitude: '24.89002000'),
-        City(
-            id: 31636,
-            name: 'Kohila',
-            latitude: '59.16806000',
-            longitude: '24.75750000'),
-        City(
-            id: 31637,
-            name: 'Kohila vald',
-            latitude: '59.15283000',
-            longitude: '24.73337000'),
-        City(
-            id: 31662,
-            name: 'Märjamaa',
-            latitude: '58.90389000',
-            longitude: '24.43056000'),
-        City(
-            id: 31663,
-            name: 'Märjamaa vald',
-            latitude: '58.90262000',
-            longitude: '24.39423000'),
-        City(
-            id: 31693,
-            name: 'Rapla',
-            latitude: '59.00722000',
-            longitude: '24.79278000'),
-        City(
-            id: 31694,
-            name: 'Rapla vald',
-            latitude: '59.03309000',
-            longitude: '24.71793000')
-      ]),
-      State(id: 3561, name: 'Saare County', stateCode: '74', cities: [
-        City(
-            id: 31643,
-            name: 'Kuressaare',
-            latitude: '58.24806000',
-            longitude: '22.50389000'),
-        City(
-            id: 31649,
-            name: 'Liiva',
-            latitude: '58.60194000',
-            longitude: '23.24694000'),
-        City(
-            id: 31660,
-            name: 'Muhu vald',
-            latitude: '58.58486000',
-            longitude: '23.25609000'),
-        City(
-            id: 31670,
-            name: 'Orissaare',
-            latitude: '58.55917000',
-            longitude: '23.08262000'),
-        City(
-            id: 31696,
-            name: 'Ruhnu',
-            latitude: '57.80028000',
-            longitude: '23.24833000'),
-        City(
-            id: 31697,
-            name: 'Ruhnu vald',
-            latitude: '57.80309000',
-            longitude: '23.24250000'),
-        City(
-            id: 31723,
-            name: 'Tehumardi',
-            latitude: '58.18027000',
-            longitude: '22.24646000')
-      ]),
-      State(id: 3557, name: 'Tartu County', stateCode: '78', cities: [
-        City(
-            id: 31594,
-            name: 'Alatskivi',
-            latitude: '58.59806000',
-            longitude: '27.13361000'),
-        City(
-            id: 31601,
-            name: 'Elva',
-            latitude: '58.22250000',
-            longitude: '26.42111000'),
-        City(
-            id: 31621,
-            name: 'Kallaste',
-            latitude: '58.66312000',
-            longitude: '27.16164000'),
-        City(
-            id: 31622,
-            name: 'Kambja vald',
-            latitude: '58.20255000',
-            longitude: '26.68996000'),
-        City(
-            id: 31646,
-            name: 'Kõrveküla',
-            latitude: '58.42417000',
-            longitude: '26.78222000'),
-        City(
-            id: 31642,
-            name: 'Kurepalu',
-            latitude: '58.31861000',
-            longitude: '26.84083000'),
-        City(
-            id: 31654,
-            name: 'Luunja',
-            latitude: '58.35583000',
-            longitude: '26.88083000'),
-        City(
-            id: 31655,
-            name: 'Luunja vald',
-            latitude: '58.39178000',
-            longitude: '26.95574000'),
-        City(
-            id: 31668,
-            name: 'Nõo',
-            latitude: '58.27556000',
-            longitude: '26.53750000'),
-        City(
-            id: 31669,
-            name: 'Nõo vald',
-            latitude: '58.24199000',
-            longitude: '26.52499000'),
-        City(
-            id: 31677,
-            name: 'Peipsiääre vald',
-            latitude: '58.51559000',
-            longitude: '27.18444000'),
-        City(
-            id: 31679,
-            name: 'Puhja',
-            latitude: '58.34194000',
-            longitude: '26.31472000'),
-        City(
-            id: 31720,
-            name: 'Tartu',
-            latitude: '58.38062000',
-            longitude: '26.72509000'),
-        City(
-            id: 31721,
-            name: 'Tartu linn',
-            latitude: '58.37498000',
-            longitude: '26.73256000'),
-        City(
-            id: 31722,
-            name: 'Tartu vald',
-            latitude: '58.47800000',
-            longitude: '26.74956000'),
-        City(
-            id: 31754,
-            name: 'Ülenurme',
-            latitude: '58.31620000',
-            longitude: '26.72517000')
-      ]),
-      State(id: 3558, name: 'Valga County', stateCode: '82', cities: [
-        City(
-            id: 31671,
-            name: 'Otepää vald',
-            latitude: '58.02177000',
-            longitude: '26.45306000'),
-        City(
-            id: 31728,
-            name: 'Tõrva',
-            latitude: '58.00278000',
-            longitude: '25.93500000'),
-        City(
-            id: 31735,
-            name: 'Valga',
-            latitude: '57.77781000',
-            longitude: '26.04730000')
-      ]),
-      State(id: 3556, name: 'Viljandi County', stateCode: '84', cities: [
-        City(
-            id: 31593,
-            name: 'Abja-Paluoja',
-            latitude: '58.12528000',
-            longitude: '25.34972000'),
-        City(
-            id: 31625,
-            name: 'Karksi-Nuia',
-            latitude: '58.10333000',
-            longitude: '25.56278000'),
-        City(
-            id: 31664,
-            name: 'Mõisaküla',
-            latitude: '58.09222000',
-            longitude: '25.18639000'),
-        City(
-            id: 31711,
-            name: 'Suure-Jaani',
-            latitude: '58.53611000',
-            longitude: '25.47056000'),
-        City(
-            id: 31739,
-            name: 'Viiratsi',
-            latitude: '58.36000000',
-            longitude: '25.63722000'),
-        City(
-            id: 31740,
-            name: 'Viljandi',
-            latitude: '58.36389000',
-            longitude: '25.59000000'),
-        City(
-            id: 31741,
-            name: 'Viljandi vald',
-            latitude: '58.36392000',
-            longitude: '25.49103000'),
-        City(
-            id: 31751,
-            name: 'Võhma',
-            latitude: '58.62833000',
-            longitude: '25.54833000')
-      ]),
-      State(id: 3560, name: 'Võru County', stateCode: '86', cities: [
-        City(
-            id: 31596,
-            name: 'Antsla',
-            latitude: '57.82556000',
-            longitude: '26.54056000'),
-        City(
-            id: 31597,
-            name: 'Antsla vald',
-            latitude: '57.77738000',
-            longitude: '26.59520000'),
-        City(
-            id: 31701,
-            name: 'Rõuge',
-            latitude: '57.72778000',
-            longitude: '26.90972000'),
-        City(
-            id: 31702,
-            name: 'Rõuge vald',
-            latitude: '57.72780000',
-            longitude: '26.88033000'),
-        City(
-            id: 31736,
-            name: 'Vana-Antsla',
-            latitude: '57.86611000',
-            longitude: '26.53222000'),
-        City(
-            id: 31750,
-            name: 'Värska',
-            latitude: '57.95806000',
-            longitude: '27.63806000'),
-        City(
-            id: 31752,
-            name: 'Võru',
-            latitude: '57.83389000',
-            longitude: '27.01944000'),
-        City(
-            id: 31753,
-            name: 'Võru vald',
-            latitude: '57.86618000',
-            longitude: '26.97418000')
-      ])
-    ]);
+  id: 69,
+  name: 'Estonia',
+  iso3: 'EST',
+  iso2: 'EE',
+  phoneCode: '372',
+  capital: 'Tallinn',
+  currency: 'EUR',
+  currencySymbol: r'€',
+  tld: '.ee',
+  native: 'Eesti',
+  region: 'Europe',
+  subregion: 'Northern Europe',
+  timezones: [
+    Timezone(
+      zoneName: 'Europe/Tallinn',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'EET',
+      tzName: 'Eastern European Time',
+    )
+  ],
+  emoji: '🇪🇪',
+  emojiU: 'U+1F1EA U+1F1EA',
+  states: [
+    CountryState(
+      id: 3567,
+      name: 'Harju County',
+      stateCode: '37',
+      cities: [
+        City(
+          id: 31595,
+          name: 'Anija vald',
+          latitude: '59.27644000',
+          longitude: '25.48168000',
+        ),
+        City(
+          id: 31598,
+          name: 'Aruküla',
+          latitude: '59.36686000',
+          longitude: '25.07618000',
+        ),
+        City(
+          id: 31602,
+          name: 'Haabneeme',
+          latitude: '59.51358000',
+          longitude: '24.82225000',
+        ),
+        City(
+          id: 31607,
+          name: 'Harku',
+          latitude: '59.38641000',
+          longitude: '24.57176000',
+        ),
+        City(
+          id: 31608,
+          name: 'Harku vald',
+          latitude: '59.39157000',
+          longitude: '24.46206000',
+        ),
+        City(
+          id: 31613,
+          name: 'Jõelähtme vald',
+          latitude: '59.43996000',
+          longitude: '25.13535000',
+        ),
+        City(
+          id: 31618,
+          name: 'Jüri',
+          latitude: '59.35417000',
+          longitude: '24.89417000',
+        ),
+        City(
+          id: 31626,
+          name: 'Kehra',
+          latitude: '59.33611000',
+          longitude: '25.32111000',
+        ),
+        City(
+          id: 31629,
+          name: 'Keila',
+          latitude: '59.30361000',
+          longitude: '24.41306000',
+        ),
+        City(
+          id: 31631,
+          name: 'Kiili',
+          latitude: '59.30775000',
+          longitude: '24.83776000',
+        ),
+        City(
+          id: 31632,
+          name: 'Kiili vald',
+          latitude: '59.29672000',
+          longitude: '24.85292000',
+        ),
+        City(
+          id: 31640,
+          name: 'Kose',
+          latitude: '59.46001000',
+          longitude: '24.87824000',
+        ),
+        City(
+          id: 31644,
+          name: 'Kuusalu',
+          latitude: '59.44389000',
+          longitude: '25.44139000',
+        ),
+        City(
+          id: 31647,
+          name: 'Laagri',
+          latitude: '59.35083000',
+          longitude: '24.61418000',
+        ),
+        City(
+          id: 31651,
+          name: 'Loksa',
+          latitude: '59.57639000',
+          longitude: '25.72139000',
+        ),
+        City(
+          id: 31652,
+          name: 'Loksa linn',
+          latitude: '59.57844000',
+          longitude: '25.71667000',
+        ),
+        City(
+          id: 31653,
+          name: 'Loo',
+          latitude: '59.43123000',
+          longitude: '24.94949000',
+        ),
+        City(
+          id: 31658,
+          name: 'Maardu',
+          latitude: '59.46529000',
+          longitude: '24.98215000',
+        ),
+        City(
+          id: 31659,
+          name: 'Maardu linn',
+          latitude: '59.46385000',
+          longitude: '24.97350000',
+        ),
+        City(
+          id: 31676,
+          name: 'Paldiski',
+          latitude: '59.35667000',
+          longitude: '24.05306000',
+        ),
+        City(
+          id: 31678,
+          name: 'Pringi',
+          latitude: '59.53459000',
+          longitude: '24.79726000',
+        ),
+        City(
+          id: 31688,
+          name: 'Raasiku',
+          latitude: '59.36639000',
+          longitude: '25.18306000',
+        ),
+        City(
+          id: 31689,
+          name: 'Rae vald',
+          latitude: '59.33202000',
+          longitude: '24.93932000',
+        ),
+        City(
+          id: 31695,
+          name: 'Riisipere',
+          latitude: '59.11417000',
+          longitude: '24.31056000',
+        ),
+        City(
+          id: 31698,
+          name: 'Rummu',
+          latitude: '59.53528000',
+          longitude: '24.79972000',
+        ),
+        City(
+          id: 31704,
+          name: 'Saku',
+          latitude: '59.30354000',
+          longitude: '24.66382000',
+        ),
+        City(
+          id: 31705,
+          name: 'Saku vald',
+          latitude: '59.28069000',
+          longitude: '24.71649000',
+        ),
+        City(
+          id: 31706,
+          name: 'Saue',
+          latitude: '59.32258000',
+          longitude: '24.54967000',
+        ),
+        City(
+          id: 31707,
+          name: 'Saue vald',
+          latitude: '59.29255000',
+          longitude: '24.52503000',
+        ),
+        City(
+          id: 31714,
+          name: 'Tabasalu',
+          latitude: '59.42607000',
+          longitude: '24.55330000',
+        ),
+        City(
+          id: 31716,
+          name: 'Tallinn',
+          latitude: '59.43696000',
+          longitude: '24.75353000',
+        ),
+        City(
+          id: 31727,
+          name: 'Turba',
+          latitude: '59.08306000',
+          longitude: '24.22500000',
+        ),
+        City(
+          id: 31734,
+          name: 'Vaida',
+          latitude: '59.28546000',
+          longitude: '24.97897000',
+        ),
+        City(
+          id: 31737,
+          name: 'Viimsi',
+          latitude: '59.50502000',
+          longitude: '24.84807000',
+        ),
+        City(
+          id: 31738,
+          name: 'Viimsi vald',
+          latitude: '59.50204000',
+          longitude: '24.84833000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3555,
+      name: 'Hiiu County',
+      stateCode: '39',
+      cities: [
+        City(
+          id: 31645,
+          name: 'Kärdla',
+          latitude: '58.99778000',
+          longitude: '22.74917000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3569,
+      name: 'Ida-Viru County',
+      stateCode: '44',
+      cities: [
+        City(
+          id: 31610,
+          name: 'Iisaku',
+          latitude: '59.10139000',
+          longitude: '27.30806000',
+        ),
+        City(
+          id: 31616,
+          name: 'Jõhvi',
+          latitude: '59.35917000',
+          longitude: '27.42111000',
+        ),
+        City(
+          id: 31617,
+          name: 'Jõhvi vald',
+          latitude: '59.35653000',
+          longitude: '27.39304000',
+        ),
+        City(
+          id: 31634,
+          name: 'Kiviõli',
+          latitude: '59.35306000',
+          longitude: '26.97111000',
+        ),
+        City(
+          id: 31638,
+          name: 'Kohtla-Järve',
+          latitude: '59.39861000',
+          longitude: '27.27306000',
+        ),
+        City(
+          id: 31639,
+          name: 'Kohtla-Nõmme',
+          latitude: '59.35167000',
+          longitude: '27.17500000',
+        ),
+        City(
+          id: 31657,
+          name: 'Lüganuse vald',
+          latitude: '59.39262000',
+          longitude: '27.07641000',
+        ),
+        City(
+          id: 31665,
+          name: 'Narva',
+          latitude: '59.37722000',
+          longitude: '28.19028000',
+        ),
+        City(
+          id: 31666,
+          name: 'Narva-Jõesuu',
+          latitude: '59.45889000',
+          longitude: '28.04083000',
+        ),
+        City(
+          id: 31667,
+          name: 'Narva-Jõesuu linn',
+          latitude: '59.44127000',
+          longitude: '28.02142000',
+        ),
+        City(
+          id: 31687,
+          name: 'Püssi',
+          latitude: '59.36000000',
+          longitude: '27.04972000',
+        ),
+        City(
+          id: 31709,
+          name: 'Sillamäe',
+          latitude: '59.39697000',
+          longitude: '27.76331000',
+        ),
+        City(
+          id: 31724,
+          name: 'Toila',
+          latitude: '59.42127000',
+          longitude: '27.50807000',
+        ),
+        City(
+          id: 31745,
+          name: 'Voka',
+          latitude: '59.40776000',
+          longitude: '27.58263000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3566,
+      name: 'Järva County',
+      stateCode: '51',
+      cities: [
+        City(
+          id: 31611,
+          name: 'Järva-Jaani',
+          latitude: '59.03861000',
+          longitude: '25.88639000',
+        ),
+        City(
+          id: 31635,
+          name: 'Koeru',
+          latitude: '58.96306000',
+          longitude: '26.03083000',
+        ),
+        City(
+          id: 31672,
+          name: 'Paide',
+          latitude: '58.88556000',
+          longitude: '25.55722000',
+        ),
+        City(
+          id: 31673,
+          name: 'Paide linn',
+          latitude: '58.88504000',
+          longitude: '25.56021000',
+        ),
+        City(
+          id: 31712,
+          name: 'Särevere',
+          latitude: '58.79000000',
+          longitude: '25.42806000',
+        ),
+        City(
+          id: 31729,
+          name: 'Türi',
+          latitude: '58.80861000',
+          longitude: '25.43250000',
+        ),
+        City(
+          id: 31730,
+          name: 'Türi vald',
+          latitude: '58.74143000',
+          longitude: '25.46443000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3565,
+      name: 'Jõgeva County',
+      stateCode: '49',
+      cities: [
+        City(
+          id: 31614,
+          name: 'Jõgeva',
+          latitude: '58.74667000',
+          longitude: '26.39389000',
+        ),
+        City(
+          id: 31615,
+          name: 'Jõgeva vald',
+          latitude: '58.78732000',
+          longitude: '26.38122000',
+        ),
+        City(
+          id: 31661,
+          name: 'Mustvee',
+          latitude: '58.84861000',
+          longitude: '26.93972000',
+        ),
+        City(
+          id: 31683,
+          name: 'Põltsamaa',
+          latitude: '58.65250000',
+          longitude: '25.97056000',
+        ),
+        City(
+          id: 31684,
+          name: 'Põltsamaa vald',
+          latitude: '58.64067000',
+          longitude: '26.00957000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3568,
+      name: 'Lääne County',
+      stateCode: '57',
+      cities: [
+        City(
+          id: 31603,
+          name: 'Haapsalu',
+          latitude: '58.94306000',
+          longitude: '23.54139000',
+        ),
+        City(
+          id: 31604,
+          name: 'Haapsalu linn',
+          latitude: '58.93580000',
+          longitude: '23.53005000',
+        ),
+        City(
+          id: 31609,
+          name: 'Hullo',
+          latitude: '58.99004000',
+          longitude: '23.24441000',
+        ),
+        City(
+          id: 31656,
+          name: 'Lääne-Nigula vald',
+          latitude: '58.96045000',
+          longitude: '23.74489000',
+        ),
+        City(
+          id: 31715,
+          name: 'Taebla',
+          latitude: '58.95389000',
+          longitude: '23.75222000',
+        ),
+        City(
+          id: 31731,
+          name: 'Uuemõisa',
+          latitude: '58.93944000',
+          longitude: '23.58944000',
+        ),
+        City(
+          id: 31746,
+          name: 'Vormsi vald',
+          latitude: '58.99986000',
+          longitude: '23.23408000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3564,
+      name: 'Lääne-Viru County',
+      stateCode: '59',
+      cities: [
+        City(
+          id: 31599,
+          name: 'Aseri',
+          latitude: '59.45056000',
+          longitude: '26.86750000',
+        ),
+        City(
+          id: 31605,
+          name: 'Haljala',
+          latitude: '59.43361000',
+          longitude: '26.26139000',
+        ),
+        City(
+          id: 31606,
+          name: 'Haljala vald',
+          latitude: '59.45427000',
+          longitude: '26.22015000',
+        ),
+        City(
+          id: 31619,
+          name: 'Kadrina',
+          latitude: '59.33472000',
+          longitude: '26.14500000',
+        ),
+        City(
+          id: 31620,
+          name: 'Kadrina vald',
+          latitude: '59.37463000',
+          longitude: '26.04150000',
+        ),
+        City(
+          id: 31641,
+          name: 'Kunda',
+          latitude: '59.49861000',
+          longitude: '26.52611000',
+        ),
+        City(
+          id: 31675,
+          name: 'Pajusti',
+          latitude: '59.27444000',
+          longitude: '26.42333000',
+        ),
+        City(
+          id: 31690,
+          name: 'Rakke',
+          latitude: '58.98167000',
+          longitude: '26.25444000',
+        ),
+        City(
+          id: 31691,
+          name: 'Rakvere',
+          latitude: '59.34639000',
+          longitude: '26.35583000',
+        ),
+        City(
+          id: 31692,
+          name: 'Rakvere vald',
+          latitude: '59.32457000',
+          longitude: '26.29757000',
+        ),
+        City(
+          id: 31713,
+          name: 'Sõmeru',
+          latitude: '59.36111000',
+          longitude: '26.43750000',
+        ),
+        City(
+          id: 31717,
+          name: 'Tamsalu',
+          latitude: '59.15861000',
+          longitude: '26.11528000',
+        ),
+        City(
+          id: 31718,
+          name: 'Tapa',
+          latitude: '59.26056000',
+          longitude: '25.95861000',
+        ),
+        City(
+          id: 31719,
+          name: 'Tapa vald',
+          latitude: '59.23821000',
+          longitude: '25.84572000',
+        ),
+        City(
+          id: 31733,
+          name: 'Vaiatu',
+          latitude: '59.35556000',
+          longitude: '25.99528000',
+        ),
+        City(
+          id: 31747,
+          name: 'Väike-Maarja',
+          latitude: '59.12639000',
+          longitude: '26.25000000',
+        ),
+        City(
+          id: 31748,
+          name: 'Väike-Maarja vald',
+          latitude: '59.06556000',
+          longitude: '26.31417000',
+        ),
+        City(
+          id: 31742,
+          name: 'Vinni',
+          latitude: '59.29583000',
+          longitude: '26.43222000',
+        ),
+        City(
+          id: 31743,
+          name: 'Vinni vald',
+          latitude: '59.23744000',
+          longitude: '26.62261000',
+        ),
+        City(
+          id: 31744,
+          name: 'Viru-Nigula vald',
+          latitude: '59.46387000',
+          longitude: '26.58585000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3562,
+      name: 'Pärnu County',
+      stateCode: '67',
+      cities: [
+        City(
+          id: 31600,
+          name: 'Audru',
+          latitude: '58.40861000',
+          longitude: '24.37389000',
+        ),
+        City(
+          id: 31630,
+          name: 'Kihnu vald',
+          latitude: '58.13000000',
+          longitude: '23.99002000',
+        ),
+        City(
+          id: 31633,
+          name: 'Kilingi-Nõmme',
+          latitude: '58.15028000',
+          longitude: '24.96417000',
+        ),
+        City(
+          id: 31648,
+          name: 'Lihula',
+          latitude: '58.68139000',
+          longitude: '23.84528000',
+        ),
+        City(
+          id: 31650,
+          name: 'Linaküla',
+          latitude: '58.13722000',
+          longitude: '23.97444000',
+        ),
+        City(
+          id: 31674,
+          name: 'Paikuse',
+          latitude: '58.37917000',
+          longitude: '24.63444000',
+        ),
+        City(
+          id: 31680,
+          name: 'Pärnu',
+          latitude: '58.38588000',
+          longitude: '24.49711000',
+        ),
+        City(
+          id: 31681,
+          name: 'Pärnu linn',
+          latitude: '58.37901000',
+          longitude: '24.52784000',
+        ),
+        City(
+          id: 31682,
+          name: 'Pärnu-Jaagupi',
+          latitude: '58.61052000',
+          longitude: '24.50689000',
+        ),
+        City(
+          id: 31703,
+          name: 'Saarde vald',
+          latitude: '58.13802000',
+          longitude: '24.95564000',
+        ),
+        City(
+          id: 31708,
+          name: 'Sauga',
+          latitude: '58.42720000',
+          longitude: '24.49496000',
+        ),
+        City(
+          id: 31710,
+          name: 'Sindi',
+          latitude: '58.40056000',
+          longitude: '24.66750000',
+        ),
+        City(
+          id: 31725,
+          name: 'Tootsi',
+          latitude: '58.57806000',
+          longitude: '24.79250000',
+        ),
+        City(
+          id: 31726,
+          name: 'Tori vald',
+          latitude: '58.48663000',
+          longitude: '24.88961000',
+        ),
+        City(
+          id: 31732,
+          name: 'Uulu',
+          latitude: '58.28361000',
+          longitude: '24.58722000',
+        ),
+        City(
+          id: 31749,
+          name: 'Vändra',
+          latitude: '58.64806000',
+          longitude: '25.03611000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3563,
+      name: 'Põlva County',
+      stateCode: '65',
+      cities: [
+        City(
+          id: 31623,
+          name: 'Kanepi',
+          latitude: '57.98306000',
+          longitude: '26.75639000',
+        ),
+        City(
+          id: 31624,
+          name: 'Kanepi vald',
+          latitude: '57.98058000',
+          longitude: '26.76151000',
+        ),
+        City(
+          id: 31685,
+          name: 'Põlva',
+          latitude: '58.06028000',
+          longitude: '27.06944000',
+        ),
+        City(
+          id: 31686,
+          name: 'Põlva vald',
+          latitude: '58.08368000',
+          longitude: '26.98242000',
+        ),
+        City(
+          id: 31699,
+          name: 'Räpina',
+          latitude: '58.09806000',
+          longitude: '27.46361000',
+        ),
+        City(
+          id: 31700,
+          name: 'Räpina vald',
+          latitude: '58.10777000',
+          longitude: '27.38580000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3559,
+      name: 'Rapla County',
+      stateCode: '70',
+      cities: [
+        City(
+          id: 31612,
+          name: 'Järvakandi',
+          latitude: '58.77889000',
+          longitude: '24.82583000',
+        ),
+        City(
+          id: 31627,
+          name: 'Kehtna',
+          latitude: '58.93028000',
+          longitude: '24.87806000',
+        ),
+        City(
+          id: 31628,
+          name: 'Kehtna vald',
+          latitude: '58.84274000',
+          longitude: '24.89002000',
+        ),
+        City(
+          id: 31636,
+          name: 'Kohila',
+          latitude: '59.16806000',
+          longitude: '24.75750000',
+        ),
+        City(
+          id: 31637,
+          name: 'Kohila vald',
+          latitude: '59.15283000',
+          longitude: '24.73337000',
+        ),
+        City(
+          id: 31662,
+          name: 'Märjamaa',
+          latitude: '58.90389000',
+          longitude: '24.43056000',
+        ),
+        City(
+          id: 31663,
+          name: 'Märjamaa vald',
+          latitude: '58.90262000',
+          longitude: '24.39423000',
+        ),
+        City(
+          id: 31693,
+          name: 'Rapla',
+          latitude: '59.00722000',
+          longitude: '24.79278000',
+        ),
+        City(
+          id: 31694,
+          name: 'Rapla vald',
+          latitude: '59.03309000',
+          longitude: '24.71793000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3561,
+      name: 'Saare County',
+      stateCode: '74',
+      cities: [
+        City(
+          id: 31643,
+          name: 'Kuressaare',
+          latitude: '58.24806000',
+          longitude: '22.50389000',
+        ),
+        City(
+          id: 31649,
+          name: 'Liiva',
+          latitude: '58.60194000',
+          longitude: '23.24694000',
+        ),
+        City(
+          id: 31660,
+          name: 'Muhu vald',
+          latitude: '58.58486000',
+          longitude: '23.25609000',
+        ),
+        City(
+          id: 31670,
+          name: 'Orissaare',
+          latitude: '58.55917000',
+          longitude: '23.08262000',
+        ),
+        City(
+          id: 31696,
+          name: 'Ruhnu',
+          latitude: '57.80028000',
+          longitude: '23.24833000',
+        ),
+        City(
+          id: 31697,
+          name: 'Ruhnu vald',
+          latitude: '57.80309000',
+          longitude: '23.24250000',
+        ),
+        City(
+          id: 31723,
+          name: 'Tehumardi',
+          latitude: '58.18027000',
+          longitude: '22.24646000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3557,
+      name: 'Tartu County',
+      stateCode: '78',
+      cities: [
+        City(
+          id: 31594,
+          name: 'Alatskivi',
+          latitude: '58.59806000',
+          longitude: '27.13361000',
+        ),
+        City(
+          id: 31601,
+          name: 'Elva',
+          latitude: '58.22250000',
+          longitude: '26.42111000',
+        ),
+        City(
+          id: 31621,
+          name: 'Kallaste',
+          latitude: '58.66312000',
+          longitude: '27.16164000',
+        ),
+        City(
+          id: 31622,
+          name: 'Kambja vald',
+          latitude: '58.20255000',
+          longitude: '26.68996000',
+        ),
+        City(
+          id: 31646,
+          name: 'Kõrveküla',
+          latitude: '58.42417000',
+          longitude: '26.78222000',
+        ),
+        City(
+          id: 31642,
+          name: 'Kurepalu',
+          latitude: '58.31861000',
+          longitude: '26.84083000',
+        ),
+        City(
+          id: 31654,
+          name: 'Luunja',
+          latitude: '58.35583000',
+          longitude: '26.88083000',
+        ),
+        City(
+          id: 31655,
+          name: 'Luunja vald',
+          latitude: '58.39178000',
+          longitude: '26.95574000',
+        ),
+        City(
+          id: 31668,
+          name: 'Nõo',
+          latitude: '58.27556000',
+          longitude: '26.53750000',
+        ),
+        City(
+          id: 31669,
+          name: 'Nõo vald',
+          latitude: '58.24199000',
+          longitude: '26.52499000',
+        ),
+        City(
+          id: 31677,
+          name: 'Peipsiääre vald',
+          latitude: '58.51559000',
+          longitude: '27.18444000',
+        ),
+        City(
+          id: 31679,
+          name: 'Puhja',
+          latitude: '58.34194000',
+          longitude: '26.31472000',
+        ),
+        City(
+          id: 31720,
+          name: 'Tartu',
+          latitude: '58.38062000',
+          longitude: '26.72509000',
+        ),
+        City(
+          id: 31721,
+          name: 'Tartu linn',
+          latitude: '58.37498000',
+          longitude: '26.73256000',
+        ),
+        City(
+          id: 31722,
+          name: 'Tartu vald',
+          latitude: '58.47800000',
+          longitude: '26.74956000',
+        ),
+        City(
+          id: 31754,
+          name: 'Ülenurme',
+          latitude: '58.31620000',
+          longitude: '26.72517000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3558,
+      name: 'Valga County',
+      stateCode: '82',
+      cities: [
+        City(
+          id: 31671,
+          name: 'Otepää vald',
+          latitude: '58.02177000',
+          longitude: '26.45306000',
+        ),
+        City(
+          id: 31728,
+          name: 'Tõrva',
+          latitude: '58.00278000',
+          longitude: '25.93500000',
+        ),
+        City(
+          id: 31735,
+          name: 'Valga',
+          latitude: '57.77781000',
+          longitude: '26.04730000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3556,
+      name: 'Viljandi County',
+      stateCode: '84',
+      cities: [
+        City(
+          id: 31593,
+          name: 'Abja-Paluoja',
+          latitude: '58.12528000',
+          longitude: '25.34972000',
+        ),
+        City(
+          id: 31625,
+          name: 'Karksi-Nuia',
+          latitude: '58.10333000',
+          longitude: '25.56278000',
+        ),
+        City(
+          id: 31664,
+          name: 'Mõisaküla',
+          latitude: '58.09222000',
+          longitude: '25.18639000',
+        ),
+        City(
+          id: 31711,
+          name: 'Suure-Jaani',
+          latitude: '58.53611000',
+          longitude: '25.47056000',
+        ),
+        City(
+          id: 31739,
+          name: 'Viiratsi',
+          latitude: '58.36000000',
+          longitude: '25.63722000',
+        ),
+        City(
+          id: 31740,
+          name: 'Viljandi',
+          latitude: '58.36389000',
+          longitude: '25.59000000',
+        ),
+        City(
+          id: 31741,
+          name: 'Viljandi vald',
+          latitude: '58.36392000',
+          longitude: '25.49103000',
+        ),
+        City(
+          id: 31751,
+          name: 'Võhma',
+          latitude: '58.62833000',
+          longitude: '25.54833000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3560,
+      name: 'Võru County',
+      stateCode: '86',
+      cities: [
+        City(
+          id: 31596,
+          name: 'Antsla',
+          latitude: '57.82556000',
+          longitude: '26.54056000',
+        ),
+        City(
+          id: 31597,
+          name: 'Antsla vald',
+          latitude: '57.77738000',
+          longitude: '26.59520000',
+        ),
+        City(
+          id: 31701,
+          name: 'Rõuge',
+          latitude: '57.72778000',
+          longitude: '26.90972000',
+        ),
+        City(
+          id: 31702,
+          name: 'Rõuge vald',
+          latitude: '57.72780000',
+          longitude: '26.88033000',
+        ),
+        City(
+          id: 31736,
+          name: 'Vana-Antsla',
+          latitude: '57.86611000',
+          longitude: '26.53222000',
+        ),
+        City(
+          id: 31750,
+          name: 'Värska',
+          latitude: '57.95806000',
+          longitude: '27.63806000',
+        ),
+        City(
+          id: 31752,
+          name: 'Võru',
+          latitude: '57.83389000',
+          longitude: '27.01944000',
+        ),
+        City(
+          id: 31753,
+          name: 'Võru vald',
+          latitude: '57.86618000',
+          longitude: '26.97418000',
+        ),
+      ],
+    ),
+  ],
+);

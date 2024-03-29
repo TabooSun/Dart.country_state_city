@@ -3,2488 +3,3272 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const vnm = Country(
-    id: 240,
-    name: 'Vietnam',
-    iso3: 'VNM',
-    iso2: 'VN',
-    phoneCode: '84',
-    capital: 'Hanoi',
-    currency: 'VND',
-    currencySymbol: r'₫',
-    tld: '.vn',
-    native: 'Việt Nam',
-    region: 'Asia',
-    subregion: 'South-Eastern Asia',
-    timezones: [
-      Timezone(
-          zoneName: 'Asia/Ho_Chi_Minh',
-          gmtOffset: 25200,
-          gmtOffsetName: 'UTC+07:00',
-          abbreviation: 'ICT',
-          tzName: 'Indochina Time')
-    ],
-    emoji: '🇻🇳',
-    emojiU: 'U+1F1FB U+1F1F3',
-    states: [
-      State(id: 3794, name: 'An Giang', stateCode: '44', cities: [
-        City(
-            id: 130185,
-            name: 'Cho Dok',
-            latitude: '10.70000000',
-            longitude: '105.11667000'),
-        City(
-            id: 130211,
-            name: 'Huyện An Phú',
-            latitude: '10.84274000',
-            longitude: '105.08990000'),
-        City(
-            id: 130248,
-            name: 'Huyện Châu Phú',
-            latitude: '10.57166000',
-            longitude: '105.16991000'),
-        City(
-            id: 130262,
-            name: 'Huyện Chợ Mới',
-            latitude: '10.47730000',
-            longitude: '105.49092000'),
-        City(
-            id: 130401,
-            name: 'Huyện Phú Tân',
-            latitude: '10.65716000',
-            longitude: '105.28459000'),
-        City(
-            id: 130461,
-            name: 'Huyện Tri Tôn',
-            latitude: '10.41416000',
-            longitude: '104.96136000'),
-        City(
-            id: 130569,
-            name: 'Long Xuyên',
-            latitude: '10.38639000',
-            longitude: '105.43518000'),
-        City(
-            id: 130570,
-            name: 'Long Xuyên City',
-            latitude: '10.36857000',
-            longitude: '105.42340000')
-      ]),
-      State(id: 3770, name: 'Bà Rịa-Vũng Tàu', stateCode: '43', cities: [
-        City(
-            id: 130189,
-            name: 'Côn Sơn',
-            latitude: '8.68641000',
-            longitude: '106.60824000'),
-        City(
-            id: 130255,
-            name: 'Huyện Châu Đức',
-            latitude: '10.65805000',
-            longitude: '107.25098000'),
-        City(
-            id: 130539,
-            name: 'Huyện Đất Đỏ',
-            latitude: '10.48025000',
-            longitude: '107.27879000'),
-        City(
-            id: 130487,
-            name: 'Huyện Tân Thành',
-            latitude: '10.57381000',
-            longitude: '107.10189000'),
-        City(
-            id: 130510,
-            name: 'Huyện Xuyên Mộc',
-            latitude: '10.63048000',
-            longitude: '107.46568000'),
-        City(
-            id: 130604,
-            name: 'Thành Phố Vũng Tàu',
-            latitude: '10.40239000',
-            longitude: '107.14239000'),
-        City(
-            id: 130613,
-            name: 'Thị Xã Phú Mỹ',
-            latitude: '10.56815000',
-            longitude: '107.12999000'),
-        City(
-            id: 130626,
-            name: 'Vũng Tàu',
-            latitude: '10.34599000',
-            longitude: '107.08426000')
-      ]),
-      State(id: 3815, name: 'Bắc Giang', stateCode: '54', cities: [
-        City(
-            id: 130177,
-            name: 'Bắc Giang',
-            latitude: '21.27307000',
-            longitude: '106.19460000'),
-        City(
-            id: 130353,
-            name: 'Huyện Lục Nam',
-            latitude: '21.27548000',
-            longitude: '106.46519000'),
-        City(
-            id: 130354,
-            name: 'Huyện Lục Ngạn',
-            latitude: '21.43719000',
-            longitude: '106.65845000'),
-        City(
-            id: 130521,
-            name: 'Huyện Yên Thế',
-            latitude: '21.51667000',
-            longitude: '106.11689000')
-      ]),
-      State(id: 3822, name: 'Bắc Kạn', stateCode: '53', cities: [
-        City(
-            id: 130178,
-            name: 'Bắc Kạn',
-            latitude: '22.14701000',
-            longitude: '105.83481000'),
-        City(
-            id: 130213,
-            name: 'Huyện Ba Bể',
-            latitude: '22.41667000',
-            longitude: '105.75000000'),
-        City(
-            id: 130228,
-            name: 'Huyện Bạch Thông',
-            latitude: '22.25758000',
-            longitude: '105.83295000'),
-        City(
-            id: 130263,
-            name: 'Huyện Chợ Đồn',
-            latitude: '22.18681000',
-            longitude: '105.57280000'),
-        City(
-            id: 130374,
-            name: 'Huyện Na Rì',
-            latitude: '22.17883000',
-            longitude: '106.11221000'),
-        City(
-            id: 130387,
-            name: 'Huyện Ngân Sơn',
-            latitude: '22.42962000',
-            longitude: '106.01030000'),
-        City(
-            id: 130608,
-            name: 'Thị Xã Bắc Kạn',
-            latitude: '22.14130000',
-            longitude: '105.83867000')
-      ]),
-      State(id: 3804, name: 'Bạc Liêu', stateCode: '55', cities: [
-        City(
-            id: 130175,
-            name: 'Bạc Liêu',
-            latitude: '9.29414000',
-            longitude: '105.72776000'),
-        City(
-            id: 130289,
-            name: 'Huyện Giá Rai',
-            latitude: '9.27162000',
-            longitude: '105.40017000'),
-        City(
-            id: 130318,
-            name: 'Huyện Hồng Dân',
-            latitude: '9.53822000',
-            longitude: '105.42242000')
-      ]),
-      State(id: 3791, name: 'Bắc Ninh', stateCode: '56', cities: [
-        City(
-            id: 130179,
-            name: 'Bắc Ninh',
-            latitude: '21.18608000',
-            longitude: '106.07631000'),
-        City(
-            id: 130186,
-            name: 'Cung Kiệm',
-            latitude: '21.18697000',
-            longitude: '106.16076000'),
-        City(
-            id: 130285,
-            name: 'Huyện Gia Bình',
-            latitude: '21.07795000',
-            longitude: '106.20903000'),
-        City(
-            id: 130441,
-            name: 'Huyện Thuận Thành',
-            latitude: '21.04085000',
-            longitude: '106.07515000'),
-        City(
-            id: 130455,
-            name: 'Huyện Tiên Du',
-            latitude: '21.12195000',
-            longitude: '106.03995000'),
-        City(
-            id: 130518,
-            name: 'Huyện Yên Phong',
-            latitude: '21.20676000',
-            longitude: '105.99427000')
-      ]),
-      State(id: 3796, name: 'Bến Tre', stateCode: '50', cities: [
-        City(
-            id: 130635,
-            name: 'Ấp Tân Ngãi',
-            latitude: '10.23333000',
-            longitude: '106.28333000'),
-        City(
-            id: 130180,
-            name: 'Bến Tre',
-            latitude: '10.24147000',
-            longitude: '106.37585000'),
-        City(
-            id: 130215,
-            name: 'Huyện Ba Tri',
-            latitude: '10.06627000',
-            longitude: '106.60554000'),
-        City(
-            id: 130226,
-            name: 'Huyện Bình Đại',
-            latitude: '10.19354000',
-            longitude: '106.64455000'),
-        City(
-            id: 130250,
-            name: 'Huyện Châu Thành',
-            latitude: '10.29212000',
-            longitude: '106.30827000'),
-        City(
-            id: 130261,
-            name: 'Huyện Chợ Lách',
-            latitude: '10.22674000',
-            longitude: '106.17077000'),
-        City(
-            id: 130291,
-            name: 'Huyện Giồng Trôm',
-            latitude: '10.15909000',
-            longitude: '106.47004000'),
-        City(
-            id: 130449,
-            name: 'Huyện Thạnh Phú',
-            latitude: '9.92993000',
-            longitude: '106.54316000')
-      ]),
-      State(id: 3785, name: 'Bình Dương', stateCode: '57', cities: [
-        City(
-            id: 130198,
-            name: 'Dĩ An',
-            latitude: '10.90682000',
-            longitude: '106.76940000'),
-        City(
-            id: 130616,
-            name: 'Thủ Dầu Một',
-            latitude: '10.98040000',
-            longitude: '106.65190000')
-      ]),
-      State(id: 3830, name: 'Bình Định', stateCode: '31', cities: [
-        City(
-            id: 130209,
-            name: 'Huyện An Lão',
-            latitude: '14.55676000',
-            longitude: '108.80100000'),
-        City(
-            id: 130298,
-            name: 'Huyện Hoài Nhơn',
-            latitude: '14.50535000',
-            longitude: '109.02315000'),
-        City(
-            id: 130397,
-            name: 'Huyện Phù Mỹ',
-            latitude: '14.22304000',
-            longitude: '109.08611000'),
-        City(
-            id: 130490,
-            name: 'Huyện Tây Sơn',
-            latitude: '13.94306000',
-            longitude: '108.87999000'),
-        City(
-            id: 130476,
-            name: 'Huyện Tuy Phước',
-            latitude: '13.84564000',
-            longitude: '109.15275000'),
-        City(
-            id: 130503,
-            name: 'Huyện Vĩnh Thạnh',
-            latitude: '14.21100000',
-            longitude: '108.74389000'),
-        City(
-            id: 130584,
-            name: 'Qui Nhon',
-            latitude: '13.77648000',
-            longitude: '109.22367000')
-      ]),
-      State(id: 3797, name: 'Bình Phước', stateCode: '58', cities: [
-        City(
-            id: 130174,
-            name: 'Bình Long',
-            latitude: '11.64711000',
-            longitude: '106.60586000'),
-        City(
-            id: 130197,
-            name: 'Don Luan',
-            latitude: '11.53495000',
-            longitude: '106.88324000'),
-        City(
-            id: 130227,
-            name: 'Huyện Bù Đốp',
-            latitude: '12.00374000',
-            longitude: '106.81545000'),
-        City(
-            id: 130256,
-            name: 'Huyện Chơn Thành',
-            latitude: '11.46283000',
-            longitude: '106.66655000'),
-        City(
-            id: 130547,
-            name: 'Huyện Đồng Phú',
-            latitude: '11.50071000',
-            longitude: '107.01192000'),
-        City(
-            id: 130319,
-            name: 'Huyện Hớn Quản',
-            latitude: '11.59718000',
-            longitude: '106.62739000'),
-        City(
-            id: 130614,
-            name: 'Thị Xã Phước Long',
-            latitude: '11.81142000',
-            longitude: '106.99670000')
-      ]),
-      State(id: 3787, name: 'Bình Thuận', stateCode: '40', cities: [
-        City(
-            id: 130233,
-            name: 'Huyện Bắc Bình',
-            latitude: '11.27571000',
-            longitude: '108.38506000'),
-        City(
-            id: 130304,
-            name: 'Huyện Hàm Tân',
-            latitude: '10.76856000',
-            longitude: '107.64233000'),
-        City(
-            id: 130302,
-            name: 'Huyện Hàm Thuận Bắc',
-            latitude: '11.14703000',
-            longitude: '108.08172000'),
-        City(
-            id: 130303,
-            name: 'Huyện Hàm Thuận Nam',
-            latitude: '10.92101000',
-            longitude: '107.93325000'),
-        City(
-            id: 130479,
-            name: 'Huyện Tánh Linh',
-            latitude: '11.11367000',
-            longitude: '107.68427000'),
-        City(
-            id: 130475,
-            name: 'Huyện Tuy Phong',
-            latitude: '11.34746000',
-            longitude: '108.70466000'),
-        City(
-            id: 130567,
-            name: 'La Gi',
-            latitude: '10.65993000',
-            longitude: '107.77206000'),
-        City(
-            id: 130579,
-            name: 'Phan Thiết',
-            latitude: '10.92889000',
-            longitude: '108.10208000'),
-        City(
-            id: 130601,
-            name: 'Thành Phố Phan Thiết',
-            latitude: '10.93700000',
-            longitude: '108.15778000')
-      ]),
-      State(id: 3778, name: 'Cà Mau', stateCode: '59', cities: [
-        City(
-            id: 130187,
-            name: 'Cà Mau',
-            latitude: '9.17682000',
-            longitude: '105.15242000'),
-        City(
-            id: 130267,
-            name: 'Huyện Cái Nước',
-            latitude: '9.00094000',
-            longitude: '105.04201000'),
-        City(
-            id: 130540,
-            name: 'Huyện Đầm Dơi',
-            latitude: '8.96029000',
-            longitude: '105.24107000'),
-        City(
-            id: 130204,
-            name: 'Huyen Nam Can',
-            latitude: '8.81531000',
-            longitude: '105.05574000'),
-        City(
-            id: 130453,
-            name: 'Huyện Thới Bình',
-            latitude: '9.35790000',
-            longitude: '105.16023000')
-      ]),
-      State(id: 4925, name: 'Cần Thơ', stateCode: 'CT', cities: [
-        City(
-            id: 148322,
-            name: 'Cần Thơ',
-            latitude: '10.11667000',
-            longitude: '105.50000000'),
-        City(
-            id: 148323,
-            name: 'Cờ Đỏ',
-            latitude: '10.09472222',
-            longitude: '105.43194444'),
-        City(
-            id: 148324,
-            name: 'Thới Lai',
-            latitude: '10.06305556',
-            longitude: '105.56083333'),
-        City(
-            id: 148325,
-            name: 'Vĩnh Thạnh',
-            latitude: '10.21916667',
-            longitude: '105.40111111')
-      ]),
-      State(id: 3782, name: 'Cao Bằng', stateCode: '04', cities: [
-        City(
-            id: 130183,
-            name: 'Cao Bằng',
-            latitude: '22.66568000',
-            longitude: '106.25786000'),
-        City(
-            id: 130229,
-            name: 'Huyện Bảo Lac',
-            latitude: '22.90085000',
-            longitude: '105.73332000'),
-        City(
-            id: 130231,
-            name: 'Huyện Bảo Lâm',
-            latitude: '22.87041000',
-            longitude: '105.48780000'),
-        City(
-            id: 130313,
-            name: 'Huyện Hạ Lang',
-            latitude: '22.70933000',
-            longitude: '106.67657000'),
-        City(
-            id: 130300,
-            name: 'Huyện Hà Quảng',
-            latitude: '22.90763000',
-            longitude: '106.12487000'),
-        City(
-            id: 130386,
-            name: 'Huyện Nguyên Bình',
-            latitude: '22.62400000',
-            longitude: '105.93248000'),
-        City(
-            id: 130206,
-            name: 'Huyen Phuc Hoa',
-            latitude: '22.53840000',
-            longitude: '106.51039000'),
-        City(
-            id: 130446,
-            name: 'Huyện Thạch An',
-            latitude: '22.47654000',
-            longitude: '106.34237000'),
-        City(
-            id: 130444,
-            name: 'Huyện Thông Nông',
-            latitude: '22.80735000',
-            longitude: '105.95846000'),
-        City(
-            id: 130466,
-            name: 'Huyện Trà Lĩnh',
-            latitude: '22.80961000',
-            longitude: '106.32543000'),
-        City(
-            id: 130469,
-            name: 'Huyện Trùng Khánh',
-            latitude: '22.83333000',
-            longitude: '106.56074000')
-      ]),
-      State(id: 3806, name: 'Đà Nẵng', stateCode: 'DN', cities: [
-        City(
-            id: 130195,
-            name: 'Da Nang',
-            latitude: '16.06778000',
-            longitude: '108.22083000')
-      ]),
-      State(id: 3829, name: 'Đắk Lắk', stateCode: '33', cities: [
-        City(
-            id: 130173,
-            name: 'Buôn Ma Thuột',
-            latitude: '12.66747000',
-            longitude: '108.03775000'),
-        City(
-            id: 130217,
-            name: 'Huyện Buôn Đôn',
-            latitude: '12.90396000',
-            longitude: '107.73870000'),
-        City(
-            id: 130283,
-            name: 'Huyện Ea H\'Leo',
-            latitude: '13.31814000',
-            longitude: '108.07148000'),
-        City(
-            id: 130284,
-            name: 'Huyện Ea Súp',
-            latitude: '13.18279000',
-            longitude: '107.79954000')
-      ]),
-      State(id: 3823, name: 'Đắk Nông', stateCode: '72', cities: [
-        City(
-            id: 130269,
-            name: 'Huyện Cư Jút',
-            latitude: '12.69591000',
-            longitude: '107.76316000'),
-        City(
-            id: 130544,
-            name: 'Huyện Đắk R’Lấp',
-            latitude: '11.87990000',
-            longitude: '107.52244000'),
-        City(
-            id: 130333,
-            name: 'Huyện Krông Nô',
-            latitude: '12.36285000',
-            longitude: '107.83445000')
-      ]),
-      State(id: 3773, name: 'Điện Biên', stateCode: '71', cities: [
-        City(
-            id: 130196,
-            name: 'Dien Bien Phu',
-            latitude: '21.38602000',
-            longitude: '103.02301000'),
-        City(
-            id: 130528,
-            name: 'Huyện Điện Biên Đông',
-            latitude: '21.25266000',
-            longitude: '103.26900000'),
-        City(
-            id: 130365,
-            name: 'Huyện Mường Nhé',
-            latitude: '22.10353000',
-            longitude: '102.58465000'),
-        City(
-            id: 130493,
-            name: 'Huyện Tủa Chùa',
-            latitude: '21.95357000',
-            longitude: '103.37332000'),
-        City(
-            id: 130478,
-            name: 'Huyện Tuần Giáo',
-            latitude: '21.69481000',
-            longitude: '103.41758000'),
-        City(
-            id: 130611,
-            name: 'Thị Xã Mưòng Lay',
-            latitude: '22.03374000',
-            longitude: '103.12331000')
-      ]),
-      State(id: 3821, name: 'Đồng Nai', stateCode: '39', cities: [
-        City(
-            id: 130172,
-            name: 'Biên Hòa',
-            latitude: '10.94469000',
-            longitude: '106.82432000'),
-        City(
-            id: 130546,
-            name: 'Huyện Định Quán',
-            latitude: '11.21866000',
-            longitude: '107.33959000'),
-        City(
-            id: 130344,
-            name: 'Huyện Long Thành',
-            latitude: '10.76162000',
-            longitude: '107.02688000'),
-        City(
-            id: 130485,
-            name: 'Huyện Tân Phú',
-            latitude: '11.39867000',
-            longitude: '107.39976000'),
-        City(
-            id: 130452,
-            name: 'Huyện Thống Nhất',
-            latitude: '10.97764000',
-            longitude: '107.15909000'),
-        City(
-            id: 130471,
-            name: 'Huyện Trảng Bom',
-            latitude: '10.96624000',
-            longitude: '107.03614000'),
-        City(
-            id: 130498,
-            name: 'Huyện Vĩnh Cửu',
-            latitude: '11.25725000',
-            longitude: '107.02773000')
-      ]),
-      State(id: 3769, name: 'Đồng Tháp', stateCode: '45', cities: [
-        City(
-            id: 130184,
-            name: 'Cao Lãnh',
-            latitude: '10.46017000',
-            longitude: '105.63294000'),
-        City(
-            id: 130253,
-            name: 'Huyện Châu Thành',
-            latitude: '10.22543000',
-            longitude: '105.82380000'),
-        City(
-            id: 130340,
-            name: 'Huyện Lai Vung',
-            latitude: '10.24051000',
-            longitude: '105.66327000'),
-        City(
-            id: 130351,
-            name: 'Huyện Lấp Vò',
-            latitude: '10.35918000',
-            longitude: '105.60611000'),
-        City(
-            id: 130430,
-            name: 'Huyện Tam Nông',
-            latitude: '10.72761000',
-            longitude: '105.52522000'),
-        City(
-            id: 130483,
-            name: 'Huyện Tân Hồng',
-            latitude: '10.87089000',
-            longitude: '105.49104000'),
-        City(
-            id: 130435,
-            name: 'Huyện Thanh Bình',
-            latitude: '10.60137000',
-            longitude: '105.47811000'),
-        City(
-            id: 130443,
-            name: 'Huyện Tháp Mười',
-            latitude: '10.54398000',
-            longitude: '105.81875000'),
-        City(
-            id: 130589,
-            name: 'Sa Dec',
-            latitude: '10.29085000',
-            longitude: '105.75635000'),
-        City(
-            id: 130590,
-            name: 'Sa Dec city',
-            latitude: '10.30550000',
-            longitude: '105.74757000'),
-        City(
-            id: 130607,
-            name: 'Thị Trấn Tân Thành',
-            latitude: '10.25616000',
-            longitude: '105.59280000')
-      ]),
-      State(id: 3813, name: 'Gia Lai', stateCode: '30', cities: [
-        City(
-            id: 130258,
-            name: 'Huyện Chư Păh',
-            latitude: '14.15941000',
-            longitude: '107.98411000'),
-        City(
-            id: 130257,
-            name: 'Huyện Chư Prông',
-            latitude: '13.59976000',
-            longitude: '107.81099000'),
-        City(
-            id: 130259,
-            name: 'Huyện Chư Sê',
-            latitude: '13.74254000',
-            longitude: '108.08663000'),
-        City(
-            id: 130549,
-            name: 'Huyện Đức Cơ',
-            latitude: '13.78454000',
-            longitude: '107.66970000'),
-        City(
-            id: 130320,
-            name: 'Huyện Ia Grai',
-            latitude: '13.98937000',
-            longitude: '107.73740000'),
-        City(
-            id: 130322,
-            name: 'Huyện KBang',
-            latitude: '14.30506000',
-            longitude: '108.49779000'),
-        City(
-            id: 130335,
-            name: 'Huyện Kông Chro',
-            latitude: '13.73519000',
-            longitude: '108.59697000'),
-        City(
-            id: 130334,
-            name: 'Huyện Krông Pa',
-            latitude: '13.23152000',
-            longitude: '108.65494000'),
-        City(
-            id: 130358,
-            name: 'Huyện Mang Yang',
-            latitude: '13.92840000',
-            longitude: '108.30246000'),
-        City(
-            id: 130583,
-            name: 'Pleiku',
-            latitude: '13.98333000',
-            longitude: '108.00000000')
-      ]),
-      State(id: 3779, name: 'Hà Giang', stateCode: '03', cities: [
-        City(
-            id: 130555,
-            name: 'Hà Giang',
-            latitude: '22.82333000',
-            longitude: '104.98357000'),
-        City(
-            id: 130235,
-            name: 'Huyện Bắc Mê',
-            latitude: '22.75477000',
-            longitude: '105.29023000'),
-        City(
-            id: 130236,
-            name: 'Huyện Bắc Quang',
-            latitude: '22.42301000',
-            longitude: '104.91831000'),
-        City(
-            id: 130548,
-            name: 'Huyện Đồng Văn',
-            latitude: '23.25449000',
-            longitude: '105.27626000'),
-        City(
-            id: 130406,
-            name: 'Huyện Quang Bình',
-            latitude: '22.41507000',
-            longitude: '104.66018000'),
-        City(
-            id: 130508,
-            name: 'Huyện Vị Xuyên',
-            latitude: '22.73096000',
-            longitude: '104.90827000'),
-        City(
-            id: 130511,
-            name: 'Huyện Xín Mần',
-            latitude: '22.64148000',
-            longitude: '104.52089000'),
-        City(
-            id: 130516,
-            name: 'Huyện Yên Minh',
-            latitude: '23.06992000',
-            longitude: '105.17865000')
-      ]),
-      State(id: 3802, name: 'Hà Nam', stateCode: '63', cities: [
-        City(
-            id: 130223,
-            name: 'Huyện Bình Lục',
-            latitude: '20.50126000',
-            longitude: '106.02959000'),
-        City(
-            id: 130280,
-            name: 'Huyện Duy Tiên',
-            latitude: '20.62803000',
-            longitude: '105.96193000'),
-        City(
-            id: 130326,
-            name: 'Huyện Kim Bảng',
-            latitude: '20.57254000',
-            longitude: '105.85043000'),
-        City(
-            id: 130347,
-            name: 'Huyện Lý Nhân',
-            latitude: '20.56422000',
-            longitude: '106.09455000'),
-        City(
-            id: 130437,
-            name: 'Huyện Thanh Liêm',
-            latitude: '20.46249000',
-            longitude: '105.92100000'),
-        City(
-            id: 130582,
-            name: 'Phủ Lý',
-            latitude: '20.54531000',
-            longitude: '105.91221000')
-      ]),
-      State(id: 3810, name: 'Hà Nội', stateCode: 'HN', cities: [
-        City(
-            id: 130558,
-            name: 'Hà Đông',
-            latitude: '20.97136000',
-            longitude: '105.77876000'),
-        City(
-            id: 130201,
-            name: 'Hanoi',
-            latitude: '21.02450000',
-            longitude: '105.84117000'),
-        City(
-            id: 130412,
-            name: 'Huyện Quốc Oai',
-            latitude: '20.97060000',
-            longitude: '105.61127000'),
-        City(
-            id: 130586,
-            name: 'Quận Ba Đình',
-            latitude: '21.03587000',
-            longitude: '105.82163000'),
-        City(
-            id: 130587,
-            name: 'Quận Hà Đông',
-            latitude: '20.95482000',
-            longitude: '105.76851000'),
-        City(
-            id: 130595,
-            name: 'Sơn Tây',
-            latitude: '21.14053000',
-            longitude: '105.50686000')
-      ]),
-      State(id: 3816, name: 'Hà Tĩnh', stateCode: '23', cities: [
-        City(
-            id: 130557,
-            name: 'Hà Tĩnh',
-            latitude: '18.34282000',
-            longitude: '105.90569000'),
-        City(
-            id: 130277,
-            name: 'Huyện Cẩm Xuyên',
-            latitude: '18.19059000',
-            longitude: '106.00186000'),
-        City(
-            id: 130243,
-            name: 'Huyện Can Lộc',
-            latitude: '18.44414000',
-            longitude: '105.76350000'),
-        City(
-            id: 130525,
-            name: 'Huyện Ðức Thọ',
-            latitude: '18.49699000',
-            longitude: '105.61016000'),
-        City(
-            id: 130337,
-            name: 'Huyện Kỳ Anh',
-            latitude: '18.05805000',
-            longitude: '106.24580000'),
-        City(
-            id: 130382,
-            name: 'Huyện Nghi Xuân',
-            latitude: '18.62419000',
-            longitude: '105.76829000'),
-        City(
-            id: 130447,
-            name: 'Huyện Thạch Hà',
-            latitude: '18.35091000',
-            longitude: '105.81123000')
-      ]),
-      State(id: 3827, name: 'Hải Dương', stateCode: '61', cities: [
-        City(
-            id: 130562,
-            name: 'Hải Dương',
-            latitude: '20.94099000',
-            longitude: '106.33302000'),
-        City(
-            id: 130221,
-            name: 'Huyện Bình Giang',
-            latitude: '20.87586000',
-            longitude: '106.19138000'),
-        City(
-            id: 130274,
-            name: 'Huyện Cẩm Giàng',
-            latitude: '20.95000000',
-            longitude: '106.21667000'),
-        City(
-            id: 130286,
-            name: 'Huyện Gia Lộc',
-            latitude: '20.85164000',
-            longitude: '106.29130000'),
-        City(
-            id: 130329,
-            name: 'Huyện Kinh Môn',
-            latitude: '21.01634000',
-            longitude: '106.50384000'),
-        City(
-            id: 130376,
-            name: 'Huyện Nam Sách',
-            latitude: '21.00484000',
-            longitude: '106.34042000'),
-        City(
-            id: 130438,
-            name: 'Huyện Thanh Miện',
-            latitude: '20.77953000',
-            longitude: '106.22218000'),
-        City(
-            id: 130609,
-            name: 'Thị Xã Chí Linh',
-            latitude: '21.13722000',
-            longitude: '106.39638000')
-      ]),
-      State(id: 3783, name: 'Hải Phòng', stateCode: 'HP', cities: [
-        City(
-            id: 130188,
-            name: 'Cát Bà',
-            latitude: '20.72779000',
-            longitude: '107.04819000'),
-        City(
-            id: 130200,
-            name: 'Haiphong',
-            latitude: '20.86481000',
-            longitude: '106.68345000')
-      ]),
-      State(id: 3777, name: 'Hậu Giang', stateCode: '73', cities: [
-        City(
-            id: 130254,
-            name: 'Huyện Châu Thành A',
-            latitude: '9.93056000',
-            longitude: '105.64194000'),
-        City(
-            id: 130627,
-            name: 'Vị Thanh',
-            latitude: '9.78449000',
-            longitude: '105.47012000')
-      ]),
-      State(id: 3811, name: 'Hồ Chí Minh', stateCode: 'SG', cities: [
-        City(
-            id: 130191,
-            name: 'Cần Giờ',
-            latitude: '10.41115000',
-            longitude: '106.95474000'),
-        City(
-            id: 130194,
-            name: 'Củ Chi',
-            latitude: '10.97333000',
-            longitude: '106.49325000'),
-        City(
-            id: 130202,
-            name: 'Ho Chi Minh City',
-            latitude: '10.82302000',
-            longitude: '106.62965000')
-      ]),
-      State(id: 3799, name: 'Hòa Bình', stateCode: '14', cities: [
-        City(
-            id: 130559,
-            name: 'Hòa Bình',
-            latitude: '20.81717000',
-            longitude: '105.33759000'),
-        City(
-            id: 130245,
-            name: 'Huyện Cao Phong',
-            latitude: '20.69532000',
-            longitude: '105.33559000'),
-        City(
-            id: 130338,
-            name: 'Huyện Kỳ Sơn',
-            latitude: '20.89631000',
-            longitude: '105.39659000'),
-        City(
-            id: 130350,
-            name: 'Huyện Lạc Thủy',
-            latitude: '20.49794000',
-            longitude: '105.74092000'),
-        City(
-            id: 130349,
-            name: 'Huyện Lương Sơn',
-            latitude: '20.87650000',
-            longitude: '105.51219000'),
-        City(
-            id: 130484,
-            name: 'Huyện Tân Lạc',
-            latitude: '20.60557000',
-            longitude: '105.23399000')
-      ]),
-      State(id: 3768, name: 'Hưng Yên', stateCode: '66', cities: [
-        City(
-            id: 130560,
-            name: 'Hưng Yên',
-            latitude: '20.64637000',
-            longitude: '106.05112000'),
-        City(
-            id: 130523,
-            name: 'Huyện Ân Thi',
-            latitude: '20.81086000',
-            longitude: '106.09995000'),
-        City(
-            id: 130323,
-            name: 'Huyện Khoái Châu',
-            latitude: '20.82170000',
-            longitude: '105.97455000'),
-        City(
-            id: 130328,
-            name: 'Huyện Kim Động',
-            latitude: '20.74645000',
-            longitude: '106.03632000'),
-        City(
-            id: 130369,
-            name: 'Huyện Mỹ Hào',
-            latitude: '20.93210000',
-            longitude: '106.10630000'),
-        City(
-            id: 130396,
-            name: 'Huyện Phù Cừ',
-            latitude: '20.70997000',
-            longitude: '106.19744000'),
-        City(
-            id: 130456,
-            name: 'Huyện Tiên Lữ',
-            latitude: '20.68490000',
-            longitude: '106.12513000')
-      ]),
-      State(id: 3793, name: 'Khánh Hòa', stateCode: '34', cities: [
-        City(
-            id: 130182,
-            name: 'Cam Ranh',
-            latitude: '11.92144000',
-            longitude: '109.15913000'),
-        City(
-            id: 130278,
-            name: 'Huyện Diên Khánh',
-            latitude: '12.27341000',
-            longitude: '109.03890000'),
-        City(
-            id: 130324,
-            name: 'Huyện Khánh Sơn',
-            latitude: '12.02858000',
-            longitude: '108.90814000'),
-        City(
-            id: 130325,
-            name: 'Huyện Khánh Vĩnh',
-            latitude: '12.30593000',
-            longitude: '108.83073000'),
-        City(
-            id: 130506,
-            name: 'Huyện Vạn Ninh',
-            latitude: '12.72344000',
-            longitude: '109.24586000'),
-        City(
-            id: 130576,
-            name: 'Nha Trang',
-            latitude: '12.24507000',
-            longitude: '109.19432000'),
-        City(
-            id: 130598,
-            name: 'Thành Phố Cam Ranh',
-            latitude: '11.90707000',
-            longitude: '109.14861000'),
-        City(
-            id: 130600,
-            name: 'Thành Phố Nha Trang',
-            latitude: '12.25458000',
-            longitude: '109.16655000'),
-        City(
-            id: 130612,
-            name: 'Thị Xã Ninh Hòa',
-            latitude: '12.53796000',
-            longitude: '109.06057000')
-      ]),
-      State(id: 3800, name: 'Kiên Giang', stateCode: '47', cities: [
-        City(
-            id: 130199,
-            name: 'Dương Đông',
-            latitude: '10.21716000',
-            longitude: '103.95929000'),
-        City(
-            id: 130556,
-            name: 'Hà Tiên',
-            latitude: '10.38310000',
-            longitude: '104.48753000'),
-        City(
-            id: 130208,
-            name: 'Huyện An Biên',
-            latitude: '9.81291000',
-            longitude: '105.05230000'),
-        City(
-            id: 130210,
-            name: 'Huyện An Minh',
-            latitude: '9.66704000',
-            longitude: '104.94848000'),
-        City(
-            id: 130249,
-            name: 'Huyện Châu Thành',
-            latitude: '9.94372000',
-            longitude: '105.16868000'),
-        City(
-            id: 130290,
-            name: 'Huyện Giồng Riềng',
-            latitude: '9.91224000',
-            longitude: '105.37311000'),
-        City(
-            id: 130295,
-            name: 'Huyện Gò Quao',
-            latitude: '9.74027000',
-            longitude: '105.29766000'),
-        City(
-            id: 130307,
-            name: 'Huyện Hòn Đất',
-            latitude: '10.22908000',
-            longitude: '104.95280000'),
-        City(
-            id: 130330,
-            name: 'Huyện Kiên Hải',
-            latitude: '9.83971000',
-            longitude: '104.61560000'),
-        City(
-            id: 130400,
-            name: 'Huyện Phú Quốc',
-            latitude: '10.25516000',
-            longitude: '104.01455000'),
-        City(
-            id: 130481,
-            name: 'Huyện Tân Hiệp',
-            latitude: '10.09540000',
-            longitude: '105.25936000'),
-        City(
-            id: 130502,
-            name: 'Huyện Vĩnh Thuận',
-            latitude: '9.53306000',
-            longitude: '105.24490000'),
-        City(
-            id: 130564,
-            name: 'Kien Luong Town',
-            latitude: '10.24892000',
-            longitude: '104.59000000'),
-        City(
-            id: 130588,
-            name: 'Rạch Giá',
-            latitude: '10.01245000',
-            longitude: '105.08091000')
-      ]),
-      State(id: 3772, name: 'Kon Tum', stateCode: '28', cities: [
-        City(
-            id: 130542,
-            name: 'Huyện Đắk Glei',
-            latitude: '15.11358000',
-            longitude: '107.75093000'),
-        City(
-            id: 130543,
-            name: 'Huyện Đắk Hà',
-            latitude: '14.60326000',
-            longitude: '107.98547000'),
-        City(
-            id: 130545,
-            name: 'Huyện Đắk Tô',
-            latitude: '14.70087000',
-            longitude: '107.80816000'),
-        City(
-            id: 130321,
-            name: 'Huyện Ia H\'Drai',
-            latitude: '14.06032000',
-            longitude: '107.46243000'),
-        City(
-            id: 130332,
-            name: 'Huyện Kon Plông',
-            latitude: '14.75620000',
-            longitude: '108.32057000'),
-        City(
-            id: 130388,
-            name: 'Huyện Ngọc Hồi',
-            latitude: '14.71940000',
-            longitude: '107.62636000'),
-        City(
-            id: 130419,
-            name: 'Huyện Sa Thầy',
-            latitude: '14.32050000',
-            longitude: '107.59862000'),
-        City(
-            id: 130565,
-            name: 'Kon Tum',
-            latitude: '14.35451000',
-            longitude: '108.00759000')
-      ]),
-      State(id: 3825, name: 'Lai Châu', stateCode: '01', cities: [
-        City(
-            id: 130361,
-            name: 'Huyện Mưòng Tè',
-            latitude: '22.37443000',
-            longitude: '102.73835000'),
-        City(
-            id: 130431,
-            name: 'Huyện Tam Đường',
-            latitude: '22.35391000',
-            longitude: '103.59342000'),
-        City(
-            id: 130433,
-            name: 'Huyện Than Uyên',
-            latitude: '21.91424000',
-            longitude: '103.82857000')
-      ]),
-      State(id: 3818, name: 'Lâm Đồng', stateCode: '35', cities: [
-        City(
-            id: 130176,
-            name: 'Bảo Lộc',
-            latitude: '11.54798000',
-            longitude: '107.80772000'),
-        City(
-            id: 130632,
-            name: 'Đam Rong',
-            latitude: '12.05409000',
-            longitude: '108.14941000'),
-        City(
-            id: 130633,
-            name: 'Đinh Văn',
-            latitude: '11.78624000',
-            longitude: '108.24282000'),
-        City(
-            id: 130634,
-            name: 'Đưc Trọng',
-            latitude: '11.73559000',
-            longitude: '108.37330000'),
-        City(
-            id: 130630,
-            name: 'Ðà Lạt',
-            latitude: '11.94646000',
-            longitude: '108.44193000'),
-        City(
-            id: 130230,
-            name: 'Huyện Bảo Lâm',
-            latitude: '11.71163000',
-            longitude: '107.75338000'),
-        City(
-            id: 130536,
-            name: 'Huyện Đạ Huoai',
-            latitude: '11.42465000',
-            longitude: '107.63825000'),
-        City(
-            id: 130537,
-            name: 'Huyện Đạ Tẻh',
-            latitude: '11.58446000',
-            longitude: '107.52792000'),
-        City(
-            id: 130535,
-            name: 'Huyện Đơn Dương',
-            latitude: '11.75308000',
-            longitude: '108.55397000'),
-        City(
-            id: 130553,
-            name: 'Huyện Đức Trọng',
-            latitude: '11.62686000',
-            longitude: '108.35330000'),
-        City(
-            id: 130346,
-            name: 'Huyện Lâm Hà',
-            latitude: '11.81890000',
-            longitude: '108.21215000')
-      ]),
-      State(id: 3792, name: 'Lạng Sơn', stateCode: '09', cities: [
-        City(
-            id: 130237,
-            name: 'Huyện Bắc Sơn',
-            latitude: '21.83801000',
-            longitude: '106.27690000'),
-        City(
-            id: 130220,
-            name: 'Huyện Bình Gia',
-            latitude: '22.07281000',
-            longitude: '106.30410000'),
-        City(
-            id: 130244,
-            name: 'Huyện Cao Lộc',
-            latitude: '21.89857000',
-            longitude: '106.85435000'),
-        City(
-            id: 130246,
-            name: 'Huyện Chi Lăng',
-            latitude: '21.67602000',
-            longitude: '106.62925000'),
-        City(
-            id: 130531,
-            name: 'Huyện Đình Lập',
-            latitude: '21.54210000',
-            longitude: '107.12925000'),
-        City(
-            id: 130308,
-            name: 'Huyện Hũu Lũng',
-            latitude: '21.54474000',
-            longitude: '106.34386000'),
-        City(
-            id: 130507,
-            name: 'Huyện Vặn Quan',
-            latitude: '21.83333000',
-            longitude: '106.54942000'),
-        City(
-            id: 130572,
-            name: 'Lạng Sơn',
-            latitude: '21.85264000',
-            longitude: '106.76101000')
-      ]),
-      State(id: 3817, name: 'Lào Cai', stateCode: '02', cities: [
-        City(
-            id: 130234,
-            name: 'Huyện Bắc Hà',
-            latitude: '22.50998000',
-            longitude: '104.30769000'),
-        City(
-            id: 130232,
-            name: 'Huyện Bảo Yên',
-            latitude: '22.26109000',
-            longitude: '104.46424000'),
-        City(
-            id: 130219,
-            name: 'Huyện Bát Xát',
-            latitude: '22.56767000',
-            longitude: '103.71339000'),
-        City(
-            id: 130362,
-            name: 'Huyện Mường Khương',
-            latitude: '22.67111000',
-            longitude: '104.11772000'),
-        City(
-            id: 130418,
-            name: 'Huyện Sa Pa',
-            latitude: '22.33769000',
-            longitude: '103.84037000'),
-        City(
-            id: 130420,
-            name: 'Huyện Si Ma Cai',
-            latitude: '22.67161000',
-            longitude: '104.27326000'),
-        City(
-            id: 130495,
-            name: 'Huyện Văn Bàn',
-            latitude: '22.07002000',
-            longitude: '104.18122000'),
-        City(
-            id: 130571,
-            name: 'Lào Cai',
-            latitude: '22.48556000',
-            longitude: '103.97066000'),
-        City(
-            id: 130568,
-            name: 'Lao Chải',
-            latitude: '22.31377000',
-            longitude: '103.86844000'),
-        City(
-            id: 130591,
-            name: 'Sa Pa',
-            latitude: '22.34023000',
-            longitude: '103.84415000')
-      ]),
-      State(id: 3808, name: 'Long An', stateCode: '41', cities: [
-        City(
-            id: 130190,
-            name: 'Cần Giuộc',
-            latitude: '10.60857000',
-            longitude: '106.67135000'),
-        City(
-            id: 130240,
-            name: 'Huyện Bến Lức',
-            latitude: '10.68858000',
-            longitude: '106.45484000'),
-        City(
-            id: 130271,
-            name: 'Huyện Cần Đước',
-            latitude: '10.54148000',
-            longitude: '106.59636000'),
-        City(
-            id: 130270,
-            name: 'Huyện Cần Giuộc',
-            latitude: '10.57742000',
-            longitude: '106.67279000'),
-        City(
-            id: 130251,
-            name: 'Huyện Châu Thành',
-            latitude: '10.45214000',
-            longitude: '106.49015000'),
-        City(
-            id: 130551,
-            name: 'Huyện Đức Hòa',
-            latitude: '10.87838000',
-            longitude: '106.42422000'),
-        City(
-            id: 130550,
-            name: 'Huyện Đức Huệ',
-            latitude: '10.86473000',
-            longitude: '106.25914000'),
-        City(
-            id: 130368,
-            name: 'Huyện Mộc Hóa',
-            latitude: '10.75166000',
-            longitude: '106.01729000'),
-        City(
-            id: 130482,
-            name: 'Huyện Tân Hưng',
-            latitude: '10.83380000',
-            longitude: '105.68848000'),
-        City(
-            id: 130488,
-            name: 'Huyện Tân Thạnh',
-            latitude: '10.60351000',
-            longitude: '105.96576000'),
-        City(
-            id: 130489,
-            name: 'Huyện Tân Trụ',
-            latitude: '10.53182000',
-            longitude: '106.51644000'),
-        City(
-            id: 130448,
-            name: 'Huyện Thạnh Hóa',
-            latitude: '10.66667000',
-            longitude: '106.16667000'),
-        City(
-            id: 130454,
-            name: 'Huyện Thủ Thừa',
-            latitude: '10.65639000',
-            longitude: '106.34580000'),
-        City(
-            id: 130499,
-            name: 'Huyện Vĩnh Hưng',
-            latitude: '10.88299000',
-            longitude: '105.80364000'),
-        City(
-            id: 130620,
-            name: 'Tân An',
-            latitude: '10.53589000',
-            longitude: '106.41366000')
-      ]),
-      State(id: 3789, name: 'Nam Định', stateCode: '67', cities: [
-        City(
-            id: 130287,
-            name: 'Huyện Giao Thủy',
-            latitude: '20.25706000',
-            longitude: '106.46245000'),
-        City(
-            id: 130315,
-            name: 'Huyện Hải Hậu',
-            latitude: '20.15057000',
-            longitude: '106.27161000'),
-        City(
-            id: 130370,
-            name: 'Huyện Mỹ Lộc',
-            latitude: '20.46079000',
-            longitude: '106.12319000'),
-        City(
-            id: 130377,
-            name: 'Huyện Nam Trực',
-            latitude: '20.34106000',
-            longitude: '106.20821000'),
-        City(
-            id: 130384,
-            name: 'Huyện Nghĩa Hưng',
-            latitude: '20.10598000',
-            longitude: '106.17345000'),
-        City(
-            id: 130474,
-            name: 'Huyện Trực Ninh',
-            latitude: '20.25690000',
-            longitude: '106.24582000'),
-        City(
-            id: 130509,
-            name: 'Huyện Vụ Bản',
-            latitude: '20.37705000',
-            longitude: '106.09707000'),
-        City(
-            id: 130526,
-            name: 'Huyện Ý Yên',
-            latitude: '20.31669000',
-            longitude: '106.02327000'),
-        City(
-            id: 130575,
-            name: 'Nam Định',
-            latitude: '20.43389000',
-            longitude: '106.17729000')
-      ]),
-      State(id: 3780, name: 'Nghệ An', stateCode: '22', cities: [
-        City(
-            id: 130212,
-            name: 'Huyện Anh Sơn',
-            latitude: '18.92902000',
-            longitude: '105.08294000'),
-        City(
-            id: 130264,
-            name: 'Huyện Con Cuông',
-            latitude: '19.03898000',
-            longitude: '104.80353000'),
-        City(
-            id: 130279,
-            name: 'Huyện Diễn Châu',
-            latitude: '18.98892000',
-            longitude: '105.57625000'),
-        City(
-            id: 130532,
-            name: 'Huyện Đô Lương',
-            latitude: '18.89259000',
-            longitude: '105.34027000'),
-        City(
-            id: 130310,
-            name: 'Huyện Hưng Nguyên',
-            latitude: '18.67811000',
-            longitude: '105.62523000'),
-        City(
-            id: 130339,
-            name: 'Huyện Kỳ Sơn',
-            latitude: '19.42397000',
-            longitude: '104.22199000'),
-        City(
-            id: 130378,
-            name: 'Huyện Nam Đàn',
-            latitude: '18.67041000',
-            longitude: '105.52575000'),
-        City(
-            id: 130381,
-            name: 'Huyện Nghi Lộc',
-            latitude: '18.83131000',
-            longitude: '105.62411000'),
-        City(
-            id: 130385,
-            name: 'Huyện Nghĩa Đàn',
-            latitude: '19.38234000',
-            longitude: '105.44072000'),
-        City(
-            id: 130411,
-            name: 'Huyện Quế Phong',
-            latitude: '19.70177000',
-            longitude: '104.87913000'),
-        City(
-            id: 130413,
-            name: 'Huyện Quỳ Châu',
-            latitude: '19.55707000',
-            longitude: '105.09173000'),
-        City(
-            id: 130414,
-            name: 'Huyện Quỳ Hợp',
-            latitude: '19.32514000',
-            longitude: '105.16009000'),
-        City(
-            id: 130415,
-            name: 'Huyện Quỳnh Lưu',
-            latitude: '19.22717000',
-            longitude: '105.64354000'),
-        City(
-            id: 130436,
-            name: 'Huyện Thanh Chương',
-            latitude: '18.73929000',
-            longitude: '105.24053000'),
-        City(
-            id: 130492,
-            name: 'Huyện Tương Dương',
-            latitude: '19.30979000',
-            longitude: '104.57788000'),
-        City(
-            id: 130520,
-            name: 'Huyện Yên Thành',
-            latitude: '19.02724000',
-            longitude: '105.43649000'),
-        City(
-            id: 130622,
-            name: 'Vinh',
-            latitude: '18.67337000',
-            longitude: '105.69232000'),
-        City(
-            id: 130629,
-            name: 'Yên Vinh',
-            latitude: '18.66667000',
-            longitude: '105.66667000')
-      ]),
-      State(id: 3786, name: 'Ninh Bình', stateCode: '18', cities: [
-        City(
-            id: 130297,
-            name: 'Huyện Hoa Lư',
-            latitude: '20.25391000',
-            longitude: '105.90789000'),
-        City(
-            id: 130327,
-            name: 'Huyện Kim Sơn',
-            latitude: '20.06034000',
-            longitude: '106.09863000'),
-        City(
-            id: 130390,
-            name: 'Huyện Nho Quan',
-            latitude: '20.27606000',
-            longitude: '105.75442000'),
-        City(
-            id: 130513,
-            name: 'Huyện Yên Khánh',
-            latitude: '20.19017000',
-            longitude: '106.09605000'),
-        City(
-            id: 130517,
-            name: 'Huyện Yên Mô',
-            latitude: '20.12984000',
-            longitude: '106.00199000'),
-        City(
-            id: 130577,
-            name: 'Ninh Bình',
-            latitude: '20.25809000',
-            longitude: '105.97965000')
-      ]),
-      State(id: 3788, name: 'Ninh Thuận', stateCode: '36', cities: [
-        City(
-            id: 130578,
-            name: 'Phan Rang-Tháp Chàm',
-            latitude: '11.56432000',
-            longitude: '108.98858000')
-      ]),
-      State(id: 3801, name: 'Phú Thọ', stateCode: '68', cities: [
-        City(
-            id: 130275,
-            name: 'Huyện Cẩm Khê',
-            latitude: '21.40683000',
-            longitude: '105.09845000'),
-        City(
-            id: 130530,
-            name: 'Huyện Đoan Hùng',
-            latitude: '21.61776000',
-            longitude: '105.16110000'),
-        City(
-            id: 130312,
-            name: 'Huyện Hạ Hòa',
-            latitude: '21.57763000',
-            longitude: '104.99464000'),
-        City(
-            id: 130203,
-            name: 'Huyen Lam Thao',
-            latitude: '21.29971000',
-            longitude: '105.31119000'),
-        City(
-            id: 130434,
-            name: 'Huyện Thanh Ba',
-            latitude: '21.47816000',
-            longitude: '105.15881000'),
-        City(
-            id: 130515,
-            name: 'Huyện Yên Lập',
-            latitude: '21.35569000',
-            longitude: '105.00493000'),
-        City(
-            id: 130603,
-            name: 'Thành Phố Việt Trì',
-            latitude: '21.32958000',
-            longitude: '105.39217000'),
-        City(
-            id: 130615,
-            name: 'Thị xã Phú Thọ',
-            latitude: '21.41664000',
-            longitude: '105.23636000'),
-        City(
-            id: 130623,
-            name: 'Việt Trì',
-            latitude: '21.32274000',
-            longitude: '105.40198000')
-      ]),
-      State(id: 3824, name: 'Phú Yên', stateCode: '32', cities: [
-        City(
-            id: 130425,
-            name: 'Huyện Sơn Hòa',
-            latitude: '13.15868000',
-            longitude: '108.97281000'),
-        City(
-            id: 130421,
-            name: 'Huyện Sông Hinh',
-            latitude: '12.91667000',
-            longitude: '108.91667000'),
-        City(
-            id: 130593,
-            name: 'Sông Cầu',
-            latitude: '13.45560000',
-            longitude: '109.22348000'),
-        City(
-            id: 130618,
-            name: 'Tuy Hòa',
-            latitude: '13.09546000',
-            longitude: '109.32094000')
-      ]),
-      State(id: 3809, name: 'Quảng Bình', stateCode: '24', cities: [
-        City(
-            id: 130352,
-            name: 'Huyện Lệ Thủy',
-            latitude: '17.11239000',
-            longitude: '106.70471000'),
-        City(
-            id: 130407,
-            name: 'Huyện Quảng Ninh',
-            latitude: '17.27067000',
-            longitude: '106.51387000'),
-        City(
-            id: 130408,
-            name: 'Huyện Quảng Trạch',
-            latitude: '17.83447000',
-            longitude: '106.36705000'),
-        City(
-            id: 130477,
-            name: 'Huyện Tuyên Hóa',
-            latitude: '17.91323000',
-            longitude: '106.02678000'),
-        City(
-            id: 130566,
-            name: 'Kwang Binh',
-            latitude: '17.46885000',
-            longitude: '106.62226000')
-      ]),
-      State(id: 3776, name: 'Quảng Nam', stateCode: '27', cities: [
-        City(
-            id: 130563,
-            name: 'Hội An',
-            latitude: '15.87944000',
-            longitude: '108.33500000'),
-        City(
-            id: 130281,
-            name: 'Huyện Duy Xuyên',
-            latitude: '15.78970000',
-            longitude: '108.20247000'),
-        City(
-            id: 130538,
-            name: 'Huyện Đại Lộc',
-            latitude: '15.83721000',
-            longitude: '107.97894000'),
-        City(
-            id: 130529,
-            name: 'Huyện Điện Bàn',
-            latitude: '15.89917000',
-            longitude: '108.22470000'),
-        City(
-            id: 130296,
-            name: 'Huyện Hiệp Đức',
-            latitude: '15.53857000',
-            longitude: '108.09539000'),
-        City(
-            id: 130375,
-            name: 'Huyện Nam Giang',
-            latitude: '15.63201000',
-            longitude: '107.60267000'),
-        City(
-            id: 130394,
-            name: 'Huyện Núi Thành',
-            latitude: '15.43345000',
-            longitude: '108.57438000'),
-        City(
-            id: 130403,
-            name: 'Huyện Phước Sơn',
-            latitude: '15.38806000',
-            longitude: '107.85766000'),
-        City(
-            id: 130457,
-            name: 'Huyện Tiên Phước',
-            latitude: '15.47090000',
-            longitude: '108.28257000'),
-        City(
-            id: 130467,
-            name: 'Huyện Trà My',
-            latitude: '15.25000000',
-            longitude: '108.08333000'),
-        City(
-            id: 130596,
-            name: 'Tam Kỳ',
-            latitude: '15.57364000',
-            longitude: '108.47403000')
-      ]),
-      State(id: 3828, name: 'Quảng Ngãi', stateCode: '29', cities: [
-        City(
-            id: 130216,
-            name: 'Huyện Ba Tơ',
-            latitude: '14.73973000',
-            longitude: '108.69326000'),
-        City(
-            id: 130224,
-            name: 'Huyện Bình Sơn',
-            latitude: '15.31899000',
-            longitude: '108.76383000'),
-        City(
-            id: 130552,
-            name: 'Huyện Đức Phổ',
-            latitude: '14.78000000',
-            longitude: '108.97857000'),
-        City(
-            id: 130348,
-            name: 'Huyện Lý Sơn',
-            latitude: '15.40608000',
-            longitude: '109.09707000'),
-        City(
-            id: 130359,
-            name: 'Huyện Minh Long',
-            latitude: '14.95375000',
-            longitude: '108.67724000'),
-        City(
-            id: 130366,
-            name: 'Huyện Mộ Đức',
-            latitude: '14.95515000',
-            longitude: '108.88841000'),
-        City(
-            id: 130383,
-            name: 'Huyện Nghĩa Hành',
-            latitude: '14.98712000',
-            longitude: '108.80036000'),
-        City(
-            id: 130424,
-            name: 'Huyện Sơn Hà',
-            latitude: '14.98427000',
-            longitude: '108.53643000'),
-        City(
-            id: 130426,
-            name: 'Huyện Sơn Tây',
-            latitude: '14.96392000',
-            longitude: '108.36419000'),
-        City(
-            id: 130427,
-            name: 'Huyện Sơn Tịnh',
-            latitude: '15.19090000',
-            longitude: '108.74295000'),
-        City(
-            id: 130464,
-            name: 'Huyện Trà Bồng',
-            latitude: '15.23752000',
-            longitude: '108.52633000'),
-        City(
-            id: 130491,
-            name: 'Huyện Tư Nghĩa',
-            latitude: '15.09499000',
-            longitude: '108.77053000'),
-        City(
-            id: 130585,
-            name: 'Quảng Ngãi',
-            latitude: '15.12047000',
-            longitude: '108.79232000')
-      ]),
-      State(id: 3814, name: 'Quảng Ninh', stateCode: '13', cities: [
-        City(
-            id: 130192,
-            name: 'Cẩm Phả',
-            latitude: '21.01004000',
-            longitude: '107.27345000'),
-        City(
-            id: 130193,
-            name: 'Cẩm Phả Mines',
-            latitude: '21.01667000',
-            longitude: '107.30000000'),
-        City(
-            id: 130561,
-            name: 'Hạ Long',
-            latitude: '20.95045000',
-            longitude: '107.07336000'),
-        City(
-            id: 130214,
-            name: 'Huyện Ba Chẽ',
-            latitude: '21.29503000',
-            longitude: '107.19298000'),
-        City(
-            id: 130222,
-            name: 'Huyện Bình Liêu',
-            latitude: '21.54389000',
-            longitude: '107.44047000'),
-        City(
-            id: 130268,
-            name: 'Huyện Cô Tô',
-            latitude: '21.05418000',
-            longitude: '107.80698000'),
-        City(
-            id: 130541,
-            name: 'Huyện Đầm Hà',
-            latitude: '21.39689000',
-            longitude: '107.56175000'),
-        City(
-            id: 130534,
-            name: 'Huyện Đông Triều',
-            latitude: '21.11043000',
-            longitude: '106.59662000'),
-        City(
-            id: 130314,
-            name: 'Huyện Hải Hà',
-            latitude: '21.49537000',
-            longitude: '107.66790000'),
-        City(
-            id: 130299,
-            name: 'Huyện Hoành Bồ',
-            latitude: '21.11888000',
-            longitude: '107.03149000'),
-        City(
-            id: 130458,
-            name: 'Huyện Tiên Yên',
-            latitude: '21.37571000',
-            longitude: '107.37468000'),
-        City(
-            id: 130494,
-            name: 'Huyện Vân Đồn',
-            latitude: '21.04921000',
-            longitude: '107.50971000'),
-        City(
-            id: 130573,
-            name: 'Móng Cái',
-            latitude: '21.52471000',
-            longitude: '107.96619000'),
-        City(
-            id: 130602,
-            name: 'Thành Phố Uông Bí',
-            latitude: '21.03433000',
-            longitude: '106.77049000')
-      ]),
-      State(id: 3803, name: 'Quảng Trị', stateCode: '25', cities: [
-        City(
-            id: 130631,
-            name: 'Ðông Hà',
-            latitude: '16.81625000',
-            longitude: '107.10031000'),
-        City(
-            id: 130242,
-            name: 'Huyện Cam Lộ',
-            latitude: '16.79335000',
-            longitude: '106.96175000'),
-        City(
-            id: 130527,
-            name: 'Huyện Đa Krông',
-            latitude: '16.55543000',
-            longitude: '106.97208000'),
-        City(
-            id: 130288,
-            name: 'Huyện Gio Linh',
-            latitude: '16.91667000',
-            longitude: '107.00000000'),
-        City(
-            id: 130316,
-            name: 'Huyện Hải Lăng',
-            latitude: '16.67574000',
-            longitude: '107.23388000'),
-        City(
-            id: 130311,
-            name: 'Huyện Hướng Hóa',
-            latitude: '16.70132000',
-            longitude: '106.67036000'),
-        City(
-            id: 130462,
-            name: 'Huyện Triệu Phong',
-            latitude: '16.78132000',
-            longitude: '107.16034000'),
-        City(
-            id: 130500,
-            name: 'Huyện Vĩnh Linh',
-            latitude: '17.01600000',
-            longitude: '106.93384000')
-      ]),
-      State(id: 3819, name: 'Sóc Trăng', stateCode: '52', cities: [
-        City(
-            id: 130336,
-            name: 'Huyện Kế Sách',
-            latitude: '9.81771000',
-            longitude: '105.94190000'),
-        City(
-            id: 130343,
-            name: 'Huyện Long Phú',
-            latitude: '9.63715000',
-            longitude: '106.08226000'),
-        City(
-            id: 130371,
-            name: 'Huyện Mỹ Tú',
-            latitude: '9.60849000',
-            longitude: '105.80681000'),
-        City(
-            id: 130372,
-            name: 'Huyện Mỹ Xuyên',
-            latitude: '9.44200000',
-            longitude: '105.88546000'),
-        City(
-            id: 130205,
-            name: 'Huyen Nga Nam',
-            latitude: '9.56127000',
-            longitude: '105.59476000'),
-        City(
-            id: 130450,
-            name: 'Huyện Thạnh Trị',
-            latitude: '9.46939000',
-            longitude: '105.71196000'),
-        City(
-            id: 130592,
-            name: 'Sóc Trăng',
-            latitude: '9.59995000',
-            longitude: '105.97193000')
-      ]),
-      State(id: 3812, name: 'Sơn La', stateCode: '05', cities: [
-        City(
-            id: 130238,
-            name: 'Huyện Bắc Yên',
-            latitude: '21.25042000',
-            longitude: '104.38501000'),
-        City(
-            id: 130356,
-            name: 'Huyện Mai Sơn',
-            latitude: '21.15884000',
-            longitude: '104.04821000'),
-        City(
-            id: 130367,
-            name: 'Huyện Mộc Châu',
-            latitude: '21.83333000',
-            longitude: '104.75000000'),
-        City(
-            id: 130363,
-            name: 'Huyện Mường La',
-            latitude: '21.52960000',
-            longitude: '104.11113000'),
-        City(
-            id: 130398,
-            name: 'Huyện Phù Yên',
-            latitude: '21.21412000',
-            longitude: '104.68993000'),
-        City(
-            id: 130416,
-            name: 'Huyện Quỳnh Nhai',
-            latitude: '21.77224000',
-            longitude: '103.64920000'),
-        City(
-            id: 130422,
-            name: 'Huyện Sông Mã',
-            latitude: '21.06971000',
-            longitude: '103.68727000'),
-        City(
-            id: 130440,
-            name: 'Huyện Thuận Châu',
-            latitude: '21.42319000',
-            longitude: '103.64408000'),
-        City(
-            id: 130512,
-            name: 'Huyện Yên Châu',
-            latitude: '21.00500000',
-            longitude: '104.33264000'),
-        City(
-            id: 130594,
-            name: 'Sơn La',
-            latitude: '21.32560000',
-            longitude: '103.91882000')
-      ]),
-      State(id: 3826, name: 'Tây Ninh', stateCode: '37', cities: [
-        City(
-            id: 130239,
-            name: 'Huyện Bến Cầu',
-            latitude: '11.12889000',
-            longitude: '106.14296000'),
-        City(
-            id: 130282,
-            name: 'Huyện Dương Minh Châu',
-            latitude: '11.31833000',
-            longitude: '106.25697000'),
-        City(
-            id: 130294,
-            name: 'Huyện Gò Dầu',
-            latitude: '11.15737000',
-            longitude: '106.27307000'),
-        City(
-            id: 130306,
-            name: 'Huyện Hòa Thành',
-            latitude: '11.26706000',
-            longitude: '106.14486000'),
-        City(
-            id: 130480,
-            name: 'Huyện Tân Châu',
-            latitude: '11.58739000',
-            longitude: '106.28270000'),
-        City(
-            id: 130472,
-            name: 'Huyện Trảng Bàng',
-            latitude: '11.05720000',
-            longitude: '106.37539000'),
-        City(
-            id: 130581,
-            name: 'Phú Khương',
-            latitude: '11.28333000',
-            longitude: '106.13333000'),
-        City(
-            id: 130621,
-            name: 'Tây Ninh',
-            latitude: '11.31004000',
-            longitude: '106.09828000')
-      ]),
-      State(id: 3775, name: 'Thái Bình', stateCode: '20', cities: [
-        City(
-            id: 130524,
-            name: 'Huyện Ðông Hưng',
-            latitude: '20.54388000',
-            longitude: '106.34090000'),
-        City(
-            id: 130309,
-            name: 'Huyện Hưng Hà',
-            latitude: '20.59464000',
-            longitude: '106.21230000'),
-        City(
-            id: 130331,
-            name: 'Huyện Kiến Xương',
-            latitude: '20.40081000',
-            longitude: '106.42032000'),
-        City(
-            id: 130417,
-            name: 'Huyện Quỳnh Phụ',
-            latitude: '20.65095000',
-            longitude: '106.36359000'),
-        City(
-            id: 130442,
-            name: 'Huyện Thái Thụy',
-            latitude: '20.53916000',
-            longitude: '106.51688000'),
-        City(
-            id: 130459,
-            name: 'Huyện Tiền Hải',
-            latitude: '20.38465000',
-            longitude: '106.52882000'),
-        City(
-            id: 130504,
-            name: 'Huyện Vũ Thư',
-            latitude: '20.43732000',
-            longitude: '106.26529000'),
-        City(
-            id: 130605,
-            name: 'Thái Bình',
-            latitude: '20.45000000',
-            longitude: '106.34002000')
-      ]),
-      State(id: 3807, name: 'Thái Nguyên', stateCode: '69', cities: [
-        City(
-            id: 130606,
-            name: 'Thái Nguyên',
-            latitude: '21.59422000',
-            longitude: '105.84817000')
-      ]),
-      State(id: 3771, name: 'Thanh Hóa', stateCode: '21', cities: [
-        City(
-            id: 130181,
-            name: 'Bỉm Sơn',
-            latitude: '20.07806000',
-            longitude: '105.86028000'),
-        City(
-            id: 130218,
-            name: 'Huyện Bá Thước',
-            latitude: '20.35767000',
-            longitude: '105.25301000'),
-        City(
-            id: 130276,
-            name: 'Huyện Cẩm Thủy',
-            latitude: '20.19586000',
-            longitude: '105.46817000'),
-        City(
-            id: 130533,
-            name: 'Huyện Đông Sơn',
-            latitude: '19.79742000',
-            longitude: '105.72465000'),
-        City(
-            id: 130301,
-            name: 'Huyện Hà Trung',
-            latitude: '20.02654000',
-            longitude: '105.81931000'),
-        City(
-            id: 130317,
-            name: 'Huyện Hậu Lộc',
-            latitude: '19.93337000',
-            longitude: '105.88894000'),
-        City(
-            id: 130341,
-            name: 'Huyện Lang Chánh',
-            latitude: '20.15926000',
-            longitude: '105.15071000'),
-        City(
-            id: 130364,
-            name: 'Huyện Mường Lát',
-            latitude: '20.52763000',
-            longitude: '104.62941000'),
-        City(
-            id: 130380,
-            name: 'Huyện Nga Sơn',
-            latitude: '20.01561000',
-            longitude: '105.98975000'),
-        City(
-            id: 130389,
-            name: 'Huyện Ngọc Lặc',
-            latitude: '20.06777000',
-            longitude: '105.37386000'),
-        City(
-            id: 130391,
-            name: 'Huyện Như Thanh',
-            latitude: '19.57798000',
-            longitude: '105.55616000'),
-        City(
-            id: 130392,
-            name: 'Huyện Như Xuân',
-            latitude: '19.62527000',
-            longitude: '105.38856000'),
-        City(
-            id: 130393,
-            name: 'Huyện Nông Cống',
-            latitude: '19.61376000',
-            longitude: '105.68279000'),
-        City(
-            id: 130404,
-            name: 'Huyện Quan Hóa',
-            latitude: '20.47565000',
-            longitude: '104.95335000'),
-        City(
-            id: 130405,
-            name: 'Huyện Quan Sơn',
-            latitude: '20.25758000',
-            longitude: '104.83416000'),
-        City(
-            id: 130409,
-            name: 'Huyện Quảng Xương',
-            latitude: '19.70252000',
-            longitude: '105.79298000'),
-        City(
-            id: 130439,
-            name: 'Huyện Thiệu Hóa',
-            latitude: '19.89713000',
-            longitude: '105.68144000'),
-        City(
-            id: 130451,
-            name: 'Huyện Thọ Xuân',
-            latitude: '19.93114000',
-            longitude: '105.48284000'),
-        City(
-            id: 130445,
-            name: 'Huyện Thường Xuân',
-            latitude: '19.93684000',
-            longitude: '105.24109000'),
-        City(
-            id: 130463,
-            name: 'Huyện Triệu Sơn',
-            latitude: '19.82578000',
-            longitude: '105.58293000'),
-        City(
-            id: 130501,
-            name: 'Huyện Vĩnh Lộc',
-            latitude: '20.03482000',
-            longitude: '105.65755000'),
-        City(
-            id: 130522,
-            name: 'Huyện Yên Định',
-            latitude: '19.98666000',
-            longitude: '105.61482000'),
-        City(
-            id: 130597,
-            name: 'Thanh Hóa',
-            latitude: '19.80000000',
-            longitude: '105.76667000')
-      ]),
-      State(id: 3798, name: 'Thừa Thiên-Huế', stateCode: '26', cities: [
-        City(
-            id: 130554,
-            name: 'Huế',
-            latitude: '16.46190000',
-            longitude: '107.59546000'),
-        City(
-            id: 130207,
-            name: 'Huyện A Lưới',
-            latitude: '16.23422000',
-            longitude: '107.30650000'),
-        City(
-            id: 130379,
-            name: 'Huyện Nam Đông',
-            latitude: '16.12396000',
-            longitude: '107.69270000'),
-        City(
-            id: 130395,
-            name: 'Huyện Phong Điền',
-            latitude: '16.48769000',
-            longitude: '107.28889000'),
-        City(
-            id: 130399,
-            name: 'Huyện Phú Lộc',
-            latitude: '16.27066000',
-            longitude: '107.88545000'),
-        City(
-            id: 130402,
-            name: 'Huyện Phú Vang',
-            latitude: '16.47007000',
-            longitude: '107.71458000'),
-        City(
-            id: 130410,
-            name: 'Huyện Quảng Ðiền',
-            latitude: '16.57941000',
-            longitude: '107.49370000')
-      ]),
-      State(id: 3781, name: 'Tiền Giang', stateCode: '46', cities: [
-        City(
-            id: 130266,
-            name: 'Huyện Cái Bè',
-            latitude: '10.38824000',
-            longitude: '105.94620000'),
-        City(
-            id: 130241,
-            name: 'Huyện Cai Lậy',
-            latitude: '10.38943000',
-            longitude: '106.06774000'),
-        City(
-            id: 130252,
-            name: 'Huyện Châu Thành',
-            latitude: '10.38600000',
-            longitude: '106.27311000'),
-        City(
-            id: 130260,
-            name: 'Huyện Chợ Gạo',
-            latitude: '10.37373000',
-            longitude: '106.44341000'),
-        City(
-            id: 130293,
-            name: 'Huyện Gò Công Đông',
-            latitude: '10.36784000',
-            longitude: '106.74592000'),
-        City(
-            id: 130292,
-            name: 'Huyện Gò Công Tây',
-            latitude: '10.34527000',
-            longitude: '106.59851000'),
-        City(
-            id: 130486,
-            name: 'Huyện Tân Phước',
-            latitude: '10.51489000',
-            longitude: '106.23312000'),
-        City(
-            id: 130574,
-            name: 'Mỹ Tho',
-            latitude: '10.36004000',
-            longitude: '106.35996000'),
-        City(
-            id: 130599,
-            name: 'Thành Phố Mỹ Tho',
-            latitude: '10.36221000',
-            longitude: '106.36824000'),
-        City(
-            id: 130610,
-            name: 'Thị Xã Gò Công',
-            latitude: '10.40005000',
-            longitude: '106.65847000')
-      ]),
-      State(id: 3805, name: 'Trà Vinh', stateCode: '51', cities: [
-        City(
-            id: 130265,
-            name: 'Huyện Càng Long',
-            latitude: '9.95883000',
-            longitude: '106.21395000'),
-        City(
-            id: 130272,
-            name: 'Huyện Cầu Kè',
-            latitude: '9.86738000',
-            longitude: '106.07916000'),
-        City(
-            id: 130273,
-            name: 'Huyện Cầu Ngang',
-            latitude: '9.77186000',
-            longitude: '106.43654000'),
-        City(
-            id: 130460,
-            name: 'Huyện Tiểu Cần',
-            latitude: '9.80350000',
-            longitude: '106.20594000'),
-        City(
-            id: 130465,
-            name: 'Huyện Trà Cú',
-            latitude: '9.69706000',
-            longitude: '106.29423000'),
-        City(
-            id: 130617,
-            name: 'Trà Vinh',
-            latitude: '9.94719000',
-            longitude: '106.34225000')
-      ]),
-      State(id: 3795, name: 'Tuyên Quang', stateCode: '07', cities: [
-        City(
-            id: 130247,
-            name: 'Huyện Chiêm Hóa',
-            latitude: '22.17895000',
-            longitude: '105.27671000'),
-        City(
-            id: 130305,
-            name: 'Huyện Hàm Yên',
-            latitude: '22.10935000',
-            longitude: '105.01630000'),
-        City(
-            id: 130345,
-            name: 'Huyện Lâm Bình',
-            latitude: '22.46411000',
-            longitude: '105.21903000'),
-        City(
-            id: 130373,
-            name: 'Huyện Na Hang',
-            latitude: '22.47522000',
-            longitude: '105.48380000'),
-        City(
-            id: 130423,
-            name: 'Huyện Sơn Dương',
-            latitude: '21.63623000',
-            longitude: '105.38901000'),
-        City(
-            id: 130519,
-            name: 'Huyện Yên Sơn',
-            latitude: '21.88363000',
-            longitude: '105.27656000'),
-        City(
-            id: 130619,
-            name: 'Tuyên Quang',
-            latitude: '21.82356000',
-            longitude: '105.21424000')
-      ]),
-      State(id: 3790, name: 'Vĩnh Long', stateCode: '49', cities: [
-        City(
-            id: 130342,
-            name: 'Huyện Long Hồ',
-            latitude: '10.21640000',
-            longitude: '105.98483000'),
-        City(
-            id: 130357,
-            name: 'Huyện Mang Thít',
-            latitude: '10.18731000',
-            longitude: '106.07472000'),
-        City(
-            id: 130428,
-            name: 'Huyện Tam Bình',
-            latitude: '10.08127000',
-            longitude: '105.95352000'),
-        City(
-            id: 130468,
-            name: 'Huyện Trà Ôn',
-            latitude: '9.97522000',
-            longitude: '106.00957000'),
-        City(
-            id: 130505,
-            name: 'Huyện Vũng Liêm',
-            latitude: '10.08717000',
-            longitude: '106.16038000'),
-        City(
-            id: 130624,
-            name: 'Vĩnh Long',
-            latitude: '10.25369000',
-            longitude: '105.97220000')
-      ]),
-      State(id: 3774, name: 'Vĩnh Phúc', stateCode: '70', cities: [
-        City(
-            id: 130225,
-            name: 'Huyện Bình Xuyên',
-            latitude: '21.30561000',
-            longitude: '105.66225000'),
-        City(
-            id: 130429,
-            name: 'Huyện Tam Dương',
-            latitude: '21.36189000',
-            longitude: '105.55690000'),
-        City(
-            id: 130432,
-            name: 'Huyện Tam Đảo',
-            latitude: '21.45690000',
-            longitude: '105.59460000'),
-        City(
-            id: 130514,
-            name: 'Huyện Yên Lạc',
-            latitude: '21.21845000',
-            longitude: '105.57586000'),
-        City(
-            id: 130625,
-            name: 'Vĩnh Yên',
-            latitude: '21.30891000',
-            longitude: '105.60489000')
-      ]),
-      State(id: 3784, name: 'Yên Bái', stateCode: '06', cities: [
-        City(
-            id: 130355,
-            name: 'Huyện Lục Yên',
-            latitude: '22.10235000',
-            longitude: '104.72538000'),
-        City(
-            id: 130360,
-            name: 'Huyện Mù Cang Chải',
-            latitude: '21.78815000',
-            longitude: '104.11998000'),
-        City(
-            id: 130470,
-            name: 'Huyện Trạm Tấu',
-            latitude: '21.48553000',
-            longitude: '104.42756000'),
-        City(
-            id: 130473,
-            name: 'Huyện Trấn Yên',
-            latitude: '21.66586000',
-            longitude: '104.79702000'),
-        City(
-            id: 130496,
-            name: 'Huyện Văn Chấn',
-            latitude: '21.55722000',
-            longitude: '104.64038000'),
-        City(
-            id: 130497,
-            name: 'Huyện Văn Yên',
-            latitude: '21.90022000',
-            longitude: '104.56669000'),
-        City(
-            id: 130628,
-            name: 'Yên Bái',
-            latitude: '21.72288000',
-            longitude: '104.91130000')
-      ])
-    ]);
+  id: 240,
+  name: 'Vietnam',
+  iso3: 'VNM',
+  iso2: 'VN',
+  phoneCode: '84',
+  capital: 'Hanoi',
+  currency: 'VND',
+  currencySymbol: r'₫',
+  tld: '.vn',
+  native: 'Việt Nam',
+  region: 'Asia',
+  subregion: 'South-Eastern Asia',
+  timezones: [
+    Timezone(
+      zoneName: 'Asia/Ho_Chi_Minh',
+      gmtOffset: 25200,
+      gmtOffsetName: 'UTC+07:00',
+      abbreviation: 'ICT',
+      tzName: 'Indochina Time',
+    )
+  ],
+  emoji: '🇻🇳',
+  emojiU: 'U+1F1FB U+1F1F3',
+  states: [
+    CountryState(
+      id: 3794,
+      name: 'An Giang',
+      stateCode: '44',
+      cities: [
+        City(
+          id: 130185,
+          name: 'Cho Dok',
+          latitude: '10.70000000',
+          longitude: '105.11667000',
+        ),
+        City(
+          id: 130211,
+          name: 'Huyện An Phú',
+          latitude: '10.84274000',
+          longitude: '105.08990000',
+        ),
+        City(
+          id: 130248,
+          name: 'Huyện Châu Phú',
+          latitude: '10.57166000',
+          longitude: '105.16991000',
+        ),
+        City(
+          id: 130262,
+          name: 'Huyện Chợ Mới',
+          latitude: '10.47730000',
+          longitude: '105.49092000',
+        ),
+        City(
+          id: 130401,
+          name: 'Huyện Phú Tân',
+          latitude: '10.65716000',
+          longitude: '105.28459000',
+        ),
+        City(
+          id: 130461,
+          name: 'Huyện Tri Tôn',
+          latitude: '10.41416000',
+          longitude: '104.96136000',
+        ),
+        City(
+          id: 130569,
+          name: 'Long Xuyên',
+          latitude: '10.38639000',
+          longitude: '105.43518000',
+        ),
+        City(
+          id: 130570,
+          name: 'Long Xuyên City',
+          latitude: '10.36857000',
+          longitude: '105.42340000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3770,
+      name: 'Bà Rịa-Vũng Tàu',
+      stateCode: '43',
+      cities: [
+        City(
+          id: 130189,
+          name: 'Côn Sơn',
+          latitude: '8.68641000',
+          longitude: '106.60824000',
+        ),
+        City(
+          id: 130255,
+          name: 'Huyện Châu Đức',
+          latitude: '10.65805000',
+          longitude: '107.25098000',
+        ),
+        City(
+          id: 130539,
+          name: 'Huyện Đất Đỏ',
+          latitude: '10.48025000',
+          longitude: '107.27879000',
+        ),
+        City(
+          id: 130487,
+          name: 'Huyện Tân Thành',
+          latitude: '10.57381000',
+          longitude: '107.10189000',
+        ),
+        City(
+          id: 130510,
+          name: 'Huyện Xuyên Mộc',
+          latitude: '10.63048000',
+          longitude: '107.46568000',
+        ),
+        City(
+          id: 130604,
+          name: 'Thành Phố Vũng Tàu',
+          latitude: '10.40239000',
+          longitude: '107.14239000',
+        ),
+        City(
+          id: 130613,
+          name: 'Thị Xã Phú Mỹ',
+          latitude: '10.56815000',
+          longitude: '107.12999000',
+        ),
+        City(
+          id: 130626,
+          name: 'Vũng Tàu',
+          latitude: '10.34599000',
+          longitude: '107.08426000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3815,
+      name: 'Bắc Giang',
+      stateCode: '54',
+      cities: [
+        City(
+          id: 130177,
+          name: 'Bắc Giang',
+          latitude: '21.27307000',
+          longitude: '106.19460000',
+        ),
+        City(
+          id: 130353,
+          name: 'Huyện Lục Nam',
+          latitude: '21.27548000',
+          longitude: '106.46519000',
+        ),
+        City(
+          id: 130354,
+          name: 'Huyện Lục Ngạn',
+          latitude: '21.43719000',
+          longitude: '106.65845000',
+        ),
+        City(
+          id: 130521,
+          name: 'Huyện Yên Thế',
+          latitude: '21.51667000',
+          longitude: '106.11689000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3822,
+      name: 'Bắc Kạn',
+      stateCode: '53',
+      cities: [
+        City(
+          id: 130178,
+          name: 'Bắc Kạn',
+          latitude: '22.14701000',
+          longitude: '105.83481000',
+        ),
+        City(
+          id: 130213,
+          name: 'Huyện Ba Bể',
+          latitude: '22.41667000',
+          longitude: '105.75000000',
+        ),
+        City(
+          id: 130228,
+          name: 'Huyện Bạch Thông',
+          latitude: '22.25758000',
+          longitude: '105.83295000',
+        ),
+        City(
+          id: 130263,
+          name: 'Huyện Chợ Đồn',
+          latitude: '22.18681000',
+          longitude: '105.57280000',
+        ),
+        City(
+          id: 130374,
+          name: 'Huyện Na Rì',
+          latitude: '22.17883000',
+          longitude: '106.11221000',
+        ),
+        City(
+          id: 130387,
+          name: 'Huyện Ngân Sơn',
+          latitude: '22.42962000',
+          longitude: '106.01030000',
+        ),
+        City(
+          id: 130608,
+          name: 'Thị Xã Bắc Kạn',
+          latitude: '22.14130000',
+          longitude: '105.83867000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3804,
+      name: 'Bạc Liêu',
+      stateCode: '55',
+      cities: [
+        City(
+          id: 130175,
+          name: 'Bạc Liêu',
+          latitude: '9.29414000',
+          longitude: '105.72776000',
+        ),
+        City(
+          id: 130289,
+          name: 'Huyện Giá Rai',
+          latitude: '9.27162000',
+          longitude: '105.40017000',
+        ),
+        City(
+          id: 130318,
+          name: 'Huyện Hồng Dân',
+          latitude: '9.53822000',
+          longitude: '105.42242000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3791,
+      name: 'Bắc Ninh',
+      stateCode: '56',
+      cities: [
+        City(
+          id: 130179,
+          name: 'Bắc Ninh',
+          latitude: '21.18608000',
+          longitude: '106.07631000',
+        ),
+        City(
+          id: 130186,
+          name: 'Cung Kiệm',
+          latitude: '21.18697000',
+          longitude: '106.16076000',
+        ),
+        City(
+          id: 130285,
+          name: 'Huyện Gia Bình',
+          latitude: '21.07795000',
+          longitude: '106.20903000',
+        ),
+        City(
+          id: 130441,
+          name: 'Huyện Thuận Thành',
+          latitude: '21.04085000',
+          longitude: '106.07515000',
+        ),
+        City(
+          id: 130455,
+          name: 'Huyện Tiên Du',
+          latitude: '21.12195000',
+          longitude: '106.03995000',
+        ),
+        City(
+          id: 130518,
+          name: 'Huyện Yên Phong',
+          latitude: '21.20676000',
+          longitude: '105.99427000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3796,
+      name: 'Bến Tre',
+      stateCode: '50',
+      cities: [
+        City(
+          id: 130635,
+          name: 'Ấp Tân Ngãi',
+          latitude: '10.23333000',
+          longitude: '106.28333000',
+        ),
+        City(
+          id: 130180,
+          name: 'Bến Tre',
+          latitude: '10.24147000',
+          longitude: '106.37585000',
+        ),
+        City(
+          id: 130215,
+          name: 'Huyện Ba Tri',
+          latitude: '10.06627000',
+          longitude: '106.60554000',
+        ),
+        City(
+          id: 130226,
+          name: 'Huyện Bình Đại',
+          latitude: '10.19354000',
+          longitude: '106.64455000',
+        ),
+        City(
+          id: 130250,
+          name: 'Huyện Châu Thành',
+          latitude: '10.29212000',
+          longitude: '106.30827000',
+        ),
+        City(
+          id: 130261,
+          name: 'Huyện Chợ Lách',
+          latitude: '10.22674000',
+          longitude: '106.17077000',
+        ),
+        City(
+          id: 130291,
+          name: 'Huyện Giồng Trôm',
+          latitude: '10.15909000',
+          longitude: '106.47004000',
+        ),
+        City(
+          id: 130449,
+          name: 'Huyện Thạnh Phú',
+          latitude: '9.92993000',
+          longitude: '106.54316000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3785,
+      name: 'Bình Dương',
+      stateCode: '57',
+      cities: [
+        City(
+          id: 130198,
+          name: 'Dĩ An',
+          latitude: '10.90682000',
+          longitude: '106.76940000',
+        ),
+        City(
+          id: 130616,
+          name: 'Thủ Dầu Một',
+          latitude: '10.98040000',
+          longitude: '106.65190000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3830,
+      name: 'Bình Định',
+      stateCode: '31',
+      cities: [
+        City(
+          id: 130209,
+          name: 'Huyện An Lão',
+          latitude: '14.55676000',
+          longitude: '108.80100000',
+        ),
+        City(
+          id: 130298,
+          name: 'Huyện Hoài Nhơn',
+          latitude: '14.50535000',
+          longitude: '109.02315000',
+        ),
+        City(
+          id: 130397,
+          name: 'Huyện Phù Mỹ',
+          latitude: '14.22304000',
+          longitude: '109.08611000',
+        ),
+        City(
+          id: 130490,
+          name: 'Huyện Tây Sơn',
+          latitude: '13.94306000',
+          longitude: '108.87999000',
+        ),
+        City(
+          id: 130476,
+          name: 'Huyện Tuy Phước',
+          latitude: '13.84564000',
+          longitude: '109.15275000',
+        ),
+        City(
+          id: 130503,
+          name: 'Huyện Vĩnh Thạnh',
+          latitude: '14.21100000',
+          longitude: '108.74389000',
+        ),
+        City(
+          id: 130584,
+          name: 'Qui Nhon',
+          latitude: '13.77648000',
+          longitude: '109.22367000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3797,
+      name: 'Bình Phước',
+      stateCode: '58',
+      cities: [
+        City(
+          id: 130174,
+          name: 'Bình Long',
+          latitude: '11.64711000',
+          longitude: '106.60586000',
+        ),
+        City(
+          id: 130197,
+          name: 'Don Luan',
+          latitude: '11.53495000',
+          longitude: '106.88324000',
+        ),
+        City(
+          id: 130227,
+          name: 'Huyện Bù Đốp',
+          latitude: '12.00374000',
+          longitude: '106.81545000',
+        ),
+        City(
+          id: 130256,
+          name: 'Huyện Chơn Thành',
+          latitude: '11.46283000',
+          longitude: '106.66655000',
+        ),
+        City(
+          id: 130547,
+          name: 'Huyện Đồng Phú',
+          latitude: '11.50071000',
+          longitude: '107.01192000',
+        ),
+        City(
+          id: 130319,
+          name: 'Huyện Hớn Quản',
+          latitude: '11.59718000',
+          longitude: '106.62739000',
+        ),
+        City(
+          id: 130614,
+          name: 'Thị Xã Phước Long',
+          latitude: '11.81142000',
+          longitude: '106.99670000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3787,
+      name: 'Bình Thuận',
+      stateCode: '40',
+      cities: [
+        City(
+          id: 130233,
+          name: 'Huyện Bắc Bình',
+          latitude: '11.27571000',
+          longitude: '108.38506000',
+        ),
+        City(
+          id: 130304,
+          name: 'Huyện Hàm Tân',
+          latitude: '10.76856000',
+          longitude: '107.64233000',
+        ),
+        City(
+          id: 130302,
+          name: 'Huyện Hàm Thuận Bắc',
+          latitude: '11.14703000',
+          longitude: '108.08172000',
+        ),
+        City(
+          id: 130303,
+          name: 'Huyện Hàm Thuận Nam',
+          latitude: '10.92101000',
+          longitude: '107.93325000',
+        ),
+        City(
+          id: 130479,
+          name: 'Huyện Tánh Linh',
+          latitude: '11.11367000',
+          longitude: '107.68427000',
+        ),
+        City(
+          id: 130475,
+          name: 'Huyện Tuy Phong',
+          latitude: '11.34746000',
+          longitude: '108.70466000',
+        ),
+        City(
+          id: 130567,
+          name: 'La Gi',
+          latitude: '10.65993000',
+          longitude: '107.77206000',
+        ),
+        City(
+          id: 130579,
+          name: 'Phan Thiết',
+          latitude: '10.92889000',
+          longitude: '108.10208000',
+        ),
+        City(
+          id: 130601,
+          name: 'Thành Phố Phan Thiết',
+          latitude: '10.93700000',
+          longitude: '108.15778000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3778,
+      name: 'Cà Mau',
+      stateCode: '59',
+      cities: [
+        City(
+          id: 130187,
+          name: 'Cà Mau',
+          latitude: '9.17682000',
+          longitude: '105.15242000',
+        ),
+        City(
+          id: 130267,
+          name: 'Huyện Cái Nước',
+          latitude: '9.00094000',
+          longitude: '105.04201000',
+        ),
+        City(
+          id: 130540,
+          name: 'Huyện Đầm Dơi',
+          latitude: '8.96029000',
+          longitude: '105.24107000',
+        ),
+        City(
+          id: 130204,
+          name: 'Huyen Nam Can',
+          latitude: '8.81531000',
+          longitude: '105.05574000',
+        ),
+        City(
+          id: 130453,
+          name: 'Huyện Thới Bình',
+          latitude: '9.35790000',
+          longitude: '105.16023000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 4925,
+      name: 'Cần Thơ',
+      stateCode: 'CT',
+      cities: [
+        City(
+          id: 148322,
+          name: 'Cần Thơ',
+          latitude: '10.11667000',
+          longitude: '105.50000000',
+        ),
+        City(
+          id: 148323,
+          name: 'Cờ Đỏ',
+          latitude: '10.09472222',
+          longitude: '105.43194444',
+        ),
+        City(
+          id: 148324,
+          name: 'Thới Lai',
+          latitude: '10.06305556',
+          longitude: '105.56083333',
+        ),
+        City(
+          id: 148325,
+          name: 'Vĩnh Thạnh',
+          latitude: '10.21916667',
+          longitude: '105.40111111',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3782,
+      name: 'Cao Bằng',
+      stateCode: '04',
+      cities: [
+        City(
+          id: 130183,
+          name: 'Cao Bằng',
+          latitude: '22.66568000',
+          longitude: '106.25786000',
+        ),
+        City(
+          id: 130229,
+          name: 'Huyện Bảo Lac',
+          latitude: '22.90085000',
+          longitude: '105.73332000',
+        ),
+        City(
+          id: 130231,
+          name: 'Huyện Bảo Lâm',
+          latitude: '22.87041000',
+          longitude: '105.48780000',
+        ),
+        City(
+          id: 130313,
+          name: 'Huyện Hạ Lang',
+          latitude: '22.70933000',
+          longitude: '106.67657000',
+        ),
+        City(
+          id: 130300,
+          name: 'Huyện Hà Quảng',
+          latitude: '22.90763000',
+          longitude: '106.12487000',
+        ),
+        City(
+          id: 130386,
+          name: 'Huyện Nguyên Bình',
+          latitude: '22.62400000',
+          longitude: '105.93248000',
+        ),
+        City(
+          id: 130206,
+          name: 'Huyen Phuc Hoa',
+          latitude: '22.53840000',
+          longitude: '106.51039000',
+        ),
+        City(
+          id: 130446,
+          name: 'Huyện Thạch An',
+          latitude: '22.47654000',
+          longitude: '106.34237000',
+        ),
+        City(
+          id: 130444,
+          name: 'Huyện Thông Nông',
+          latitude: '22.80735000',
+          longitude: '105.95846000',
+        ),
+        City(
+          id: 130466,
+          name: 'Huyện Trà Lĩnh',
+          latitude: '22.80961000',
+          longitude: '106.32543000',
+        ),
+        City(
+          id: 130469,
+          name: 'Huyện Trùng Khánh',
+          latitude: '22.83333000',
+          longitude: '106.56074000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3806,
+      name: 'Đà Nẵng',
+      stateCode: 'DN',
+      cities: [
+        City(
+          id: 130195,
+          name: 'Da Nang',
+          latitude: '16.06778000',
+          longitude: '108.22083000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3829,
+      name: 'Đắk Lắk',
+      stateCode: '33',
+      cities: [
+        City(
+          id: 130173,
+          name: 'Buôn Ma Thuột',
+          latitude: '12.66747000',
+          longitude: '108.03775000',
+        ),
+        City(
+          id: 130217,
+          name: 'Huyện Buôn Đôn',
+          latitude: '12.90396000',
+          longitude: '107.73870000',
+        ),
+        City(
+          id: 130283,
+          name: 'Huyện Ea H\'Leo',
+          latitude: '13.31814000',
+          longitude: '108.07148000',
+        ),
+        City(
+          id: 130284,
+          name: 'Huyện Ea Súp',
+          latitude: '13.18279000',
+          longitude: '107.79954000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3823,
+      name: 'Đắk Nông',
+      stateCode: '72',
+      cities: [
+        City(
+          id: 130269,
+          name: 'Huyện Cư Jút',
+          latitude: '12.69591000',
+          longitude: '107.76316000',
+        ),
+        City(
+          id: 130544,
+          name: 'Huyện Đắk R’Lấp',
+          latitude: '11.87990000',
+          longitude: '107.52244000',
+        ),
+        City(
+          id: 130333,
+          name: 'Huyện Krông Nô',
+          latitude: '12.36285000',
+          longitude: '107.83445000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3773,
+      name: 'Điện Biên',
+      stateCode: '71',
+      cities: [
+        City(
+          id: 130196,
+          name: 'Dien Bien Phu',
+          latitude: '21.38602000',
+          longitude: '103.02301000',
+        ),
+        City(
+          id: 130528,
+          name: 'Huyện Điện Biên Đông',
+          latitude: '21.25266000',
+          longitude: '103.26900000',
+        ),
+        City(
+          id: 130365,
+          name: 'Huyện Mường Nhé',
+          latitude: '22.10353000',
+          longitude: '102.58465000',
+        ),
+        City(
+          id: 130493,
+          name: 'Huyện Tủa Chùa',
+          latitude: '21.95357000',
+          longitude: '103.37332000',
+        ),
+        City(
+          id: 130478,
+          name: 'Huyện Tuần Giáo',
+          latitude: '21.69481000',
+          longitude: '103.41758000',
+        ),
+        City(
+          id: 130611,
+          name: 'Thị Xã Mưòng Lay',
+          latitude: '22.03374000',
+          longitude: '103.12331000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3821,
+      name: 'Đồng Nai',
+      stateCode: '39',
+      cities: [
+        City(
+          id: 130172,
+          name: 'Biên Hòa',
+          latitude: '10.94469000',
+          longitude: '106.82432000',
+        ),
+        City(
+          id: 130546,
+          name: 'Huyện Định Quán',
+          latitude: '11.21866000',
+          longitude: '107.33959000',
+        ),
+        City(
+          id: 130344,
+          name: 'Huyện Long Thành',
+          latitude: '10.76162000',
+          longitude: '107.02688000',
+        ),
+        City(
+          id: 130485,
+          name: 'Huyện Tân Phú',
+          latitude: '11.39867000',
+          longitude: '107.39976000',
+        ),
+        City(
+          id: 130452,
+          name: 'Huyện Thống Nhất',
+          latitude: '10.97764000',
+          longitude: '107.15909000',
+        ),
+        City(
+          id: 130471,
+          name: 'Huyện Trảng Bom',
+          latitude: '10.96624000',
+          longitude: '107.03614000',
+        ),
+        City(
+          id: 130498,
+          name: 'Huyện Vĩnh Cửu',
+          latitude: '11.25725000',
+          longitude: '107.02773000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3769,
+      name: 'Đồng Tháp',
+      stateCode: '45',
+      cities: [
+        City(
+          id: 130184,
+          name: 'Cao Lãnh',
+          latitude: '10.46017000',
+          longitude: '105.63294000',
+        ),
+        City(
+          id: 130253,
+          name: 'Huyện Châu Thành',
+          latitude: '10.22543000',
+          longitude: '105.82380000',
+        ),
+        City(
+          id: 130340,
+          name: 'Huyện Lai Vung',
+          latitude: '10.24051000',
+          longitude: '105.66327000',
+        ),
+        City(
+          id: 130351,
+          name: 'Huyện Lấp Vò',
+          latitude: '10.35918000',
+          longitude: '105.60611000',
+        ),
+        City(
+          id: 130430,
+          name: 'Huyện Tam Nông',
+          latitude: '10.72761000',
+          longitude: '105.52522000',
+        ),
+        City(
+          id: 130483,
+          name: 'Huyện Tân Hồng',
+          latitude: '10.87089000',
+          longitude: '105.49104000',
+        ),
+        City(
+          id: 130435,
+          name: 'Huyện Thanh Bình',
+          latitude: '10.60137000',
+          longitude: '105.47811000',
+        ),
+        City(
+          id: 130443,
+          name: 'Huyện Tháp Mười',
+          latitude: '10.54398000',
+          longitude: '105.81875000',
+        ),
+        City(
+          id: 130589,
+          name: 'Sa Dec',
+          latitude: '10.29085000',
+          longitude: '105.75635000',
+        ),
+        City(
+          id: 130590,
+          name: 'Sa Dec city',
+          latitude: '10.30550000',
+          longitude: '105.74757000',
+        ),
+        City(
+          id: 130607,
+          name: 'Thị Trấn Tân Thành',
+          latitude: '10.25616000',
+          longitude: '105.59280000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3813,
+      name: 'Gia Lai',
+      stateCode: '30',
+      cities: [
+        City(
+          id: 130258,
+          name: 'Huyện Chư Păh',
+          latitude: '14.15941000',
+          longitude: '107.98411000',
+        ),
+        City(
+          id: 130257,
+          name: 'Huyện Chư Prông',
+          latitude: '13.59976000',
+          longitude: '107.81099000',
+        ),
+        City(
+          id: 130259,
+          name: 'Huyện Chư Sê',
+          latitude: '13.74254000',
+          longitude: '108.08663000',
+        ),
+        City(
+          id: 130549,
+          name: 'Huyện Đức Cơ',
+          latitude: '13.78454000',
+          longitude: '107.66970000',
+        ),
+        City(
+          id: 130320,
+          name: 'Huyện Ia Grai',
+          latitude: '13.98937000',
+          longitude: '107.73740000',
+        ),
+        City(
+          id: 130322,
+          name: 'Huyện KBang',
+          latitude: '14.30506000',
+          longitude: '108.49779000',
+        ),
+        City(
+          id: 130335,
+          name: 'Huyện Kông Chro',
+          latitude: '13.73519000',
+          longitude: '108.59697000',
+        ),
+        City(
+          id: 130334,
+          name: 'Huyện Krông Pa',
+          latitude: '13.23152000',
+          longitude: '108.65494000',
+        ),
+        City(
+          id: 130358,
+          name: 'Huyện Mang Yang',
+          latitude: '13.92840000',
+          longitude: '108.30246000',
+        ),
+        City(
+          id: 130583,
+          name: 'Pleiku',
+          latitude: '13.98333000',
+          longitude: '108.00000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3779,
+      name: 'Hà Giang',
+      stateCode: '03',
+      cities: [
+        City(
+          id: 130555,
+          name: 'Hà Giang',
+          latitude: '22.82333000',
+          longitude: '104.98357000',
+        ),
+        City(
+          id: 130235,
+          name: 'Huyện Bắc Mê',
+          latitude: '22.75477000',
+          longitude: '105.29023000',
+        ),
+        City(
+          id: 130236,
+          name: 'Huyện Bắc Quang',
+          latitude: '22.42301000',
+          longitude: '104.91831000',
+        ),
+        City(
+          id: 130548,
+          name: 'Huyện Đồng Văn',
+          latitude: '23.25449000',
+          longitude: '105.27626000',
+        ),
+        City(
+          id: 130406,
+          name: 'Huyện Quang Bình',
+          latitude: '22.41507000',
+          longitude: '104.66018000',
+        ),
+        City(
+          id: 130508,
+          name: 'Huyện Vị Xuyên',
+          latitude: '22.73096000',
+          longitude: '104.90827000',
+        ),
+        City(
+          id: 130511,
+          name: 'Huyện Xín Mần',
+          latitude: '22.64148000',
+          longitude: '104.52089000',
+        ),
+        City(
+          id: 130516,
+          name: 'Huyện Yên Minh',
+          latitude: '23.06992000',
+          longitude: '105.17865000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3802,
+      name: 'Hà Nam',
+      stateCode: '63',
+      cities: [
+        City(
+          id: 130223,
+          name: 'Huyện Bình Lục',
+          latitude: '20.50126000',
+          longitude: '106.02959000',
+        ),
+        City(
+          id: 130280,
+          name: 'Huyện Duy Tiên',
+          latitude: '20.62803000',
+          longitude: '105.96193000',
+        ),
+        City(
+          id: 130326,
+          name: 'Huyện Kim Bảng',
+          latitude: '20.57254000',
+          longitude: '105.85043000',
+        ),
+        City(
+          id: 130347,
+          name: 'Huyện Lý Nhân',
+          latitude: '20.56422000',
+          longitude: '106.09455000',
+        ),
+        City(
+          id: 130437,
+          name: 'Huyện Thanh Liêm',
+          latitude: '20.46249000',
+          longitude: '105.92100000',
+        ),
+        City(
+          id: 130582,
+          name: 'Phủ Lý',
+          latitude: '20.54531000',
+          longitude: '105.91221000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3810,
+      name: 'Hà Nội',
+      stateCode: 'HN',
+      cities: [
+        City(
+          id: 130558,
+          name: 'Hà Đông',
+          latitude: '20.97136000',
+          longitude: '105.77876000',
+        ),
+        City(
+          id: 130201,
+          name: 'Hanoi',
+          latitude: '21.02450000',
+          longitude: '105.84117000',
+        ),
+        City(
+          id: 130412,
+          name: 'Huyện Quốc Oai',
+          latitude: '20.97060000',
+          longitude: '105.61127000',
+        ),
+        City(
+          id: 130586,
+          name: 'Quận Ba Đình',
+          latitude: '21.03587000',
+          longitude: '105.82163000',
+        ),
+        City(
+          id: 130587,
+          name: 'Quận Hà Đông',
+          latitude: '20.95482000',
+          longitude: '105.76851000',
+        ),
+        City(
+          id: 130595,
+          name: 'Sơn Tây',
+          latitude: '21.14053000',
+          longitude: '105.50686000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3816,
+      name: 'Hà Tĩnh',
+      stateCode: '23',
+      cities: [
+        City(
+          id: 130557,
+          name: 'Hà Tĩnh',
+          latitude: '18.34282000',
+          longitude: '105.90569000',
+        ),
+        City(
+          id: 130277,
+          name: 'Huyện Cẩm Xuyên',
+          latitude: '18.19059000',
+          longitude: '106.00186000',
+        ),
+        City(
+          id: 130243,
+          name: 'Huyện Can Lộc',
+          latitude: '18.44414000',
+          longitude: '105.76350000',
+        ),
+        City(
+          id: 130525,
+          name: 'Huyện Ðức Thọ',
+          latitude: '18.49699000',
+          longitude: '105.61016000',
+        ),
+        City(
+          id: 130337,
+          name: 'Huyện Kỳ Anh',
+          latitude: '18.05805000',
+          longitude: '106.24580000',
+        ),
+        City(
+          id: 130382,
+          name: 'Huyện Nghi Xuân',
+          latitude: '18.62419000',
+          longitude: '105.76829000',
+        ),
+        City(
+          id: 130447,
+          name: 'Huyện Thạch Hà',
+          latitude: '18.35091000',
+          longitude: '105.81123000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3827,
+      name: 'Hải Dương',
+      stateCode: '61',
+      cities: [
+        City(
+          id: 130562,
+          name: 'Hải Dương',
+          latitude: '20.94099000',
+          longitude: '106.33302000',
+        ),
+        City(
+          id: 130221,
+          name: 'Huyện Bình Giang',
+          latitude: '20.87586000',
+          longitude: '106.19138000',
+        ),
+        City(
+          id: 130274,
+          name: 'Huyện Cẩm Giàng',
+          latitude: '20.95000000',
+          longitude: '106.21667000',
+        ),
+        City(
+          id: 130286,
+          name: 'Huyện Gia Lộc',
+          latitude: '20.85164000',
+          longitude: '106.29130000',
+        ),
+        City(
+          id: 130329,
+          name: 'Huyện Kinh Môn',
+          latitude: '21.01634000',
+          longitude: '106.50384000',
+        ),
+        City(
+          id: 130376,
+          name: 'Huyện Nam Sách',
+          latitude: '21.00484000',
+          longitude: '106.34042000',
+        ),
+        City(
+          id: 130438,
+          name: 'Huyện Thanh Miện',
+          latitude: '20.77953000',
+          longitude: '106.22218000',
+        ),
+        City(
+          id: 130609,
+          name: 'Thị Xã Chí Linh',
+          latitude: '21.13722000',
+          longitude: '106.39638000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3783,
+      name: 'Hải Phòng',
+      stateCode: 'HP',
+      cities: [
+        City(
+          id: 130188,
+          name: 'Cát Bà',
+          latitude: '20.72779000',
+          longitude: '107.04819000',
+        ),
+        City(
+          id: 130200,
+          name: 'Haiphong',
+          latitude: '20.86481000',
+          longitude: '106.68345000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3777,
+      name: 'Hậu Giang',
+      stateCode: '73',
+      cities: [
+        City(
+          id: 130254,
+          name: 'Huyện Châu Thành A',
+          latitude: '9.93056000',
+          longitude: '105.64194000',
+        ),
+        City(
+          id: 130627,
+          name: 'Vị Thanh',
+          latitude: '9.78449000',
+          longitude: '105.47012000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3811,
+      name: 'Hồ Chí Minh',
+      stateCode: 'SG',
+      cities: [
+        City(
+          id: 130191,
+          name: 'Cần Giờ',
+          latitude: '10.41115000',
+          longitude: '106.95474000',
+        ),
+        City(
+          id: 130194,
+          name: 'Củ Chi',
+          latitude: '10.97333000',
+          longitude: '106.49325000',
+        ),
+        City(
+          id: 130202,
+          name: 'Ho Chi Minh City',
+          latitude: '10.82302000',
+          longitude: '106.62965000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3799,
+      name: 'Hòa Bình',
+      stateCode: '14',
+      cities: [
+        City(
+          id: 130559,
+          name: 'Hòa Bình',
+          latitude: '20.81717000',
+          longitude: '105.33759000',
+        ),
+        City(
+          id: 130245,
+          name: 'Huyện Cao Phong',
+          latitude: '20.69532000',
+          longitude: '105.33559000',
+        ),
+        City(
+          id: 130338,
+          name: 'Huyện Kỳ Sơn',
+          latitude: '20.89631000',
+          longitude: '105.39659000',
+        ),
+        City(
+          id: 130350,
+          name: 'Huyện Lạc Thủy',
+          latitude: '20.49794000',
+          longitude: '105.74092000',
+        ),
+        City(
+          id: 130349,
+          name: 'Huyện Lương Sơn',
+          latitude: '20.87650000',
+          longitude: '105.51219000',
+        ),
+        City(
+          id: 130484,
+          name: 'Huyện Tân Lạc',
+          latitude: '20.60557000',
+          longitude: '105.23399000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3768,
+      name: 'Hưng Yên',
+      stateCode: '66',
+      cities: [
+        City(
+          id: 130560,
+          name: 'Hưng Yên',
+          latitude: '20.64637000',
+          longitude: '106.05112000',
+        ),
+        City(
+          id: 130523,
+          name: 'Huyện Ân Thi',
+          latitude: '20.81086000',
+          longitude: '106.09995000',
+        ),
+        City(
+          id: 130323,
+          name: 'Huyện Khoái Châu',
+          latitude: '20.82170000',
+          longitude: '105.97455000',
+        ),
+        City(
+          id: 130328,
+          name: 'Huyện Kim Động',
+          latitude: '20.74645000',
+          longitude: '106.03632000',
+        ),
+        City(
+          id: 130369,
+          name: 'Huyện Mỹ Hào',
+          latitude: '20.93210000',
+          longitude: '106.10630000',
+        ),
+        City(
+          id: 130396,
+          name: 'Huyện Phù Cừ',
+          latitude: '20.70997000',
+          longitude: '106.19744000',
+        ),
+        City(
+          id: 130456,
+          name: 'Huyện Tiên Lữ',
+          latitude: '20.68490000',
+          longitude: '106.12513000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3793,
+      name: 'Khánh Hòa',
+      stateCode: '34',
+      cities: [
+        City(
+          id: 130182,
+          name: 'Cam Ranh',
+          latitude: '11.92144000',
+          longitude: '109.15913000',
+        ),
+        City(
+          id: 130278,
+          name: 'Huyện Diên Khánh',
+          latitude: '12.27341000',
+          longitude: '109.03890000',
+        ),
+        City(
+          id: 130324,
+          name: 'Huyện Khánh Sơn',
+          latitude: '12.02858000',
+          longitude: '108.90814000',
+        ),
+        City(
+          id: 130325,
+          name: 'Huyện Khánh Vĩnh',
+          latitude: '12.30593000',
+          longitude: '108.83073000',
+        ),
+        City(
+          id: 130506,
+          name: 'Huyện Vạn Ninh',
+          latitude: '12.72344000',
+          longitude: '109.24586000',
+        ),
+        City(
+          id: 130576,
+          name: 'Nha Trang',
+          latitude: '12.24507000',
+          longitude: '109.19432000',
+        ),
+        City(
+          id: 130598,
+          name: 'Thành Phố Cam Ranh',
+          latitude: '11.90707000',
+          longitude: '109.14861000',
+        ),
+        City(
+          id: 130600,
+          name: 'Thành Phố Nha Trang',
+          latitude: '12.25458000',
+          longitude: '109.16655000',
+        ),
+        City(
+          id: 130612,
+          name: 'Thị Xã Ninh Hòa',
+          latitude: '12.53796000',
+          longitude: '109.06057000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3800,
+      name: 'Kiên Giang',
+      stateCode: '47',
+      cities: [
+        City(
+          id: 130199,
+          name: 'Dương Đông',
+          latitude: '10.21716000',
+          longitude: '103.95929000',
+        ),
+        City(
+          id: 130556,
+          name: 'Hà Tiên',
+          latitude: '10.38310000',
+          longitude: '104.48753000',
+        ),
+        City(
+          id: 130208,
+          name: 'Huyện An Biên',
+          latitude: '9.81291000',
+          longitude: '105.05230000',
+        ),
+        City(
+          id: 130210,
+          name: 'Huyện An Minh',
+          latitude: '9.66704000',
+          longitude: '104.94848000',
+        ),
+        City(
+          id: 130249,
+          name: 'Huyện Châu Thành',
+          latitude: '9.94372000',
+          longitude: '105.16868000',
+        ),
+        City(
+          id: 130290,
+          name: 'Huyện Giồng Riềng',
+          latitude: '9.91224000',
+          longitude: '105.37311000',
+        ),
+        City(
+          id: 130295,
+          name: 'Huyện Gò Quao',
+          latitude: '9.74027000',
+          longitude: '105.29766000',
+        ),
+        City(
+          id: 130307,
+          name: 'Huyện Hòn Đất',
+          latitude: '10.22908000',
+          longitude: '104.95280000',
+        ),
+        City(
+          id: 130330,
+          name: 'Huyện Kiên Hải',
+          latitude: '9.83971000',
+          longitude: '104.61560000',
+        ),
+        City(
+          id: 130400,
+          name: 'Huyện Phú Quốc',
+          latitude: '10.25516000',
+          longitude: '104.01455000',
+        ),
+        City(
+          id: 130481,
+          name: 'Huyện Tân Hiệp',
+          latitude: '10.09540000',
+          longitude: '105.25936000',
+        ),
+        City(
+          id: 130502,
+          name: 'Huyện Vĩnh Thuận',
+          latitude: '9.53306000',
+          longitude: '105.24490000',
+        ),
+        City(
+          id: 130564,
+          name: 'Kien Luong Town',
+          latitude: '10.24892000',
+          longitude: '104.59000000',
+        ),
+        City(
+          id: 130588,
+          name: 'Rạch Giá',
+          latitude: '10.01245000',
+          longitude: '105.08091000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3772,
+      name: 'Kon Tum',
+      stateCode: '28',
+      cities: [
+        City(
+          id: 130542,
+          name: 'Huyện Đắk Glei',
+          latitude: '15.11358000',
+          longitude: '107.75093000',
+        ),
+        City(
+          id: 130543,
+          name: 'Huyện Đắk Hà',
+          latitude: '14.60326000',
+          longitude: '107.98547000',
+        ),
+        City(
+          id: 130545,
+          name: 'Huyện Đắk Tô',
+          latitude: '14.70087000',
+          longitude: '107.80816000',
+        ),
+        City(
+          id: 130321,
+          name: 'Huyện Ia H\'Drai',
+          latitude: '14.06032000',
+          longitude: '107.46243000',
+        ),
+        City(
+          id: 130332,
+          name: 'Huyện Kon Plông',
+          latitude: '14.75620000',
+          longitude: '108.32057000',
+        ),
+        City(
+          id: 130388,
+          name: 'Huyện Ngọc Hồi',
+          latitude: '14.71940000',
+          longitude: '107.62636000',
+        ),
+        City(
+          id: 130419,
+          name: 'Huyện Sa Thầy',
+          latitude: '14.32050000',
+          longitude: '107.59862000',
+        ),
+        City(
+          id: 130565,
+          name: 'Kon Tum',
+          latitude: '14.35451000',
+          longitude: '108.00759000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3825,
+      name: 'Lai Châu',
+      stateCode: '01',
+      cities: [
+        City(
+          id: 130361,
+          name: 'Huyện Mưòng Tè',
+          latitude: '22.37443000',
+          longitude: '102.73835000',
+        ),
+        City(
+          id: 130431,
+          name: 'Huyện Tam Đường',
+          latitude: '22.35391000',
+          longitude: '103.59342000',
+        ),
+        City(
+          id: 130433,
+          name: 'Huyện Than Uyên',
+          latitude: '21.91424000',
+          longitude: '103.82857000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3818,
+      name: 'Lâm Đồng',
+      stateCode: '35',
+      cities: [
+        City(
+          id: 130176,
+          name: 'Bảo Lộc',
+          latitude: '11.54798000',
+          longitude: '107.80772000',
+        ),
+        City(
+          id: 130632,
+          name: 'Đam Rong',
+          latitude: '12.05409000',
+          longitude: '108.14941000',
+        ),
+        City(
+          id: 130633,
+          name: 'Đinh Văn',
+          latitude: '11.78624000',
+          longitude: '108.24282000',
+        ),
+        City(
+          id: 130634,
+          name: 'Đưc Trọng',
+          latitude: '11.73559000',
+          longitude: '108.37330000',
+        ),
+        City(
+          id: 130630,
+          name: 'Ðà Lạt',
+          latitude: '11.94646000',
+          longitude: '108.44193000',
+        ),
+        City(
+          id: 130230,
+          name: 'Huyện Bảo Lâm',
+          latitude: '11.71163000',
+          longitude: '107.75338000',
+        ),
+        City(
+          id: 130536,
+          name: 'Huyện Đạ Huoai',
+          latitude: '11.42465000',
+          longitude: '107.63825000',
+        ),
+        City(
+          id: 130537,
+          name: 'Huyện Đạ Tẻh',
+          latitude: '11.58446000',
+          longitude: '107.52792000',
+        ),
+        City(
+          id: 130535,
+          name: 'Huyện Đơn Dương',
+          latitude: '11.75308000',
+          longitude: '108.55397000',
+        ),
+        City(
+          id: 130553,
+          name: 'Huyện Đức Trọng',
+          latitude: '11.62686000',
+          longitude: '108.35330000',
+        ),
+        City(
+          id: 130346,
+          name: 'Huyện Lâm Hà',
+          latitude: '11.81890000',
+          longitude: '108.21215000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3792,
+      name: 'Lạng Sơn',
+      stateCode: '09',
+      cities: [
+        City(
+          id: 130237,
+          name: 'Huyện Bắc Sơn',
+          latitude: '21.83801000',
+          longitude: '106.27690000',
+        ),
+        City(
+          id: 130220,
+          name: 'Huyện Bình Gia',
+          latitude: '22.07281000',
+          longitude: '106.30410000',
+        ),
+        City(
+          id: 130244,
+          name: 'Huyện Cao Lộc',
+          latitude: '21.89857000',
+          longitude: '106.85435000',
+        ),
+        City(
+          id: 130246,
+          name: 'Huyện Chi Lăng',
+          latitude: '21.67602000',
+          longitude: '106.62925000',
+        ),
+        City(
+          id: 130531,
+          name: 'Huyện Đình Lập',
+          latitude: '21.54210000',
+          longitude: '107.12925000',
+        ),
+        City(
+          id: 130308,
+          name: 'Huyện Hũu Lũng',
+          latitude: '21.54474000',
+          longitude: '106.34386000',
+        ),
+        City(
+          id: 130507,
+          name: 'Huyện Vặn Quan',
+          latitude: '21.83333000',
+          longitude: '106.54942000',
+        ),
+        City(
+          id: 130572,
+          name: 'Lạng Sơn',
+          latitude: '21.85264000',
+          longitude: '106.76101000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3817,
+      name: 'Lào Cai',
+      stateCode: '02',
+      cities: [
+        City(
+          id: 130234,
+          name: 'Huyện Bắc Hà',
+          latitude: '22.50998000',
+          longitude: '104.30769000',
+        ),
+        City(
+          id: 130232,
+          name: 'Huyện Bảo Yên',
+          latitude: '22.26109000',
+          longitude: '104.46424000',
+        ),
+        City(
+          id: 130219,
+          name: 'Huyện Bát Xát',
+          latitude: '22.56767000',
+          longitude: '103.71339000',
+        ),
+        City(
+          id: 130362,
+          name: 'Huyện Mường Khương',
+          latitude: '22.67111000',
+          longitude: '104.11772000',
+        ),
+        City(
+          id: 130418,
+          name: 'Huyện Sa Pa',
+          latitude: '22.33769000',
+          longitude: '103.84037000',
+        ),
+        City(
+          id: 130420,
+          name: 'Huyện Si Ma Cai',
+          latitude: '22.67161000',
+          longitude: '104.27326000',
+        ),
+        City(
+          id: 130495,
+          name: 'Huyện Văn Bàn',
+          latitude: '22.07002000',
+          longitude: '104.18122000',
+        ),
+        City(
+          id: 130571,
+          name: 'Lào Cai',
+          latitude: '22.48556000',
+          longitude: '103.97066000',
+        ),
+        City(
+          id: 130568,
+          name: 'Lao Chải',
+          latitude: '22.31377000',
+          longitude: '103.86844000',
+        ),
+        City(
+          id: 130591,
+          name: 'Sa Pa',
+          latitude: '22.34023000',
+          longitude: '103.84415000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3808,
+      name: 'Long An',
+      stateCode: '41',
+      cities: [
+        City(
+          id: 130190,
+          name: 'Cần Giuộc',
+          latitude: '10.60857000',
+          longitude: '106.67135000',
+        ),
+        City(
+          id: 130240,
+          name: 'Huyện Bến Lức',
+          latitude: '10.68858000',
+          longitude: '106.45484000',
+        ),
+        City(
+          id: 130271,
+          name: 'Huyện Cần Đước',
+          latitude: '10.54148000',
+          longitude: '106.59636000',
+        ),
+        City(
+          id: 130270,
+          name: 'Huyện Cần Giuộc',
+          latitude: '10.57742000',
+          longitude: '106.67279000',
+        ),
+        City(
+          id: 130251,
+          name: 'Huyện Châu Thành',
+          latitude: '10.45214000',
+          longitude: '106.49015000',
+        ),
+        City(
+          id: 130551,
+          name: 'Huyện Đức Hòa',
+          latitude: '10.87838000',
+          longitude: '106.42422000',
+        ),
+        City(
+          id: 130550,
+          name: 'Huyện Đức Huệ',
+          latitude: '10.86473000',
+          longitude: '106.25914000',
+        ),
+        City(
+          id: 130368,
+          name: 'Huyện Mộc Hóa',
+          latitude: '10.75166000',
+          longitude: '106.01729000',
+        ),
+        City(
+          id: 130482,
+          name: 'Huyện Tân Hưng',
+          latitude: '10.83380000',
+          longitude: '105.68848000',
+        ),
+        City(
+          id: 130488,
+          name: 'Huyện Tân Thạnh',
+          latitude: '10.60351000',
+          longitude: '105.96576000',
+        ),
+        City(
+          id: 130489,
+          name: 'Huyện Tân Trụ',
+          latitude: '10.53182000',
+          longitude: '106.51644000',
+        ),
+        City(
+          id: 130448,
+          name: 'Huyện Thạnh Hóa',
+          latitude: '10.66667000',
+          longitude: '106.16667000',
+        ),
+        City(
+          id: 130454,
+          name: 'Huyện Thủ Thừa',
+          latitude: '10.65639000',
+          longitude: '106.34580000',
+        ),
+        City(
+          id: 130499,
+          name: 'Huyện Vĩnh Hưng',
+          latitude: '10.88299000',
+          longitude: '105.80364000',
+        ),
+        City(
+          id: 130620,
+          name: 'Tân An',
+          latitude: '10.53589000',
+          longitude: '106.41366000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3789,
+      name: 'Nam Định',
+      stateCode: '67',
+      cities: [
+        City(
+          id: 130287,
+          name: 'Huyện Giao Thủy',
+          latitude: '20.25706000',
+          longitude: '106.46245000',
+        ),
+        City(
+          id: 130315,
+          name: 'Huyện Hải Hậu',
+          latitude: '20.15057000',
+          longitude: '106.27161000',
+        ),
+        City(
+          id: 130370,
+          name: 'Huyện Mỹ Lộc',
+          latitude: '20.46079000',
+          longitude: '106.12319000',
+        ),
+        City(
+          id: 130377,
+          name: 'Huyện Nam Trực',
+          latitude: '20.34106000',
+          longitude: '106.20821000',
+        ),
+        City(
+          id: 130384,
+          name: 'Huyện Nghĩa Hưng',
+          latitude: '20.10598000',
+          longitude: '106.17345000',
+        ),
+        City(
+          id: 130474,
+          name: 'Huyện Trực Ninh',
+          latitude: '20.25690000',
+          longitude: '106.24582000',
+        ),
+        City(
+          id: 130509,
+          name: 'Huyện Vụ Bản',
+          latitude: '20.37705000',
+          longitude: '106.09707000',
+        ),
+        City(
+          id: 130526,
+          name: 'Huyện Ý Yên',
+          latitude: '20.31669000',
+          longitude: '106.02327000',
+        ),
+        City(
+          id: 130575,
+          name: 'Nam Định',
+          latitude: '20.43389000',
+          longitude: '106.17729000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3780,
+      name: 'Nghệ An',
+      stateCode: '22',
+      cities: [
+        City(
+          id: 130212,
+          name: 'Huyện Anh Sơn',
+          latitude: '18.92902000',
+          longitude: '105.08294000',
+        ),
+        City(
+          id: 130264,
+          name: 'Huyện Con Cuông',
+          latitude: '19.03898000',
+          longitude: '104.80353000',
+        ),
+        City(
+          id: 130279,
+          name: 'Huyện Diễn Châu',
+          latitude: '18.98892000',
+          longitude: '105.57625000',
+        ),
+        City(
+          id: 130532,
+          name: 'Huyện Đô Lương',
+          latitude: '18.89259000',
+          longitude: '105.34027000',
+        ),
+        City(
+          id: 130310,
+          name: 'Huyện Hưng Nguyên',
+          latitude: '18.67811000',
+          longitude: '105.62523000',
+        ),
+        City(
+          id: 130339,
+          name: 'Huyện Kỳ Sơn',
+          latitude: '19.42397000',
+          longitude: '104.22199000',
+        ),
+        City(
+          id: 130378,
+          name: 'Huyện Nam Đàn',
+          latitude: '18.67041000',
+          longitude: '105.52575000',
+        ),
+        City(
+          id: 130381,
+          name: 'Huyện Nghi Lộc',
+          latitude: '18.83131000',
+          longitude: '105.62411000',
+        ),
+        City(
+          id: 130385,
+          name: 'Huyện Nghĩa Đàn',
+          latitude: '19.38234000',
+          longitude: '105.44072000',
+        ),
+        City(
+          id: 130411,
+          name: 'Huyện Quế Phong',
+          latitude: '19.70177000',
+          longitude: '104.87913000',
+        ),
+        City(
+          id: 130413,
+          name: 'Huyện Quỳ Châu',
+          latitude: '19.55707000',
+          longitude: '105.09173000',
+        ),
+        City(
+          id: 130414,
+          name: 'Huyện Quỳ Hợp',
+          latitude: '19.32514000',
+          longitude: '105.16009000',
+        ),
+        City(
+          id: 130415,
+          name: 'Huyện Quỳnh Lưu',
+          latitude: '19.22717000',
+          longitude: '105.64354000',
+        ),
+        City(
+          id: 130436,
+          name: 'Huyện Thanh Chương',
+          latitude: '18.73929000',
+          longitude: '105.24053000',
+        ),
+        City(
+          id: 130492,
+          name: 'Huyện Tương Dương',
+          latitude: '19.30979000',
+          longitude: '104.57788000',
+        ),
+        City(
+          id: 130520,
+          name: 'Huyện Yên Thành',
+          latitude: '19.02724000',
+          longitude: '105.43649000',
+        ),
+        City(
+          id: 130622,
+          name: 'Vinh',
+          latitude: '18.67337000',
+          longitude: '105.69232000',
+        ),
+        City(
+          id: 130629,
+          name: 'Yên Vinh',
+          latitude: '18.66667000',
+          longitude: '105.66667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3786,
+      name: 'Ninh Bình',
+      stateCode: '18',
+      cities: [
+        City(
+          id: 130297,
+          name: 'Huyện Hoa Lư',
+          latitude: '20.25391000',
+          longitude: '105.90789000',
+        ),
+        City(
+          id: 130327,
+          name: 'Huyện Kim Sơn',
+          latitude: '20.06034000',
+          longitude: '106.09863000',
+        ),
+        City(
+          id: 130390,
+          name: 'Huyện Nho Quan',
+          latitude: '20.27606000',
+          longitude: '105.75442000',
+        ),
+        City(
+          id: 130513,
+          name: 'Huyện Yên Khánh',
+          latitude: '20.19017000',
+          longitude: '106.09605000',
+        ),
+        City(
+          id: 130517,
+          name: 'Huyện Yên Mô',
+          latitude: '20.12984000',
+          longitude: '106.00199000',
+        ),
+        City(
+          id: 130577,
+          name: 'Ninh Bình',
+          latitude: '20.25809000',
+          longitude: '105.97965000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3788,
+      name: 'Ninh Thuận',
+      stateCode: '36',
+      cities: [
+        City(
+          id: 130578,
+          name: 'Phan Rang-Tháp Chàm',
+          latitude: '11.56432000',
+          longitude: '108.98858000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3801,
+      name: 'Phú Thọ',
+      stateCode: '68',
+      cities: [
+        City(
+          id: 130275,
+          name: 'Huyện Cẩm Khê',
+          latitude: '21.40683000',
+          longitude: '105.09845000',
+        ),
+        City(
+          id: 130530,
+          name: 'Huyện Đoan Hùng',
+          latitude: '21.61776000',
+          longitude: '105.16110000',
+        ),
+        City(
+          id: 130312,
+          name: 'Huyện Hạ Hòa',
+          latitude: '21.57763000',
+          longitude: '104.99464000',
+        ),
+        City(
+          id: 130203,
+          name: 'Huyen Lam Thao',
+          latitude: '21.29971000',
+          longitude: '105.31119000',
+        ),
+        City(
+          id: 130434,
+          name: 'Huyện Thanh Ba',
+          latitude: '21.47816000',
+          longitude: '105.15881000',
+        ),
+        City(
+          id: 130515,
+          name: 'Huyện Yên Lập',
+          latitude: '21.35569000',
+          longitude: '105.00493000',
+        ),
+        City(
+          id: 130603,
+          name: 'Thành Phố Việt Trì',
+          latitude: '21.32958000',
+          longitude: '105.39217000',
+        ),
+        City(
+          id: 130615,
+          name: 'Thị xã Phú Thọ',
+          latitude: '21.41664000',
+          longitude: '105.23636000',
+        ),
+        City(
+          id: 130623,
+          name: 'Việt Trì',
+          latitude: '21.32274000',
+          longitude: '105.40198000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3824,
+      name: 'Phú Yên',
+      stateCode: '32',
+      cities: [
+        City(
+          id: 130425,
+          name: 'Huyện Sơn Hòa',
+          latitude: '13.15868000',
+          longitude: '108.97281000',
+        ),
+        City(
+          id: 130421,
+          name: 'Huyện Sông Hinh',
+          latitude: '12.91667000',
+          longitude: '108.91667000',
+        ),
+        City(
+          id: 130593,
+          name: 'Sông Cầu',
+          latitude: '13.45560000',
+          longitude: '109.22348000',
+        ),
+        City(
+          id: 130618,
+          name: 'Tuy Hòa',
+          latitude: '13.09546000',
+          longitude: '109.32094000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3809,
+      name: 'Quảng Bình',
+      stateCode: '24',
+      cities: [
+        City(
+          id: 130352,
+          name: 'Huyện Lệ Thủy',
+          latitude: '17.11239000',
+          longitude: '106.70471000',
+        ),
+        City(
+          id: 130407,
+          name: 'Huyện Quảng Ninh',
+          latitude: '17.27067000',
+          longitude: '106.51387000',
+        ),
+        City(
+          id: 130408,
+          name: 'Huyện Quảng Trạch',
+          latitude: '17.83447000',
+          longitude: '106.36705000',
+        ),
+        City(
+          id: 130477,
+          name: 'Huyện Tuyên Hóa',
+          latitude: '17.91323000',
+          longitude: '106.02678000',
+        ),
+        City(
+          id: 130566,
+          name: 'Kwang Binh',
+          latitude: '17.46885000',
+          longitude: '106.62226000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3776,
+      name: 'Quảng Nam',
+      stateCode: '27',
+      cities: [
+        City(
+          id: 130563,
+          name: 'Hội An',
+          latitude: '15.87944000',
+          longitude: '108.33500000',
+        ),
+        City(
+          id: 130281,
+          name: 'Huyện Duy Xuyên',
+          latitude: '15.78970000',
+          longitude: '108.20247000',
+        ),
+        City(
+          id: 130538,
+          name: 'Huyện Đại Lộc',
+          latitude: '15.83721000',
+          longitude: '107.97894000',
+        ),
+        City(
+          id: 130529,
+          name: 'Huyện Điện Bàn',
+          latitude: '15.89917000',
+          longitude: '108.22470000',
+        ),
+        City(
+          id: 130296,
+          name: 'Huyện Hiệp Đức',
+          latitude: '15.53857000',
+          longitude: '108.09539000',
+        ),
+        City(
+          id: 130375,
+          name: 'Huyện Nam Giang',
+          latitude: '15.63201000',
+          longitude: '107.60267000',
+        ),
+        City(
+          id: 130394,
+          name: 'Huyện Núi Thành',
+          latitude: '15.43345000',
+          longitude: '108.57438000',
+        ),
+        City(
+          id: 130403,
+          name: 'Huyện Phước Sơn',
+          latitude: '15.38806000',
+          longitude: '107.85766000',
+        ),
+        City(
+          id: 130457,
+          name: 'Huyện Tiên Phước',
+          latitude: '15.47090000',
+          longitude: '108.28257000',
+        ),
+        City(
+          id: 130467,
+          name: 'Huyện Trà My',
+          latitude: '15.25000000',
+          longitude: '108.08333000',
+        ),
+        City(
+          id: 130596,
+          name: 'Tam Kỳ',
+          latitude: '15.57364000',
+          longitude: '108.47403000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3828,
+      name: 'Quảng Ngãi',
+      stateCode: '29',
+      cities: [
+        City(
+          id: 130216,
+          name: 'Huyện Ba Tơ',
+          latitude: '14.73973000',
+          longitude: '108.69326000',
+        ),
+        City(
+          id: 130224,
+          name: 'Huyện Bình Sơn',
+          latitude: '15.31899000',
+          longitude: '108.76383000',
+        ),
+        City(
+          id: 130552,
+          name: 'Huyện Đức Phổ',
+          latitude: '14.78000000',
+          longitude: '108.97857000',
+        ),
+        City(
+          id: 130348,
+          name: 'Huyện Lý Sơn',
+          latitude: '15.40608000',
+          longitude: '109.09707000',
+        ),
+        City(
+          id: 130359,
+          name: 'Huyện Minh Long',
+          latitude: '14.95375000',
+          longitude: '108.67724000',
+        ),
+        City(
+          id: 130366,
+          name: 'Huyện Mộ Đức',
+          latitude: '14.95515000',
+          longitude: '108.88841000',
+        ),
+        City(
+          id: 130383,
+          name: 'Huyện Nghĩa Hành',
+          latitude: '14.98712000',
+          longitude: '108.80036000',
+        ),
+        City(
+          id: 130424,
+          name: 'Huyện Sơn Hà',
+          latitude: '14.98427000',
+          longitude: '108.53643000',
+        ),
+        City(
+          id: 130426,
+          name: 'Huyện Sơn Tây',
+          latitude: '14.96392000',
+          longitude: '108.36419000',
+        ),
+        City(
+          id: 130427,
+          name: 'Huyện Sơn Tịnh',
+          latitude: '15.19090000',
+          longitude: '108.74295000',
+        ),
+        City(
+          id: 130464,
+          name: 'Huyện Trà Bồng',
+          latitude: '15.23752000',
+          longitude: '108.52633000',
+        ),
+        City(
+          id: 130491,
+          name: 'Huyện Tư Nghĩa',
+          latitude: '15.09499000',
+          longitude: '108.77053000',
+        ),
+        City(
+          id: 130585,
+          name: 'Quảng Ngãi',
+          latitude: '15.12047000',
+          longitude: '108.79232000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3814,
+      name: 'Quảng Ninh',
+      stateCode: '13',
+      cities: [
+        City(
+          id: 130192,
+          name: 'Cẩm Phả',
+          latitude: '21.01004000',
+          longitude: '107.27345000',
+        ),
+        City(
+          id: 130193,
+          name: 'Cẩm Phả Mines',
+          latitude: '21.01667000',
+          longitude: '107.30000000',
+        ),
+        City(
+          id: 130561,
+          name: 'Hạ Long',
+          latitude: '20.95045000',
+          longitude: '107.07336000',
+        ),
+        City(
+          id: 130214,
+          name: 'Huyện Ba Chẽ',
+          latitude: '21.29503000',
+          longitude: '107.19298000',
+        ),
+        City(
+          id: 130222,
+          name: 'Huyện Bình Liêu',
+          latitude: '21.54389000',
+          longitude: '107.44047000',
+        ),
+        City(
+          id: 130268,
+          name: 'Huyện Cô Tô',
+          latitude: '21.05418000',
+          longitude: '107.80698000',
+        ),
+        City(
+          id: 130541,
+          name: 'Huyện Đầm Hà',
+          latitude: '21.39689000',
+          longitude: '107.56175000',
+        ),
+        City(
+          id: 130534,
+          name: 'Huyện Đông Triều',
+          latitude: '21.11043000',
+          longitude: '106.59662000',
+        ),
+        City(
+          id: 130314,
+          name: 'Huyện Hải Hà',
+          latitude: '21.49537000',
+          longitude: '107.66790000',
+        ),
+        City(
+          id: 130299,
+          name: 'Huyện Hoành Bồ',
+          latitude: '21.11888000',
+          longitude: '107.03149000',
+        ),
+        City(
+          id: 130458,
+          name: 'Huyện Tiên Yên',
+          latitude: '21.37571000',
+          longitude: '107.37468000',
+        ),
+        City(
+          id: 130494,
+          name: 'Huyện Vân Đồn',
+          latitude: '21.04921000',
+          longitude: '107.50971000',
+        ),
+        City(
+          id: 130573,
+          name: 'Móng Cái',
+          latitude: '21.52471000',
+          longitude: '107.96619000',
+        ),
+        City(
+          id: 130602,
+          name: 'Thành Phố Uông Bí',
+          latitude: '21.03433000',
+          longitude: '106.77049000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3803,
+      name: 'Quảng Trị',
+      stateCode: '25',
+      cities: [
+        City(
+          id: 130631,
+          name: 'Ðông Hà',
+          latitude: '16.81625000',
+          longitude: '107.10031000',
+        ),
+        City(
+          id: 130242,
+          name: 'Huyện Cam Lộ',
+          latitude: '16.79335000',
+          longitude: '106.96175000',
+        ),
+        City(
+          id: 130527,
+          name: 'Huyện Đa Krông',
+          latitude: '16.55543000',
+          longitude: '106.97208000',
+        ),
+        City(
+          id: 130288,
+          name: 'Huyện Gio Linh',
+          latitude: '16.91667000',
+          longitude: '107.00000000',
+        ),
+        City(
+          id: 130316,
+          name: 'Huyện Hải Lăng',
+          latitude: '16.67574000',
+          longitude: '107.23388000',
+        ),
+        City(
+          id: 130311,
+          name: 'Huyện Hướng Hóa',
+          latitude: '16.70132000',
+          longitude: '106.67036000',
+        ),
+        City(
+          id: 130462,
+          name: 'Huyện Triệu Phong',
+          latitude: '16.78132000',
+          longitude: '107.16034000',
+        ),
+        City(
+          id: 130500,
+          name: 'Huyện Vĩnh Linh',
+          latitude: '17.01600000',
+          longitude: '106.93384000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3819,
+      name: 'Sóc Trăng',
+      stateCode: '52',
+      cities: [
+        City(
+          id: 130336,
+          name: 'Huyện Kế Sách',
+          latitude: '9.81771000',
+          longitude: '105.94190000',
+        ),
+        City(
+          id: 130343,
+          name: 'Huyện Long Phú',
+          latitude: '9.63715000',
+          longitude: '106.08226000',
+        ),
+        City(
+          id: 130371,
+          name: 'Huyện Mỹ Tú',
+          latitude: '9.60849000',
+          longitude: '105.80681000',
+        ),
+        City(
+          id: 130372,
+          name: 'Huyện Mỹ Xuyên',
+          latitude: '9.44200000',
+          longitude: '105.88546000',
+        ),
+        City(
+          id: 130205,
+          name: 'Huyen Nga Nam',
+          latitude: '9.56127000',
+          longitude: '105.59476000',
+        ),
+        City(
+          id: 130450,
+          name: 'Huyện Thạnh Trị',
+          latitude: '9.46939000',
+          longitude: '105.71196000',
+        ),
+        City(
+          id: 130592,
+          name: 'Sóc Trăng',
+          latitude: '9.59995000',
+          longitude: '105.97193000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3812,
+      name: 'Sơn La',
+      stateCode: '05',
+      cities: [
+        City(
+          id: 130238,
+          name: 'Huyện Bắc Yên',
+          latitude: '21.25042000',
+          longitude: '104.38501000',
+        ),
+        City(
+          id: 130356,
+          name: 'Huyện Mai Sơn',
+          latitude: '21.15884000',
+          longitude: '104.04821000',
+        ),
+        City(
+          id: 130367,
+          name: 'Huyện Mộc Châu',
+          latitude: '21.83333000',
+          longitude: '104.75000000',
+        ),
+        City(
+          id: 130363,
+          name: 'Huyện Mường La',
+          latitude: '21.52960000',
+          longitude: '104.11113000',
+        ),
+        City(
+          id: 130398,
+          name: 'Huyện Phù Yên',
+          latitude: '21.21412000',
+          longitude: '104.68993000',
+        ),
+        City(
+          id: 130416,
+          name: 'Huyện Quỳnh Nhai',
+          latitude: '21.77224000',
+          longitude: '103.64920000',
+        ),
+        City(
+          id: 130422,
+          name: 'Huyện Sông Mã',
+          latitude: '21.06971000',
+          longitude: '103.68727000',
+        ),
+        City(
+          id: 130440,
+          name: 'Huyện Thuận Châu',
+          latitude: '21.42319000',
+          longitude: '103.64408000',
+        ),
+        City(
+          id: 130512,
+          name: 'Huyện Yên Châu',
+          latitude: '21.00500000',
+          longitude: '104.33264000',
+        ),
+        City(
+          id: 130594,
+          name: 'Sơn La',
+          latitude: '21.32560000',
+          longitude: '103.91882000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3826,
+      name: 'Tây Ninh',
+      stateCode: '37',
+      cities: [
+        City(
+          id: 130239,
+          name: 'Huyện Bến Cầu',
+          latitude: '11.12889000',
+          longitude: '106.14296000',
+        ),
+        City(
+          id: 130282,
+          name: 'Huyện Dương Minh Châu',
+          latitude: '11.31833000',
+          longitude: '106.25697000',
+        ),
+        City(
+          id: 130294,
+          name: 'Huyện Gò Dầu',
+          latitude: '11.15737000',
+          longitude: '106.27307000',
+        ),
+        City(
+          id: 130306,
+          name: 'Huyện Hòa Thành',
+          latitude: '11.26706000',
+          longitude: '106.14486000',
+        ),
+        City(
+          id: 130480,
+          name: 'Huyện Tân Châu',
+          latitude: '11.58739000',
+          longitude: '106.28270000',
+        ),
+        City(
+          id: 130472,
+          name: 'Huyện Trảng Bàng',
+          latitude: '11.05720000',
+          longitude: '106.37539000',
+        ),
+        City(
+          id: 130581,
+          name: 'Phú Khương',
+          latitude: '11.28333000',
+          longitude: '106.13333000',
+        ),
+        City(
+          id: 130621,
+          name: 'Tây Ninh',
+          latitude: '11.31004000',
+          longitude: '106.09828000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3775,
+      name: 'Thái Bình',
+      stateCode: '20',
+      cities: [
+        City(
+          id: 130524,
+          name: 'Huyện Ðông Hưng',
+          latitude: '20.54388000',
+          longitude: '106.34090000',
+        ),
+        City(
+          id: 130309,
+          name: 'Huyện Hưng Hà',
+          latitude: '20.59464000',
+          longitude: '106.21230000',
+        ),
+        City(
+          id: 130331,
+          name: 'Huyện Kiến Xương',
+          latitude: '20.40081000',
+          longitude: '106.42032000',
+        ),
+        City(
+          id: 130417,
+          name: 'Huyện Quỳnh Phụ',
+          latitude: '20.65095000',
+          longitude: '106.36359000',
+        ),
+        City(
+          id: 130442,
+          name: 'Huyện Thái Thụy',
+          latitude: '20.53916000',
+          longitude: '106.51688000',
+        ),
+        City(
+          id: 130459,
+          name: 'Huyện Tiền Hải',
+          latitude: '20.38465000',
+          longitude: '106.52882000',
+        ),
+        City(
+          id: 130504,
+          name: 'Huyện Vũ Thư',
+          latitude: '20.43732000',
+          longitude: '106.26529000',
+        ),
+        City(
+          id: 130605,
+          name: 'Thái Bình',
+          latitude: '20.45000000',
+          longitude: '106.34002000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3807,
+      name: 'Thái Nguyên',
+      stateCode: '69',
+      cities: [
+        City(
+          id: 130606,
+          name: 'Thái Nguyên',
+          latitude: '21.59422000',
+          longitude: '105.84817000',
+        )
+      ],
+    ),
+    CountryState(
+      id: 3771,
+      name: 'Thanh Hóa',
+      stateCode: '21',
+      cities: [
+        City(
+          id: 130181,
+          name: 'Bỉm Sơn',
+          latitude: '20.07806000',
+          longitude: '105.86028000',
+        ),
+        City(
+          id: 130218,
+          name: 'Huyện Bá Thước',
+          latitude: '20.35767000',
+          longitude: '105.25301000',
+        ),
+        City(
+          id: 130276,
+          name: 'Huyện Cẩm Thủy',
+          latitude: '20.19586000',
+          longitude: '105.46817000',
+        ),
+        City(
+          id: 130533,
+          name: 'Huyện Đông Sơn',
+          latitude: '19.79742000',
+          longitude: '105.72465000',
+        ),
+        City(
+          id: 130301,
+          name: 'Huyện Hà Trung',
+          latitude: '20.02654000',
+          longitude: '105.81931000',
+        ),
+        City(
+          id: 130317,
+          name: 'Huyện Hậu Lộc',
+          latitude: '19.93337000',
+          longitude: '105.88894000',
+        ),
+        City(
+          id: 130341,
+          name: 'Huyện Lang Chánh',
+          latitude: '20.15926000',
+          longitude: '105.15071000',
+        ),
+        City(
+          id: 130364,
+          name: 'Huyện Mường Lát',
+          latitude: '20.52763000',
+          longitude: '104.62941000',
+        ),
+        City(
+          id: 130380,
+          name: 'Huyện Nga Sơn',
+          latitude: '20.01561000',
+          longitude: '105.98975000',
+        ),
+        City(
+          id: 130389,
+          name: 'Huyện Ngọc Lặc',
+          latitude: '20.06777000',
+          longitude: '105.37386000',
+        ),
+        City(
+          id: 130391,
+          name: 'Huyện Như Thanh',
+          latitude: '19.57798000',
+          longitude: '105.55616000',
+        ),
+        City(
+          id: 130392,
+          name: 'Huyện Như Xuân',
+          latitude: '19.62527000',
+          longitude: '105.38856000',
+        ),
+        City(
+          id: 130393,
+          name: 'Huyện Nông Cống',
+          latitude: '19.61376000',
+          longitude: '105.68279000',
+        ),
+        City(
+          id: 130404,
+          name: 'Huyện Quan Hóa',
+          latitude: '20.47565000',
+          longitude: '104.95335000',
+        ),
+        City(
+          id: 130405,
+          name: 'Huyện Quan Sơn',
+          latitude: '20.25758000',
+          longitude: '104.83416000',
+        ),
+        City(
+          id: 130409,
+          name: 'Huyện Quảng Xương',
+          latitude: '19.70252000',
+          longitude: '105.79298000',
+        ),
+        City(
+          id: 130439,
+          name: 'Huyện Thiệu Hóa',
+          latitude: '19.89713000',
+          longitude: '105.68144000',
+        ),
+        City(
+          id: 130451,
+          name: 'Huyện Thọ Xuân',
+          latitude: '19.93114000',
+          longitude: '105.48284000',
+        ),
+        City(
+          id: 130445,
+          name: 'Huyện Thường Xuân',
+          latitude: '19.93684000',
+          longitude: '105.24109000',
+        ),
+        City(
+          id: 130463,
+          name: 'Huyện Triệu Sơn',
+          latitude: '19.82578000',
+          longitude: '105.58293000',
+        ),
+        City(
+          id: 130501,
+          name: 'Huyện Vĩnh Lộc',
+          latitude: '20.03482000',
+          longitude: '105.65755000',
+        ),
+        City(
+          id: 130522,
+          name: 'Huyện Yên Định',
+          latitude: '19.98666000',
+          longitude: '105.61482000',
+        ),
+        City(
+          id: 130597,
+          name: 'Thanh Hóa',
+          latitude: '19.80000000',
+          longitude: '105.76667000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3798,
+      name: 'Thừa Thiên-Huế',
+      stateCode: '26',
+      cities: [
+        City(
+          id: 130554,
+          name: 'Huế',
+          latitude: '16.46190000',
+          longitude: '107.59546000',
+        ),
+        City(
+          id: 130207,
+          name: 'Huyện A Lưới',
+          latitude: '16.23422000',
+          longitude: '107.30650000',
+        ),
+        City(
+          id: 130379,
+          name: 'Huyện Nam Đông',
+          latitude: '16.12396000',
+          longitude: '107.69270000',
+        ),
+        City(
+          id: 130395,
+          name: 'Huyện Phong Điền',
+          latitude: '16.48769000',
+          longitude: '107.28889000',
+        ),
+        City(
+          id: 130399,
+          name: 'Huyện Phú Lộc',
+          latitude: '16.27066000',
+          longitude: '107.88545000',
+        ),
+        City(
+          id: 130402,
+          name: 'Huyện Phú Vang',
+          latitude: '16.47007000',
+          longitude: '107.71458000',
+        ),
+        City(
+          id: 130410,
+          name: 'Huyện Quảng Ðiền',
+          latitude: '16.57941000',
+          longitude: '107.49370000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3781,
+      name: 'Tiền Giang',
+      stateCode: '46',
+      cities: [
+        City(
+          id: 130266,
+          name: 'Huyện Cái Bè',
+          latitude: '10.38824000',
+          longitude: '105.94620000',
+        ),
+        City(
+          id: 130241,
+          name: 'Huyện Cai Lậy',
+          latitude: '10.38943000',
+          longitude: '106.06774000',
+        ),
+        City(
+          id: 130252,
+          name: 'Huyện Châu Thành',
+          latitude: '10.38600000',
+          longitude: '106.27311000',
+        ),
+        City(
+          id: 130260,
+          name: 'Huyện Chợ Gạo',
+          latitude: '10.37373000',
+          longitude: '106.44341000',
+        ),
+        City(
+          id: 130293,
+          name: 'Huyện Gò Công Đông',
+          latitude: '10.36784000',
+          longitude: '106.74592000',
+        ),
+        City(
+          id: 130292,
+          name: 'Huyện Gò Công Tây',
+          latitude: '10.34527000',
+          longitude: '106.59851000',
+        ),
+        City(
+          id: 130486,
+          name: 'Huyện Tân Phước',
+          latitude: '10.51489000',
+          longitude: '106.23312000',
+        ),
+        City(
+          id: 130574,
+          name: 'Mỹ Tho',
+          latitude: '10.36004000',
+          longitude: '106.35996000',
+        ),
+        City(
+          id: 130599,
+          name: 'Thành Phố Mỹ Tho',
+          latitude: '10.36221000',
+          longitude: '106.36824000',
+        ),
+        City(
+          id: 130610,
+          name: 'Thị Xã Gò Công',
+          latitude: '10.40005000',
+          longitude: '106.65847000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3805,
+      name: 'Trà Vinh',
+      stateCode: '51',
+      cities: [
+        City(
+          id: 130265,
+          name: 'Huyện Càng Long',
+          latitude: '9.95883000',
+          longitude: '106.21395000',
+        ),
+        City(
+          id: 130272,
+          name: 'Huyện Cầu Kè',
+          latitude: '9.86738000',
+          longitude: '106.07916000',
+        ),
+        City(
+          id: 130273,
+          name: 'Huyện Cầu Ngang',
+          latitude: '9.77186000',
+          longitude: '106.43654000',
+        ),
+        City(
+          id: 130460,
+          name: 'Huyện Tiểu Cần',
+          latitude: '9.80350000',
+          longitude: '106.20594000',
+        ),
+        City(
+          id: 130465,
+          name: 'Huyện Trà Cú',
+          latitude: '9.69706000',
+          longitude: '106.29423000',
+        ),
+        City(
+          id: 130617,
+          name: 'Trà Vinh',
+          latitude: '9.94719000',
+          longitude: '106.34225000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3795,
+      name: 'Tuyên Quang',
+      stateCode: '07',
+      cities: [
+        City(
+          id: 130247,
+          name: 'Huyện Chiêm Hóa',
+          latitude: '22.17895000',
+          longitude: '105.27671000',
+        ),
+        City(
+          id: 130305,
+          name: 'Huyện Hàm Yên',
+          latitude: '22.10935000',
+          longitude: '105.01630000',
+        ),
+        City(
+          id: 130345,
+          name: 'Huyện Lâm Bình',
+          latitude: '22.46411000',
+          longitude: '105.21903000',
+        ),
+        City(
+          id: 130373,
+          name: 'Huyện Na Hang',
+          latitude: '22.47522000',
+          longitude: '105.48380000',
+        ),
+        City(
+          id: 130423,
+          name: 'Huyện Sơn Dương',
+          latitude: '21.63623000',
+          longitude: '105.38901000',
+        ),
+        City(
+          id: 130519,
+          name: 'Huyện Yên Sơn',
+          latitude: '21.88363000',
+          longitude: '105.27656000',
+        ),
+        City(
+          id: 130619,
+          name: 'Tuyên Quang',
+          latitude: '21.82356000',
+          longitude: '105.21424000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3790,
+      name: 'Vĩnh Long',
+      stateCode: '49',
+      cities: [
+        City(
+          id: 130342,
+          name: 'Huyện Long Hồ',
+          latitude: '10.21640000',
+          longitude: '105.98483000',
+        ),
+        City(
+          id: 130357,
+          name: 'Huyện Mang Thít',
+          latitude: '10.18731000',
+          longitude: '106.07472000',
+        ),
+        City(
+          id: 130428,
+          name: 'Huyện Tam Bình',
+          latitude: '10.08127000',
+          longitude: '105.95352000',
+        ),
+        City(
+          id: 130468,
+          name: 'Huyện Trà Ôn',
+          latitude: '9.97522000',
+          longitude: '106.00957000',
+        ),
+        City(
+          id: 130505,
+          name: 'Huyện Vũng Liêm',
+          latitude: '10.08717000',
+          longitude: '106.16038000',
+        ),
+        City(
+          id: 130624,
+          name: 'Vĩnh Long',
+          latitude: '10.25369000',
+          longitude: '105.97220000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3774,
+      name: 'Vĩnh Phúc',
+      stateCode: '70',
+      cities: [
+        City(
+          id: 130225,
+          name: 'Huyện Bình Xuyên',
+          latitude: '21.30561000',
+          longitude: '105.66225000',
+        ),
+        City(
+          id: 130429,
+          name: 'Huyện Tam Dương',
+          latitude: '21.36189000',
+          longitude: '105.55690000',
+        ),
+        City(
+          id: 130432,
+          name: 'Huyện Tam Đảo',
+          latitude: '21.45690000',
+          longitude: '105.59460000',
+        ),
+        City(
+          id: 130514,
+          name: 'Huyện Yên Lạc',
+          latitude: '21.21845000',
+          longitude: '105.57586000',
+        ),
+        City(
+          id: 130625,
+          name: 'Vĩnh Yên',
+          latitude: '21.30891000',
+          longitude: '105.60489000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3784,
+      name: 'Yên Bái',
+      stateCode: '06',
+      cities: [
+        City(
+          id: 130355,
+          name: 'Huyện Lục Yên',
+          latitude: '22.10235000',
+          longitude: '104.72538000',
+        ),
+        City(
+          id: 130360,
+          name: 'Huyện Mù Cang Chải',
+          latitude: '21.78815000',
+          longitude: '104.11998000',
+        ),
+        City(
+          id: 130470,
+          name: 'Huyện Trạm Tấu',
+          latitude: '21.48553000',
+          longitude: '104.42756000',
+        ),
+        City(
+          id: 130473,
+          name: 'Huyện Trấn Yên',
+          latitude: '21.66586000',
+          longitude: '104.79702000',
+        ),
+        City(
+          id: 130496,
+          name: 'Huyện Văn Chấn',
+          latitude: '21.55722000',
+          longitude: '104.64038000',
+        ),
+        City(
+          id: 130497,
+          name: 'Huyện Văn Yên',
+          latitude: '21.90022000',
+          longitude: '104.56669000',
+        ),
+        City(
+          id: 130628,
+          name: 'Yên Bái',
+          latitude: '21.72288000',
+          longitude: '104.91130000',
+        ),
+      ],
+    ),
+  ],
+);

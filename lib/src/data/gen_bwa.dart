@@ -3,421 +3,548 @@
 import 'package:country_state_city/country_state_city.dart';
 
 const bwa = Country(
-    id: 29,
-    name: 'Botswana',
-    iso3: 'BWA',
-    iso2: 'BW',
-    phoneCode: '267',
-    capital: 'Gaborone',
-    currency: 'BWP',
-    currencySymbol: r'P',
-    tld: '.bw',
-    native: 'Botswana',
-    region: 'Africa',
-    subregion: 'Southern Africa',
-    timezones: [
-      Timezone(
-          zoneName: 'Africa/Gaborone',
-          gmtOffset: 7200,
-          gmtOffsetName: 'UTC+02:00',
-          abbreviation: 'CAT',
-          tzName: 'Central Africa Time')
-    ],
-    emoji: '🇧🇼',
-    emojiU: 'U+1F1E7 U+1F1FC',
-    states: [
-      State(id: 3067, name: 'Central District', stateCode: 'CE', cities: [
-        City(
-            id: 15738,
-            name: 'Gobojango',
-            latitude: '-21.83270000',
-            longitude: '28.72882000'),
-        City(
-            id: 15739,
-            name: 'Gweta',
-            latitude: '-20.18333000',
-            longitude: '25.23333000'),
-        City(
-            id: 15742,
-            name: 'Kalamare',
-            latitude: '-22.93369000',
-            longitude: '26.57032000'),
-        City(
-            id: 15750,
-            name: 'Letlhakane',
-            latitude: '-21.41494000',
-            longitude: '25.59263000'),
-        City(
-            id: 15752,
-            name: 'Letsheng',
-            latitude: '-22.66384000',
-            longitude: '27.22390000'),
-        City(
-            id: 15753,
-            name: 'Maapi',
-            latitude: '-22.75785000',
-            longitude: '27.35001000'),
-        City(
-            id: 15754,
-            name: 'Machaneng',
-            latitude: '-23.18621000',
-            longitude: '27.48856000'),
-        City(
-            id: 15755,
-            name: 'Mahalapye',
-            latitude: '-23.10407000',
-            longitude: '26.81421000'),
-        City(
-            id: 15757,
-            name: 'Makobeng',
-            latitude: '-22.99637000',
-            longitude: '27.66766000'),
-        City(
-            id: 15758,
-            name: 'Makwata',
-            latitude: '-23.28333000',
-            longitude: '27.30000000'),
-        City(
-            id: 15761,
-            name: 'Mathakola',
-            latitude: '-22.72125000',
-            longitude: '27.31057000'),
-        City(
-            id: 15762,
-            name: 'Mathambgwane',
-            latitude: '-20.99075000',
-            longitude: '27.33158000'),
-        City(
-            id: 15763,
-            name: 'Mathathane',
-            latitude: '-22.26875000',
-            longitude: '28.74946000'),
-        City(
-            id: 15765,
-            name: 'Maunatlala',
-            latitude: '-22.59701000',
-            longitude: '27.63006000'),
-        City(
-            id: 15770,
-            name: 'Mogapi',
-            latitude: '-22.32301000',
-            longitude: '27.83492000'),
-        City(
-            id: 15772,
-            name: 'Moijabana',
-            latitude: '-22.43333000',
-            longitude: '26.41667000'),
-        City(
-            id: 15774,
-            name: 'Mookane',
-            latitude: '-23.68805000',
-            longitude: '26.65948000'),
-        City(
-            id: 15775,
-            name: 'Mopipi',
-            latitude: '-21.18333000',
-            longitude: '24.88333000'),
-        City(
-            id: 15776,
-            name: 'Mosetse',
-            latitude: '-20.75000000',
-            longitude: '26.65000000'),
-        City(
-            id: 15778,
-            name: 'Nata',
-            latitude: '-20.21667000',
-            longitude: '26.18333000'),
-        City(
-            id: 15781,
-            name: 'Orapa',
-            latitude: '-21.31150000',
-            longitude: '25.37642000'),
-        City(
-            id: 15783,
-            name: 'Palapye',
-            latitude: '-22.54605000',
-            longitude: '27.12507000'),
-        City(
-            id: 15786,
-            name: 'Pilikwe',
-            latitude: '-22.79904000',
-            longitude: '27.19376000'),
-        City(
-            id: 15787,
-            name: 'Rakops',
-            latitude: '-21.02257000',
-            longitude: '24.36052000'),
-        City(
-            id: 15788,
-            name: 'Ramokgonami',
-            latitude: '-22.86450000',
-            longitude: '27.42391000'),
-        City(
-            id: 15790,
-            name: 'Ratholo',
-            latitude: '-22.72454000',
-            longitude: '27.57199000'),
-        City(
-            id: 15792,
-            name: 'Sefophe',
-            latitude: '-22.18333000',
-            longitude: '27.96667000'),
-        City(
-            id: 15795,
-            name: 'Serowe',
-            latitude: '-22.38754000',
-            longitude: '26.71077000'),
-        City(
-            id: 15797,
-            name: 'Sua',
-            latitude: '-20.05000000',
-            longitude: '26.20000000'),
-        City(
-            id: 15798,
-            name: 'Tamasane',
-            latitude: '-22.41840000',
-            longitude: '27.40127000'),
-        City(
-            id: 15800,
-            name: 'Tobane',
-            latitude: '-21.95000000',
-            longitude: '27.90000000'),
-        City(
-            id: 15801,
-            name: 'Tonota',
-            latitude: '-21.44236000',
-            longitude: '27.46153000')
-      ]),
-      State(id: 3061, name: 'Ghanzi District', stateCode: 'GH', cities: [
-        City(
-            id: 15731,
-            name: 'Dekar',
-            latitude: '-21.53333000',
-            longitude: '21.93333000'),
-        City(
-            id: 15737,
-            name: 'Ghanzi',
-            latitude: '-21.69785000',
-            longitude: '21.64581000')
-      ]),
-      State(id: 3066, name: 'Kgalagadi District', stateCode: 'KG', cities: [
-        City(
-            id: 15740,
-            name: 'Hukuntsi',
-            latitude: '-23.99880000',
-            longitude: '21.77962000'),
-        City(
-            id: 15743,
-            name: 'Kang',
-            latitude: '-23.67518000',
-            longitude: '22.78762000'),
-        City(
-            id: 15748,
-            name: 'Lehututu',
-            latitude: '-23.96667000',
-            longitude: '21.86667000'),
-        City(
-            id: 15759,
-            name: 'Manyana',
-            latitude: '-23.40000000',
-            longitude: '21.71667000'),
-        City(
-            id: 15802,
-            name: 'Tshabong',
-            latitude: '-26.05000000',
-            longitude: '22.45000000'),
-        City(
-            id: 15803,
-            name: 'Werda',
-            latitude: '-25.26667000',
-            longitude: '23.28333000')
-      ]),
-      State(id: 3062, name: 'Kgatleng District', stateCode: 'KL', cities: [
-        City(
-            id: 15729,
-            name: 'Bokaa',
-            latitude: '-24.45000000',
-            longitude: '26.01667000'),
-        City(
-            id: 15767,
-            name: 'Mmathubudukwane',
-            latitude: '-24.60000000',
-            longitude: '26.43333000'),
-        City(
-            id: 15769,
-            name: 'Mochudi',
-            latitude: '-24.41667000',
-            longitude: '26.15000000'),
-        City(
-            id: 15785,
-            name: 'Pilane',
-            latitude: '-24.45000000',
-            longitude: '26.13333000')
-      ]),
-      State(id: 3069, name: 'Kweneng District', stateCode: 'KW', cities: [
-        City(
-            id: 15730,
-            name: 'Botlhapatlou',
-            latitude: '-24.02591000',
-            longitude: '25.48976000'),
-        City(
-            id: 15733,
-            name: 'Dutlwe',
-            latitude: '-23.98333000',
-            longitude: '23.90000000'),
-        City(
-            id: 15734,
-            name: 'Gabane',
-            latitude: '-24.66667000',
-            longitude: '25.78222000'),
-        City(
-            id: 15736,
-            name: 'Gaphatshwe',
-            latitude: '-24.57389000',
-            longitude: '25.83417000'),
-        City(
-            id: 15746,
-            name: 'Khudumelapye',
-            latitude: '-23.88333000',
-            longitude: '24.75000000'),
-        City(
-            id: 15749,
-            name: 'Lenchwe Le Tau',
-            latitude: '-24.38333000',
-            longitude: '25.85000000'),
-        City(
-            id: 15751,
-            name: 'Letlhakeng',
-            latitude: '-24.09442000',
-            longitude: '25.02977000'),
-        City(
-            id: 15766,
-            name: 'Metsemotlhaba',
-            latitude: '-24.55139000',
-            longitude: '25.80306000'),
-        City(
-            id: 15768,
-            name: 'Mmopone',
-            latitude: '-24.56694000',
-            longitude: '25.87417000'),
-        City(
-            id: 15771,
-            name: 'Mogoditshane',
-            latitude: '-24.62694000',
-            longitude: '25.86556000'),
-        City(
-            id: 15773,
-            name: 'Molepolole',
-            latitude: '-24.40659000',
-            longitude: '25.49508000'),
-        City(
-            id: 15779,
-            name: 'Nkoyaphiri',
-            latitude: '-24.63222000',
-            longitude: '25.83139000'),
-        City(
-            id: 15799,
-            name: 'Thamaga',
-            latitude: '-24.67014000',
-            longitude: '25.53975000')
-      ]),
-      State(id: 3060, name: 'Ngamiland', stateCode: 'NG', cities: []),
-      State(id: 3068, name: 'North-East District', stateCode: 'NE', cities: [
-        City(
-            id: 15732,
-            name: 'Dukwe',
-            latitude: '-20.58333000',
-            longitude: '26.41667000'),
-        City(
-            id: 15756,
-            name: 'Makaleng',
-            latitude: '-20.90000000',
-            longitude: '27.28333000'),
-        City(
-            id: 15760,
-            name: 'Masunga',
-            latitude: '-20.62455000',
-            longitude: '27.44875000'),
-        City(
-            id: 15791,
-            name: 'Sebina',
-            latitude: '-20.86667000',
-            longitude: '27.25000000')
-      ]),
-      State(id: 3065, name: 'North-West District', stateCode: 'NW', cities: [
-        City(
-            id: 15764,
-            name: 'Maun',
-            latitude: '-19.98333000',
-            longitude: '23.41667000'),
-        City(
-            id: 15780,
-            name: 'Nokaneng',
-            latitude: '-19.66667000',
-            longitude: '22.26667000'),
-        City(
-            id: 15784,
-            name: 'Pandamatenga',
-            latitude: '-18.52779000',
-            longitude: '25.62698000'),
-        City(
-            id: 15793,
-            name: 'Sehithwa',
-            latitude: '-20.46667000',
-            longitude: '22.71667000'),
-        City(
-            id: 15796,
-            name: 'Shakawe',
-            latitude: '-18.36536000',
-            longitude: '21.84219000')
-      ]),
-      State(id: 3064, name: 'South-East District', stateCode: 'SE', cities: [
-        City(
-            id: 15735,
-            name: 'Gaborone',
-            latitude: '-24.76234000',
-            longitude: '25.79950000'),
-        City(
-            id: 15741,
-            name: 'Janeng',
-            latitude: '-25.41667000',
-            longitude: '25.55000000'),
-        City(
-            id: 15747,
-            name: 'Kopong',
-            latitude: '-24.48333000',
-            longitude: '25.88333000'),
-        City(
-            id: 15782,
-            name: 'Otse',
-            latitude: '-25.01667000',
-            longitude: '25.73333000'),
-        City(
-            id: 15789,
-            name: 'Ramotswa',
-            latitude: '-24.87158000',
-            longitude: '25.86989000')
-      ]),
-      State(id: 3063, name: 'Southern District', stateCode: 'SO', cities: [
-        City(
-            id: 15744,
-            name: 'Kanye',
-            latitude: '-24.96675000',
-            longitude: '25.33273000'),
-        City(
-            id: 15745,
-            name: 'Khakhea',
-            latitude: '-24.68954000',
-            longitude: '23.49403000'),
-        City(
-            id: 15777,
-            name: 'Mosopa',
-            latitude: '-24.77180000',
-            longitude: '25.42156000'),
-        City(
-            id: 15794,
-            name: 'Sekoma',
-            latitude: '-24.40000000',
-            longitude: '23.88333000')
-      ])
-    ]);
+  id: 29,
+  name: 'Botswana',
+  iso3: 'BWA',
+  iso2: 'BW',
+  phoneCode: '267',
+  capital: 'Gaborone',
+  currency: 'BWP',
+  currencySymbol: r'P',
+  tld: '.bw',
+  native: 'Botswana',
+  region: 'Africa',
+  subregion: 'Southern Africa',
+  timezones: [
+    Timezone(
+      zoneName: 'Africa/Gaborone',
+      gmtOffset: 7200,
+      gmtOffsetName: 'UTC+02:00',
+      abbreviation: 'CAT',
+      tzName: 'Central Africa Time',
+    )
+  ],
+  emoji: '🇧🇼',
+  emojiU: 'U+1F1E7 U+1F1FC',
+  states: [
+    CountryState(
+      id: 3067,
+      name: 'Central District',
+      stateCode: 'CE',
+      cities: [
+        City(
+          id: 15738,
+          name: 'Gobojango',
+          latitude: '-21.83270000',
+          longitude: '28.72882000',
+        ),
+        City(
+          id: 15739,
+          name: 'Gweta',
+          latitude: '-20.18333000',
+          longitude: '25.23333000',
+        ),
+        City(
+          id: 15742,
+          name: 'Kalamare',
+          latitude: '-22.93369000',
+          longitude: '26.57032000',
+        ),
+        City(
+          id: 15750,
+          name: 'Letlhakane',
+          latitude: '-21.41494000',
+          longitude: '25.59263000',
+        ),
+        City(
+          id: 15752,
+          name: 'Letsheng',
+          latitude: '-22.66384000',
+          longitude: '27.22390000',
+        ),
+        City(
+          id: 15753,
+          name: 'Maapi',
+          latitude: '-22.75785000',
+          longitude: '27.35001000',
+        ),
+        City(
+          id: 15754,
+          name: 'Machaneng',
+          latitude: '-23.18621000',
+          longitude: '27.48856000',
+        ),
+        City(
+          id: 15755,
+          name: 'Mahalapye',
+          latitude: '-23.10407000',
+          longitude: '26.81421000',
+        ),
+        City(
+          id: 15757,
+          name: 'Makobeng',
+          latitude: '-22.99637000',
+          longitude: '27.66766000',
+        ),
+        City(
+          id: 15758,
+          name: 'Makwata',
+          latitude: '-23.28333000',
+          longitude: '27.30000000',
+        ),
+        City(
+          id: 15761,
+          name: 'Mathakola',
+          latitude: '-22.72125000',
+          longitude: '27.31057000',
+        ),
+        City(
+          id: 15762,
+          name: 'Mathambgwane',
+          latitude: '-20.99075000',
+          longitude: '27.33158000',
+        ),
+        City(
+          id: 15763,
+          name: 'Mathathane',
+          latitude: '-22.26875000',
+          longitude: '28.74946000',
+        ),
+        City(
+          id: 15765,
+          name: 'Maunatlala',
+          latitude: '-22.59701000',
+          longitude: '27.63006000',
+        ),
+        City(
+          id: 15770,
+          name: 'Mogapi',
+          latitude: '-22.32301000',
+          longitude: '27.83492000',
+        ),
+        City(
+          id: 15772,
+          name: 'Moijabana',
+          latitude: '-22.43333000',
+          longitude: '26.41667000',
+        ),
+        City(
+          id: 15774,
+          name: 'Mookane',
+          latitude: '-23.68805000',
+          longitude: '26.65948000',
+        ),
+        City(
+          id: 15775,
+          name: 'Mopipi',
+          latitude: '-21.18333000',
+          longitude: '24.88333000',
+        ),
+        City(
+          id: 15776,
+          name: 'Mosetse',
+          latitude: '-20.75000000',
+          longitude: '26.65000000',
+        ),
+        City(
+          id: 15778,
+          name: 'Nata',
+          latitude: '-20.21667000',
+          longitude: '26.18333000',
+        ),
+        City(
+          id: 15781,
+          name: 'Orapa',
+          latitude: '-21.31150000',
+          longitude: '25.37642000',
+        ),
+        City(
+          id: 15783,
+          name: 'Palapye',
+          latitude: '-22.54605000',
+          longitude: '27.12507000',
+        ),
+        City(
+          id: 15786,
+          name: 'Pilikwe',
+          latitude: '-22.79904000',
+          longitude: '27.19376000',
+        ),
+        City(
+          id: 15787,
+          name: 'Rakops',
+          latitude: '-21.02257000',
+          longitude: '24.36052000',
+        ),
+        City(
+          id: 15788,
+          name: 'Ramokgonami',
+          latitude: '-22.86450000',
+          longitude: '27.42391000',
+        ),
+        City(
+          id: 15790,
+          name: 'Ratholo',
+          latitude: '-22.72454000',
+          longitude: '27.57199000',
+        ),
+        City(
+          id: 15792,
+          name: 'Sefophe',
+          latitude: '-22.18333000',
+          longitude: '27.96667000',
+        ),
+        City(
+          id: 15795,
+          name: 'Serowe',
+          latitude: '-22.38754000',
+          longitude: '26.71077000',
+        ),
+        City(
+          id: 15797,
+          name: 'Sua',
+          latitude: '-20.05000000',
+          longitude: '26.20000000',
+        ),
+        City(
+          id: 15798,
+          name: 'Tamasane',
+          latitude: '-22.41840000',
+          longitude: '27.40127000',
+        ),
+        City(
+          id: 15800,
+          name: 'Tobane',
+          latitude: '-21.95000000',
+          longitude: '27.90000000',
+        ),
+        City(
+          id: 15801,
+          name: 'Tonota',
+          latitude: '-21.44236000',
+          longitude: '27.46153000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3061,
+      name: 'Ghanzi District',
+      stateCode: 'GH',
+      cities: [
+        City(
+          id: 15731,
+          name: 'Dekar',
+          latitude: '-21.53333000',
+          longitude: '21.93333000',
+        ),
+        City(
+          id: 15737,
+          name: 'Ghanzi',
+          latitude: '-21.69785000',
+          longitude: '21.64581000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3066,
+      name: 'Kgalagadi District',
+      stateCode: 'KG',
+      cities: [
+        City(
+          id: 15740,
+          name: 'Hukuntsi',
+          latitude: '-23.99880000',
+          longitude: '21.77962000',
+        ),
+        City(
+          id: 15743,
+          name: 'Kang',
+          latitude: '-23.67518000',
+          longitude: '22.78762000',
+        ),
+        City(
+          id: 15748,
+          name: 'Lehututu',
+          latitude: '-23.96667000',
+          longitude: '21.86667000',
+        ),
+        City(
+          id: 15759,
+          name: 'Manyana',
+          latitude: '-23.40000000',
+          longitude: '21.71667000',
+        ),
+        City(
+          id: 15802,
+          name: 'Tshabong',
+          latitude: '-26.05000000',
+          longitude: '22.45000000',
+        ),
+        City(
+          id: 15803,
+          name: 'Werda',
+          latitude: '-25.26667000',
+          longitude: '23.28333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3062,
+      name: 'Kgatleng District',
+      stateCode: 'KL',
+      cities: [
+        City(
+          id: 15729,
+          name: 'Bokaa',
+          latitude: '-24.45000000',
+          longitude: '26.01667000',
+        ),
+        City(
+          id: 15767,
+          name: 'Mmathubudukwane',
+          latitude: '-24.60000000',
+          longitude: '26.43333000',
+        ),
+        City(
+          id: 15769,
+          name: 'Mochudi',
+          latitude: '-24.41667000',
+          longitude: '26.15000000',
+        ),
+        City(
+          id: 15785,
+          name: 'Pilane',
+          latitude: '-24.45000000',
+          longitude: '26.13333000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3069,
+      name: 'Kweneng District',
+      stateCode: 'KW',
+      cities: [
+        City(
+          id: 15730,
+          name: 'Botlhapatlou',
+          latitude: '-24.02591000',
+          longitude: '25.48976000',
+        ),
+        City(
+          id: 15733,
+          name: 'Dutlwe',
+          latitude: '-23.98333000',
+          longitude: '23.90000000',
+        ),
+        City(
+          id: 15734,
+          name: 'Gabane',
+          latitude: '-24.66667000',
+          longitude: '25.78222000',
+        ),
+        City(
+          id: 15736,
+          name: 'Gaphatshwe',
+          latitude: '-24.57389000',
+          longitude: '25.83417000',
+        ),
+        City(
+          id: 15746,
+          name: 'Khudumelapye',
+          latitude: '-23.88333000',
+          longitude: '24.75000000',
+        ),
+        City(
+          id: 15749,
+          name: 'Lenchwe Le Tau',
+          latitude: '-24.38333000',
+          longitude: '25.85000000',
+        ),
+        City(
+          id: 15751,
+          name: 'Letlhakeng',
+          latitude: '-24.09442000',
+          longitude: '25.02977000',
+        ),
+        City(
+          id: 15766,
+          name: 'Metsemotlhaba',
+          latitude: '-24.55139000',
+          longitude: '25.80306000',
+        ),
+        City(
+          id: 15768,
+          name: 'Mmopone',
+          latitude: '-24.56694000',
+          longitude: '25.87417000',
+        ),
+        City(
+          id: 15771,
+          name: 'Mogoditshane',
+          latitude: '-24.62694000',
+          longitude: '25.86556000',
+        ),
+        City(
+          id: 15773,
+          name: 'Molepolole',
+          latitude: '-24.40659000',
+          longitude: '25.49508000',
+        ),
+        City(
+          id: 15779,
+          name: 'Nkoyaphiri',
+          latitude: '-24.63222000',
+          longitude: '25.83139000',
+        ),
+        City(
+          id: 15799,
+          name: 'Thamaga',
+          latitude: '-24.67014000',
+          longitude: '25.53975000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3060,
+      name: 'Ngamiland',
+      stateCode: 'NG',
+      cities: [],
+    ),
+    CountryState(
+      id: 3068,
+      name: 'North-East District',
+      stateCode: 'NE',
+      cities: [
+        City(
+          id: 15732,
+          name: 'Dukwe',
+          latitude: '-20.58333000',
+          longitude: '26.41667000',
+        ),
+        City(
+          id: 15756,
+          name: 'Makaleng',
+          latitude: '-20.90000000',
+          longitude: '27.28333000',
+        ),
+        City(
+          id: 15760,
+          name: 'Masunga',
+          latitude: '-20.62455000',
+          longitude: '27.44875000',
+        ),
+        City(
+          id: 15791,
+          name: 'Sebina',
+          latitude: '-20.86667000',
+          longitude: '27.25000000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3065,
+      name: 'North-West District',
+      stateCode: 'NW',
+      cities: [
+        City(
+          id: 15764,
+          name: 'Maun',
+          latitude: '-19.98333000',
+          longitude: '23.41667000',
+        ),
+        City(
+          id: 15780,
+          name: 'Nokaneng',
+          latitude: '-19.66667000',
+          longitude: '22.26667000',
+        ),
+        City(
+          id: 15784,
+          name: 'Pandamatenga',
+          latitude: '-18.52779000',
+          longitude: '25.62698000',
+        ),
+        City(
+          id: 15793,
+          name: 'Sehithwa',
+          latitude: '-20.46667000',
+          longitude: '22.71667000',
+        ),
+        City(
+          id: 15796,
+          name: 'Shakawe',
+          latitude: '-18.36536000',
+          longitude: '21.84219000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3064,
+      name: 'South-East District',
+      stateCode: 'SE',
+      cities: [
+        City(
+          id: 15735,
+          name: 'Gaborone',
+          latitude: '-24.76234000',
+          longitude: '25.79950000',
+        ),
+        City(
+          id: 15741,
+          name: 'Janeng',
+          latitude: '-25.41667000',
+          longitude: '25.55000000',
+        ),
+        City(
+          id: 15747,
+          name: 'Kopong',
+          latitude: '-24.48333000',
+          longitude: '25.88333000',
+        ),
+        City(
+          id: 15782,
+          name: 'Otse',
+          latitude: '-25.01667000',
+          longitude: '25.73333000',
+        ),
+        City(
+          id: 15789,
+          name: 'Ramotswa',
+          latitude: '-24.87158000',
+          longitude: '25.86989000',
+        ),
+      ],
+    ),
+    CountryState(
+      id: 3063,
+      name: 'Southern District',
+      stateCode: 'SO',
+      cities: [
+        City(
+          id: 15744,
+          name: 'Kanye',
+          latitude: '-24.96675000',
+          longitude: '25.33273000',
+        ),
+        City(
+          id: 15745,
+          name: 'Khakhea',
+          latitude: '-24.68954000',
+          longitude: '23.49403000',
+        ),
+        City(
+          id: 15777,
+          name: 'Mosopa',
+          latitude: '-24.77180000',
+          longitude: '25.42156000',
+        ),
+        City(
+          id: 15794,
+          name: 'Sekoma',
+          latitude: '-24.40000000',
+          longitude: '23.88333000',
+        ),
+      ],
+    ),
+  ],
+);
